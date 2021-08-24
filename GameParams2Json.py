@@ -50,19 +50,22 @@ def write_entities(data):
     data_filtered = {}
 
     for idx, item in enumerate(_value):
-        species = item.typeinfo.species if item.typeinfo.species else _key
+        try:
+            group_by = item.typeinfo.nation if item.typeinfo.nation else "no_nation"
+        except AttributeError:
+            group_by = item.typeinfo.species if item.typeinfo.species else _key
 
         filtered_item = get_filtered(copy.copy(item))
 
-        if species not in data:
-            data[species] = [item]
+        if group_by not in data:
+            data[group_by] = [item]
         else:
-            data[species].append(item)
+            data[group_by].append(item)
 
-        if species not in data_filtered:
-            data_filtered[species] = [filtered_item]
+        if group_by not in data_filtered:
+            data_filtered[group_by] = [filtered_item]
         else:
-            data_filtered[species].append(filtered_item)
+            data_filtered[group_by].append(filtered_item)
 
     for k, v in data.items():
         with open(os.path.join(_ent_dir, f"{k}.json"), "w") as ff:
