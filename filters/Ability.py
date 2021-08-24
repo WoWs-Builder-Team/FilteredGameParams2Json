@@ -24,8 +24,10 @@ class Ability:
 
     def get_filtered(self):
         consumable_keys = self._get_consumables()
+        variants = {comp: self._data.__getattribute__(comp) for comp in consumable_keys}
+        self._data.__setattr__("variants", variants)
         self._filter_consumables(consumable_keys)
-        self._delete_attributes(self._data, COMMON_KEYS + consumable_keys)
+        self._delete_attributes(self._data, COMMON_KEYS + ["variants"])
         return self._data
 
     @staticmethod
