@@ -75,24 +75,6 @@ def write_entities(data):
         with open(os.path.join(_ent_dir, f"filtered_{k}.json"), "w") as ff:
             json.dump(v, ff, indent=1, cls=GPEncode, sort_keys=True)
 
-    # _data = {}
-    #
-    # for _d in _value:
-    #     species = _d.typeinfo.species if _d.typeinfo.species else _key
-    #     if species not in _data:
-    #         _data[species] = [_d]
-    #     else:
-    #         _data[species].append(_d)
-    #
-    # for k, v in _data.items():
-    #     with open(os.path.join(_ent_dir, f"{k}.json"), "w") as ff:
-    #         json.dump(v, ff, indent=1, cls=GPEncode, sort_keys=True)
-
-    # for item in _value:
-    #     filtered = Unit(item).get_filtered()
-    #     with open(os.path.join(_ent_dir, f"f_{item.name}.json"), "w") as ff:
-    #         json.dump(filtered, ff, cls=GPEncode, indent=1, sort_keys=True)
-
 
 if __name__ == '__main__':
     gp_file_path = os.path.join(__location__, 'GameParams.data')
