@@ -1,0 +1,7759 @@
+[
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 4100.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.23,
+  "damage": 700.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4291707728,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PFPD003",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/france/projectile/depthcharge/FPD004_Depth_charge_200kg/FPD004_Depth_charge_200kg.model",
+  "name": "PFPD003_200kg",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.68,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "France",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.55,
+  "visibilityFactor": 1.5,
+  "volume": 9.78,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 1700.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.1,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4291707088,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PZPD003",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/panasia/projectile/depthcharge/ZPD003_Depth_Charge_BM1/ZPD003_Depth_Charge_BM1.model",
+  "name": "PZPD003_Depth_Charge_BM1",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.15,
+  "visibilityFactor": 1.5,
+  "volume": 2.4,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 3300.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.19,
+  "damage": 600.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4292756304,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PFPD002",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/france/projectile/depthcharge/FPD003_Depth_Charge/FPD003_Depth_Charge.model",
+  "name": "PFPD002_100kg",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.17,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "France",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.36,
+  "visibilityFactor": 1.5,
+  "volume": 5.88,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2300.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.13,
+  "damage": 400.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4293804784,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PIPD001",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/italy/projectile/depthcharge/IPD001_Depth_Charge/IPD001_Depth_Charge.model",
+  "name": "PIPD001_BTG_MONC_50",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.65,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Italy",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.17,
+  "visibilityFactor": 1.5,
+  "volume": 2.76,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 1500,
+  "alphaDamage": 3600.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.2,
+  "damage": 600.0,
+  "depthSplashRadius": 20,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4289610736,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "Destroyer",
+   "Cruiser",
+   "Auxiliary",
+   "AirCarrier",
+   "Battleship"
+  ],
+  "index": "PAPD005",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/usa/projectile/depthcharge/APD003_Depth_Charge/APD003_Depth_Charge.model",
+  "name": "PAPD005_ships_bomb",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 0.5,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 23,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "timers": [
+   [
+    0.2,
+    20
+   ],
+   [
+    0.5,
+    26
+   ],
+   [
+    0.3,
+    30
+   ]
+  ],
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "USA",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.43,
+  "visibilityFactor": 1.5,
+  "volume": 7.58,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 3000.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.17,
+  "damage": 500.0,
+  "depthSplashRadius": 8,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.5,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4189995856,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PFPD100",
+  "maxDepth": -80,
+  "model": "content/gameplay/uk/projectile/depthcharge/BPD006_Depth_Charge_250lb_MkVIII/BPD006_Depth_Charge_250lb_MkVIII.model",
+  "name": "PFPD100_depth_113kg",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 4.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.01,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "France",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.29,
+  "visibilityFactor": 1.5,
+  "volume": 4.98,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 1700.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.1,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4293804240,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PZPD001",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/panasia/projectile/depthcharge/ZPD001_Depth_Charge_BB1/ZPD001_Depth_Charge_BB1.model",
+  "name": "PZPD001_Depth_Charge_BB1",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.15,
+  "visibilityFactor": 1.5,
+  "volume": 2.4,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 3000.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.17,
+  "damage": 500.0,
+  "depthSplashRadius": 8,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.5,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4188947408,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PBPD101",
+  "maxDepth": -80,
+  "model": "content/gameplay/uk/projectile/depthcharge/BPD006_Depth_Charge_250lb_MkVIII/BPD006_Depth_Charge_250lb_MkVIII.model",
+  "name": "PBPD101_depth_113kg",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 4.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.01,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "United_Kingdom",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.29,
+  "visibilityFactor": 1.5,
+  "volume": 4.98,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 1700.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.1,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4292755664,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PZPD002",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/panasia/projectile/depthcharge/ZPD002_Depth_Charge_BB1/ZPD002_Depth_Charge_BB1.model",
+  "name": "PZPD002_Depth_Charge_BB1",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.15,
+  "visibilityFactor": 1.5,
+  "volume": 2.4,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 3900.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.22,
+  "damage": 700.0,
+  "depthSplashRadius": 8,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.5,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4186850288,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PAPD103",
+  "maxDepth": -80,
+  "model": "content/gameplay/usa/projectile/depthcharge/APD009_Depth_Bomb_Mk38_650lb/APD009_Depth_Bomb_Mk38_650lb.model",
+  "name": "PAPD103_depth_294kg",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 4.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.65,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "USA",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.51,
+  "visibilityFactor": 1.5,
+  "volume": 9.86,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2100.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.12,
+  "damage": 400.0,
+  "depthSplashRadius": 8,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.5,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4189996016,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PAPD100",
+  "maxDepth": -80,
+  "model": "content/gameplay/usa/projectile/depthcharge/APD007_Depth_Bomb_Mk52_100lb/APD007_Depth_Bomb_Mk52_100lb.model",
+  "name": "PAPD100_depth_45kg",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 4.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.57,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "USA",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.14,
+  "visibilityFactor": 1.5,
+  "volume": 2.32,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 3600.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.2,
+  "damage": 600.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4285416432,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PAPD009",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/usa/projectile/depthcharge/APD002_Depth_Charge/APD002_Depth_Charge.model",
+  "name": "PAPD009_mk6_mod1_apd002",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.39,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "USA",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.43,
+  "visibilityFactor": 1.5,
+  "volume": 7.58,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 1700.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.1,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4285415632,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PZPD009",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/usa/projectile/depthcharge/APD001_Depth_Charge/APD001_Depth_Charge.model",
+  "name": "PZPD009_Depth_Charge",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.15,
+  "visibilityFactor": 1.5,
+  "volume": 2.4,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2400.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.14,
+  "damage": 500.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4289610576,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PFPD005",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/france/projectile/depthcharge/FPD004_Depth_charge_200kg/FPD004_Depth_charge_200kg.model",
+  "name": "PFPD005_35kg_slide",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.69,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "France",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.18,
+  "visibilityFactor": 1.5,
+  "volume": 2.86,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 4100.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.23,
+  "damage": 700.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4287513424,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PFPD007",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/france/projectile/depthcharge/FPD002_Depth_Charge/FPD002_Depth_Charge.model",
+  "name": "PFPD007_200kg_shot_fpd2",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.68,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "France",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.55,
+  "visibilityFactor": 1.5,
+  "volume": 9.78,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2700.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.15,
+  "damage": 500.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4290659312,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PAPD004",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/usa/projectile/depthcharge/APD003_Depth_Charge/APD003_Depth_Charge.model",
+  "name": "PAPD004_mk6_shoot",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.95,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "USA",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.23,
+  "visibilityFactor": 1.5,
+  "volume": 5.25,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 3300.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.19,
+  "damage": 600.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4293804752,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PJPD001",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/japan/projectile/depthcharge/JPD015_Depth_Charge/JPD015_Depth_Charge.model",
+  "name": "PJPD001_Type_95",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.2,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Japan",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.36,
+  "visibilityFactor": 1.5,
+  "volume": 6.35,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2800.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.16,
+  "damage": 500.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4287512880,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PWPD007",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/europe/projectile/depthcharge/WPD007_Depth_Charge_Arbor/WPD007_Depth_Charge_Arbor.model",
+  "name": "PWPD007_Depth_Charge_Arbor",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.36,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Europe",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.43,
+  "visibilityFactor": 1.5,
+  "volume": 7.17,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 1700.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.1,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4284367056,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PZPD010",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/russia/projectile/depthcharge/RPD007_Depth_Charge_BB1/RPD007_Depth_Charge_BB1.model",
+  "name": "PZPD010_Depth_Charge",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.15,
+  "visibilityFactor": 1.5,
+  "volume": 2.4,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2000.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.11,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4290659088,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PHPD004",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/netherlands/projectile/depthcharge/HPD004_Depth_Charge_375mm_rocket/HPD004_Depth_Charge_375mm_rocket.model",
+  "name": "PHPD004_375MM",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer_reactive.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Netherlands",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.12,
+  "visibilityFactor": 1.5,
+  "volume": 2.94,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 1700.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.1,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4287512784,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PZPD007",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/panasia/projectile/depthcharge/ZPD007_Depth_Charge/ZPD007_Depth_Charge.model",
+  "name": "PZPD007_Depth_Charge",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.15,
+  "visibilityFactor": 1.5,
+  "volume": 2.4,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 1700.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.1,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4285415888,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PRPD009",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/russia/projectile/depthcharge/RPD005_RGB_12/RPD005_RGB_12.model",
+  "name": "PRPD009_BM_1_rpd005",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer_reactive.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.15,
+  "visibilityFactor": 1.5,
+  "volume": 2.4,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2700.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.15,
+  "damage": 500.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4292756464,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PAPD002",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/usa/projectile/depthcharge/APD005_Depth_Charge/APD005_Depth_Charge.model",
+  "name": "PAPD002_mk6",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.95,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "USA",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.23,
+  "visibilityFactor": 1.5,
+  "volume": 5.25,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 3600.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.2,
+  "damage": 600.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4290659280,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PBPD004",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/uk/projectile/depthcharge/BPD004_Depth_Charge_200kg/BPD004_Depth_Charge_200kg.model",
+  "name": "PBPD004_200KG",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.37,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer_reactive.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "United_Kingdom",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.42,
+  "visibilityFactor": 1.5,
+  "volume": 7.5,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2000.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.11,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4288561456,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PWPD006",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/europe/projectile/depthcharge/WPD006_Depth_Charge_Protos/WPD006_Depth_Charge_Protos.model",
+  "name": "PWPD006_Depth_Charge_Protos",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Europe",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.12,
+  "visibilityFactor": 1.5,
+  "volume": 2.94,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2800.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.16,
+  "damage": 500.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4290658768,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PRPD004",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/russia/projectile/depthcharge/RPD001_RGB_25/RPD001_RGB_25.model",
+  "name": "PRPD004_BB_1_shoot",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.36,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer_reactive.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.43,
+  "visibilityFactor": 1.5,
+  "volume": 7.17,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 1700.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.1,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4290658512,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PZPD004",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/panasia/projectile/depthcharge/ZPD004_Depth_Charge_MK7/ZPD004_Depth_Charge_MK7.model",
+  "name": "PZPD004_Depth_Charge_MK7",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.15,
+  "visibilityFactor": 1.5,
+  "volume": 2.4,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 4300.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.24,
+  "damage": 800.0,
+  "depthSplashRadius": 8,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.5,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4185801712,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PAPD104",
+  "maxDepth": -80,
+  "model": "content/gameplay/usa/projectile/depthcharge/APD009_Depth_Bomb_Mk38_650lb/APD009_Depth_Bomb_Mk38_650lb.model",
+  "name": "PAPD104_depth_320kg",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 4.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.86,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "USA",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.61,
+  "visibilityFactor": 1.5,
+  "volume": 11.25,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2000.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.11,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4290658608,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PWPD004",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/europe/projectile/depthcharge/WPD001_Depth_Charge/WPD001_Depth_Charge.model",
+  "name": "PWPD004_375",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Europe",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.12,
+  "visibilityFactor": 1.5,
+  "volume": 2.94,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2000.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.11,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4289610032,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PWPD005",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/europe/projectile/depthcharge/WPD003_Depth_Charge/WPD003_Depth_Charge.model",
+  "name": "PWPD005_375_shoot",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Europe",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.12,
+  "visibilityFactor": 1.5,
+  "volume": 2.94,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 1700.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.1,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4292755920,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PRPD002",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/russia/projectile/depthcharge/RPD002_Depth_Charge_BB1/RPD002_Depth_Charge_BB1.model",
+  "name": "PRPD002_BB_1_m",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.15,
+  "visibilityFactor": 1.5,
+  "volume": 2.4,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2400.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.14,
+  "damage": 500.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4293804880,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PFPD001",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/france/projectile/depthcharge/FPD001_Depth_Charge/FPD001_Depth_Charge.model",
+  "name": "PFPD001_35kg",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.69,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "France",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.18,
+  "visibilityFactor": 1.5,
+  "volume": 2.86,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2800.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.16,
+  "damage": 500.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4293804336,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PWPD001",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/europe/projectile/depthcharge/WPD001_Depth_Charge/WPD001_Depth_Charge.model",
+  "name": "PWPD001_mk6_mod1",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.36,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Europe",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.43,
+  "visibilityFactor": 1.5,
+  "volume": 7.17,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 600.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.0,
+  "damage": 7700.0,
+  "depthSplashRadius": 6,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4282270640,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "Destroyer",
+   "Cruiser",
+   "Auxiliary",
+   "AirCarrier",
+   "Battleship"
+  ],
+  "index": "PCPD012",
+  "maxDepth": -80,
+  "model": "content/gameplay/events/projectile/bomb/XPB007_Bomb_HW2018/XPB007_Bomb_HW2018.model",
+  "name": "PCPD012",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.2,
+    0.9
+   ],
+   [
+    0.4,
+    0.4
+   ],
+   [
+    0.7,
+    0.2
+   ],
+   [
+    1.0,
+    0.1
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    0.1,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    0.2,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    0.3,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 6.6,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.1,
+  "splashCubeSize": 6,
+  "timer": 3.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.0,
+  "visibilityFactor": 0.41,
+  "volume": 5.1,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2800.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.16,
+  "damage": 500.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4291707344,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PRPD003",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/russia/projectile/depthcharge/RPD002_Depth_Charge_BB1/RPD002_Depth_Charge_BB1.model",
+  "name": "PRPD003_BB_1",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.36,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.43,
+  "visibilityFactor": 1.5,
+  "volume": 7.17,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 3600.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.2,
+  "damage": 600.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4293805040,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PAPD001",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/usa/projectile/depthcharge/APD004_Depth_Charge/APD004_Depth_Charge.model",
+  "name": "PAPD001_mk6_mod1",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.39,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "USA",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.43,
+  "visibilityFactor": 1.5,
+  "volume": 7.58,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2800.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.16,
+  "damage": 500.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4283318736,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PRPD011",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/russia/projectile/depthcharge/RPD007_Depth_Charge_BB1/RPD007_Depth_Charge_BB1.model",
+  "name": "PRPD011_BB_1_rpd007",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.36,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.43,
+  "visibilityFactor": 1.5,
+  "volume": 7.17,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2800.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.16,
+  "damage": 500.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4289610192,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PRPD005",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/russia/projectile/depthcharge/RPD001_RGB_25/RPD001_RGB_25.model",
+  "name": "PRPD005_RGB25",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.36,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.43,
+  "visibilityFactor": 1.5,
+  "volume": 7.17,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 3300.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.19,
+  "damage": 600.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4292756176,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PJPD002",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/japan/projectile/depthcharge/JPD014_Depth_Charge/JPD014_Depth_Charge.model",
+  "name": "PJPD002_Type_95_Shoot",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.2,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Japan",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.36,
+  "visibilityFactor": 1.5,
+  "volume": 6.35,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 3600.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.2,
+  "damage": 600.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4293804368,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PVPD001",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/uk/projectile/depthcharge/BPD001_Depth_Charge/BPD001_Depth_Charge.model",
+  "name": "PVPD001_MkVII",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.37,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Pan_America",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.42,
+  "visibilityFactor": 1.5,
+  "volume": 7.5,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 1700.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.1,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4283318480,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PZPD011",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/uk/projectile/depthcharge/BPD001_Depth_Charge/BPD001_Depth_Charge.model",
+  "name": "PZPD011_Depth_Charge",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.15,
+  "visibilityFactor": 1.5,
+  "volume": 2.4,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 3400.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.19,
+  "damage": 600.0,
+  "depthSplashRadius": 8,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.5,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4187898864,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PAPD102",
+  "maxDepth": -80,
+  "model": "content/gameplay/usa/projectile/depthcharge/APD008_Depth_Bomb_Mk17_Mod1_325lb/APD008_Depth_Bomb_Mk17_Mod1_325lb.model",
+  "name": "PAPD102_depth_158kg",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 4.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.26,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "USA",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.38,
+  "visibilityFactor": 1.5,
+  "volume": 6.62,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2000.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.11,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4291707184,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PWPD003",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/europe/projectile/depthcharge/WPD003_Depth_Charge/WPD003_Depth_Charge.model",
+  "name": "PWPD003_mk6_mod1_shoot",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Europe",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.12,
+  "visibilityFactor": 1.5,
+  "volume": 2.94,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 3300.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.19,
+  "damage": 600.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4286464848,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PFPD008",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/france/projectile/depthcharge/FPD004_Depth_charge_200kg/FPD004_Depth_charge_200kg.model",
+  "name": "PFPD008_100kg_fpd004",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.17,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "France",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.36,
+  "visibilityFactor": 1.5,
+  "volume": 5.88,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 3600.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.2,
+  "damage": 600.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4292756432,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PBPD002",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/uk/projectile/depthcharge/BPD002_Depth_Charge/BPD002_Depth_Charge.model",
+  "name": "PBPD002_Depth_Charge",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.37,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "United_Kingdom",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.42,
+  "visibilityFactor": 1.5,
+  "volume": 7.5,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 1700.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.1,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4289609936,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PZPD005",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/panasia/projectile/depthcharge/ZPD005_Depth_Charge_MK6/ZPD005_Depth_Charge_MK6.model",
+  "name": "PZPD005_Depth_Charge_MK6",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.15,
+  "visibilityFactor": 1.5,
+  "volume": 2.4,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2400.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.14,
+  "damage": 500.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4288562000,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PFPD006",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/france/projectile/depthcharge/FPD002_Depth_Charge/FPD002_Depth_Charge.model",
+  "name": "PFPD006_35kg_shot_fpd2",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.69,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "France",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.18,
+  "visibilityFactor": 1.5,
+  "volume": 2.86,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 1700.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.1,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4286464208,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PZPD008",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/panasia/projectile/depthcharge/ZPD008_Depth_Charge/ZPD008_Depth_Charge.model",
+  "name": "PZPD008_Depth_Charge",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.15,
+  "visibilityFactor": 1.5,
+  "volume": 2.4,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 4100.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.23,
+  "damage": 700.0,
+  "depthSplashRadius": 8,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.5,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4187898576,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PJPD102",
+  "maxDepth": -80,
+  "model": "content/gameplay/japan/projectile/depthcharge/JPD022_Type1_No25_Mk2_Mod1_266kg/JPD022_Type1_No25_Mk2_Mod1_266kg.model",
+  "name": "PJPD102_depth_266kg",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 4.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.69,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Japan",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.55,
+  "visibilityFactor": 1.5,
+  "volume": 9.86,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2400.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.14,
+  "damage": 500.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4290659152,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PFPD004",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/france/projectile/depthcharge/FPD003_Depth_Charge/FPD003_Depth_Charge.model",
+  "name": "PFPD004_35kg_shot",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.69,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "France",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.18,
+  "visibilityFactor": 1.5,
+  "volume": 2.86,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2000.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.11,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4291707664,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PHPD003",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/netherlands/projectile/depthcharge/HPD003_Depth_Charge/HPD003_Depth_Charge.model",
+  "name": "PHPD003_Depth_Charge",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Netherlands",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.12,
+  "visibilityFactor": 1.5,
+  "volume": 2.94,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2600.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.15,
+  "damage": 500.0,
+  "depthSplashRadius": 8,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.5,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4189995984,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PBPD100",
+  "maxDepth": -80,
+  "model": "content/gameplay/uk/projectile/depthcharge/BPD006_Depth_Charge_250lb_MkVIII/BPD006_Depth_Charge_250lb_MkVIII.model",
+  "name": "PBPD100_depth_113kg_mod0",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 4.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.84,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "United_Kingdom",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.22,
+  "visibilityFactor": 1.5,
+  "volume": 4.18,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2700.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.15,
+  "damage": 500.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4287513584,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PAPD007",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/usa/projectile/depthcharge/APD004_Depth_Charge/APD004_Depth_Charge.model",
+  "name": "PAPD007_mk6_apd004",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.95,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "USA",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.23,
+  "visibilityFactor": 1.5,
+  "volume": 5.25,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 3600.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.2,
+  "damage": 600.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4291707856,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PBPD003",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/uk/projectile/depthcharge/BPD003_Depth_Charge_Space/BPD003_Depth_Charge_Space.model",
+  "name": "PBPD003_Depth_Charge_Space",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.37,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "United_Kingdom",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.42,
+  "visibilityFactor": 1.5,
+  "volume": 7.5,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2500.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.14,
+  "damage": 400.0,
+  "depthSplashRadius": 8,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.5,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4189995728,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PJPD100",
+  "maxDepth": -80,
+  "model": "content/gameplay/japan/projectile/depthcharge/JPD020_Type99_No6_Mk2_Mod1_68kg/JPD020_Type99_No6_Mk2_Mod1_68kg.model",
+  "name": "PJPD100_depth_68kg",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 4.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.73,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Japan",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.19,
+  "visibilityFactor": 1.5,
+  "volume": 3.25,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 1600.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.09,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4293804848,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PGPD001",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/germany/projectile/depthcharge/GPD002_Depth_Charge/GPD002_Depth_Charge.model",
+  "name": "PGPD001_WBG",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.01,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Germany",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.26,
+  "visibilityFactor": 1.5,
+  "volume": 5.5,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2400.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.14,
+  "damage": 500.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4285416272,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PFPD009",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/france/projectile/depthcharge/FPD004_Depth_charge_200kg/FPD004_Depth_charge_200kg.model",
+  "name": "PFPD009_35kg_fpd004",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.69,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "France",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.18,
+  "visibilityFactor": 1.5,
+  "volume": 2.86,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 1700.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.1,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4287513040,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PRPD007",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/russia/projectile/depthcharge/RPD004_Depth_Charge_BB1/RPD004_Depth_Charge_BB1.model",
+  "name": "PRPD007_BM_1_rpd004",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.15,
+  "visibilityFactor": 1.5,
+  "volume": 2.4,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 3600.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.2,
+  "damage": 600.0,
+  "depthSplashRadius": 8,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.5,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4187898832,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PBPD102",
+  "maxDepth": -80,
+  "model": "content/gameplay/uk/projectile/depthcharge/BPD004_Depth_Charge_200kg/BPD004_Depth_Charge_200kg.model",
+  "name": "PBPD102_depth_200kg",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 4.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.37,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "United_Kingdom",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.41,
+  "visibilityFactor": 1.5,
+  "volume": 7.54,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 1700.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.1,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4288561616,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PRPD006",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/russia/projectile/depthcharge/RPD001_RGB_25/RPD001_RGB_25.model",
+  "name": "PRPD006_BM_1_shoot",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer_reactive.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.15,
+  "visibilityFactor": 1.5,
+  "volume": 2.4,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 1650.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.1,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4284367792,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PCPD010",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/russia/projectile/depthcharge/RPD002_Depth_Charge_BB1/RPD002_Depth_Charge_BB1.model",
+  "name": "PCPD010_Big",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 28,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.5,
+  "visibilityFactor": 1.5,
+  "volume": 5.1,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 3600.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.2,
+  "damage": 600.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4293805008,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PBPD001",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/uk/projectile/depthcharge/BPD001_Depth_Charge/BPD001_Depth_Charge.model",
+  "name": "PBPD001_MkVII",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.37,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "United_Kingdom",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.42,
+  "visibilityFactor": 1.5,
+  "volume": 7.5,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 1700.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.1,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4288561360,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PZPD006",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/panasia/projectile/depthcharge/ZPD006_Depth_Charge/ZPD006_Depth_Charge.model",
+  "name": "PZPD006_Depth_Charge",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.15,
+  "visibilityFactor": 1.5,
+  "volume": 2.4,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 1700.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.1,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4284367312,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PRPD010",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/russia/projectile/depthcharge/RPD007_Depth_Charge_BB1/RPD007_Depth_Charge_BB1.model",
+  "name": "PRPD010_BM_1_rpd007",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.15,
+  "visibilityFactor": 1.5,
+  "volume": 2.4,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 2800.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.06,
+  "damage": 500.0,
+  "depthSplashRadius": 8,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.5,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4283319216,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PCPD011",
+  "maxDepth": -80,
+  "model": "content/gameplay/russia/projectile/depthcharge/RPD002_Depth_Charge_BB1/RPD002_Depth_Charge_BB1.model",
+  "name": "PCPD011_Small",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 4.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.28,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.05,
+  "visibilityFactor": 1.5,
+  "volume": 0.99,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 3600.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.2,
+  "damage": 600.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4286465008,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PAPD008",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/usa/projectile/depthcharge/APD001_Depth_Charge/APD001_Depth_Charge.model",
+  "name": "PAPD008_mk6_mod1_apd001",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.39,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "USA",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.43,
+  "visibilityFactor": 1.5,
+  "volume": 7.58,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 1700.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.1,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4293804496,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PRPD001",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/russia/projectile/depthcharge/RPD003_Depth_Charge_BM1/RPD003_Depth_Charge_BM1.model",
+  "name": "PRPD001_BM_1",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.15,
+  "visibilityFactor": 1.5,
+  "volume": 2.4,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 3700.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.21,
+  "damage": 600.0,
+  "depthSplashRadius": 8,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.5,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4188947152,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PJPD101",
+  "maxDepth": -80,
+  "model": "content/gameplay/japan/projectile/depthcharge/JPD021_Experimental19_No25_Mk2_180kg/JPD021_Experimental19_No25_Mk2_180kg.model",
+  "name": "PJPD101_depth_180kg",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 4.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.39,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Japan",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.44,
+  "visibilityFactor": 1.5,
+  "volume": 7.5,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 3100.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.18,
+  "damage": 500.0,
+  "depthSplashRadius": 8,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.5,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4188947280,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PFPD101",
+  "maxDepth": -80,
+  "model": "content/gameplay/usa/projectile/depthcharge/APD008_Depth_Bomb_Mk17_Mod1_325lb/APD008_Depth_Bomb_Mk17_Mod1_325lb.model",
+  "name": "PFPD101_depth_147kg",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 4.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.09,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "France",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.31,
+  "visibilityFactor": 1.5,
+  "volume": 5.68,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 3600.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.2,
+  "damage": 600.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4291707888,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PAPD003",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/usa/projectile/depthcharge/APD003_Depth_Charge/APD003_Depth_Charge.model",
+  "name": "PAPD003_mk6_mod1_shoot",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.39,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "USA",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.43,
+  "visibilityFactor": 1.5,
+  "volume": 7.58,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 3600.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.2,
+  "damage": 600.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4289610704,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PBPD005",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/uk/projectile/depthcharge/BPD005_Depth_Charge/BPD005_Depth_Charge.model",
+  "name": "PBPD005_Depth_Charge",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.37,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "United_Kingdom",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.42,
+  "visibilityFactor": 1.5,
+  "volume": 7.5,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 1700.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.1,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4286464464,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PRPD008",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/russia/projectile/depthcharge/RPD006_Mark_6_Arbor/RPD006_Mark_6_Arbor.model",
+  "name": "PRPD008_BM_1_rpd006",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.15,
+  "visibilityFactor": 1.5,
+  "volume": 2.4,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 3600.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.2,
+  "damage": 600.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4288562160,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PAPD006",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/usa/projectile/depthcharge/APD005_Depth_Charge/APD005_Depth_Charge.model",
+  "name": "PAPD006_mk6_mod1_big",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.39,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "USA",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.43,
+  "visibilityFactor": 1.5,
+  "volume": 7.58,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 1600.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.09,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4292756272,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PGPD002",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/germany/projectile/depthcharge/GPD001_Depth_Charge/GPD001_Depth_Charge.model",
+  "name": "PGPD002_WBG_shoot",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.01,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Germany",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.26,
+  "visibilityFactor": 1.5,
+  "volume": 5.5,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 3100.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.18,
+  "damage": 500.0,
+  "depthSplashRadius": 8,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.5,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4188947440,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PAPD101",
+  "maxDepth": -80,
+  "model": "content/gameplay/usa/projectile/depthcharge/APD008_Depth_Bomb_Mk17_Mod1_325lb/APD008_Depth_Bomb_Mk17_Mod1_325lb.model",
+  "name": "PAPD101_depth_147kg",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 4.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.09,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "USA",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.31,
+  "visibilityFactor": 1.5,
+  "volume": 5.68,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 1700.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.1,
+  "damage": 300.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4282269904,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PZPD012",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/russia/projectile/depthcharge/RPD007_Depth_Charge_BB1/RPD007_Depth_Charge_BB1.model",
+  "name": "PZPD012_BB1_rpd007",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.15,
+  "visibilityFactor": 1.5,
+  "volume": 2.4,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ }
+]

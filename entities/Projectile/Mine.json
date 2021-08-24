@@ -1,0 +1,54 @@
+[
+ {
+  "acidProb": 0.0,
+  "alertDist": 100,
+  "alphaDamage": 1000.0,
+  "ammoType": "seaMine",
+  "armingByShipClasses": [
+   "Destroyer",
+   "Cruiser",
+   "Battleship",
+   "AirCarrier",
+   "Submarine",
+   "Auxiliary"
+  ],
+  "armingRadius": 100,
+  "armingTime": 1,
+  "blowUpEffect": "particles/onGroundExplosionTorpedo.xml",
+  "buoyancyToDamageCoeff": {},
+  "burnProb": 0.5,
+  "collidable": true,
+  "damage": 1000.0,
+  "damageVulnerabilityForShipClasses": {
+   "AirCarrier": 1,
+   "Auxiliary": 1,
+   "Battleship": 1,
+   "Cruiser": 1,
+   "Destroyer": 1,
+   "Submarine": 1
+  },
+  "doInteractWithAllies": false,
+  "doInteractWithEnemies": false,
+  "explosionRadius": 20.0,
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosionTorpedo.xml",
+  "id": 4293510096,
+  "ignoreBuoyancyStates": [],
+  "index": "PBPM001",
+  "model": "content/gameplay/uk/projectile/mine/BPM006_Sea_Mine/BPM006_Sea_Mine.model",
+  "name": "PBPM001_SeaMine",
+  "onHit": {},
+  "projDestroyedEffect": "particles/onShipHitTorpedo.xml",
+  "shipDestroyEffect": "particles/Empty_FX.xml",
+  "splashArmorCoeff": 0.5,
+  "splashCubeSize": 2.0,
+  "typeinfo": {
+   "nation": "United_Kingdom",
+   "species": "Mine",
+   "type": "Projectile"
+  },
+  "uwAbility": false,
+  "uwCritical": 0.5,
+  "water": "particles/onWaterExplosion127mm_AP.xml"
+ }
+]
