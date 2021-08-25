@@ -7,6 +7,8 @@ AIRDEFENCE_KEYS = []
 AIRDEFENCE_SUBKEYS = ["areaDamage", "areaDamagePeriod", "bubbleDamage", "hitChance", "innerBubbleCount", "maxDistance",
                       "minDistance", "type"]
 AIRARMAMENT_KEYS = ["deckPlaceCount", "planesReserveCapacity"]
+AIRSUPPORT_KEYS = ["chargesNum", "flyAwayTime", "maxDist", "maxPlaneFlightDist", "minDist", "planeName", "reloadTime",
+                   "timeBetweenShots", "timeFromHeaven"]
 ATBA_KEYS = ["AuraFar", "AuraFar_Bubbles", "AuraMedium", "AuraMedium_Bubbles", "maxDist", "sigmaCount"]
 ATBA_SUBKEYS = ["maxDist", "sigmaCount", "ammoList", "id", "index", "name", "numBarrels", "rotationSpeed", "shotDelay",
                 "smallGun", "typeinfo"]
@@ -119,11 +121,13 @@ class Ship:
         airarmament_keys = self._get_components(("_Hull", "airArmament"))
         # SUB RELATED
         pingergun_keys = self._get_components(("_Hull", "pinger"))
+        # NL RELATED
+        airsupport_keys = self._get_components(("_Hull", "airSupport"))
 
         all_components = fire_control_keys + artillery_keys + atba_keys + depthcharge_keys + torpedo_keys
         all_components = all_components + airdefence_keys + hull_keys + engine_keys
         all_components = all_components + tbomber_keys + dbomber_keys + fighter_keys + sbomber_keys + fcontrol_keys
-        all_components = all_components + airarmament_keys + pingergun_keys
+        all_components = all_components + airarmament_keys + pingergun_keys + airsupport_keys
 
         modules_armaments = {comp: self._data.__getattribute__(comp) for comp in all_components}
 
@@ -144,6 +148,7 @@ class Ship:
         self._apply_gun_filters(("_Hull", "depthCharges"), DEPTHCHARGE_KEYS, DEPTHCHARGE_SUBKEYS)
         self._apply_gun_filters(("_Hull", "torpedoes"), TORPEDO_KEYS, TORPEDO_SUBKEYS)
         self._apply_gun_filters(("_Hull", "airDefense"), AIRDEFENCE_KEYS, AIRDEFENCE_SUBKEYS, delete_guns=True)
+        self._filter_common(("_Hull", "airSupport"), AIRSUPPORT_KEYS)
         self._filter_common(("_Hull", "hull"), HULL_SUBKEYS)
         self._filter_common(("_Engine", "engine"), ENGINE_KEYS)
         self._filter_common(("_Hull", "airArmament"), AIRARMAMENT_KEYS)
