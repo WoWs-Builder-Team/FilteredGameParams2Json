@@ -7,62 +7,64 @@
   },
   "A_AirDefense": {},
   "A_Artillery": {
-   "HP_HGM_1": {
-    "ammoList": [
-     "PHPA001_120_HE_FRIESLAND",
-     "PHPA002_120_AP_FRIESLAND"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     0.0,
-     0.0
-    ],
-    "id": 4293519120,
-    "index": "PHGM001",
-    "numBarrels": 2,
-    "position": [
-     1.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     25.0,
-     40.0
-    ],
-    "shotDelay": 1.8,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Netherlands",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_HGM_2": {
-    "ammoList": [
-     "PHPA001_120_HE_FRIESLAND",
-     "PHPA002_120_AP_FRIESLAND"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     0.0,
-     0.0
-    ],
-    "id": 4293519120,
-    "index": "PHGM001",
-    "numBarrels": 2,
-    "position": [
-     5.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     25.0,
-     40.0
-    ],
-    "shotDelay": 1.8,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Netherlands",
-     "species": "Main",
-     "type": "Gun"
+   "guns": {
+    "HP_HGM_1": {
+     "ammoList": [
+      "PHPA001_120_HE_FRIESLAND",
+      "PHPA002_120_AP_FRIESLAND"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      0.0,
+      0.0
+     ],
+     "id": 4293519120,
+     "index": "PHGM001",
+     "numBarrels": 2,
+     "position": [
+      1.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      25.0,
+      40.0
+     ],
+     "shotDelay": 1.8,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Netherlands",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_HGM_2": {
+     "ammoList": [
+      "PHPA001_120_HE_FRIESLAND",
+      "PHPA002_120_AP_FRIESLAND"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      0.0,
+      0.0
+     ],
+     "id": 4293519120,
+     "index": "PHGM001",
+     "numBarrels": 2,
+     "position": [
+      5.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      25.0,
+      40.0
+     ],
+     "shotDelay": 1.8,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Netherlands",
+      "species": "Main",
+      "type": "Gun"
+     }
     }
    },
    "maxDist": 12350.0,
@@ -70,92 +72,94 @@
    "sigmaCount": 2.0
   },
   "A_DepthChargeGuns": {
-   "HP_HGB_1": {
-    "ammoList": [
-     "PHPD004_375MM"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4292830992,
-    "index": "PHGB002",
-    "name": "PHGB002_Bofors_375mm_model_1950",
-    "numBombs": 4,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Netherlands",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_HGB_2": {
-    "ammoList": [
-     "PHPD004_375MM"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4292830992,
-    "index": "PHGB002",
-    "name": "PHGB002_Bofors_375mm_model_1950",
-    "numBombs": 4,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Netherlands",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_HGB_3": {
-    "ammoList": [
-     "PHPD003_Depth_Charge"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4290733840,
-    "index": "PHGB004",
-    "name": "PHGB004_Depth_Charge_Roller_Track_L",
-    "numBombs": 0,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Netherlands",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_HGB_4": {
-    "ammoList": [
-     "PHPD003_Depth_Charge"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4291782416,
-    "index": "PHGB003",
-    "name": "PHGB003_Depth_Charge_Roller_Track_R",
-    "numBombs": 0,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Netherlands",
-     "species": "DCharge",
-     "type": "Gun"
+   "depthCharges": {
+    "HP_HGB_1": {
+     "ammoList": [
+      "PHPD004_375MM"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4292830992,
+     "index": "PHGB002",
+     "name": "PHGB002_Bofors_375mm_model_1950",
+     "numBombs": 4,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Netherlands",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_HGB_2": {
+     "ammoList": [
+      "PHPD004_375MM"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4292830992,
+     "index": "PHGB002",
+     "name": "PHGB002_Bofors_375mm_model_1950",
+     "numBombs": 4,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Netherlands",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_HGB_3": {
+     "ammoList": [
+      "PHPD003_Depth_Charge"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4290733840,
+     "index": "PHGB004",
+     "name": "PHGB004_Depth_Charge_Roller_Track_L",
+     "numBombs": 0,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Netherlands",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_HGB_4": {
+     "ammoList": [
+      "PHPD003_Depth_Charge"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4291782416,
+     "index": "PHGB003",
+     "name": "PHGB003_Depth_Charge_Roller_Track_R",
+     "numBombs": 0,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Netherlands",
+      "species": "DCharge",
+      "type": "Gun"
+     }
     }
    },
    "maxPacks": 2,
@@ -566,62 +570,64 @@
     "minDistance": 3500.0,
     "type": "far"
    },
-   "HP_WGM_1": {
-    "ammoList": [
-     "PWPA018_120MM_HE_SMALAND",
-     "PWPA019_120MM_AP_SMALAND"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -152.0,
-     152.0
-    ],
-    "id": 4279887152,
-    "index": "PWGM014",
-    "numBarrels": 2,
-    "position": [
-     1.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     25.0,
-     40.0
-    ],
-    "shotDelay": 1.7,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_2": {
-    "ammoList": [
-     "PWPA018_120MM_HE_SMALAND",
-     "PWPA019_120MM_AP_SMALAND"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -149.0,
-     149.0
-    ],
-    "id": 4279887152,
-    "index": "PWGM014",
-    "numBarrels": 2,
-    "position": [
-     5.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     25.0,
-     40.0
-    ],
-    "shotDelay": 1.7,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
+   "guns": {
+    "HP_WGM_1": {
+     "ammoList": [
+      "PWPA018_120MM_HE_SMALAND",
+      "PWPA019_120MM_AP_SMALAND"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -152.0,
+      152.0
+     ],
+     "id": 4279887152,
+     "index": "PWGM014",
+     "numBarrels": 2,
+     "position": [
+      1.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      25.0,
+      40.0
+     ],
+     "shotDelay": 1.7,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_2": {
+     "ammoList": [
+      "PWPA018_120MM_HE_SMALAND",
+      "PWPA019_120MM_AP_SMALAND"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -149.0,
+      149.0
+     ],
+     "id": 4279887152,
+     "index": "PWGM014",
+     "numBarrels": 2,
+     "position": [
+      5.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      25.0,
+      40.0
+     ],
+     "shotDelay": 1.7,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
     }
    },
    "maxDist": 11450.0,
@@ -629,92 +635,94 @@
    "sigmaCount": 2.0
   },
   "A_DepthChargeGuns": {
-   "HP_WGB_1": {
-    "ammoList": [
-     "PHPD004_375MM"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4254033200,
-    "index": "PWGB039",
-    "name": "PWGB039_Bofors_375mm_model_1950",
-    "numBombs": 4,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_2": {
-    "ammoList": [
-     "PHPD004_375MM"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4254033200,
-    "index": "PWGB039",
-    "name": "PWGB039_Bofors_375mm_model_1950",
-    "numBombs": 4,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_4": {
-    "ammoList": [
-     "PWPD004_375"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4239353136,
-    "index": "PWGB053",
-    "name": "PWGB053_Smaland_Depth_Charge_fake",
-    "numBombs": 0,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_5": {
-    "ammoList": [
-     "PWPD004_375"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4239353136,
-    "index": "PWGB053",
-    "name": "PWGB053_Smaland_Depth_Charge_fake",
-    "numBombs": 0,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
+   "depthCharges": {
+    "HP_WGB_1": {
+     "ammoList": [
+      "PHPD004_375MM"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4254033200,
+     "index": "PWGB039",
+     "name": "PWGB039_Bofors_375mm_model_1950",
+     "numBombs": 4,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_2": {
+     "ammoList": [
+      "PHPD004_375MM"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4254033200,
+     "index": "PWGB039",
+     "name": "PWGB039_Bofors_375mm_model_1950",
+     "numBombs": 4,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_4": {
+     "ammoList": [
+      "PWPD004_375"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4239353136,
+     "index": "PWGB053",
+     "name": "PWGB053_Smaland_Depth_Charge_fake",
+     "numBombs": 0,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_5": {
+     "ammoList": [
+      "PWPD004_375"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4239353136,
+     "index": "PWGB053",
+     "name": "PWGB053_Smaland_Depth_Charge_fake",
+     "numBombs": 0,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
     }
    },
    "maxPacks": 2,
@@ -878,52 +886,54 @@
    }
   },
   "A_Torpedoes": {
-   "HP_WGT_1": {
-    "ammoList": [
-     "PWPT008_SMALAND"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4260783408,
-    "index": "PWGT032",
-    "name": "PWGT032_533mm_5tube_SW",
-    "numBarrels": 5,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 100.0,
-    "torpedoAngles": [
-     3.0,
-     6.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
-    }
-   },
-   "HP_WGT_2": {
-    "ammoList": [
-     "PWPT008_SMALAND"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4252394800,
-    "index": "PWGT040",
-    "name": "PWGT040_533mm_3tube_SW",
-    "numBarrels": 3,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 100.0,
-    "torpedoAngles": [
-     2.6,
-     5.2
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
+   "torpedoArray": {
+    "HP_WGT_1": {
+     "ammoList": [
+      "PWPT008_SMALAND"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4260783408,
+     "index": "PWGT032",
+     "name": "PWGT032_533mm_5tube_SW",
+     "numBarrels": 5,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 100.0,
+     "torpedoAngles": [
+      3.0,
+      6.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
+    },
+    "HP_WGT_2": {
+     "ammoList": [
+      "PWPT008_SMALAND"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4252394800,
+     "index": "PWGT040",
+     "name": "PWGT040_533mm_3tube_SW",
+     "numBarrels": 3,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 100.0,
+     "torpedoAngles": [
+      2.6,
+      5.2
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
     }
    }
   },
@@ -1122,91 +1132,93 @@
  },
  {
   "A1_Artillery": {
-   "HP_WGM_1": {
-    "ammoList": [
-     "PWPA008_120MM_HE_45_M24",
-     "PWPA009_120MM_AP_45_M24"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4267304240,
-    "index": "PWGM026",
-    "numBarrels": 1,
-    "position": [
-     0.9,
-     1.0
-    ],
-    "rotationSpeed": [
-     8.0,
-     12.0
-    ],
-    "shotDelay": 7.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_2": {
-    "ammoList": [
-     "PWPA008_120MM_HE_45_M24",
-     "PWPA009_120MM_AP_45_M24"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     0.0,
-     0.0
-    ],
-    "id": 4267304240,
-    "index": "PWGM026",
-    "numBarrels": 1,
-    "position": [
-     3.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     8.0,
-     12.0
-    ],
-    "shotDelay": 7.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_3": {
-    "ammoList": [
-     "PWPA008_120MM_HE_45_M24",
-     "PWPA009_120MM_AP_45_M24"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -155.0,
-     155.0
-    ],
-    "id": 4267304240,
-    "index": "PWGM026",
-    "numBarrels": 1,
-    "position": [
-     5.7,
-     1.0
-    ],
-    "rotationSpeed": [
-     8.0,
-     12.0
-    ],
-    "shotDelay": 7.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
+   "guns": {
+    "HP_WGM_1": {
+     "ammoList": [
+      "PWPA008_120MM_HE_45_M24",
+      "PWPA009_120MM_AP_45_M24"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4267304240,
+     "index": "PWGM026",
+     "numBarrels": 1,
+     "position": [
+      0.9,
+      1.0
+     ],
+     "rotationSpeed": [
+      8.0,
+      12.0
+     ],
+     "shotDelay": 7.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_2": {
+     "ammoList": [
+      "PWPA008_120MM_HE_45_M24",
+      "PWPA009_120MM_AP_45_M24"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      0.0,
+      0.0
+     ],
+     "id": 4267304240,
+     "index": "PWGM026",
+     "numBarrels": 1,
+     "position": [
+      3.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      8.0,
+      12.0
+     ],
+     "shotDelay": 7.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_3": {
+     "ammoList": [
+      "PWPA008_120MM_HE_45_M24",
+      "PWPA009_120MM_AP_45_M24"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -155.0,
+      155.0
+     ],
+     "id": 4267304240,
+     "index": "PWGM026",
+     "numBarrels": 1,
+     "position": [
+      5.7,
+      1.0
+     ],
+     "rotationSpeed": [
+      8.0,
+      12.0
+     ],
+     "shotDelay": 7.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
     }
    },
    "maxDist": 8610.0,
@@ -1218,52 +1230,54 @@
    "sigmaCountCoef": 1.0
   },
   "AB1_Torpedoes": {
-   "HP_WGT_1": {
-    "ammoList": [
-     "PWPT011_Torped_M1913_mod1"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4281754928,
-    "index": "PWGT012",
-    "name": "PWGT012_533mm_3tube_M34_SW",
-    "numBarrels": 3,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 55.0,
-    "torpedoAngles": [
-     2.6,
-     5.2
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
-    }
-   },
-   "HP_WGT_2": {
-    "ammoList": [
-     "PWPT011_Torped_M1913_mod1"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4281754928,
-    "index": "PWGT012",
-    "name": "PWGT012_533mm_3tube_M34_SW",
-    "numBarrels": 3,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 55.0,
-    "torpedoAngles": [
-     2.6,
-     5.2
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
+   "torpedoArray": {
+    "HP_WGT_1": {
+     "ammoList": [
+      "PWPT011_Torped_M1913_mod1"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4281754928,
+     "index": "PWGT012",
+     "name": "PWGT012_533mm_3tube_M34_SW",
+     "numBarrels": 3,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 55.0,
+     "torpedoAngles": [
+      2.6,
+      5.2
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
+    },
+    "HP_WGT_2": {
+     "ammoList": [
+      "PWPT011_Torped_M1913_mod1"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4281754928,
+     "index": "PWGT012",
+     "name": "PWGT012_533mm_3tube_M34_SW",
+     "numBarrels": 3,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 55.0,
+     "torpedoAngles": [
+      2.6,
+      5.2
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
     }
    }
   },
@@ -1337,91 +1351,93 @@
    "visibilityFactorByPlane": 2.64
   },
   "B1_Artillery": {
-   "HP_WGM_1": {
-    "ammoList": [
-     "PWPA008_120MM_HE_45_M24",
-     "PWPA009_120MM_AP_45_M24"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -148.0,
-     148.0
-    ],
-    "id": 4241089840,
-    "index": "PWGM051",
-    "numBarrels": 2,
-    "position": [
-     0.9,
-     1.0
-    ],
-    "rotationSpeed": [
-     8.0,
-     12.0
-    ],
-    "shotDelay": 7.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_2": {
-    "ammoList": [
-     "PWPA008_120MM_HE_45_M24",
-     "PWPA009_120MM_AP_45_M24"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     0.0,
-     0.0
-    ],
-    "id": 4267304240,
-    "index": "PWGM026",
-    "numBarrels": 1,
-    "position": [
-     3.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     8.0,
-     12.0
-    ],
-    "shotDelay": 7.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_3": {
-    "ammoList": [
-     "PWPA008_120MM_HE_45_M24",
-     "PWPA009_120MM_AP_45_M24"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -155.0,
-     155.0
-    ],
-    "id": 4267304240,
-    "index": "PWGM026",
-    "numBarrels": 1,
-    "position": [
-     5.7,
-     1.0
-    ],
-    "rotationSpeed": [
-     8.0,
-     12.0
-    ],
-    "shotDelay": 7.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
+   "guns": {
+    "HP_WGM_1": {
+     "ammoList": [
+      "PWPA008_120MM_HE_45_M24",
+      "PWPA009_120MM_AP_45_M24"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -148.0,
+      148.0
+     ],
+     "id": 4241089840,
+     "index": "PWGM051",
+     "numBarrels": 2,
+     "position": [
+      0.9,
+      1.0
+     ],
+     "rotationSpeed": [
+      8.0,
+      12.0
+     ],
+     "shotDelay": 7.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_2": {
+     "ammoList": [
+      "PWPA008_120MM_HE_45_M24",
+      "PWPA009_120MM_AP_45_M24"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      0.0,
+      0.0
+     ],
+     "id": 4267304240,
+     "index": "PWGM026",
+     "numBarrels": 1,
+     "position": [
+      3.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      8.0,
+      12.0
+     ],
+     "shotDelay": 7.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_3": {
+     "ammoList": [
+      "PWPA008_120MM_HE_45_M24",
+      "PWPA009_120MM_AP_45_M24"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -155.0,
+      155.0
+     ],
+     "id": 4267304240,
+     "index": "PWGM026",
+     "numBarrels": 1,
+     "position": [
+      5.7,
+      1.0
+     ],
+     "rotationSpeed": [
+      8.0,
+      12.0
+     ],
+     "shotDelay": 7.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
     }
    },
    "maxDist": 8610.0,
@@ -1669,62 +1685,64 @@
  },
  {
   "A1_Artillery": {
-   "HP_WGM_1": {
-    "ammoList": [
-     "PWPA016_120_HE_50_M50",
-     "PWPA017_120_AP_50_M50"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -152.0,
-     152.0
-    ],
-    "id": 4279887152,
-    "index": "PWGM014",
-    "numBarrels": 2,
-    "position": [
-     1.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     25.0,
-     40.0
-    ],
-    "shotDelay": 2.0,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_2": {
-    "ammoList": [
-     "PWPA016_120_HE_50_M50",
-     "PWPA017_120_AP_50_M50"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -149.0,
-     149.0
-    ],
-    "id": 4279887152,
-    "index": "PWGM014",
-    "numBarrels": 2,
-    "position": [
-     5.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     25.0,
-     40.0
-    ],
-    "shotDelay": 2.0,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
+   "guns": {
+    "HP_WGM_1": {
+     "ammoList": [
+      "PWPA016_120_HE_50_M50",
+      "PWPA017_120_AP_50_M50"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -152.0,
+      152.0
+     ],
+     "id": 4279887152,
+     "index": "PWGM014",
+     "numBarrels": 2,
+     "position": [
+      1.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      25.0,
+      40.0
+     ],
+     "shotDelay": 2.0,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_2": {
+     "ammoList": [
+      "PWPA016_120_HE_50_M50",
+      "PWPA017_120_AP_50_M50"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -149.0,
+      149.0
+     ],
+     "id": 4279887152,
+     "index": "PWGM014",
+     "numBarrels": 2,
+     "position": [
+      5.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      25.0,
+      40.0
+     ],
+     "shotDelay": 2.0,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
     }
    },
    "maxDist": 10450.0,
@@ -1736,52 +1754,54 @@
    "sigmaCountCoef": 1.0
   },
   "A1_Torpedoes": {
-   "HP_WGT_1": {
-    "ammoList": [
-     "PWPT010_Torped_M1947_mod1"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4260783408,
-    "index": "PWGT032",
-    "name": "PWGT032_533mm_5tube_SW",
-    "numBarrels": 5,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 100.0,
-    "torpedoAngles": [
-     3.0,
-     6.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
-    }
-   },
-   "HP_WGT_2": {
-    "ammoList": [
-     "PWPT010_Torped_M1947_mod1"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4260783408,
-    "index": "PWGT032",
-    "name": "PWGT032_533mm_5tube_SW",
-    "numBarrels": 5,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 100.0,
-    "torpedoAngles": [
-     3.0,
-     6.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
+   "torpedoArray": {
+    "HP_WGT_1": {
+     "ammoList": [
+      "PWPT010_Torped_M1947_mod1"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4260783408,
+     "index": "PWGT032",
+     "name": "PWGT032_533mm_5tube_SW",
+     "numBarrels": 5,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 100.0,
+     "torpedoAngles": [
+      3.0,
+      6.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
+    },
+    "HP_WGT_2": {
+     "ammoList": [
+      "PWPT010_Torped_M1947_mod1"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4260783408,
+     "index": "PWGT032",
+     "name": "PWGT032_533mm_5tube_SW",
+     "numBarrels": 5,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 100.0,
+     "torpedoAngles": [
+      3.0,
+      6.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
     }
    }
   },
@@ -2176,24 +2196,26 @@
     "minDistance": 3500.0,
     "type": "far"
    },
-   "HP_WGS_1": {
-    "ammoList": [
-     "PBPA004_102mm_HE_HE_35lbs"
-    ],
-    "id": 4241941808,
-    "index": "PWGS050",
-    "name": "PWGS050_4in_45_MK_V",
-    "numBarrels": 1,
-    "rotationSpeed": [
-     60.0,
-     1.0
-    ],
-    "shotDelay": 4.0,
-    "smallGun": true,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Secondary",
-     "type": "Gun"
+   "antiAirAndSecondaries": {
+    "HP_WGS_1": {
+     "ammoList": [
+      "PBPA004_102mm_HE_HE_35lbs"
+     ],
+     "id": 4241941808,
+     "index": "PWGS050",
+     "name": "PWGS050_4in_45_MK_V",
+     "numBarrels": 1,
+     "rotationSpeed": [
+      60.0,
+      1.0
+     ],
+     "shotDelay": 4.0,
+     "smallGun": true,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Secondary",
+      "type": "Gun"
+     }
     }
    },
    "maxDist": 5000.0,
@@ -2242,91 +2264,93 @@
     "minDistance": 3500.0,
     "type": "far"
    },
-   "HP_WGM_1": {
-    "ammoList": [
-     "PWPA022_120MM_HE_ORKAN",
-     "PWPA023_120MM_AP_ORKAN"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     0.0,
-     0.0
-    ],
-    "id": 4248429872,
-    "index": "PWGM044",
-    "numBarrels": 2,
-    "position": [
-     1.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     20.0,
-     50.0
-    ],
-    "shotDelay": 4.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_2": {
-    "ammoList": [
-     "PWPA022_120MM_HE_ORKAN",
-     "PWPA023_120MM_AP_ORKAN"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     0.0,
-     0.0
-    ],
-    "id": 4248429872,
-    "index": "PWGM044",
-    "numBarrels": 2,
-    "position": [
-     2.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     20.0,
-     50.0
-    ],
-    "shotDelay": 4.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_3": {
-    "ammoList": [
-     "PWPA022_120MM_HE_ORKAN",
-     "PWPA023_120MM_AP_ORKAN"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     0.0,
-     0.0
-    ],
-    "id": 4248429872,
-    "index": "PWGM044",
-    "numBarrels": 2,
-    "position": [
-     5.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     20.0,
-     50.0
-    ],
-    "shotDelay": 4.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
+   "guns": {
+    "HP_WGM_1": {
+     "ammoList": [
+      "PWPA022_120MM_HE_ORKAN",
+      "PWPA023_120MM_AP_ORKAN"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      0.0,
+      0.0
+     ],
+     "id": 4248429872,
+     "index": "PWGM044",
+     "numBarrels": 2,
+     "position": [
+      1.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      20.0,
+      50.0
+     ],
+     "shotDelay": 4.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_2": {
+     "ammoList": [
+      "PWPA022_120MM_HE_ORKAN",
+      "PWPA023_120MM_AP_ORKAN"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      0.0,
+      0.0
+     ],
+     "id": 4248429872,
+     "index": "PWGM044",
+     "numBarrels": 2,
+     "position": [
+      2.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      20.0,
+      50.0
+     ],
+     "shotDelay": 4.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_3": {
+     "ammoList": [
+      "PWPA022_120MM_HE_ORKAN",
+      "PWPA023_120MM_AP_ORKAN"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      0.0,
+      0.0
+     ],
+     "id": 4248429872,
+     "index": "PWGM044",
+     "numBarrels": 2,
+     "position": [
+      5.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      20.0,
+      50.0
+     ],
+     "shotDelay": 4.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
     }
    },
    "maxDist": 11610.0,
@@ -2334,92 +2358,94 @@
    "sigmaCount": 2.0
   },
   "A_DepthChargeGuns": {
-   "HP_WGB_1": {
-    "ammoList": [
-     "PWPD007_Depth_Charge_Arbor"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4263470384,
-    "index": "PWGB030",
-    "name": "PWGB030_Depth_Charge_Thornycroft",
-    "numBombs": 1,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_2": {
-    "ammoList": [
-     "PWPD007_Depth_Charge_Arbor"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4263470384,
-    "index": "PWGB030",
-    "name": "PWGB030_Depth_Charge_Thornycroft",
-    "numBombs": 1,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_3": {
-    "ammoList": [
-     "PWPD001_mk6_mod1"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4244596016,
-    "index": "PWGB048",
-    "name": "PWGB048_Depth_Charge_Shelving",
-    "numBombs": 2,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_4": {
-    "ammoList": [
-     "PWPD001_mk6_mod1"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4244596016,
-    "index": "PWGB048",
-    "name": "PWGB048_Depth_Charge_Shelving",
-    "numBombs": 2,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
+   "depthCharges": {
+    "HP_WGB_1": {
+     "ammoList": [
+      "PWPD007_Depth_Charge_Arbor"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4263470384,
+     "index": "PWGB030",
+     "name": "PWGB030_Depth_Charge_Thornycroft",
+     "numBombs": 1,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_2": {
+     "ammoList": [
+      "PWPD007_Depth_Charge_Arbor"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4263470384,
+     "index": "PWGB030",
+     "name": "PWGB030_Depth_Charge_Thornycroft",
+     "numBombs": 1,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_3": {
+     "ammoList": [
+      "PWPD001_mk6_mod1"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4244596016,
+     "index": "PWGB048",
+     "name": "PWGB048_Depth_Charge_Shelving",
+     "numBombs": 2,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_4": {
+     "ammoList": [
+      "PWPD001_mk6_mod1"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4244596016,
+     "index": "PWGB048",
+     "name": "PWGB048_Depth_Charge_Shelving",
+     "numBombs": 2,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
     }
    },
    "maxPacks": 2,
@@ -2480,28 +2506,30 @@
    }
   },
   "A_Torpedoes": {
-   "HP_WGT_1": {
-    "ammoList": [
-     "PWPT009_Torped_ORKAN"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4247151920,
-    "index": "PWGT045",
-    "name": "PWGT045_21in_Quad_Torpedo_Tube",
-    "numBarrels": 4,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 70.0,
-    "torpedoAngles": [
-     2.8,
-     5.6
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
+   "torpedoArray": {
+    "HP_WGT_1": {
+     "ammoList": [
+      "PWPT009_Torped_ORKAN"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4247151920,
+     "index": "PWGT045",
+     "name": "PWGT045_21in_Quad_Torpedo_Tube",
+     "numBarrels": 4,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 70.0,
+     "torpedoAngles": [
+      2.8,
+      5.6
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
     }
    }
   },
@@ -2706,244 +2734,246 @@
    "min_distance": 0
   },
   "A_ATBA": {
-   "HP_WGS_1": {
-    "ammoList": [
-     "PWPA005_150MM_HE_K10"
-    ],
-    "id": 4287030576,
-    "index": "PWGS007",
-    "name": "PWGS007_150_50_K10_Skoda",
-    "numBarrels": 1,
-    "rotationSpeed": [
-     60.0,
-     1.0
-    ],
-    "shotDelay": 10.0,
-    "smallGun": true,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Secondary",
-     "type": "Gun"
-    }
-   },
-   "HP_WGS_10": {
-    "ammoList": [
-     "PWPA005_150MM_HE_K10"
-    ],
-    "id": 4287030576,
-    "index": "PWGS007",
-    "name": "PWGS007_150_50_K10_Skoda",
-    "numBarrels": 1,
-    "rotationSpeed": [
-     60.0,
-     1.0
-    ],
-    "shotDelay": 10.0,
-    "smallGun": true,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Secondary",
-     "type": "Gun"
-    }
-   },
-   "HP_WGS_11": {
-    "ammoList": [
-     "PWPA005_150MM_HE_K10"
-    ],
-    "id": 4287030576,
-    "index": "PWGS007",
-    "name": "PWGS007_150_50_K10_Skoda",
-    "numBarrels": 1,
-    "rotationSpeed": [
-     60.0,
-     1.0
-    ],
-    "shotDelay": 10.0,
-    "smallGun": true,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Secondary",
-     "type": "Gun"
-    }
-   },
-   "HP_WGS_12": {
-    "ammoList": [
-     "PWPA005_150MM_HE_K10"
-    ],
-    "id": 4287030576,
-    "index": "PWGS007",
-    "name": "PWGS007_150_50_K10_Skoda",
-    "numBarrels": 1,
-    "rotationSpeed": [
-     60.0,
-     1.0
-    ],
-    "shotDelay": 10.0,
-    "smallGun": true,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Secondary",
-     "type": "Gun"
-    }
-   },
-   "HP_WGS_2": {
-    "ammoList": [
-     "PWPA005_150MM_HE_K10"
-    ],
-    "id": 4287030576,
-    "index": "PWGS007",
-    "name": "PWGS007_150_50_K10_Skoda",
-    "numBarrels": 1,
-    "rotationSpeed": [
-     60.0,
-     1.0
-    ],
-    "shotDelay": 10.0,
-    "smallGun": true,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Secondary",
-     "type": "Gun"
-    }
-   },
-   "HP_WGS_3": {
-    "ammoList": [
-     "PWPA005_150MM_HE_K10"
-    ],
-    "id": 4287030576,
-    "index": "PWGS007",
-    "name": "PWGS007_150_50_K10_Skoda",
-    "numBarrels": 1,
-    "rotationSpeed": [
-     60.0,
-     1.0
-    ],
-    "shotDelay": 10.0,
-    "smallGun": true,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Secondary",
-     "type": "Gun"
-    }
-   },
-   "HP_WGS_4": {
-    "ammoList": [
-     "PWPA005_150MM_HE_K10"
-    ],
-    "id": 4287030576,
-    "index": "PWGS007",
-    "name": "PWGS007_150_50_K10_Skoda",
-    "numBarrels": 1,
-    "rotationSpeed": [
-     60.0,
-     1.0
-    ],
-    "shotDelay": 10.0,
-    "smallGun": true,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Secondary",
-     "type": "Gun"
-    }
-   },
-   "HP_WGS_5": {
-    "ammoList": [
-     "PWPA005_150MM_HE_K10"
-    ],
-    "id": 4287030576,
-    "index": "PWGS007",
-    "name": "PWGS007_150_50_K10_Skoda",
-    "numBarrels": 1,
-    "rotationSpeed": [
-     60.0,
-     1.0
-    ],
-    "shotDelay": 10.0,
-    "smallGun": true,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Secondary",
-     "type": "Gun"
-    }
-   },
-   "HP_WGS_6": {
-    "ammoList": [
-     "PWPA005_150MM_HE_K10"
-    ],
-    "id": 4287030576,
-    "index": "PWGS007",
-    "name": "PWGS007_150_50_K10_Skoda",
-    "numBarrels": 1,
-    "rotationSpeed": [
-     60.0,
-     1.0
-    ],
-    "shotDelay": 10.0,
-    "smallGun": true,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Secondary",
-     "type": "Gun"
-    }
-   },
-   "HP_WGS_7": {
-    "ammoList": [
-     "PWPA005_150MM_HE_K10"
-    ],
-    "id": 4287030576,
-    "index": "PWGS007",
-    "name": "PWGS007_150_50_K10_Skoda",
-    "numBarrels": 1,
-    "rotationSpeed": [
-     60.0,
-     1.0
-    ],
-    "shotDelay": 10.0,
-    "smallGun": true,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Secondary",
-     "type": "Gun"
-    }
-   },
-   "HP_WGS_8": {
-    "ammoList": [
-     "PWPA005_150MM_HE_K10"
-    ],
-    "id": 4287030576,
-    "index": "PWGS007",
-    "name": "PWGS007_150_50_K10_Skoda",
-    "numBarrels": 1,
-    "rotationSpeed": [
-     60.0,
-     1.0
-    ],
-    "shotDelay": 10.0,
-    "smallGun": true,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Secondary",
-     "type": "Gun"
-    }
-   },
-   "HP_WGS_9": {
-    "ammoList": [
-     "PWPA005_150MM_HE_K10"
-    ],
-    "id": 4287030576,
-    "index": "PWGS007",
-    "name": "PWGS007_150_50_K10_Skoda",
-    "numBarrels": 1,
-    "rotationSpeed": [
-     60.0,
-     1.0
-    ],
-    "shotDelay": 10.0,
-    "smallGun": true,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Secondary",
-     "type": "Gun"
+   "antiAirAndSecondaries": {
+    "HP_WGS_1": {
+     "ammoList": [
+      "PWPA005_150MM_HE_K10"
+     ],
+     "id": 4287030576,
+     "index": "PWGS007",
+     "name": "PWGS007_150_50_K10_Skoda",
+     "numBarrels": 1,
+     "rotationSpeed": [
+      60.0,
+      1.0
+     ],
+     "shotDelay": 10.0,
+     "smallGun": true,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Secondary",
+      "type": "Gun"
+     }
+    },
+    "HP_WGS_10": {
+     "ammoList": [
+      "PWPA005_150MM_HE_K10"
+     ],
+     "id": 4287030576,
+     "index": "PWGS007",
+     "name": "PWGS007_150_50_K10_Skoda",
+     "numBarrels": 1,
+     "rotationSpeed": [
+      60.0,
+      1.0
+     ],
+     "shotDelay": 10.0,
+     "smallGun": true,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Secondary",
+      "type": "Gun"
+     }
+    },
+    "HP_WGS_11": {
+     "ammoList": [
+      "PWPA005_150MM_HE_K10"
+     ],
+     "id": 4287030576,
+     "index": "PWGS007",
+     "name": "PWGS007_150_50_K10_Skoda",
+     "numBarrels": 1,
+     "rotationSpeed": [
+      60.0,
+      1.0
+     ],
+     "shotDelay": 10.0,
+     "smallGun": true,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Secondary",
+      "type": "Gun"
+     }
+    },
+    "HP_WGS_12": {
+     "ammoList": [
+      "PWPA005_150MM_HE_K10"
+     ],
+     "id": 4287030576,
+     "index": "PWGS007",
+     "name": "PWGS007_150_50_K10_Skoda",
+     "numBarrels": 1,
+     "rotationSpeed": [
+      60.0,
+      1.0
+     ],
+     "shotDelay": 10.0,
+     "smallGun": true,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Secondary",
+      "type": "Gun"
+     }
+    },
+    "HP_WGS_2": {
+     "ammoList": [
+      "PWPA005_150MM_HE_K10"
+     ],
+     "id": 4287030576,
+     "index": "PWGS007",
+     "name": "PWGS007_150_50_K10_Skoda",
+     "numBarrels": 1,
+     "rotationSpeed": [
+      60.0,
+      1.0
+     ],
+     "shotDelay": 10.0,
+     "smallGun": true,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Secondary",
+      "type": "Gun"
+     }
+    },
+    "HP_WGS_3": {
+     "ammoList": [
+      "PWPA005_150MM_HE_K10"
+     ],
+     "id": 4287030576,
+     "index": "PWGS007",
+     "name": "PWGS007_150_50_K10_Skoda",
+     "numBarrels": 1,
+     "rotationSpeed": [
+      60.0,
+      1.0
+     ],
+     "shotDelay": 10.0,
+     "smallGun": true,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Secondary",
+      "type": "Gun"
+     }
+    },
+    "HP_WGS_4": {
+     "ammoList": [
+      "PWPA005_150MM_HE_K10"
+     ],
+     "id": 4287030576,
+     "index": "PWGS007",
+     "name": "PWGS007_150_50_K10_Skoda",
+     "numBarrels": 1,
+     "rotationSpeed": [
+      60.0,
+      1.0
+     ],
+     "shotDelay": 10.0,
+     "smallGun": true,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Secondary",
+      "type": "Gun"
+     }
+    },
+    "HP_WGS_5": {
+     "ammoList": [
+      "PWPA005_150MM_HE_K10"
+     ],
+     "id": 4287030576,
+     "index": "PWGS007",
+     "name": "PWGS007_150_50_K10_Skoda",
+     "numBarrels": 1,
+     "rotationSpeed": [
+      60.0,
+      1.0
+     ],
+     "shotDelay": 10.0,
+     "smallGun": true,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Secondary",
+      "type": "Gun"
+     }
+    },
+    "HP_WGS_6": {
+     "ammoList": [
+      "PWPA005_150MM_HE_K10"
+     ],
+     "id": 4287030576,
+     "index": "PWGS007",
+     "name": "PWGS007_150_50_K10_Skoda",
+     "numBarrels": 1,
+     "rotationSpeed": [
+      60.0,
+      1.0
+     ],
+     "shotDelay": 10.0,
+     "smallGun": true,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Secondary",
+      "type": "Gun"
+     }
+    },
+    "HP_WGS_7": {
+     "ammoList": [
+      "PWPA005_150MM_HE_K10"
+     ],
+     "id": 4287030576,
+     "index": "PWGS007",
+     "name": "PWGS007_150_50_K10_Skoda",
+     "numBarrels": 1,
+     "rotationSpeed": [
+      60.0,
+      1.0
+     ],
+     "shotDelay": 10.0,
+     "smallGun": true,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Secondary",
+      "type": "Gun"
+     }
+    },
+    "HP_WGS_8": {
+     "ammoList": [
+      "PWPA005_150MM_HE_K10"
+     ],
+     "id": 4287030576,
+     "index": "PWGS007",
+     "name": "PWGS007_150_50_K10_Skoda",
+     "numBarrels": 1,
+     "rotationSpeed": [
+      60.0,
+      1.0
+     ],
+     "shotDelay": 10.0,
+     "smallGun": true,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Secondary",
+      "type": "Gun"
+     }
+    },
+    "HP_WGS_9": {
+     "ammoList": [
+      "PWPA005_150MM_HE_K10"
+     ],
+     "id": 4287030576,
+     "index": "PWGS007",
+     "name": "PWGS007_150_50_K10_Skoda",
+     "numBarrels": 1,
+     "rotationSpeed": [
+      60.0,
+      1.0
+     ],
+     "shotDelay": 10.0,
+     "smallGun": true,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Secondary",
+      "type": "Gun"
+     }
     }
    },
    "maxDist": 4300.0,
@@ -2951,120 +2981,122 @@
   },
   "A_AirDefense": {},
   "A_Artillery": {
-   "HP_WGM_1": {
-    "ammoList": [
-     "PWPA003_305MM_HE_VIRIBUS",
-     "PWPA004_305MM_AP_VIRIBUS"
-    ],
-    "barrelDiameter": 0.305,
-    "horizSector": [
-     -140.0,
-     140.0
-    ],
-    "id": 4288275760,
-    "index": "PWGM006",
-    "numBarrels": 3,
-    "position": [
-     1.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     4.0,
-     2.5
-    ],
-    "shotDelay": 30.0,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_2": {
-    "ammoList": [
-     "PWPA003_305MM_HE_VIRIBUS",
-     "PWPA004_305MM_AP_VIRIBUS"
-    ],
-    "barrelDiameter": 0.305,
-    "horizSector": [
-     -140.0,
-     140.0
-    ],
-    "id": 4288275760,
-    "index": "PWGM006",
-    "numBarrels": 3,
-    "position": [
-     2.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     4.0,
-     2.5
-    ],
-    "shotDelay": 30.0,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_3": {
-    "ammoList": [
-     "PWPA003_305MM_HE_VIRIBUS",
-     "PWPA004_305MM_AP_VIRIBUS"
-    ],
-    "barrelDiameter": 0.305,
-    "horizSector": [
-     -133.0,
-     133.0
-    ],
-    "id": 4288275760,
-    "index": "PWGM006",
-    "numBarrels": 3,
-    "position": [
-     4.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     4.0,
-     2.5
-    ],
-    "shotDelay": 30.0,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_4": {
-    "ammoList": [
-     "PWPA003_305MM_HE_VIRIBUS",
-     "PWPA004_305MM_AP_VIRIBUS"
-    ],
-    "barrelDiameter": 0.305,
-    "horizSector": [
-     -133.0,
-     133.0
-    ],
-    "id": 4288275760,
-    "index": "PWGM006",
-    "numBarrels": 3,
-    "position": [
-     5.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     4.0,
-     2.5
-    ],
-    "shotDelay": 30.0,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
+   "guns": {
+    "HP_WGM_1": {
+     "ammoList": [
+      "PWPA003_305MM_HE_VIRIBUS",
+      "PWPA004_305MM_AP_VIRIBUS"
+     ],
+     "barrelDiameter": 0.305,
+     "horizSector": [
+      -140.0,
+      140.0
+     ],
+     "id": 4288275760,
+     "index": "PWGM006",
+     "numBarrels": 3,
+     "position": [
+      1.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      4.0,
+      2.5
+     ],
+     "shotDelay": 30.0,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_2": {
+     "ammoList": [
+      "PWPA003_305MM_HE_VIRIBUS",
+      "PWPA004_305MM_AP_VIRIBUS"
+     ],
+     "barrelDiameter": 0.305,
+     "horizSector": [
+      -140.0,
+      140.0
+     ],
+     "id": 4288275760,
+     "index": "PWGM006",
+     "numBarrels": 3,
+     "position": [
+      2.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      4.0,
+      2.5
+     ],
+     "shotDelay": 30.0,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_3": {
+     "ammoList": [
+      "PWPA003_305MM_HE_VIRIBUS",
+      "PWPA004_305MM_AP_VIRIBUS"
+     ],
+     "barrelDiameter": 0.305,
+     "horizSector": [
+      -133.0,
+      133.0
+     ],
+     "id": 4288275760,
+     "index": "PWGM006",
+     "numBarrels": 3,
+     "position": [
+      4.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      4.0,
+      2.5
+     ],
+     "shotDelay": 30.0,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_4": {
+     "ammoList": [
+      "PWPA003_305MM_HE_VIRIBUS",
+      "PWPA004_305MM_AP_VIRIBUS"
+     ],
+     "barrelDiameter": 0.305,
+     "horizSector": [
+      -133.0,
+      133.0
+     ],
+     "id": 4288275760,
+     "index": "PWGM006",
+     "numBarrels": 3,
+     "position": [
+      5.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      4.0,
+      2.5
+     ],
+     "shotDelay": 30.0,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
     }
    },
    "maxDist": 16000.0,
@@ -3328,116 +3360,118 @@
   },
   "A_AirDefense": {},
   "A_Artillery": {
-   "HP_WGM_1": {
-    "ammoList": [
-     "PWPA006_120_HE_GRYF"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -138.0,
-     138.0
-    ],
-    "id": 4243186992,
-    "index": "PWGM049",
-    "numBarrels": 2,
-    "position": [
-     0.7,
-     1.0
-    ],
-    "rotationSpeed": [
-     10.0,
-     10.0
-    ],
-    "shotDelay": 3.4,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_2": {
-    "ammoList": [
-     "PWPA006_120_HE_GRYF"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -145.0,
-     145.0
-    ],
-    "id": 4290372912,
-    "index": "PWGM004",
-    "numBarrels": 1,
-    "position": [
-     1.7,
-     1.0
-    ],
-    "rotationSpeed": [
-     10.0,
-     10.0
-    ],
-    "shotDelay": 3.4,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_3": {
-    "ammoList": [
-     "PWPA006_120_HE_GRYF"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -140.0,
-     140.0
-    ],
-    "id": 4290372912,
-    "index": "PWGM004",
-    "numBarrels": 1,
-    "position": [
-     4.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     10.0,
-     10.0
-    ],
-    "shotDelay": 3.4,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_4": {
-    "ammoList": [
-     "PWPA006_120_HE_GRYF"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -132.0,
-     132.0
-    ],
-    "id": 4243186992,
-    "index": "PWGM049",
-    "numBarrels": 2,
-    "position": [
-     5.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     10.0,
-     10.0
-    ],
-    "shotDelay": 3.4,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
+   "guns": {
+    "HP_WGM_1": {
+     "ammoList": [
+      "PWPA006_120_HE_GRYF"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -138.0,
+      138.0
+     ],
+     "id": 4243186992,
+     "index": "PWGM049",
+     "numBarrels": 2,
+     "position": [
+      0.7,
+      1.0
+     ],
+     "rotationSpeed": [
+      10.0,
+      10.0
+     ],
+     "shotDelay": 3.4,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_2": {
+     "ammoList": [
+      "PWPA006_120_HE_GRYF"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -145.0,
+      145.0
+     ],
+     "id": 4290372912,
+     "index": "PWGM004",
+     "numBarrels": 1,
+     "position": [
+      1.7,
+      1.0
+     ],
+     "rotationSpeed": [
+      10.0,
+      10.0
+     ],
+     "shotDelay": 3.4,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_3": {
+     "ammoList": [
+      "PWPA006_120_HE_GRYF"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -140.0,
+      140.0
+     ],
+     "id": 4290372912,
+     "index": "PWGM004",
+     "numBarrels": 1,
+     "position": [
+      4.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      10.0,
+      10.0
+     ],
+     "shotDelay": 3.4,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_4": {
+     "ammoList": [
+      "PWPA006_120_HE_GRYF"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -132.0,
+      132.0
+     ],
+     "id": 4243186992,
+     "index": "PWGM049",
+     "numBarrels": 2,
+     "position": [
+      5.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      10.0,
+      10.0
+     ],
+     "shotDelay": 3.4,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
     }
    },
    "maxDist": 10740.0,
@@ -3650,62 +3684,64 @@
  },
  {
   "AB1_Artillery": {
-   "HP_WGM_1": {
-    "ammoList": [
-     "PWPA012_120_50_HE_M42",
-     "PWPA013_120_50_AP_M42"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -152.0,
-     152.0
-    ],
-    "id": 4284081456,
-    "index": "PWGM010",
-    "numBarrels": 2,
-    "position": [
-     1.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     10.0,
-     10.0
-    ],
-    "shotDelay": 2.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_2": {
-    "ammoList": [
-     "PWPA012_120_50_HE_M42",
-     "PWPA013_120_50_AP_M42"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     0.0,
-     0.0
-    ],
-    "id": 4284081456,
-    "index": "PWGM010",
-    "numBarrels": 2,
-    "position": [
-     5.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     10.0,
-     10.0
-    ],
-    "shotDelay": 2.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
+   "guns": {
+    "HP_WGM_1": {
+     "ammoList": [
+      "PWPA012_120_50_HE_M42",
+      "PWPA013_120_50_AP_M42"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -152.0,
+      152.0
+     ],
+     "id": 4284081456,
+     "index": "PWGM010",
+     "numBarrels": 2,
+     "position": [
+      1.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      10.0,
+      10.0
+     ],
+     "shotDelay": 2.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_2": {
+     "ammoList": [
+      "PWPA012_120_50_HE_M42",
+      "PWPA013_120_50_AP_M42"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      0.0,
+      0.0
+     ],
+     "id": 4284081456,
+     "index": "PWGM010",
+     "numBarrels": 2,
+     "position": [
+      5.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      10.0,
+      10.0
+     ],
+     "shotDelay": 2.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
     }
    },
    "maxDist": 9160.0,
@@ -3717,52 +3753,54 @@
    "sigmaCountCoef": 1.0
   },
   "AB1_Torpedoes": {
-   "HP_WGT_1": {
-    "ammoList": [
-     "PWPT005_Torped_M1943"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4274414896,
-    "index": "PWGT019",
-    "name": "PWGT019_533mm_3tube_SW",
-    "numBarrels": 3,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 59.0,
-    "torpedoAngles": [
-     2.6,
-     5.2
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
-    }
-   },
-   "HP_WGT_2": {
-    "ammoList": [
-     "PWPT005_Torped_M1943"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4274414896,
-    "index": "PWGT019",
-    "name": "PWGT019_533mm_3tube_SW",
-    "numBarrels": 3,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 59.0,
-    "torpedoAngles": [
-     2.6,
-     5.2
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
+   "torpedoArray": {
+    "HP_WGT_1": {
+     "ammoList": [
+      "PWPT005_Torped_M1943"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4274414896,
+     "index": "PWGT019",
+     "name": "PWGT019_533mm_3tube_SW",
+     "numBarrels": 3,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 59.0,
+     "torpedoAngles": [
+      2.6,
+      5.2
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
+    },
+    "HP_WGT_2": {
+     "ammoList": [
+      "PWPT005_Torped_M1943"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4274414896,
+     "index": "PWGT019",
+     "name": "PWGT019_533mm_3tube_SW",
+     "numBarrels": 3,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 59.0,
+     "torpedoAngles": [
+      2.6,
+      5.2
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
     }
    }
   },
@@ -3771,142 +3809,146 @@
    "sigmaCountCoef": 1.0
   },
   "AB2_Torpedoes": {
-   "HP_WGT_1": {
-    "ammoList": [
-     "PWPT006_Torped_M1943_mod1"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4274414896,
-    "index": "PWGT019",
-    "name": "PWGT019_533mm_3tube_SW",
-    "numBarrels": 3,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 70.0,
-    "torpedoAngles": [
-     2.6,
-     5.2
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
-    }
-   },
-   "HP_WGT_2": {
-    "ammoList": [
-     "PWPT006_Torped_M1943_mod1"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4274414896,
-    "index": "PWGT019",
-    "name": "PWGT019_533mm_3tube_SW",
-    "numBarrels": 3,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 70.0,
-    "torpedoAngles": [
-     2.6,
-     5.2
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
+   "torpedoArray": {
+    "HP_WGT_1": {
+     "ammoList": [
+      "PWPT006_Torped_M1943_mod1"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4274414896,
+     "index": "PWGT019",
+     "name": "PWGT019_533mm_3tube_SW",
+     "numBarrels": 3,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 70.0,
+     "torpedoAngles": [
+      2.6,
+      5.2
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
+    },
+    "HP_WGT_2": {
+     "ammoList": [
+      "PWPT006_Torped_M1943_mod1"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4274414896,
+     "index": "PWGT019",
+     "name": "PWGT019_533mm_3tube_SW",
+     "numBarrels": 3,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 70.0,
+     "torpedoAngles": [
+      2.6,
+      5.2
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
     }
    }
   },
   "AB_DepthChargeGuns": {
-   "HP_WGB_1": {
-    "ammoList": [
-     "PWPD005_375_shoot"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4273956144,
-    "index": "PWGB020",
-    "name": "PWGB020_450_DC_Thrower_SW",
-    "numBombs": 1,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_2": {
-    "ammoList": [
-     "PWPD005_375_shoot"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4273956144,
-    "index": "PWGB020",
-    "name": "PWGB020_450_DC_Thrower_SW",
-    "numBombs": 1,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_3": {
-    "ammoList": [
-     "PWPD005_375_shoot"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4273956144,
-    "index": "PWGB020",
-    "name": "PWGB020_450_DC_Thrower_SW",
-    "numBombs": 1,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_4": {
-    "ammoList": [
-     "PWPD005_375_shoot"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4273956144,
-    "index": "PWGB020",
-    "name": "PWGB020_450_DC_Thrower_SW",
-    "numBombs": 1,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
+   "depthCharges": {
+    "HP_WGB_1": {
+     "ammoList": [
+      "PWPD005_375_shoot"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4273956144,
+     "index": "PWGB020",
+     "name": "PWGB020_450_DC_Thrower_SW",
+     "numBombs": 1,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_2": {
+     "ammoList": [
+      "PWPD005_375_shoot"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4273956144,
+     "index": "PWGB020",
+     "name": "PWGB020_450_DC_Thrower_SW",
+     "numBombs": 1,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_3": {
+     "ammoList": [
+      "PWPD005_375_shoot"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4273956144,
+     "index": "PWGB020",
+     "name": "PWGB020_450_DC_Thrower_SW",
+     "numBombs": 1,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_4": {
+     "ammoList": [
+      "PWPD005_375_shoot"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4273956144,
+     "index": "PWGB020",
+     "name": "PWGB020_450_DC_Thrower_SW",
+     "numBombs": 1,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
     }
    },
    "maxPacks": 1,
@@ -4284,48 +4326,50 @@
    "min_distance": 0
   },
   "A_DepthChargeGuns": {
-   "HP_WGB_1": {
-    "ammoList": [
-     "PWPD001_mk6_mod1"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4239353136,
-    "index": "PWGB053",
-    "name": "PWGB053_Smaland_Depth_Charge_fake",
-    "numBombs": 3,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_2": {
-    "ammoList": [
-     "PWPD001_mk6_mod1"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4239353136,
-    "index": "PWGB053",
-    "name": "PWGB053_Smaland_Depth_Charge_fake",
-    "numBombs": 3,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
+   "depthCharges": {
+    "HP_WGB_1": {
+     "ammoList": [
+      "PWPD001_mk6_mod1"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4239353136,
+     "index": "PWGB053",
+     "name": "PWGB053_Smaland_Depth_Charge_fake",
+     "numBombs": 3,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_2": {
+     "ammoList": [
+      "PWPD001_mk6_mod1"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4239353136,
+     "index": "PWGB053",
+     "name": "PWGB053_Smaland_Depth_Charge_fake",
+     "numBombs": 3,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
     }
    },
    "maxPacks": 2,
@@ -4354,120 +4398,122 @@
    }
   },
   "ArtilleryDefault": {
-   "HP_WGM_1": {
-    "ammoList": [
-     "PWPA001_120_HE_BLYSKAWICA",
-     "PWPA002_120_AP_BLYSKAWICA"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -148.0,
-     148.0
-    ],
-    "id": 4290372912,
-    "index": "PWGM004",
-    "numBarrels": 1,
-    "position": [
-     0.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     10.0,
-     10.0
-    ],
-    "shotDelay": 6.0,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_2": {
-    "ammoList": [
-     "PWPA001_120_HE_BLYSKAWICA",
-     "PWPA002_120_AP_BLYSKAWICA"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -148.0,
-     148.0
-    ],
-    "id": 4291421488,
-    "index": "PWGM003",
-    "numBarrels": 2,
-    "position": [
-     1.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     10.0,
-     10.0
-    ],
-    "shotDelay": 6.0,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_3": {
-    "ammoList": [
-     "PWPA001_120_HE_BLYSKAWICA",
-     "PWPA002_120_AP_BLYSKAWICA"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4291421488,
-    "index": "PWGM003",
-    "numBarrels": 2,
-    "position": [
-     4.5,
-     1.0
-    ],
-    "rotationSpeed": [
-     10.0,
-     10.0
-    ],
-    "shotDelay": 6.0,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_4": {
-    "ammoList": [
-     "PWPA001_120_HE_BLYSKAWICA",
-     "PWPA002_120_AP_BLYSKAWICA"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4291421488,
-    "index": "PWGM003",
-    "numBarrels": 2,
-    "position": [
-     5.5,
-     1.0
-    ],
-    "rotationSpeed": [
-     10.0,
-     10.0
-    ],
-    "shotDelay": 6.0,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
+   "guns": {
+    "HP_WGM_1": {
+     "ammoList": [
+      "PWPA001_120_HE_BLYSKAWICA",
+      "PWPA002_120_AP_BLYSKAWICA"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -148.0,
+      148.0
+     ],
+     "id": 4290372912,
+     "index": "PWGM004",
+     "numBarrels": 1,
+     "position": [
+      0.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      10.0,
+      10.0
+     ],
+     "shotDelay": 6.0,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_2": {
+     "ammoList": [
+      "PWPA001_120_HE_BLYSKAWICA",
+      "PWPA002_120_AP_BLYSKAWICA"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -148.0,
+      148.0
+     ],
+     "id": 4291421488,
+     "index": "PWGM003",
+     "numBarrels": 2,
+     "position": [
+      1.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      10.0,
+      10.0
+     ],
+     "shotDelay": 6.0,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_3": {
+     "ammoList": [
+      "PWPA001_120_HE_BLYSKAWICA",
+      "PWPA002_120_AP_BLYSKAWICA"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4291421488,
+     "index": "PWGM003",
+     "numBarrels": 2,
+     "position": [
+      4.5,
+      1.0
+     ],
+     "rotationSpeed": [
+      10.0,
+      10.0
+     ],
+     "shotDelay": 6.0,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_4": {
+     "ammoList": [
+      "PWPA001_120_HE_BLYSKAWICA",
+      "PWPA002_120_AP_BLYSKAWICA"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4291421488,
+     "index": "PWGM003",
+     "numBarrels": 2,
+     "position": [
+      5.5,
+      1.0
+     ],
+     "rotationSpeed": [
+      10.0,
+      10.0
+     ],
+     "shotDelay": 6.0,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
     }
    },
    "maxDist": 12010.0,
@@ -4652,52 +4698,54 @@
    "modifiers": {}
   },
   "TorpedoesDefault": {
-   "HP_WGT_1": {
-    "ammoList": [
-     "PWPT001_550_MARK_X"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4289094960,
-    "index": "PWGT005",
-    "name": "PWGT005_21in_MkX_Torpedo_Tube",
-    "numBarrels": 3,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 70.0,
-    "torpedoAngles": [
-     3.6,
-     12.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
-    }
-   },
-   "HP_WGT_2": {
-    "ammoList": [
-     "PWPT001_550_MARK_X"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4289094960,
-    "index": "PWGT005",
-    "name": "PWGT005_21in_MkX_Torpedo_Tube",
-    "numBarrels": 3,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 70.0,
-    "torpedoAngles": [
-     3.6,
-     12.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
+   "torpedoArray": {
+    "HP_WGT_1": {
+     "ammoList": [
+      "PWPT001_550_MARK_X"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4289094960,
+     "index": "PWGT005",
+     "name": "PWGT005_21in_MkX_Torpedo_Tube",
+     "numBarrels": 3,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 70.0,
+     "torpedoAngles": [
+      3.6,
+      12.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
+    },
+    "HP_WGT_2": {
+     "ammoList": [
+      "PWPT001_550_MARK_X"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4289094960,
+     "index": "PWGT005",
+     "name": "PWGT005_21in_MkX_Torpedo_Tube",
+     "numBarrels": 3,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 70.0,
+     "torpedoAngles": [
+      3.6,
+      12.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
     }
    }
   },
@@ -4793,62 +4841,64 @@
   },
   "A_AirDefense": {},
   "A_Artillery": {
-   "HP_WGM_1": {
-    "ammoList": [
-     "PWPA024_152MM_HE_RAGNAR",
-     "PWPA025_152MM_AP_RAGNAR"
-    ],
-    "barrelDiameter": 0.152,
-    "horizSector": [
-     0.0,
-     0.0
-    ],
-    "id": 4240041264,
-    "index": "PWGM052",
-    "numBarrels": 2,
-    "position": [
-     1.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     25.0,
-     40.0
-    ],
-    "shotDelay": 3.2,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_2": {
-    "ammoList": [
-     "PWPA024_152MM_HE_RAGNAR",
-     "PWPA025_152MM_AP_RAGNAR"
-    ],
-    "barrelDiameter": 0.152,
-    "horizSector": [
-     0.0,
-     0.0
-    ],
-    "id": 4240041264,
-    "index": "PWGM052",
-    "numBarrels": 2,
-    "position": [
-     4.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     25.0,
-     40.0
-    ],
-    "shotDelay": 3.2,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
+   "guns": {
+    "HP_WGM_1": {
+     "ammoList": [
+      "PWPA024_152MM_HE_RAGNAR",
+      "PWPA025_152MM_AP_RAGNAR"
+     ],
+     "barrelDiameter": 0.152,
+     "horizSector": [
+      0.0,
+      0.0
+     ],
+     "id": 4240041264,
+     "index": "PWGM052",
+     "numBarrels": 2,
+     "position": [
+      1.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      25.0,
+      40.0
+     ],
+     "shotDelay": 3.2,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_2": {
+     "ammoList": [
+      "PWPA024_152MM_HE_RAGNAR",
+      "PWPA025_152MM_AP_RAGNAR"
+     ],
+     "barrelDiameter": 0.152,
+     "horizSector": [
+      0.0,
+      0.0
+     ],
+     "id": 4240041264,
+     "index": "PWGM052",
+     "numBarrels": 2,
+     "position": [
+      4.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      25.0,
+      40.0
+     ],
+     "shotDelay": 3.2,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
     }
    },
    "maxDist": 13000.0,
@@ -4856,26 +4906,28 @@
    "sigmaCount": 2.0
   },
   "A_DepthChargeGuns": {
-   "HP_WGB_1": {
-    "ammoList": [
-     "PHPD004_375MM"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4254033200,
-    "index": "PWGB039",
-    "name": "PWGB039_Bofors_375mm_model_1950",
-    "numBombs": 4,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
+   "depthCharges": {
+    "HP_WGB_1": {
+     "ammoList": [
+      "PHPD004_375MM"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4254033200,
+     "index": "PWGB039",
+     "name": "PWGB039_Bofors_375mm_model_1950",
+     "numBombs": 4,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
     }
    },
    "maxPacks": 2,
@@ -5313,62 +5365,64 @@
    "min_distance": 0
   },
   "A_Artillery": {
-   "HP_WGM_1": {
-    "ammoList": [
-     "PWPA014_100MM_HE_50_K11",
-     "PWPA015_100MM_AP_50_K11"
-    ],
-    "barrelDiameter": 0.1,
-    "horizSector": [
-     -145.0,
-     145.0
-    ],
-    "id": 4285130032,
-    "index": "PWGM009",
-    "numBarrels": 1,
-    "position": [
-     0.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     10.0,
-     10.0
-    ],
-    "shotDelay": 4.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_2": {
-    "ammoList": [
-     "PWPA014_100MM_HE_50_K11",
-     "PWPA015_100MM_AP_50_K11"
-    ],
-    "barrelDiameter": 0.1,
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4285130032,
-    "index": "PWGM009",
-    "numBarrels": 1,
-    "position": [
-     6.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     10.0,
-     10.0
-    ],
-    "shotDelay": 4.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
+   "guns": {
+    "HP_WGM_1": {
+     "ammoList": [
+      "PWPA014_100MM_HE_50_K11",
+      "PWPA015_100MM_AP_50_K11"
+     ],
+     "barrelDiameter": 0.1,
+     "horizSector": [
+      -145.0,
+      145.0
+     ],
+     "id": 4285130032,
+     "index": "PWGM009",
+     "numBarrels": 1,
+     "position": [
+      0.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      10.0,
+      10.0
+     ],
+     "shotDelay": 4.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_2": {
+     "ammoList": [
+      "PWPA014_100MM_HE_50_K11",
+      "PWPA015_100MM_AP_50_K11"
+     ],
+     "barrelDiameter": 0.1,
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4285130032,
+     "index": "PWGM009",
+     "numBarrels": 1,
+     "position": [
+      6.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      10.0,
+      10.0
+     ],
+     "shotDelay": 4.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
     }
    },
    "maxDist": 8300.0,
@@ -5385,52 +5439,54 @@
    "visibilityFactorByPlane": 2.43
   },
   "A_Torpedoes": {
-   "HP_WGT_1": {
-    "ammoList": [
-     "PWPT002_Torped_M1913"
-    ],
-    "barrelDiameter": 0.45,
-    "id": 4275463472,
-    "index": "PWGT018",
-    "name": "PWGT018_450mm_twin_AW",
-    "numBarrels": 2,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 30.0,
-    "torpedoAngles": [
-     2.4,
-     4.8
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
-    }
-   },
-   "HP_WGT_2": {
-    "ammoList": [
-     "PWPT002_Torped_M1913"
-    ],
-    "barrelDiameter": 0.45,
-    "id": 4275463472,
-    "index": "PWGT018",
-    "name": "PWGT018_450mm_twin_AW",
-    "numBarrels": 2,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 30.0,
-    "torpedoAngles": [
-     2.4,
-     4.8
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
+   "torpedoArray": {
+    "HP_WGT_1": {
+     "ammoList": [
+      "PWPT002_Torped_M1913"
+     ],
+     "barrelDiameter": 0.45,
+     "id": 4275463472,
+     "index": "PWGT018",
+     "name": "PWGT018_450mm_twin_AW",
+     "numBarrels": 2,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 30.0,
+     "torpedoAngles": [
+      2.4,
+      4.8
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
+    },
+    "HP_WGT_2": {
+     "ammoList": [
+      "PWPT002_Torped_M1913"
+     ],
+     "barrelDiameter": 0.45,
+     "id": 4275463472,
+     "index": "PWGT018",
+     "name": "PWGT018_450mm_twin_AW",
+     "numBarrels": 2,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 30.0,
+     "torpedoAngles": [
+      2.4,
+      4.8
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
     }
    }
   },
@@ -5444,52 +5500,54 @@
    "visibilityFactorByPlane": 2.43
   },
   "B_Torpedoes": {
-   "HP_WGT_1": {
-    "ammoList": [
-     "PWPT002_Torped_M1913"
-    ],
-    "barrelDiameter": 0.45,
-    "id": 4259734832,
-    "index": "PWGT033",
-    "name": "PWGT033_450mm_triple_AW",
-    "numBarrels": 3,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 40.0,
-    "torpedoAngles": [
-     2.6,
-     5.2
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
-    }
-   },
-   "HP_WGT_2": {
-    "ammoList": [
-     "PWPT002_Torped_M1913"
-    ],
-    "barrelDiameter": 0.45,
-    "id": 4259734832,
-    "index": "PWGT033",
-    "name": "PWGT033_450mm_triple_AW",
-    "numBarrels": 3,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 40.0,
-    "torpedoAngles": [
-     2.6,
-     5.2
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
+   "torpedoArray": {
+    "HP_WGT_1": {
+     "ammoList": [
+      "PWPT002_Torped_M1913"
+     ],
+     "barrelDiameter": 0.45,
+     "id": 4259734832,
+     "index": "PWGT033",
+     "name": "PWGT033_450mm_triple_AW",
+     "numBarrels": 3,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 40.0,
+     "torpedoAngles": [
+      2.6,
+      5.2
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
+    },
+    "HP_WGT_2": {
+     "ammoList": [
+      "PWPT002_Torped_M1913"
+     ],
+     "barrelDiameter": 0.45,
+     "id": 4259734832,
+     "index": "PWGT033",
+     "name": "PWGT033_450mm_triple_AW",
+     "numBarrels": 3,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 40.0,
+     "torpedoAngles": [
+      2.6,
+      5.2
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
     }
    }
   },
@@ -5705,62 +5763,64 @@
  },
  {
   "A1_Artillery": {
-   "HP_WGM_1": {
-    "ammoList": [
-     "PWPA016_120_HE_50_M50",
-     "PWPA017_120_AP_50_M50"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -152.0,
-     152.0
-    ],
-    "id": 4279887152,
-    "index": "PWGM014",
-    "numBarrels": 2,
-    "position": [
-     1.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     25.0,
-     40.0
-    ],
-    "shotDelay": 2.0,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_2": {
-    "ammoList": [
-     "PWPA016_120_HE_50_M50",
-     "PWPA017_120_AP_50_M50"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -149.0,
-     149.0
-    ],
-    "id": 4279887152,
-    "index": "PWGM014",
-    "numBarrels": 2,
-    "position": [
-     5.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     25.0,
-     40.0
-    ],
-    "shotDelay": 2.0,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
+   "guns": {
+    "HP_WGM_1": {
+     "ammoList": [
+      "PWPA016_120_HE_50_M50",
+      "PWPA017_120_AP_50_M50"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -152.0,
+      152.0
+     ],
+     "id": 4279887152,
+     "index": "PWGM014",
+     "numBarrels": 2,
+     "position": [
+      1.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      25.0,
+      40.0
+     ],
+     "shotDelay": 2.0,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_2": {
+     "ammoList": [
+      "PWPA016_120_HE_50_M50",
+      "PWPA017_120_AP_50_M50"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -149.0,
+      149.0
+     ],
+     "id": 4279887152,
+     "index": "PWGM014",
+     "numBarrels": 2,
+     "position": [
+      5.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      25.0,
+      40.0
+     ],
+     "shotDelay": 2.0,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
     }
    },
    "maxDist": 10450.0,
@@ -5772,52 +5832,54 @@
    "sigmaCountCoef": 1.0
   },
   "A1_Torpedoes": {
-   "HP_WGT_1": {
-    "ammoList": [
-     "PWPT010_Torped_M1947_mod1"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4260783408,
-    "index": "PWGT032",
-    "name": "PWGT032_533mm_5tube_SW",
-    "numBarrels": 5,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 100.0,
-    "torpedoAngles": [
-     3.0,
-     6.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
-    }
-   },
-   "HP_WGT_2": {
-    "ammoList": [
-     "PWPT010_Torped_M1947_mod1"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4260783408,
-    "index": "PWGT032",
-    "name": "PWGT032_533mm_5tube_SW",
-    "numBarrels": 5,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 100.0,
-    "torpedoAngles": [
-     3.0,
-     6.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
+   "torpedoArray": {
+    "HP_WGT_1": {
+     "ammoList": [
+      "PWPT010_Torped_M1947_mod1"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4260783408,
+     "index": "PWGT032",
+     "name": "PWGT032_533mm_5tube_SW",
+     "numBarrels": 5,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 100.0,
+     "torpedoAngles": [
+      3.0,
+      6.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
+    },
+    "HP_WGT_2": {
+     "ammoList": [
+      "PWPT010_Torped_M1947_mod1"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4260783408,
+     "index": "PWGT032",
+     "name": "PWGT032_533mm_5tube_SW",
+     "numBarrels": 5,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 100.0,
+     "torpedoAngles": [
+      3.0,
+      6.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
     }
    }
   },
@@ -5828,92 +5890,94 @@
   },
   "A_AirDefense": {},
   "A_DepthChargeGuns": {
-   "HP_WGB_1": {
-    "ammoList": [
-     "PHPD004_375MM"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4254033200,
-    "index": "PWGB039",
-    "name": "PWGB039_Bofors_375mm_model_1950",
-    "numBombs": 4,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_2": {
-    "ammoList": [
-     "PHPD004_375MM"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4254033200,
-    "index": "PWGB039",
-    "name": "PWGB039_Bofors_375mm_model_1950",
-    "numBombs": 4,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_3": {
-    "ammoList": [
-     "PWPD004_375"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4239353136,
-    "index": "PWGB053",
-    "name": "PWGB053_Smaland_Depth_Charge_fake",
-    "numBombs": 0,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_4": {
-    "ammoList": [
-     "PWPD004_375"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4239353136,
-    "index": "PWGB053",
-    "name": "PWGB053_Smaland_Depth_Charge_fake",
-    "numBombs": 0,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
+   "depthCharges": {
+    "HP_WGB_1": {
+     "ammoList": [
+      "PHPD004_375MM"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4254033200,
+     "index": "PWGB039",
+     "name": "PWGB039_Bofors_375mm_model_1950",
+     "numBombs": 4,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_2": {
+     "ammoList": [
+      "PHPD004_375MM"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4254033200,
+     "index": "PWGB039",
+     "name": "PWGB039_Bofors_375mm_model_1950",
+     "numBombs": 4,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_3": {
+     "ammoList": [
+      "PWPD004_375"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4239353136,
+     "index": "PWGB053",
+     "name": "PWGB053_Smaland_Depth_Charge_fake",
+     "numBombs": 0,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_4": {
+     "ammoList": [
+      "PWPD004_375"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4239353136,
+     "index": "PWGB053",
+     "name": "PWGB053_Smaland_Depth_Charge_fake",
+     "numBombs": 0,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
     }
    },
    "maxPacks": 2,
@@ -6282,62 +6346,64 @@
  },
  {
   "AB1_Artillery": {
-   "HP_WGM_1": {
-    "ammoList": [
-     "PWPA012_120_50_HE_M42",
-     "PWPA013_120_50_AP_M42"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -149.0,
-     149.0
-    ],
-    "id": 4284081456,
-    "index": "PWGM010",
-    "numBarrels": 2,
-    "position": [
-     1.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     10.0,
-     10.0
-    ],
-    "shotDelay": 2.3,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_2": {
-    "ammoList": [
-     "PWPA012_120_50_HE_M42",
-     "PWPA013_120_50_AP_M42"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4284081456,
-    "index": "PWGM010",
-    "numBarrels": 2,
-    "position": [
-     5.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     10.0,
-     10.0
-    ],
-    "shotDelay": 2.3,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
+   "guns": {
+    "HP_WGM_1": {
+     "ammoList": [
+      "PWPA012_120_50_HE_M42",
+      "PWPA013_120_50_AP_M42"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -149.0,
+      149.0
+     ],
+     "id": 4284081456,
+     "index": "PWGM010",
+     "numBarrels": 2,
+     "position": [
+      1.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      10.0,
+      10.0
+     ],
+     "shotDelay": 2.3,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_2": {
+     "ammoList": [
+      "PWPA012_120_50_HE_M42",
+      "PWPA013_120_50_AP_M42"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4284081456,
+     "index": "PWGM010",
+     "numBarrels": 2,
+     "position": [
+      5.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      10.0,
+      10.0
+     ],
+     "shotDelay": 2.3,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
     }
    },
    "maxDist": 9270.0,
@@ -6354,52 +6420,54 @@
    "sigmaCountCoef": 1.0
   },
   "AB1_Torpedoes": {
-   "HP_WGT_1": {
-    "ammoList": [
-     "PWPT006_Torped_M1943_mod1"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4249249072,
-    "index": "PWGT043",
-    "name": "PWGT043_533mm_4tube_SW",
-    "numBarrels": 4,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 100.0,
-    "torpedoAngles": [
-     2.8,
-     5.6
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
-    }
-   },
-   "HP_WGT_2": {
-    "ammoList": [
-     "PWPT006_Torped_M1943_mod1"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4249249072,
-    "index": "PWGT043",
-    "name": "PWGT043_533mm_4tube_SW",
-    "numBarrels": 4,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 100.0,
-    "torpedoAngles": [
-     2.8,
-     5.6
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
+   "torpedoArray": {
+    "HP_WGT_1": {
+     "ammoList": [
+      "PWPT006_Torped_M1943_mod1"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4249249072,
+     "index": "PWGT043",
+     "name": "PWGT043_533mm_4tube_SW",
+     "numBarrels": 4,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 100.0,
+     "torpedoAngles": [
+      2.8,
+      5.6
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
+    },
+    "HP_WGT_2": {
+     "ammoList": [
+      "PWPT006_Torped_M1943_mod1"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4249249072,
+     "index": "PWGT043",
+     "name": "PWGT043_533mm_4tube_SW",
+     "numBarrels": 4,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 100.0,
+     "torpedoAngles": [
+      2.8,
+      5.6
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
     }
    }
   },
@@ -6408,142 +6476,146 @@
    "sigmaCountCoef": 1.0
   },
   "AB2_Torpedoes": {
-   "HP_WGT_1": {
-    "ammoList": [
-     "PWPT007_Torped_M1947"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4249249072,
-    "index": "PWGT043",
-    "name": "PWGT043_533mm_4tube_SW",
-    "numBarrels": 4,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 100.0,
-    "torpedoAngles": [
-     2.8,
-     5.6
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
-    }
-   },
-   "HP_WGT_2": {
-    "ammoList": [
-     "PWPT007_Torped_M1947"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4249249072,
-    "index": "PWGT043",
-    "name": "PWGT043_533mm_4tube_SW",
-    "numBarrels": 4,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 100.0,
-    "torpedoAngles": [
-     2.8,
-     5.6
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
+   "torpedoArray": {
+    "HP_WGT_1": {
+     "ammoList": [
+      "PWPT007_Torped_M1947"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4249249072,
+     "index": "PWGT043",
+     "name": "PWGT043_533mm_4tube_SW",
+     "numBarrels": 4,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 100.0,
+     "torpedoAngles": [
+      2.8,
+      5.6
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
+    },
+    "HP_WGT_2": {
+     "ammoList": [
+      "PWPT007_Torped_M1947"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4249249072,
+     "index": "PWGT043",
+     "name": "PWGT043_533mm_4tube_SW",
+     "numBarrels": 4,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 100.0,
+     "torpedoAngles": [
+      2.8,
+      5.6
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
     }
    }
   },
   "AB_DepthChargeGuns": {
-   "HP_WGB_1": {
-    "ammoList": [
-     "PWPD005_375_shoot"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4273956144,
-    "index": "PWGB020",
-    "name": "PWGB020_450_DC_Thrower_SW",
-    "numBombs": 1,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_2": {
-    "ammoList": [
-     "PWPD005_375_shoot"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4273956144,
-    "index": "PWGB020",
-    "name": "PWGB020_450_DC_Thrower_SW",
-    "numBombs": 1,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_3": {
-    "ammoList": [
-     "PWPD005_375_shoot"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4273956144,
-    "index": "PWGB020",
-    "name": "PWGB020_450_DC_Thrower_SW",
-    "numBombs": 1,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_4": {
-    "ammoList": [
-     "PWPD005_375_shoot"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4273956144,
-    "index": "PWGB020",
-    "name": "PWGB020_450_DC_Thrower_SW",
-    "numBombs": 1,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
+   "depthCharges": {
+    "HP_WGB_1": {
+     "ammoList": [
+      "PWPD005_375_shoot"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4273956144,
+     "index": "PWGB020",
+     "name": "PWGB020_450_DC_Thrower_SW",
+     "numBombs": 1,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_2": {
+     "ammoList": [
+      "PWPD005_375_shoot"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4273956144,
+     "index": "PWGB020",
+     "name": "PWGB020_450_DC_Thrower_SW",
+     "numBombs": 1,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_3": {
+     "ammoList": [
+      "PWPD005_375_shoot"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4273956144,
+     "index": "PWGB020",
+     "name": "PWGB020_450_DC_Thrower_SW",
+     "numBombs": 1,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_4": {
+     "ammoList": [
+      "PWPD005_375_shoot"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4273956144,
+     "index": "PWGB020",
+     "name": "PWGB020_450_DC_Thrower_SW",
+     "numBombs": 1,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
     }
    },
    "maxPacks": 1,
@@ -6969,91 +7041,93 @@
  },
  {
   "A1_Artillery": {
-   "HP_WGM_1": {
-    "ammoList": [
-     "PWPA020_120_HE_50_M36",
-     "PWPA021_120_AP_50_M36"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -148.0,
-     148.0
-    ],
-    "id": 4253672752,
-    "index": "PWGM039",
-    "numBarrels": 2,
-    "position": [
-     1.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     8.0,
-     10.0
-    ],
-    "shotDelay": 7.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_2": {
-    "ammoList": [
-     "PWPA020_120_HE_50_M36",
-     "PWPA021_120_AP_50_M36"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -160.0,
-     160.0
-    ],
-    "id": 4252624176,
-    "index": "PWGM040",
-    "numBarrels": 1,
-    "position": [
-     4.5,
-     1.0
-    ],
-    "rotationSpeed": [
-     8.0,
-     10.0
-    ],
-    "shotDelay": 7.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_3": {
-    "ammoList": [
-     "PWPA020_120_HE_50_M36",
-     "PWPA021_120_AP_50_M36"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -144.0,
-     144.0
-    ],
-    "id": 4252624176,
-    "index": "PWGM040",
-    "numBarrels": 1,
-    "position": [
-     5.5,
-     1.0
-    ],
-    "rotationSpeed": [
-     8.0,
-     10.0
-    ],
-    "shotDelay": 7.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
+   "guns": {
+    "HP_WGM_1": {
+     "ammoList": [
+      "PWPA020_120_HE_50_M36",
+      "PWPA021_120_AP_50_M36"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -148.0,
+      148.0
+     ],
+     "id": 4253672752,
+     "index": "PWGM039",
+     "numBarrels": 2,
+     "position": [
+      1.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      8.0,
+      10.0
+     ],
+     "shotDelay": 7.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_2": {
+     "ammoList": [
+      "PWPA020_120_HE_50_M36",
+      "PWPA021_120_AP_50_M36"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -160.0,
+      160.0
+     ],
+     "id": 4252624176,
+     "index": "PWGM040",
+     "numBarrels": 1,
+     "position": [
+      4.5,
+      1.0
+     ],
+     "rotationSpeed": [
+      8.0,
+      10.0
+     ],
+     "shotDelay": 7.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_3": {
+     "ammoList": [
+      "PWPA020_120_HE_50_M36",
+      "PWPA021_120_AP_50_M36"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -144.0,
+      144.0
+     ],
+     "id": 4252624176,
+     "index": "PWGM040",
+     "numBarrels": 1,
+     "position": [
+      5.5,
+      1.0
+     ],
+     "rotationSpeed": [
+      8.0,
+      10.0
+     ],
+     "shotDelay": 7.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
     }
    },
    "maxDist": 8650.0,
@@ -7065,52 +7139,54 @@
    "sigmaCountCoef": 1.0
   },
   "AB1_Torpedoes": {
-   "HP_WGT_1": {
-    "ammoList": [
-     "PWPT011_Torped_M1913_mod1"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4274414896,
-    "index": "PWGT019",
-    "name": "PWGT019_533mm_3tube_SW",
-    "numBarrels": 3,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 59.0,
-    "torpedoAngles": [
-     2.6,
-     5.2
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
-    }
-   },
-   "HP_WGT_2": {
-    "ammoList": [
-     "PWPT011_Torped_M1913_mod1"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4274414896,
-    "index": "PWGT019",
-    "name": "PWGT019_533mm_3tube_SW",
-    "numBarrels": 3,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 59.0,
-    "torpedoAngles": [
-     2.6,
-     5.2
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
+   "torpedoArray": {
+    "HP_WGT_1": {
+     "ammoList": [
+      "PWPT011_Torped_M1913_mod1"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4274414896,
+     "index": "PWGT019",
+     "name": "PWGT019_533mm_3tube_SW",
+     "numBarrels": 3,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 59.0,
+     "torpedoAngles": [
+      2.6,
+      5.2
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
+    },
+    "HP_WGT_2": {
+     "ammoList": [
+      "PWPT011_Torped_M1913_mod1"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4274414896,
+     "index": "PWGT019",
+     "name": "PWGT019_533mm_3tube_SW",
+     "numBarrels": 3,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 59.0,
+     "torpedoAngles": [
+      2.6,
+      5.2
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
     }
    }
   },
@@ -7119,142 +7195,146 @@
    "sigmaCountCoef": 1.0
   },
   "AB2_Torpedoes": {
-   "HP_WGT_1": {
-    "ammoList": [
-     "PWPT003_Torped_M1929"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4274414896,
-    "index": "PWGT019",
-    "name": "PWGT019_533mm_3tube_SW",
-    "numBarrels": 3,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 55.0,
-    "torpedoAngles": [
-     2.6,
-     5.2
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
-    }
-   },
-   "HP_WGT_2": {
-    "ammoList": [
-     "PWPT003_Torped_M1929"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4274414896,
-    "index": "PWGT019",
-    "name": "PWGT019_533mm_3tube_SW",
-    "numBarrels": 3,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 55.0,
-    "torpedoAngles": [
-     2.6,
-     5.2
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
+   "torpedoArray": {
+    "HP_WGT_1": {
+     "ammoList": [
+      "PWPT003_Torped_M1929"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4274414896,
+     "index": "PWGT019",
+     "name": "PWGT019_533mm_3tube_SW",
+     "numBarrels": 3,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 55.0,
+     "torpedoAngles": [
+      2.6,
+      5.2
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
+    },
+    "HP_WGT_2": {
+     "ammoList": [
+      "PWPT003_Torped_M1929"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4274414896,
+     "index": "PWGT019",
+     "name": "PWGT019_533mm_3tube_SW",
+     "numBarrels": 3,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 55.0,
+     "torpedoAngles": [
+      2.6,
+      5.2
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
     }
    }
   },
   "AB_DepthChargeGuns": {
-   "HP_WGB_1": {
-    "ammoList": [
-     "PWPD005_375_shoot"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4273956144,
-    "index": "PWGB020",
-    "name": "PWGB020_450_DC_Thrower_SW",
-    "numBombs": 1,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_2": {
-    "ammoList": [
-     "PWPD005_375_shoot"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4273956144,
-    "index": "PWGB020",
-    "name": "PWGB020_450_DC_Thrower_SW",
-    "numBombs": 1,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_3": {
-    "ammoList": [
-     "PWPD004_375"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4271858992,
-    "index": "PWGB022",
-    "name": "PWGB022_DC_Roller_Track_L_SW",
-    "numBombs": 2,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_4": {
-    "ammoList": [
-     "PWPD004_375"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4270810416,
-    "index": "PWGB023",
-    "name": "PWGB023_DC_Roller_Track_R_SW",
-    "numBombs": 2,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
+   "depthCharges": {
+    "HP_WGB_1": {
+     "ammoList": [
+      "PWPD005_375_shoot"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4273956144,
+     "index": "PWGB020",
+     "name": "PWGB020_450_DC_Thrower_SW",
+     "numBombs": 1,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_2": {
+     "ammoList": [
+      "PWPD005_375_shoot"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4273956144,
+     "index": "PWGB020",
+     "name": "PWGB020_450_DC_Thrower_SW",
+     "numBombs": 1,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_3": {
+     "ammoList": [
+      "PWPD004_375"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4271858992,
+     "index": "PWGB022",
+     "name": "PWGB022_DC_Roller_Track_L_SW",
+     "numBombs": 2,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_4": {
+     "ammoList": [
+      "PWPD004_375"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4270810416,
+     "index": "PWGB023",
+     "name": "PWGB023_DC_Roller_Track_R_SW",
+     "numBombs": 2,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
     }
    },
    "maxPacks": 2,
@@ -7347,91 +7427,93 @@
    "visibilityFactorByPlane": 2.64
   },
   "B1_Artillery": {
-   "HP_WGM_1": {
-    "ammoList": [
-     "PWPA020_120_HE_50_M36",
-     "PWPA021_120_AP_50_M36"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4253672752,
-    "index": "PWGM039",
-    "numBarrels": 2,
-    "position": [
-     1.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     8.0,
-     10.0
-    ],
-    "shotDelay": 7.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_2": {
-    "ammoList": [
-     "PWPA020_120_HE_50_M36",
-     "PWPA021_120_AP_50_M36"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -160.0,
-     160.0
-    ],
-    "id": 4252624176,
-    "index": "PWGM040",
-    "numBarrels": 1,
-    "position": [
-     4.5,
-     1.0
-    ],
-    "rotationSpeed": [
-     8.0,
-     10.0
-    ],
-    "shotDelay": 7.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_3": {
-    "ammoList": [
-     "PWPA020_120_HE_50_M36",
-     "PWPA021_120_AP_50_M36"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -144.0,
-     144.0
-    ],
-    "id": 4253672752,
-    "index": "PWGM039",
-    "numBarrels": 2,
-    "position": [
-     5.5,
-     1.0
-    ],
-    "rotationSpeed": [
-     8.0,
-     10.0
-    ],
-    "shotDelay": 7.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
+   "guns": {
+    "HP_WGM_1": {
+     "ammoList": [
+      "PWPA020_120_HE_50_M36",
+      "PWPA021_120_AP_50_M36"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4253672752,
+     "index": "PWGM039",
+     "numBarrels": 2,
+     "position": [
+      1.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      8.0,
+      10.0
+     ],
+     "shotDelay": 7.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_2": {
+     "ammoList": [
+      "PWPA020_120_HE_50_M36",
+      "PWPA021_120_AP_50_M36"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -160.0,
+      160.0
+     ],
+     "id": 4252624176,
+     "index": "PWGM040",
+     "numBarrels": 1,
+     "position": [
+      4.5,
+      1.0
+     ],
+     "rotationSpeed": [
+      8.0,
+      10.0
+     ],
+     "shotDelay": 7.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_3": {
+     "ammoList": [
+      "PWPA020_120_HE_50_M36",
+      "PWPA021_120_AP_50_M36"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -144.0,
+      144.0
+     ],
+     "id": 4253672752,
+     "index": "PWGM039",
+     "numBarrels": 2,
+     "position": [
+      5.5,
+      1.0
+     ],
+     "rotationSpeed": [
+      8.0,
+      10.0
+     ],
+     "shotDelay": 7.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
     }
    },
    "maxDist": 8650.0,
@@ -7701,52 +7783,54 @@
    "sigmaCountCoef": 1.0
   },
   "AB1_Torpedoes": {
-   "HP_WGT_1": {
-    "ammoList": [
-     "PWPT004_Torped_M1929_mod1"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4274414896,
-    "index": "PWGT019",
-    "name": "PWGT019_533mm_3tube_SW",
-    "numBarrels": 3,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 59.0,
-    "torpedoAngles": [
-     2.6,
-     5.2
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
-    }
-   },
-   "HP_WGT_2": {
-    "ammoList": [
-     "PWPT004_Torped_M1929_mod1"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4274414896,
-    "index": "PWGT019",
-    "name": "PWGT019_533mm_3tube_SW",
-    "numBarrels": 3,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 59.0,
-    "torpedoAngles": [
-     2.6,
-     5.2
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
+   "torpedoArray": {
+    "HP_WGT_1": {
+     "ammoList": [
+      "PWPT004_Torped_M1929_mod1"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4274414896,
+     "index": "PWGT019",
+     "name": "PWGT019_533mm_3tube_SW",
+     "numBarrels": 3,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 59.0,
+     "torpedoAngles": [
+      2.6,
+      5.2
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
+    },
+    "HP_WGT_2": {
+     "ammoList": [
+      "PWPT004_Torped_M1929_mod1"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4274414896,
+     "index": "PWGT019",
+     "name": "PWGT019_533mm_3tube_SW",
+     "numBarrels": 3,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 59.0,
+     "torpedoAngles": [
+      2.6,
+      5.2
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
     }
    }
   },
@@ -7755,186 +7839,190 @@
    "sigmaCountCoef": 1.0
   },
   "AB2_Torpedoes": {
-   "HP_WGT_1": {
-    "ammoList": [
-     "PWPT005_Torped_M1943"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4274414896,
-    "index": "PWGT019",
-    "name": "PWGT019_533mm_3tube_SW",
-    "numBarrels": 3,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 59.0,
-    "torpedoAngles": [
-     2.6,
-     5.2
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
-    }
-   },
-   "HP_WGT_2": {
-    "ammoList": [
-     "PWPT005_Torped_M1943"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4274414896,
-    "index": "PWGT019",
-    "name": "PWGT019_533mm_3tube_SW",
-    "numBarrels": 3,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 59.0,
-    "torpedoAngles": [
-     2.6,
-     5.2
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
+   "torpedoArray": {
+    "HP_WGT_1": {
+     "ammoList": [
+      "PWPT005_Torped_M1943"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4274414896,
+     "index": "PWGT019",
+     "name": "PWGT019_533mm_3tube_SW",
+     "numBarrels": 3,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 59.0,
+     "torpedoAngles": [
+      2.6,
+      5.2
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
+    },
+    "HP_WGT_2": {
+     "ammoList": [
+      "PWPT005_Torped_M1943"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4274414896,
+     "index": "PWGT019",
+     "name": "PWGT019_533mm_3tube_SW",
+     "numBarrels": 3,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 59.0,
+     "torpedoAngles": [
+      2.6,
+      5.2
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
     }
    }
   },
   "AB_DepthChargeGuns": {
-   "HP_WGB_1": {
-    "ammoList": [
-     "PWPD005_375_shoot"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4273956144,
-    "index": "PWGB020",
-    "name": "PWGB020_450_DC_Thrower_SW",
-    "numBombs": 1,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_2": {
-    "ammoList": [
-     "PWPD005_375_shoot"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4273956144,
-    "index": "PWGB020",
-    "name": "PWGB020_450_DC_Thrower_SW",
-    "numBombs": 1,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_3": {
-    "ammoList": [
-     "PWPD005_375_shoot"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4273956144,
-    "index": "PWGB020",
-    "name": "PWGB020_450_DC_Thrower_SW",
-    "numBombs": 1,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_4": {
-    "ammoList": [
-     "PWPD005_375_shoot"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4273956144,
-    "index": "PWGB020",
-    "name": "PWGB020_450_DC_Thrower_SW",
-    "numBombs": 1,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_5": {
-    "ammoList": [
-     "PWPD004_375"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4271858992,
-    "index": "PWGB022",
-    "name": "PWGB022_DC_Roller_Track_L_SW",
-    "numBombs": 3,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_6": {
-    "ammoList": [
-     "PWPD004_375"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4270810416,
-    "index": "PWGB023",
-    "name": "PWGB023_DC_Roller_Track_R_SW",
-    "numBombs": 3,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
+   "depthCharges": {
+    "HP_WGB_1": {
+     "ammoList": [
+      "PWPD005_375_shoot"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4273956144,
+     "index": "PWGB020",
+     "name": "PWGB020_450_DC_Thrower_SW",
+     "numBombs": 1,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_2": {
+     "ammoList": [
+      "PWPD005_375_shoot"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4273956144,
+     "index": "PWGB020",
+     "name": "PWGB020_450_DC_Thrower_SW",
+     "numBombs": 1,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_3": {
+     "ammoList": [
+      "PWPD005_375_shoot"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4273956144,
+     "index": "PWGB020",
+     "name": "PWGB020_450_DC_Thrower_SW",
+     "numBombs": 1,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_4": {
+     "ammoList": [
+      "PWPD005_375_shoot"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4273956144,
+     "index": "PWGB020",
+     "name": "PWGB020_450_DC_Thrower_SW",
+     "numBombs": 1,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_5": {
+     "ammoList": [
+      "PWPD004_375"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4271858992,
+     "index": "PWGB022",
+     "name": "PWGB022_DC_Roller_Track_L_SW",
+     "numBombs": 3,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_6": {
+     "ammoList": [
+      "PWPD004_375"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4270810416,
+     "index": "PWGB023",
+     "name": "PWGB023_DC_Roller_Track_R_SW",
+     "numBombs": 3,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
     }
    },
    "maxPacks": 1,
@@ -8042,62 +8130,64 @@
     "minDistance": 3500.0,
     "type": "far"
    },
-   "HP_WGM_1": {
-    "ammoList": [
-     "PWPA012_120_50_HE_M42",
-     "PWPA013_120_50_AP_M42"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4284081456,
-    "index": "PWGM010",
-    "numBarrels": 2,
-    "position": [
-     1.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     10.0,
-     10.0
-    ],
-    "shotDelay": 3.2,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_2": {
-    "ammoList": [
-     "PWPA012_120_50_HE_M42",
-     "PWPA013_120_50_AP_M42"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -132.0,
-     132.0
-    ],
-    "id": 4284081456,
-    "index": "PWGM010",
-    "numBarrels": 2,
-    "position": [
-     5.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     10.0,
-     10.0
-    ],
-    "shotDelay": 3.2,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
+   "guns": {
+    "HP_WGM_1": {
+     "ammoList": [
+      "PWPA012_120_50_HE_M42",
+      "PWPA013_120_50_AP_M42"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4284081456,
+     "index": "PWGM010",
+     "numBarrels": 2,
+     "position": [
+      1.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      10.0,
+      10.0
+     ],
+     "shotDelay": 3.2,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_2": {
+     "ammoList": [
+      "PWPA012_120_50_HE_M42",
+      "PWPA013_120_50_AP_M42"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -132.0,
+      132.0
+     ],
+     "id": 4284081456,
+     "index": "PWGM010",
+     "numBarrels": 2,
+     "position": [
+      5.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      10.0,
+      10.0
+     ],
+     "shotDelay": 3.2,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
     }
    },
    "maxDist": 9160.0,
@@ -8156,62 +8246,64 @@
     "minDistance": 3500.0,
     "type": "far"
    },
-   "HP_WGM_1": {
-    "ammoList": [
-     "PWPA012_120_50_HE_M42",
-     "PWPA013_120_50_AP_M42"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4284081456,
-    "index": "PWGM010",
-    "numBarrels": 2,
-    "position": [
-     1.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     10.0,
-     10.0
-    ],
-    "shotDelay": 3.2,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_2": {
-    "ammoList": [
-     "PWPA012_120_50_HE_M42",
-     "PWPA013_120_50_AP_M42"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -132.0,
-     132.0
-    ],
-    "id": 4284081456,
-    "index": "PWGM010",
-    "numBarrels": 2,
-    "position": [
-     5.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     10.0,
-     10.0
-    ],
-    "shotDelay": 3.2,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
+   "guns": {
+    "HP_WGM_1": {
+     "ammoList": [
+      "PWPA012_120_50_HE_M42",
+      "PWPA013_120_50_AP_M42"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4284081456,
+     "index": "PWGM010",
+     "numBarrels": 2,
+     "position": [
+      1.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      10.0,
+      10.0
+     ],
+     "shotDelay": 3.2,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_2": {
+     "ammoList": [
+      "PWPA012_120_50_HE_M42",
+      "PWPA013_120_50_AP_M42"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -132.0,
+      132.0
+     ],
+     "id": 4284081456,
+     "index": "PWGM010",
+     "numBarrels": 2,
+     "position": [
+      5.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      10.0,
+      10.0
+     ],
+     "shotDelay": 3.2,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
     }
    },
    "maxDist": 9160.0,
@@ -8508,52 +8600,54 @@
    }
   },
   "AB_Torpedoes": {
-   "HP_WGT_1": {
-    "ammoList": [
-     "PWPT002_Torped_M1913"
-    ],
-    "barrelDiameter": 0.45,
-    "id": 4258686256,
-    "index": "PWGT034",
-    "name": "PWGT034_450mm_twin_SW",
-    "numBarrels": 2,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 40.0,
-    "torpedoAngles": [
-     2.4,
-     4.8
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
-    }
-   },
-   "HP_WGT_2": {
-    "ammoList": [
-     "PWPT002_Torped_M1913"
-    ],
-    "barrelDiameter": 0.45,
-    "id": 4256589104,
-    "index": "PWGT036",
-    "name": "PWGT036_450mm_4_SW",
-    "numBarrels": 4,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 40.0,
-    "torpedoAngles": [
-     2.8,
-     5.6
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
+   "torpedoArray": {
+    "HP_WGT_1": {
+     "ammoList": [
+      "PWPT002_Torped_M1913"
+     ],
+     "barrelDiameter": 0.45,
+     "id": 4258686256,
+     "index": "PWGT034",
+     "name": "PWGT034_450mm_twin_SW",
+     "numBarrels": 2,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 40.0,
+     "torpedoAngles": [
+      2.4,
+      4.8
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
+    },
+    "HP_WGT_2": {
+     "ammoList": [
+      "PWPT002_Torped_M1913"
+     ],
+     "barrelDiameter": 0.45,
+     "id": 4256589104,
+     "index": "PWGT036",
+     "name": "PWGT036_450mm_4_SW",
+     "numBarrels": 4,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 40.0,
+     "torpedoAngles": [
+      2.8,
+      5.6
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
     }
    }
   },
@@ -8575,91 +8669,93 @@
    }
   },
   "A_Artillery": {
-   "HP_WGM_1": {
-    "ammoList": [
-     "PWPA010_100MM_HE_47_OTO1931",
-     "PWPA011_100MM_AP_47_OTO1931"
-    ],
-    "barrelDiameter": 0.1,
-    "horizSector": [
-     -148.0,
-     148.0
-    ],
-    "id": 4257867056,
-    "index": "PWGM035",
-    "numBarrels": 1,
-    "position": [
-     1.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     10.0,
-     12.0
-    ],
-    "shotDelay": 5.0,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_2": {
-    "ammoList": [
-     "PWPA010_100MM_HE_47_OTO1931",
-     "PWPA011_100MM_AP_47_OTO1931"
-    ],
-    "barrelDiameter": 0.1,
-    "horizSector": [
-     -154.0,
-     154.0
-    ],
-    "id": 4257867056,
-    "index": "PWGM035",
-    "numBarrels": 1,
-    "position": [
-     5.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     10.0,
-     12.0
-    ],
-    "shotDelay": 5.0,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_3": {
-    "ammoList": [
-     "PWPA010_100MM_HE_47_OTO1931",
-     "PWPA011_100MM_AP_47_OTO1931"
-    ],
-    "barrelDiameter": 0.1,
-    "horizSector": [
-     -130.0,
-     130.0
-    ],
-    "id": 4257867056,
-    "index": "PWGM035",
-    "numBarrels": 1,
-    "position": [
-     6.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     10.0,
-     12.0
-    ],
-    "shotDelay": 5.0,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
+   "guns": {
+    "HP_WGM_1": {
+     "ammoList": [
+      "PWPA010_100MM_HE_47_OTO1931",
+      "PWPA011_100MM_AP_47_OTO1931"
+     ],
+     "barrelDiameter": 0.1,
+     "horizSector": [
+      -148.0,
+      148.0
+     ],
+     "id": 4257867056,
+     "index": "PWGM035",
+     "numBarrels": 1,
+     "position": [
+      1.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      10.0,
+      12.0
+     ],
+     "shotDelay": 5.0,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_2": {
+     "ammoList": [
+      "PWPA010_100MM_HE_47_OTO1931",
+      "PWPA011_100MM_AP_47_OTO1931"
+     ],
+     "barrelDiameter": 0.1,
+     "horizSector": [
+      -154.0,
+      154.0
+     ],
+     "id": 4257867056,
+     "index": "PWGM035",
+     "numBarrels": 1,
+     "position": [
+      5.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      10.0,
+      12.0
+     ],
+     "shotDelay": 5.0,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_3": {
+     "ammoList": [
+      "PWPA010_100MM_HE_47_OTO1931",
+      "PWPA011_100MM_AP_47_OTO1931"
+     ],
+     "barrelDiameter": 0.1,
+     "horizSector": [
+      -130.0,
+      130.0
+     ],
+     "id": 4257867056,
+     "index": "PWGM035",
+     "numBarrels": 1,
+     "position": [
+      6.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      10.0,
+      12.0
+     ],
+     "shotDelay": 5.0,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
     }
    },
    "maxDist": 8610.0,
@@ -8688,91 +8784,93 @@
    }
   },
   "B_Artillery": {
-   "HP_WGM_1": {
-    "ammoList": [
-     "PWPA008_120MM_HE_45_M24",
-     "PWPA009_120MM_AP_45_M24"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4254721328,
-    "index": "PWGM038",
-    "numBarrels": 1,
-    "position": [
-     1.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     10.0,
-     12.0
-    ],
-    "shotDelay": 6.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_2": {
-    "ammoList": [
-     "PWPA008_120MM_HE_45_M24",
-     "PWPA009_120MM_AP_45_M24"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -154.0,
-     154.0
-    ],
-    "id": 4254721328,
-    "index": "PWGM038",
-    "numBarrels": 1,
-    "position": [
-     5.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     10.0,
-     12.0
-    ],
-    "shotDelay": 6.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_3": {
-    "ammoList": [
-     "PWPA008_120MM_HE_45_M24",
-     "PWPA009_120MM_AP_45_M24"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -139.0,
-     139.0
-    ],
-    "id": 4254721328,
-    "index": "PWGM038",
-    "numBarrels": 1,
-    "position": [
-     6.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     10.0,
-     12.0
-    ],
-    "shotDelay": 6.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
+   "guns": {
+    "HP_WGM_1": {
+     "ammoList": [
+      "PWPA008_120MM_HE_45_M24",
+      "PWPA009_120MM_AP_45_M24"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4254721328,
+     "index": "PWGM038",
+     "numBarrels": 1,
+     "position": [
+      1.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      10.0,
+      12.0
+     ],
+     "shotDelay": 6.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_2": {
+     "ammoList": [
+      "PWPA008_120MM_HE_45_M24",
+      "PWPA009_120MM_AP_45_M24"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -154.0,
+      154.0
+     ],
+     "id": 4254721328,
+     "index": "PWGM038",
+     "numBarrels": 1,
+     "position": [
+      5.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      10.0,
+      12.0
+     ],
+     "shotDelay": 6.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_3": {
+     "ammoList": [
+      "PWPA008_120MM_HE_45_M24",
+      "PWPA009_120MM_AP_45_M24"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -139.0,
+      139.0
+     ],
+     "id": 4254721328,
+     "index": "PWGM038",
+     "numBarrels": 1,
+     "position": [
+      6.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      10.0,
+      12.0
+     ],
+     "shotDelay": 6.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
     }
    },
    "maxDist": 8610.0,
@@ -9020,91 +9118,93 @@
  },
  {
   "AB1_Artillery": {
-   "HP_WGM_1": {
-    "ammoList": [
-     "PWPA020_120_HE_50_M36",
-     "PWPA021_120_AP_50_M36"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -145.0,
-     145.0
-    ],
-    "id": 4253672752,
-    "index": "PWGM039",
-    "numBarrels": 2,
-    "position": [
-     1.0,
-     1.0
-    ],
-    "rotationSpeed": [
-     8.0,
-     10.0
-    ],
-    "shotDelay": 7.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_2": {
-    "ammoList": [
-     "PWPA020_120_HE_50_M36",
-     "PWPA021_120_AP_50_M36"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4253672752,
-    "index": "PWGM039",
-    "numBarrels": 2,
-    "position": [
-     4.5,
-     1.0
-    ],
-    "rotationSpeed": [
-     8.0,
-     10.0
-    ],
-    "shotDelay": 7.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    }
-   },
-   "HP_WGM_3": {
-    "ammoList": [
-     "PWPA020_120_HE_50_M36",
-     "PWPA021_120_AP_50_M36"
-    ],
-    "barrelDiameter": 0.12,
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4253672752,
-    "index": "PWGM039",
-    "numBarrels": 2,
-    "position": [
-     5.5,
-     1.0
-    ],
-    "rotationSpeed": [
-     8.0,
-     10.0
-    ],
-    "shotDelay": 7.5,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
+   "guns": {
+    "HP_WGM_1": {
+     "ammoList": [
+      "PWPA020_120_HE_50_M36",
+      "PWPA021_120_AP_50_M36"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -145.0,
+      145.0
+     ],
+     "id": 4253672752,
+     "index": "PWGM039",
+     "numBarrels": 2,
+     "position": [
+      1.0,
+      1.0
+     ],
+     "rotationSpeed": [
+      8.0,
+      10.0
+     ],
+     "shotDelay": 7.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_2": {
+     "ammoList": [
+      "PWPA020_120_HE_50_M36",
+      "PWPA021_120_AP_50_M36"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4253672752,
+     "index": "PWGM039",
+     "numBarrels": 2,
+     "position": [
+      4.5,
+      1.0
+     ],
+     "rotationSpeed": [
+      8.0,
+      10.0
+     ],
+     "shotDelay": 7.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
+    },
+    "HP_WGM_3": {
+     "ammoList": [
+      "PWPA020_120_HE_50_M36",
+      "PWPA021_120_AP_50_M36"
+     ],
+     "barrelDiameter": 0.12,
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4253672752,
+     "index": "PWGM039",
+     "numBarrels": 2,
+     "position": [
+      5.5,
+      1.0
+     ],
+     "rotationSpeed": [
+      8.0,
+      10.0
+     ],
+     "shotDelay": 7.5,
+     "smokePenalty": 0.0001,
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Main",
+      "type": "Gun"
+     }
     }
    },
    "maxDist": 9010.0,
@@ -9121,52 +9221,54 @@
    "sigmaCountCoef": 1.0
   },
   "AB1_Torpedoes": {
-   "HP_WGT_1": {
-    "ammoList": [
-     "PWPT003_Torped_M1929"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4281754928,
-    "index": "PWGT012",
-    "name": "PWGT012_533mm_3tube_M34_SW",
-    "numBarrels": 3,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 59.0,
-    "torpedoAngles": [
-     2.6,
-     5.2
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
-    }
-   },
-   "HP_WGT_2": {
-    "ammoList": [
-     "PWPT003_Torped_M1929"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4281754928,
-    "index": "PWGT012",
-    "name": "PWGT012_533mm_3tube_M34_SW",
-    "numBarrels": 3,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 59.0,
-    "torpedoAngles": [
-     2.6,
-     5.2
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
+   "torpedoArray": {
+    "HP_WGT_1": {
+     "ammoList": [
+      "PWPT003_Torped_M1929"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4281754928,
+     "index": "PWGT012",
+     "name": "PWGT012_533mm_3tube_M34_SW",
+     "numBarrels": 3,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 59.0,
+     "torpedoAngles": [
+      2.6,
+      5.2
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
+    },
+    "HP_WGT_2": {
+     "ammoList": [
+      "PWPT003_Torped_M1929"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4281754928,
+     "index": "PWGT012",
+     "name": "PWGT012_533mm_3tube_M34_SW",
+     "numBarrels": 3,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 59.0,
+     "torpedoAngles": [
+      2.6,
+      5.2
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
     }
    }
   },
@@ -9175,142 +9277,146 @@
    "sigmaCountCoef": 1.0
   },
   "AB2_Torpedoes": {
-   "HP_WGT_1": {
-    "ammoList": [
-     "PWPT004_Torped_M1929_mod1"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4281754928,
-    "index": "PWGT012",
-    "name": "PWGT012_533mm_3tube_M34_SW",
-    "numBarrels": 3,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 59.0,
-    "torpedoAngles": [
-     2.6,
-     5.2
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
-    }
-   },
-   "HP_WGT_2": {
-    "ammoList": [
-     "PWPT004_Torped_M1929_mod1"
-    ],
-    "barrelDiameter": 0.533,
-    "id": 4281754928,
-    "index": "PWGT012",
-    "name": "PWGT012_533mm_3tube_M34_SW",
-    "numBarrels": 3,
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shotDelay": 59.0,
-    "torpedoAngles": [
-     2.6,
-     5.2
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
+   "torpedoArray": {
+    "HP_WGT_1": {
+     "ammoList": [
+      "PWPT004_Torped_M1929_mod1"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4281754928,
+     "index": "PWGT012",
+     "name": "PWGT012_533mm_3tube_M34_SW",
+     "numBarrels": 3,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 59.0,
+     "torpedoAngles": [
+      2.6,
+      5.2
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
+    },
+    "HP_WGT_2": {
+     "ammoList": [
+      "PWPT004_Torped_M1929_mod1"
+     ],
+     "barrelDiameter": 0.533,
+     "id": 4281754928,
+     "index": "PWGT012",
+     "name": "PWGT012_533mm_3tube_M34_SW",
+     "numBarrels": 3,
+     "rotationSpeed": [
+      25.0,
+      25.0
+     ],
+     "shotDelay": 59.0,
+     "torpedoAngles": [
+      2.6,
+      5.2
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "Torpedo",
+      "type": "Gun"
+     }
     }
    }
   },
   "AB_DepthChargeGuns": {
-   "HP_WGB_1": {
-    "ammoList": [
-     "PWPD005_375_shoot"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4273956144,
-    "index": "PWGB020",
-    "name": "PWGB020_450_DC_Thrower_SW",
-    "numBombs": 1,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_2": {
-    "ammoList": [
-     "PWPD005_375_shoot"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4273956144,
-    "index": "PWGB020",
-    "name": "PWGB020_450_DC_Thrower_SW",
-    "numBombs": 1,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_3": {
-    "ammoList": [
-     "PWPD004_375"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4271858992,
-    "index": "PWGB022",
-    "name": "PWGB022_DC_Roller_Track_L_SW",
-    "numBombs": 3,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
-    }
-   },
-   "HP_WGB_4": {
-    "ammoList": [
-     "PWPD004_375"
-    ],
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4270810416,
-    "index": "PWGB023",
-    "name": "PWGB023_DC_Roller_Track_R_SW",
-    "numBombs": 3,
-    "rotationSpeed": [
-     0.0,
-     0.0
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "DCharge",
-     "type": "Gun"
+   "depthCharges": {
+    "HP_WGB_1": {
+     "ammoList": [
+      "PWPD005_375_shoot"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4273956144,
+     "index": "PWGB020",
+     "name": "PWGB020_450_DC_Thrower_SW",
+     "numBombs": 1,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_2": {
+     "ammoList": [
+      "PWPD005_375_shoot"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4273956144,
+     "index": "PWGB020",
+     "name": "PWGB020_450_DC_Thrower_SW",
+     "numBombs": 1,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_3": {
+     "ammoList": [
+      "PWPD004_375"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4271858992,
+     "index": "PWGB022",
+     "name": "PWGB022_DC_Roller_Track_L_SW",
+     "numBombs": 3,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
+    },
+    "HP_WGB_4": {
+     "ammoList": [
+      "PWPD004_375"
+     ],
+     "horizSector": [
+      -150.0,
+      150.0
+     ],
+     "id": 4270810416,
+     "index": "PWGB023",
+     "name": "PWGB023_DC_Roller_Track_R_SW",
+     "numBombs": 3,
+     "rotationSpeed": [
+      0.0,
+      0.0
+     ],
+     "typeinfo": {
+      "nation": "Europe",
+      "species": "DCharge",
+      "type": "Gun"
+     }
     }
    },
    "maxPacks": 1,
