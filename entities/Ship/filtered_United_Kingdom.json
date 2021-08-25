@@ -190,7 +190,8 @@
      "maxDistance": 1500.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_DepthChargeGuns": {
     "depthCharges": {
@@ -1019,7 +1020,8 @@
      "maxDistance": 2500.0,
      "minDistance": 100.0,
      "type": "medium"
-    }
+    },
+    "isAA": true
    },
    "A_Hull": {
     "health": 38600.0,
@@ -1476,7 +1478,8 @@
      "maxDistance": 1500.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "B_Hull": {
     "health": 42700.0,
@@ -1765,7 +1768,8 @@
      "maxDistance": 2500.0,
      "minDistance": 100.0,
      "type": "medium"
-    }
+    },
+    "isAA": true
    },
    "A_Engine": {
     "backwardEngineUpTime": 20.0,
@@ -2046,7 +2050,9 @@
      }
     }
    },
-   "A_AirDefense": {},
+   "A_AirDefense": {
+    "isAA": true
+   },
    "A_Engine": {
     "backwardEngineUpTime": 10.0,
     "forwardEngineUpTime": 20.0,
@@ -2490,7 +2496,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_DepthChargeGuns": {
     "depthCharges": {
@@ -3210,7 +3217,8 @@
      "maxDistance": 3000.0,
      "minDistance": 100.0,
      "type": "medium"
-    }
+    },
+    "isAA": true
    },
    "A_Hull": {
     "health": 33400.0,
@@ -3393,7 +3401,8 @@
      "maxDistance": 3000.0,
      "minDistance": 100.0,
      "type": "medium"
-    }
+    },
+    "isAA": true
    },
    "B_Hull": {
     "health": 38100.0,
@@ -3708,7 +3717,9 @@
     "maxDist": 7300.0,
     "sigmaCount": 1.0
    },
-   "A_AirDefense": {},
+   "A_AirDefense": {
+    "isAA": true
+   },
    "A_Artillery": {
     "guns": {
      "HP_BGM_1": {
@@ -4040,10 +4051,6 @@
  },
  {
   "ModulesArmaments": {
-   "A1_AirArmament": {
-    "deckPlaceCount": 24,
-    "planesReserveCapacity": 30
-   },
    "AB1_DiveBomber": {
     "planeType": "PBAD106_Furious_stock"
    },
@@ -4056,29 +4063,6 @@
     "planeType": "PBAF106_Furious_stock"
    },
    "AB1_FlightControl": {
-    "airSupportPlanesReserve": {
-     "Bomber": 0,
-     "Dive": 0,
-     "Fighter": 0,
-     "Skip": 0
-    },
-    "airSupportSquadrons": [],
-    "consumablePlanesReserve": {
-     "Fighter": 1,
-     "Scout": 0
-    },
-    "consumableSquadrons": [],
-    "hasConsumablePlanes": false,
-    "isGroundAttackEnabled": true,
-    "planesReserveAssignment": {
-     "Auxiliary": 0,
-     "Bomber": 1,
-     "Dive": 1,
-     "Fighter": 1,
-     "Scout": 0,
-     "Skip": 1
-    },
-    "prepareTimeFactor": 1.0,
     "squadrons": [
      "Fighter",
      "Bomber",
@@ -4223,7 +4207,9 @@
     "maxDist": 4000.0,
     "sigmaCount": 1.0
    },
-   "A_AirDefense": {},
+   "A_AirDefense": {
+    "isAA": true
+   },
    "A_Hull": {
     "health": 42700.0,
     "maxSpeed": 31.5,
@@ -4233,11 +4219,9 @@
     "visibilityFactor": 12.42,
     "visibilityFactorByPlane": 11.04
    },
-   "B2_AirArmament": {
-    "deckPlaceCount": 24,
-    "planesReserveCapacity": 37
+   "B_AirDefense": {
+    "isAA": true
    },
-   "B_AirDefense": {},
    "B_Hull": {
     "health": 44100.0,
     "maxSpeed": 31.5,
@@ -4688,11 +4672,9 @@
     "maxDist": 4300.0,
     "sigmaCount": 1.0
    },
-   "A_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
+   "A_AirDefense": {
+    "isAA": true
    },
-   "A_AirDefense": {},
    "A_Engine": {
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
@@ -5001,7 +4983,9 @@
      }
     }
    },
-   "A_AirDefense": {},
+   "A_AirDefense": {
+    "isAA": true
+   },
    "A_DepthChargeGuns": {
     "depthCharges": {
      "HP_BGB_1": {
@@ -6132,7 +6116,9 @@
     "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
    },
-   "A_AirDefense": {},
+   "A_AirDefense": {
+    "isAA": true
+   },
    "A_Hull": {
     "health": 11800.0,
     "maxSpeed": 36.0,
@@ -6142,7 +6128,9 @@
     "visibilityFactor": 7.3,
     "visibilityFactorByPlane": 2.98
    },
-   "B_AirDefense": {},
+   "B_AirDefense": {
+    "isAA": true
+   },
    "B_Hull": {
     "health": 14300.0,
     "maxSpeed": 36.0,
@@ -6464,11 +6452,9 @@
     "maxDist": 6600.0,
     "sigmaCount": 1.0
    },
-   "A_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
+   "A_AirDefense": {
+    "isAA": true
    },
-   "A_AirDefense": {},
    "A_Artillery": {
     "guns": {
      "HP_BGM_1": {
@@ -7009,7 +6995,9 @@
     "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
    },
-   "A_AirDefense": {},
+   "A_AirDefense": {
+    "isAA": true
+   },
    "A_Hull": {
     "health": 13000.0,
     "maxSpeed": 36,
@@ -7071,7 +7059,9 @@
      }
     }
    },
-   "B_AirDefense": {},
+   "B_AirDefense": {
+    "isAA": true
+   },
    "B_Hull": {
     "health": 15900.0,
     "maxSpeed": 36,
@@ -7482,11 +7472,9 @@
     "maxDist": 4000.0,
     "sigmaCount": 1.0
    },
-   "A_AirArmament": {
-    "deckPlaceCount": 24,
-    "planesReserveCapacity": 40
+   "A_AirDefense": {
+    "isAA": true
    },
-   "A_AirDefense": {},
    "A_DiveBomber": {
     "planeType": "PBAD506_ARKR_SWORDF"
    },
@@ -7499,29 +7487,6 @@
     "planeType": "PBAF506_ARKR_SKUA"
    },
    "A_FlightControl": {
-    "airSupportPlanesReserve": {
-     "Bomber": 0,
-     "Dive": 0,
-     "Fighter": 0,
-     "Skip": 0
-    },
-    "airSupportSquadrons": [],
-    "consumablePlanesReserve": {
-     "Fighter": 1,
-     "Scout": 0
-    },
-    "consumableSquadrons": [],
-    "hasConsumablePlanes": false,
-    "isGroundAttackEnabled": true,
-    "planesReserveAssignment": {
-     "Auxiliary": 0,
-     "Bomber": 1,
-     "Dive": 1,
-     "Fighter": 1,
-     "Scout": 0,
-     "Skip": 1
-    },
-    "prepareTimeFactor": 1.0,
     "squadrons": [
      "Fighter",
      "Bomber",
@@ -7886,10 +7851,6 @@
     "maxDist": 4960.0,
     "sigmaCount": 1.0
    },
-   "A_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
-   },
    "A_AirDefense": {
     "AuraMedium": {
      "areaDamage": 40.0,
@@ -7910,7 +7871,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_AirSupport": {
     "chargesNum": 2,
@@ -8585,7 +8547,8 @@
      "maxDistance": 1500.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_Hull": {
     "health": 18400.0,
@@ -8616,7 +8579,8 @@
      "maxDistance": 1500.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "B_Hull": {
     "health": 20900.0,
@@ -9129,16 +9093,14 @@
     "maxDist": 5600.0,
     "sigmaCount": 1.0
    },
-   "AB_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
-   },
    "AB_Engine": {
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
    },
-   "A_AirDefense": {},
+   "A_AirDefense": {
+    "isAA": true
+   },
    "A_Hull": {
     "health": 30700.0,
     "maxSpeed": 30.0,
@@ -9271,7 +9233,9 @@
     "normalDistribution": true,
     "sigmaCount": 2.0
    },
-   "B_AirDefense": {},
+   "B_AirDefense": {
+    "isAA": true
+   },
    "B_Hull": {
     "health": 35300.0,
     "maxSpeed": 30.0,
@@ -9481,7 +9445,9 @@
  },
  {
   "ModulesArmaments": {
-   "A_AirDefense": {},
+   "A_AirDefense": {
+    "isAA": true
+   },
    "A_Artillery": {
     "guns": {
      "HP_BGM_1": {
@@ -10027,10 +9993,6 @@
     "maxDist": 7300.0,
     "sigmaCount": 1.0
    },
-   "A_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
-   },
    "A_AirDefense": {
     "AuraMedium": {
      "areaDamage": 179.0,
@@ -10041,7 +10003,8 @@
      "maxDistance": 3500.0,
      "minDistance": 100.0,
      "type": "medium"
-    }
+    },
+    "isAA": true
    },
    "A_AirSupport": {
     "chargesNum": 3,
@@ -10492,10 +10455,6 @@
     "maxDist": 5600.0,
     "sigmaCount": 1.0
    },
-   "AB_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
-   },
    "AB_AirSupport": {
     "chargesNum": 2,
     "flyAwayTime": 15.0,
@@ -10527,7 +10486,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_Hull": {
     "health": 53900.0,
@@ -10652,7 +10612,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "B_Hull": {
     "health": 60500.0,
@@ -11140,7 +11101,8 @@
      "maxDistance": 3000.0,
      "minDistance": 100.0,
      "type": "medium"
-    }
+    },
+    "isAA": true
    },
    "A_Hull": {
     "health": 17500.0,
@@ -11181,7 +11143,8 @@
      "maxDistance": 1500.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "B_Hull": {
     "health": 19000.0,
@@ -11610,7 +11573,8 @@
      "maxDistance": 3500.0,
      "minDistance": 100.0,
      "type": "medium"
-    }
+    },
+    "isAA": true
    },
    "A_Engine": {
     "backwardEngineUpTime": 20.0,
@@ -12109,7 +12073,9 @@
     "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
    },
-   "A_AirDefense": {},
+   "A_AirDefense": {
+    "isAA": true
+   },
    "A_Hull": {
     "health": 10000.0,
     "maxSpeed": 35.5,
@@ -12119,7 +12085,9 @@
     "visibilityFactor": 6.84,
     "visibilityFactorByPlane": 2.64
    },
-   "B_AirDefense": {},
+   "B_AirDefense": {
+    "isAA": true
+   },
    "B_Hull": {
     "health": 12100.0,
     "maxSpeed": 35.5,
@@ -12498,7 +12466,8 @@
      "maxDistance": 1500.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_Engine": {
     "backwardEngineUpTime": 10.0,
@@ -12943,10 +12912,6 @@
     "maxDist": 5000.0,
     "sigmaCount": 1.0
    },
-   "AB_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
-   },
    "A_AirDefense": {
     "AuraMedium": {
      "areaDamage": 32.0,
@@ -12967,7 +12932,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_Hull": {
     "health": 28600.0,
@@ -12998,7 +12964,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "B_Hull": {
     "health": 34400.0,
@@ -13367,11 +13334,9 @@
     "maxDist": 4500.0,
     "sigmaCount": 1.0
    },
-   "A_AirArmament": {
-    "deckPlaceCount": 25,
-    "planesReserveCapacity": 75
+   "A_AirDefense": {
+    "isAA": true
    },
-   "A_AirDefense": {},
    "A_DiveBomber": {
     "planeType": "PBAD508_Indomitable_stock"
    },
@@ -13384,29 +13349,6 @@
     "planeType": "PBAF508_Indomitable_stock"
    },
    "A_FlightControl": {
-    "airSupportPlanesReserve": {
-     "Bomber": 0,
-     "Dive": 0,
-     "Fighter": 0,
-     "Skip": 0
-    },
-    "airSupportSquadrons": [],
-    "consumablePlanesReserve": {
-     "Fighter": 1,
-     "Scout": 0
-    },
-    "consumableSquadrons": [],
-    "hasConsumablePlanes": false,
-    "isGroundAttackEnabled": true,
-    "planesReserveAssignment": {
-     "Auxiliary": 0,
-     "Bomber": 1,
-     "Dive": 1,
-     "Fighter": 1,
-     "Scout": 0,
-     "Skip": 1
-    },
-    "prepareTimeFactor": 1.0,
     "squadrons": [
      "Fighter",
      "Dive"
@@ -13781,10 +13723,6 @@
      }
     }
    },
-   "AB_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
-   },
    "AB_DepthChargeGuns": {
     "depthCharges": {
      "HP_BGB_1": {
@@ -13984,7 +13922,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_Hull": {
     "health": 31800.0,
@@ -14280,7 +14219,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "B_Hull": {
     "health": 36400.0,
@@ -14810,11 +14750,9 @@
     "maxDist": 6600.0,
     "sigmaCount": 1.0
    },
-   "A_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
+   "A_AirDefense": {
+    "isAA": true
    },
-   "A_AirDefense": {},
    "A_AirSupport": {
     "chargesNum": 3,
     "flyAwayTime": 15.0,
@@ -15183,11 +15121,9 @@
     "maxDist": 7000.0,
     "sigmaCount": 1.0
    },
-   "A_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
+   "A_AirDefense": {
+    "isAA": true
    },
-   "A_AirDefense": {},
    "A_AirSupport": {
     "chargesNum": 3,
     "flyAwayTime": 15.0,
@@ -15929,10 +15865,6 @@
     "maxDistCoef": 1.1,
     "sigmaCountCoef": 1.0
    },
-   "AB_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
-   },
    "AB_DepthChargeGuns": {
     "depthCharges": {
      "HP_BGB_1": {
@@ -16072,7 +16004,8 @@
      "maxDistance": 1500.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_Hull": {
     "health": 24000.0,
@@ -16389,7 +16322,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "B_Hull": {
     "health": 27100.0,
@@ -16888,10 +16822,6 @@
     "maxDist": 5000.0,
     "sigmaCount": 1.0
    },
-   "AirArmamentDefault": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
-   },
    "AirDefenseDefault": {
     "AuraMedium": {
      "areaDamage": 47.0,
@@ -16912,7 +16842,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "AirSupport": {
     "chargesNum": 2,
@@ -17207,29 +17138,6 @@
     "planeType": "PBAF108_Implacable_stock"
    },
    "AB1_FlightControl": {
-    "airSupportPlanesReserve": {
-     "Bomber": 0,
-     "Dive": 0,
-     "Fighter": 0,
-     "Skip": 0
-    },
-    "airSupportSquadrons": [],
-    "consumablePlanesReserve": {
-     "Fighter": 1,
-     "Scout": 0
-    },
-    "consumableSquadrons": [],
-    "hasConsumablePlanes": false,
-    "isGroundAttackEnabled": true,
-    "planesReserveAssignment": {
-     "Auxiliary": 0,
-     "Bomber": 1,
-     "Dive": 1,
-     "Fighter": 1,
-     "Scout": 0,
-     "Skip": 1
-    },
-    "prepareTimeFactor": 1.0,
     "squadrons": [
      "Fighter",
      "Bomber",
@@ -17414,11 +17322,9 @@
     "maxDist": 4500.0,
     "sigmaCount": 1.0
    },
-   "AB_AirArmament": {
-    "deckPlaceCount": 29,
-    "planesReserveCapacity": 72
+   "A_AirDefense": {
+    "isAA": true
    },
-   "A_AirDefense": {},
    "A_Hull": {
     "health": 49300.0,
     "maxSpeed": 32.0,
@@ -17428,7 +17334,9 @@
     "visibilityFactor": 14.96,
     "visibilityFactorByPlane": 11.51
    },
-   "B_AirDefense": {},
+   "B_AirDefense": {
+    "isAA": true
+   },
    "B_Hull": {
     "health": 52200.0,
     "maxSpeed": 32.0,
@@ -17876,10 +17784,6 @@
      }
     }
    },
-   "AB_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
-   },
    "AB_DepthChargeGuns": {
     "depthCharges": {
      "HP_BGB_1": {
@@ -18049,7 +17953,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_Hull": {
     "health": 24500.0,
@@ -18305,7 +18210,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "B_Hull": {
     "health": 28700.0,
@@ -19740,7 +19646,8 @@
      "maxDistance": 2500.0,
      "minDistance": 100.0,
      "type": "medium"
-    }
+    },
+    "isAA": true
    },
    "A_Hull": {
     "health": 19100.0,
@@ -19771,7 +19678,8 @@
      "maxDistance": 3000.0,
      "minDistance": 100.0,
      "type": "medium"
-    }
+    },
+    "isAA": true
    },
    "B_Hull": {
     "health": 20300.0,
@@ -19954,29 +19862,6 @@
     "planeType": "PBAF110_Audacious_stock"
    },
    "A1_FlightControl": {
-    "airSupportPlanesReserve": {
-     "Bomber": 0,
-     "Dive": 0,
-     "Fighter": 0,
-     "Skip": 0
-    },
-    "airSupportSquadrons": [],
-    "consumablePlanesReserve": {
-     "Fighter": 1,
-     "Scout": 0
-    },
-    "consumableSquadrons": [],
-    "hasConsumablePlanes": false,
-    "isGroundAttackEnabled": true,
-    "planesReserveAssignment": {
-     "Auxiliary": 0,
-     "Bomber": 1,
-     "Dive": 1,
-     "Fighter": 1,
-     "Scout": 0,
-     "Skip": 1
-    },
-    "prepareTimeFactor": 1.0,
     "squadrons": [
      "Fighter",
      "Bomber",
@@ -20161,11 +20046,9 @@
     "maxDist": 5000.0,
     "sigmaCount": 1.0
    },
-   "A_AirArmament": {
-    "deckPlaceCount": 36,
-    "planesReserveCapacity": 116
+   "A_AirDefense": {
+    "isAA": true
    },
-   "A_AirDefense": {},
    "A_Hull": {
     "health": 63400.0,
     "maxSpeed": 32.0,
@@ -20717,10 +20600,6 @@
     "maxDist": 5600.0,
     "sigmaCount": 1.0
    },
-   "A_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
-   },
    "A_AirDefense": {
     "AuraMedium": {
      "areaDamage": 64.0,
@@ -20741,7 +20620,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_AirSupport": {
     "chargesNum": 2,
@@ -20885,10 +20765,6 @@
  },
  {
   "ModulesArmaments": {
-   "AB1_AirArmament": {
-    "deckPlaceCount": 18,
-    "planesReserveCapacity": 36
-   },
    "AB1_DiveBomber": {
     "planeType": "PBAD104_Hermes_stock"
    },
@@ -20901,29 +20777,6 @@
     "planeType": "PBAF104_Hermes_stock"
    },
    "AB1_FlightControl": {
-    "airSupportPlanesReserve": {
-     "Bomber": 0,
-     "Dive": 0,
-     "Fighter": 0,
-     "Skip": 0
-    },
-    "airSupportSquadrons": [],
-    "consumablePlanesReserve": {
-     "Fighter": 1,
-     "Scout": 0
-    },
-    "consumableSquadrons": [],
-    "hasConsumablePlanes": false,
-    "isGroundAttackEnabled": true,
-    "planesReserveAssignment": {
-     "Auxiliary": 0,
-     "Bomber": 1,
-     "Dive": 1,
-     "Fighter": 1,
-     "Scout": 0,
-     "Skip": 1
-    },
-    "prepareTimeFactor": 1.0,
     "squadrons": [
      "Fighter",
      "Bomber",
@@ -21119,7 +20972,9 @@
     "maxDist": 3500.0,
     "sigmaCount": 1.0
    },
-   "AB_AirDefense": {},
+   "AB_AirDefense": {
+    "isAA": true
+   },
    "A_Hull": {
     "health": 32200.0,
     "maxSpeed": 25.0,
@@ -21924,7 +21779,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_Hull": {
     "health": 39900.0,
@@ -21955,7 +21811,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "B_Hull": {
     "health": 44900.0,
@@ -22373,7 +22230,8 @@
      "maxDistance": 1500.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_Engine": {
     "backwardEngineUpTime": 10.0,
@@ -22681,10 +22539,6 @@
     "maxDist": 6600.0,
     "sigmaCount": 1.0
    },
-   "AB_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
-   },
    "AB_Torpedoes": {
     "torpedoArray": {
      "HP_BGT_1": {
@@ -22757,7 +22611,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_Artillery": {
     "guns": {
@@ -22882,7 +22737,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "B_Artillery": {
     "guns": {
@@ -23447,7 +23303,9 @@
     "normalDistribution": true,
     "sigmaCount": 2.0
    },
-   "B_AirDefense": {},
+   "B_AirDefense": {
+    "isAA": true
+   },
    "B_Hull": {
     "health": 8700.0,
     "maxSpeed": 32.0,
@@ -23780,7 +23638,9 @@
      }
     }
    },
-   "A_AirDefense": {},
+   "A_AirDefense": {
+    "isAA": true
+   },
    "A_DepthChargeGuns": {
     "depthCharges": {
      "HP_BGB_1": {
@@ -24355,7 +24215,9 @@
     "maxPacks": 2,
     "reloadTime": 40
    },
-   "A_AirDefense": {},
+   "A_AirDefense": {
+    "isAA": true
+   },
    "A_Hull": {
     "health": 9500.0,
     "maxSpeed": 35.0,
@@ -24365,7 +24227,9 @@
     "visibilityFactor": 6.84,
     "visibilityFactorByPlane": 2.57
    },
-   "B_AirDefense": {},
+   "B_AirDefense": {
+    "isAA": true
+   },
    "B_Hull": {
     "health": 11200.0,
     "maxSpeed": 35.0,
@@ -24913,7 +24777,9 @@
     "maxDist": 4500.0,
     "sigmaCount": 1.0
    },
-   "A_AirDefense": {},
+   "A_AirDefense": {
+    "isAA": true
+   },
    "A_Hull": {
     "health": 27800.0,
     "maxSpeed": 30.0,
@@ -25009,7 +24875,9 @@
     "maxDist": 4500.0,
     "sigmaCount": 1.0
    },
-   "B_AirDefense": {},
+   "B_AirDefense": {
+    "isAA": true
+   },
    "B_Hull": {
     "health": 32200.0,
     "maxSpeed": 30.0,
@@ -25395,7 +25263,9 @@
     "maxDistCoef": 1.1,
     "sigmaCountCoef": 1.0
    },
-   "A_AirDefense": {},
+   "A_AirDefense": {
+    "isAA": true
+   },
    "A_Hull": {
     "health": 8600.0,
     "maxSpeed": 34.0,
@@ -25405,7 +25275,9 @@
     "visibilityFactor": 6.3,
     "visibilityFactorByPlane": 2.35
    },
-   "B_AirDefense": {},
+   "B_AirDefense": {
+    "isAA": true
+   },
    "B_Hull": {
     "health": 9500.0,
     "maxSpeed": 34.0,
@@ -25718,11 +25590,9 @@
     "maxDist": 7300.0,
     "sigmaCount": 1.0
    },
-   "A_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
+   "A_AirDefense": {
+    "isAA": true
    },
-   "A_AirDefense": {},
    "A_Artillery": {
     "guns": {
      "HP_BGM_1": {
@@ -26287,10 +26157,6 @@
      }
     }
    },
-   "AB_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
-   },
    "AB_DepthChargeGuns": {
     "depthCharges": {
      "HP_BGB_1": {
@@ -26450,7 +26316,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_Hull": {
     "health": 27500.0,
@@ -26587,7 +26454,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "B_Hull": {
     "health": 31400.0,
@@ -27002,7 +26870,9 @@
     "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
    },
-   "A_AirDefense": {},
+   "A_AirDefense": {
+    "isAA": true
+   },
    "A_Hull": {
     "health": 8400.0,
     "maxSpeed": 35.0,
@@ -27135,7 +27005,9 @@
     "normalDistribution": true,
     "sigmaCount": 2.0
    },
-   "B_AirDefense": {},
+   "B_AirDefense": {
+    "isAA": true
+   },
    "B_Hull": {
     "health": 10000.0,
     "maxSpeed": 35.0,
@@ -27630,10 +27502,6 @@
     "maxDist": 7300.0,
     "sigmaCount": 1.0
    },
-   "A_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
-   },
    "A_AirDefense": {
     "AuraMedium": {
      "areaDamage": 179.0,
@@ -27644,7 +27512,8 @@
      "maxDistance": 3500.0,
      "minDistance": 100.0,
      "type": "medium"
-    }
+    },
+    "isAA": true
    },
    "A_AirSupport": {
     "chargesNum": 3,
@@ -27923,7 +27792,9 @@
     "maxDist": 7250.0,
     "sigmaCount": 1.0
    },
-   "A_AirDefense": {},
+   "A_AirDefense": {
+    "isAA": true
+   },
    "A_Artillery": {
     "guns": {
      "HP_BGM_1": {
@@ -28440,7 +28311,9 @@
     "maxDist": 5000.0,
     "sigmaCount": 1.0
    },
-   "A_AirDefense": {},
+   "A_AirDefense": {
+    "isAA": true
+   },
    "A_Artillery": {
     "guns": {
      "HP_BGM_1": {
@@ -29057,16 +28930,14 @@
     "maxDist": 6950.0,
     "sigmaCount": 1.0
    },
-   "AB_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
-   },
    "AB_Engine": {
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
    },
-   "A_AirDefense": {},
+   "A_AirDefense": {
+    "isAA": true
+   },
    "A_Hull": {
     "health": 40100.0,
     "maxSpeed": 33.3,
@@ -29076,7 +28947,9 @@
     "visibilityFactor": 13.2,
     "visibilityFactorByPlane": 8.74
    },
-   "B_AirDefense": {},
+   "B_AirDefense": {
+    "isAA": true
+   },
    "B_Hull": {
     "health": 46800.0,
     "maxSpeed": 33.3,
@@ -29453,7 +29326,9 @@
     "maxDist": 7300.0,
     "sigmaCount": 1.0
    },
-   "A_AirDefense": {},
+   "A_AirDefense": {
+    "isAA": true
+   },
    "A_Artillery": {
     "guns": {
      "HP_BGM_1": {
@@ -30084,10 +29959,6 @@
     "maxDist": 4960.0,
     "sigmaCount": 1.0
    },
-   "AB_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
-   },
    "AB_AirSupport": {
     "chargesNum": 2,
     "flyAwayTime": 15.0,
@@ -30119,7 +29990,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_Hull": {
     "health": 53100.0,
@@ -30273,7 +30145,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "B_Hull": {
     "health": 55300.0,
@@ -30477,7 +30350,9 @@
  },
  {
   "ModulesArmaments": {
-   "A_AirDefense": {},
+   "A_AirDefense": {
+    "isAA": true
+   },
    "A_Artillery": {
     "guns": {
      "HP_BGM_1": {
@@ -30690,29 +30565,6 @@
  {
   "ModulesArmaments": {
    "A1_FlightControl": {
-    "airSupportPlanesReserve": {
-     "Bomber": 0,
-     "Dive": 0,
-     "Fighter": 0,
-     "Skip": 0
-    },
-    "airSupportSquadrons": [],
-    "consumablePlanesReserve": {
-     "Fighter": 1,
-     "Scout": 0
-    },
-    "consumableSquadrons": [],
-    "hasConsumablePlanes": false,
-    "isGroundAttackEnabled": true,
-    "planesReserveAssignment": {
-     "Auxiliary": 0,
-     "Bomber": 1,
-     "Dive": 1,
-     "Fighter": 1,
-     "Scout": 0,
-     "Skip": 1
-    },
-    "prepareTimeFactor": 1.0,
     "squadrons": [
      "Fighter",
      "Bomber",
@@ -30885,11 +30737,9 @@
     "maxDist": 5000.0,
     "sigmaCount": 1.0
    },
-   "A_AirArmament": {
-    "deckPlaceCount": 36,
-    "planesReserveCapacity": 116
+   "A_AirDefense": {
+    "isAA": true
    },
-   "A_AirDefense": {},
    "A_DiveBomber": {
     "planeType": "PBAD110_Audacious_stock"
    },
@@ -31384,10 +31234,6 @@
     "maxDist": 5600.0,
     "sigmaCount": 1.0
    },
-   "A_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
-   },
    "A_AirDefense": {
     "AuraMedium": {
      "areaDamage": 112.0,
@@ -31408,7 +31254,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_AirSupport": {
     "chargesNum": 2,
@@ -31669,10 +31516,6 @@
     "maxDistCoef": 1.1,
     "sigmaCountCoef": 1.0
    },
-   "AB_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
-   },
    "AB_AirSupport": {
     "chargesNum": 3,
     "flyAwayTime": 15.0,
@@ -31890,7 +31733,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_Hull": {
     "health": 53900.0,
@@ -32201,7 +32045,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "B_Hull": {
     "health": 60500.0,
@@ -32702,10 +32547,6 @@
     "maxDist": 5600.0,
     "sigmaCount": 1.0
    },
-   "A_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
-   },
    "A_AirDefense": {
     "AuraFar": {
      "areaDamage": 19.0,
@@ -32746,7 +32587,8 @@
      "maxDistance": 1500.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_AirSupport": {
     "chargesNum": 2,
@@ -33199,7 +33041,9 @@
     "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
    },
-   "A_AirDefense": {},
+   "A_AirDefense": {
+    "isAA": true
+   },
    "A_Hull": {
     "health": 14800.0,
     "maxSpeed": 34.0,
@@ -33303,7 +33147,9 @@
     "normalDistribution": true,
     "sigmaCount": 2.0
    },
-   "B_AirDefense": {},
+   "B_AirDefense": {
+    "isAA": true
+   },
    "B_Hull": {
     "health": 18400.0,
     "maxSpeed": 34.0,
@@ -33893,10 +33739,6 @@
     "maxDist": 6950.0,
     "sigmaCount": 1.0
    },
-   "AB_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
-   },
    "AB_AirSupport": {
     "chargesNum": 3,
     "flyAwayTime": 15.0,
@@ -33928,7 +33770,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_Hull": {
     "health": 58600.0,
@@ -33949,7 +33792,8 @@
      "maxDistance": 3500.0,
      "minDistance": 100.0,
      "type": "medium"
-    }
+    },
+    "isAA": true
    },
    "B_Hull": {
     "health": 67900.0,
@@ -34375,7 +34219,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_Artillery": {
     "guns": {
@@ -34697,10 +34542,6 @@
    "AB2_FireControl": {
     "maxDistCoef": 1.1,
     "sigmaCountCoef": 1.0
-   },
-   "AB_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
    },
    "A_ATBA": {
     "AuraFar": {
@@ -35028,7 +34869,8 @@
      "maxDistance": 1500.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_Artillery": {
     "guns": {
@@ -35557,7 +35399,8 @@
      "maxDistance": 1500.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "B_Artillery": {
     "guns": {

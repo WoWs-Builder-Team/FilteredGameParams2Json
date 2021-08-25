@@ -191,7 +191,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_DepthChargeGuns": {
     "depthCharges": {
@@ -454,7 +455,8 @@
      "maxDistance": 2500.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_Artillery": {
     "AuraFar": {
@@ -665,10 +667,6 @@
  },
  {
   "ModulesArmaments": {
-   "A_AirArmament": {
-    "deckPlaceCount": 21,
-    "planesReserveCapacity": 48
-   },
    "A_AirDefense": {
     "AuraMedium": {
      "areaDamage": 99.0,
@@ -689,7 +687,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_DiveBomber": {
     "planeType": "PZAD701_SANZANG_STOCK"
@@ -703,29 +702,6 @@
     "planeType": "PZAF701_SANZANG_STOCK"
    },
    "A_FlightControl": {
-    "airSupportPlanesReserve": {
-     "Bomber": 0,
-     "Dive": 0,
-     "Fighter": 0,
-     "Skip": 0
-    },
-    "airSupportSquadrons": [],
-    "consumablePlanesReserve": {
-     "Fighter": 1,
-     "Scout": 0
-    },
-    "consumableSquadrons": [],
-    "hasConsumablePlanes": false,
-    "isGroundAttackEnabled": true,
-    "planesReserveAssignment": {
-     "Auxiliary": 0,
-     "Bomber": 1,
-     "Dive": 1,
-     "Fighter": 1,
-     "Scout": 0,
-     "Skip": 1
-    },
-    "prepareTimeFactor": 1.0,
     "squadrons": [
      "Fighter",
      "Bomber",
@@ -1285,7 +1261,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_Hull": {
     "health": 14800.0,
@@ -1316,7 +1293,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "B_Hull": {
     "health": 17100.0,
@@ -1860,7 +1838,9 @@
     "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
    },
-   "A_AirDefense": {},
+   "A_AirDefense": {
+    "isAA": true
+   },
    "A_Hull": {
     "health": 12800.0,
     "maxSpeed": 37.5,
@@ -1993,7 +1973,9 @@
     "normalDistribution": true,
     "sigmaCount": 2.0
    },
-   "B_AirDefense": {},
+   "B_AirDefense": {
+    "isAA": true
+   },
    "B_Hull": {
     "health": 15500.0,
     "maxSpeed": 37.5,
@@ -2329,10 +2311,6 @@
     "maxDist": 6600.0,
     "sigmaCount": 1.0
    },
-   "A_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
-   },
    "A_AirDefense": {
     "AuraMedium": {
      "areaDamage": 60.0,
@@ -2353,7 +2331,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_Artillery": {
     "guns": {
@@ -2913,7 +2892,8 @@
      "maxDistance": 1500.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_Hull": {
     "health": 9400.0,
@@ -2934,7 +2914,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "B_Hull": {
     "health": 10600.0,
@@ -3765,10 +3746,6 @@
     "maxDist": 7000.0,
     "sigmaCount": 1.0
    },
-   "A_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
-   },
    "A_AirDefense": {
     "AuraMedium": {
      "areaDamage": 83.0,
@@ -3779,7 +3756,8 @@
      "maxDistance": 2500.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_Artillery": {
     "guns": {
@@ -4329,11 +4307,9 @@
     "maxDist": 7950.0,
     "sigmaCount": 1.0
    },
-   "A_AirArmament": {
-    "deckPlaceCount": 0,
-    "planesReserveCapacity": 0
+   "A_AirDefense": {
+    "isAA": true
    },
-   "A_AirDefense": {},
    "A_Artillery": {
     "guns": {
      "HP_ZGM_1": {
@@ -4950,7 +4926,8 @@
      "maxDistance": 2500.0,
      "minDistance": 100.0,
      "type": "medium"
-    }
+    },
+    "isAA": true
    },
    "A_Hull": {
     "health": 10600.0,
@@ -4971,7 +4948,8 @@
      "maxDistance": 2500.0,
      "minDistance": 100.0,
      "type": "medium"
-    }
+    },
+    "isAA": true
    },
    "B_Hull": {
     "health": 12500.0,
@@ -5187,7 +5165,8 @@
      "maxDistance": 3500.0,
      "minDistance": 100.0,
      "type": "medium"
-    }
+    },
+    "isAA": true
    },
    "A_Artillery": {
     "AuraFar": {
@@ -5990,7 +5969,9 @@
     "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
    },
-   "A_AirDefense": {},
+   "A_AirDefense": {
+    "isAA": true
+   },
    "A_Hull": {
     "health": 12000.0,
     "maxSpeed": 36.0,
@@ -6000,7 +5981,9 @@
     "visibilityFactor": 7.02,
     "visibilityFactorByPlane": 2.9
    },
-   "B_AirDefense": {},
+   "B_AirDefense": {
+    "isAA": true
+   },
    "B_Hull": {
     "health": 14300.0,
     "maxSpeed": 36.0,
@@ -6450,7 +6433,8 @@
      "maxDistance": 3500.0,
      "minDistance": 100.0,
      "type": "medium"
-    }
+    },
+    "isAA": true
    },
    "A_DepthChargeGuns": {
     "depthCharges": {
@@ -6980,7 +6964,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_DepthChargeGuns": {
     "depthCharges": {
@@ -7629,7 +7614,8 @@
      "maxDistance": 3500.0,
      "minDistance": 100.0,
      "type": "medium"
-    }
+    },
+    "isAA": true
    },
    "A_Hull": {
     "health": 41200.0,
@@ -8121,7 +8107,8 @@
      "maxDistance": 2500.0,
      "minDistance": 100.0,
      "type": "medium"
-    }
+    },
+    "isAA": true
    },
    "A_Hull": {
     "health": 12000.0,
@@ -8142,7 +8129,8 @@
      "maxDistance": 3500.0,
      "minDistance": 100.0,
      "type": "medium"
-    }
+    },
+    "isAA": true
    },
    "B_Hull": {
     "health": 14100.0,
@@ -8511,7 +8499,9 @@
     "maxDistCoef": 1.1,
     "sigmaCountCoef": 1.0
    },
-   "A_AirDefense": {},
+   "A_AirDefense": {
+    "isAA": true
+   },
    "A_Hull": {
     "health": 7900.0,
     "maxSpeed": 36.0,
@@ -8521,7 +8511,9 @@
     "visibilityFactor": 5.76,
     "visibilityFactorByPlane": 2.04
    },
-   "B_AirDefense": {},
+   "B_AirDefense": {
+    "isAA": true
+   },
    "B_Hull": {
     "health": 8700.0,
     "maxSpeed": 36.0,
@@ -8981,7 +8973,8 @@
      "maxDistance": 2000.0,
      "minDistance": 100.0,
      "type": "near"
-    }
+    },
+    "isAA": true
    },
    "A_DepthChargeGuns": {
     "depthCharges": {
@@ -9169,7 +9162,9 @@
  },
  {
   "ModulesArmaments": {
-   "A_AirDefense": {},
+   "A_AirDefense": {
+    "isAA": true
+   },
    "A_Artillery": {
     "guns": {
      "HP_ZGM_1": {
