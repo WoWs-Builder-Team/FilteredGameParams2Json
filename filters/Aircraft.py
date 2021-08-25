@@ -1,5 +1,5 @@
 AIRCRAFT_KEYS = ["hangarSettings", "maxHealth", "naturalAcceleration", "naturalDeceleration", "numPlanesInSquadron",
-                 "returnHeight", "speedMax", "speedMin"]
+                 "returnHeight", "speedMax", "speedMin", "bombName"]
 COMMON_KEYS = ['id', 'typeinfo', 'name', 'index']
 
 
