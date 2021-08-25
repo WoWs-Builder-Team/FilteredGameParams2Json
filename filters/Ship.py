@@ -74,14 +74,16 @@ class Ship:
                     if v[1]:
                         gp_object.__setattr__(*v)
 
-                for _k in AA_KEYS:
-                    try:
-                        if obj := gp_object.__getattribute__(_k):
-                            self._delete_attributes(obj, AIRDEFENCE_SUBKEYS)
-                    except AttributeError:
-                        pass
+                aa_subkeys = []
 
-                self._delete_attributes(gp_object, parent + AA_KEYS + [v[0] for v in species_map.values()])
+                for subkey, subvalue in gp_object.__dict__.items():
+                    subkey_lower = subkey.lower()
+                    for search_str in ["far", "medium", "near"]:
+                        if search_str in subkey_lower:
+                            aa_subkeys.append(subkey)
+                            self._delete_attributes(subvalue, AIRDEFENCE_SUBKEYS)
+
+                self._delete_attributes(gp_object, parent + AA_KEYS + aa_subkeys + [v[0] for v in species_map.values()])
         except KeyError:
             pass
 
@@ -166,4 +168,3 @@ class Ship:
         self._filter_upgrade_info()
         self._apply_root_filter()
         return self._data
-
