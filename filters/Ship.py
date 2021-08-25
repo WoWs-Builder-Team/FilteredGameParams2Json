@@ -50,13 +50,31 @@ class Ship:
 
                 gun_keys = []
 
+                # species: Main, Torpedo, Secondary, DCharge
+                # Main: guns
+                # Torpedo: torpedoArray
+                # Secondary: antiAirAndSecondaries
+                # DCharge: depthCharges
+
+                main, torpedo, secondary, dcharge = {}, {}, {}, {}
+                species_map = {"Main": ("guns", main), "Torpedo": ("torpedoArray", torpedo),
+                               "Secondary": ("antiAirAndSecondaries", secondary), "DCharge": ("depthCharges", dcharge)}
+
                 for k, v in gp_object.__dict__.items():
                     try:
                         if v.typeinfo.type == "Gun":
                             gun_keys.append(k)
                             self._delete_attributes(v, children)
+                            try:
+                                species_map[v.typeinfo.species][1].update({k: gp_object.__getattribute__(k)})
+                            except KeyError:
+                                pass
                     except AttributeError:
                         pass
+
+                for k, v in species_map.items():
+                    if v[1]:
+                        gp_object.__setattr__(*v)
 
                 for _k in AA_KEYS:
                     try:
@@ -66,7 +84,7 @@ class Ship:
                         pass
 
                 gun_keys = gun_keys if not delete_guns else []
-                self._delete_attributes(gp_object, parent + gun_keys + AA_KEYS)
+                self._delete_attributes(gp_object, parent + AA_KEYS + [v[0] for v in species_map.values()])
         except KeyError:
             pass
 
@@ -137,7 +155,6 @@ class Ship:
         self._filter_upgrade_info()
         self._apply_root_filter()
         return self._data
-
 
 # if __name__ == '__main__':
 #     with open("sample/PASB509_Missouri.dat", "rb") as f:
