@@ -48,8 +48,6 @@ class Ship:
             for key in keys:
                 gp_object: object = self._data.__getattribute__(key)
 
-                gun_keys = []
-
                 # species: Main, Torpedo, Secondary, DCharge
                 # Main: guns
                 # Torpedo: torpedoArray
@@ -63,7 +61,6 @@ class Ship:
                 for k, v in gp_object.__dict__.items():
                     try:
                         if v.typeinfo.type == "Gun":
-                            gun_keys.append(k)
                             self._delete_attributes(v, children)
                             try:
                                 species_map[v.typeinfo.species][1].update({k: gp_object.__getattribute__(k)})
@@ -83,7 +80,6 @@ class Ship:
                     except AttributeError:
                         pass
 
-                gun_keys = gun_keys if not delete_guns else []
                 self._delete_attributes(gp_object, parent + AA_KEYS + [v[0] for v in species_map.values()])
         except KeyError:
             pass
