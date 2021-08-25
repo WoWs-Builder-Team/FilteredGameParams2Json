@@ -1,5 +1,3 @@
-import pickle
-
 ARTILLERY_KEYS = ["maxDist", "normalDistribution", "sigmaCount", "AuraFar", "AuraFar_Bubbles"]
 ARTILLERY_GUN_KEYS = ["ammoList", "barrelDiameter", "horizSector", "id", "index", "numBarrels", "position",
                       "rotationSpeed", "shotDelay", "smokePenalty", "typeinfo"]
@@ -23,6 +21,7 @@ HULL_SUBKEYS = ["health", "maxSpeed", "rudderTime", "speedCoef", "visibilityCoef
 ENGINE_KEYS = ["forwardEngineUpTime", "backwardEngineUpTime", "speedCoef"]
 PINGERGUN_KEYS = ["rotationSpeed", "sectorParams", "waveDistance", "waveHitAlertTime", "waveHitLifeTime", "waveParams",
                   "waveReloadTime"]
+FLIGHTCONTROL_KEYS = ["squadrons"]
 ROOT_KEYS = ["id", "index", "level", "name", "typeinfo", "ShipUpgradeInfo", "ShipAbilities"]
 
 
@@ -102,6 +101,15 @@ class Ship:
         except AttributeError:
             pass
 
+    def _add_new_key(self, uc_component: tuple, data: dict):
+        for key in self._get_components(uc_component):
+            try:
+                obj: object = self._data.__getattribute__(key)
+                for k, v in data.items():
+                    obj.__setattr__(k, v)
+            except Exception as e:
+                print(e)
+
     def _apply_root_filter(self):
         # COMMON
         fire_control_keys = self._get_components(("_Suo", "fireControl"))
@@ -118,7 +126,7 @@ class Ship:
         fighter_keys = self._get_components(("_Fighter", "fighter"))
         sbomber_keys = self._get_components(("_SkipBomber", "skipBomber"))
         fcontrol_keys = self._get_components(("_FlightControl", "flightControl"))
-        airarmament_keys = self._get_components(("_Hull", "airArmament"))
+        # airarmament_keys = self._get_components(("_Hull", "airArmament"))
         # SUB RELATED
         pingergun_keys = self._get_components(("_Hull", "pinger"))
         # NL RELATED
@@ -127,13 +135,14 @@ class Ship:
         all_components = fire_control_keys + artillery_keys + atba_keys + depthcharge_keys + torpedo_keys
         all_components = all_components + airdefence_keys + hull_keys + engine_keys
         all_components = all_components + tbomber_keys + dbomber_keys + fighter_keys + sbomber_keys + fcontrol_keys
-        all_components = all_components + airarmament_keys + pingergun_keys + airsupport_keys
+        all_components = all_components + pingergun_keys + airsupport_keys
 
         modules_armaments = {comp: self._data.__getattribute__(comp) for comp in all_components}
 
         self._data.__setattr__("ModulesArmaments", modules_armaments)
 
         all_root_keys = ROOT_KEYS + ["ModulesArmaments"]
+        self._add_new_key(("_Hull", "airDefense"), {"isAA": True})
         self._delete_attributes(self._data, all_root_keys)
 
     @staticmethod
@@ -153,13 +162,8 @@ class Ship:
         self._filter_common(("_Engine", "engine"), ENGINE_KEYS)
         self._filter_common(("_Hull", "airArmament"), AIRARMAMENT_KEYS)
         self._filter_common(("_Hull", "pinger"), PINGERGUN_KEYS)
+        self._filter_common(("_FlightControl", "flightControl"), FLIGHTCONTROL_KEYS)
         self._filter_upgrade_info()
         self._apply_root_filter()
         return self._data
 
-# if __name__ == '__main__':
-#     with open("sample/PASB509_Missouri.dat", "rb") as f:
-#         sample_data = pickle.load(f)
-#
-#     s = Ship(sample_data)
-#     s.get_filtered_ship()
