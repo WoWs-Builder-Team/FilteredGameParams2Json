@@ -35,11 +35,15 @@
   "id": 4291707088,
   "index": "PZPD003",
   "name": "PZPD003_Depth_Charge_BM1",
+  "speed": 10.0,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "DepthCharge",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 0.15
  },
  {
   "alertDist": 100,
@@ -49,11 +53,15 @@
   "id": 4293804240,
   "index": "PZPD001",
   "name": "PZPD001_Depth_Charge_BB1",
+  "speed": 10.0,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "DepthCharge",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 0.15
  },
  {
   "alertDist": 100,
@@ -63,26 +71,36 @@
   "id": 4292755664,
   "index": "PZPD002",
   "name": "PZPD002_Depth_Charge_BB1",
+  "speed": 10.0,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "DepthCharge",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 0.15
  },
  {
   "alertDist": 100,
   "alphaDamage": 43900.0,
   "ammoType": "torpedo",
+  "armingTime": 1,
   "bulletDiametr": 0.533,
+  "damage": 1100.0,
   "id": 4281745616,
+  "ignoreClasses": [],
   "index": "PZPT012",
   "maxDist": 200.0,
   "name": "PZPT012_533_MKVII_C",
+  "speed": 59.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 2.62,
+  "visibilityFactor": 1.2
  },
  {
   "affectedByPTZ": false,
@@ -144,16 +162,22 @@
   "alertDist": 100,
   "alphaDamage": 32500.0,
   "ammoType": "torpedo",
+  "armingTime": 1,
   "bulletDiametr": 0.533,
+  "damage": 900.0,
   "id": 4283842768,
+  "ignoreClasses": [],
   "index": "PZPT010",
   "maxDist": 183.0,
   "name": "PZPT010_MK_11_C",
+  "speed": 56.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 1.92,
+  "visibilityFactor": 1.1
  },
  {
   "alertDist": 100,
@@ -163,26 +187,40 @@
   "id": 4285415632,
   "index": "PZPD009",
   "name": "PZPD009_Depth_Charge",
+  "speed": 10.0,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "DepthCharge",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 0.15
  },
  {
   "alertDist": 100,
   "alphaDamage": 58700.0,
   "ammoType": "torpedo_deepwater",
+  "armingTime": 1,
   "bulletDiametr": 0.61,
+  "damage": 1400.0,
   "id": 4264968400,
+  "ignoreClasses": [
+   "Destroyer",
+   "Cruiser",
+   "Submarine"
+  ],
   "index": "PZPT028",
   "maxDist": 400.0,
   "name": "PZPT028_610MM_FEN_YANG",
+  "speed": 67.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 3.55,
+  "visibilityFactor": 0.8
  },
  {
   "affectedByPTZ": false,
@@ -216,16 +254,25 @@
   "alertDist": 100,
   "alphaDamage": 46800.0,
   "ammoType": "torpedo_deepwater",
+  "armingTime": 1,
   "bulletDiametr": 0.533,
+  "damage": 1100.0,
   "id": 4280697040,
+  "ignoreClasses": [
+   "Destroyer",
+   "Submarine"
+  ],
   "index": "PZPT013",
   "maxDist": 213.0,
   "name": "PZPT013_533_MKVII_D",
+  "speed": 62.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 3.41,
+  "visibilityFactor": 0.8
  },
  {
   "affectedByPTZ": false,
@@ -287,16 +334,22 @@
   "alertDist": 100,
   "alphaDamage": 40200.0,
   "ammoType": "torpedo",
+  "armingTime": 1,
   "bulletDiametr": 0.533,
+  "damage": 1000.0,
   "id": 4279648464,
+  "ignoreClasses": [],
   "index": "PZPT014",
   "maxDist": 267.0,
   "name": "PZPT014_53_51_C",
+  "speed": 60.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 2.4,
+  "visibilityFactor": 1.2
  },
  {
   "alertDist": 100,
@@ -306,11 +359,15 @@
   "id": 4284367056,
   "index": "PZPD010",
   "name": "PZPD010_Depth_Charge",
+  "speed": 10.0,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "DepthCharge",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 0.15
  },
  {
   "affectedByPTZ": false,
@@ -344,46 +401,73 @@
   "alertDist": 100,
   "alphaDamage": 27300.0,
   "ammoType": "torpedo_deepwater",
+  "armingTime": 1,
   "bulletDiametr": 0.533,
+  "damage": 900.0,
   "id": 4284891344,
+  "ignoreClasses": [
+   "Destroyer",
+   "Submarine"
+  ],
   "index": "PZPT009",
   "maxDist": 244.0,
   "name": "PZPT009_533_MKII_D",
+  "speed": 51.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 1.9,
+  "visibilityFactor": 1.1
  },
  {
   "alertDist": 100,
   "alphaDamage": 53500.0,
   "ammoType": "torpedo_deepwater",
+  "armingTime": 1,
   "bulletDiametr": 0.533,
+  "damage": 1200.0,
   "id": 4272308432,
+  "ignoreClasses": [
+   "Destroyer",
+   "Submarine"
+  ],
   "index": "PZPT021",
   "maxDist": 350.0,
   "name": "PZPT021_MK16_MOD1_D",
+  "speed": 67.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 3.95,
+  "visibilityFactor": 0.8
  },
  {
   "alertDist": 100,
   "alphaDamage": 50200.0,
   "ammoType": "torpedo_deepwater",
+  "armingTime": 1,
   "bulletDiametr": 0.533,
+  "damage": 1200.0,
   "id": 4267065552,
+  "ignoreClasses": [
+   "Destroyer",
+   "Submarine"
+  ],
   "index": "PZPT026",
   "maxDist": 333.34,
   "name": "PZPT026_53_56_SILIWANGI",
+  "speed": 62.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 3.02,
+  "visibilityFactor": 0.8
  },
  {
   "affectedByPTZ": false,
@@ -449,11 +533,15 @@
   "id": 4287512784,
   "index": "PZPD007",
   "name": "PZPD007_Depth_Charge",
+  "speed": 10.0,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "DepthCharge",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 0.15
  },
  {
   "affectedByPTZ": false,
@@ -543,31 +631,46 @@
   "alertDist": 100,
   "alphaDamage": 51600.0,
   "ammoType": "torpedo_deepwater",
+  "armingTime": 1,
   "bulletDiametr": 0.55,
+  "damage": 1200.0,
   "id": 4266016976,
+  "ignoreClasses": [
+   "Destroyer",
+   "Submarine"
+  ],
   "index": "PZPT027",
   "maxDist": 400.0,
   "name": "PZPT027_550_23DT_MARTEL_CN",
+  "speed": 64.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 3.11,
+  "visibilityFactor": 0.8
  },
  {
   "alertDist": 100,
   "alphaDamage": 44300.0,
   "ammoType": "torpedo",
+  "armingTime": 1,
   "bulletDiametr": 0.533,
+  "damage": 1100.0,
   "id": 4277551312,
+  "ignoreClasses": [],
   "index": "PZPT016",
   "maxDist": 267.0,
   "name": "PZPT016_533_MKIX2_C",
+  "speed": 61.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 2.65,
+  "visibilityFactor": 1.3
  },
  {
   "affectedByPTZ": false,
@@ -629,16 +732,25 @@
   "alertDist": 100,
   "alphaDamage": 50100.0,
   "ammoType": "torpedo_deepwater",
+  "armingTime": 1,
   "bulletDiametr": 0.533,
+  "damage": 1200.0,
   "id": 4268114128,
+  "ignoreClasses": [
+   "Destroyer",
+   "Submarine"
+  ],
   "index": "PZPT025",
   "maxDist": 450.0,
   "name": "PZPT025_533_IRIAN",
+  "speed": 69.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 3.68,
+  "visibilityFactor": 0.8
  },
  {
   "affectedByPTZ": false,
@@ -676,11 +788,15 @@
   "id": 4290658512,
   "index": "PZPD004",
   "name": "PZPD004_Depth_Charge_MK7",
+  "speed": 10.0,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "DepthCharge",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 0.15
  },
  {
   "affectedByPTZ": false,
@@ -742,16 +858,22 @@
   "alertDist": 100,
   "alphaDamage": 50100.0,
   "ammoType": "torpedo",
+  "armingTime": 1,
   "bulletDiametr": 0.533,
+  "damage": 1200.0,
   "id": 4271259856,
+  "ignoreClasses": [],
   "index": "PZPT022",
   "maxDist": 450.0,
   "name": "PZPT022_MK17_C",
+  "speed": 68.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 3.01,
+  "visibilityFactor": 1.4
  },
  {
   "affectedByPTZ": false,
@@ -841,31 +963,43 @@
   "alertDist": 100,
   "alphaDamage": 40200.0,
   "ammoType": "torpedo",
+  "armingTime": 1,
   "bulletDiametr": 0.533,
+  "damage": 1000.0,
   "id": 4269162704,
+  "ignoreClasses": [],
   "index": "PZPT024",
   "maxDist": 267.0,
   "name": "PZPT024_533MM_HUANG_HE",
+  "speed": 60.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 2.4,
+  "visibilityFactor": 1.2
  },
  {
   "alertDist": 100,
   "alphaDamage": 53500.0,
   "ammoType": "torpedo",
+  "armingTime": 1,
   "bulletDiametr": 0.533,
+  "damage": 1200.0,
   "id": 4273357008,
+  "ignoreClasses": [],
   "index": "PZPT020",
   "maxDist": 350.0,
   "name": "PZPT020_MK16_MOD1_C",
+  "speed": 66.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 3.23,
+  "visibilityFactor": 1.4
  },
  {
   "affectedByPTZ": false,
@@ -899,76 +1033,115 @@
   "alertDist": 100,
   "alphaDamage": 44300.0,
   "ammoType": "torpedo_deepwater",
+  "armingTime": 1,
   "bulletDiametr": 0.533,
+  "damage": 1100.0,
   "id": 4276502736,
+  "ignoreClasses": [
+   "Destroyer",
+   "Submarine"
+  ],
   "index": "PZPT017",
   "maxDist": 267.0,
   "name": "PZPT017_533_MKIX2_D",
+  "speed": 61.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 3.22,
+  "visibilityFactor": 0.8
  },
  {
   "alertDist": 100,
   "alphaDamage": 40200.0,
   "ammoType": "torpedo_deepwater",
+  "armingTime": 1,
   "bulletDiametr": 0.533,
+  "damage": 1000.0,
   "id": 4278599888,
+  "ignoreClasses": [
+   "Destroyer",
+   "Submarine"
+  ],
   "index": "PZPT015",
   "maxDist": 267.0,
   "name": "PZPT015_53_51_D",
+  "speed": 60.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 2.9,
+  "visibilityFactor": 0.8
  },
  {
   "alertDist": 100,
   "alphaDamage": 46600.0,
   "ammoType": "torpedo",
+  "armingTime": 1,
   "bulletDiametr": 0.533,
+  "damage": 1100.0,
   "id": 4275454160,
+  "ignoreClasses": [],
   "index": "PZPT018",
   "maxDist": 305.0,
   "name": "PZPT018_MK_15_MOD3_C",
+  "speed": 55.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 2.79,
+  "visibilityFactor": 1.1
  },
  {
   "alertDist": 100,
   "alphaDamage": 16100.0,
   "ammoType": "torpedo",
+  "armingTime": 5.0,
   "bulletDiametr": 0.569,
+  "damage": 1100.0,
   "id": 4263919824,
+  "ignoreClasses": [],
   "index": "PZPT029",
   "maxDist": 117.0,
   "name": "PZPT029_SANZANG_STOCK",
+  "speed": 35.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 0.52,
+  "visibilityFactor": 1.6
  },
  {
   "alertDist": 100,
   "alphaDamage": 50100.0,
   "ammoType": "torpedo_deepwater",
+  "armingTime": 1,
   "bulletDiametr": 0.533,
+  "damage": 1200.0,
   "id": 4270211280,
+  "ignoreClasses": [
+   "Destroyer",
+   "Submarine"
+  ],
   "index": "PZPT023",
   "maxDist": 450.0,
   "name": "PZPT023_MK17_D",
+  "speed": 69.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 3.68,
+  "visibilityFactor": 0.8
  },
  {
   "affectedByPTZ": false,
@@ -1006,11 +1179,15 @@
   "id": 4283318480,
   "index": "PZPD011",
   "name": "PZPD011_Depth_Charge",
+  "speed": 10.0,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "DepthCharge",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 0.15
  },
  {
   "affectedByPTZ": false,
@@ -1076,11 +1253,15 @@
   "id": 4289609936,
   "index": "PZPD005",
   "name": "PZPD005_Depth_Charge_MK6",
+  "speed": 10.0,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "DepthCharge",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 0.15
  },
  {
   "alertDist": 100,
@@ -1090,11 +1271,15 @@
   "id": 4286464208,
   "index": "PZPD008",
   "name": "PZPD008_Depth_Charge",
+  "speed": 10.0,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "DepthCharge",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 0.15
  },
  {
   "affectedByPTZ": false,
@@ -1128,16 +1313,25 @@
   "alertDist": 100,
   "alphaDamage": 25300.0,
   "ammoType": "torpedo_deepwater",
+  "armingTime": 1,
   "bulletDiametr": 0.5,
+  "damage": 800.0,
   "id": 4286988496,
+  "ignoreClasses": [
+   "Destroyer",
+   "Submarine"
+  ],
   "index": "PZPT007",
   "maxDist": 280.0,
   "name": "PZPT007_G6_AV3_D",
+  "speed": 49.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 1.75,
+  "visibilityFactor": 1.1
  },
  {
   "affectedByPTZ": false,
@@ -1255,16 +1449,25 @@
   "alertDist": 100,
   "alphaDamage": 32500.0,
   "ammoType": "torpedo_deepwater",
+  "armingTime": 1,
   "bulletDiametr": 0.533,
+  "damage": 900.0,
   "id": 4282794192,
+  "ignoreClasses": [
+   "Destroyer",
+   "Submarine"
+  ],
   "index": "PZPT011",
   "maxDist": 213.0,
   "name": "PZPT011_MK_11_D",
+  "speed": 64.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 2.3,
+  "visibilityFactor": 1.1
  },
  {
   "affectedByPTZ": false,
@@ -1326,46 +1529,67 @@
   "alertDist": 100,
   "alphaDamage": 32100.0,
   "ammoType": "torpedo",
+  "armingTime": 1,
   "bulletDiametr": 0.533,
+  "damage": 900.0,
   "id": 4289085648,
+  "ignoreClasses": [],
   "index": "PZPT005",
   "maxDist": 305.0,
   "name": "PZPT005_MK15_LO_YANG",
+  "speed": 55.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 1.9,
+  "visibilityFactor": 1.1
  },
  {
   "alertDist": 100,
   "alphaDamage": 40200.0,
   "ammoType": "torpedo",
+  "armingTime": 1,
   "bulletDiametr": 0.533,
+  "damage": 1000.0,
   "id": 4293279952,
+  "ignoreClasses": [],
   "index": "PZPT001",
   "maxDist": 267.0,
   "name": "PZPT001_53_51_ANSHAN",
+  "speed": 60.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 2.4,
+  "visibilityFactor": 1.2
  },
  {
   "alertDist": 100,
   "alphaDamage": 46600.0,
   "ammoType": "torpedo_deepwater",
+  "armingTime": 1,
   "bulletDiametr": 0.533,
+  "damage": 1100.0,
   "id": 4274405584,
+  "ignoreClasses": [
+   "Destroyer",
+   "Submarine"
+  ],
   "index": "PZPT019",
   "maxDist": 317.0,
   "name": "PZPT019_MK_15_MOD3_D",
+  "speed": 59.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 3.4,
+  "visibilityFactor": 0.7
  },
  {
   "affectedByPTZ": false,
@@ -1399,16 +1623,22 @@
   "alertDist": 100,
   "alphaDamage": 29400.0,
   "ammoType": "torpedo",
+  "armingTime": 1,
   "bulletDiametr": 0.5,
+  "damage": 800.0,
   "id": 4288037072,
+  "ignoreClasses": [],
   "index": "PZPT006",
   "maxDist": 200.0,
   "name": "PZPT006_G6_AV3_C",
+  "speed": 49.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 1.73,
+  "visibilityFactor": 0.9
  },
  {
   "alertDist": 100,
@@ -1418,26 +1648,36 @@
   "id": 4288561360,
   "index": "PZPD006",
   "name": "PZPD006_Depth_Charge",
+  "speed": 10.0,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "DepthCharge",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 0.15
  },
  {
   "alertDist": 100,
   "alphaDamage": 46600.0,
   "ammoType": "torpedo",
+  "armingTime": 1,
   "bulletDiametr": 0.533,
+  "damage": 1100.0,
   "id": 4290134224,
+  "ignoreClasses": [],
   "index": "PZPT004",
   "maxDist": 224.0,
   "name": "PZPT004_MK31_LO_YANG",
+  "speed": 68.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 2.79,
+  "visibilityFactor": 1.4
  },
  {
   "affectedByPTZ": false,
@@ -1555,16 +1795,22 @@
   "alertDist": 100,
   "alphaDamage": 40200.0,
   "ammoType": "torpedo",
+  "armingTime": 1,
   "bulletDiametr": 0.533,
+  "damage": 1000.0,
   "id": 4291182800,
+  "ignoreClasses": [],
   "index": "PZPT003",
   "maxDist": 134.0,
   "name": "PZPT003_53_38_ANSHAN",
+  "speed": 65.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 2.4,
+  "visibilityFactor": 1.3
  },
  {
   "affectedByPTZ": false,
@@ -1626,16 +1872,22 @@
   "alertDist": 100,
   "alphaDamage": 27300.0,
   "ammoType": "torpedo",
+  "armingTime": 1,
   "bulletDiametr": 0.533,
+  "damage": 900.0,
   "id": 4285939920,
+  "ignoreClasses": [],
   "index": "PZPT008",
   "maxDist": 200.0,
   "name": "PZPT008_533_MKII_C",
+  "speed": 53.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Torpedo",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 1.6,
+  "visibilityFactor": 1.1
  },
  {
   "alertDist": 100,
@@ -1645,10 +1897,14 @@
   "id": 4282269904,
   "index": "PZPD012",
   "name": "PZPD012_BB1_rpd007",
+  "speed": 10.0,
+  "splashCubeSize": 0.59,
+  "timer": 7.0,
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "DepthCharge",
    "type": "Projectile"
-  }
+  },
+  "uwCritical": 0.15
  }
 ]
