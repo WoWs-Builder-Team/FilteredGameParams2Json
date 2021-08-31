@@ -4,7 +4,7 @@ SECONDARY_KEYS = ["ammoList", "antiAirAuraDistance", "antiAirAuraStrength", "bar
                   "idealRadius", "minRadius", "radiusOnDelim", "radiusOnMax", "radiusOnZero", "rotationSpeed",
                   "shotDelay", "smokePenalty", "vertSector"]
 AAIRCRAFT_KEYS = ["antiAirAuraDistance", "antiAirAuraStrength", "numBarrels", "shotDelay"]
-MAIN_KEYS = []
+MAIN_KEYS = ['deadZone']
 COMMON_KEYS = ['id', 'typeinfo', 'name', 'index']
 
 
@@ -27,7 +27,7 @@ class Gun:
         elif species == "Secondary":
             self._delete_attributes(self._data, COMMON_KEYS + SECONDARY_KEYS)
         else:
-            self._delete_attributes(self._data, COMMON_KEYS)
+            self._delete_attributes(self._data, COMMON_KEYS + MAIN_KEYS)
         return self._data
 
     @staticmethod
