@@ -15,7 +15,8 @@ DEPTHCHARGE_KEYS = ["reloadTime", "maxPacks"]
 DEPTHCHARGE_SUBKEYS = ["ammoList", "horizSector", "id", "index", "name", "numBombs", "rotationSpeed", "typeinfo"]
 TORPEDO_KEYS = []
 TORPEDO_SUBKEYS = ["ammoList", "barrelDiameter", "id", "index", "name", "numBarrels", "rotationSpeed", "shotDelay",
-                   "torpedoAngles", "typeinfo"]
+                   "torpedoAngles", "typeinfo", "deadZone", "horizSector", "canRotate", "useGroups", "useOneShot",
+                   "groups", "torpAngles"]
 HULL_SUBKEYS = ["health", "maxSpeed", "rudderTime", "speedCoef", "visibilityCoefGKInSmoke", "visibilityFactor",
                 "visibilityFactorByPlane"]
 ENGINE_KEYS = ["forwardEngineUpTime", "backwardEngineUpTime", "speedCoef"]
