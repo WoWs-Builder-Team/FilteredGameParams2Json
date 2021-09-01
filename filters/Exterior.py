@@ -1,4 +1,4 @@
-EXTERIOR_KEYS = ["camouflage", "modifiers"]
+EXTERIOR_KEYS = ["camouflage", "modifiers", "sortOrder", "restrictions"]
 COMMON_KEYS = ['id', 'typeinfo', 'name', 'index']
 
 
@@ -8,6 +8,9 @@ class Exterior:
 
     def get_filtered(self):
         self._delete_attributes(self._data, COMMON_KEYS + EXTERIOR_KEYS)
+        # IGNORE Ensign
+        if self._data.__getattribute__("typeinfo").species == "Ensign":
+            return None
         return self._data
 
     @staticmethod
