@@ -62,10 +62,11 @@ def write_entities(data):
         else:
             data[group_by].append(item)
 
-        if group_by not in data_filtered:
-            data_filtered[group_by] = [filtered_item]
-        else:
-            data_filtered[group_by].append(filtered_item)
+        if filtered_item:
+            if group_by not in data_filtered:
+                data_filtered[group_by] = [filtered_item]
+            else:
+                data_filtered[group_by].append(filtered_item)
 
     for k, v in data.items():
         with open(os.path.join(_ent_dir, f"{k}.json"), "w") as ff:
