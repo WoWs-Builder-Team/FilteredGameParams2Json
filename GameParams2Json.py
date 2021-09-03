@@ -55,7 +55,7 @@ def write_entities(data):
         except AttributeError:
             group_by = item.typeinfo.species if item.typeinfo.species else _key
 
-        filtered_item = get_filtered(copy.copy(item))
+        filtered_item = get_filtered(copy.deepcopy(item))
 
         if group_by not in data:
             data[group_by] = [item]
