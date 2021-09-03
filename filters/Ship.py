@@ -9,7 +9,7 @@ AIRSUPPORT_KEYS = ["chargesNum", "flyAwayTime", "maxDist", "maxPlaneFlightDist",
                    "timeBetweenShots", "timeFromHeaven"]
 ATBA_KEYS = ["AuraFar", "AuraFar_Bubbles", "AuraMedium", "AuraMedium_Bubbles", "maxDist", "sigmaCount"]
 ATBA_SUBKEYS = ["maxDist", "sigmaCount", "ammoList", "id", "index", "name", "numBarrels", "rotationSpeed", "shotDelay",
-                "smallGun", "typeinfo"]
+                "smallGun", "typeinfo", "barrelDiameter"]
 AA_KEYS = ["AuraFar", "AuraFar_Bubbles", "AuraMedium", "AuraMedium_Bubbles", "AuraNear", "AuraNear_Bubbles"]
 DEPTHCHARGE_KEYS = ["reloadTime", "maxPacks"]
 DEPTHCHARGE_SUBKEYS = ["ammoList", "horizSector", "id", "index", "name", "numBombs", "rotationSpeed", "typeinfo"]
