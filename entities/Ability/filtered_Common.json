@@ -1094,6 +1094,14 @@
     "reloadTime": 160.0,
     "workTime": 30.0
    },
+   "Liberty_Convoy_Gold": {
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 5,
+    "reloadTime": 70.0,
+    "workTime": 30.0
+   },
    "Lvl_10_Gold": {
     "descIDs": "",
     "group": "ship",
@@ -1591,6 +1599,22 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "reloadTime": 40.0,
+    "workTime": 600.0
+   },
+   "CV_FR_6": {
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 4,
+    "reloadTime": 40.0,
+    "workTime": 600.0
+   },
+   "CV_FR_6_Bearn": {
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 6,
     "reloadTime": 40.0,
     "workTime": 600.0
    },
@@ -2105,66 +2129,6 @@
   }
  },
  {
-  "id": 4261584816,
-  "index": "PCY031",
-  "name": "PCY031_TorpedoReloaderSuper",
-  "typeinfo": {
-   "nation": "Common",
-   "species": null,
-   "type": "Ability"
-  },
-  "variants": {
-   "Default": {
-    "descIDs": "",
-    "group": "ship",
-    "iconIDs": "",
-    "numConsumables": -1,
-    "reloadTime": 270.0,
-    "workTime": 1.0
-   },
-   "Jap_DD": {
-    "descIDs": "",
-    "group": "ship",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "reloadTime": 240.0,
-    "workTime": 1.0
-   },
-   "Jap_DD_alt": {
-    "descIDs": "",
-    "group": "ship",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "reloadTime": 160.0,
-    "workTime": 1.0
-   },
-   "Jap_DD_tst": {
-    "descIDs": "",
-    "group": "ship",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "reloadTime": 240.0,
-    "workTime": 1.0
-   },
-   "Monaghan_style": {
-    "descIDs": "",
-    "group": "ship",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "reloadTime": 240.0,
-    "workTime": 1.0
-   },
-   "PAZ": {
-    "descIDs": "",
-    "group": "ship",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "reloadTime": 240.0,
-    "workTime": 1.0
-   }
-  }
- },
- {
   "id": 4260536240,
   "index": "PCY032",
   "name": "PCY032_RLSSearchSuper",
@@ -2465,6 +2429,26 @@
     "numConsumables": 4,
     "reloadTime": 240.0,
     "workTime": 180.0
+   }
+  }
+ },
+ {
+  "id": 4244807600,
+  "index": "PCY047",
+  "name": "PCY047_SubmarineEnergyFreeze",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Ability"
+  },
+  "variants": {
+   "Default": {
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 2,
+    "reloadTime": 90.0,
+    "workTime": 30.0
    }
   }
  },
@@ -4747,48 +4731,48 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
-    "reloadTime": 90.0,
-    "workTime": 60.0
+    "reloadTime": 60.0,
+    "workTime": 40.0
    },
    "Ger_Sub_6": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
-    "reloadTime": 90.0,
-    "workTime": 60.0
+    "reloadTime": 60.0,
+    "workTime": 40.0
    },
    "Ger_Sub_8": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
-    "reloadTime": 90.0,
-    "workTime": 60.0
+    "reloadTime": 60.0,
+    "workTime": 40.0
    },
    "Sub_10": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
-    "reloadTime": 90.0,
-    "workTime": 45.0
+    "reloadTime": 80.0,
+    "workTime": 40.0
    },
    "Sub_6": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
-    "reloadTime": 90.0,
-    "workTime": 45.0
+    "reloadTime": 80.0,
+    "workTime": 40.0
    },
    "Sub_8": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
-    "reloadTime": 90.0,
-    "workTime": 45.0
+    "reloadTime": 80.0,
+    "workTime": 40.0
    }
   }
  },
@@ -5037,6 +5021,14 @@
     "numConsumables": 3,
     "reloadTime": 10.0,
     "workTime": 60.0
+   },
+   "FR_6_Bearn": {
+    "descIDs": "",
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 8,
+    "reloadTime": 10.0,
+    "workTime": 100.0
    },
    "GER_10": {
     "descIDs": "",
@@ -5449,9 +5441,9 @@
   }
  },
  {
-  "id": 4244807600,
-  "index": "PCY047",
-  "name": "PCY047_SubmarineEnergyFreeze",
+  "id": 4261584816,
+  "index": "PCY031",
+  "name": "PCY031_TorpedoReloaderSuper",
   "typeinfo": {
    "nation": "Common",
    "species": null,
@@ -5462,9 +5454,49 @@
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
-    "numConsumables": 2,
-    "reloadTime": 90.0,
-    "workTime": 30.0
+    "numConsumables": -1,
+    "reloadTime": 270.0,
+    "workTime": 1.0
+   },
+   "Jap_DD": {
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "reloadTime": 240.0,
+    "workTime": 1.0
+   },
+   "Jap_DD_alt": {
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "reloadTime": 160.0,
+    "workTime": 1.0
+   },
+   "Jap_DD_tst": {
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "reloadTime": 240.0,
+    "workTime": 1.0
+   },
+   "Monaghan_style": {
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "reloadTime": 240.0,
+    "workTime": 1.0
+   },
+   "PAZ": {
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "reloadTime": 240.0,
+    "workTime": 1.0
    }
   }
  }

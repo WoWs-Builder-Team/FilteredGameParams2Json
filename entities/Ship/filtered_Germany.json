@@ -2556,6 +2556,716 @@
  },
  {
   "ModulesArmaments": {
+   "AB1_Artillery": {
+    "AuraFar": {
+     "areaDamage": 6.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 1.0,
+     "innerBubbleCount": 0.0,
+     "maxDistance": 5200.0,
+     "minDistance": 100.0,
+     "type": "far"
+    },
+    "AuraFar_Bubbles": {
+     "areaDamage": 0.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 140.0,
+     "hitChance": 1.0,
+     "innerBubbleCount": 1.0,
+     "maxDistance": 5200.0,
+     "minDistance": 3500.0,
+     "type": "far"
+    },
+    "guns": {
+     "HP_GGM_1": {
+      "ammoList": [
+       "PGPA070_105MM_HE_SK_C32",
+       "PGPA069_105MM_AP_SK_C32"
+      ],
+      "barrelDiameter": 0.105,
+      "horizSector": [
+       0.0,
+       0.0
+      ],
+      "id": 4200195888,
+      "index": "PGGM090",
+      "numBarrels": 1,
+      "position": [
+       0.0,
+       1.0
+      ],
+      "rotationSpeed": [
+       10.5,
+       60.0
+      ],
+      "shotDelay": 4.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_2": {
+      "ammoList": [
+       "PGPA070_105MM_HE_SK_C32",
+       "PGPA069_105MM_AP_SK_C32"
+      ],
+      "barrelDiameter": 0.105,
+      "horizSector": [
+       0.0,
+       0.0
+      ],
+      "id": 4200195888,
+      "index": "PGGM090",
+      "numBarrels": 1,
+      "position": [
+       2.0,
+       1.0
+      ],
+      "rotationSpeed": [
+       10.5,
+       60.0
+      ],
+      "shotDelay": 4.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_3": {
+      "ammoList": [
+       "PGPA070_105MM_HE_SK_C32",
+       "PGPA069_105MM_AP_SK_C32"
+      ],
+      "barrelDiameter": 0.105,
+      "horizSector": [
+       0.0,
+       0.0
+      ],
+      "id": 4200195888,
+      "index": "PGGM090",
+      "numBarrels": 1,
+      "position": [
+       4.0,
+       1.0
+      ],
+      "rotationSpeed": [
+       10.5,
+       60.0
+      ],
+      "shotDelay": 4.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_4": {
+      "ammoList": [
+       "PGPA070_105MM_HE_SK_C32",
+       "PGPA069_105MM_AP_SK_C32"
+      ],
+      "barrelDiameter": 0.105,
+      "horizSector": [
+       0.0,
+       0.0
+      ],
+      "id": 4200195888,
+      "index": "PGGM090",
+      "numBarrels": 1,
+      "position": [
+       5.0,
+       1.0
+      ],
+      "rotationSpeed": [
+       10.5,
+       60.0
+      ],
+      "shotDelay": 4.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 9120.0,
+    "normalDistribution": true,
+    "sigmaCount": 2.0
+   },
+   "AB1_FireControl": {
+    "maxDistCoef": 1.0,
+    "sigmaCountCoef": 1.0
+   },
+   "AB1_Torpedoes": {
+    "torpedoArray": {
+     "HP_GGT_1": {
+      "ammoList": [
+       "PGPT007_Klippfisch"
+      ],
+      "barrelDiameter": 0.533,
+      "canRotate": true,
+      "deadZone": [
+       [
+        -45.0,
+        45.0
+       ]
+      ],
+      "horizSector": [
+       -135.0,
+       135.0
+      ],
+      "id": 4278609712,
+      "index": "PGGT015",
+      "name": "PGGT015_533mm_Torpedo_Tubes_Triple",
+      "numBarrels": 3,
+      "rotationSpeed": [
+       25.0,
+       25.0
+      ],
+      "shotDelay": 68.0,
+      "torpedoAngles": [
+       3.6,
+       12.0
+      ],
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Torpedo",
+       "type": "Gun"
+      }
+     },
+     "HP_GGT_2": {
+      "ammoList": [
+       "PGPT007_Klippfisch"
+      ],
+      "barrelDiameter": 0.533,
+      "canRotate": true,
+      "deadZone": [
+       [
+        -45.0,
+        45.0
+       ]
+      ],
+      "horizSector": [
+       -135.0,
+       135.0
+      ],
+      "id": 4278609712,
+      "index": "PGGT015",
+      "name": "PGGT015_533mm_Torpedo_Tubes_Triple",
+      "numBarrels": 3,
+      "rotationSpeed": [
+       25.0,
+       25.0
+      ],
+      "shotDelay": 68.0,
+      "torpedoAngles": [
+       3.6,
+       12.0
+      ],
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Torpedo",
+       "type": "Gun"
+      }
+     }
+    }
+   },
+   "AB2_FireControl": {
+    "maxDistCoef": 1.1,
+    "sigmaCountCoef": 1.0
+   },
+   "AB2_Torpedoes": {
+    "torpedoArray": {
+     "HP_GGT_1": {
+      "ammoList": [
+       "PGPT008_G7A_T1_Z"
+      ],
+      "barrelDiameter": 0.533,
+      "canRotate": true,
+      "deadZone": [
+       [
+        -45.0,
+        45.0
+       ]
+      ],
+      "horizSector": [
+       -135.0,
+       135.0
+      ],
+      "id": 4278609712,
+      "index": "PGGT015",
+      "name": "PGGT015_533mm_Torpedo_Tubes_Triple",
+      "numBarrels": 3,
+      "rotationSpeed": [
+       25.0,
+       25.0
+      ],
+      "shotDelay": 68.0,
+      "torpedoAngles": [
+       3.6,
+       12.0
+      ],
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Torpedo",
+       "type": "Gun"
+      }
+     },
+     "HP_GGT_2": {
+      "ammoList": [
+       "PGPT008_G7A_T1_Z"
+      ],
+      "barrelDiameter": 0.533,
+      "canRotate": true,
+      "deadZone": [
+       [
+        -45.0,
+        45.0
+       ]
+      ],
+      "horizSector": [
+       -135.0,
+       135.0
+      ],
+      "id": 4278609712,
+      "index": "PGGT015",
+      "name": "PGGT015_533mm_Torpedo_Tubes_Triple",
+      "numBarrels": 3,
+      "rotationSpeed": [
+       25.0,
+       25.0
+      ],
+      "shotDelay": 68.0,
+      "torpedoAngles": [
+       3.6,
+       12.0
+      ],
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Torpedo",
+       "type": "Gun"
+      }
+     }
+    }
+   },
+   "AB_DepthChargeGuns": {
+    "depthCharges": {
+     "HP_GGB_1": {
+      "ammoList": [
+       "PGPD001_WBG"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4184827696,
+      "index": "PGGB105",
+      "name": "PGGB105_Depth_Charge_Track",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_GGB_2": {
+      "ammoList": [
+       "PGPD001_WBG"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4184827696,
+      "index": "PGGB105",
+      "name": "PGGB105_Depth_Charge_Track",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_GGB_3": {
+      "ammoList": [
+       "PGPD001_WBG"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4184827696,
+      "index": "PGGB105",
+      "name": "PGGB105_Depth_Charge_Track",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_GGB_4": {
+      "ammoList": [
+       "PGPD001_WBG"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4184827696,
+      "index": "PGGB105",
+      "name": "PGGB105_Depth_Charge_Track",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_GGB_5": {
+      "ammoList": [
+       "PGPD001_WBG"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4184827696,
+      "index": "PGGB105",
+      "name": "PGGB105_Depth_Charge_Track",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_GGB_6": {
+      "ammoList": [
+       "PGPD001_WBG"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4184827696,
+      "index": "PGGB105",
+      "name": "PGGB105_Depth_Charge_Track",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxPacks": 2,
+    "reloadTime": 40.0
+   },
+   "AB_Engine": {
+    "backwardEngineUpTime": 10.0,
+    "forwardEngineUpTime": 20.0,
+    "speedCoef": 0.0
+   },
+   "A_AirDefense": {
+    "AuraMedium": {
+     "areaDamage": 4.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 1.0,
+     "innerBubbleCount": 0,
+     "maxDistance": 3500.0,
+     "minDistance": 100.0,
+     "type": "medium"
+    },
+    "AuraNear": {
+     "areaDamage": 12.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.95,
+     "innerBubbleCount": 0,
+     "maxDistance": 2000.0,
+     "minDistance": 100.0,
+     "type": "near"
+    },
+    "isAA": true
+   },
+   "A_Hull": {
+    "health": 9400.0,
+    "maxSpeed": 34.5,
+    "rudderTime": 5.32,
+    "speedCoef": 1.0,
+    "visibilityCoefGKInSmoke": 2.08,
+    "visibilityFactor": 6.52,
+    "visibilityFactorByPlane": 2.37
+   },
+   "B_AirDefense": {
+    "AuraMedium": {
+     "areaDamage": 15.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 1.0,
+     "innerBubbleCount": 0,
+     "maxDistance": 3500.0,
+     "minDistance": 100.0,
+     "type": "medium"
+    },
+    "AuraNear": {
+     "areaDamage": 20.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.95,
+     "innerBubbleCount": 0,
+     "maxDistance": 2000.0,
+     "minDistance": 100.0,
+     "type": "near"
+    },
+    "isAA": true
+   },
+   "B_Hull": {
+    "health": 11300.0,
+    "maxSpeed": 34.5,
+    "rudderTime": 3.8,
+    "speedCoef": 1.0,
+    "visibilityCoefGKInSmoke": 2.08,
+    "visibilityFactor": 6.52,
+    "visibilityFactorByPlane": 2.37
+   }
+  },
+  "ShipAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY009_CrashCrewPremium",
+      "D_Gold"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY014_SmokeGeneratorPremium",
+      "DE_Lvl_5_Gold"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [
+     [
+      "PCY015_SpeedBoosterPremium",
+      "Default"
+     ]
+    ],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [
+     [
+      "PCY016_SonarSearchPremium",
+      "C_4_7_Low"
+     ]
+    ],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "ShipUpgradeInfo": {
+   "PGUA402_D5_ART_STOCK": {
+    "canBuy": true,
+    "components": {
+     "artillery": [
+      "AB1_Artillery"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Artillery"
+   },
+   "PGUE402_D5_ENG_STOCK": {
+    "canBuy": true,
+    "components": {
+     "engine": [
+      "AB_Engine"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Engine"
+   },
+   "PGUH403_D5_HULL_STOCK": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [],
+     "airDefense": [
+      "A_AirDefense"
+     ],
+     "artillery": [
+      "AB1_Artillery"
+     ],
+     "atba": [],
+     "depthCharges": [
+      "AB_DepthChargeGuns"
+     ],
+     "directors": [
+      "AB_Directors"
+     ],
+     "finders": [
+      "AB_Finders"
+     ],
+     "hull": [
+      "A_Hull"
+     ],
+     "pinger": [],
+     "radars": [
+      "AB_Radars"
+     ],
+     "torpedoes": [
+      "AB1_Torpedoes",
+      "AB2_Torpedoes"
+     ]
+    },
+    "disabledAbilities": [],
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Hull"
+   },
+   "PGUH404_D5_HULL_TOP": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [],
+     "airDefense": [
+      "B_AirDefense"
+     ],
+     "artillery": [
+      "AB1_Artillery"
+     ],
+     "atba": [],
+     "depthCharges": [
+      "AB_DepthChargeGuns"
+     ],
+     "directors": [
+      "AB_Directors"
+     ],
+     "finders": [
+      "AB_Finders"
+     ],
+     "hull": [
+      "B_Hull"
+     ],
+     "pinger": [],
+     "radars": [
+      "AB_Radars"
+     ],
+     "torpedoes": [
+      "AB1_Torpedoes",
+      "AB2_Torpedoes"
+     ]
+    },
+    "disabledAbilities": [],
+    "nextShips": [
+     "PGSD106_Ernst_Gaede"
+    ],
+    "prev": "PGUH403_D5_HULL_STOCK",
+    "ucType": "_Hull"
+   },
+   "PGUS403_D5_SUO_STOCK": {
+    "canBuy": true,
+    "components": {
+     "fireControl": [
+      "AB1_FireControl"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Suo"
+   },
+   "PGUS404_D5_SUO_TOP": {
+    "canBuy": true,
+    "components": {
+     "fireControl": [
+      "AB2_FireControl"
+     ]
+    },
+    "nextShips": [],
+    "prev": "PGUS403_D5_SUO_STOCK",
+    "ucType": "_Suo"
+   },
+   "PGUT402_D5_TORP_STOCK": {
+    "canBuy": true,
+    "components": {
+     "torpedoes": [
+      "AB1_Torpedoes"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Torpedoes"
+   },
+   "PGUT403_D5_TORP_TOP": {
+    "canBuy": true,
+    "components": {
+     "torpedoes": [
+      "AB2_Torpedoes"
+     ]
+    },
+    "nextShips": [],
+    "prev": "PGUT402_D5_TORP_STOCK",
+    "ucType": "_Torpedoes"
+   },
+   "costCR": 1320000,
+   "costGold": 0,
+   "costSaleGold": 0,
+   "costXP": 11000,
+   "value": 1
+  },
+  "id": 4184749872,
+  "index": "PGSD105",
+  "level": 5,
+  "name": "PGSD105_T_22",
+  "typeinfo": {
+   "nation": "Germany",
+   "species": "Destroyer",
+   "type": "Ship"
+  }
+ },
+ {
+  "ModulesArmaments": {
    "A1_Artillery": {
     "guns": {
      "HP_GGM_1": {
@@ -7032,7 +7742,7 @@
        4.0,
        4.0
       ],
-      "shotDelay": 24.0,
+      "shotDelay": 26.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -7061,7 +7771,7 @@
        4.0,
        4.0
       ],
-      "shotDelay": 24.0,
+      "shotDelay": 26.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -7090,7 +7800,7 @@
        4.0,
        4.0
       ],
-      "shotDelay": 24.0,
+      "shotDelay": 26.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -7119,7 +7829,7 @@
        4.0,
        4.0
       ],
-      "shotDelay": 24.0,
+      "shotDelay": 26.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -7128,7 +7838,7 @@
       }
      }
     },
-    "maxDist": 14840.0,
+    "maxDist": 14454.0,
     "normalDistribution": true,
     "sigmaCount": 1.6
    },
@@ -7763,7 +8473,7 @@
        4.0,
        3.5
       ],
-      "shotDelay": 26.0,
+      "shotDelay": 27.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -7792,7 +8502,7 @@
        4.0,
        3.5
       ],
-      "shotDelay": 26.0,
+      "shotDelay": 27.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -7821,7 +8531,7 @@
        4.0,
        3.5
       ],
-      "shotDelay": 26.0,
+      "shotDelay": 27.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -7850,7 +8560,7 @@
        4.0,
        3.5
       ],
-      "shotDelay": 26.0,
+      "shotDelay": 27.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -7859,7 +8569,7 @@
       }
      }
     },
-    "maxDist": 13000.0,
+    "maxDist": 11636.0,
     "normalDistribution": true,
     "sigmaCount": 1.5
    },
@@ -11840,716 +12550,6 @@
  },
  {
   "ModulesArmaments": {
-   "AB1_Artillery": {
-    "AuraFar": {
-     "areaDamage": 6.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 1.0,
-     "innerBubbleCount": 0.0,
-     "maxDistance": 5200.0,
-     "minDistance": 100.0,
-     "type": "far"
-    },
-    "AuraFar_Bubbles": {
-     "areaDamage": 0.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 140.0,
-     "hitChance": 1.0,
-     "innerBubbleCount": 1.0,
-     "maxDistance": 5200.0,
-     "minDistance": 3500.0,
-     "type": "far"
-    },
-    "guns": {
-     "HP_GGM_1": {
-      "ammoList": [
-       "PGPA070_105MM_HE_SK_C32",
-       "PGPA069_105MM_AP_SK_C32"
-      ],
-      "barrelDiameter": 0.105,
-      "horizSector": [
-       0.0,
-       0.0
-      ],
-      "id": 4200195888,
-      "index": "PGGM090",
-      "numBarrels": 1,
-      "position": [
-       0.0,
-       1.0
-      ],
-      "rotationSpeed": [
-       10.5,
-       60.0
-      ],
-      "shotDelay": 4.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_GGM_2": {
-      "ammoList": [
-       "PGPA070_105MM_HE_SK_C32",
-       "PGPA069_105MM_AP_SK_C32"
-      ],
-      "barrelDiameter": 0.105,
-      "horizSector": [
-       0.0,
-       0.0
-      ],
-      "id": 4200195888,
-      "index": "PGGM090",
-      "numBarrels": 1,
-      "position": [
-       2.0,
-       1.0
-      ],
-      "rotationSpeed": [
-       10.5,
-       60.0
-      ],
-      "shotDelay": 4.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_GGM_3": {
-      "ammoList": [
-       "PGPA070_105MM_HE_SK_C32",
-       "PGPA069_105MM_AP_SK_C32"
-      ],
-      "barrelDiameter": 0.105,
-      "horizSector": [
-       0.0,
-       0.0
-      ],
-      "id": 4200195888,
-      "index": "PGGM090",
-      "numBarrels": 1,
-      "position": [
-       4.0,
-       1.0
-      ],
-      "rotationSpeed": [
-       10.5,
-       60.0
-      ],
-      "shotDelay": 4.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_GGM_4": {
-      "ammoList": [
-       "PGPA070_105MM_HE_SK_C32",
-       "PGPA069_105MM_AP_SK_C32"
-      ],
-      "barrelDiameter": 0.105,
-      "horizSector": [
-       0.0,
-       0.0
-      ],
-      "id": 4200195888,
-      "index": "PGGM090",
-      "numBarrels": 1,
-      "position": [
-       5.0,
-       1.0
-      ],
-      "rotationSpeed": [
-       10.5,
-       60.0
-      ],
-      "shotDelay": 4.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Main",
-       "type": "Gun"
-      }
-     }
-    },
-    "maxDist": 9120.0,
-    "normalDistribution": true,
-    "sigmaCount": 2.0
-   },
-   "AB1_FireControl": {
-    "maxDistCoef": 1.0,
-    "sigmaCountCoef": 1.0
-   },
-   "AB1_Torpedoes": {
-    "torpedoArray": {
-     "HP_GGT_1": {
-      "ammoList": [
-       "PGPT007_Klippfisch"
-      ],
-      "barrelDiameter": 0.533,
-      "canRotate": true,
-      "deadZone": [
-       [
-        -45.0,
-        45.0
-       ]
-      ],
-      "horizSector": [
-       -135.0,
-       135.0
-      ],
-      "id": 4278609712,
-      "index": "PGGT015",
-      "name": "PGGT015_533mm_Torpedo_Tubes_Triple",
-      "numBarrels": 3,
-      "rotationSpeed": [
-       25.0,
-       25.0
-      ],
-      "shotDelay": 68.0,
-      "torpedoAngles": [
-       3.6,
-       12.0
-      ],
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Torpedo",
-       "type": "Gun"
-      }
-     },
-     "HP_GGT_2": {
-      "ammoList": [
-       "PGPT007_Klippfisch"
-      ],
-      "barrelDiameter": 0.533,
-      "canRotate": true,
-      "deadZone": [
-       [
-        -45.0,
-        45.0
-       ]
-      ],
-      "horizSector": [
-       -135.0,
-       135.0
-      ],
-      "id": 4278609712,
-      "index": "PGGT015",
-      "name": "PGGT015_533mm_Torpedo_Tubes_Triple",
-      "numBarrels": 3,
-      "rotationSpeed": [
-       25.0,
-       25.0
-      ],
-      "shotDelay": 68.0,
-      "torpedoAngles": [
-       3.6,
-       12.0
-      ],
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Torpedo",
-       "type": "Gun"
-      }
-     }
-    }
-   },
-   "AB2_FireControl": {
-    "maxDistCoef": 1.1,
-    "sigmaCountCoef": 1.0
-   },
-   "AB2_Torpedoes": {
-    "torpedoArray": {
-     "HP_GGT_1": {
-      "ammoList": [
-       "PGPT008_G7A_T1_Z"
-      ],
-      "barrelDiameter": 0.533,
-      "canRotate": true,
-      "deadZone": [
-       [
-        -45.0,
-        45.0
-       ]
-      ],
-      "horizSector": [
-       -135.0,
-       135.0
-      ],
-      "id": 4278609712,
-      "index": "PGGT015",
-      "name": "PGGT015_533mm_Torpedo_Tubes_Triple",
-      "numBarrels": 3,
-      "rotationSpeed": [
-       25.0,
-       25.0
-      ],
-      "shotDelay": 68.0,
-      "torpedoAngles": [
-       3.6,
-       12.0
-      ],
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Torpedo",
-       "type": "Gun"
-      }
-     },
-     "HP_GGT_2": {
-      "ammoList": [
-       "PGPT008_G7A_T1_Z"
-      ],
-      "barrelDiameter": 0.533,
-      "canRotate": true,
-      "deadZone": [
-       [
-        -45.0,
-        45.0
-       ]
-      ],
-      "horizSector": [
-       -135.0,
-       135.0
-      ],
-      "id": 4278609712,
-      "index": "PGGT015",
-      "name": "PGGT015_533mm_Torpedo_Tubes_Triple",
-      "numBarrels": 3,
-      "rotationSpeed": [
-       25.0,
-       25.0
-      ],
-      "shotDelay": 68.0,
-      "torpedoAngles": [
-       3.6,
-       12.0
-      ],
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Torpedo",
-       "type": "Gun"
-      }
-     }
-    }
-   },
-   "AB_DepthChargeGuns": {
-    "depthCharges": {
-     "HP_GGB_1": {
-      "ammoList": [
-       "PGPD001_WBG"
-      ],
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4184827696,
-      "index": "PGGB105",
-      "name": "PGGB105_Depth_Charge_Track",
-      "numBombs": 1,
-      "rotationSpeed": [
-       0.0,
-       0.0
-      ],
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "DCharge",
-       "type": "Gun"
-      }
-     },
-     "HP_GGB_2": {
-      "ammoList": [
-       "PGPD001_WBG"
-      ],
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4184827696,
-      "index": "PGGB105",
-      "name": "PGGB105_Depth_Charge_Track",
-      "numBombs": 1,
-      "rotationSpeed": [
-       0.0,
-       0.0
-      ],
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "DCharge",
-       "type": "Gun"
-      }
-     },
-     "HP_GGB_3": {
-      "ammoList": [
-       "PGPD001_WBG"
-      ],
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4184827696,
-      "index": "PGGB105",
-      "name": "PGGB105_Depth_Charge_Track",
-      "numBombs": 1,
-      "rotationSpeed": [
-       0.0,
-       0.0
-      ],
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "DCharge",
-       "type": "Gun"
-      }
-     },
-     "HP_GGB_4": {
-      "ammoList": [
-       "PGPD001_WBG"
-      ],
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4184827696,
-      "index": "PGGB105",
-      "name": "PGGB105_Depth_Charge_Track",
-      "numBombs": 1,
-      "rotationSpeed": [
-       0.0,
-       0.0
-      ],
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "DCharge",
-       "type": "Gun"
-      }
-     },
-     "HP_GGB_5": {
-      "ammoList": [
-       "PGPD001_WBG"
-      ],
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4184827696,
-      "index": "PGGB105",
-      "name": "PGGB105_Depth_Charge_Track",
-      "numBombs": 1,
-      "rotationSpeed": [
-       0.0,
-       0.0
-      ],
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "DCharge",
-       "type": "Gun"
-      }
-     },
-     "HP_GGB_6": {
-      "ammoList": [
-       "PGPD001_WBG"
-      ],
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4184827696,
-      "index": "PGGB105",
-      "name": "PGGB105_Depth_Charge_Track",
-      "numBombs": 1,
-      "rotationSpeed": [
-       0.0,
-       0.0
-      ],
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "DCharge",
-       "type": "Gun"
-      }
-     }
-    },
-    "maxPacks": 2,
-    "reloadTime": 40.0
-   },
-   "AB_Engine": {
-    "backwardEngineUpTime": 10.0,
-    "forwardEngineUpTime": 20.0,
-    "speedCoef": 0.0
-   },
-   "A_AirDefense": {
-    "AuraMedium": {
-     "areaDamage": 4.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 1.0,
-     "innerBubbleCount": 0,
-     "maxDistance": 3500.0,
-     "minDistance": 100.0,
-     "type": "medium"
-    },
-    "AuraNear": {
-     "areaDamage": 12.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 0.95,
-     "innerBubbleCount": 0,
-     "maxDistance": 2000.0,
-     "minDistance": 100.0,
-     "type": "near"
-    },
-    "isAA": true
-   },
-   "A_Hull": {
-    "health": 9400.0,
-    "maxSpeed": 34.5,
-    "rudderTime": 5.32,
-    "speedCoef": 1.0,
-    "visibilityCoefGKInSmoke": 2.08,
-    "visibilityFactor": 6.52,
-    "visibilityFactorByPlane": 2.37
-   },
-   "B_AirDefense": {
-    "AuraMedium": {
-     "areaDamage": 15.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 1.0,
-     "innerBubbleCount": 0,
-     "maxDistance": 3500.0,
-     "minDistance": 100.0,
-     "type": "medium"
-    },
-    "AuraNear": {
-     "areaDamage": 20.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 0.95,
-     "innerBubbleCount": 0,
-     "maxDistance": 2000.0,
-     "minDistance": 100.0,
-     "type": "near"
-    },
-    "isAA": true
-   },
-   "B_Hull": {
-    "health": 11300.0,
-    "maxSpeed": 34.5,
-    "rudderTime": 3.8,
-    "speedCoef": 1.0,
-    "visibilityCoefGKInSmoke": 2.08,
-    "visibilityFactor": 6.52,
-    "visibilityFactorByPlane": 2.37
-   }
-  },
-  "ShipAbilities": {
-   "AbilitySlot0": {
-    "abils": [
-     [
-      "PCY009_CrashCrewPremium",
-      "D_Gold"
-     ]
-    ],
-    "slot": 0
-   },
-   "AbilitySlot1": {
-    "abils": [
-     [
-      "PCY014_SmokeGeneratorPremium",
-      "DE_Lvl_5_Gold"
-     ]
-    ],
-    "slot": 1
-   },
-   "AbilitySlot2": {
-    "abils": [
-     [
-      "PCY015_SpeedBoosterPremium",
-      "Default"
-     ]
-    ],
-    "slot": 2
-   },
-   "AbilitySlot3": {
-    "abils": [
-     [
-      "PCY016_SonarSearchPremium",
-      "C_4_7_Low"
-     ]
-    ],
-    "slot": 3
-   },
-   "AbilitySlot4": {
-    "abils": [],
-    "slot": 4
-   }
-  },
-  "ShipUpgradeInfo": {
-   "PGUA402_D5_ART_STOCK": {
-    "canBuy": true,
-    "components": {
-     "artillery": [
-      "AB1_Artillery"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Artillery"
-   },
-   "PGUE402_D5_ENG_STOCK": {
-    "canBuy": true,
-    "components": {
-     "engine": [
-      "AB_Engine"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Engine"
-   },
-   "PGUH403_D5_HULL_STOCK": {
-    "canBuy": true,
-    "components": {
-     "airArmament": [],
-     "airDefense": [
-      "A_AirDefense"
-     ],
-     "artillery": [
-      "AB1_Artillery"
-     ],
-     "atba": [],
-     "depthCharges": [
-      "AB_DepthChargeGuns"
-     ],
-     "directors": [
-      "AB_Directors"
-     ],
-     "finders": [
-      "AB_Finders"
-     ],
-     "hull": [
-      "A_Hull"
-     ],
-     "pinger": [],
-     "radars": [
-      "AB_Radars"
-     ],
-     "torpedoes": [
-      "AB1_Torpedoes",
-      "AB2_Torpedoes"
-     ]
-    },
-    "disabledAbilities": [],
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Hull"
-   },
-   "PGUH404_D5_HULL_TOP": {
-    "canBuy": true,
-    "components": {
-     "airArmament": [],
-     "airDefense": [
-      "B_AirDefense"
-     ],
-     "artillery": [
-      "AB1_Artillery"
-     ],
-     "atba": [],
-     "depthCharges": [
-      "AB_DepthChargeGuns"
-     ],
-     "directors": [
-      "AB_Directors"
-     ],
-     "finders": [
-      "AB_Finders"
-     ],
-     "hull": [
-      "B_Hull"
-     ],
-     "pinger": [],
-     "radars": [
-      "AB_Radars"
-     ],
-     "torpedoes": [
-      "AB1_Torpedoes",
-      "AB2_Torpedoes"
-     ]
-    },
-    "disabledAbilities": [],
-    "nextShips": [
-     "PGSD106_Ernst_Gaede"
-    ],
-    "prev": "PGUH403_D5_HULL_STOCK",
-    "ucType": "_Hull"
-   },
-   "PGUS403_D5_SUO_STOCK": {
-    "canBuy": true,
-    "components": {
-     "fireControl": [
-      "AB1_FireControl"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Suo"
-   },
-   "PGUS404_D5_SUO_TOP": {
-    "canBuy": true,
-    "components": {
-     "fireControl": [
-      "AB2_FireControl"
-     ]
-    },
-    "nextShips": [],
-    "prev": "PGUS403_D5_SUO_STOCK",
-    "ucType": "_Suo"
-   },
-   "PGUT402_D5_TORP_STOCK": {
-    "canBuy": true,
-    "components": {
-     "torpedoes": [
-      "AB1_Torpedoes"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Torpedoes"
-   },
-   "PGUT403_D5_TORP_TOP": {
-    "canBuy": true,
-    "components": {
-     "torpedoes": [
-      "AB2_Torpedoes"
-     ]
-    },
-    "nextShips": [],
-    "prev": "PGUT402_D5_TORP_STOCK",
-    "ucType": "_Torpedoes"
-   },
-   "costCR": 1320000,
-   "costGold": 0,
-   "costSaleGold": 0,
-   "costXP": 11000,
-   "value": 1
-  },
-  "id": 4184749872,
-  "index": "PGSD105",
-  "level": 5,
-  "name": "PGSD105_T_22",
-  "typeinfo": {
-   "nation": "Germany",
-   "species": "Destroyer",
-   "type": "Ship"
-  }
- },
- {
-  "ModulesArmaments": {
    "A1_Artillery": {
     "guns": {
      "HP_GGM_1": {
@@ -16233,7 +16233,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -16254,7 +16254,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 3.0,
+      "shotDelay": 3.35,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -16275,7 +16275,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 3.0,
+      "shotDelay": 3.35,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -16296,7 +16296,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 3.0,
+      "shotDelay": 3.35,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -16317,7 +16317,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -16338,7 +16338,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -16359,7 +16359,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -16380,7 +16380,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -16401,7 +16401,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -16422,7 +16422,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -16443,7 +16443,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -16464,7 +16464,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 3.0,
+      "shotDelay": 3.35,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -16485,7 +16485,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 3.0,
+      "shotDelay": 3.35,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -16506,7 +16506,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 3.0,
+      "shotDelay": 3.35,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -16527,7 +16527,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 3.0,
+      "shotDelay": 3.35,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -16548,7 +16548,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 3.0,
+      "shotDelay": 3.35,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -16650,7 +16650,7 @@
       }
      }
     },
-    "maxDist": 17390.0,
+    "maxDist": 16363.0,
     "normalDistribution": true,
     "sigmaCount": 1.7
    },
@@ -16795,9 +16795,9 @@
        -158.0,
        0.0
       ],
-      "id": 4212549424,
-      "index": "PGGT078",
-      "name": "PGGT078_533mm_QuadTube",
+      "id": 4156974896,
+      "index": "PGGT131",
+      "name": "PGGT131_533mm_QuadTube",
       "numBarrels": 4,
       "rotationSpeed": [
        25.0,
@@ -16830,9 +16830,9 @@
        0.0,
        158.0
       ],
-      "id": 4212549424,
-      "index": "PGGT078",
-      "name": "PGGT078_533mm_QuadTube",
+      "id": 4156974896,
+      "index": "PGGT131",
+      "name": "PGGT131_533mm_QuadTube",
       "numBarrels": 4,
       "rotationSpeed": [
        25.0,
@@ -23394,7 +23394,7 @@
       }
      }
     },
-    "maxDist": 20106.0,
+    "maxDist": 19806.0,
     "normalDistribution": true,
     "sigmaCount": 1.7
    },
@@ -23408,7 +23408,7 @@
     "sigmaCountCoef": 1.0
    },
    "A_Hull": {
-    "health": 70600.0,
+    "health": 76100.0,
     "maxSpeed": 34.1,
     "rudderTime": 21.04,
     "speedCoef": 1.0,
@@ -23645,7 +23645,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "A_Radars"
@@ -25260,7 +25259,7 @@
        6.0,
        5.0
       ],
-      "shotDelay": 28.0,
+      "shotDelay": 29.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -25289,7 +25288,7 @@
        6.0,
        5.0
       ],
-      "shotDelay": 28.0,
+      "shotDelay": 29.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -25318,7 +25317,7 @@
        6.0,
        5.0
       ],
-      "shotDelay": 28.0,
+      "shotDelay": 29.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -25347,7 +25346,7 @@
        6.0,
        5.0
       ],
-      "shotDelay": 28.0,
+      "shotDelay": 29.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -25356,9 +25355,9 @@
       }
      }
     },
-    "maxDist": 16870.0,
+    "maxDist": 15818.0,
     "normalDistribution": true,
-    "sigmaCount": 1.6
+    "sigmaCount": 1.5
    },
    "AB1_Engine": {
     "backwardEngineUpTime": 30.0,
@@ -25408,7 +25407,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -25429,7 +25428,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -25492,7 +25491,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -25513,7 +25512,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -25576,7 +25575,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -25597,7 +25596,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -25618,7 +25617,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -25639,7 +25638,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -25660,7 +25659,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -25681,7 +25680,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -25702,7 +25701,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -25765,7 +25764,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -25908,7 +25907,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -25929,7 +25928,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -25950,7 +25949,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 3.0,
+      "shotDelay": 3.35,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -25971,7 +25970,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 3.0,
+      "shotDelay": 3.35,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -25992,7 +25991,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -26013,7 +26012,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -26034,7 +26033,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 3.0,
+      "shotDelay": 3.35,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -26055,7 +26054,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 3.0,
+      "shotDelay": 3.35,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -26076,7 +26075,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -26097,7 +26096,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -26118,7 +26117,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -26139,7 +26138,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -26160,7 +26159,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -26181,7 +26180,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -26202,7 +26201,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -26223,7 +26222,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 3.0,
+      "shotDelay": 3.35,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -26244,7 +26243,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 3.0,
+      "shotDelay": 3.35,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -26265,7 +26264,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -28776,7 +28775,7 @@
       }
      }
     },
-    "maxPacks": 1,
+    "maxPacks": 2,
     "reloadTime": 40.0
    },
    "A_Engine": {
@@ -32919,7 +32918,7 @@
        4.0,
        3.5
       ],
-      "shotDelay": 28.0,
+      "shotDelay": 30.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -32948,7 +32947,7 @@
        4.0,
        3.5
       ],
-      "shotDelay": 28.0,
+      "shotDelay": 30.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -32977,7 +32976,7 @@
        4.0,
        3.5
       ],
-      "shotDelay": 28.0,
+      "shotDelay": 30.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -33006,7 +33005,7 @@
        4.0,
        3.5
       ],
-      "shotDelay": 28.0,
+      "shotDelay": 30.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -33035,7 +33034,7 @@
        4.0,
        3.5
       ],
-      "shotDelay": 28.0,
+      "shotDelay": 30.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -33044,7 +33043,7 @@
       }
      }
     },
-    "maxDist": 14030.0,
+    "maxDist": 13546.0,
     "normalDistribution": true,
     "sigmaCount": 1.5
    },
@@ -36139,7 +36138,7 @@
        6.0,
        12.0
       ],
-      "shotDelay": 28.0,
+      "shotDelay": 30.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -36168,7 +36167,7 @@
        6.0,
        12.0
       ],
-      "shotDelay": 28.0,
+      "shotDelay": 30.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -36197,7 +36196,7 @@
        6.0,
        12.0
       ],
-      "shotDelay": 28.0,
+      "shotDelay": 30.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -36226,7 +36225,7 @@
        6.0,
        12.0
       ],
-      "shotDelay": 28.0,
+      "shotDelay": 30.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -36235,7 +36234,7 @@
       }
      }
     },
-    "maxDist": 17740.0,
+    "maxDist": 17090.0,
     "normalDistribution": true,
     "sigmaCount": 1.7
    },
@@ -36287,7 +36286,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 6.7,
+      "shotDelay": 7.5,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -36308,7 +36307,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 3.0,
+      "shotDelay": 3.35,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -36329,7 +36328,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 3.0,
+      "shotDelay": 3.35,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -36350,7 +36349,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 3.0,
+      "shotDelay": 3.35,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -36371,7 +36370,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 6.7,
+      "shotDelay": 7.5,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -36392,7 +36391,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 6.7,
+      "shotDelay": 7.5,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -36413,7 +36412,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 3.0,
+      "shotDelay": 3.35,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -36434,7 +36433,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 3.0,
+      "shotDelay": 3.35,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -36455,7 +36454,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 6.7,
+      "shotDelay": 7.5,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -36476,7 +36475,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 3.0,
+      "shotDelay": 3.35,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -36497,7 +36496,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 3.0,
+      "shotDelay": 3.35,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -36518,7 +36517,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 6.7,
+      "shotDelay": 7.5,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -36539,7 +36538,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 6.7,
+      "shotDelay": 7.5,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -36560,7 +36559,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 3.0,
+      "shotDelay": 3.35,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -36581,7 +36580,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 3.0,
+      "shotDelay": 3.35,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -36602,7 +36601,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 3.0,
+      "shotDelay": 3.35,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -42008,7 +42007,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -42029,7 +42028,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -42092,7 +42091,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -42113,7 +42112,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -42134,7 +42133,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -42155,7 +42154,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -42218,7 +42217,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -42239,7 +42238,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -42260,7 +42259,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -42323,7 +42322,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -42344,7 +42343,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -42407,7 +42406,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -42428,7 +42427,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -42449,7 +42448,7 @@
        60.0,
        1.0
       ],
-      "shotDelay": 7.7,
+      "shotDelay": 8.57,
       "smallGun": true,
       "typeinfo": {
        "nation": "Germany",
@@ -42497,7 +42496,7 @@
        6.0,
        5.0
       ],
-      "shotDelay": 28.0,
+      "shotDelay": 27.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -42526,7 +42525,7 @@
        6.0,
        5.0
       ],
-      "shotDelay": 28.0,
+      "shotDelay": 27.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -42555,7 +42554,7 @@
        6.0,
        5.0
       ],
-      "shotDelay": 28.0,
+      "shotDelay": 27.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -42584,7 +42583,7 @@
        6.0,
        5.0
       ],
-      "shotDelay": 28.0,
+      "shotDelay": 27.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -44077,7 +44076,7 @@
       }
      }
     },
-    "maxPacks": 1,
+    "maxPacks": 2,
     "reloadTime": 40.0
    },
    "AB_Engine": {
@@ -55343,6 +55342,9 @@
      "pinger": [],
      "radars": [
       "A_Radars"
+     ],
+     "specials": [
+      "A_Specials"
      ],
      "torpedoes": []
     },
