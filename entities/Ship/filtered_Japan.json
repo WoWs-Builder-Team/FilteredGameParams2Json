@@ -692,7 +692,7 @@
       }
      }
     },
-    "maxPacks": 1,
+    "maxPacks": 2,
     "reloadTime": 40.0
    },
    "A_Engine": {
@@ -14057,7 +14057,7 @@
       }
      }
     },
-    "maxPacks": 1,
+    "maxPacks": 2,
     "reloadTime": 40.0
    },
    "A_AirDefense": {
@@ -21393,7 +21393,7 @@
       }
      }
     },
-    "maxPacks": 1,
+    "maxPacks": 2,
     "reloadTime": 40.0
    },
    "A_AirDefense": {
@@ -60722,6 +60722,34 @@
  },
  {
   "ModulesArmaments": {
+   "ABC_DepthChargeGuns": {
+    "depthCharges": {
+     "HP_JGB_1": {
+      "ammoList": [
+       "PJPD002_Type_95_Shoot"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4182730448,
+      "index": "PJGB107",
+      "name": "PJGB107_Depth_Charge_Thrower_450mm",
+      "numBombs": 2,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxPacks": 2,
+    "reloadTime": 40.0
+   },
    "A_AirDefense": {
     "Near1": {
      "areaDamage": 4.0,
@@ -60998,7 +61026,9 @@
       "A_Artillery"
      ],
      "atba": [],
-     "depthCharges": [],
+     "depthCharges": [
+      "ABC_DepthChargeGuns"
+     ],
      "directors": [
       "A_Directors"
      ],
@@ -68810,6 +68840,9 @@
      "pinger": [],
      "radars": [
       "A_Radars"
+     ],
+     "specials": [
+      "A_Specials"
      ],
      "torpedoes": []
     },

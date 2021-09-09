@@ -102,7 +102,7 @@
   },
   "id": 3348987344,
   "index": "PRAF902",
-  "innerBombsPercentage": 75.0,
+  "innerBombsPercentage": 50.0,
   "innerSalvoSize": [
    3.96,
    1.67
@@ -283,7 +283,7 @@
   "index": "PRAL902",
   "innerBombsPercentage": 50.0,
   "innerSalvoSize": [
-   6.0,
+   6.3,
    5.0
   ],
   "isAirSupportPlane": false,
@@ -329,8 +329,8 @@
   "index": "PRAL301",
   "innerBombsPercentage": 50.0,
   "innerSalvoSize": [
-   5.0,
-   5.0
+   4.0,
+   3.5
   ],
   "isAirSupportPlane": false,
   "isConsumablePlane": false,
@@ -481,6 +481,52 @@
   }
  },
  {
+  "attackCooldown": 5,
+  "attackCount": 4,
+  "attackInterval": 0.05,
+  "attackSpeedMultiplier": 0.5,
+  "attackSpeedMultiplierApplyTime": 0.75,
+  "attackerDamageTakenMultiplier": 0.8,
+  "attackerSize": 4,
+  "bombFallingTime": 0.3,
+  "bombName": "PRPR008_KOMSOMOLETS_STOCK",
+  "damageTakenMultiplier": 1.0,
+  "flightHeight": 15.0,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 8,
+   "restoreAmount": 1,
+   "startValue": 8,
+   "timeToRestore": 60.0
+  },
+  "id": 3979181520,
+  "index": "PRAF301",
+  "innerBombsPercentage": 75.0,
+  "innerSalvoSize": [
+   2.87,
+   1.15
+  ],
+  "isAirSupportPlane": false,
+  "isConsumablePlane": false,
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 830,
+  "name": "PRAF301_KOMSOMOLETS_STOCK",
+  "naturalAcceleration": 0.275,
+  "naturalDeceleration": 0.275,
+  "numPlanesInSquadron": 4,
+  "returnHeight": 100.0,
+  "speedMax": 1.3167,
+  "speedMin": 0.7625,
+  "speedMoveWithBomb": 126.0,
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "Fighter",
+   "type": "Aircraft"
+  }
+ },
+ {
   "attackCooldown": 9,
   "attackCount": 1,
   "attackInterval": 1,
@@ -595,7 +641,7 @@
   "index": "PRAL901",
   "innerBombsPercentage": 50.0,
   "innerSalvoSize": [
-   6.0,
+   6.3,
    5.0
   ],
   "isAirSupportPlane": false,
@@ -615,6 +661,47 @@
   "typeinfo": {
    "nation": "Russia",
    "species": "Skip",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "attackCooldown": 5,
+  "attackCount": 1,
+  "attackInterval": 1,
+  "attackSpeedMultiplier": 1.0,
+  "attackSpeedMultiplierApplyTime": 0.0,
+  "attackerDamageTakenMultiplier": 1.0,
+  "attackerSize": 1,
+  "bombFallingTime": 0.3,
+  "bombName": "",
+  "damageTakenMultiplier": 1.0,
+  "flightHeight": 20.0,
+  "flightRadius": 100.0,
+  "hangarSettings": {
+   "maxValue": 0,
+   "restoreAmount": 1,
+   "startValue": 0,
+   "timeToRestore": 0.1
+  },
+  "id": 4291231184,
+  "index": "PRAS003",
+  "isAirSupportPlane": false,
+  "isConsumablePlane": true,
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 700,
+  "name": "PRAS003_KR_1",
+  "naturalAcceleration": 0.1,
+  "naturalDeceleration": 0.1,
+  "numPlanesInSquadron": 1,
+  "returnHeight": 100.0,
+  "speedMax": 1.5,
+  "speedMin": 0.8,
+  "speedMoveWithBomb": 98.0,
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "Scout",
    "type": "Aircraft"
   }
  },
@@ -698,7 +785,7 @@
   "returnHeight": 100.0,
   "speedMax": 1.3038,
   "speedMin": 0.7721,
-  "speedMoveWithBomb": 115.0,
+  "speedMoveWithBomb": 124.0,
   "typeinfo": {
    "nation": "Russia",
    "species": "Bomber",
@@ -1166,7 +1253,7 @@
   },
   "id": 3347938768,
   "index": "PRAF903",
-  "innerBombsPercentage": 75.0,
+  "innerBombsPercentage": 50.0,
   "innerSalvoSize": [
    3.96,
    1.67
@@ -1258,7 +1345,7 @@
   },
   "id": 3350035920,
   "index": "PRAF901",
-  "innerBombsPercentage": 75.0,
+  "innerBombsPercentage": 50.0,
   "innerSalvoSize": [
    3.96,
    1.67
@@ -1597,47 +1684,6 @@
  },
  {
   "attackCooldown": 5,
-  "attackCount": 1,
-  "attackInterval": 1,
-  "attackSpeedMultiplier": 1.0,
-  "attackSpeedMultiplierApplyTime": 0.0,
-  "attackerDamageTakenMultiplier": 1.0,
-  "attackerSize": 1,
-  "bombFallingTime": 0.3,
-  "bombName": "",
-  "damageTakenMultiplier": 1.0,
-  "flightHeight": 20.0,
-  "flightRadius": 100.0,
-  "hangarSettings": {
-   "maxValue": 0,
-   "restoreAmount": 1,
-   "startValue": 0,
-   "timeToRestore": 0.1
-  },
-  "id": 4291231184,
-  "index": "PRAS003",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
-  "isJatoBoosterDetachable": true,
-  "jatoDuration": 0.0,
-  "jatoSpeedMultiplier": 2.0,
-  "maxHealth": 700,
-  "name": "PRAS003_KR_1",
-  "naturalAcceleration": 0.1,
-  "naturalDeceleration": 0.1,
-  "numPlanesInSquadron": 1,
-  "returnHeight": 100.0,
-  "speedMax": 1.5,
-  "speedMin": 0.8,
-  "speedMoveWithBomb": 98.0,
-  "typeinfo": {
-   "nation": "Russia",
-   "species": "Scout",
-   "type": "Aircraft"
-  }
- },
- {
-  "attackCooldown": 5,
   "attackCount": 4,
   "attackInterval": 0.05,
   "attackSpeedMultiplier": 0.5,
@@ -1676,52 +1722,6 @@
   "speedMax": 1.3167,
   "speedMin": 0.7625,
   "speedMoveWithBomb": 221.0,
-  "typeinfo": {
-   "nation": "Russia",
-   "species": "Fighter",
-   "type": "Aircraft"
-  }
- },
- {
-  "attackCooldown": 5,
-  "attackCount": 4,
-  "attackInterval": 0.05,
-  "attackSpeedMultiplier": 0.5,
-  "attackSpeedMultiplierApplyTime": 0.75,
-  "attackerDamageTakenMultiplier": 0.8,
-  "attackerSize": 4,
-  "bombFallingTime": 0.3,
-  "bombName": "PRPR008_KOMSOMOLETS_STOCK",
-  "damageTakenMultiplier": 1.0,
-  "flightHeight": 15.0,
-  "flightRadius": 33.0,
-  "hangarSettings": {
-   "maxValue": 8,
-   "restoreAmount": 1,
-   "startValue": 8,
-   "timeToRestore": 60.0
-  },
-  "id": 3979181520,
-  "index": "PRAF301",
-  "innerBombsPercentage": 75.0,
-  "innerSalvoSize": [
-   2.87,
-   1.15
-  ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
-  "isJatoBoosterDetachable": true,
-  "jatoDuration": 0.0,
-  "jatoSpeedMultiplier": 2.0,
-  "maxHealth": 830,
-  "name": "PRAF301_KOMSOMOLETS_STOCK",
-  "naturalAcceleration": 0.275,
-  "naturalDeceleration": 0.275,
-  "numPlanesInSquadron": 4,
-  "returnHeight": 100.0,
-  "speedMax": 1.3167,
-  "speedMin": 0.7625,
-  "speedMoveWithBomb": 126.0,
   "typeinfo": {
    "nation": "Russia",
    "species": "Fighter",

@@ -177,12 +177,12 @@
    "volumeCoeff": 1.0
   },
   "ammoList": [
-   "PCPD010_Big"
+   "PHPD003_Depth_Charge"
   ],
   "canBeDestroyed": true,
   "customMiscs": {},
   "customShotSoundType": "",
-  "deadMesh": "",
+  "deadMesh": "content/gameplay/netherlands/gun/dcharge/HGB016_Depth_Charge_Roller_Track_R/HGB016_Depth_Charge_Roller_Track_R_dead.model",
   "deadZone": [],
   "disabledNodes": [],
   "fallRollAcceleration": 0.0,
@@ -200,7 +200,7 @@
   "miscFilterMode": false,
   "model": "content/gameplay/netherlands/gun/dcharge/HGB016_Depth_Charge_Roller_Track_R/HGB016_Depth_Charge_Roller_Track_R.model",
   "name": "PHGB016_Depth_Charge_Roller_Track_R",
-  "numBombs": 0,
+  "numBombs": 3,
   "rollAngleSpeed": 85.0,
   "rollSpeed": 0.5,
   "rotationSpeed": [
@@ -208,8 +208,8 @@
    0.0
   ],
   "shootAngle": 45.0,
-  "shootDist": 3.0,
-  "shootingType": "",
+  "shootDist": 0.01,
+  "shootingType": "slide",
   "shotEffect": "particles/guns/Ubomb_shot.xml",
   "startFallSpeed": 0.1,
   "typeinfo": {
@@ -379,7 +379,7 @@
   "model": "content/gameplay/netherlands/gun/aaircraft/HGA021_40mm_Bofors_Mark_IV_Hazemeyer/HGA021_40mm_Bofors_Mark_IV_Hazemeyer.model",
   "name": "PHGA021_40mm_Bofors_Mark_IV_Hazemeyer",
   "numBarrels": 2,
-  "shotDelay": 5.0,
+  "shotDelay": 5.01,
   "shotEffect": "particles/guns/AA_shot.xml",
   "smallGun": null,
   "typeinfo": {
@@ -1219,7 +1219,7 @@
    7.2,
    8.0
   ],
-  "shotDelay": 16.0,
+  "shotDelay": 15.0,
   "shotEffect": "particles/guns/GK_Shot_350to440.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
@@ -3438,5 +3438,102 @@
    "species": "AAircraft",
    "type": "Gun"
   }
+ },
+ {
+  "HitLocationDepthCharge": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": false,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "depthcharge_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 1200.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.8,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitBPDamageToParentFactor": 1.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "ammoList": [
+   "PHPD003_Depth_Charge"
+  ],
+  "canBeDestroyed": true,
+  "customMiscs": {},
+  "customShotSoundType": "",
+  "deadMesh": "content/gameplay/netherlands/gun/dcharge/HGB017_Depth_Charge_Roller_Track_L/HGB017_Depth_Charge_Roller_Track_L_dead.model",
+  "deadZone": [],
+  "disabledNodes": [],
+  "fallRollAcceleration": 0.0,
+  "horizSector": [
+   -150.0,
+   150.0
+  ],
+  "id": 4277102352,
+  "index": "PHGB017",
+  "mainSector": [
+   -90.0,
+   90.0
+  ],
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/netherlands/gun/dcharge/HGB017_Depth_Charge_Roller_Track_L/HGB017_Depth_Charge_Roller_Track_L.model",
+  "name": "PHGB017_Depth_Charge_Roller_Track_L",
+  "numBombs": 3,
+  "rollAngleSpeed": 85.0,
+  "rollSpeed": 0.5,
+  "rotationSpeed": [
+   0.0,
+   0.0
+  ],
+  "shootAngle": 45.0,
+  "shootDist": 0.01,
+  "shootingType": "slide",
+  "shotEffect": "particles/guns/Ubomb_shot.xml",
+  "startFallSpeed": 0.1,
+  "typeinfo": {
+   "nation": "Netherlands",
+   "species": "DCharge",
+   "type": "Gun"
+  },
+  "vertSector": [
+   0.0,
+   90.0
+  ],
+  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
  }
 ]

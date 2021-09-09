@@ -1709,7 +1709,7 @@
   }
  },
  {
-  "attackCooldown": 8.5,
+  "attackCooldown": 5,
   "attackCount": 2,
   "attackInterval": 0.05,
   "attackSpeedMultiplier": 1.0,
@@ -1717,18 +1717,18 @@
   "attackerDamageTakenMultiplier": 0.7,
   "attackerSize": 3,
   "bombFallingTime": 0.3,
-  "bombName": "PAPB208_Lexington_top",
+  "bombName": "PAPB110_Midway_stock",
   "damageTakenMultiplier": 1.0,
   "flightHeight": 20.0,
   "flightRadius": 33.0,
   "hangarSettings": {
-   "maxValue": 14,
+   "maxValue": 0,
    "restoreAmount": 1,
-   "startValue": 14,
-   "timeToRestore": 76.0
+   "startValue": 0,
+   "timeToRestore": 0.1
   },
-  "id": 4076765168,
-  "index": "PAAD208",
+  "id": 4284383216,
+  "index": "PAAD010",
   "innerBombsPercentage": 25.0,
   "innerSalvoSize": [
    0.88,
@@ -1739,15 +1739,15 @@
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
-  "maxHealth": 1980,
-  "name": "PAAD208_Lexington_top",
-  "naturalAcceleration": 0.031,
-  "naturalDeceleration": 0.031,
-  "numPlanesInSquadron": 9,
+  "maxHealth": 3312,
+  "name": "PAAD010_Douglas_BTD_1",
+  "naturalAcceleration": 0.1,
+  "naturalDeceleration": 0.1,
+  "numPlanesInSquadron": 1,
   "returnHeight": 100.0,
-  "speedMax": 1.28,
-  "speedMin": 0.79,
-  "speedMoveWithBomb": 125.0,
+  "speedMax": 1.4,
+  "speedMin": 0.8,
+  "speedMoveWithBomb": 113.0,
   "typeinfo": {
    "nation": "USA",
    "species": "Dive",
@@ -2077,6 +2077,52 @@
   }
  },
  {
+  "attackCooldown": 8.5,
+  "attackCount": 2,
+  "attackInterval": 0.05,
+  "attackSpeedMultiplier": 1.0,
+  "attackSpeedMultiplierApplyTime": 0.0,
+  "attackerDamageTakenMultiplier": 0.7,
+  "attackerSize": 3,
+  "bombFallingTime": 0.3,
+  "bombName": "PAPB208_Lexington_top",
+  "damageTakenMultiplier": 1.0,
+  "flightHeight": 20.0,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 14,
+   "restoreAmount": 1,
+   "startValue": 14,
+   "timeToRestore": 76.0
+  },
+  "id": 4076765168,
+  "index": "PAAD208",
+  "innerBombsPercentage": 25.0,
+  "innerSalvoSize": [
+   0.88,
+   2.07
+  ],
+  "isAirSupportPlane": false,
+  "isConsumablePlane": false,
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 1980,
+  "name": "PAAD208_Lexington_top",
+  "naturalAcceleration": 0.031,
+  "naturalDeceleration": 0.031,
+  "numPlanesInSquadron": 9,
+  "returnHeight": 100.0,
+  "speedMax": 1.28,
+  "speedMin": 0.79,
+  "speedMoveWithBomb": 125.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Dive",
+   "type": "Aircraft"
+  }
+ },
+ {
   "attackCooldown": 5,
   "attackCount": 1,
   "attackInterval": 1,
@@ -2252,47 +2298,6 @@
   "typeinfo": {
    "nation": "USA",
    "species": "Fighter",
-   "type": "Aircraft"
-  }
- },
- {
-  "attackCooldown": 5,
-  "attackCount": 1,
-  "attackInterval": 1,
-  "attackSpeedMultiplier": 1.0,
-  "attackSpeedMultiplierApplyTime": 0.0,
-  "attackerDamageTakenMultiplier": 0.5,
-  "attackerSize": 1,
-  "bombFallingTime": 0.3,
-  "bombName": "PAPT006_Bliss_Leavitt_Mk7_mod_5A",
-  "damageTakenMultiplier": 1.0,
-  "flightHeight": 20.0,
-  "flightRadius": 40.0,
-  "hangarSettings": {
-   "maxValue": 0,
-   "restoreAmount": 1,
-   "startValue": 0,
-   "timeToRestore": 0.1
-  },
-  "id": 4284448752,
-  "index": "PAAB010",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
-  "isJatoBoosterDetachable": true,
-  "jatoDuration": 0.0,
-  "jatoSpeedMultiplier": 2.0,
-  "maxHealth": 6.0,
-  "name": "PAAB010_Douglas_DT_float",
-  "naturalAcceleration": 0.1,
-  "naturalDeceleration": 0.1,
-  "numPlanesInSquadron": 1,
-  "returnHeight": 100.0,
-  "speedMax": 1.5,
-  "speedMin": 0.8,
-  "speedMoveWithBomb": 89.0,
-  "typeinfo": {
-   "nation": "USA",
-   "species": "Bomber",
    "type": "Aircraft"
   }
  },
@@ -3142,6 +3147,47 @@
   "typeinfo": {
    "nation": "USA",
    "species": "Fighter",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "attackCooldown": 5,
+  "attackCount": 1,
+  "attackInterval": 1,
+  "attackSpeedMultiplier": 1.0,
+  "attackSpeedMultiplierApplyTime": 0.0,
+  "attackerDamageTakenMultiplier": 0.5,
+  "attackerSize": 1,
+  "bombFallingTime": 0.3,
+  "bombName": "PAPT006_Bliss_Leavitt_Mk7_mod_5A",
+  "damageTakenMultiplier": 1.0,
+  "flightHeight": 20.0,
+  "flightRadius": 40.0,
+  "hangarSettings": {
+   "maxValue": 0,
+   "restoreAmount": 1,
+   "startValue": 0,
+   "timeToRestore": 0.1
+  },
+  "id": 4284448752,
+  "index": "PAAB010",
+  "isAirSupportPlane": false,
+  "isConsumablePlane": false,
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 6.0,
+  "name": "PAAB010_Douglas_DT_float",
+  "naturalAcceleration": 0.1,
+  "naturalDeceleration": 0.1,
+  "numPlanesInSquadron": 1,
+  "returnHeight": 100.0,
+  "speedMax": 1.5,
+  "speedMin": 0.8,
+  "speedMoveWithBomb": 89.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Bomber",
    "type": "Aircraft"
   }
  },
@@ -5132,52 +5178,6 @@
   "typeinfo": {
    "nation": "USA",
    "species": "Bomber",
-   "type": "Aircraft"
-  }
- },
- {
-  "attackCooldown": 5,
-  "attackCount": 2,
-  "attackInterval": 0.05,
-  "attackSpeedMultiplier": 1.0,
-  "attackSpeedMultiplierApplyTime": 0.0,
-  "attackerDamageTakenMultiplier": 0.7,
-  "attackerSize": 3,
-  "bombFallingTime": 0.3,
-  "bombName": "PAPB110_Midway_stock",
-  "damageTakenMultiplier": 1.0,
-  "flightHeight": 20.0,
-  "flightRadius": 33.0,
-  "hangarSettings": {
-   "maxValue": 0,
-   "restoreAmount": 1,
-   "startValue": 0,
-   "timeToRestore": 0.1
-  },
-  "id": 4284383216,
-  "index": "PAAD010",
-  "innerBombsPercentage": 25.0,
-  "innerSalvoSize": [
-   0.88,
-   2.07
-  ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
-  "isJatoBoosterDetachable": true,
-  "jatoDuration": 0.0,
-  "jatoSpeedMultiplier": 2.0,
-  "maxHealth": 3312,
-  "name": "PAAD010_Douglas_BTD_1",
-  "naturalAcceleration": 0.1,
-  "naturalDeceleration": 0.1,
-  "numPlanesInSquadron": 1,
-  "returnHeight": 100.0,
-  "speedMax": 1.4,
-  "speedMin": 0.8,
-  "speedMoveWithBomb": 113.0,
-  "typeinfo": {
-   "nation": "USA",
-   "species": "Dive",
    "type": "Aircraft"
   }
  },

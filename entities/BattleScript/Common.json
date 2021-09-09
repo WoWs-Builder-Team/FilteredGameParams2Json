@@ -421,6 +421,101 @@
   }
  },
  {
+  "difficulty": {
+   "hard": {
+    "rewards": [
+     [
+      "<Add type=\"CREDITS\" count=\"4\"/>"
+     ],
+     [
+      "<Add type=\"CREDITS\" count=\"40\"/>"
+     ],
+     [
+      "<Add type=\"CREDITS\" count=\"400\"/>"
+     ],
+     [
+      "<Add type=\"CREDITS\" count=\"4000\"/>"
+     ],
+     [
+      "<Add type=\"CREDITS\" count=\"40000\"/>"
+     ]
+    ],
+    "scenario": "Halloween_2016"
+   },
+   "normal": {
+    "rewards": [
+     [
+      "<Item idx=\"PCEF007_ID_SignalFlag\" count=\"5\"/>",
+      "<Item idx=\"PCEF010_JC_SignalFlag\" count=\"5\"/>",
+      "<Item idx=\"PCEF012_MY6_SignalFlag\" count=\"5\"/>"
+     ],
+     [
+      "<Item idx=\"PCEF005_SM_SignalFlag\" count=\"5\"/>",
+      "<Item idx=\"PCEF018_IX_SignalFlag\" count=\"5\"/>",
+      "<Item idx=\"PCEF019_JW1_SignalFlag\" count=\"5\"/>"
+     ],
+     [
+      "<Item idx=\"PCEC003_Camo_Halloween\" count=\"5\"/>"
+     ],
+     [
+      "<Item idx=\"PCEC019_Camo_Halloween_16\" count=\"5\"/>"
+     ],
+     [
+      "<Add type=\"WOWS_PREM\" count=\"1\"/>"
+     ]
+    ],
+    "scenario": "Halloween_2016"
+   }
+  },
+  "id": 4269321136,
+  "index": "PCVO024",
+  "isHard": false,
+  "map": "spaces/50_VanHellsing",
+  "name": "PCVO024_EV_HL_16_50_VanHellsing",
+  "restrictions": {
+   "classes": {
+    "AirCarrier": [
+     0,
+     1
+    ],
+    "Battleship": [
+     0,
+     3
+    ],
+    "Cruiser": [
+     0,
+     4
+    ],
+    "Destroyer": [
+     0,
+     3
+    ],
+    "Submarine": [
+     0,
+     -1
+    ]
+   },
+   "filters": [
+    {
+     "nations": [
+      "Events"
+     ],
+     "shipLevels": [
+      3
+     ]
+    }
+   ],
+   "minShips": 4,
+   "totalShips": 7
+  },
+  "subtype": "event",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Operation",
+   "type": "BattleScript"
+  }
+ },
+ {
   "allowDivisions": true,
   "battleProvider": "LegendaryBattle",
   "economics": {
@@ -1239,6 +1334,144 @@
   }
  },
  {
+  "custom": {
+   "CN": {
+    "difficulty": {
+     "hard": {
+      "rewards": [
+       [
+        "<Add type=\"CREDITS\" count=\"4\"/>"
+       ],
+       [
+        "<Add type=\"CREDITS\" count=\"40\"/>"
+       ],
+       [
+        "<Add type=\"CREDITS\" count=\"400\"/>"
+       ],
+       [
+        "<Add type=\"CREDITS\" count=\"4000\"/>"
+       ],
+       [
+        "<Add type=\"CREDITS\" count=\"40000\"/>"
+       ]
+      ],
+      "scenario": "Halloween_2017_Nightmare"
+     },
+     "normal": {
+      "rewards": [
+       [
+        "<Item idx=\"PCEC003_Camo_Halloween\" count=\"5\"/>"
+       ],
+       [
+        "<Item idx=\"PCEC042_Super_ECO_camo\" count=\"5\"/>"
+       ],
+       [
+        "<Item idx=\"PCEC049_Dragon_1\" count=\"5\"/>"
+       ],
+       [
+        "<Item idx=\"PCEC050_Dragon_2\" count=\"5\"/>"
+       ],
+       [
+        "<Item idx=\"PCEC051_Dragon_3\" count=\"5\"/>",
+        "<Add type=\"WOWS_PREM\" count=\"1\"/>"
+       ]
+      ],
+      "scenario": "Halloween_2017_Nightmare"
+     }
+    }
+   }
+  },
+  "difficulty": {
+   "hard": {
+    "rewards": [
+     [
+      "<Add type=\"CREDITS\" count=\"4\"/>"
+     ],
+     [
+      "<Add type=\"CREDITS\" count=\"40\"/>"
+     ],
+     [
+      "<Add type=\"CREDITS\" count=\"400\"/>"
+     ],
+     [
+      "<Add type=\"CREDITS\" count=\"4000\"/>"
+     ],
+     [
+      "<Add type=\"CREDITS\" count=\"40000\"/>"
+     ]
+    ],
+    "scenario": "Halloween_2017_Nightmare"
+   },
+   "normal": {
+    "rewards": [
+     [
+      "<Item idx=\"PCEC003_Camo_Halloween\" count=\"5\"/>"
+     ],
+     [
+      "<Item idx=\"PCEC042_Super_ECO_camo\" count=\"5\"/>"
+     ],
+     [
+      "<Lootbox boxType=\"PCL042_HW2018_Prem\" count=\"1\" ignoreEpic=\"1\"/>"
+     ],
+     [
+      "<Lootbox boxType=\"PCL042_HW2018_Prem\" count=\"1\" ignoreEpic=\"1\"/>"
+     ],
+     [
+      "<Lootbox boxType=\"PCL042_HW2018_Prem\" count=\"1\" ignoreEpic=\"1\"/>"
+     ]
+    ],
+    "scenario": "Halloween_2017_Nightmare"
+   }
+  },
+  "id": 4264078256,
+  "index": "PCVO029",
+  "isHard": true,
+  "map": "spaces/e02_Halloween_2017",
+  "name": "PCVO029_EV_HL_17_e02_Halloween_2017_Nightmare",
+  "restrictions": {
+   "classes": {
+    "AirCarrier": [
+     0,
+     1
+    ],
+    "Battleship": [
+     0,
+     3
+    ],
+    "Cruiser": [
+     0,
+     4
+    ],
+    "Destroyer": [
+     0,
+     3
+    ],
+    "Submarine": [
+     0,
+     -1
+    ]
+   },
+   "filters": [
+    {
+     "nations": [
+      "Events"
+     ],
+     "shipLevels": [
+      8
+     ]
+    }
+   ],
+   "minShips": 4,
+   "totalShips": 7
+  },
+  "subtype": "event",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Operation",
+   "type": "BattleScript"
+  }
+ },
+ {
   "difficulty": {
    "hard": {
     "rewards": [
@@ -1687,88 +1920,31 @@
    "earningBySelf": 0.0,
    "earningByTeamPool": 0.0,
    "earningsByLevel": {
-    "5": 200,
-    "6": 200,
-    "7": 50,
-    "8": 50
+    "7": 200,
+    "8": 200,
+    "9": 0,
+    "10": 0
    },
    "premFactor": 1.0
   },
   "gameLogicConfig": {
    "lockableShips": {
     "levels": [
-     7,
-     8
+     9,
+     10
     ]
    }
   },
   "id": 4287474608,
   "index": "PCVE007",
-  "matchmakerConfig": {
-   "add_bots": true,
-   "force_start_time": 180,
-   "max_weight_diff": 50,
-   "partial_battles_wait_time": 90,
-   "teams": [
-    {
-     "filters": [
-      {
-       "shipLevels": [
-        8
-       ],
-       "shipTypes": [
-        "AirCarrier"
-       ]
-      },
-      {
-       "shipLevels": [
-        7,
-        8
-       ],
-       "shipTypes": [
-        "Battleship",
-        "Cruiser",
-        "Destroyer"
-       ]
-      }
-     ],
-     "minShips": 5,
-     "totalShips": 7
-    },
-    {
-     "filters": [
-      {
-       "shipLevels": [
-        6
-       ],
-       "shipTypes": [
-        "AirCarrier"
-       ]
-      },
-      {
-       "shipLevels": [
-        5,
-        6
-       ],
-       "shipTypes": [
-        "Battleship",
-        "Cruiser",
-        "Destroyer"
-       ]
-      }
-     ],
-     "minShips": 9,
-     "totalShips": 12
-    }
-   ]
-  },
+  "matchmakerConfig": "eventEV24AsymBattle",
   "name": "PCVE007_EV20Asym",
   "restrictions": {
    "filters": [
     {
      "shipLevels": [
-      6,
-      8
+      8,
+      10
      ],
      "shipTypes": [
       "AirCarrier"
@@ -1776,10 +1952,10 @@
     },
     {
      "shipLevels": [
-      5,
-      6,
       7,
-      8
+      8,
+      9,
+      10
      ],
      "shipTypes": [
       "Battleship",
@@ -1792,19 +1968,118 @@
    "totalShips": 12
   },
   "scenariosByMap": {
-   "spaces/s01_NavalBase_asym": [
+   "spaces/13_OC_new_dawn": [
     "Asymmetric_battle"
    ],
-   "spaces/s02_Naval_Defense_asym": [
+   "spaces/17_NA_fault_line": [
     "Asymmetric_battle"
    ],
-   "spaces/s06_Atoll_asym": [
+   "spaces/41_Conquest": [
+    "Asymmetric_battle"
+   ],
+   "spaces/47_Sleeping_Giant": [
+    "Asymmetric_battle"
+   ],
+   "spaces/51_Greece": [
     "Asymmetric_battle"
    ]
   },
   "typeinfo": {
    "nation": "Common",
    "species": "Event",
+   "type": "BattleScript"
+  }
+ },
+ {
+  "difficulty": {
+   "hard": {
+    "rewards": [
+     [
+      "<Add type=\"CREDITS\" count=\"4\"/>"
+     ],
+     [
+      "<Add type=\"CREDITS\" count=\"40\"/>"
+     ],
+     [
+      "<Add type=\"CREDITS\" count=\"400\"/>"
+     ],
+     [
+      "<Add type=\"CREDITS\" count=\"4000\"/>"
+     ],
+     [
+      "<Add type=\"CREDITS\" count=\"40000\"/>"
+     ]
+    ],
+    "scenario": "Halloween_2016_Hard"
+   },
+   "normal": {
+    "rewards": [
+     [
+      "<Item idx=\"PCEC003_Camo_Halloween\" count=\"5\"/>"
+     ],
+     [
+      "<Item idx=\"PCEC019_Camo_Halloween_16\" count=\"5\"/>"
+     ],
+     [
+      "<Item idx=\"PCEF021_Wyvern_Flag\" count=\"5\"/>"
+     ],
+     [
+      "<Item idx=\"PCEF024_Hydra_Flag\" count=\"5\"/>"
+     ],
+     [
+      "<Item idx=\"PCEF023_Ouroboros_Flag\" count=\"5\"/>",
+      "<Item idx=\"PCEF026_Scylla_Flag\" count=\"5\"/>",
+      "<Add type=\"WOWS_PREM\" count=\"1\"/>"
+     ]
+    ],
+    "scenario": "Halloween_2016_Hard"
+   }
+  },
+  "id": 4268272560,
+  "index": "PCVO025",
+  "isHard": true,
+  "map": "spaces/50_VanHellsing",
+  "name": "PCVO025_EV_HL_16_50_VanHellsing_Hard",
+  "restrictions": {
+   "classes": {
+    "AirCarrier": [
+     0,
+     1
+    ],
+    "Battleship": [
+     0,
+     3
+    ],
+    "Cruiser": [
+     0,
+     4
+    ],
+    "Destroyer": [
+     0,
+     3
+    ],
+    "Submarine": [
+     0,
+     -1
+    ]
+   },
+   "filters": [
+    {
+     "nations": [
+      "Events"
+     ],
+     "shipLevels": [
+      3
+     ]
+    }
+   ],
+   "minShips": 4,
+   "totalShips": 7
+  },
+  "subtype": "event",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Operation",
    "type": "BattleScript"
   }
  },
@@ -2005,6 +2280,82 @@
  },
  {
   "allowDivisions": true,
+  "battleProvider": "EventBattles",
+  "economics": {
+   "currencyType": "CREDITS",
+   "earningBySelf": 1.0,
+   "earningByTeamPool": 0.0,
+   "earningsByLevel": {},
+   "premFactor": 1.0
+  },
+  "gameLogicConfig": {},
+  "id": 4269648816,
+  "index": "PCVE024",
+  "matchmakerConfig": "eventConvoyL",
+  "name": "PCVE024_ConvoyL",
+  "restrictions": {
+   "classes": {
+    "AirCarrier": [
+     0,
+     1
+    ],
+    "Battleship": [
+     0,
+     3
+    ],
+    "Cruiser": [
+     0,
+     7
+    ],
+    "Destroyer": [
+     0,
+     7
+    ],
+    "Submarine": [
+     0,
+     -1
+    ]
+   },
+   "filters": [
+    {
+     "shipLevels": [
+      8
+     ],
+     "shipTypes": [
+      "Destroyer",
+      "Cruiser",
+      "Battleship",
+      "AirCarrier"
+     ]
+    }
+   ],
+   "totalShips": 14
+  },
+  "scenariosByMap": {
+   "spaces/14_Atlantic": [
+    "convoy1R_Light"
+   ],
+   "spaces/18_NE_ice_islands": [
+    "convoy1R_Light"
+   ],
+   "spaces/44_Path_warrior": [
+    "convoy1R_Light"
+   ],
+   "spaces/45_Zigzag": [
+    "convoy1R_Light"
+   ],
+   "spaces/s03_Labyrinth": [
+    "convoy1R_Light"
+   ]
+  },
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Event",
+   "type": "BattleScript"
+  }
+ },
+ {
+  "allowDivisions": true,
   "battleProvider": "RoyalBattles",
   "economics": {
    "currencyType": "SALTPETER",
@@ -2050,6 +2401,101 @@
   "typeinfo": {
    "nation": "Common",
    "species": "Event",
+   "type": "BattleScript"
+  }
+ },
+ {
+  "difficulty": {
+   "hard": {
+    "rewards": [
+     [
+      "<Add type=\"CREDITS\" count=\"4\"/>"
+     ],
+     [
+      "<Add type=\"CREDITS\" count=\"40\"/>"
+     ],
+     [
+      "<Add type=\"CREDITS\" count=\"400\"/>"
+     ],
+     [
+      "<Add type=\"CREDITS\" count=\"4000\"/>"
+     ],
+     [
+      "<Add type=\"CREDITS\" count=\"40000\"/>"
+     ]
+    ],
+    "scenario": "Halloween_2017"
+   },
+   "normal": {
+    "rewards": [
+     [
+      "<Item idx=\"PCEF007_ID_SignalFlag\" count=\"5\"/>",
+      "<Item idx=\"PCEF010_JC_SignalFlag\" count=\"5\"/>",
+      "<Item idx=\"PCEF012_MY6_SignalFlag\" count=\"5\"/>"
+     ],
+     [
+      "<Item idx=\"PCEF005_SM_SignalFlag\" count=\"5\"/>",
+      "<Item idx=\"PCEF018_IX_SignalFlag\" count=\"5\"/>",
+      "<Item idx=\"PCEF019_JW1_SignalFlag\" count=\"5\"/>"
+     ],
+     [
+      "<Item idx=\"PCEC003_Camo_Halloween\" count=\"5\"/>"
+     ],
+     [
+      "<Item idx=\"PCEC019_Camo_Halloween_16\" count=\"5\"/>"
+     ],
+     [
+      "<Add type=\"WOWS_PREM\" count=\"1\"/>"
+     ]
+    ],
+    "scenario": "Halloween_2017"
+   }
+  },
+  "id": 4266175408,
+  "index": "PCVO027",
+  "isHard": false,
+  "map": "spaces/e02_Halloween_2017",
+  "name": "PCVO027_EV_HL_17_e02_Halloween_2017",
+  "restrictions": {
+   "classes": {
+    "AirCarrier": [
+     0,
+     1
+    ],
+    "Battleship": [
+     0,
+     3
+    ],
+    "Cruiser": [
+     0,
+     4
+    ],
+    "Destroyer": [
+     0,
+     3
+    ],
+    "Submarine": [
+     0,
+     -1
+    ]
+   },
+   "filters": [
+    {
+     "nations": [
+      "Events"
+     ],
+     "shipLevels": [
+      8
+     ]
+    }
+   ],
+   "minShips": 4,
+   "totalShips": 7
+  },
+  "subtype": "event",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Operation",
    "type": "BattleScript"
   }
  },
@@ -2881,6 +3327,237 @@
    ],
    "minShips": 4,
    "totalShips": 6
+  },
+  "subtype": "event",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Operation",
+   "type": "BattleScript"
+  }
+ },
+ {
+  "custom": {
+   "CN": {
+    "difficulty": {
+     "hard": {
+      "rewards": [
+       [
+        "<Add type=\"CREDITS\" count=\"4\"/>"
+       ],
+       [
+        "<Add type=\"CREDITS\" count=\"40\"/>"
+       ],
+       [
+        "<Add type=\"CREDITS\" count=\"400\"/>"
+       ],
+       [
+        "<Add type=\"CREDITS\" count=\"4000\"/>"
+       ],
+       [
+        "<Add type=\"CREDITS\" count=\"40000\"/>"
+       ]
+      ],
+      "scenario": "Halloween_2016_Nightmare"
+     },
+     "normal": {
+      "rewards": [
+       [
+        "<Item idx=\"PCEC019_Camo_Halloween_16\" count=\"5\"/>"
+       ],
+       [
+        "<Item idx=\"PCEC042_Super_ECO_camo\" count=\"5\"/>"
+       ],
+       [
+        "<Item idx=\"PCEC049_Dragon_1\" count=\"5\"/>"
+       ],
+       [
+        "<Item idx=\"PCEC050_Dragon_2\" count=\"5\"/>"
+       ],
+       [
+        "<Item idx=\"PCEC051_Dragon_3\" count=\"5\"/>",
+        "<Add type=\"WOWS_PREM\" count=\"1\"/>"
+       ]
+      ],
+      "scenario": "Halloween_2016_Nightmare"
+     }
+    }
+   }
+  },
+  "difficulty": {
+   "hard": {
+    "rewards": [
+     [
+      "<Add type=\"CREDITS\" count=\"4\"/>"
+     ],
+     [
+      "<Add type=\"CREDITS\" count=\"40\"/>"
+     ],
+     [
+      "<Add type=\"CREDITS\" count=\"400\"/>"
+     ],
+     [
+      "<Add type=\"CREDITS\" count=\"4000\"/>"
+     ],
+     [
+      "<Add type=\"CREDITS\" count=\"40000\"/>"
+     ]
+    ],
+    "scenario": "Halloween_2016_Nightmare"
+   },
+   "normal": {
+    "rewards": [
+     [
+      "<Item idx=\"PCEC019_Camo_Halloween_16\" count=\"5\"/>"
+     ],
+     [
+      "<Item idx=\"PCEC042_Super_ECO_camo\" count=\"5\"/>"
+     ],
+     [
+      "<Lootbox boxType=\"PCL042_HW2018_Prem\" count=\"1\" ignoreEpic=\"1\"/>"
+     ],
+     [
+      "<Lootbox boxType=\"PCL042_HW2018_Prem\" count=\"1\" ignoreEpic=\"1\"/>"
+     ],
+     [
+      "<Lootbox boxType=\"PCL042_HW2018_Prem\" count=\"1\" ignoreEpic=\"1\"/>"
+     ]
+    ],
+    "scenario": "Halloween_2016_Nightmare"
+   }
+  },
+  "id": 4267223984,
+  "index": "PCVO026",
+  "isHard": true,
+  "map": "spaces/50_VanHellsing",
+  "name": "PCVO026_EV_HL_16_50_VanHellsing_Nightmare",
+  "restrictions": {
+   "classes": {
+    "AirCarrier": [
+     0,
+     1
+    ],
+    "Battleship": [
+     0,
+     3
+    ],
+    "Cruiser": [
+     0,
+     4
+    ],
+    "Destroyer": [
+     0,
+     3
+    ],
+    "Submarine": [
+     0,
+     -1
+    ]
+   },
+   "filters": [
+    {
+     "nations": [
+      "Events"
+     ],
+     "shipLevels": [
+      3
+     ]
+    }
+   ],
+   "minShips": 4,
+   "totalShips": 7
+  },
+  "subtype": "event",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Operation",
+   "type": "BattleScript"
+  }
+ },
+ {
+  "difficulty": {
+   "hard": {
+    "rewards": [
+     [
+      "<Add type=\"CREDITS\" count=\"4\"/>"
+     ],
+     [
+      "<Add type=\"CREDITS\" count=\"40\"/>"
+     ],
+     [
+      "<Add type=\"CREDITS\" count=\"400\"/>"
+     ],
+     [
+      "<Add type=\"CREDITS\" count=\"4000\"/>"
+     ],
+     [
+      "<Add type=\"CREDITS\" count=\"40000\"/>"
+     ]
+    ],
+    "scenario": "Halloween_2017_Hard"
+   },
+   "normal": {
+    "rewards": [
+     [
+      "<Item idx=\"PCEC003_Camo_Halloween\" count=\"5\"/>"
+     ],
+     [
+      "<Item idx=\"PCEC019_Camo_Halloween_16\" count=\"5\"/>"
+     ],
+     [
+      "<Item idx=\"PCEF020_Blue_Dragon_Flag\" count=\"5\"/>"
+     ],
+     [
+      "<Item idx=\"PCEF022_Red_Dragon_Flag\" count=\"5\"/>"
+     ],
+     [
+      "<Item idx=\"PCEF025_Basilisk_Flag\" count=\"5\"/>",
+      "<Item idx=\"PCEF027_Leviathan_Flag\" count=\"5\"/>",
+      "<Add type=\"WOWS_PREM\" count=\"1\"/>"
+     ]
+    ],
+    "scenario": "Halloween_2017_Hard"
+   }
+  },
+  "id": 4265126832,
+  "index": "PCVO028",
+  "isHard": true,
+  "map": "spaces/e02_Halloween_2017",
+  "name": "PCVO028_EV_HL_17_e02_Halloween_2017_Hard",
+  "restrictions": {
+   "classes": {
+    "AirCarrier": [
+     0,
+     1
+    ],
+    "Battleship": [
+     0,
+     3
+    ],
+    "Cruiser": [
+     0,
+     4
+    ],
+    "Destroyer": [
+     0,
+     3
+    ],
+    "Submarine": [
+     0,
+     -1
+    ]
+   },
+   "filters": [
+    {
+     "nations": [
+      "Events"
+     ],
+     "shipLevels": [
+      8
+     ]
+    }
+   ],
+   "minShips": 4,
+   "totalShips": 7
   },
   "subtype": "event",
   "typeinfo": {

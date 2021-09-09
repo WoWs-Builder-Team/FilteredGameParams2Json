@@ -493,19 +493,7 @@
       "particles/vehicles/Fire_side_medium.xml"
      ],
      [
-      "HP_FX_Fire_2_side_1",
-      "particles/vehicles/Fire_side_medium.xml"
-     ],
-     [
       "HP_FX_Fire_2_side_2",
-      "particles/vehicles/Fire_side_medium.xml"
-     ],
-     [
-      "HP_FX_Fire_2_side_2",
-      "particles/vehicles/Fire_side_medium.xml"
-     ],
-     [
-      "HP_FX_Fire_2_side_3",
       "particles/vehicles/Fire_side_medium.xml"
      ]
     ],
@@ -516,14 +504,6 @@
      ],
      [
       "HP_FX_Fire_3_side_1",
-      "particles/vehicles/Fire_side_medium.xml"
-     ],
-     [
-      "HP_FX_Fire_3_side_1",
-      "particles/vehicles/Fire_side_medium.xml"
-     ],
-     [
-      "HP_FX_Fire_3_side_2",
       "particles/vehicles/Fire_side_medium.xml"
      ]
     ],
@@ -585,14 +565,6 @@
      ],
      [
       "HP_FX_Flood_steam_3",
-      "particles/vehicles/Flood_steam_medium.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_4",
-      "particles/vehicles/Flood_steam_exhaust_big_delayed.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_4",
       "particles/vehicles/Flood_steam_medium.xml"
      ],
      [
@@ -754,19 +726,7 @@
       "particles/vehicles/Fire_side_medium.xml"
      ],
      [
-      "HP_FX_Fire_2_side_1",
-      "particles/vehicles/Fire_side_medium.xml"
-     ],
-     [
       "HP_FX_Fire_2_side_2",
-      "particles/vehicles/Fire_side_medium.xml"
-     ],
-     [
-      "HP_FX_Fire_2_side_2",
-      "particles/vehicles/Fire_side_medium.xml"
-     ],
-     [
-      "HP_FX_Fire_2_side_3",
       "particles/vehicles/Fire_side_medium.xml"
      ]
     ],
@@ -777,14 +737,6 @@
      ],
      [
       "HP_FX_Fire_3_side_1",
-      "particles/vehicles/Fire_side_medium.xml"
-     ],
-     [
-      "HP_FX_Fire_3_side_1",
-      "particles/vehicles/Fire_side_medium.xml"
-     ],
-     [
-      "HP_FX_Fire_3_side_2",
       "particles/vehicles/Fire_side_medium.xml"
      ]
     ],
@@ -846,14 +798,6 @@
      ],
      [
       "HP_FX_Flood_steam_3",
-      "particles/vehicles/Flood_steam_medium.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_4",
-      "particles/vehicles/Flood_steam_exhaust_big_delayed.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_4",
       "particles/vehicles/Flood_steam_medium.xml"
      ],
      [
@@ -1775,6 +1719,46 @@
    "visibilityFactor": 0.97
   },
   "name": "PAEP919_Marlin",
+  "parts": [
+   0,
+   1,
+   2
+  ],
+  "restrictions": {
+   "forbiddenShips": [],
+   "levels": [],
+   "nations": [],
+   "specificShips": [],
+   "subtype": []
+  },
+  "sortOrder": 2147483647,
+  "tags": [],
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Permoflage",
+   "type": "Exterior"
+  }
+ },
+ {
+  "camouflage": "camo_permanent_3",
+  "canBuy": false,
+  "canCharge": false,
+  "canSell": false,
+  "costCR": -1,
+  "costGold": 5000,
+  "custom": {},
+  "hidden": true,
+  "id": 3342364656,
+  "index": "PAEP908",
+  "modifiers": {
+   "afterBattleRepair": 0.9,
+   "crewExpFactor": 2.0,
+   "expFactor": 2.0,
+   "freeExpFactor": 2.0,
+   "shootShift": 1.04,
+   "visibilityFactor": 0.97
+  },
+  "name": "PAEP908_Wolf",
   "parts": [
    0,
    1,
@@ -6700,48 +6684,6 @@
   "unpeculiarCamouflageColorSchemeId": 0
  },
  {
-  "camouflage": "Alabama_Veteran_VL_Blue",
-  "canBuy": false,
-  "canCharge": true,
-  "canSell": false,
-  "costCR": -1,
-  "costGold": 3000,
-  "custom": {},
-  "hidden": true,
-  "id": 3947393008,
-  "index": "PAEP331",
-  "modifiers": {
-   "afterBattleRepair": 0.7,
-   "expFactor": 2.0,
-   "freeExpFactor": 4.0,
-   "shootShift": 1.04,
-   "visibilityFactor": 0.97
-  },
-  "name": "PAEP331_Alabama_VL_Vol",
-  "parts": [
-   0,
-   1,
-   2,
-   3
-  ],
-  "restrictions": {
-   "forbiddenShips": [],
-   "levels": [],
-   "nations": [],
-   "specificShips": [],
-   "subtype": []
-  },
-  "sortOrder": 2147483647,
-  "tags": [
-   "catalogueHidden"
-  ],
-  "typeinfo": {
-   "nation": "USA",
-   "species": "Permoflage",
-   "type": "Exterior"
-  }
- },
- {
   "camouflage": "camo_Transformer_Skin_tile_01",
   "canBuy": false,
   "canCharge": true,
@@ -11598,7 +11540,12 @@
   "canSell": false,
   "costCR": -1,
   "costGold": 4000,
-  "custom": {},
+  "custom": {
+   "CN": {
+    "canBuy": false,
+    "hidden": true
+   }
+  },
   "effects": {
    "A_Hull": {
     "death": [
@@ -14791,6 +14738,48 @@
   },
   "unpeculiarCamouflage": "camo_permanent_1",
   "unpeculiarCamouflageColorSchemeId": 0
+ },
+ {
+  "camouflage": "Alabama_Veteran_VL_Blue",
+  "canBuy": false,
+  "canCharge": true,
+  "canSell": false,
+  "costCR": -1,
+  "costGold": 3000,
+  "custom": {},
+  "hidden": true,
+  "id": 3947393008,
+  "index": "PAEP331",
+  "modifiers": {
+   "afterBattleRepair": 0.7,
+   "expFactor": 2.0,
+   "freeExpFactor": 4.0,
+   "shootShift": 1.04,
+   "visibilityFactor": 0.97
+  },
+  "name": "PAEP331_Alabama_VL_Vol",
+  "parts": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "restrictions": {
+   "forbiddenShips": [],
+   "levels": [],
+   "nations": [],
+   "specificShips": [],
+   "subtype": []
+  },
+  "sortOrder": 2147483647,
+  "tags": [
+   "catalogueHidden"
+  ],
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Permoflage",
+   "type": "Exterior"
+  }
  },
  {
   "camouflage": "camo_Lone_Star",
@@ -26284,46 +26273,6 @@
   "tags": [
    "catalogueHidden"
   ],
-  "typeinfo": {
-   "nation": "USA",
-   "species": "Permoflage",
-   "type": "Exterior"
-  }
- },
- {
-  "camouflage": "camo_permanent_3",
-  "canBuy": false,
-  "canCharge": false,
-  "canSell": false,
-  "costCR": -1,
-  "costGold": 5000,
-  "custom": {},
-  "hidden": true,
-  "id": 3342364656,
-  "index": "PAEP908",
-  "modifiers": {
-   "afterBattleRepair": 0.9,
-   "crewExpFactor": 2.0,
-   "expFactor": 2.0,
-   "freeExpFactor": 2.0,
-   "shootShift": 1.04,
-   "visibilityFactor": 0.97
-  },
-  "name": "PAEP908_Wolf",
-  "parts": [
-   0,
-   1,
-   2
-  ],
-  "restrictions": {
-   "forbiddenShips": [],
-   "levels": [],
-   "nations": [],
-   "specificShips": [],
-   "subtype": []
-  },
-  "sortOrder": 2147483647,
-  "tags": [],
   "typeinfo": {
    "nation": "USA",
    "species": "Permoflage",

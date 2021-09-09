@@ -118,7 +118,9 @@
    9,
    10
   ],
-  "ships": [],
+  "ships": [
+   "PZSB519_Alsace_Wujing"
+  ],
   "shiptype": [
    "Battleship"
   ],
@@ -631,8 +633,14 @@
   "modifiers": {
    "GTShotDelay": 0.85,
    "torpedoVisibilityFactor": 0.9,
-   "visibilityFactor": 0.95,
-   "visibilityFactorByPlane": 0.95,
+   "visibilityDistCoeff": {
+    "AirCarrier": 0.95,
+    "Auxiliary": 0.95,
+    "Battleship": 0.95,
+    "Cruiser": 0.95,
+    "Destroyer": 0.95,
+    "Submarine": 0.95
+   },
    "visibilityForSubmarineCoeff": 0.95
   },
   "name": "PCM056_Special_Mod_I_Z_52",
@@ -726,8 +734,14 @@
    "GMShotDelay": 1.15,
    "GTShotDelay": 1.05,
    "shootShift": 1.05,
-   "visibilityFactor": 0.85,
-   "visibilityFactorByPlane": 0.85,
+   "visibilityDistCoeff": {
+    "AirCarrier": 0.85,
+    "Auxiliary": 0.85,
+    "Battleship": 0.85,
+    "Cruiser": 0.85,
+    "Destroyer": 0.85,
+    "Submarine": 0.85
+   },
    "visibilityForSubmarineCoeff": 0.85
   },
   "name": "PCM058_Special_Mod_I_Gearing",
@@ -973,7 +987,9 @@
    "PGSB208_Zieten",
    "PGSB209_Prinz_Rupprecht",
    "PGSB210_Schlieffen",
-   "PBSB610_Incomparable"
+   "PBSB610_Incomparable",
+   "PBSC610_Gibraltar",
+   "PASC519_Tulsa"
   ],
   "shiptype": [],
   "slot": 1,
@@ -1103,7 +1119,8 @@
    "PXSD004_FlyFire",
    "PXSD005_Blue_Aster",
    "PBSA508_Indomitable",
-   "PGSA510_Werner_Voss"
+   "PGSA510_Werner_Voss",
+   "PFSA506_Bearn"
   ],
   "group": [
    "upgradeable",
@@ -1414,8 +1431,14 @@
   "modifiers": {
    "planeVisibilityFactor": 0.9,
    "shootShift": 1.05,
-   "visibilityFactor": 0.9,
-   "visibilityFactorByPlane": 0.9,
+   "visibilityDistCoeff": {
+    "AirCarrier": 0.9,
+    "Auxiliary": 0.9,
+    "Battleship": 0.9,
+    "Cruiser": 0.9,
+    "Destroyer": 0.9,
+    "Submarine": 0.9
+   },
    "visibilityForSubmarineCoeff": 0.9
   },
   "name": "PCM027_ConcealmentMeasures_Mod_I",
@@ -1453,6 +1476,50 @@
   "slot": 4,
   "tags": [],
   "type": 0,
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Modernization"
+  }
+ },
+ {
+  "costCR": 5000000,
+  "costGold": -1,
+  "excludes": [],
+  "group": [],
+  "id": 4211265456,
+  "index": "PCM079",
+  "modifiers": {
+   "SGRudderTime": 0.7,
+   "engineBackwardForsageMaxSpeed": 2.0,
+   "engineBackwardForsagePower": 1.15,
+   "engineBackwardUpTime": 0.5,
+   "engineForwardForsageMaxSpeed": 3.75,
+   "engineForwardForsagePower": 1.1,
+   "engineForwardUpTime": 0.5,
+   "planeForsageDrainRate": 0.8,
+   "visibilityDistCoeff": {
+    "AirCarrier": 0.85,
+    "Auxiliary": 0.85,
+    "Battleship": 0.85,
+    "Cruiser": 0.85,
+    "Destroyer": 0.85,
+    "Submarine": 0.85
+   },
+   "visibilityForSubmarineCoeff": 0.85
+  },
+  "name": "PCM079_Special_Mod_I_Audacious",
+  "nation": [],
+  "shiplevel": [],
+  "ships": [
+   "PBSA210_Audacious"
+  ],
+  "shiptype": [],
+  "slot": 5,
+  "tags": [
+   "unique"
+  ],
+  "type": 3,
   "typeinfo": {
    "nation": "Common",
    "species": null,
@@ -1760,7 +1827,8 @@
   ],
   "ships": [
    "PGSA510_Werner_Voss",
-   "PGSA610_Max_Immelmann"
+   "PGSA610_Max_Immelmann",
+   "PFSA506_Bearn"
   ],
   "shiptype": [
    "AirCarrier"
@@ -1953,7 +2021,8 @@
    "PBSC518_Tiger_1959",
    "PASB538_Constellation",
    "PASC528_Congress",
-   "PWSD710_Ragnar"
+   "PWSD710_Ragnar",
+   "PASC519_Tulsa"
   ],
   "shiptype": [],
   "slot": 1,
@@ -2177,8 +2246,14 @@
    "GMMaxDist": 1.08,
    "GMShotDelay": 0.88,
    "SGRudderTime": 1.0,
-   "visibilityFactor": 1.1,
-   "visibilityFactorByPlane": 1.1,
+   "visibilityDistCoeff": {
+    "AirCarrier": 1.1,
+    "Auxiliary": 1.1,
+    "Battleship": 1.1,
+    "Cruiser": 1.1,
+    "Destroyer": 1.1,
+    "Submarine": 1.1
+   },
    "visibilityForSubmarineCoeff": 1.1
   },
   "name": "PCM050_Special_Mod_I_Henri_IV",
@@ -2445,7 +2520,10 @@
    "PASC006_Atlanta_1942",
    "PASC587_Black_Atlanta",
    "PASC707_Flint",
-   "PASC810_Austin"
+   "PASC810_Austin",
+   "PHSC508_De_Zeven_Provincien",
+   "PBSC528_Belfast_1943",
+   "PZSC506_Huang_he"
   ],
   "shiptype": [
    "Destroyer"
@@ -2683,7 +2761,9 @@
    "PUSC516_Mysore",
    "PUSD510_Vampire_2",
    "PBSC518_Tiger_1959",
-   "PBSD510_Druid"
+   "PBSD510_Druid",
+   "PBSC610_Gibraltar",
+   "PASB910_Connecticut"
   ],
   "group": [
    "upgradeable",
@@ -2786,133 +2866,6 @@
    "unique"
   ],
   "type": 3,
-  "typeinfo": {
-   "nation": "Common",
-   "species": null,
-   "type": "Modernization"
-  }
- },
- {
-  "costCR": 1250000,
-  "costGold": -1,
-  "excludes": [
-   "PXSA005_Hellcarrier",
-   "PXSB006_Paris",
-   "PXSB007_Alldestroyer",
-   "PXSC004_Galaxy",
-   "PXSC005_Zaya",
-   "PXSC006_Norma",
-   "PXSC007_Aurora",
-   "PXSD004_FlyFire",
-   "PXSD005_Blue_Aster",
-   "PXSD002_Benson_1945_H2017",
-   "PXSD009_Kiev_H2018",
-   "PXSD008_Z_23_H2018",
-   "PXSC009_Mogami_H2018",
-   "PXSC002_Charles_Martel_H2017",
-   "PXSB008_North_Carolina_H2018",
-   "PXSB005_Bismarck_H2017",
-   "PXSB002_Rasputin",
-   "PBSD103_Valkyrie",
-   "PBSD104_Wakeful",
-   "PBSD105_Acasta",
-   "PBSD106_Icarus",
-   "PBSD107_Jervis",
-   "PBSD108_Lightning",
-   "PBSD109_Jutland",
-   "PBSD110_Daring",
-   "PWSD510_Friesland",
-   "PZSD208_Siliwangi_1959",
-   "PGSD518_Z_35",
-   "PGSD207_Z_31",
-   "PGSD208_Gustav_Julius_Maerker",
-   "PGSD209_Felix_Schultz",
-   "PGSD210_Elbing",
-   "PBSD510_Druid",
-   "PHSD509_Groningen"
-  ],
-  "group": [
-   "upgradeable",
-   "peculiar",
-   "disabled",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "event",
-   "specialUnsellable",
-   "demoWithoutStats",
-   "clan",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate"
-  ],
-  "id": 4256354224,
-  "index": "PCM036",
-  "modifiers": {
-   "speedBoostersWorkTimeCoeff": 1.3
-  },
-  "name": "PCM036_SpeedBooster_Mod_I",
-  "nation": [
-   "France",
-   "USA",
-   "Russia",
-   "Japan",
-   "United_Kingdom",
-   "Germany",
-   "Italy",
-   "Europe",
-   "Netherlands",
-   "Spain",
-   "Pan_Asia",
-   "Pan_America",
-   "Commonwealth"
-  ],
-  "shiplevel": [
-   3,
-   4,
-   5,
-   6,
-   7,
-   8,
-   9,
-   10
-  ],
-  "ships": [
-   "PFSB108_Richelieu",
-   "PFSB109_Alsace",
-   "PFSB110_France",
-   "PFSB508_Gascogne",
-   "PFSB510_Bourgogne",
-   "PFSB518_Jean_Bart",
-   "PFSB599_Black_Jean_Bart",
-   "PFSC106_La_Galissonniere",
-   "PFSC107_Algerie",
-   "PFSC108_Charles_Martel",
-   "PFSC109_Saint_Louis",
-   "PFSC110_Henri_IV",
-   "PFSC506_De_Grasse",
-   "PFSC508_Bayard",
-   "PFSC510_Colbert",
-   "PFSC810_Henri_IV",
-   "PJSC610_Kitakami",
-   "PJSC505_Yahagi",
-   "PASB729_Georgia",
-   "PFSB528_Champagne",
-   "PZSB519_Alsace_Wujing",
-   "PGSC517_Weimar",
-   "PHSC508_De_Zeven_Provincien",
-   "PBSB526_Repulse",
-   "PFSC509_Carnot",
-   "PBSB610_Incomparable"
-  ],
-  "shiptype": [
-   "Destroyer"
-  ],
-  "slot": 1,
-  "tags": [
-   "special"
-  ],
-  "type": 1,
   "typeinfo": {
    "nation": "Common",
    "species": null,
@@ -3121,7 +3074,8 @@
   "costGold": -1,
   "excludes": [
    "PBSA508_Indomitable",
-   "PGSA510_Werner_Voss"
+   "PGSA510_Werner_Voss",
+   "PFSA506_Bearn"
   ],
   "group": [
    "upgradeable",
@@ -3232,7 +3186,8 @@
    "PXSD004_FlyFire",
    "PXSD005_Blue_Aster",
    "PGSA610_Max_Immelmann",
-   "PRSA508_Chkalov"
+   "PRSA508_Chkalov",
+   "PFSA506_Bearn"
   ],
   "group": [
    "upgradeable",
@@ -3632,7 +3587,8 @@
    "PHSC108_Haarlem",
    "PASC538_Rochester",
    "PFSC509_Carnot",
-   "PHSD509_Groningen"
+   "PHSD509_Groningen",
+   "PASC519_Tulsa"
   ],
   "shiptype": [],
   "slot": 1,
@@ -4078,36 +4034,6 @@
   }
  },
  {
-  "costCR": 5000000,
-  "costGold": -1,
-  "excludes": [],
-  "group": [],
-  "id": 4234334128,
-  "index": "PCM057",
-  "modifiers": {
-   "GTCritProb": 1.5,
-   "GTRotationSpeed": 0.3,
-   "GTShotDelay": 0.75
-  },
-  "name": "PCM057_Special_Mod_I_Shimakaze",
-  "nation": [],
-  "shiplevel": [],
-  "ships": [
-   "PJSD012_Shimakaze_1943"
-  ],
-  "shiptype": [],
-  "slot": 5,
-  "tags": [
-   "unique"
-  ],
-  "type": 3,
-  "typeinfo": {
-   "nation": "Common",
-   "species": null,
-   "type": "Modernization"
-  }
- },
- {
   "costCR": 3000000,
   "costGold": -1,
   "excludes": [
@@ -4157,7 +4083,9 @@
    "PHSC109_Johan_de_Witt",
    "PWSD710_Ragnar",
    "PFSC509_Carnot",
-   "PHSD509_Groningen"
+   "PHSD509_Groningen",
+   "PBSC610_Gibraltar",
+   "PASC519_Tulsa"
   ],
   "group": [
    "upgradeable",
@@ -4206,7 +4134,8 @@
   "ships": [
    "PGSB509_Pommern",
    "PGSB209_Prinz_Rupprecht",
-   "PGSB210_Schlieffen"
+   "PGSB210_Schlieffen",
+   "PBSB610_Incomparable"
   ],
   "shiptype": [
    "Cruiser",
@@ -4216,6 +4145,169 @@
   "slot": 5,
   "tags": [],
   "type": 0,
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Modernization"
+  }
+ },
+ {
+  "costCR": 5000000,
+  "costGold": -1,
+  "excludes": [],
+  "group": [],
+  "id": 4234334128,
+  "index": "PCM057",
+  "modifiers": {
+   "GTCritProb": 1.5,
+   "GTRotationSpeed": 0.3,
+   "GTShotDelay": 0.75
+  },
+  "name": "PCM057_Special_Mod_I_Shimakaze",
+  "nation": [],
+  "shiplevel": [],
+  "ships": [
+   "PJSD012_Shimakaze_1943"
+  ],
+  "shiptype": [],
+  "slot": 5,
+  "tags": [
+   "unique"
+  ],
+  "type": 3,
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Modernization"
+  }
+ },
+ {
+  "costCR": 1250000,
+  "costGold": -1,
+  "excludes": [
+   "PXSA005_Hellcarrier",
+   "PXSB006_Paris",
+   "PXSB007_Alldestroyer",
+   "PXSC004_Galaxy",
+   "PXSC005_Zaya",
+   "PXSC006_Norma",
+   "PXSC007_Aurora",
+   "PXSD004_FlyFire",
+   "PXSD005_Blue_Aster",
+   "PXSD002_Benson_1945_H2017",
+   "PXSD009_Kiev_H2018",
+   "PXSD008_Z_23_H2018",
+   "PXSC009_Mogami_H2018",
+   "PXSC002_Charles_Martel_H2017",
+   "PXSB008_North_Carolina_H2018",
+   "PXSB005_Bismarck_H2017",
+   "PXSB002_Rasputin",
+   "PXSD008_Z_23_H2018",
+   "PXSD009_Kiev_H2018",
+   "PWSD105_Visby",
+   "PWSD106_Vasteras",
+   "PWSD107_Skane",
+   "PWSD108_Oland",
+   "PWSD109_Ostergotland",
+   "PWSD110_Halland",
+   "PWSD610_Smaland",
+   "PWSD910_Lappland",
+   "PFSD105_Jaguar",
+   "PFSD106_Guepard",
+   "PFSD107_Vauquelin",
+   "PFSD108_Le_Fantasque",
+   "PFSD109_Mogador",
+   "PFSD110_Kleber",
+   "PFSD210_Marceau",
+   "PFSD504_Siroco",
+   "PFSD508_Le_Terrible",
+   "PFSD808_TST_TERRIBLE",
+   "PBSD605_Anthony_Event",
+   "PISD509_Paolo_Emilio",
+   "PWSD508_Orkan",
+   "PISB108_Vittorio_Veneto",
+   "PISB110_Cristoforo_Colombo",
+   "PWSD710_Ragnar",
+   "PGSD516_Karl_von_Schonberg"
+  ],
+  "group": [
+   "upgradeable",
+   "peculiar",
+   "disabled",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "event",
+   "specialUnsellable",
+   "demoWithoutStats",
+   "clan",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate"
+  ],
+  "id": 4255305648,
+  "index": "PCM037",
+  "modifiers": {
+   "smokeGeneratorLifeTime": 0.95,
+   "smokeGeneratorWorkTimeCoeff": 1.3
+  },
+  "name": "PCM037_SmokeGenerator_Mod_I",
+  "nation": [
+   "France",
+   "USA",
+   "Russia",
+   "Japan",
+   "United_Kingdom",
+   "Germany",
+   "Italy",
+   "Europe",
+   "Netherlands",
+   "Spain",
+   "Pan_Asia",
+   "Pan_America",
+   "Commonwealth"
+  ],
+  "shiplevel": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "ships": [
+   "PUSC506_Perth_1942",
+   "PJSC610_Kitakami",
+   "PZSC506_Huang_he",
+   "PRSC508_Kutuzov_1952",
+   "PRSC610_Smolensk",
+   "PBSC105_Emerald",
+   "PBSC106_Leander",
+   "PBSC107_Fiji",
+   "PBSC108_Edinburgh",
+   "PBSC109_Neptune",
+   "PBSC110_Minotaur",
+   "PBSC507_Belfast_1959",
+   "PBSC516_London",
+   "PASC707_Flint",
+   "PJSC026_Iwaki_1944",
+   "PASC518_Anchorage",
+   "PBSC528_Belfast_1943",
+   "PUSC516_Mysore",
+   "PGSD519_Z_44",
+   "PBSC510_Plymouth",
+   "PBSC518_Tiger_1959",
+   "PASC538_Rochester",
+   "PBSC610_Gibraltar"
+  ],
+  "shiptype": [
+   "Destroyer"
+  ],
+  "slot": 2,
+  "tags": [
+   "special"
+  ],
+  "type": 1,
   "typeinfo": {
    "nation": "Common",
    "species": null,
@@ -4364,7 +4456,7 @@
   "shiplevel": [],
   "ships": [],
   "shiptype": [],
-  "slot": 3,
+  "slot": -1,
   "tags": [],
   "type": 0,
   "typeinfo": {
@@ -4467,138 +4559,6 @@
   "slot": 3,
   "tags": [],
   "type": 0,
-  "typeinfo": {
-   "nation": "Common",
-   "species": null,
-   "type": "Modernization"
-  }
- },
- {
-  "costCR": 1250000,
-  "costGold": -1,
-  "excludes": [
-   "PXSA005_Hellcarrier",
-   "PXSB006_Paris",
-   "PXSB007_Alldestroyer",
-   "PXSC004_Galaxy",
-   "PXSC005_Zaya",
-   "PXSC006_Norma",
-   "PXSC007_Aurora",
-   "PXSD004_FlyFire",
-   "PXSD005_Blue_Aster",
-   "PXSD002_Benson_1945_H2017",
-   "PXSD009_Kiev_H2018",
-   "PXSD008_Z_23_H2018",
-   "PXSC009_Mogami_H2018",
-   "PXSC002_Charles_Martel_H2017",
-   "PXSB008_North_Carolina_H2018",
-   "PXSB005_Bismarck_H2017",
-   "PXSB002_Rasputin",
-   "PXSD008_Z_23_H2018",
-   "PXSD009_Kiev_H2018",
-   "PWSD105_Visby",
-   "PWSD106_Vasteras",
-   "PWSD107_Skane",
-   "PWSD108_Oland",
-   "PWSD109_Ostergotland",
-   "PWSD110_Halland",
-   "PWSD610_Smaland",
-   "PWSD910_Lappland",
-   "PFSD105_Jaguar",
-   "PFSD106_Guepard",
-   "PFSD107_Vauquelin",
-   "PFSD108_Le_Fantasque",
-   "PFSD109_Mogador",
-   "PFSD110_Kleber",
-   "PFSD210_Marceau",
-   "PFSD504_Siroco",
-   "PFSD508_Le_Terrible",
-   "PFSD808_TST_TERRIBLE",
-   "PBSD605_Anthony_Event",
-   "PISD509_Paolo_Emilio",
-   "PWSD508_Orkan",
-   "PISB108_Vittorio_Veneto",
-   "PISB110_Cristoforo_Colombo",
-   "PWSD710_Ragnar",
-   "PGSD516_Karl_von_Schonberg"
-  ],
-  "group": [
-   "upgradeable",
-   "peculiar",
-   "disabled",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "event",
-   "specialUnsellable",
-   "demoWithoutStats",
-   "clan",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate"
-  ],
-  "id": 4255305648,
-  "index": "PCM037",
-  "modifiers": {
-   "smokeGeneratorLifeTime": 0.95,
-   "smokeGeneratorWorkTimeCoeff": 1.3
-  },
-  "name": "PCM037_SmokeGenerator_Mod_I",
-  "nation": [
-   "France",
-   "USA",
-   "Russia",
-   "Japan",
-   "United_Kingdom",
-   "Germany",
-   "Italy",
-   "Europe",
-   "Netherlands",
-   "Spain",
-   "Pan_Asia",
-   "Pan_America",
-   "Commonwealth"
-  ],
-  "shiplevel": [
-   5,
-   6,
-   7,
-   8,
-   9,
-   10
-  ],
-  "ships": [
-   "PUSC506_Perth_1942",
-   "PJSC610_Kitakami",
-   "PZSC506_Huang_he",
-   "PRSC508_Kutuzov_1952",
-   "PRSC610_Smolensk",
-   "PBSC105_Emerald",
-   "PBSC106_Leander",
-   "PBSC107_Fiji",
-   "PBSC108_Edinburgh",
-   "PBSC109_Neptune",
-   "PBSC110_Minotaur",
-   "PBSC507_Belfast_1959",
-   "PBSC516_London",
-   "PASC707_Flint",
-   "PJSC026_Iwaki_1944",
-   "PASC518_Anchorage",
-   "PBSC528_Belfast_1943",
-   "PUSC516_Mysore",
-   "PGSD519_Z_44",
-   "PBSC510_Plymouth",
-   "PBSC518_Tiger_1959",
-   "PASC538_Rochester"
-  ],
-  "shiptype": [
-   "Destroyer"
-  ],
-  "slot": 2,
-  "tags": [
-   "special"
-  ],
-  "type": 1,
   "typeinfo": {
    "nation": "Common",
    "species": null,
@@ -4902,7 +4862,8 @@
    "PXSD004_FlyFire",
    "PXSD005_Blue_Aster",
    "PBSA508_Indomitable",
-   "PGSA510_Werner_Voss"
+   "PGSA510_Werner_Voss",
+   "PFSA506_Bearn"
   ],
   "group": [
    "upgradeable",
@@ -5070,7 +5031,8 @@
    "PXSD004_FlyFire",
    "PXSD005_Blue_Aster",
    "PGSA610_Max_Immelmann",
-   "PRSA508_Chkalov"
+   "PRSA508_Chkalov",
+   "PFSA506_Bearn"
   ],
   "group": [
    "upgradeable",
@@ -5193,6 +5155,133 @@
   }
  },
  {
+  "costCR": 1250000,
+  "costGold": -1,
+  "excludes": [
+   "PXSA005_Hellcarrier",
+   "PXSB006_Paris",
+   "PXSB007_Alldestroyer",
+   "PXSC004_Galaxy",
+   "PXSC005_Zaya",
+   "PXSC006_Norma",
+   "PXSC007_Aurora",
+   "PXSD004_FlyFire",
+   "PXSD005_Blue_Aster",
+   "PXSD002_Benson_1945_H2017",
+   "PXSD009_Kiev_H2018",
+   "PXSD008_Z_23_H2018",
+   "PXSC009_Mogami_H2018",
+   "PXSC002_Charles_Martel_H2017",
+   "PXSB008_North_Carolina_H2018",
+   "PXSB005_Bismarck_H2017",
+   "PXSB002_Rasputin",
+   "PBSD103_Valkyrie",
+   "PBSD104_Wakeful",
+   "PBSD105_Acasta",
+   "PBSD106_Icarus",
+   "PBSD107_Jervis",
+   "PBSD108_Lightning",
+   "PBSD109_Jutland",
+   "PBSD110_Daring",
+   "PWSD510_Friesland",
+   "PZSD208_Siliwangi_1959",
+   "PGSD518_Z_35",
+   "PGSD207_Z_31",
+   "PGSD208_Gustav_Julius_Maerker",
+   "PGSD209_Felix_Schultz",
+   "PGSD210_Elbing",
+   "PBSD510_Druid",
+   "PHSD509_Groningen"
+  ],
+  "group": [
+   "upgradeable",
+   "peculiar",
+   "disabled",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "event",
+   "specialUnsellable",
+   "demoWithoutStats",
+   "clan",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate"
+  ],
+  "id": 4256354224,
+  "index": "PCM036",
+  "modifiers": {
+   "speedBoostersWorkTimeCoeff": 1.3
+  },
+  "name": "PCM036_SpeedBooster_Mod_I",
+  "nation": [
+   "France",
+   "USA",
+   "Russia",
+   "Japan",
+   "United_Kingdom",
+   "Germany",
+   "Italy",
+   "Europe",
+   "Netherlands",
+   "Spain",
+   "Pan_Asia",
+   "Pan_America",
+   "Commonwealth"
+  ],
+  "shiplevel": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "ships": [
+   "PFSB108_Richelieu",
+   "PFSB109_Alsace",
+   "PFSB110_France",
+   "PFSB508_Gascogne",
+   "PFSB510_Bourgogne",
+   "PFSB518_Jean_Bart",
+   "PFSB599_Black_Jean_Bart",
+   "PFSC106_La_Galissonniere",
+   "PFSC107_Algerie",
+   "PFSC108_Charles_Martel",
+   "PFSC109_Saint_Louis",
+   "PFSC110_Henri_IV",
+   "PFSC506_De_Grasse",
+   "PFSC508_Bayard",
+   "PFSC510_Colbert",
+   "PFSC810_Henri_IV",
+   "PJSC610_Kitakami",
+   "PJSC505_Yahagi",
+   "PASB729_Georgia",
+   "PFSB528_Champagne",
+   "PZSB519_Alsace_Wujing",
+   "PGSC517_Weimar",
+   "PHSC508_De_Zeven_Provincien",
+   "PBSB526_Repulse",
+   "PFSC509_Carnot",
+   "PBSB610_Incomparable"
+  ],
+  "shiptype": [
+   "Destroyer"
+  ],
+  "slot": 1,
+  "tags": [
+   "special"
+  ],
+  "type": 1,
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Modernization"
+  }
+ },
+ {
   "costCR": 5000000,
   "costGold": -1,
   "excludes": [],
@@ -5216,44 +5305,6 @@
   "shiplevel": [],
   "ships": [
    "PRSD210_Grozovoy_pr_40N"
-  ],
-  "shiptype": [],
-  "slot": 5,
-  "tags": [
-   "unique"
-  ],
-  "type": 3,
-  "typeinfo": {
-   "nation": "Common",
-   "species": null,
-   "type": "Modernization"
-  }
- },
- {
-  "costCR": 5000000,
-  "costGold": -1,
-  "excludes": [],
-  "group": [],
-  "id": 4211265456,
-  "index": "PCM079",
-  "modifiers": {
-   "SGRudderTime": 0.7,
-   "engineBackwardForsageMaxSpeed": 2.0,
-   "engineBackwardForsagePower": 1.15,
-   "engineBackwardUpTime": 0.5,
-   "engineForwardForsageMaxSpeed": 3.75,
-   "engineForwardForsagePower": 1.1,
-   "engineForwardUpTime": 0.5,
-   "planeForsageDrainRate": 0.8,
-   "visibilityFactor": 0.85,
-   "visibilityFactorByPlane": 0.85,
-   "visibilityForSubmarineCoeff": 0.85
-  },
-  "name": "PCM079_Special_Mod_I_Audacious",
-  "nation": [],
-  "shiplevel": [],
-  "ships": [
-   "PBSA210_Audacious"
   ],
   "shiptype": [],
   "slot": 5,
@@ -5559,7 +5610,9 @@
    "PWSD710_Ragnar",
    "PASC538_Rochester",
    "PFSC509_Carnot",
-   "PHSD509_Groningen"
+   "PHSD509_Groningen",
+   "PBSC610_Gibraltar",
+   "PASC519_Tulsa"
   ],
   "group": [
    "upgradeable",
@@ -5626,7 +5679,8 @@
    "PGSB207_Prinz_Heinrich",
    "PGSB208_Zieten",
    "PGSB209_Prinz_Rupprecht",
-   "PGSB210_Schlieffen"
+   "PGSB210_Schlieffen",
+   "PBSB610_Incomparable"
   ],
   "shiptype": [
    "Cruiser",
@@ -5928,8 +5982,14 @@
   "index": "PCM076",
   "modifiers": {
    "GMShotDelay": 1.8,
-   "visibilityFactor": 0.8,
-   "visibilityFactorByPlane": 0.8,
+   "visibilityDistCoeff": {
+    "AirCarrier": 0.8,
+    "Auxiliary": 0.8,
+    "Battleship": 0.8,
+    "Cruiser": 0.8,
+    "Destroyer": 0.8,
+    "Submarine": 0.8
+   },
    "visibilityForSubmarineCoeff": 0.8
   },
   "name": "PCM076_Special_Mod_I_Kleber",
@@ -6133,8 +6193,14 @@
    },
    "smokeGeneratorLifeTime": 0.85,
    "smokeGeneratorWorkTimeCoeff": 2.5,
-   "visibilityFactor": 0.95,
-   "visibilityFactorByPlane": 0.95,
+   "visibilityDistCoeff": {
+    "AirCarrier": 0.95,
+    "Auxiliary": 0.95,
+    "Battleship": 0.95,
+    "Cruiser": 0.95,
+    "Destroyer": 0.95,
+    "Submarine": 0.95
+   },
    "visibilityForSubmarineCoeff": 0.95
   },
   "name": "PCM051_Special_Mod_I_Minotaur",

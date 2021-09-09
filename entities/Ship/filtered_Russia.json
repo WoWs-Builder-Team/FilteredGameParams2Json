@@ -8866,7 +8866,7 @@
   "ModulesArmaments": {
    "A1_Artillery": {
     "AuraFar1": {
-     "areaDamage": 31.0,
+     "areaDamage": 32.0,
      "areaDamagePeriod": 0.285714285714,
      "bubbleDamage": 0.0,
      "hitChance": 1.0,
@@ -9098,7 +9098,7 @@
    },
    "A_AirDefense": {
     "AuraMedium": {
-     "areaDamage": 33.0,
+     "areaDamage": 25.0,
      "areaDamagePeriod": 0.285714285714,
      "bubbleDamage": 0.0,
      "hitChance": 1.0,
@@ -9108,16 +9108,132 @@
      "type": "medium"
     },
     "AuraNear": {
-     "areaDamage": 11.0,
+     "areaDamage": 20.0,
      "areaDamagePeriod": 0.285714285714,
      "bubbleDamage": 0.0,
      "hitChance": 0.95,
      "innerBubbleCount": 0,
-     "maxDistance": 3100.0,
+     "maxDistance": 1500.0,
      "minDistance": 100.0,
      "type": "near"
     },
     "isAA": true
+   },
+   "A_DepthChargeGuns": {
+    "depthCharges": {
+     "HP_RGB_1": {
+      "ammoList": [
+       "PRPD001_BM_1"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4136592848,
+      "index": "PRGB151",
+      "name": "PRGB151_BM1_dumper",
+      "numBombs": 2,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_RGB_2": {
+      "ammoList": [
+       "PRPD001_BM_1"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4136592848,
+      "index": "PRGB151",
+      "name": "PRGB151_BM1_dumper",
+      "numBombs": 2,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_RGB_3": {
+      "ammoList": [
+       "PRPD007_BM_1_rpd004"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4135544272,
+      "index": "PRGB152",
+      "name": "PRGB152_Depth_Charge_Thrower_BMB1",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_RGB_4": {
+      "ammoList": [
+       "PRPD007_BM_1_rpd004"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4135544272,
+      "index": "PRGB152",
+      "name": "PRGB152_Depth_Charge_Thrower_BMB1",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_RGB_5": {
+      "ammoList": [
+       "PRPD002_BB_1_m"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4132398544,
+      "index": "PRGB155",
+      "name": "PRGB155_Depth_Charge_Shelving_BB",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxPacks": 2,
+    "reloadTime": 40.0
    },
    "A_Hull": {
     "health": 21800.0,
@@ -9204,7 +9320,9 @@
       "A1_Artillery"
      ],
      "atba": [],
-     "depthCharges": [],
+     "depthCharges": [
+      "A_DepthChargeGuns"
+     ],
      "directors": [
       "A_Directors"
      ],
@@ -12156,7 +12274,9 @@
      "torpedoes": []
     },
     "disabledAbilities": [],
-    "nextShips": [],
+    "nextShips": [
+     "PRSA106_Serov"
+    ],
     "prev": "PRUH305_CV4_HULL_STOCK",
     "ucType": "_Hull"
    },
@@ -18185,7 +18305,9 @@
      "torpedoes": []
     },
     "disabledAbilities": [],
-    "nextShips": [],
+    "nextShips": [
+     "PRSA110_Admiral_Nakhimov"
+    ],
     "prev": "PRUH724_CV8_HULL_STOCK",
     "ucType": "_Hull"
    },
@@ -22265,7 +22387,9 @@
      "torpedoes": []
     },
     "disabledAbilities": [],
-    "nextShips": [],
+    "nextShips": [
+     "PRSA108_Pobeda"
+    ],
     "prev": "PRUH507_CV6_HULL_A",
     "ucType": "_Hull"
    },
@@ -35207,7 +35331,9 @@
       "B_Torpedoes"
      ]
     },
-    "nextShips": [],
+    "nextShips": [
+     "PRSA104_Komsomolets"
+    ],
     "prev": "PRUT301_D4_TORP_STOCK",
     "ucType": "_Torpedoes"
    },
@@ -41758,7 +41884,7 @@
       }
      }
     },
-    "maxPacks": 1,
+    "maxPacks": 2,
     "reloadTime": 40.0
    },
    "A_AirDefense": {
@@ -44712,6 +44838,56 @@
     "normalDistribution": true,
     "sigmaCount": 2.0
    },
+   "A_DepthChargeGuns": {
+    "depthCharges": {
+     "HP_RGB_1": {
+      "ammoList": [
+       "PRPD011_BB_1_rpd007"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4140787152,
+      "index": "PRGB147",
+      "name": "PRGB147_Depth_Charge_Thrower_BMB2",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_RGB_2": {
+      "ammoList": [
+       "PRPD011_BB_1_rpd007"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4140787152,
+      "index": "PRGB147",
+      "name": "PRGB147_Depth_Charge_Thrower_BMB2",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxPacks": 2,
+    "reloadTime": 40.0
+   },
    "A_Engine": {
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
@@ -44882,7 +45058,9 @@
      "atba": [
       "A_ATBA"
      ],
-     "depthCharges": [],
+     "depthCharges": [
+      "A_DepthChargeGuns"
+     ],
      "directors": [
       "A_Directors"
      ],

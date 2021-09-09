@@ -68,6 +68,74 @@
   }
  },
  {
+  "HitLocationAirDefense": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "airdefense_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 600.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.8,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitBPDamageToParentFactor": 1.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "antiAirAuraDistance": 117.0,
+  "antiAirAuraStrength": 0.113,
+  "barrelDiameter": 0.04,
+  "deadMesh": "content/gameplay/panasia/gun/aaircraft/ZGA009_40mm_Bofors_Mk1/ZGA009_40mm_Bofors_Mk1_dead.model",
+  "id": 4285523152,
+  "index": "PZGA009",
+  "model": "content/gameplay/panasia/gun/aaircraft/ZGA009_40mm_Bofors_Mk1/ZGA009_40mm_Bofors_Mk1.model",
+  "name": "PZGA009_40mm_Bofors_Mk1",
+  "numBarrels": 2,
+  "shotDelay": 5.0,
+  "shotEffect": "particles/guns/AA_shot.xml",
+  "smallGun": null,
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "AAircraft",
+   "type": "Gun"
+  }
+ },
+ {
   "HitLocationATBA": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 0.2,
@@ -782,6 +850,111 @@
    90.0
   ],
   "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+ },
+ {
+  "HitLocationATBA": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 0.6,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "atba_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 1200.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.75,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitBPDamageToParentFactor": 1.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "aiATBAmultiplier": 3,
+  "ammoList": [
+   "PJPA095_Shell_155mm_HE_SG_Type_0"
+  ],
+  "antiAirAuraDistance": 0.0,
+  "antiAirAuraStrength": 0.0,
+  "armor": {
+   "65580": 25.0
+  },
+  "barrelDiameter": 0.155,
+  "clusterID": 0,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_small.xml",
+  "deadMesh": "content/gameplay/panasia/gun/secondary/ZGS524_155mm_60_Type3/ZGS524_155mm_60_Type3_dead.model",
+  "deadZone": [],
+  "delim": 0.6,
+  "effectIntensityModifier": 1.0,
+  "horizSector": [
+   0.0,
+   0.0
+  ],
+  "id": 3744916688,
+  "idealDistance": 333.333,
+  "idealRadius": 20,
+  "index": "PZGS524",
+  "lensEffect": "",
+  "minRadius": 1.0,
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/panasia/gun/secondary/ZGS524_155mm_60_Type3/ZGS524_155mm_60_Type3.model",
+  "name": "PZGS524_155mm_60_Type3",
+  "numBarrels": 3.0,
+  "pitchDeadZones": [],
+  "purgingEffect": "particles/guns/PMK_Purging_140to220.xml",
+  "radiusOnDelim": 0.8,
+  "radiusOnMax": 1.0,
+  "radiusOnZero": 0.1,
+  "rotationSpeed": [
+   60.0,
+   1.0
+  ],
+  "shotDelay": 12.0,
+  "shotEffect": "particles/guns/PMK_Shot_140to220.xml",
+  "smallGun": true,
+  "smokePenalty": 0.0001,
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "Secondary",
+   "type": "Gun"
+  },
+  "vertSector": [
+   -2.0,
+   55.0
+  ]
  },
  {
   "HitLocationArtillery": {
@@ -3737,111 +3910,6 @@
   "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
  },
  {
-  "HitLocationATBA": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 0.6,
-   "autoRepairTime": 10,
-   "autoRepairTimeMin": 5,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.0,
-    0.0
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "atba_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 1200.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.75,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
-  "aiATBAmultiplier": 3,
-  "ammoList": [
-   "PJPA095_Shell_155mm_HE_SG_Type_0"
-  ],
-  "antiAirAuraDistance": 0.0,
-  "antiAirAuraStrength": 0.0,
-  "armor": {
-   "65580": 25.0
-  },
-  "barrelDiameter": 0.155,
-  "clusterID": 0,
-  "customMiscs": {},
-  "damagedEffect": "particles/guns/Gun_Broken_small.xml",
-  "deadMesh": "content/gameplay/panasia/gun/secondary/ZGS524_155mm_60_Type3/ZGS524_155mm_60_Type3_dead.model",
-  "deadZone": [],
-  "delim": 0.6,
-  "effectIntensityModifier": 1.0,
-  "horizSector": [
-   0.0,
-   0.0
-  ],
-  "id": 3744916688,
-  "idealDistance": 333.333,
-  "idealRadius": 20,
-  "index": "PZGS524",
-  "lensEffect": "",
-  "minRadius": 1.0,
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/panasia/gun/secondary/ZGS524_155mm_60_Type3/ZGS524_155mm_60_Type3.model",
-  "name": "PZGS524_155mm_60_Type3",
-  "numBarrels": 3.0,
-  "pitchDeadZones": [],
-  "purgingEffect": "particles/guns/PMK_Purging_140to220.xml",
-  "radiusOnDelim": 0.8,
-  "radiusOnMax": 1.0,
-  "radiusOnZero": 0.1,
-  "rotationSpeed": [
-   60.0,
-   1.0
-  ],
-  "shotDelay": 12.0,
-  "shotEffect": "particles/guns/PMK_Shot_140to220.xml",
-  "smallGun": true,
-  "smokePenalty": 0.0001,
-  "typeinfo": {
-   "nation": "Pan_Asia",
-   "species": "Secondary",
-   "type": "Gun"
-  },
-  "vertSector": [
-   -2.0,
-   55.0
-  ]
- },
- {
   "HitLocationArtillery": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 0.75,
@@ -4088,74 +4156,6 @@
    0.0,
    90.0
   ]
- },
- {
-  "HitLocationAirDefense": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 1.0,
-   "autoRepairTime": 10,
-   "autoRepairTimeMin": 5,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.0,
-    0.0
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "airdefense_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 600.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.8,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
-  "antiAirAuraDistance": 117.0,
-  "antiAirAuraStrength": 0.113,
-  "barrelDiameter": 0.04,
-  "deadMesh": "content/gameplay/panasia/gun/aaircraft/ZGA009_40mm_Bofors_Mk1/ZGA009_40mm_Bofors_Mk1_dead.model",
-  "id": 4285523152,
-  "index": "PZGA009",
-  "model": "content/gameplay/panasia/gun/aaircraft/ZGA009_40mm_Bofors_Mk1/ZGA009_40mm_Bofors_Mk1.model",
-  "name": "PZGA009_40mm_Bofors_Mk1",
-  "numBarrels": 2,
-  "shotDelay": 5.0,
-  "shotEffect": "particles/guns/AA_shot.xml",
-  "smallGun": null,
-  "typeinfo": {
-   "nation": "Pan_Asia",
-   "species": "AAircraft",
-   "type": "Gun"
-  }
  },
  {
   "HitLocationArtillery": {

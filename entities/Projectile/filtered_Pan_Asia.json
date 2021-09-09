@@ -208,7 +208,8 @@
   "ignoreClasses": [
    "Destroyer",
    "Cruiser",
-   "Submarine"
+   "Submarine",
+   "Auxiliary"
   ],
   "index": "PZPT028",
   "maxDist": 400.0,
@@ -905,6 +906,34 @@
  },
  {
   "affectedByPTZ": false,
+  "alphaDamage": 1200.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 18.0,
+  "ammoType": "HE",
+  "applyPTZCoeff": false,
+  "bulletAirDrag": 0.422,
+  "bulletDetonator": 0.001,
+  "bulletDetonatorThreshold": 2.0,
+  "bulletDiametr": 0.105,
+  "bulletKrupp": 3.0,
+  "bulletMass": 18.0,
+  "bulletRicochetAt": 91.0,
+  "bulletSpeed": 715.0,
+  "burnProb": 0.05,
+  "distTile": 3.0,
+  "id": 4278173904,
+  "ignoreClasses": [],
+  "index": "PZPA016",
+  "isBomb": false,
+  "name": "PZPA016_105MM_HE_SPRGR",
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "Artillery",
+   "type": "Projectile"
+  }
+ },
+ {
+  "affectedByPTZ": false,
   "alphaDamage": 2100.0,
   "alphaPiercingCS": 0,
   "alphaPiercingHE": 0.0,
@@ -1218,34 +1247,6 @@
   }
  },
  {
-  "affectedByPTZ": false,
-  "alphaDamage": 2200.0,
-  "alphaPiercingCS": 0,
-  "alphaPiercingHE": 0.0,
-  "ammoType": "AP",
-  "applyPTZCoeff": false,
-  "bulletAirDrag": 0.36,
-  "bulletDetonator": 0.01,
-  "bulletDetonatorThreshold": 21.0,
-  "bulletDiametr": 0.127,
-  "bulletKrupp": 1400.0,
-  "bulletMass": 22.7,
-  "bulletRicochetAt": 45.0,
-  "bulletSpeed": 960.0,
-  "burnProb": -0.5,
-  "distTile": 3.0,
-  "id": 4280271056,
-  "ignoreClasses": [],
-  "index": "PZPA014",
-  "isBomb": false,
-  "name": "PZPA014_127_AP_MK_7",
-  "typeinfo": {
-   "nation": "Pan_Asia",
-   "species": "Artillery",
-   "type": "Projectile"
-  }
- },
- {
   "alertDist": 100,
   "alphaDamage": 1700.0,
   "ammoType": "depthcharge",
@@ -1411,34 +1412,6 @@
   "index": "PZPA024",
   "isBomb": false,
   "name": "PZPA024_152MM_OFU35_IRIAN",
-  "typeinfo": {
-   "nation": "Pan_Asia",
-   "species": "Artillery",
-   "type": "Projectile"
-  }
- },
- {
-  "affectedByPTZ": false,
-  "alphaDamage": 1200.0,
-  "alphaPiercingCS": 0,
-  "alphaPiercingHE": 18.0,
-  "ammoType": "HE",
-  "applyPTZCoeff": false,
-  "bulletAirDrag": 0.422,
-  "bulletDetonator": 0.001,
-  "bulletDetonatorThreshold": 2.0,
-  "bulletDiametr": 0.105,
-  "bulletKrupp": 3.0,
-  "bulletMass": 18.0,
-  "bulletRicochetAt": 91.0,
-  "bulletSpeed": 715.0,
-  "burnProb": 0.05,
-  "distTile": 3.0,
-  "id": 4278173904,
-  "ignoreClasses": [],
-  "index": "PZPA016",
-  "isBomb": false,
-  "name": "PZPA016_105MM_HE_SPRGR",
   "typeinfo": {
    "nation": "Pan_Asia",
    "species": "Artillery",
@@ -1639,6 +1612,34 @@
   },
   "uwCritical": 1.73,
   "visibilityFactor": 0.9
+ },
+ {
+  "affectedByPTZ": false,
+  "alphaDamage": 2200.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "AP",
+  "applyPTZCoeff": false,
+  "bulletAirDrag": 0.36,
+  "bulletDetonator": 0.01,
+  "bulletDetonatorThreshold": 21.0,
+  "bulletDiametr": 0.127,
+  "bulletKrupp": 1400.0,
+  "bulletMass": 22.7,
+  "bulletRicochetAt": 45.0,
+  "bulletSpeed": 960.0,
+  "burnProb": -0.5,
+  "distTile": 3.0,
+  "id": 4280271056,
+  "ignoreClasses": [],
+  "index": "PZPA014",
+  "isBomb": false,
+  "name": "PZPA014_127_AP_MK_7",
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "Artillery",
+   "type": "Projectile"
+  }
  },
  {
   "alertDist": 100,

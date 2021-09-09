@@ -9967,10 +9967,6 @@
       "particles/vehicles/Flood_steam_exhaust_big_H2017.xml"
      ],
      [
-      "HP_FX_Flood_steam_exhaust_2",
-      "particles/vehicles/Flood_steam_exhaust_big.xml"
-     ],
-     [
       "HP_FX_Flood_steam_left",
       "particles/vehicles/Flood_steam_side_big_H2017.xml"
      ],
@@ -10256,10 +10252,6 @@
      [
       "HP_FX_Flood_steam_exhaust_1",
       "particles/vehicles/Flood_steam_exhaust_big_H2017.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_exhaust_2",
-      "particles/vehicles/Flood_steam_exhaust_big.xml"
      ],
      [
       "HP_FX_Flood_steam_left",
@@ -13846,28 +13838,7 @@
       "particles/vehicles/FixLight_small.xml"
      ]
     ],
-    "flood": [
-     [
-      "HP_FX_Flood_steam_1",
-      "particles/vehicles/Flood_steam_big.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_exhaust_1",
-      "particles/vehicles/Flood_steam_exhaust_big_delayed.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_exhaust_2",
-      "particles/vehicles/Flood_steam_exhaust_big.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_left",
-      "particles/vehicles/Flood_steam_side_big.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_right",
-      "particles/vehicles/Flood_steam_side_big.xml"
-     ]
-    ],
+    "flood": [],
     "floodLight": [
      [
       "HP_FX_FloodLight_left_1",
@@ -14042,28 +14013,7 @@
       "particles/vehicles/FixLight_small.xml"
      ]
     ],
-    "flood": [
-     [
-      "HP_FX_Flood_steam_1",
-      "particles/vehicles/Flood_steam_big.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_exhaust_1",
-      "particles/vehicles/Flood_steam_exhaust_big_delayed.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_exhaust_2",
-      "particles/vehicles/Flood_steam_exhaust_big.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_left",
-      "particles/vehicles/Flood_steam_side_big.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_right",
-      "particles/vehicles/Flood_steam_side_big.xml"
-     ]
-    ],
+    "flood": [],
     "floodLight": [
      [
       "HP_FX_FloodLight_left_1",
@@ -15996,6 +15946,45 @@
   },
   "unpeculiarCamouflage": "camo_permanent_1",
   "unpeculiarCamouflageColorSchemeId": 0
+ },
+ {
+  "camouflage": "camo_Birthday_6",
+  "canBuy": false,
+  "canCharge": true,
+  "canSell": false,
+  "costCR": -1,
+  "costGold": 2000,
+  "custom": {},
+  "hidden": true,
+  "id": 3756551984,
+  "index": "PGEP513",
+  "modifiers": {
+   "afterBattleRepair": 0.9,
+   "crewExpFactor": 1.5,
+   "freeExpFactor": 1.5,
+   "shootShift": 1.04,
+   "visibilityFactor": 0.97
+  },
+  "name": "PGEP513_YorckBD6",
+  "parts": [
+   0,
+   1,
+   2
+  ],
+  "restrictions": {
+   "forbiddenShips": [],
+   "levels": [],
+   "nations": [],
+   "specificShips": [],
+   "subtype": []
+  },
+  "sortOrder": 2147483647,
+  "tags": [],
+  "typeinfo": {
+   "nation": "Germany",
+   "species": "Permoflage",
+   "type": "Exterior"
+  }
  },
  {
   "camouflage": "camo_GermanArc_2020",
@@ -20260,8 +20249,50 @@
       "particles/vehicles/Fire_medium_2.xml"
      ]
     ],
-    "fireResistance": [],
-    "fixDeluge": [],
+    "fireResistance": [
+     [
+      "HP_FX_Fire_2_side_1",
+      "particles/vehicles/Fire_side_big.xml"
+     ],
+     [
+      "HP_FX_Fire_3_side_1",
+      "particles/vehicles/Fire_side_big.xml"
+     ],
+     [
+      "HP_FX_Fire_5",
+      "particles/vehicles/Fire_big.xml"
+     ],
+     [
+      "HP_FX_Fire_5_2",
+      "particles/vehicles/Fire_big.xml"
+     ]
+    ],
+    "fixDeluge": [
+     [
+      "HP_FX_Flood_water_left",
+      "particles/vehicles/Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_left_2",
+      "particles/vehicles/Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_left_3",
+      "particles/vehicles/Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right",
+      "particles/vehicles/Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right_2",
+      "particles/vehicles/Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right_3",
+      "particles/vehicles/Flood_deluge_small.xml"
+     ]
+    ],
     "fixLight": [
      [
       "HP_FX_FloodLight_left_1",
@@ -20292,14 +20323,6 @@
      [
       "HP_FX_Flood_steam_3",
       "particles/vehicles/Flood_steam_medium.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_4",
-      "particles/vehicles/Flood_steam_medium.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_exhaust_1",
-      "particles/vehicles/Flood_steam_exhaust_big.xml"
      ],
      [
       "HP_FX_Flood_steam_exhaust_2",
@@ -20345,6 +20368,30 @@
     "idle": [],
     "idlePort": [
      [
+      "HP_FX_Flood_water_left",
+      "particles/vehicles/idlePort_Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_left_2",
+      "particles/vehicles/idlePort_Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_left_3",
+      "particles/vehicles/idlePort_Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right",
+      "particles/vehicles/idlePort_Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right_2",
+      "particles/vehicles/idlePort_Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right_3",
+      "particles/vehicles/idlePort_Flood_deluge_small.xml"
+     ],
+     [
       "HP_FX_Smoke_1",
       "particles/vehicles/idlePort_RunSmoke_medium.xml"
      ],
@@ -20353,7 +20400,24 @@
       "particles/vehicles/idlePort_RunSmoke_medium.xml"
      ]
     ],
-    "repairLight": [],
+    "repairLight": [
+     [
+      "HP_FX_RepairLight_left_1",
+      "particles/vehicles/RepairLight_big.xml"
+     ],
+     [
+      "HP_FX_RepairLight_left_2",
+      "particles/vehicles/RepairLight_big.xml"
+     ],
+     [
+      "HP_FX_RepairLight_right_1",
+      "particles/vehicles/RepairLight_big.xml"
+     ],
+     [
+      "HP_FX_RepairLight_right_2",
+      "particles/vehicles/RepairLight_big.xml"
+     ]
+    ],
     "smoke": [
      [
       "HP_FX_Smoke_1",
@@ -20460,8 +20524,50 @@
       "particles/vehicles/Fire_medium_2.xml"
      ]
     ],
-    "fireResistance": [],
-    "fixDeluge": [],
+    "fireResistance": [
+     [
+      "HP_FX_Fire_2_side_1",
+      "particles/vehicles/Fire_side_big.xml"
+     ],
+     [
+      "HP_FX_Fire_3_side_1",
+      "particles/vehicles/Fire_side_big.xml"
+     ],
+     [
+      "HP_FX_Fire_5",
+      "particles/vehicles/Fire_big.xml"
+     ],
+     [
+      "HP_FX_Fire_5_2",
+      "particles/vehicles/Fire_big.xml"
+     ]
+    ],
+    "fixDeluge": [
+     [
+      "HP_FX_Flood_water_left",
+      "particles/vehicles/Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_left_2",
+      "particles/vehicles/Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_left_3",
+      "particles/vehicles/Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right",
+      "particles/vehicles/Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right_2",
+      "particles/vehicles/Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right_3",
+      "particles/vehicles/Flood_deluge_small.xml"
+     ]
+    ],
     "fixLight": [
      [
       "HP_FX_FloodLight_left_1",
@@ -20492,14 +20598,6 @@
      [
       "HP_FX_Flood_steam_3",
       "particles/vehicles/Flood_steam_medium.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_4",
-      "particles/vehicles/Flood_steam_medium.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_exhaust_1",
-      "particles/vehicles/Flood_steam_exhaust_big.xml"
      ],
      [
       "HP_FX_Flood_steam_exhaust_2",
@@ -20545,6 +20643,30 @@
     "idle": [],
     "idlePort": [
      [
+      "HP_FX_Flood_water_left",
+      "particles/vehicles/idlePort_Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_left_2",
+      "particles/vehicles/idlePort_Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_left_3",
+      "particles/vehicles/idlePort_Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right",
+      "particles/vehicles/idlePort_Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right_2",
+      "particles/vehicles/idlePort_Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right_3",
+      "particles/vehicles/idlePort_Flood_deluge_small.xml"
+     ],
+     [
       "HP_FX_Smoke_1",
       "particles/vehicles/idlePort_RunSmoke_medium.xml"
      ],
@@ -20553,7 +20675,24 @@
       "particles/vehicles/idlePort_RunSmoke_medium.xml"
      ]
     ],
-    "repairLight": [],
+    "repairLight": [
+     [
+      "HP_FX_RepairLight_left_1",
+      "particles/vehicles/RepairLight_big.xml"
+     ],
+     [
+      "HP_FX_RepairLight_left_2",
+      "particles/vehicles/RepairLight_big.xml"
+     ],
+     [
+      "HP_FX_RepairLight_right_1",
+      "particles/vehicles/RepairLight_big.xml"
+     ],
+     [
+      "HP_FX_RepairLight_right_2",
+      "particles/vehicles/RepairLight_big.xml"
+     ]
+    ],
     "smoke": [
      [
       "HP_FX_Smoke_1",
@@ -21006,6 +21145,438 @@
   },
   "sortOrder": 2147483647,
   "tags": [],
+  "typeinfo": {
+   "nation": "Germany",
+   "species": "Skin",
+   "type": "Exterior"
+  },
+  "unpeculiarCamouflage": "camo_permanent_1",
+  "unpeculiarCamouflageColorSchemeId": 0
+ },
+ {
+  "camouflage": "camo_skin_Manfred_Richthofen_Transformers2021",
+  "canBuy": false,
+  "canCharge": true,
+  "canSell": false,
+  "costCR": -1,
+  "costGold": 8000,
+  "custom": {},
+  "effects": {
+   "A_Hull": {
+    "acid": [],
+    "death": [
+     [
+      "HP_FX_Death_1",
+      "particles/vehicles/Death_foam_big.xml"
+     ],
+     [
+      "HP_FX_Death_2",
+      "particles/vehicles/Death_foam_big.xml"
+     ],
+     [
+      "HP_FX_Death_3",
+      "particles/vehicles/Death_foam_big.xml"
+     ]
+    ],
+    "fire1": [
+     [
+      "HP_FX_Fire_1",
+      "particles/vehicles/Fire_big_Space.xml"
+     ],
+     [
+      "HP_FX_Fire_1_side_1",
+      "particles/vehicles/Fire_side_big_Space.xml"
+     ]
+    ],
+    "fire2": [
+     [
+      "HP_FX_Fire_2",
+      "particles/vehicles/Fire_medium_Space.xml"
+     ],
+     [
+      "HP_FX_Fire_2_side_1",
+      "particles/vehicles/Fire_side_big_Space.xml"
+     ],
+     [
+      "HP_FX_Fire_2_side_2",
+      "particles/vehicles/Fire_side_big_Space.xml"
+     ],
+     [
+      "HP_FX_Fire_2_side_3",
+      "particles/vehicles/Fire_side_big_Space.xml"
+     ]
+    ],
+    "fire3": [
+     [
+      "HP_FX_Fire_3",
+      "particles/vehicles/Fire_medium_Space.xml"
+     ],
+     [
+      "HP_FX_Fire_3_side_1",
+      "particles/vehicles/Fire_side_big_Space.xml"
+     ],
+     [
+      "HP_FX_Fire_3_side_2",
+      "particles/vehicles/Fire_side_big_Space.xml"
+     ]
+    ],
+    "fire4": [
+     [
+      "HP_FX_Fire_4",
+      "particles/vehicles/Fire_big_Space.xml"
+     ],
+     [
+      "HP_FX_Fire_4_side_1",
+      "particles/vehicles/Fire_side_big_Space.xml"
+     ]
+    ],
+    "fireResistance": [],
+    "fixDeluge": [
+     [
+      "HP_FX_Flood_water_left",
+      "particles/vehicles/Flood_deluge_medium.xml"
+     ],
+     [
+      "HP_FX_Flood_water_left_1",
+      "particles/vehicles/Flood_deluge_medium.xml"
+     ],
+     [
+      "HP_FX_Flood_water_left_2",
+      "particles/vehicles/Flood_deluge_medium.xml"
+     ],
+     [
+      "HP_FX_Flood_water_left_3",
+      "particles/vehicles/Flood_deluge_medium.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right",
+      "particles/vehicles/Flood_deluge_medium.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right_1",
+      "particles/vehicles/Flood_deluge_medium.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right_2",
+      "particles/vehicles/Flood_deluge_medium.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right_3",
+      "particles/vehicles/Flood_deluge_medium.xml"
+     ]
+    ],
+    "fixLight": [
+     [
+      "HP_FX_FloodLight_left_1",
+      "particles/vehicles/FixLight_small.xml"
+     ],
+     [
+      "HP_FX_FloodLight_left_2",
+      "particles/vehicles/FixLight_big.xml"
+     ],
+     [
+      "HP_FX_FloodLight_right_1",
+      "particles/vehicles/FixLight_big.xml"
+     ],
+     [
+      "HP_FX_FloodLight_right_2",
+      "particles/vehicles/FixLight_small.xml"
+     ]
+    ],
+    "flood": [
+     [
+      "HP_FX_Flood_steam_1",
+      "particles/vehicles/Flood_steam_big.xml"
+     ],
+     [
+      "HP_FX_Flood_steam_exhaust_1",
+      "particles/vehicles/Flood_steam_exhaust_big_delayed.xml"
+     ],
+     [
+      "HP_FX_Flood_steam_exhaust_2",
+      "particles/vehicles/Flood_steam_exhaust_big.xml"
+     ],
+     [
+      "HP_FX_Flood_steam_left",
+      "particles/vehicles/Flood_steam_side_big.xml"
+     ],
+     [
+      "HP_FX_Flood_steam_right",
+      "particles/vehicles/Flood_steam_side_big.xml"
+     ]
+    ],
+    "floodLight": [
+     [
+      "HP_FX_FloodLight_left_1",
+      "particles/vehicles/FloodLight_small.xml"
+     ],
+     [
+      "HP_FX_FloodLight_left_2",
+      "particles/vehicles/FloodLight_big.xml"
+     ],
+     [
+      "HP_FX_FloodLight_right_1",
+      "particles/vehicles/FloodLight_big.xml"
+     ],
+     [
+      "HP_FX_FloodLight_right_2",
+      "particles/vehicles/FloodLight_small.xml"
+     ]
+    ],
+    "horn": [
+     [
+      "HP_FX_Smoke_1",
+      "particles/vehicles/Horn.xml"
+     ]
+    ],
+    "idle": [],
+    "idlePort": [
+     [
+      "HP_FX_Flood_water_left",
+      "particles/vehicles/idlePort_Flood_deluge_medium.xml"
+     ],
+     [
+      "HP_FX_Flood_water_left_1",
+      "particles/vehicles/idlePort_Flood_deluge_medium.xml"
+     ],
+     [
+      "HP_FX_Flood_water_left_2",
+      "particles/vehicles/idlePort_Flood_deluge_medium.xml"
+     ],
+     [
+      "HP_FX_Flood_water_left_3",
+      "particles/vehicles/idlePort_Flood_deluge_medium.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right",
+      "particles/vehicles/idlePort_Flood_deluge_medium.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right_1",
+      "particles/vehicles/idlePort_Flood_deluge_medium.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right_2",
+      "particles/vehicles/idlePort_Flood_deluge_medium.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right_3",
+      "particles/vehicles/idlePort_Flood_deluge_medium.xml"
+     ],
+     [
+      "HP_FX_Smoke_1",
+      "particles/vehicles/idlePort_RunSmoke_small.xml"
+     ]
+    ],
+    "rageMode": [],
+    "rageModeFullScreen": [],
+    "repairLight": [],
+    "smoke": [
+     [
+      "HP_FX_Smoke_1",
+      "particles/vehicles/RunSmoke_small.xml"
+     ]
+    ],
+    "waketraceback": [
+     [
+      "HP_FX_WakeTraceBack",
+      "particles/vehicles/WakeTraceReverce_back_big.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceReverce_screw_medium.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceReverce_screw_medium.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_3",
+      "particles/vehicles/WakeTraceReverce_screw_medium.xml"
+     ],
+     [
+      "Scene Root",
+      "particles/vehicles/WakeTraceReverce_center_big.xml"
+     ]
+    ],
+    "waketracefront": [
+     [
+      "HP_FX_WakeTrace",
+      "particles/vehicles/WakeTraceForward_front_big.xml"
+     ],
+     [
+      "HP_FX_WakeTraceBack",
+      "particles/vehicles/WakeTraceForward_back_big.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTrace_screw_medium.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_medium.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_3",
+      "particles/vehicles/WakeTrace_screw_medium.xml"
+     ],
+     [
+      "Scene Root",
+      "particles/vehicles/WakeTraceForward_center_big.xml"
+     ]
+    ]
+   }
+  },
+  "hidden": true,
+  "hullConfig": {
+   "A_Hull": {
+    "caps": {},
+    "customMiscs": {
+     "battle": [
+      "battle"
+     ],
+     "dock": [
+      "dock"
+     ]
+    },
+    "model": "content/gameplay/germany/ship/aircarrier/GSA011_Richthofen_TF_Starscream/GSA011_Richthofen_TF_Starscream.model"
+   }
+  },
+  "id": 3664178992,
+  "index": "PGES601",
+  "modifiers": {
+   "afterBattleRepair": 0.5,
+   "creditsFactor": 1.2,
+   "expFactor": 2.0,
+   "shootShift": 1.04,
+   "visibilityFactor": 0.97
+  },
+  "name": "PGES601_RICHTHOFEN_STARSCREAM",
+  "nodesConfig": {
+   "A1_ATBA": {
+    "HP_GGS_1": {
+     "deadMesh": "content/gameplay/germany/gun/secondary/GGS334_105mm_Dopl_C38_Minion_TF/GGS334_105mm_Dopl_C38_Minion_TF_dead.model",
+     "filterMode": false,
+     "miscFilter": [
+      "MP_CM745_Decepticons_Generic_minion"
+     ],
+     "model": "content/gameplay/germany/gun/secondary/GGS334_105mm_Dopl_C38_Minion_TF/GGS334_105mm_Dopl_C38_Minion_TF.model"
+    },
+    "HP_GGS_10": {
+     "deadMesh": "content/gameplay/germany/gun/secondary/GGS334_105mm_Dopl_C38_Minion_TF/GGS334_105mm_Dopl_C38_Minion_TF_dead.model",
+     "filterMode": false,
+     "miscFilter": [
+      "MP_CM745_Decepticons_Generic_minion"
+     ],
+     "model": "content/gameplay/germany/gun/secondary/GGS334_105mm_Dopl_C38_Minion_TF/GGS334_105mm_Dopl_C38_Minion_TF.model"
+    },
+    "HP_GGS_11": {
+     "deadMesh": "content/gameplay/germany/gun/secondary/GGS334_105mm_Dopl_C38_Minion_TF/GGS334_105mm_Dopl_C38_Minion_TF_dead.model",
+     "filterMode": false,
+     "miscFilter": [
+      "MP_CM745_Decepticons_Generic_minion"
+     ],
+     "model": "content/gameplay/germany/gun/secondary/GGS334_105mm_Dopl_C38_Minion_TF/GGS334_105mm_Dopl_C38_Minion_TF.model"
+    },
+    "HP_GGS_12": {
+     "deadMesh": "content/gameplay/germany/gun/secondary/GGS334_105mm_Dopl_C38_Minion_TF/GGS334_105mm_Dopl_C38_Minion_TF_dead.model",
+     "filterMode": false,
+     "miscFilter": [
+      "MP_CM745_Decepticons_Generic_minion"
+     ],
+     "model": "content/gameplay/germany/gun/secondary/GGS334_105mm_Dopl_C38_Minion_TF/GGS334_105mm_Dopl_C38_Minion_TF.model"
+    },
+    "HP_GGS_2": {
+     "deadMesh": "content/gameplay/germany/gun/secondary/GGS334_105mm_Dopl_C38_Minion_TF/GGS334_105mm_Dopl_C38_Minion_TF_dead.model",
+     "filterMode": false,
+     "miscFilter": [
+      "MP_CM745_Decepticons_Generic_minion"
+     ],
+     "model": "content/gameplay/germany/gun/secondary/GGS334_105mm_Dopl_C38_Minion_TF/GGS334_105mm_Dopl_C38_Minion_TF.model"
+    },
+    "HP_GGS_3": {
+     "deadMesh": "content/gameplay/germany/gun/secondary/GGS334_105mm_Dopl_C38_Minion_TF/GGS334_105mm_Dopl_C38_Minion_TF_dead.model",
+     "filterMode": false,
+     "miscFilter": [
+      "MP_CM745_Decepticons_Generic_minion"
+     ],
+     "model": "content/gameplay/germany/gun/secondary/GGS334_105mm_Dopl_C38_Minion_TF/GGS334_105mm_Dopl_C38_Minion_TF.model"
+    },
+    "HP_GGS_4": {
+     "deadMesh": "content/gameplay/germany/gun/secondary/GGS334_105mm_Dopl_C38_Minion_TF/GGS334_105mm_Dopl_C38_Minion_TF_dead.model",
+     "filterMode": false,
+     "miscFilter": [
+      "MP_CM745_Decepticons_Generic_minion"
+     ],
+     "model": "content/gameplay/germany/gun/secondary/GGS334_105mm_Dopl_C38_Minion_TF/GGS334_105mm_Dopl_C38_Minion_TF.model"
+    },
+    "HP_GGS_5": {
+     "deadMesh": "content/gameplay/germany/gun/secondary/GGS334_105mm_Dopl_C38_Minion_TF/GGS334_105mm_Dopl_C38_Minion_TF_dead.model",
+     "filterMode": false,
+     "miscFilter": [
+      "MP_CM745_Decepticons_Generic_minion"
+     ],
+     "model": "content/gameplay/germany/gun/secondary/GGS334_105mm_Dopl_C38_Minion_TF/GGS334_105mm_Dopl_C38_Minion_TF.model"
+    },
+    "HP_GGS_6": {
+     "deadMesh": "content/gameplay/germany/gun/secondary/GGS334_105mm_Dopl_C38_Minion_TF/GGS334_105mm_Dopl_C38_Minion_TF_dead.model",
+     "filterMode": false,
+     "miscFilter": [
+      "MP_CM745_Decepticons_Generic_minion"
+     ],
+     "model": "content/gameplay/germany/gun/secondary/GGS334_105mm_Dopl_C38_Minion_TF/GGS334_105mm_Dopl_C38_Minion_TF.model"
+    },
+    "HP_GGS_7": {
+     "deadMesh": "content/gameplay/germany/gun/secondary/GGS334_105mm_Dopl_C38_Minion_TF/GGS334_105mm_Dopl_C38_Minion_TF_dead.model",
+     "filterMode": false,
+     "miscFilter": [
+      "MP_CM745_Decepticons_Generic_minion"
+     ],
+     "model": "content/gameplay/germany/gun/secondary/GGS334_105mm_Dopl_C38_Minion_TF/GGS334_105mm_Dopl_C38_Minion_TF.model"
+    },
+    "HP_GGS_8": {
+     "deadMesh": "content/gameplay/germany/gun/secondary/GGS334_105mm_Dopl_C38_Minion_TF/GGS334_105mm_Dopl_C38_Minion_TF_dead.model",
+     "filterMode": false,
+     "miscFilter": [
+      "MP_CM745_Decepticons_Generic_minion"
+     ],
+     "model": "content/gameplay/germany/gun/secondary/GGS334_105mm_Dopl_C38_Minion_TF/GGS334_105mm_Dopl_C38_Minion_TF.model"
+    },
+    "HP_GGS_9": {
+     "deadMesh": "content/gameplay/germany/gun/secondary/GGS334_105mm_Dopl_C38_Minion_TF/GGS334_105mm_Dopl_C38_Minion_TF_dead.model",
+     "filterMode": false,
+     "miscFilter": [
+      "MP_CM745_Decepticons_Generic_minion"
+     ],
+     "model": "content/gameplay/germany/gun/secondary/GGS334_105mm_Dopl_C38_Minion_TF/GGS334_105mm_Dopl_C38_Minion_TF.model"
+    }
+   }
+  },
+  "parts": [
+   0,
+   1,
+   2
+  ],
+  "peculiarity": "entertainment",
+  "peculiarityEffects": {},
+  "peculiarityFlag": "",
+  "peculiarityModels": {
+   "content/gameplay/germany/aircraft/bomber/GAB703_Ta_152_C1_R14_proto/GAB703_Ta_152_C1_R14_proto.model": "content/gameplay/germany/aircraft/bomber/GAB507_F15_Thundercracker_starscream/GAB507_F15_Thundercracker_starscream.model",
+   "content/gameplay/germany/aircraft/fighter/GAF705_Focke_Wulf_FW190A8/GAF705_Focke_Wulf_FW190A8.model": "content/gameplay/germany/aircraft/dive/GAD005_F_15_Sunstorm_starscream/GAD005_F_15_Sunstorm_starscream.model",
+   "content/gameplay/germany/aircraft/fighter/GAF723_Me_155_proto/GAF723_Me_155_proto.model": "content/gameplay/germany/aircraft/fighter/GAF508_F15_Skywarp_starscream/GAF508_F15_Skywarp_starscream.model"
+  },
+  "restrictions": {
+   "forbiddenShips": [],
+   "levels": [],
+   "nations": [],
+   "specificShips": [],
+   "subtype": []
+  },
+  "sortOrder": 2147483647,
+  "tags": [
+   "catalogueHiddenIfMissing",
+   "catalogueHidden_CN"
+  ],
   "typeinfo": {
    "nation": "Germany",
    "species": "Skin",
