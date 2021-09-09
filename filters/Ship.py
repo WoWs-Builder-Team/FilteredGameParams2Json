@@ -79,7 +79,7 @@ class Ship:
 
                 for subkey, subvalue in gp_object.__dict__.items():
                     subkey_lower = subkey.lower()
-                    for search_str in ["far", "medium", "near"]:
+                    for search_str in ["far", "medium", "med", "near"]:
                         if search_str in subkey_lower:
                             aa_subkeys.append(subkey)
                             self._delete_attributes(subvalue, AIRDEFENCE_SUBKEYS)
