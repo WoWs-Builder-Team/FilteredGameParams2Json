@@ -23,7 +23,7 @@ class Projectile:
         # Artillery, Bomb, Rocket
         # Torpedo, DepthCharge
         species = self._get_species()
-        if species in ["Artillery", "Bomb", "Rocket"]:
+        if species in ["Artillery", "Bomb", "Rocket", "SkipBomb"]:
             self._delete_attributes(self._data, COMMON_KEYS + ARTILLERY_KEYS)
         elif species == "Torpedo":
             self._delete_attributes(self._data, COMMON_KEYS + TORPEDO_KEYS)
