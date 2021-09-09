@@ -4,8 +4,10 @@ import zlib
 import pickle
 import json
 import copy
+import argparse
 from filters import *
 from concurrent.futures import ThreadPoolExecutor
+from os import path
 
 __location__ = os.path.realpath(
     os.path.join(os.getcwd(), os.path.dirname(__file__)))
@@ -36,7 +38,7 @@ class GPEncode(json.JSONEncoder):
 
 
 def write_entities(data):
-    _key, _value = data
+    _key, _value, do_filter = data
 
     _ent_dir = os.path.join(entities_dir, _key)
 
@@ -55,12 +57,15 @@ def write_entities(data):
         except AttributeError:
             group_by = item.typeinfo.species if item.typeinfo.species else _key
 
-        filtered_item = get_filtered(copy.deepcopy(item))
-
         if group_by not in data:
             data[group_by] = [item]
         else:
             data[group_by].append(item)
+
+        if not do_filter:
+            continue
+
+        filtered_item = get_filtered(copy.deepcopy(item))
 
         if filtered_item:
             if group_by not in data_filtered:
@@ -72,15 +77,26 @@ def write_entities(data):
         with open(os.path.join(_ent_dir, f"{k}.json"), "w") as ff:
             json.dump(v, ff, indent=1, cls=GPEncode, sort_keys=True)
 
-    for k, v in data_filtered.items():
-        if not any(v):
-            continue
+    if do_filter:
+        for k, v in data_filtered.items():
+            if not any(v):
+                continue
 
-        with open(os.path.join(_ent_dir, f"filtered_{k}.json"), "w") as ff:
-            json.dump(v, ff, indent=1, cls=GPEncode, sort_keys=True)
+            with open(os.path.join(_ent_dir, f"filtered_{k}.json"), "w") as ff:
+                json.dump(v, ff, indent=1, cls=GPEncode, sort_keys=True)
 
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--path", type=str, help="GameParams.data file path.", required=True)
+    parser.add_argument("--filter", help="Filter the data. (WoWs ShipBuilder)", action="store_true", required=False)
+
+    args = parser.parse_args()
+
+    if not path.isfile(args.path):
+        print("Invalid GameParams.data file path.")
+        exit(-1)
+
     gp_file_path = os.path.join(__location__, 'GameParams.data')
     with open(gp_file_path, "rb") as f:
         gp_data: bytes = f.read()
@@ -99,4 +115,6 @@ if __name__ == '__main__':
             entity_types[data_type] = [value]
 
     with ThreadPoolExecutor() as tpe:
-        list(tpe.map(write_entities, [(k, v) for k, v in entity_types.items()]))
+        list(tpe.map(write_entities, [(k, v, args.filter) for k, v in entity_types.items()]))
+
+    print("Done.")

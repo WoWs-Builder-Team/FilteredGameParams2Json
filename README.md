@@ -1,12 +1,16 @@
-# GameParams2Json
 
-**Converts GameParams to JSON**
+# GameParams2Json  
+  
+**Converts GameParams to JSON**  
+  
+**GameParams2Json.py** arguments:
 
-Run the script **GameParams2Json.py**. Make sure the **GameParams.data** and **GameParams.py** is in the same directory
-of the script.
+ - --path: GameParams.data file path
+ - --filter: Filter the data. (Optional)
 
-It will create **entities** folder which has all the entities separated by types (with their respective folders.)
-
-### DEPENDENCIES:
-
-    Nothing. Everything it needs is already in Python's buitins.
+  
+It will create **entities** folder which has all the entities separated by types (with their respective folders.)  
+  
+### DEPENDENCIES:  
+  
+ Nothing. Everything it needs is already in Python's buitins.
