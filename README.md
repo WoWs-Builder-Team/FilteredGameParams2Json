@@ -13,4 +13,5 @@ It will create **entities** folder which has all the entities separated by types
   
 ### DEPENDENCIES:  
   
- Nothing. Everything it needs is already in Python's buitins.
+ For GameParams2Json, nothing. Everything it needs is already in Python's buitins.  
+ For localization, please install `lxml` and `polib`. Just do `pip install -r requirements.txt`.
