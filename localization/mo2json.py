@@ -40,7 +40,7 @@ if __name__ == '__main__':
 
     for filter_string in filter_strings:
         for game_string, value in game_strings.items():
-            if filter_string in game_string:
+            if filter_string.lower() in game_string.lower():
                 if filter_string not in filtered_strings:
                     filtered_strings[filter_string] = value
                 else:
