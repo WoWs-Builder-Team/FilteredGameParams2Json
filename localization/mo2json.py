@@ -42,9 +42,9 @@ if __name__ == '__main__':
         for game_string, value in game_strings.items():
             if filter_string in game_string:
                 if filter_string not in filtered_strings:
-                    filtered_strings[filter_string] = [value]
+                    filtered_strings[filter_string] = value
                 else:
-                    filtered_strings[filter_string].append(value)
+                    filtered_strings[filter_string] = value
 
     with open(parsed.out, 'w', encoding='utf8') as f:
         json.dump(filtered_strings, f, indent=1, ensure_ascii=False)
