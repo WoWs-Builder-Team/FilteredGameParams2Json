@@ -22,7 +22,6 @@ if __name__ == '__main__':
         filter_strings = [i[0] for i in csv.reader(f)]
 
     filtered_strings = {}
-    missing = set()
 
     # this uses the whole index, ex `PCY009`
     # Super slow. aleast for my laptop.
@@ -47,12 +46,10 @@ if __name__ == '__main__':
                     filtered_strings[filter_string] = value
                 else:
                     filtered_strings[filter_string] = value
-            else:
-                missing.add(filter_string)
 
     if parsed.missing:
         with open("missing.txt", "w") as f:
-            for i in missing:
+            for i in set(filter_strings).difference(filtered_strings):
                 f.write(f"{i}\n")
 
     with open(parsed.out, 'w', encoding='utf8') as f:
