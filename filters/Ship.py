@@ -2,7 +2,7 @@ ARTILLERY_KEYS = ["maxDist", "normalDistribution", "sigmaCount", "AuraFar", "Aur
                   "taperDist"]
 ARTILLERY_GUN_KEYS = ["ammoList", "barrelDiameter", "horizSector", "id", "index", "numBarrels", "position",
                       "rotationSpeed", "shotDelay", "smokePenalty", "typeinfo", "name", "idealRadius", "minRadius",
-                      "idealDistance", "radiusOnZero", "delim", "radiusOnMax"]
+                      "idealDistance", "radiusOnZero", "delim", "radiusOnMax", "radiusOnDelim"]
 AIRDEFENCE_KEYS = []
 AIRDEFENCE_SUBKEYS = ["areaDamage", "areaDamagePeriod", "bubbleDamage", "hitChance", "innerBubbleCount", "maxDistance",
                       "minDistance", "type"]
