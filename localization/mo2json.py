@@ -9,6 +9,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--filter", help="Filter. A csv file.", type=str, required=True)
     parser.add_argument("--mofile", help="WoWS localization file.", type=str, required=True)
+    parser.add_argument("--missing", help="Not found indexes.", action="store_true", required=False)
     parser.add_argument("--out", help="Output json file.", type=str, required=False, default="strings.json")
     parsed = parser.parse_args()
 
@@ -21,6 +22,7 @@ if __name__ == '__main__':
         filter_strings = [i[0] for i in csv.reader(f)]
 
     filtered_strings = {}
+    missing = set()
 
     # this uses the whole index, ex `PCY009`
     # Super slow. aleast for my laptop.
@@ -45,7 +47,13 @@ if __name__ == '__main__':
                     filtered_strings[filter_string] = value
                 else:
                     filtered_strings[filter_string] = value
+            else:
+                missing.add(filter_string)
+
+    if parsed.missing:
+        with open("missing.txt", "w") as f:
+            for i in missing:
+                f.write(f"{i}\n")
 
     with open(parsed.out, 'w', encoding='utf8') as f:
         json.dump(filtered_strings, f, indent=1, ensure_ascii=False)
-
