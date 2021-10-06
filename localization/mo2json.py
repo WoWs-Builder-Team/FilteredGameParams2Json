@@ -42,10 +42,10 @@ if __name__ == '__main__':
     for filter_string in filter_strings:
         for game_string, value in game_strings.items():
             if filter_string.lower() in game_string.lower():
-                if filter_string not in filtered_strings:
-                    filtered_strings[filter_string] = value
+                if game_string.lower().startswith('ids_'):
+                    filtered_strings[game_string[4:]] = value
                 else:
-                    filtered_strings[filter_string] = value
+                    filtered_strings[game_string] = value
 
     if parsed.missing:
         with open("missing.txt", "w") as f:
