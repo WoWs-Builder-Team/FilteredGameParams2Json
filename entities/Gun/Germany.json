@@ -44,7 +44,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -147,7 +146,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -280,7 +278,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -385,7 +382,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -453,7 +449,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -566,7 +561,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -679,7 +673,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -792,7 +785,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -860,7 +852,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -990,7 +981,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -1095,7 +1085,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -1200,7 +1189,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -1305,7 +1293,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -1388,133 +1375,6 @@
   ]
  },
  {
-  "HitLocationArtillery": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 1.0,
-   "autoRepairTime": 30,
-   "autoRepairTimeMin": 25,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.05,
-    0.75
-   ],
-   "critProbHP": [
-    1.0,
-    0.02
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "artillery_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 2000.0,
-   "moduleCritCoeffCR": 1.0,
-   "moduleCritCoeffXP": 1.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 1.0,
-   "rndPartHP": 0.0,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 0.1
-  },
-  "aiMGmaxEllipseRanging": 4.0,
-  "aiMGmedEllipseRanging": 3.7,
-  "aiMGminEllipseRanging": 3.5,
-  "ammoList": [
-   "PGPA008_105MM_HE_SPRGR",
-   "PGPA007_105MM_AP_PSGR"
-  ],
-  "antiAirAuraDistance": 0.0,
-  "antiAirAuraStrength": 0.0,
-  "armor": {
-   "65568": 6.0,
-   "65569": 6.0,
-   "65571": 6.0,
-   "65635": 6.0,
-   "65636": 6.0
-  },
-  "barrelDiameter": 0.105,
-  "coeffPerSecondMin": 0.3,
-  "customMiscs": {},
-  "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
-  "deadMesh": "content/gameplay/germany/gun/main/GGM012_105mm_SK_L45/GGM012_105mm_SK_L45_dead.model",
-  "deadZone": [],
-  "delim": 0.5,
-  "effectIntensityModifier": 1.0,
-  "ellipseRangeMax": 250.0,
-  "ellipseRangeMin": 50.0,
-  "horizSector": [
-   -150.0,
-   150.0
-  ],
-  "id": 4281984816,
-  "idealDistance": 1000.0,
-  "idealRadius": 8,
-  "index": "PGGM012",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
-  "maxEllipseRanging": 1.003,
-  "medEllipseRanging": 1.002,
-  "minEllipseRanging": 1.001,
-  "minRadius": 1.1,
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/germany/gun/main/GGM012_105mm_SK_L45/GGM012_105mm_SK_L45.model",
-  "name": "PGGM012_105mm_SK_L45",
-  "numBarrels": 1,
-  "onMoveTarPosCoeffDelim": 1.001,
-  "onMoveTarPosCoeffMaxDist": 1.002,
-  "onMoveTarPosCoeffZero": 1.0,
-  "onMoveTarPosDelim": 0.1,
-  "pitchDeadZones": [],
-  "position": [
-   0,
-   0
-  ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
-  "radiusOnDelim": 0.5,
-  "radiusOnMax": 0.6,
-  "radiusOnZero": 0.2,
-  "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_50to110.xml",
-  "rotationSpeed": [
-   10.0,
-   10.0
-  ],
-  "shotDelay": 4.0,
-  "shotEffect": "particles/guns/GK_Shot_50to110.xml",
-  "smallGun": null,
-  "smokePenalty": 0.0001,
-  "typeinfo": {
-   "nation": "Germany",
-   "species": "Main",
-   "type": "Gun"
-  },
-  "vertSector": [
-   -2.0,
-   30.0
-  ]
- },
- {
   "HitLocationATBA": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 1.0,
@@ -1559,7 +1419,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -1664,7 +1523,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -1732,7 +1590,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -1835,7 +1692,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -1968,7 +1824,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -2101,7 +1956,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -2206,7 +2060,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -2311,7 +2164,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -2438,7 +2290,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -2570,7 +2421,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -2703,7 +2553,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -2806,7 +2655,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -2926,7 +2774,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -3057,7 +2904,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -3189,7 +3035,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -3318,7 +3163,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -3386,7 +3230,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -3517,7 +3360,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -3622,7 +3464,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -3744,7 +3585,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -3877,7 +3717,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -3945,7 +3784,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -4002,139 +3840,6 @@
    ],
    "hlType": "artillery_hitlocation",
    "maxBuoyancy": 0.0,
-   "maxHP": 20000.0,
-   "moduleCritCoeffCR": 1.0,
-   "moduleCritCoeffXP": 1.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 1.0,
-   "rndPartHP": 0.0,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 0.1
-  },
-  "aiMGmaxEllipseRanging": 4.0,
-  "aiMGmedEllipseRanging": 3.7,
-  "aiMGminEllipseRanging": 3.5,
-  "ammoList": [
-   "PGPA053_420MM_HE_HE_L_4_6",
-   "PGPA052_420MM_AP_APC_L_4_6"
-  ],
-  "antiAirAuraDistance": 0.0,
-  "antiAirAuraStrength": 0.0,
-  "armor": {
-   "1": 0.0,
-   "65568": 250.0,
-   "65569": 200.0,
-   "65571": 380.0,
-   "65635": 175.0,
-   "65636": 400.0,
-   "131104": 200.0,
-   "131105": 250.0,
-   "131171": 0.0,
-   "196641": 180.0,
-   "196707": 175.0
-  },
-  "barrelDiameter": 0.42,
-  "coeffPerSecondMin": 0.3,
-  "customMiscs": {},
-  "damagedEffect": "particles/guns/Gun_Broken_vbig.xml",
-  "deadMesh": "content/gameplay/germany/gun/main/GGM039_406mm_C34/GGM039_406mm_C34_dead.model",
-  "deadZone": [],
-  "delim": 0.5,
-  "effectIntensityModifier": 1.0,
-  "ellipseRangeMax": 250.0,
-  "ellipseRangeMin": 50.0,
-  "horizSector": [
-   -145.0,
-   145.0
-  ],
-  "id": 4139378480,
-  "idealDistance": 1000.0,
-  "idealRadius": 12.0,
-  "index": "PGGM148",
-  "lensEffect": "particles/guns/GK_Lens_440to550.xml",
-  "maxEllipseRanging": 1.003,
-  "medEllipseRanging": 1.002,
-  "minEllipseRanging": 1.001,
-  "minRadius": 2.0,
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/germany/gun/main/GGM039_406mm_C34/GGM039_406mm_C34.model",
-  "name": "PGGM148_420MM_48_DRH_LC_1940",
-  "numBarrels": 3,
-  "onMoveTarPosCoeffDelim": 1.001,
-  "onMoveTarPosCoeffMaxDist": 1.002,
-  "onMoveTarPosCoeffZero": 1.0,
-  "onMoveTarPosDelim": 0.1,
-  "pitchDeadZones": [],
-  "position": [
-   0,
-   0
-  ],
-  "purgingEffect": "particles/guns/GK_Purging_350to550.xml",
-  "radiusOnDelim": 0.5,
-  "radiusOnMax": 0.6,
-  "radiusOnZero": 0.2,
-  "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_440to550.xml",
-  "rotationSpeed": [
-   4.5,
-   12.0
-  ],
-  "shotDelay": 32.0,
-  "shotEffect": "particles/guns/GK_Shot_440to550.xml",
-  "smallGun": null,
-  "smokePenalty": 0.0001,
-  "typeinfo": {
-   "nation": "Germany",
-   "species": "Main",
-   "type": "Gun"
-  },
-  "vertSector": [
-   -2.0,
-   30.0
-  ]
- },
- {
-  "HitLocationArtillery": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 0.0,
-   "autoRepairTime": 30,
-   "autoRepairTimeMin": 25,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.05,
-    0.75
-   ],
-   "critProbHP": [
-    1.0,
-    0.02
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "artillery_hitlocation",
-   "maxBuoyancy": 0.0,
    "maxHP": 7500.0,
    "moduleCritCoeffCR": 1.0,
    "moduleCritCoeffXP": 1.0,
@@ -4146,7 +3851,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -4277,7 +3981,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -4380,7 +4083,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -4508,7 +4210,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -4613,7 +4314,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -4718,7 +4418,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -4823,7 +4522,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -4891,7 +4589,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -5011,7 +4708,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -5146,7 +4842,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -5273,7 +4968,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -5405,7 +5099,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -5463,8 +5156,8 @@
   "timeToChangeAngle": 0.2,
   "timeToChangeSpeed": 1,
   "torpedoAngles": [
-   1.0,
-   1.0
+   2.5,
+   2.5
   ],
   "typeinfo": {
    "nation": "Germany",
@@ -5521,7 +5214,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -5652,7 +5344,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -5757,7 +5448,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -5887,7 +5577,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -6019,7 +5708,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -6152,7 +5840,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -6283,7 +5970,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -6351,7 +6037,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -6486,7 +6171,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -6613,7 +6297,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -6681,7 +6364,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -6749,7 +6431,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -6771,6 +6452,138 @@
    "species": "AAircraft",
    "type": "Gun"
   }
+ },
+ {
+  "HitLocationArtillery": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 0.0,
+   "autoRepairTime": 30,
+   "autoRepairTimeMin": 25,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.05,
+    0.75
+   ],
+   "critProbHP": [
+    1.0,
+    0.02
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "artillery_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 20000.0,
+   "moduleCritCoeffCR": 1.0,
+   "moduleCritCoeffXP": 1.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 1.0,
+   "rndPartHP": 0.0,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 0.1
+  },
+  "aiMGmaxEllipseRanging": 4.0,
+  "aiMGmedEllipseRanging": 3.7,
+  "aiMGminEllipseRanging": 3.5,
+  "ammoList": [
+   "PGPA053_420MM_HE_HE_L_4_6",
+   "PGPA052_420MM_AP_APC_L_4_6"
+  ],
+  "antiAirAuraDistance": 0.0,
+  "antiAirAuraStrength": 0.0,
+  "armor": {
+   "1": 0.0,
+   "65568": 250.0,
+   "65569": 200.0,
+   "65571": 380.0,
+   "65635": 175.0,
+   "65636": 400.0,
+   "131104": 200.0,
+   "131105": 250.0,
+   "131171": 0.0,
+   "196641": 180.0,
+   "196707": 175.0
+  },
+  "barrelDiameter": 0.42,
+  "coeffPerSecondMin": 0.3,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_vbig.xml",
+  "deadMesh": "content/gameplay/germany/gun/main/GGM039_406mm_C34/GGM039_406mm_C34_dead.model",
+  "deadZone": [],
+  "delim": 0.5,
+  "effectIntensityModifier": 1.0,
+  "ellipseRangeMax": 250.0,
+  "ellipseRangeMin": 50.0,
+  "horizSector": [
+   -145.0,
+   145.0
+  ],
+  "id": 4139378480,
+  "idealDistance": 1000.0,
+  "idealRadius": 12.0,
+  "index": "PGGM148",
+  "lensEffect": "particles/guns/GK_Lens_440to550.xml",
+  "maxEllipseRanging": 1.003,
+  "medEllipseRanging": 1.002,
+  "minEllipseRanging": 1.001,
+  "minRadius": 2.0,
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/germany/gun/main/GGM039_406mm_C34/GGM039_406mm_C34.model",
+  "name": "PGGM148_420MM_48_DRH_LC_1940",
+  "numBarrels": 3,
+  "onMoveTarPosCoeffDelim": 1.001,
+  "onMoveTarPosCoeffMaxDist": 1.002,
+  "onMoveTarPosCoeffZero": 1.0,
+  "onMoveTarPosDelim": 0.1,
+  "pitchDeadZones": [],
+  "position": [
+   0,
+   0
+  ],
+  "purgingEffect": "particles/guns/GK_Purging_350to550.xml",
+  "radiusOnDelim": 0.5,
+  "radiusOnMax": 0.6,
+  "radiusOnZero": 0.2,
+  "reduceTime": 0.1,
+  "reloadBoostEffect": "particles/guns/GK_Reload_440to550.xml",
+  "rotationSpeed": [
+   4.5,
+   12.0
+  ],
+  "shotDelay": 32.0,
+  "shotEffect": "particles/guns/GK_Shot_440to550.xml",
+  "smallGun": null,
+  "smokePenalty": 0.0001,
+  "typeinfo": {
+   "nation": "Germany",
+   "species": "Main",
+   "type": "Gun"
+  },
+  "vertSector": [
+   -2.0,
+   30.0
+  ]
  },
  {
   "HitLocationArtillery": {
@@ -6817,7 +6630,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -6937,7 +6749,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -7067,7 +6878,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -7194,7 +7004,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -7262,7 +7071,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -7382,7 +7190,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -7485,7 +7292,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -7590,7 +7396,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -7687,7 +7492,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -7800,7 +7604,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -7930,7 +7733,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -8035,7 +7837,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -8148,7 +7949,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -8216,7 +8016,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -8321,7 +8120,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -8451,7 +8249,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -8583,7 +8380,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -8651,7 +8447,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -8779,7 +8574,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -8882,7 +8676,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -8979,7 +8772,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -9111,7 +8903,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -9244,7 +9035,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -9357,7 +9147,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -9487,7 +9276,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -9592,7 +9380,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -9660,7 +9447,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -9787,7 +9573,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -9920,7 +9705,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -10040,7 +9824,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -10171,7 +9954,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -10291,7 +10073,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -10411,7 +10192,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -10544,7 +10324,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -10675,7 +10454,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -10780,7 +10558,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -10913,7 +10690,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -11018,7 +10794,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -11086,7 +10861,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -11154,7 +10928,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -11222,7 +10995,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -11352,7 +11124,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -11420,7 +11191,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -11540,7 +11310,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -11562,6 +11331,132 @@
    "species": "AAircraft",
    "type": "Gun"
   }
+ },
+ {
+  "HitLocationArtillery": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 30,
+   "autoRepairTimeMin": 25,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.05,
+    0.75
+   ],
+   "critProbHP": [
+    1.0,
+    0.02
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "artillery_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 2000.0,
+   "moduleCritCoeffCR": 1.0,
+   "moduleCritCoeffXP": 1.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 1.0,
+   "rndPartHP": 0.0,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 0.1
+  },
+  "aiMGmaxEllipseRanging": 4.0,
+  "aiMGmedEllipseRanging": 3.7,
+  "aiMGminEllipseRanging": 3.5,
+  "ammoList": [
+   "PGPA008_105MM_HE_SPRGR",
+   "PGPA007_105MM_AP_PSGR"
+  ],
+  "antiAirAuraDistance": 0.0,
+  "antiAirAuraStrength": 0.0,
+  "armor": {
+   "65568": 6.0,
+   "65569": 6.0,
+   "65571": 6.0,
+   "65635": 6.0,
+   "65636": 6.0
+  },
+  "barrelDiameter": 0.105,
+  "coeffPerSecondMin": 0.3,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+  "deadMesh": "content/gameplay/germany/gun/main/GGM012_105mm_SK_L45/GGM012_105mm_SK_L45_dead.model",
+  "deadZone": [],
+  "delim": 0.5,
+  "effectIntensityModifier": 1.0,
+  "ellipseRangeMax": 250.0,
+  "ellipseRangeMin": 50.0,
+  "horizSector": [
+   -150.0,
+   150.0
+  ],
+  "id": 4281984816,
+  "idealDistance": 1000.0,
+  "idealRadius": 8,
+  "index": "PGGM012",
+  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "maxEllipseRanging": 1.003,
+  "medEllipseRanging": 1.002,
+  "minEllipseRanging": 1.001,
+  "minRadius": 1.1,
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/germany/gun/main/GGM012_105mm_SK_L45/GGM012_105mm_SK_L45.model",
+  "name": "PGGM012_105mm_SK_L45",
+  "numBarrels": 1,
+  "onMoveTarPosCoeffDelim": 1.001,
+  "onMoveTarPosCoeffMaxDist": 1.002,
+  "onMoveTarPosCoeffZero": 1.0,
+  "onMoveTarPosDelim": 0.1,
+  "pitchDeadZones": [],
+  "position": [
+   0,
+   0
+  ],
+  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "radiusOnDelim": 0.5,
+  "radiusOnMax": 0.6,
+  "radiusOnZero": 0.2,
+  "reduceTime": 0.1,
+  "reloadBoostEffect": "particles/guns/GK_Reload_50to110.xml",
+  "rotationSpeed": [
+   10.0,
+   10.0
+  ],
+  "shotDelay": 4.0,
+  "shotEffect": "particles/guns/GK_Shot_50to110.xml",
+  "smallGun": null,
+  "smokePenalty": 0.0001,
+  "typeinfo": {
+   "nation": "Germany",
+   "species": "Main",
+   "type": "Gun"
+  },
+  "vertSector": [
+   -2.0,
+   30.0
+  ]
  },
  {
   "HitLocationArtillery": {
@@ -11608,7 +11503,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -11730,7 +11624,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -11798,7 +11691,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -11903,7 +11795,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -12000,7 +11891,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -12097,7 +11987,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -12229,7 +12118,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -12360,7 +12248,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -12487,7 +12374,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -12555,7 +12441,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -12623,7 +12508,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -12750,7 +12634,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -12818,7 +12701,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -12930,7 +12812,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -13043,7 +12924,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -13148,7 +13028,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -13216,7 +13095,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -13284,7 +13162,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -13352,7 +13229,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -13464,7 +13340,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -13571,7 +13446,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -13703,7 +13577,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -13816,7 +13689,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -13921,7 +13793,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -14053,7 +13924,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -14173,7 +14043,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -14303,7 +14172,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -14416,7 +14284,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -14484,7 +14351,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -14604,7 +14470,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -14724,7 +14589,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -14837,7 +14701,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -14905,7 +14768,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -14973,7 +14835,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -15100,7 +14961,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -15227,7 +15087,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -15332,7 +15191,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -15466,7 +15324,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -15534,7 +15391,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -15639,7 +15495,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -15742,7 +15597,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -15855,7 +15709,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -15958,7 +15811,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -16089,7 +15941,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -16157,7 +16008,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -16289,7 +16139,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -16402,7 +16251,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -16507,7 +16355,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -16634,7 +16481,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -16737,7 +16583,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -16850,7 +16695,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -16918,7 +16762,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -16986,7 +16829,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -17091,7 +16933,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -17224,7 +17065,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -17292,7 +17132,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -17412,7 +17251,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -17525,7 +17363,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -17652,7 +17489,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -17662,7 +17498,7 @@
   "aiMGminEllipseRanging": 3.5,
   "ammoList": [
    "PGPA039_406MM_HE_SPR_GR_L4_4_KZ",
-   "PGPA038_406MM_AP_PZ_GR_L4_4"
+   "PGPA041_406MM_AP_PZ_GR_L4_4_AUSF_B"
   ],
   "antiAirAuraDistance": 0.0,
   "antiAirAuraStrength": 0.0,
@@ -17785,7 +17621,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -17918,7 +17753,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -17986,7 +17820,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -18091,7 +17924,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -18188,7 +18020,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -18256,7 +18087,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -18324,7 +18154,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -18455,7 +18284,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -18568,7 +18396,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -18636,7 +18463,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -18710,7 +18536,7 @@
    6.0,
    12.0
   ],
-  "shotDelay": 28.0,
+  "shotDelay": 27.0,
   "shotEffect": "particles/guns/GK_Shot_440to550.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,

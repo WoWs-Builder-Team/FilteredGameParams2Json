@@ -1571,6 +1571,100 @@
     },
     "isAA": true
    },
+   "A_DepthChargeGuns": {
+    "depthCharges": {
+     "HP_WGB_1": {
+      "ammoList": [
+       "PHPD004_375MM"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4254033200,
+      "index": "PWGB039",
+      "name": "PWGB039_Bofors_375mm_model_1950",
+      "numBombs": 4,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Europe",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_WGB_2": {
+      "ammoList": [
+       "PHPD004_375MM"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4254033200,
+      "index": "PWGB039",
+      "name": "PWGB039_Bofors_375mm_model_1950",
+      "numBombs": 4,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Europe",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_WGB_3": {
+      "ammoList": [
+       "PWPD004_375"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4239353136,
+      "index": "PWGB053",
+      "name": "PWGB053_Smaland_Depth_Charge_fake",
+      "numBombs": 0,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Europe",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_WGB_4": {
+      "ammoList": [
+       "PWPD004_375"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4239353136,
+      "index": "PWGB053",
+      "name": "PWGB053_Smaland_Depth_Charge_fake",
+      "numBombs": 0,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Europe",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxPacks": 2,
+    "reloadTime": 40.0
+   },
    "A_Engine": {
     "backwardEngineUpTime": 10.0,
     "forwardEngineUpTime": 20.0,
@@ -1662,7 +1756,9 @@
       "A1_Artillery"
      ],
      "atba": [],
-     "depthCharges": [],
+     "depthCharges": [
+      "A_DepthChargeGuns"
+     ],
      "directors": [
       "A_Directors"
      ],
@@ -2502,6 +2598,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 6000,
+    "maxPlaneFlightDist": 3500,
+    "minDist": 1500,
+    "planeName": "PAAD909_ASW_T5",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_Artillery": {
     "guns": {
      "HP_WGM_1": {
@@ -2735,9 +2842,14 @@
    "PWUH305_VIRIBUS": {
     "canBuy": true,
     "components": {
-     "airArmament": [],
+     "airArmament": [
+      "A_AirArmament"
+     ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A_Artillery"

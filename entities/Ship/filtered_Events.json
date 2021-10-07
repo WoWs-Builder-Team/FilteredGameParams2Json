@@ -241,7 +241,7 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "disabled",
+  "group": "event",
   "id": 4186912016,
   "index": "PXSB103",
   "level": 9,
@@ -310,8 +310,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -346,8 +346,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -382,8 +382,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -418,8 +418,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -454,8 +454,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -490,8 +490,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -1063,8 +1063,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -1098,8 +1098,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -1133,8 +1133,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -1168,8 +1168,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -1203,8 +1203,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -1238,8 +1238,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -1273,8 +1273,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -1308,8 +1308,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -1343,8 +1343,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -1378,8 +1378,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -2690,7 +2690,40 @@
  },
  {
   "ModulesArmaments": {
-   "A1_Artillery": {
+   "A_AirDefense": {
+    "AuraMedium": {
+     "areaDamage": 28.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 1.0,
+     "innerBubbleCount": 0,
+     "maxDistance": 3500.0,
+     "minDistance": 100.0,
+     "type": "medium"
+    },
+    "AuraMedium1": {
+     "areaDamage": 11.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 1.0,
+     "innerBubbleCount": 0,
+     "maxDistance": 3500.0,
+     "minDistance": 100.0,
+     "type": "medium"
+    },
+    "AuraNear": {
+     "areaDamage": 10.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.95,
+     "innerBubbleCount": 0,
+     "maxDistance": 1500.0,
+     "minDistance": 100.0,
+     "type": "near"
+    },
+    "isAA": true
+   },
+   "A_Artillery": {
     "AuraFar": {
      "areaDamage": 20.0,
      "areaDamagePeriod": 0.285714285714,
@@ -2862,11 +2895,163 @@
     "sigmaCount": 2.0,
     "taperDist": 4000.0
    },
-   "A1_FireControl": {
+   "A_DepthChargeGuns": {
+    "depthCharges": {
+     "HP_RGB_1": {
+      "ammoList": [
+       "PRPD007_BM_1_rpd004"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4135544272,
+      "index": "PRGB152",
+      "name": "PRGB152_Depth_Charge_Thrower_BMB1",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_RGB_2": {
+      "ammoList": [
+       "PRPD007_BM_1_rpd004"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4135544272,
+      "index": "PRGB152",
+      "name": "PRGB152_Depth_Charge_Thrower_BMB1",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_RGB_3": {
+      "ammoList": [
+       "PRPD001_BM_1"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4136592848,
+      "index": "PRGB151",
+      "name": "PRGB151_BM1_dumper",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_RGB_4": {
+      "ammoList": [
+       "PRPD001_BM_1"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4136592848,
+      "index": "PRGB151",
+      "name": "PRGB151_BM1_dumper",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_RGB_5": {
+      "ammoList": [
+       "PRPD002_BB_1_m"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4134495696,
+      "index": "PRGB153",
+      "name": "PRGB153_Depth_Charge_Shelving_BB",
+      "numBombs": 3,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_RGB_6": {
+      "ammoList": [
+       "PRPD002_BB_1_m"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4134495696,
+      "index": "PRGB153",
+      "name": "PRGB153_Depth_Charge_Shelving_BB",
+      "numBombs": 3,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxPacks": 2,
+    "reloadTime": 40.0
+   },
+   "A_Engine": {
+    "backwardEngineUpTime": 10.0,
+    "forwardEngineUpTime": 20.0,
+    "speedCoef": 0.0
+   },
+   "A_FireControl": {
     "maxDistCoef": 1.0,
     "sigmaCountCoef": 1.0
    },
-   "A1_Torpedoes": {
+   "A_Hull": {
+    "health": 25000.0,
+    "maxSpeed": 70.0,
+    "rudderTime": 2.0,
+    "speedCoef": 1.0,
+    "visibilityCoefGKInSmoke": 4.06,
+    "visibilityFactor": 8.0,
+    "visibilityFactorByPlane": 3.96
+   },
+   "A_Torpedoes": {
     "torpedoArray": {
      "HP_RGT_1": {
       "ammoList": [
@@ -2939,53 +3124,6 @@
       }
      }
     }
-   },
-   "A_AirDefense": {
-    "AuraMedium": {
-     "areaDamage": 28.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 1.0,
-     "innerBubbleCount": 0,
-     "maxDistance": 3500.0,
-     "minDistance": 100.0,
-     "type": "medium"
-    },
-    "AuraMedium1": {
-     "areaDamage": 11.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 1.0,
-     "innerBubbleCount": 0,
-     "maxDistance": 3500.0,
-     "minDistance": 100.0,
-     "type": "medium"
-    },
-    "AuraNear": {
-     "areaDamage": 10.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 0.95,
-     "innerBubbleCount": 0,
-     "maxDistance": 1500.0,
-     "minDistance": 100.0,
-     "type": "near"
-    },
-    "isAA": true
-   },
-   "A_Hull": {
-    "health": 25000.0,
-    "maxSpeed": 70.0,
-    "rudderTime": 2.0,
-    "speedCoef": 1.0,
-    "visibilityCoefGKInSmoke": 4.06,
-    "visibilityFactor": 8.0,
-    "visibilityFactorByPlane": 3.96
-   },
-   "EngineDefault": {
-    "backwardEngineUpTime": 10.0,
-    "forwardEngineUpTime": 20.0,
-    "speedCoef": 0.0
    }
   },
   "ShipAbilities": {
@@ -3035,7 +3173,7 @@
     "canBuy": true,
     "components": {
      "artillery": [
-      "A1_Artillery"
+      "A_Artillery"
      ]
     },
     "nextShips": [],
@@ -3046,7 +3184,7 @@
     "canBuy": true,
     "components": {
      "engine": [
-      "EngineDefault"
+      "A_Engine"
      ]
     },
     "nextShips": [],
@@ -3061,10 +3199,12 @@
       "A_AirDefense"
      ],
      "artillery": [
-      "A1_Artillery"
+      "A_Artillery"
      ],
      "atba": [],
-     "depthCharges": [],
+     "depthCharges": [
+      "A_DepthChargeGuns"
+     ],
      "directors": [
       "A_Directors"
      ],
@@ -3080,7 +3220,7 @@
       "A_Radars"
      ],
      "torpedoes": [
-      "A1_Torpedoes"
+      "A_Torpedoes"
      ]
     },
     "disabledAbilities": [],
@@ -3092,7 +3232,7 @@
     "canBuy": true,
     "components": {
      "fireControl": [
-      "A1_FireControl"
+      "A_FireControl"
      ]
     },
     "nextShips": [],
@@ -3103,7 +3243,7 @@
     "canBuy": true,
     "components": {
      "torpedoes": [
-      "A1_Torpedoes"
+      "A_Torpedoes"
      ]
     },
     "nextShips": [],
@@ -3116,7 +3256,7 @@
    "costXP": 30000,
    "value": 1
   },
-  "group": "disabled",
+  "group": "unavailable",
   "id": 4269683984,
   "index": "PXSD024",
   "level": 10,
@@ -5806,8 +5946,8 @@
       ],
       "shotDelay": 50.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -5841,8 +5981,8 @@
       ],
       "shotDelay": 50.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -8276,7 +8416,140 @@
  },
  {
   "ModulesArmaments": {
-   "ABC1_Artillery": {
+   "A_ATBA": {
+    "AuraFar": {
+     "areaDamage": 19.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.9,
+     "innerBubbleCount": 0.0,
+     "maxDistance": 5800.0,
+     "minDistance": 100.0,
+     "type": "far"
+    },
+    "AuraFar_Bubbles": {
+     "areaDamage": 0.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 190.0,
+     "hitChance": 0.9,
+     "innerBubbleCount": 2.0,
+     "maxDistance": 5800.0,
+     "minDistance": 3500.0,
+     "type": "far"
+    },
+    "antiAirAndSecondaries": {
+     "HP_JGS_1": {
+      "ammoList": [
+       "PXPA049_Shell_127mm_HE_C_Type_0"
+      ],
+      "barrelDiameter": 0.127,
+      "id": 4284933840,
+      "index": "PJGS009",
+      "name": "PJGS009_127mm40_Type_89",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_JGS_2": {
+      "ammoList": [
+       "PXPA049_Shell_127mm_HE_C_Type_0"
+      ],
+      "barrelDiameter": 0.127,
+      "id": 4284933840,
+      "index": "PJGS009",
+      "name": "PJGS009_127mm40_Type_89",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_JGS_3": {
+      "ammoList": [
+       "PXPA049_Shell_127mm_HE_C_Type_0"
+      ],
+      "barrelDiameter": 0.127,
+      "id": 4284933840,
+      "index": "PJGS009",
+      "name": "PJGS009_127mm40_Type_89",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_JGS_4": {
+      "ammoList": [
+       "PXPA049_Shell_127mm_HE_C_Type_0"
+      ],
+      "barrelDiameter": 0.127,
+      "id": 4284933840,
+      "index": "PJGS009",
+      "name": "PJGS009_127mm40_Type_89",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 5000.0,
+    "sigmaCount": 1.0
+   },
+   "A_AirDefense": {
+    "AuraMedium": {
+     "areaDamage": 9.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.85,
+     "innerBubbleCount": 0,
+     "maxDistance": 2500.0,
+     "minDistance": 100.0,
+     "type": "near"
+    },
+    "AuraNear": {
+     "areaDamage": 3.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.85,
+     "innerBubbleCount": 0,
+     "maxDistance": 2500.0,
+     "minDistance": 100.0,
+     "type": "near"
+    },
+    "isAA": true
+   },
+   "A_Artillery": {
     "guns": {
      "HP_JGM_1": {
       "ammoList": [
@@ -8469,11 +8742,25 @@
     "sigmaCount": 2.0,
     "taperDist": 4000.0
    },
-   "ABC1_FireControl": {
+   "A_Engine": {
+    "backwardEngineUpTime": 20.0,
+    "forwardEngineUpTime": 40.0,
+    "speedCoef": 0.0
+   },
+   "A_FireControl": {
     "maxDistCoef": 1.0,
     "sigmaCountCoef": 1.0
    },
-   "ABC1_Torpedoes": {
+   "A_Hull": {
+    "health": 35500.0,
+    "maxSpeed": 35.0,
+    "rudderTime": 9.0,
+    "speedCoef": 1.0,
+    "visibilityCoefGKInSmoke": 7.0,
+    "visibilityFactor": 12.06,
+    "visibilityFactorByPlane": 6.79
+   },
+   "A_Torpedoes": {
     "torpedoArray": {
      "HP_JGT_1": {
       "ammoList": [
@@ -8616,153 +8903,6 @@
       }
      }
     }
-   },
-   "A_ATBA": {
-    "AuraFar": {
-     "areaDamage": 19.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 0.9,
-     "innerBubbleCount": 0.0,
-     "maxDistance": 5800.0,
-     "minDistance": 100.0,
-     "type": "far"
-    },
-    "AuraFar_Bubbles": {
-     "areaDamage": 0.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 190.0,
-     "hitChance": 0.9,
-     "innerBubbleCount": 2.0,
-     "maxDistance": 5800.0,
-     "minDistance": 3500.0,
-     "type": "far"
-    },
-    "antiAirAndSecondaries": {
-     "HP_JGS_1": {
-      "ammoList": [
-       "PXPA049_Shell_127mm_HE_C_Type_0"
-      ],
-      "barrelDiameter": 0.127,
-      "id": 4284933840,
-      "index": "PJGS009",
-      "name": "PJGS009_127mm40_Type_89",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_JGS_2": {
-      "ammoList": [
-       "PXPA049_Shell_127mm_HE_C_Type_0"
-      ],
-      "barrelDiameter": 0.127,
-      "id": 4284933840,
-      "index": "PJGS009",
-      "name": "PJGS009_127mm40_Type_89",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_JGS_3": {
-      "ammoList": [
-       "PXPA049_Shell_127mm_HE_C_Type_0"
-      ],
-      "barrelDiameter": 0.127,
-      "id": 4284933840,
-      "index": "PJGS009",
-      "name": "PJGS009_127mm40_Type_89",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_JGS_4": {
-      "ammoList": [
-       "PXPA049_Shell_127mm_HE_C_Type_0"
-      ],
-      "barrelDiameter": 0.127,
-      "id": 4284933840,
-      "index": "PJGS009",
-      "name": "PJGS009_127mm40_Type_89",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     }
-    },
-    "maxDist": 5000.0,
-    "sigmaCount": 1.0
-   },
-   "A_AirDefense": {
-    "AuraMedium": {
-     "areaDamage": 9.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 0.85,
-     "innerBubbleCount": 0,
-     "maxDistance": 2500.0,
-     "minDistance": 100.0,
-     "type": "near"
-    },
-    "AuraNear": {
-     "areaDamage": 3.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 0.85,
-     "innerBubbleCount": 0,
-     "maxDistance": 2500.0,
-     "minDistance": 100.0,
-     "type": "near"
-    },
-    "isAA": true
-   },
-   "A_Hull_1935": {
-    "health": 35500.0,
-    "maxSpeed": 35.0,
-    "rudderTime": 9.0,
-    "speedCoef": 1.0,
-    "visibilityCoefGKInSmoke": 7.0,
-    "visibilityFactor": 12.06,
-    "visibilityFactorByPlane": 6.79
-   },
-   "EngineDefault": {
-    "backwardEngineUpTime": 20.0,
-    "forwardEngineUpTime": 40.0,
-    "speedCoef": 0.0
    }
   },
   "ShipAbilities": {
@@ -8778,19 +8918,14 @@
    "AbilitySlot1": {
     "abils": [
      [
-      "PXY318_RLSSearch_PVP",
+      "PXY308_HealAll_PVP",
       "H2018_PVP"
      ]
     ],
     "slot": 1
    },
    "AbilitySlot2": {
-    "abils": [
-     [
-      "PXY308_HealAll_PVP",
-      "H2018_PVP"
-     ]
-    ],
+    "abils": [],
     "slot": 2
    },
    "AbilitySlot3": {
@@ -8807,7 +8942,7 @@
     "canBuy": true,
     "components": {
      "artillery": [
-      "ABC1_Artillery"
+      "A_Artillery"
      ]
     },
     "nextShips": [],
@@ -8818,7 +8953,7 @@
     "canBuy": true,
     "components": {
      "engine": [
-      "EngineDefault"
+      "A_Engine"
      ]
     },
     "nextShips": [],
@@ -8829,32 +8964,32 @@
     "canBuy": true,
     "components": {
      "airArmament": [
-      "AirArmamentDefault"
+      "A_AirArmament"
      ],
      "airDefense": [
       "A_AirDefense"
      ],
      "artillery": [
-      "ABC1_Artillery"
+      "A_Artillery"
      ],
      "atba": [
       "A_ATBA"
      ],
      "depthCharges": [],
      "directors": [
-      "DirectorsDefault"
+      "A_Directors"
      ],
      "finders": [
-      "FindersDefault"
+      "A_Finders"
      ],
      "hull": [
-      "A_Hull_1935"
+      "A_Hull"
      ],
      "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": [
-      "ABC1_Torpedoes"
+      "A_Torpedoes"
      ]
     },
     "disabledAbilities": [],
@@ -8866,7 +9001,7 @@
     "canBuy": true,
     "components": {
      "fireControl": [
-      "ABC1_FireControl"
+      "A_FireControl"
      ]
     },
     "nextShips": [],
@@ -8877,7 +9012,7 @@
     "canBuy": true,
     "components": {
      "torpedoes": [
-      "ABC1_Torpedoes"
+      "A_Torpedoes"
      ]
     },
     "nextShips": [],
@@ -8890,7 +9025,7 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "disabled",
+  "group": "unavailable",
   "id": 4285445392,
   "index": "PXSC009",
   "level": 7,
@@ -10369,7 +10504,7 @@
  {
   "ModulesArmaments": {
    "A_Hull": {
-    "health": 40000.0,
+    "health": 45000.0,
     "maxSpeed": 65.0,
     "rudderTime": 3.5,
     "speedCoef": 1.0,
@@ -10378,7 +10513,7 @@
     "visibilityFactorByPlane": 30.0
    },
    "B_Hull": {
-    "health": 35000.0,
+    "health": 40000.0,
     "maxSpeed": 85.0,
     "rudderTime": 1.0,
     "speedCoef": 1.0,
@@ -10387,7 +10522,7 @@
     "visibilityFactorByPlane": 30.0
    },
    "C_Hull": {
-    "health": 35000.0,
+    "health": 40000.0,
     "maxSpeed": 75.0,
     "rudderTime": 3.5,
     "speedCoef": 1.0,
@@ -10437,13 +10572,13 @@
       "C_Abilities"
      ],
      "engine": [
-      "A_Engine"
+      "ABC_Engine"
      ],
      "hull": [
       "A_Hull"
      ],
      "wcs": [
-      "A_WeaponControlSystem"
+      "ABC_WeaponControlSystem"
      ]
     },
     "disabledAbilities": [],
@@ -10460,13 +10595,13 @@
       "C_Abilities"
      ],
      "engine": [
-      "A_Engine"
+      "ABC_Engine"
      ],
      "hull": [
       "B_Hull"
      ],
      "wcs": [
-      "A_WeaponControlSystem"
+      "ABC_WeaponControlSystem"
      ]
     },
     "disabledAbilities": [],
@@ -10483,7 +10618,7 @@
       "C_Abilities"
      ],
      "engine": [
-      "A_Engine"
+      "ABC_Engine"
      ],
      "hull": [
       "C_Hull"
@@ -10492,7 +10627,7 @@
       "Specials"
      ],
      "wcs": [
-      "A_WeaponControlSystem"
+      "ABC_WeaponControlSystem"
      ]
     },
     "disabledAbilities": [],
@@ -10605,7 +10740,7 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "disabled",
+  "group": "event",
   "id": 4186846480,
   "index": "PXSD103",
   "level": 10,
@@ -13609,8 +13744,8 @@
       ],
       "shotDelay": 45.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -13644,8 +13779,8 @@
       ],
       "shotDelay": 45.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -13679,8 +13814,8 @@
       ],
       "shotDelay": 45.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -13714,8 +13849,8 @@
       ],
       "shotDelay": 45.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -13749,8 +13884,8 @@
       ],
       "shotDelay": 45.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -13784,8 +13919,8 @@
       ],
       "shotDelay": 45.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -13977,8 +14112,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -14013,8 +14148,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -14049,8 +14184,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -14085,8 +14220,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -14121,8 +14256,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -14157,8 +14292,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -14193,8 +14328,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -14229,8 +14364,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -14265,8 +14400,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -14301,8 +14436,8 @@
       ],
       "shotDelay": 35.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -20110,8 +20245,8 @@
       "name": "PXGM129_Berserk_Head",
       "numBarrels": 2,
       "position": [
-       0,
-       0
+       0.0,
+       1.0
       ],
       "radiusOnDelim": 0.5,
       "radiusOnMax": 0.6,
@@ -20120,7 +20255,7 @@
        60.0,
        12.0
       ],
-      "shotDelay": 12.0,
+      "shotDelay": 2.3,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Events",
@@ -20129,14 +20264,14 @@
       }
      }
     },
-    "maxDist": 7000.0,
+    "maxDist": 9000.0,
     "normalDistribution": true,
     "sigmaCount": 2.2,
     "taperDist": 4000.0
    },
    "A_Engine": {
-    "backwardEngineUpTime": 10.0,
-    "forwardEngineUpTime": 20.0,
+    "backwardEngineUpTime": 8.0,
+    "forwardEngineUpTime": 6.0,
     "speedCoef": 0.0
    },
    "A_FireControl": {
@@ -20144,9 +20279,9 @@
     "sigmaCountCoef": 1.0
    },
    "A_Hull": {
-    "health": 20000.0,
-    "maxSpeed": 40.0,
-    "rudderTime": 1.25,
+    "health": 40000.0,
+    "maxSpeed": 90.0,
+    "rudderTime": 1.0,
     "speedCoef": 1.0,
     "visibilityCoefGKInSmoke": 30.0,
     "visibilityFactor": 30.0,
@@ -20168,12 +20303,12 @@
       "id": 4158022928,
       "index": "PXGT130",
       "name": "PXGT130_Torpedo_Quad_Berserk_L",
-      "numBarrels": 4.0,
+      "numBarrels": 3.0,
       "rotationSpeed": [
        25.0,
        25.0
       ],
-      "shotDelay": 60.0,
+      "shotDelay": 12.0,
       "torpedoAngles": [
        4.8,
        16.0
@@ -20198,12 +20333,12 @@
       "id": 4156974352,
       "index": "PXGT131",
       "name": "PXGT131_Torpedo_Quad_Berserk_R",
-      "numBarrels": 4.0,
+      "numBarrels": 3.0,
       "rotationSpeed": [
        25.0,
        25.0
       ],
-      "shotDelay": 60.0,
+      "shotDelay": 12.0,
       "torpedoAngles": [
        4.8,
        16.0
@@ -20221,18 +20356,28 @@
    "AbilitySlot0": {
     "abils": [
      [
-      "PXY316_CrashCrew_PVP",
-      "H2019"
+      "PXY401_CrashCrew_H2020",
+      "H2020"
      ]
     ],
     "slot": 0
    },
    "AbilitySlot1": {
-    "abils": [],
+    "abils": [
+     [
+      "PXY412_InvisibleRegen_H2020",
+      "H2020"
+     ]
+    ],
     "slot": 1
    },
    "AbilitySlot2": {
-    "abils": [],
+    "abils": [
+     [
+      "PXY500_GoDeep",
+      "H2020"
+     ]
+    ],
     "slot": 2
    },
    "AbilitySlot3": {
@@ -20282,7 +20427,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": [
@@ -20322,7 +20466,7 @@
    "costXP": 1,
    "value": 1
   },
-  "group": "unavailable",
+  "group": "event",
   "id": 4268635408,
   "index": "PXSD025",
   "level": 10,
@@ -20335,81 +20479,30 @@
  },
  {
   "ModulesArmaments": {
-   "A1_Torpedoes": {
-    "torpedoArray": {
-     "HP_GGT_1": {
-      "ammoList": [
-       "PXPT009_610_Type93_model_2"
-      ],
-      "barrelDiameter": 0.533,
-      "canRotate": true,
-      "deadZone": [
-       [
-        -47.0,
-        47.0
-       ]
-      ],
-      "horizSector": [
-       -135.0,
-       135.0
-      ],
-      "id": 4212549424,
-      "index": "PGGT078",
-      "name": "PGGT078_533mm_QuadTube",
-      "numBarrels": 4,
-      "rotationSpeed": [
-       25.0,
-       25.0
-      ],
-      "shotDelay": 90.0,
-      "torpedoAngles": [
-       4.8,
-       16.0
-      ],
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Torpedo",
-       "type": "Gun"
-      }
-     },
-     "HP_GGT_2": {
-      "ammoList": [
-       "PXPT009_610_Type93_model_2"
-      ],
-      "barrelDiameter": 0.533,
-      "canRotate": true,
-      "deadZone": [
-       [
-        -47.0,
-        47.0
-       ]
-      ],
-      "horizSector": [
-       -135.0,
-       135.0
-      ],
-      "id": 4212549424,
-      "index": "PGGT078",
-      "name": "PGGT078_533mm_QuadTube",
-      "numBarrels": 4,
-      "rotationSpeed": [
-       25.0,
-       25.0
-      ],
-      "shotDelay": 90.0,
-      "torpedoAngles": [
-       4.8,
-       16.0
-      ],
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Torpedo",
-       "type": "Gun"
-      }
-     }
-    }
+   "A_AirDefense": {
+    "AuraMedium": {
+     "areaDamage": 5.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 1.0,
+     "innerBubbleCount": 0,
+     "maxDistance": 3500.0,
+     "minDistance": 100.0,
+     "type": "medium"
+    },
+    "AuraNear": {
+     "areaDamage": 19.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.95,
+     "innerBubbleCount": 0,
+     "maxDistance": 2000.0,
+     "minDistance": 100.0,
+     "type": "near"
+    },
+    "isAA": true
    },
-   "AB1_Artillery": {
+   "A_Artillery": {
     "guns": {
      "HP_GGM_1": {
       "ammoList": [
@@ -20565,37 +20658,14 @@
     "sigmaCount": 2.0,
     "taperDist": 4000.0
    },
-   "AB1_FireControl": {
-    "maxDistCoef": 1.0,
-    "sigmaCountCoef": 1.0
-   },
-   "AB_Engine": {
+   "A_Engine": {
     "backwardEngineUpTime": 10.0,
     "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
    },
-   "A_AirDefense": {
-    "AuraMedium": {
-     "areaDamage": 5.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 1.0,
-     "innerBubbleCount": 0,
-     "maxDistance": 3500.0,
-     "minDistance": 100.0,
-     "type": "medium"
-    },
-    "AuraNear": {
-     "areaDamage": 19.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 0.95,
-     "innerBubbleCount": 0,
-     "maxDistance": 2000.0,
-     "minDistance": 100.0,
-     "type": "near"
-    },
-    "isAA": true
+   "A_FireControl": {
+    "maxDistCoef": 1.0,
+    "sigmaCountCoef": 1.0
    },
    "A_Hull": {
     "health": 14700.0,
@@ -20605,6 +20675,80 @@
     "visibilityCoefGKInSmoke": 3.0,
     "visibilityFactor": 7.92,
     "visibilityFactorByPlane": 3.5
+   },
+   "A_Torpedoes": {
+    "torpedoArray": {
+     "HP_GGT_1": {
+      "ammoList": [
+       "PXPT009_610_Type93_model_2"
+      ],
+      "barrelDiameter": 0.533,
+      "canRotate": true,
+      "deadZone": [
+       [
+        -47.0,
+        47.0
+       ]
+      ],
+      "horizSector": [
+       -135.0,
+       135.0
+      ],
+      "id": 4212549424,
+      "index": "PGGT078",
+      "name": "PGGT078_533mm_QuadTube",
+      "numBarrels": 4,
+      "rotationSpeed": [
+       25.0,
+       25.0
+      ],
+      "shotDelay": 90.0,
+      "torpedoAngles": [
+       4.8,
+       16.0
+      ],
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Torpedo",
+       "type": "Gun"
+      }
+     },
+     "HP_GGT_2": {
+      "ammoList": [
+       "PXPT009_610_Type93_model_2"
+      ],
+      "barrelDiameter": 0.533,
+      "canRotate": true,
+      "deadZone": [
+       [
+        -47.0,
+        47.0
+       ]
+      ],
+      "horizSector": [
+       -135.0,
+       135.0
+      ],
+      "id": 4212549424,
+      "index": "PGGT078",
+      "name": "PGGT078_533mm_QuadTube",
+      "numBarrels": 4,
+      "rotationSpeed": [
+       25.0,
+       25.0
+      ],
+      "shotDelay": 90.0,
+      "torpedoAngles": [
+       4.8,
+       16.0
+      ],
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Torpedo",
+       "type": "Gun"
+      }
+     }
+    }
    }
   },
   "ShipAbilities": {
@@ -20636,12 +20780,7 @@
     "slot": 2
    },
    "AbilitySlot3": {
-    "abils": [
-     [
-      "PXY303_AddConsumable_PVP",
-      "H2018_PVP"
-     ]
-    ],
+    "abils": [],
     "slot": 3
    },
    "AbilitySlot4": {
@@ -20654,7 +20793,7 @@
     "canBuy": true,
     "components": {
      "artillery": [
-      "AB1_Artillery"
+      "A_Artillery"
      ]
     },
     "nextShips": [],
@@ -20665,7 +20804,7 @@
     "canBuy": true,
     "components": {
      "engine": [
-      "AB_Engine"
+      "A_Engine"
      ]
     },
     "nextShips": [],
@@ -20680,22 +20819,21 @@
       "A_AirDefense"
      ],
      "artillery": [
-      "AB1_Artillery"
+      "A_Artillery"
      ],
      "atba": [],
      "depthCharges": [],
      "directors": [],
      "finders": [
-      "AB_Finders"
+      "A_Finders"
      ],
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": [
-      "A1_Torpedoes"
+      "A_Torpedoes"
      ]
     },
     "disabledAbilities": [],
@@ -20707,7 +20845,7 @@
     "canBuy": true,
     "components": {
      "fireControl": [
-      "AB1_FireControl"
+      "A_FireControl"
      ]
     },
     "nextShips": [],
@@ -20718,7 +20856,7 @@
     "canBuy": true,
     "components": {
      "torpedoes": [
-      "A1_Torpedoes"
+      "A_Torpedoes"
      ]
     },
     "nextShips": [],
@@ -20731,7 +20869,7 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "disabled",
+  "group": "unavailable",
   "id": 4286461200,
   "index": "PXSD008",
   "level": 7,
@@ -21121,30 +21259,15 @@
     "slot": 0
    },
    "AbilitySlot1": {
-    "abils": [
-     [
-      "PXY306_Vampiric_PVP",
-      "H2018_PVP"
-     ]
-    ],
+    "abils": [],
     "slot": 1
    },
    "AbilitySlot2": {
-    "abils": [
-     [
-      "PXY307_LivingArmor_PVP",
-      "H2018_PVP"
-     ]
-    ],
+    "abils": [],
     "slot": 2
    },
    "AbilitySlot3": {
-    "abils": [
-     [
-      "PXY317_SonarSearch_PVP",
-      "H2018_PVP"
-     ]
-    ],
+    "abils": [],
     "slot": 3
    },
    "AbilitySlot4": {
@@ -22545,8 +22668,8 @@
       "name": "PXGM135_Monster_Gun",
       "numBarrels": 1,
       "position": [
-       0,
-       0
+       2.0,
+       2.0
       ],
       "radiusOnDelim": 0.5,
       "radiusOnMax": 0.6,
@@ -22555,7 +22678,7 @@
        360.0,
        5.0
       ],
-      "shotDelay": 10.0,
+      "shotDelay": 6.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Events",
@@ -22581,8 +22704,8 @@
       "name": "PXGM135_Monster_Gun",
       "numBarrels": 1,
       "position": [
-       0,
-       0
+       2.0,
+       0.0
       ],
       "radiusOnDelim": 0.5,
       "radiusOnMax": 0.6,
@@ -22591,7 +22714,7 @@
        360.0,
        5.0
       ],
-      "shotDelay": 10.0,
+      "shotDelay": 6.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Events",
@@ -22617,8 +22740,8 @@
       "name": "PXGM135_Monster_Gun",
       "numBarrels": 1,
       "position": [
-       0,
-       0
+       3.0,
+       2.0
       ],
       "radiusOnDelim": 0.5,
       "radiusOnMax": 0.6,
@@ -22627,7 +22750,7 @@
        360.0,
        5.0
       ],
-      "shotDelay": 10.0,
+      "shotDelay": 6.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Events",
@@ -22653,8 +22776,8 @@
       "name": "PXGM135_Monster_Gun",
       "numBarrels": 1,
       "position": [
-       0,
-       0
+       3.0,
+       0.0
       ],
       "radiusOnDelim": 0.5,
       "radiusOnMax": 0.6,
@@ -22663,7 +22786,7 @@
        360.0,
        5.0
       ],
-      "shotDelay": 10.0,
+      "shotDelay": 6.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Events",
@@ -22689,8 +22812,8 @@
       "name": "PXGM135_Monster_Gun",
       "numBarrels": 1,
       "position": [
-       0,
-       0
+       4.0,
+       2.0
       ],
       "radiusOnDelim": 0.5,
       "radiusOnMax": 0.6,
@@ -22699,7 +22822,7 @@
        360.0,
        5.0
       ],
-      "shotDelay": 10.0,
+      "shotDelay": 6.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Events",
@@ -22725,8 +22848,8 @@
       "name": "PXGM135_Monster_Gun",
       "numBarrels": 1,
       "position": [
-       0,
-       0
+       4.0,
+       0.0
       ],
       "radiusOnDelim": 0.5,
       "radiusOnMax": 0.6,
@@ -22735,7 +22858,7 @@
        360.0,
        5.0
       ],
-      "shotDelay": 10.0,
+      "shotDelay": 6.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Events",
@@ -22761,8 +22884,8 @@
       "name": "PXGM135_Monster_Gun",
       "numBarrels": 1,
       "position": [
-       0,
-       0
+       5.0,
+       0.0
       ],
       "radiusOnDelim": 0.5,
       "radiusOnMax": 0.6,
@@ -22771,7 +22894,7 @@
        360.0,
        5.0
       ],
-      "shotDelay": 10.0,
+      "shotDelay": 6.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Events",
@@ -22797,8 +22920,8 @@
       "name": "PXGM135_Monster_Gun",
       "numBarrels": 1,
       "position": [
-       0,
-       0
+       5.0,
+       2.0
       ],
       "radiusOnDelim": 0.5,
       "radiusOnMax": 0.6,
@@ -22807,7 +22930,7 @@
        360.0,
        5.0
       ],
-      "shotDelay": 10.0,
+      "shotDelay": 6.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Events",
@@ -22816,13 +22939,13 @@
       }
      }
     },
-    "maxDist": 8000.0,
+    "maxDist": 10000.0,
     "normalDistribution": true,
     "sigmaCount": 0.27,
     "taperDist": 4000.0
    },
    "A_Engine": {
-    "backwardEngineUpTime": 10.0,
+    "backwardEngineUpTime": 12.0,
     "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
    },
@@ -22831,8 +22954,8 @@
     "sigmaCountCoef": 1.0
    },
    "A_Hull": {
-    "health": 70000.0,
-    "maxSpeed": 40.0,
+    "health": 85000.0,
+    "maxSpeed": 80.0,
     "rudderTime": 1.0,
     "speedCoef": 1.0,
     "visibilityCoefGKInSmoke": 30.0,
@@ -22843,7 +22966,7 @@
     "torpedoArray": {
      "HP_XGM_1": {
       "ammoList": [
-       "PXPT119_Berserk"
+       "PXPT121_Monster_Cruiser"
       ],
       "barrelDiameter": 0.61,
       "canRotate": true,
@@ -22878,8 +23001,8 @@
    "AbilitySlot0": {
     "abils": [
      [
-      "PXY316_CrashCrew_PVP",
-      "H2019"
+      "PXY401_CrashCrew_H2020",
+      "H2020"
      ]
     ],
     "slot": 0
@@ -22887,14 +23010,19 @@
    "AbilitySlot1": {
     "abils": [
      [
-      "PXY500_GoDeep",
-      "Default"
+      "PXY402_Regen_H2020",
+      "H2020"
      ]
     ],
     "slot": 1
    },
    "AbilitySlot2": {
-    "abils": [],
+    "abils": [
+     [
+      "PXY411_CircleWave_H2020",
+      "H2020_MC"
+     ]
+    ],
     "slot": 2
    },
    "AbilitySlot3": {
@@ -22944,7 +23072,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": [
@@ -22984,7 +23111,7 @@
    "costXP": 1,
    "value": 1
   },
-  "group": "unavailable",
+  "group": "event",
   "id": 4278105360,
   "index": "PXSC016",
   "level": 10,
@@ -24378,7 +24505,7 @@
     "sigmaCount": 1.5
    },
    "A_Hull": {
-    "health": 70000.0,
+    "health": 80000.0,
     "maxSpeed": 65.0,
     "rudderTime": 7.0,
     "speedCoef": 1.0,
@@ -24909,7 +25036,7 @@
     "sigmaCount": 1.5
    },
    "B_Hull": {
-    "health": 85000.0,
+    "health": 95000.0,
     "maxSpeed": 65.0,
     "rudderTime": 7.0,
     "speedCoef": 1.0,
@@ -25440,7 +25567,7 @@
     "sigmaCount": 1.5
    },
    "C_Hull": {
-    "health": 70000.0,
+    "health": 80000.0,
     "maxSpeed": 75.0,
     "rudderTime": 7.0,
     "speedCoef": 1.0,
@@ -25500,13 +25627,13 @@
       "A3_ATBA"
      ],
      "directors": [
-      "DirectorsDefault"
+      "ABC_Directors"
      ],
      "engine": [
-      "EngineDefault"
+      "ABC_Engine"
      ],
      "finders": [
-      "FindersDefault"
+      "ABC_Finders"
      ],
      "hull": [
       "A_Hull"
@@ -25536,13 +25663,13 @@
       "B3_ATBA"
      ],
      "directors": [
-      "DirectorsDefault"
+      "ABC_Directors"
      ],
      "engine": [
-      "EngineDefault"
+      "ABC_Engine"
      ],
      "finders": [
-      "FindersDefault"
+      "ABC_Finders"
      ],
      "hull": [
       "B_Hull"
@@ -25572,13 +25699,13 @@
       "C3_ATBA"
      ],
      "directors": [
-      "DirectorsDefault"
+      "ABC_Directors"
      ],
      "engine": [
-      "EngineDefault"
+      "ABC_Engine"
      ],
      "finders": [
-      "FindersDefault"
+      "ABC_Finders"
      ],
      "hull": [
       "C_Hull"
@@ -25712,7 +25839,7 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "disabled",
+  "group": "event",
   "id": 4188976400,
   "index": "PXSC101",
   "level": 9,
@@ -26254,21 +26381,11 @@
     "slot": 0
    },
    "AbilitySlot1": {
-    "abils": [
-     [
-      "PXY321_Invulnerable_PVP",
-      "H2018_PVP"
-     ]
-    ],
+    "abils": [],
     "slot": 1
    },
    "AbilitySlot2": {
-    "abils": [
-     [
-      "PXY311_LifeDrain_PVP",
-      "H2018_PVP"
-     ]
-    ],
+    "abils": [],
     "slot": 2
    },
    "AbilitySlot3": {
@@ -26591,7 +26708,7 @@
  {
   "ModulesArmaments": {
    "A_Hull": {
-    "health": 40000.0,
+    "health": 35000.0,
     "maxSpeed": 70.0,
     "rudderTime": 5.0,
     "speedCoef": 1.0,
@@ -26600,7 +26717,7 @@
     "visibilityFactorByPlane": 30.0
    },
    "B_Hull": {
-    "health": 40000.0,
+    "health": 35000.0,
     "maxSpeed": 70.0,
     "rudderTime": 5.0,
     "speedCoef": 1.0,
@@ -26609,7 +26726,7 @@
     "visibilityFactorByPlane": 30.0
    },
    "C_Hull": {
-    "health": 40000.0,
+    "health": 35000.0,
     "maxSpeed": 70.0,
     "rudderTime": 5.0,
     "speedCoef": 1.0,
@@ -26659,7 +26776,7 @@
       "C_Abilities"
      ],
      "engine": [
-      "A_Engine"
+      "ABC_Engine"
      ],
      "hull": [
       "A_Hull"
@@ -26668,7 +26785,7 @@
       "A_Specials"
      ],
      "wcs": [
-      "A_WeaponControlSystem"
+      "ABC_WeaponControlSystem"
      ]
     },
     "disabledAbilities": [],
@@ -26685,7 +26802,7 @@
       "C_Abilities"
      ],
      "engine": [
-      "A_Engine"
+      "ABC_Engine"
      ],
      "hull": [
       "B_Hull"
@@ -26694,7 +26811,7 @@
       "B_Specials"
      ],
      "wcs": [
-      "A_WeaponControlSystem"
+      "ABC_WeaponControlSystem"
      ]
     },
     "disabledAbilities": [],
@@ -26711,7 +26828,7 @@
       "C_Abilities"
      ],
      "engine": [
-      "A_Engine"
+      "ABC_Engine"
      ],
      "hull": [
       "C_Hull"
@@ -26720,7 +26837,7 @@
       "C_Specials"
      ],
      "wcs": [
-      "A_WeaponControlSystem"
+      "ABC_WeaponControlSystem"
      ]
     },
     "disabledAbilities": [],
@@ -26833,7 +26950,7 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "disabled",
+  "group": "event",
   "id": 4187895056,
   "index": "PXSD102",
   "level": 10,
@@ -27489,7 +27606,7 @@
  {
   "ModulesArmaments": {
    "A_Hull": {
-    "health": 130000.0,
+    "health": 120000.0,
     "maxSpeed": 50.0,
     "rudderTime": 10.0,
     "speedCoef": 1.0,
@@ -27498,7 +27615,7 @@
     "visibilityFactorByPlane": 30.0
    },
    "B_Hull": {
-    "health": 110000.0,
+    "health": 100000.0,
     "maxSpeed": 65.0,
     "rudderTime": 3.0,
     "speedCoef": 1.0,
@@ -27507,7 +27624,7 @@
     "visibilityFactorByPlane": 30.0
    },
    "C_Hull": {
-    "health": 110000.0,
+    "health": 100000.0,
     "maxSpeed": 50.0,
     "rudderTime": 10.0,
     "speedCoef": 1.0,
@@ -27557,13 +27674,13 @@
       "C_Abilities"
      ],
      "engine": [
-      "A_Engine"
+      "ABC_Engine"
      ],
      "hull": [
       "A_Hull"
      ],
      "wcs": [
-      "A_WeaponControlSystem"
+      "ABC_WeaponControlSystem"
      ]
     },
     "disabledAbilities": [],
@@ -27580,13 +27697,13 @@
       "C_Abilities"
      ],
      "engine": [
-      "A_Engine"
+      "ABC_Engine"
      ],
      "hull": [
       "B_Hull"
      ],
      "wcs": [
-      "A_WeaponControlSystem"
+      "ABC_WeaponControlSystem"
      ]
     },
     "disabledAbilities": [],
@@ -27603,7 +27720,7 @@
       "C_Abilities"
      ],
      "engine": [
-      "A_Engine"
+      "ABC_Engine"
      ],
      "hull": [
       "C_Hull"
@@ -27612,7 +27729,7 @@
       "Specials"
      ],
      "wcs": [
-      "A_WeaponControlSystem"
+      "ABC_WeaponControlSystem"
      ]
     },
     "disabledAbilities": [],
@@ -27725,7 +27842,7 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "disabled",
+  "group": "event",
   "id": 4189009168,
   "index": "PXSB101",
   "level": 10,
@@ -28858,21 +28975,11 @@
     "slot": 0
    },
    "AbilitySlot1": {
-    "abils": [
-     [
-      "PXY319_SpeedBooster_PVP",
-      "H2018_PVP"
-     ]
-    ],
+    "abils": [],
     "slot": 1
    },
    "AbilitySlot2": {
-    "abils": [
-     [
-      "PXY301_Immortal_PVP",
-      "H2018_PVP"
-     ]
-    ],
+    "abils": [],
     "slot": 2
    },
    "AbilitySlot3": {
@@ -32826,7 +32933,7 @@
       "A3_ATBA"
      ],
      "engine": [
-      "A_Engine"
+      "ABC_Engine"
      ],
      "hull": [
       "A_Hull"
@@ -32840,7 +32947,7 @@
       "A3_Torpedoes"
      ],
      "wcs": [
-      "A_WeaponControlSystem"
+      "ABC_WeaponControlSystem"
      ]
     },
     "disabledAbilities": [],
@@ -32862,7 +32969,7 @@
       "B3_ATBA"
      ],
      "engine": [
-      "A_Engine"
+      "ABC_Engine"
      ],
      "hull": [
       "B_Hull"
@@ -32876,7 +32983,7 @@
       "B3_Torpedoes"
      ],
      "wcs": [
-      "A_WeaponControlSystem"
+      "ABC_WeaponControlSystem"
      ]
     },
     "disabledAbilities": [],
@@ -32898,7 +33005,7 @@
       "C3_ATBA"
      ],
      "engine": [
-      "A_Engine"
+      "ABC_Engine"
      ],
      "hull": [
       "C_Hull"
@@ -32912,7 +33019,7 @@
       "C3_Torpedoes"
      ],
      "wcs": [
-      "A_WeaponControlSystem"
+      "ABC_WeaponControlSystem"
      ]
     },
     "disabledAbilities": [],
@@ -33043,7 +33150,7 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "disabled",
+  "group": "event",
   "id": 4187927824,
   "index": "PXSC102",
   "level": 9,
@@ -34405,14 +34512,14 @@
       ],
       "id": 4150912272,
       "idealDistance": 1000.0,
-      "idealRadius": 12.0,
+      "idealRadius": 14.0,
       "index": "PXGM137",
       "minRadius": 2.0,
       "name": "PXGM137_Big_Monster_Gun",
       "numBarrels": 1,
       "position": [
-       0,
-       0
+       0.5,
+       2.0
       ],
       "radiusOnDelim": 0.5,
       "radiusOnMax": 0.6,
@@ -34421,7 +34528,7 @@
        90.0,
        90.0
       ],
-      "shotDelay": 10.0,
+      "shotDelay": 22.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Events",
@@ -34441,14 +34548,14 @@
       ],
       "id": 4150912272,
       "idealDistance": 1000.0,
-      "idealRadius": 12.0,
+      "idealRadius": 14.0,
       "index": "PXGM137",
       "minRadius": 2.0,
       "name": "PXGM137_Big_Monster_Gun",
       "numBarrels": 1,
       "position": [
-       0,
-       0
+       4.5,
+       0.0
       ],
       "radiusOnDelim": 0.5,
       "radiusOnMax": 0.6,
@@ -34457,7 +34564,7 @@
        90.0,
        90.0
       ],
-      "shotDelay": 10.0,
+      "shotDelay": 22.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Events",
@@ -34477,14 +34584,14 @@
       ],
       "id": 4150912272,
       "idealDistance": 1000.0,
-      "idealRadius": 12.0,
+      "idealRadius": 14.0,
       "index": "PXGM137",
       "minRadius": 2.0,
       "name": "PXGM137_Big_Monster_Gun",
       "numBarrels": 1,
       "position": [
-       0,
-       0
+       5.5,
+       2.0
       ],
       "radiusOnDelim": 0.5,
       "radiusOnMax": 0.6,
@@ -34493,7 +34600,7 @@
        90.0,
        90.0
       ],
-      "shotDelay": 10.0,
+      "shotDelay": 22.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Events",
@@ -34513,14 +34620,14 @@
       ],
       "id": 4150912272,
       "idealDistance": 1000.0,
-      "idealRadius": 12.0,
+      "idealRadius": 14.0,
       "index": "PXGM137",
       "minRadius": 2.0,
       "name": "PXGM137_Big_Monster_Gun",
       "numBarrels": 1,
       "position": [
-       0,
-       0
+       5.5,
+       0.0
       ],
       "radiusOnDelim": 0.5,
       "radiusOnMax": 0.6,
@@ -34529,7 +34636,7 @@
        90.0,
        90.0
       ],
-      "shotDelay": 10.0,
+      "shotDelay": 22.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Events",
@@ -34549,14 +34656,14 @@
       ],
       "id": 4150912272,
       "idealDistance": 1000.0,
-      "idealRadius": 12.0,
+      "idealRadius": 14.0,
       "index": "PXGM137",
       "minRadius": 2.0,
       "name": "PXGM137_Big_Monster_Gun",
       "numBarrels": 1,
       "position": [
-       0,
-       0
+       6.5,
+       2.0
       ],
       "radiusOnDelim": 0.5,
       "radiusOnMax": 0.6,
@@ -34565,7 +34672,7 @@
        90.0,
        90.0
       ],
-      "shotDelay": 10.0,
+      "shotDelay": 22.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Events",
@@ -34585,14 +34692,14 @@
       ],
       "id": 4150912272,
       "idealDistance": 1000.0,
-      "idealRadius": 12.0,
+      "idealRadius": 14.0,
       "index": "PXGM137",
       "minRadius": 2.0,
       "name": "PXGM137_Big_Monster_Gun",
       "numBarrels": 1,
       "position": [
-       0,
-       0
+       6.5,
+       0.0
       ],
       "radiusOnDelim": 0.5,
       "radiusOnMax": 0.6,
@@ -34601,7 +34708,7 @@
        90.0,
        90.0
       ],
-      "shotDelay": 10.0,
+      "shotDelay": 22.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Events",
@@ -34621,14 +34728,14 @@
       ],
       "id": 4150912272,
       "idealDistance": 1000.0,
-      "idealRadius": 12.0,
+      "idealRadius": 14.0,
       "index": "PXGM137",
       "minRadius": 2.0,
       "name": "PXGM137_Big_Monster_Gun",
       "numBarrels": 1,
       "position": [
-       0,
-       0
+       0.5,
+       0.0
       ],
       "radiusOnDelim": 0.5,
       "radiusOnMax": 0.6,
@@ -34637,7 +34744,7 @@
        90.0,
        90.0
       ],
-      "shotDelay": 10.0,
+      "shotDelay": 22.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Events",
@@ -34657,14 +34764,14 @@
       ],
       "id": 4150912272,
       "idealDistance": 1000.0,
-      "idealRadius": 12.0,
+      "idealRadius": 14.0,
       "index": "PXGM137",
       "minRadius": 2.0,
       "name": "PXGM137_Big_Monster_Gun",
       "numBarrels": 1,
       "position": [
-       0,
-       0
+       1.5,
+       2.0
       ],
       "radiusOnDelim": 0.5,
       "radiusOnMax": 0.6,
@@ -34673,7 +34780,7 @@
        90.0,
        90.0
       ],
-      "shotDelay": 10.0,
+      "shotDelay": 22.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Events",
@@ -34693,14 +34800,14 @@
       ],
       "id": 4150912272,
       "idealDistance": 1000.0,
-      "idealRadius": 12.0,
+      "idealRadius": 14.0,
       "index": "PXGM137",
       "minRadius": 2.0,
       "name": "PXGM137_Big_Monster_Gun",
       "numBarrels": 1,
       "position": [
-       0,
-       0
+       1.5,
+       0.0
       ],
       "radiusOnDelim": 0.5,
       "radiusOnMax": 0.6,
@@ -34709,7 +34816,7 @@
        90.0,
        90.0
       ],
-      "shotDelay": 10.0,
+      "shotDelay": 22.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Events",
@@ -34729,14 +34836,14 @@
       ],
       "id": 4150912272,
       "idealDistance": 1000.0,
-      "idealRadius": 12.0,
+      "idealRadius": 14.0,
       "index": "PXGM137",
       "minRadius": 2.0,
       "name": "PXGM137_Big_Monster_Gun",
       "numBarrels": 1,
       "position": [
-       0,
-       0
+       2.5,
+       2.0
       ],
       "radiusOnDelim": 0.5,
       "radiusOnMax": 0.6,
@@ -34745,7 +34852,7 @@
        90.0,
        90.0
       ],
-      "shotDelay": 10.0,
+      "shotDelay": 22.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Events",
@@ -34765,14 +34872,14 @@
       ],
       "id": 4150912272,
       "idealDistance": 1000.0,
-      "idealRadius": 12.0,
+      "idealRadius": 14.0,
       "index": "PXGM137",
       "minRadius": 2.0,
       "name": "PXGM137_Big_Monster_Gun",
       "numBarrels": 1,
       "position": [
-       0,
-       0
+       2.5,
+       0.0
       ],
       "radiusOnDelim": 0.5,
       "radiusOnMax": 0.6,
@@ -34781,7 +34888,7 @@
        90.0,
        90.0
       ],
-      "shotDelay": 10.0,
+      "shotDelay": 22.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Events",
@@ -34801,14 +34908,14 @@
       ],
       "id": 4150912272,
       "idealDistance": 1000.0,
-      "idealRadius": 12.0,
+      "idealRadius": 14.0,
       "index": "PXGM137",
       "minRadius": 2.0,
       "name": "PXGM137_Big_Monster_Gun",
       "numBarrels": 1,
       "position": [
-       0,
-       0
+       3.5,
+       2.0
       ],
       "radiusOnDelim": 0.5,
       "radiusOnMax": 0.6,
@@ -34817,7 +34924,7 @@
        90.0,
        90.0
       ],
-      "shotDelay": 10.0,
+      "shotDelay": 22.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Events",
@@ -34837,14 +34944,14 @@
       ],
       "id": 4150912272,
       "idealDistance": 1000.0,
-      "idealRadius": 12.0,
+      "idealRadius": 14.0,
       "index": "PXGM137",
       "minRadius": 2.0,
       "name": "PXGM137_Big_Monster_Gun",
       "numBarrels": 1,
       "position": [
-       0,
-       0
+       3.5,
+       0.0
       ],
       "radiusOnDelim": 0.5,
       "radiusOnMax": 0.6,
@@ -34853,7 +34960,7 @@
        90.0,
        90.0
       ],
-      "shotDelay": 10.0,
+      "shotDelay": 22.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Events",
@@ -34873,14 +34980,14 @@
       ],
       "id": 4150912272,
       "idealDistance": 1000.0,
-      "idealRadius": 12.0,
+      "idealRadius": 14.0,
       "index": "PXGM137",
       "minRadius": 2.0,
       "name": "PXGM137_Big_Monster_Gun",
       "numBarrels": 1,
       "position": [
-       0,
-       0
+       4.5,
+       2.0
       ],
       "radiusOnDelim": 0.5,
       "radiusOnMax": 0.6,
@@ -34889,7 +34996,7 @@
        90.0,
        90.0
       ],
-      "shotDelay": 10.0,
+      "shotDelay": 22.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Events",
@@ -34898,14 +35005,14 @@
       }
      }
     },
-    "maxDist": 10000.0,
+    "maxDist": 11000.0,
     "normalDistribution": true,
     "sigmaCount": 1.5,
     "taperDist": 5000.0
    },
    "A_Engine": {
-    "backwardEngineUpTime": 30.0,
-    "forwardEngineUpTime": 60.0,
+    "backwardEngineUpTime": 15.0,
+    "forwardEngineUpTime": 12.0,
     "speedCoef": 0.0
    },
    "A_FireControl": {
@@ -34914,7 +35021,7 @@
    },
    "A_Hull": {
     "health": 120000.0,
-    "maxSpeed": 30.0,
+    "maxSpeed": 60.0,
     "rudderTime": 0.7,
     "speedCoef": 1.0,
     "visibilityCoefGKInSmoke": 30.0,
@@ -34960,18 +35067,28 @@
    "AbilitySlot0": {
     "abils": [
      [
-      "PXY316_CrashCrew_PVP",
-      "H2019"
+      "PXY401_CrashCrew_H2020",
+      "H2020"
      ]
     ],
     "slot": 0
    },
    "AbilitySlot1": {
-    "abils": [],
+    "abils": [
+     [
+      "PXY410_DrainZone_H2020",
+      "H2020_CB"
+     ]
+    ],
     "slot": 1
    },
    "AbilitySlot2": {
-    "abils": [],
+    "abils": [
+     [
+      "PXY407_ResistAllBuff_H2020",
+      "H2020"
+     ]
+    ],
     "slot": 2
    },
    "AbilitySlot3": {
@@ -35021,7 +35138,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": [
@@ -35061,7 +35177,7 @@
    "costXP": 1,
    "value": 1
   },
-  "group": "unavailable",
+  "group": "event",
   "id": 4279186704,
   "index": "PXSB015",
   "level": 10,

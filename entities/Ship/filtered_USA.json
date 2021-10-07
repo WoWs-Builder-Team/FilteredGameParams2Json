@@ -935,11 +935,11 @@
    },
    "ABC_AirSupport": {
     "chargesNum": 2,
-    "flyAwayTime": 15.0,
-    "maxDist": 12000,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
     "maxPlaneFlightDist": 4550,
     "minDist": 1500,
-    "planeName": "PAAD904_ASW_T9_ALT",
+    "planeName": "PAAD903_ASW_T8_ALT",
     "reloadTime": 50.0,
     "timeBetweenShots": 2.0,
     "timeFromHeaven": 2.0
@@ -3891,6 +3891,17 @@
     "maxDistCoef": 1.0,
     "sigmaCountCoef": 1.0
    },
+   "AB_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 4000,
+    "maxPlaneFlightDist": 3400,
+    "minDist": 500,
+    "planeName": "PAAD902_ASW_T6",
+    "reloadTime": 60,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_ATBA": {
     "Far_1": {
      "areaDamage": 21.0,
@@ -4190,9 +4201,14 @@
    "PAUH691_JULIO": {
     "canBuy": true,
     "components": {
-     "airArmament": [],
+     "airArmament": [
+      "A_AirArmament"
+     ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -4565,6 +4581,17 @@
     "maxDist": 6600.0,
     "sigmaCount": 1.0
    },
+   "AB_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 5000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "AB_Engine": {
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
@@ -4717,6 +4744,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB1_Artillery"
      ],
@@ -4752,6 +4782,9 @@
      ],
      "airDefense": [
       "B_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "AB1_Artillery"
@@ -5040,6 +5073,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 5000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_Artillery": {
     "guns": {
      "HP_AGM_1": {
@@ -5254,6 +5298,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A_Artillery"
@@ -5598,6 +5645,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 6000,
+    "maxPlaneFlightDist": 3800,
+    "minDist": 500,
+    "planeName": "PAAD905_ASW_T10_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_Engine": {
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
@@ -5685,9 +5743,14 @@
    "PAUH902_SALEM": {
     "canBuy": true,
     "components": {
-     "airArmament": [],
+     "airArmament": [
+      "A_AirArmament"
+     ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -7611,9 +7674,9 @@
    },
    "AB_AirSupport": {
     "chargesNum": 1,
-    "flyAwayTime": 15.0,
-    "maxDist": 12000,
-    "maxPlaneFlightDist": 5600,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
+    "maxPlaneFlightDist": 4900,
     "minDist": 1500,
     "planeName": "PAAD906_ASW_T8",
     "reloadTime": 95.0,
@@ -8416,9 +8479,9 @@
    },
    "A_AirSupport": {
     "chargesNum": 1,
-    "flyAwayTime": 15.0,
-    "maxDist": 13000,
-    "maxPlaneFlightDist": 4900,
+    "flyAwayTime": 5.0,
+    "maxDist": 11000,
+    "maxPlaneFlightDist": 4200,
     "minDist": 1500,
     "planeName": "PAAD908_ASW_T10",
     "reloadTime": 95.0,
@@ -10139,6 +10202,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 5000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_Artillery": {
     "guns": {
      "HP_AGM_1": {
@@ -10345,11 +10419,15 @@
    "PAUH720_ROCHESTER": {
     "canBuy": true,
     "components": {
-     "airArmament": [],
+     "airArmament": [
+      "A_AirArmament"
+     ],
      "airDefense": [
       "A_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "A_AirSupport"
+     ],
      "artillery": [
       "A_Artillery"
      ],
@@ -11098,7 +11176,7 @@
       ]
      }
     ],
-    "waveDistance": 12500.0,
+    "waveDistance": 11000.0,
     "waveHitAlertTime": 10,
     "waveHitLifeTime": 100,
     "waveParams": [
@@ -11145,8 +11223,8 @@
       ],
       "shotDelay": 48.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -11180,8 +11258,8 @@
       ],
       "shotDelay": 48.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -11215,8 +11293,8 @@
       ],
       "shotDelay": 48.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -11250,8 +11328,8 @@
       ],
       "shotDelay": 48.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -11285,8 +11363,8 @@
       ],
       "shotDelay": 48.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -11320,8 +11398,8 @@
       ],
       "shotDelay": 48.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -11355,8 +11433,8 @@
       ],
       "shotDelay": 48.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -11390,8 +11468,8 @@
       ],
       "shotDelay": 48.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -13125,6 +13203,17 @@
     "maxDistCoef": 1.1,
     "sigmaCountCoef": 1.0
    },
+   "AB_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 4000,
+    "maxPlaneFlightDist": 3600,
+    "minDist": 500,
+    "planeName": "PAAD909_ASW_T5",
+    "reloadTime": 60,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "AB_Engine": {
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
@@ -13275,6 +13364,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB1_Artillery",
       "AB2_Artillery"
@@ -13309,6 +13401,9 @@
      ],
      "airDefense": [
       "B_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "AB1_Artillery",
@@ -15435,6 +15530,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 5000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_Engine": {
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
@@ -15535,6 +15641,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -16129,9 +16238,9 @@
    },
    "AB_AirSupport": {
     "chargesNum": 1,
-    "flyAwayTime": 15.0,
-    "maxDist": 10000,
-    "maxPlaneFlightDist": 3500,
+    "flyAwayTime": 5.0,
+    "maxDist": 8000,
+    "maxPlaneFlightDist": 3600,
     "minDist": 1500,
     "planeName": "PAAD902_ASW_T6",
     "reloadTime": 60.0,
@@ -16736,6 +16845,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 5000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_Engine": {
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
@@ -16828,6 +16948,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -17575,10 +17698,13 @@
    "PAUH610_HULL_BLACK_ATLANTA": {
     "canBuy": true,
     "components": {
-     "airArmament": [],
+     "airArmament": [
+      "A_AirArmament"
+     ],
      "airDefense": [
       "A_AirDefense"
      ],
+     "airSupport": [],
      "artillery": [
       "A1_Artillery"
      ],
@@ -18036,6 +18162,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 5000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 1500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 90.0,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_Hull": {
     "health": 66300.0,
     "maxSpeed": 27.5,
@@ -18118,6 +18255,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -18607,6 +18747,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 6000,
+    "maxPlaneFlightDist": 3900,
+    "minDist": 1500,
+    "planeName": "PAAD909_ASW_T5",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_Artillery": {
     "guns": {
      "HP_AGM_1": {
@@ -18847,6 +18998,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
+     "airSupport": [
+      "A_AirSupport"
+     ],
      "artillery": [
       "A_Artillery"
      ],
@@ -19024,6 +19178,17 @@
    "A1_FireControl": {
     "maxDistCoef": 1.0,
     "sigmaCountCoef": 1.0
+   },
+   "AB_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 4000,
+    "maxPlaneFlightDist": 3400,
+    "minDist": 500,
+    "planeName": "PAAD902_ASW_T6",
+    "reloadTime": 60,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
    },
    "A_ATBA": {
     "AuraFar": {
@@ -19334,6 +19499,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "A1_Artillery"
      ],
@@ -19389,6 +19557,17 @@
  },
  {
   "ModulesArmaments": {
+   "AB_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 4000,
+    "maxPlaneFlightDist": 3600,
+    "minDist": 500,
+    "planeName": "PAAD909_ASW_T5",
+    "reloadTime": 60,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "AirDefenseDefault": {
     "AuraFar": {
      "areaDamage": 6.0,
@@ -19931,6 +20110,9 @@
      ],
      "airDefense": [
       "AirDefenseDefault"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "ArtilleryDefault"
@@ -21932,9 +22114,9 @@
    },
    "A_AirSupport": {
     "chargesNum": 2,
-    "flyAwayTime": 15.0,
-    "maxDist": 12000,
-    "maxPlaneFlightDist": 3850,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
+    "maxPlaneFlightDist": 4550,
     "minDist": 1500,
     "planeName": "PAAD903_ASW_T8_ALT",
     "reloadTime": 50.0,
@@ -22301,6 +22483,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 6000,
+    "maxPlaneFlightDist": 3800,
+    "minDist": 500,
+    "planeName": "PAAD905_ASW_T10_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_Artillery": {
     "guns": {
      "HP_AGM_1": {
@@ -22561,6 +22754,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A_Artillery"
@@ -23417,11 +23613,11 @@
    },
    "A_AirSupport": {
     "chargesNum": 2,
-    "flyAwayTime": 15.0,
-    "maxDist": 12000,
-    "maxPlaneFlightDist": 3500,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
+    "maxPlaneFlightDist": 4550,
     "minDist": 1500,
-    "planeName": "PAAD904_ASW_T9_ALT",
+    "planeName": "PAAD903_ASW_T8_ALT",
     "reloadTime": 50.0,
     "timeBetweenShots": 0.1,
     "timeFromHeaven": 2.0
@@ -24330,9 +24526,9 @@
    },
    "A_AirSupport": {
     "chargesNum": 1,
-    "flyAwayTime": 15.0,
-    "maxDist": 10000,
-    "maxPlaneFlightDist": 2800,
+    "flyAwayTime": 5.0,
+    "maxDist": 8000,
+    "maxPlaneFlightDist": 3600,
     "minDist": 1500,
     "planeName": "PAAD902_ASW_T6",
     "reloadTime": 60.0,
@@ -25303,7 +25499,7 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "special",
   "id": 3750705136,
   "index": "PASB519",
   "level": 9,
@@ -25479,6 +25675,17 @@
    "AB2_FireControl": {
     "maxDistCoef": 1.1,
     "sigmaCountCoef": 1.0
+   },
+   "AB_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 4000,
+    "maxPlaneFlightDist": 3400,
+    "minDist": 500,
+    "planeName": "PAAD902_ASW_T6",
+    "reloadTime": 60,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
    },
    "AB_Engine": {
     "backwardEngineUpTime": 20.0,
@@ -25844,6 +26051,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB1_Artillery"
      ],
@@ -25877,6 +26087,9 @@
      ],
      "airDefense": [
       "B_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "AB1_Artillery"
@@ -25972,6 +26185,17 @@
      "type": "near"
     },
     "isAA": true
+   },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 6000,
+    "maxPlaneFlightDist": 3800,
+    "minDist": 500,
+    "planeName": "PAAD905_ASW_T10_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
    },
    "A_Artillery": {
     "Far_1": {
@@ -26324,6 +26548,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A_Artillery"
@@ -30218,9 +30445,9 @@
    },
    "A_AirSupport": {
     "chargesNum": 1,
-    "flyAwayTime": 15.0,
-    "maxDist": 10000,
-    "maxPlaneFlightDist": 2800,
+    "flyAwayTime": 5.0,
+    "maxDist": 8000,
+    "maxPlaneFlightDist": 3600,
     "minDist": 1500,
     "planeName": "PAAD902_ASW_T6",
     "reloadTime": 60.0,
@@ -30774,6 +31001,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 6000,
+    "maxPlaneFlightDist": 3800,
+    "minDist": 1500,
+    "planeName": "PAAD905_ASW_T10_ALT",
+    "reloadTime": 50.0,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_Artillery": {
     "guns": {
      "HP_AGM_1": {
@@ -31017,6 +31255,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A_Artillery"
@@ -31664,9 +31905,9 @@
    },
    "A_AirSupport": {
     "chargesNum": 1,
-    "flyAwayTime": 15.0,
-    "maxDist": 10000,
-    "maxPlaneFlightDist": 2800,
+    "flyAwayTime": 5.0,
+    "maxDist": 8000,
+    "maxPlaneFlightDist": 3600,
     "minDist": 1500,
     "planeName": "PAAD902_ASW_T6",
     "reloadTime": 60.0,
@@ -33973,6 +34214,17 @@
     "maxDist": 5600.0,
     "sigmaCount": 1.0
    },
+   "AB_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 4000,
+    "maxPlaneFlightDist": 3400,
+    "minDist": 500,
+    "planeName": "PAAD902_ASW_T6",
+    "reloadTime": 60,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "AB_Engine": {
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
@@ -34116,7 +34368,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB1_Artillery"
      ],
@@ -34151,7 +34405,9 @@
      "airDefense": [
       "B_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB1_Artillery"
      ],
@@ -34476,9 +34732,9 @@
    },
    "AB_AirSupport": {
     "chargesNum": 2,
-    "flyAwayTime": 15.0,
-    "maxDist": 12000,
-    "maxPlaneFlightDist": 4900,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
+    "maxPlaneFlightDist": 4550,
     "minDist": 1500,
     "planeName": "PAAD903_ASW_T8_ALT",
     "reloadTime": 50.0,
@@ -35574,9 +35830,9 @@
    },
    "A_AirSupport": {
     "chargesNum": 1,
-    "flyAwayTime": 15.0,
-    "maxDist": 10000,
-    "maxPlaneFlightDist": 3500,
+    "flyAwayTime": 5.0,
+    "maxDist": 8000,
+    "maxPlaneFlightDist": 3600,
     "minDist": 1500,
     "planeName": "PAAD902_ASW_T6",
     "reloadTime": 60.0,
@@ -36924,6 +37180,17 @@
     "maxDistCoef": 1.1,
     "sigmaCountCoef": 1.0
    },
+   "AB_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 4000,
+    "maxPlaneFlightDist": 3400,
+    "minDist": 500,
+    "planeName": "PAAD902_ASW_T6",
+    "reloadTime": 60,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "AB_Engine": {
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
@@ -37288,6 +37555,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB1_Artillery"
      ],
@@ -37321,6 +37591,9 @@
      ],
      "airDefense": [
       "B_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "AB1_Artillery"
@@ -40851,7 +41124,7 @@
       ]
      }
     ],
-    "waveDistance": 14000.0,
+    "waveDistance": 12000.0,
     "waveHitAlertTime": 10,
     "waveHitLifeTime": 100,
     "waveParams": [
@@ -40898,8 +41171,8 @@
       ],
       "shotDelay": 46.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -40933,8 +41206,8 @@
       ],
       "shotDelay": 46.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -40968,8 +41241,8 @@
       ],
       "shotDelay": 46.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -41003,8 +41276,8 @@
       ],
       "shotDelay": 46.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -41038,8 +41311,8 @@
       ],
       "shotDelay": 46.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -41073,8 +41346,8 @@
       ],
       "shotDelay": 46.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -41108,8 +41381,8 @@
       ],
       "shotDelay": 46.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -41143,8 +41416,8 @@
       ],
       "shotDelay": 46.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -41178,8 +41451,8 @@
       ],
       "shotDelay": 46.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -41213,8 +41486,8 @@
       ],
       "shotDelay": 46.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -43184,6 +43457,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 5000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_Hull": {
     "health": 41800.0,
     "maxSpeed": 33.0,
@@ -43270,6 +43554,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -44415,6 +44702,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 5000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 1500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 50.0,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_Hull": {
     "health": 66300.0,
     "maxSpeed": 27.5,
@@ -44497,6 +44795,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -44819,14 +45120,14 @@
     "isAA": true
    },
    "A_AirSupport": {
-    "chargesNum": 1,
-    "flyAwayTime": 15.0,
-    "maxDist": 12000,
-    "maxPlaneFlightDist": 4200,
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 11000,
+    "maxPlaneFlightDist": 3800,
     "minDist": 1500,
     "planeName": "PAAD905_ASW_T10_ALT",
     "reloadTime": 50.0,
-    "timeBetweenShots": 0.1,
+    "timeBetweenShots": 2.0,
     "timeFromHeaven": 2.0
    },
    "A_Artillery": {
@@ -47275,9 +47576,9 @@
    },
    "AB_AirSupport": {
     "chargesNum": 1,
-    "flyAwayTime": 15.0,
-    "maxDist": 10000,
-    "maxPlaneFlightDist": 3850,
+    "flyAwayTime": 5.0,
+    "maxDist": 8000,
+    "maxPlaneFlightDist": 3600,
     "minDist": 1500,
     "planeName": "PAAD902_ASW_T6",
     "reloadTime": 60.0,
@@ -48793,6 +49094,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 1500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 50.0,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_Artillery": {
     "guns": {
      "HP_AGM_1": {
@@ -49008,6 +49320,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A_Artillery"
@@ -49805,6 +50120,17 @@
     "maxDist": 6600.0,
     "sigmaCount": 1.0
    },
+   "AB_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 5000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "AB_Engine": {
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
@@ -49952,7 +50278,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB1_Artillery"
      ],
@@ -49987,7 +50315,9 @@
      "airDefense": [
       "B_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB1_Artillery"
      ],
@@ -52583,6 +52913,17 @@
     "maxDistCoef": 1.1,
     "sigmaCountCoef": 1.0
    },
+   "AB_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 4000,
+    "maxPlaneFlightDist": 3400,
+    "minDist": 500,
+    "planeName": "PAAD902_ASW_T6",
+    "reloadTime": 60,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "AB_Engine": {
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
@@ -53271,6 +53612,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "A1_Artillery"
      ],
@@ -53306,6 +53650,9 @@
      ],
      "airDefense": [
       "B_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "B1_Artillery"
@@ -53742,11 +54089,11 @@
    },
    "AB_AirSupport": {
     "chargesNum": 1,
-    "flyAwayTime": 15.0,
-    "maxDist": 12000,
-    "maxPlaneFlightDist": 5250,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
+    "maxPlaneFlightDist": 4900,
     "minDist": 1500,
-    "planeName": "PAAD907_ASW_T9",
+    "planeName": "PAAD906_ASW_T8",
     "reloadTime": 95.0,
     "timeBetweenShots": 0.1,
     "timeFromHeaven": 2.0
@@ -54263,9 +54610,9 @@
    },
    "A_AirSupport": {
     "chargesNum": 2,
-    "flyAwayTime": 15.0,
-    "maxDist": 12000,
-    "maxPlaneFlightDist": 3500,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
+    "maxPlaneFlightDist": 4550,
     "minDist": 1500,
     "planeName": "PAAD903_ASW_T8_ALT",
     "reloadTime": 50.0,
@@ -56060,10 +56407,10 @@
     "isAA": true
    },
    "A_AirSupport": {
-    "chargesNum": 1,
-    "flyAwayTime": 15.0,
-    "maxDist": 13000,
-    "maxPlaneFlightDist": 4200,
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 11000,
+    "maxPlaneFlightDist": 3800,
     "minDist": 1500,
     "planeName": "PAAD905_ASW_T10_ALT",
     "reloadTime": 50.0,
@@ -56374,6 +56721,17 @@
  },
  {
   "ModulesArmaments": {
+   "AB_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 4000,
+    "maxPlaneFlightDist": 3600,
+    "minDist": 500,
+    "planeName": "PAAD909_ASW_T5",
+    "reloadTime": 60,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "AirDefenseDefault": {
     "AuraFar": {
      "areaDamage": 6.0,
@@ -56917,6 +57275,9 @@
      "airDefense": [
       "AirDefenseDefault"
      ],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "ArtilleryDefault"
      ],
@@ -57116,8 +57477,8 @@
       ],
       "shotDelay": 82.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -57151,8 +57512,8 @@
       ],
       "shotDelay": 82.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -57186,8 +57547,8 @@
       ],
       "shotDelay": 82.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -57221,8 +57582,8 @@
       ],
       "shotDelay": 82.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -57256,8 +57617,8 @@
       ],
       "shotDelay": 82.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -57291,8 +57652,8 @@
       ],
       "shotDelay": 82.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -57326,8 +57687,8 @@
       ],
       "shotDelay": 82.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -57361,8 +57722,8 @@
       ],
       "shotDelay": 82.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -57396,8 +57757,8 @@
       ],
       "shotDelay": 82.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -57431,8 +57792,8 @@
       ],
       "shotDelay": 82.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -58585,6 +58946,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 5000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_Artillery": {
     "guns": {
      "HP_AGM_1": {
@@ -58808,6 +59180,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A_Artillery"
@@ -61165,6 +61540,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 6000,
+    "maxPlaneFlightDist": 3800,
+    "minDist": 500,
+    "planeName": "PAAD905_ASW_T10_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_Hull": {
     "health": 50600.0,
     "maxSpeed": 33.0,
@@ -61261,7 +61647,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "A_AirSupport"
+     ],
      "artillery": [
       "A1_Artillery"
      ],
@@ -66423,7 +66811,7 @@
       ]
      }
     ],
-    "waveDistance": 11500.0,
+    "waveDistance": 10000.0,
     "waveHitAlertTime": 10,
     "waveHitLifeTime": 100,
     "waveParams": [
@@ -66470,8 +66858,8 @@
       ],
       "shotDelay": 50.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -66505,8 +66893,8 @@
       ],
       "shotDelay": 50.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -66540,8 +66928,8 @@
       ],
       "shotDelay": 50.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -66575,8 +66963,8 @@
       ],
       "shotDelay": 50.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -66610,8 +66998,8 @@
       ],
       "shotDelay": 50.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -66645,8 +67033,8 @@
       ],
       "shotDelay": 50.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "USA",
@@ -67092,6 +67480,17 @@
     "maxDist": 6950.0,
     "sigmaCount": 1.0
    },
+   "AB_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 5000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "AB_Engine": {
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
@@ -67248,7 +67647,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB1_Artillery"
      ],
@@ -67283,7 +67684,9 @@
      "airDefense": [
       "B_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB1_Artillery"
      ],
@@ -67831,6 +68234,17 @@
     "maxDistCoef": 1.1,
     "sigmaCountCoef": 1.0
    },
+   "AB_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 5000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "AB_Engine": {
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
@@ -68341,6 +68755,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "A_Artillery"
      ],
@@ -68374,6 +68791,9 @@
      ],
      "airDefense": [
       "B_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "B_Artillery"
@@ -69879,9 +70299,9 @@
    },
    "A_AirSupport": {
     "chargesNum": 1,
-    "flyAwayTime": 15.0,
-    "maxDist": 13000,
-    "maxPlaneFlightDist": 3500,
+    "flyAwayTime": 5.0,
+    "maxDist": 11000,
+    "maxPlaneFlightDist": 4200,
     "minDist": 1500,
     "planeName": "PAAD908_ASW_T10",
     "reloadTime": 95.0,
@@ -71414,6 +71834,17 @@
     "maxDistCoef": 1.1,
     "sigmaCountCoef": 1.0
    },
+   "AB_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 6000,
+    "maxPlaneFlightDist": 3900,
+    "minDist": 1500,
+    "planeName": "PAAD909_ASW_T5",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_ATBA": {
     "antiAirAndSecondaries": {
      "HP_AGS_1": {
@@ -72153,6 +72584,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "A1_Artillery"
      ],
@@ -72186,6 +72620,9 @@
      ],
      "airDefense": [
       "B_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "B1_Artillery"
@@ -72646,9 +73083,9 @@
    },
    "A_AirSupport": {
     "chargesNum": 2,
-    "flyAwayTime": 15.0,
-    "maxDist": 12000,
-    "maxPlaneFlightDist": 3850,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
+    "maxPlaneFlightDist": 4550,
     "minDist": 1500,
     "planeName": "PAAD903_ASW_T8_ALT",
     "reloadTime": 50.0,
@@ -72973,6 +73410,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 5000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_Artillery": {
     "guns": {
      "HP_AGM_1": {
@@ -73183,11 +73631,15 @@
    "PAUH813_TULSA": {
     "canBuy": true,
     "components": {
-     "airArmament": [],
+     "airArmament": [
+      "A_AirArmament"
+     ],
      "airDefense": [
       "A_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "A_AirSupport"
+     ],
      "artillery": [
       "A_Artillery"
      ],
@@ -73202,7 +73654,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "A_Radars"
@@ -73606,6 +74057,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 6000,
+    "maxPlaneFlightDist": 3900,
+    "minDist": 1500,
+    "planeName": "PAAD909_ASW_T5",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_Engine": {
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
@@ -73689,6 +74151,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -74045,6 +74510,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 5000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_Engine": {
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
@@ -74145,6 +74621,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -75353,9 +75832,9 @@
    },
    "A_AirSupport": {
     "chargesNum": 2,
-    "flyAwayTime": 15.0,
-    "maxDist": 12000,
-    "maxPlaneFlightDist": 3850,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
+    "maxPlaneFlightDist": 4550,
     "minDist": 1500,
     "planeName": "PAAD903_ASW_T8_ALT",
     "reloadTime": 50.0,

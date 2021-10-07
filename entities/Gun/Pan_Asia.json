@@ -44,7 +44,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -112,7 +111,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -180,7 +178,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -285,7 +282,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -403,7 +399,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -521,7 +516,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -589,7 +583,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -702,7 +695,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -799,7 +791,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -896,7 +887,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -1001,7 +991,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -1083,124 +1072,6 @@
   ]
  },
  {
-  "HitLocationTorpedo": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 0.75,
-   "autoRepairTime": 15,
-   "autoRepairTimeMin": 15,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.25,
-    0.25
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "torpedo_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 1200.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.75,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
-  "ammoList": [
-   "PJPT001_Sea_Torpedo_Type93"
-  ],
-  "armor": {
-   "65580": 15.0
-  },
-  "barrelDiameter": 0.61,
-  "canRotate": true,
-  "customMiscs": {},
-  "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
-  "deadMesh": "content/gameplay/panasia/gun/torpedo/ZGT075_610mm4_Type_93/ZGT075_610mm4_Type_93_dead.model",
-  "deadZone": [
-   [
-    -60.0,
-    60.0
-   ]
-  ],
-  "horizSector": [
-   -120.0,
-   120.0
-  ],
-  "id": 4215694544,
-  "index": "PZGT075",
-  "lensEffect": "",
-  "mainSector": [
-   -90.0,
-   90.0
-  ],
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/panasia/gun/torpedo/ZGT075_610mm4_Type_93/ZGT075_610mm4_Type_93.model",
-  "name": "PZGT075_610mm4_Type_93",
-  "numAmmos": 1000,
-  "numBarrels": 4,
-  "position": [
-   0,
-   0
-  ],
-  "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
-  "rotationSpeed": [
-   25.0,
-   25.0
-  ],
-  "shootSector": [
-   0.0,
-   0.0
-  ],
-  "shotDelay": 120.0,
-  "shotEffect": "particles/guns/torpedo.xml",
-  "shotEffectCap": "particles/Empty_FX.xml",
-  "smallGun": null,
-  "timeBetweenShots": 0.2,
-  "timeToChangeAngle": 1,
-  "timeToChangeSpeed": 1,
-  "torpedoAngles": [
-   4.8,
-   16.0
-  ],
-  "typeinfo": {
-   "nation": "Pan_Asia",
-   "species": "Torpedo",
-   "type": "Gun"
-  },
-  "vertSector": [
-   0.0,
-   1.0
-  ]
- },
- {
   "HitLocationDepthCharge": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 1.0,
@@ -1245,7 +1116,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -1342,7 +1212,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -1462,7 +1331,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -1575,7 +1443,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -1705,7 +1572,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -1833,7 +1699,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -1901,7 +1766,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -2006,7 +1870,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -2134,7 +1997,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -2202,7 +2064,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -2320,7 +2181,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -2433,7 +2293,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -2563,7 +2422,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -2676,7 +2534,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -2806,7 +2663,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -2882,508 +2738,6 @@
   ]
  },
  {
-  "HitLocationDepthCharge": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 1.0,
-   "autoRepairTime": 10,
-   "autoRepairTimeMin": 5,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": false,
-   "critProb": [
-    0.0,
-    0.0
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "depthcharge_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 1200.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.8,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
-  "ammoList": [
-   "PZPD004_Depth_Charge_MK7"
-  ],
-  "canBeDestroyed": true,
-  "customMiscs": {},
-  "customShotSoundType": "",
-  "deadMesh": "content/gameplay/panasia/gun/dcharge/ZGB061_Depth_Charge_Roller_Track/ZGB061_Depth_Charge_Roller_Track_dead.model",
-  "deadZone": [],
-  "disabledNodes": [],
-  "fallRollAcceleration": 0.0,
-  "horizSector": [
-   -150.0,
-   150.0
-  ],
-  "id": 4230964432,
-  "index": "PZGB061",
-  "mainSector": [
-   -90.0,
-   90.0
-  ],
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/panasia/gun/dcharge/ZGB061_Depth_Charge_Roller_Track/ZGB061_Depth_Charge_Roller_Track.model",
-  "name": "PZGB061_Depth_Charge_Roller_Track",
-  "numBombs": 8,
-  "rollAngleSpeed": 85.0,
-  "rollSpeed": 0.5,
-  "rotationSpeed": [
-   0.0,
-   0.0
-  ],
-  "shootAngle": 45.0,
-  "shootDist": 0.01,
-  "shootingType": "slide",
-  "shotEffect": "particles/guns/Ubomb_shot.xml",
-  "startFallSpeed": 0.1,
-  "typeinfo": {
-   "nation": "Pan_Asia",
-   "species": "DCharge",
-   "type": "Gun"
-  },
-  "vertSector": [
-   0.0,
-   90.0
-  ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
- },
- {
-  "HitLocationAirDefense": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 1.0,
-   "autoRepairTime": 10,
-   "autoRepairTimeMin": 5,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.0,
-    0.0
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "airdefense_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 600.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.8,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
-  "antiAirAuraDistance": 67.0,
-  "antiAirAuraStrength": 0.036,
-  "barrelDiameter": 0.02,
-  "deadMesh": "content/gameplay/panasia/gun/aaircraft/ZGA008_20mm_Oerlikon_MK4/ZGA008_20mm_Oerlikon_MK4_dead.model",
-  "id": 4286571728,
-  "index": "PZGA008",
-  "model": "content/gameplay/panasia/gun/aaircraft/ZGA008_20mm_Oerlikon_MK4/ZGA008_20mm_Oerlikon_MK4.model",
-  "name": "PZGA008_20mm_Oerlikon_MK4",
-  "numBarrels": 1,
-  "shotDelay": 5.0,
-  "shotEffect": "particles/guns/AA_shot.xml",
-  "smallGun": null,
-  "typeinfo": {
-   "nation": "Pan_Asia",
-   "species": "AAircraft",
-   "type": "Gun"
-  }
- },
- {
-  "HitLocationDepthCharge": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 1.0,
-   "autoRepairTime": 10,
-   "autoRepairTimeMin": 5,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": false,
-   "critProb": [
-    0.0,
-    0.0
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "depthcharge_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 1200.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.8,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
-  "ammoList": [
-   "PAPD003_mk6_mod1_shoot"
-  ],
-  "canBeDestroyed": true,
-  "customMiscs": {},
-  "customShotSoundType": "",
-  "deadMesh": "content/gameplay/usa/gun/dcharge/AGB185_Depth_Charge_Thrower/AGB185_Depth_Charge_Thrower_dead.model",
-  "deadZone": [],
-  "disabledNodes": [],
-  "fallRollAcceleration": 0.0,
-  "horizSector": [
-   -150.0,
-   150.0
-  ],
-  "id": 4100941008,
-  "index": "PZGB185",
-  "mainSector": [
-   -90.0,
-   90.0
-  ],
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/usa/gun/dcharge/AGB185_Depth_Charge_Thrower/AGB185_Depth_Charge_Thrower.model",
-  "name": "PZGB185_Depth_Charge_Thrower",
-  "numBombs": 1,
-  "rollAngleSpeed": 85.0,
-  "rollSpeed": 0.5,
-  "rotationSpeed": [
-   0.0,
-   0.0
-  ],
-  "shootAngle": 45.0,
-  "shootDist": 3.0,
-  "shootingType": "shoot",
-  "shotEffect": "particles/guns/Ubomb_shot.xml",
-  "startFallSpeed": 0.1,
-  "typeinfo": {
-   "nation": "Pan_Asia",
-   "species": "DCharge",
-   "type": "Gun"
-  },
-  "vertSector": [
-   0.0,
-   90.0
-  ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
- },
- {
-  "HitLocationTorpedo": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 1.0,
-   "autoRepairTime": 15,
-   "autoRepairTimeMin": 15,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.25,
-    0.25
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "torpedo_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 1200.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.75,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
-  "ammoList": [
-   "PRPT023_53_51"
-  ],
-  "armor": {
-   "65580": 6.0
-  },
-  "barrelDiameter": 0.533,
-  "canRotate": true,
-  "customMiscs": {},
-  "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
-  "deadMesh": "content/gameplay/panasia/gun/torpedo/ZGT054_533mm_PTA_5tubes/ZGT054_533mm_PTA_5tubes_dead.model",
-  "deadZone": [],
-  "horizSector": [
-   0.0,
-   0.0
-  ],
-  "id": 4237714640,
-  "index": "PZGT054",
-  "lensEffect": "",
-  "mainSector": [
-   -90.0,
-   90.0
-  ],
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/panasia/gun/torpedo/ZGT054_533mm_PTA_5tubes/ZGT054_533mm_PTA_5tubes.model",
-  "name": "PZGT054_533mm_PTA_5tubes",
-  "numAmmos": 1000,
-  "numBarrels": 5,
-  "position": [
-   0,
-   0
-  ],
-  "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
-  "rotationSpeed": [
-   25.0,
-   25.0
-  ],
-  "shootSector": [
-   0.0,
-   0.0
-  ],
-  "shotDelay": 128.0,
-  "shotEffect": "particles/guns/torpedo.xml",
-  "shotEffectCap": "particles/Empty_FX.xml",
-  "smallGun": null,
-  "timeBetweenShots": 0.2,
-  "timeToChangeAngle": 1,
-  "timeToChangeSpeed": 1,
-  "torpedoAngles": [
-   6.0,
-   20.0
-  ],
-  "typeinfo": {
-   "nation": "Pan_Asia",
-   "species": "Torpedo",
-   "type": "Gun"
-  },
-  "vertSector": [
-   0.0,
-   1.0
-  ]
- },
- {
-  "HitLocationArtillery": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 0.8,
-   "autoRepairTime": 30,
-   "autoRepairTimeMin": 25,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.05,
-    0.75
-   ],
-   "critProbHP": [
-    1.0,
-    0.02
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "artillery_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 2000.0,
-   "moduleCritCoeffCR": 1.0,
-   "moduleCritCoeffXP": 1.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 1.0,
-   "rndPartHP": 0.0,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 0.1
-  },
-  "aiMGmaxEllipseRanging": 4.0,
-  "aiMGmedEllipseRanging": 3.7,
-  "aiMGminEllipseRanging": 3.5,
-  "ammoList": [
-   "PZPA007_127_HE_MK_38",
-   "PZPA008_127_AP_MK_38"
-  ],
-  "antiAirAuraDistance": 167.0,
-  "antiAirAuraStrength": 0.151,
-  "armor": {
-   "65568": 20.0,
-   "65569": 20.0,
-   "65571": 20.0,
-   "65635": 20.0,
-   "65636": 20.0
-  },
-  "barrelDiameter": 0.127,
-  "coeffPerSecondMin": 0.3,
-  "customMiscs": {},
-  "damagedEffect": "particles/guns/Gun_Broken_small.xml",
-  "deadMesh": "content/gameplay/panasia/gun/main/ZGM022_5in38_Mk38_Mod0/ZGM022_5in38_Mk38_Mod0_dead.model",
-  "deadZone": [],
-  "delim": 0.5,
-  "effectIntensityModifier": 1.0,
-  "ellipseRangeMax": 250.0,
-  "ellipseRangeMin": 50.0,
-  "horizSector": [
-   -150.0,
-   150.0
-  ],
-  "id": 4271498448,
-  "idealDistance": 1000.0,
-  "idealRadius": 8,
-  "index": "PZGM022",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
-  "maxEllipseRanging": 1.003,
-  "medEllipseRanging": 1.002,
-  "minEllipseRanging": 1.001,
-  "minRadius": 0.5,
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/panasia/gun/main/ZGM022_5in38_Mk38_Mod0/ZGM022_5in38_Mk38_Mod0.model",
-  "name": "PZGM022_5in38_Mk38_Mod0",
-  "numBarrels": 2,
-  "onMoveTarPosCoeffDelim": 1.001,
-  "onMoveTarPosCoeffMaxDist": 1.002,
-  "onMoveTarPosCoeffZero": 1.0,
-  "onMoveTarPosDelim": 0.1,
-  "pitchDeadZones": [],
-  "position": [
-   0,
-   0
-  ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
-  "radiusOnDelim": 0.5,
-  "radiusOnMax": 0.6,
-  "radiusOnZero": 0.2,
-  "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
-  "rotationSpeed": [
-   25.0,
-   15.0
-  ],
-  "shotDelay": 4.0,
-  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
-  "smallGun": null,
-  "smokePenalty": 0.0001,
-  "typeinfo": {
-   "nation": "Pan_Asia",
-   "species": "Main",
-   "type": "Gun"
-  },
-  "vertSector": [
-   -1.0,
-   85.0
-  ]
- },
- {
   "HitLocationArtillery": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 0.0,
@@ -3428,7 +2782,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -3558,7 +2911,503 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "ammoList": [
+   "PZPD004_Depth_Charge_MK7"
+  ],
+  "canBeDestroyed": true,
+  "customMiscs": {},
+  "customShotSoundType": "",
+  "deadMesh": "content/gameplay/panasia/gun/dcharge/ZGB061_Depth_Charge_Roller_Track/ZGB061_Depth_Charge_Roller_Track_dead.model",
+  "deadZone": [],
+  "disabledNodes": [],
+  "fallRollAcceleration": 0.0,
+  "horizSector": [
+   -150.0,
+   150.0
+  ],
+  "id": 4230964432,
+  "index": "PZGB061",
+  "mainSector": [
+   -90.0,
+   90.0
+  ],
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/panasia/gun/dcharge/ZGB061_Depth_Charge_Roller_Track/ZGB061_Depth_Charge_Roller_Track.model",
+  "name": "PZGB061_Depth_Charge_Roller_Track",
+  "numBombs": 8,
+  "rollAngleSpeed": 85.0,
+  "rollSpeed": 0.5,
+  "rotationSpeed": [
+   0.0,
+   0.0
+  ],
+  "shootAngle": 45.0,
+  "shootDist": 0.01,
+  "shootingType": "slide",
+  "shotEffect": "particles/guns/Ubomb_shot.xml",
+  "startFallSpeed": 0.1,
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "DCharge",
+   "type": "Gun"
+  },
+  "vertSector": [
+   0.0,
+   90.0
+  ],
+  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+ },
+ {
+  "HitLocationAirDefense": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "airdefense_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 600.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.8,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "antiAirAuraDistance": 67.0,
+  "antiAirAuraStrength": 0.036,
+  "barrelDiameter": 0.02,
+  "deadMesh": "content/gameplay/panasia/gun/aaircraft/ZGA008_20mm_Oerlikon_MK4/ZGA008_20mm_Oerlikon_MK4_dead.model",
+  "id": 4286571728,
+  "index": "PZGA008",
+  "model": "content/gameplay/panasia/gun/aaircraft/ZGA008_20mm_Oerlikon_MK4/ZGA008_20mm_Oerlikon_MK4.model",
+  "name": "PZGA008_20mm_Oerlikon_MK4",
+  "numBarrels": 1,
+  "shotDelay": 5.0,
+  "shotEffect": "particles/guns/AA_shot.xml",
+  "smallGun": null,
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "AAircraft",
+   "type": "Gun"
+  }
+ },
+ {
+  "HitLocationDepthCharge": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": false,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "depthcharge_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 1200.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.8,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "ammoList": [
+   "PAPD003_mk6_mod1_shoot"
+  ],
+  "canBeDestroyed": true,
+  "customMiscs": {},
+  "customShotSoundType": "",
+  "deadMesh": "content/gameplay/usa/gun/dcharge/AGB185_Depth_Charge_Thrower/AGB185_Depth_Charge_Thrower_dead.model",
+  "deadZone": [],
+  "disabledNodes": [],
+  "fallRollAcceleration": 0.0,
+  "horizSector": [
+   -150.0,
+   150.0
+  ],
+  "id": 4100941008,
+  "index": "PZGB185",
+  "mainSector": [
+   -90.0,
+   90.0
+  ],
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/usa/gun/dcharge/AGB185_Depth_Charge_Thrower/AGB185_Depth_Charge_Thrower.model",
+  "name": "PZGB185_Depth_Charge_Thrower",
+  "numBombs": 1,
+  "rollAngleSpeed": 85.0,
+  "rollSpeed": 0.5,
+  "rotationSpeed": [
+   0.0,
+   0.0
+  ],
+  "shootAngle": 45.0,
+  "shootDist": 3.0,
+  "shootingType": "shoot",
+  "shotEffect": "particles/guns/Ubomb_shot.xml",
+  "startFallSpeed": 0.1,
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "DCharge",
+   "type": "Gun"
+  },
+  "vertSector": [
+   0.0,
+   90.0
+  ],
+  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+ },
+ {
+  "HitLocationTorpedo": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 15,
+   "autoRepairTimeMin": 15,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.25,
+    0.25
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "torpedo_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 1200.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.75,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "ammoList": [
+   "PRPT023_53_51"
+  ],
+  "armor": {
+   "65580": 6.0
+  },
+  "barrelDiameter": 0.533,
+  "canRotate": true,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+  "deadMesh": "content/gameplay/panasia/gun/torpedo/ZGT054_533mm_PTA_5tubes/ZGT054_533mm_PTA_5tubes_dead.model",
+  "deadZone": [],
+  "horizSector": [
+   0.0,
+   0.0
+  ],
+  "id": 4237714640,
+  "index": "PZGT054",
+  "lensEffect": "",
+  "mainSector": [
+   -90.0,
+   90.0
+  ],
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/panasia/gun/torpedo/ZGT054_533mm_PTA_5tubes/ZGT054_533mm_PTA_5tubes.model",
+  "name": "PZGT054_533mm_PTA_5tubes",
+  "numAmmos": 1000,
+  "numBarrels": 5,
+  "position": [
+   0,
+   0
+  ],
+  "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
+  "rotationSpeed": [
+   25.0,
+   25.0
+  ],
+  "shootSector": [
+   0.0,
+   0.0
+  ],
+  "shotDelay": 128.0,
+  "shotEffect": "particles/guns/torpedo.xml",
+  "shotEffectCap": "particles/Empty_FX.xml",
+  "smallGun": null,
+  "timeBetweenShots": 0.2,
+  "timeToChangeAngle": 1,
+  "timeToChangeSpeed": 1,
+  "torpedoAngles": [
+   6.0,
+   20.0
+  ],
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "Torpedo",
+   "type": "Gun"
+  },
+  "vertSector": [
+   0.0,
+   1.0
+  ]
+ },
+ {
+  "HitLocationArtillery": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 0.8,
+   "autoRepairTime": 30,
+   "autoRepairTimeMin": 25,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.05,
+    0.75
+   ],
+   "critProbHP": [
+    1.0,
+    0.02
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "artillery_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 2000.0,
+   "moduleCritCoeffCR": 1.0,
+   "moduleCritCoeffXP": 1.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 1.0,
+   "rndPartHP": 0.0,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 0.1
+  },
+  "aiMGmaxEllipseRanging": 4.0,
+  "aiMGmedEllipseRanging": 3.7,
+  "aiMGminEllipseRanging": 3.5,
+  "ammoList": [
+   "PZPA007_127_HE_MK_38",
+   "PZPA008_127_AP_MK_38"
+  ],
+  "antiAirAuraDistance": 167.0,
+  "antiAirAuraStrength": 0.151,
+  "armor": {
+   "65568": 20.0,
+   "65569": 20.0,
+   "65571": 20.0,
+   "65635": 20.0,
+   "65636": 20.0
+  },
+  "barrelDiameter": 0.127,
+  "coeffPerSecondMin": 0.3,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_small.xml",
+  "deadMesh": "content/gameplay/panasia/gun/main/ZGM022_5in38_Mk38_Mod0/ZGM022_5in38_Mk38_Mod0_dead.model",
+  "deadZone": [],
+  "delim": 0.5,
+  "effectIntensityModifier": 1.0,
+  "ellipseRangeMax": 250.0,
+  "ellipseRangeMin": 50.0,
+  "horizSector": [
+   -150.0,
+   150.0
+  ],
+  "id": 4271498448,
+  "idealDistance": 1000.0,
+  "idealRadius": 8,
+  "index": "PZGM022",
+  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "maxEllipseRanging": 1.003,
+  "medEllipseRanging": 1.002,
+  "minEllipseRanging": 1.001,
+  "minRadius": 0.5,
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/panasia/gun/main/ZGM022_5in38_Mk38_Mod0/ZGM022_5in38_Mk38_Mod0.model",
+  "name": "PZGM022_5in38_Mk38_Mod0",
+  "numBarrels": 2,
+  "onMoveTarPosCoeffDelim": 1.001,
+  "onMoveTarPosCoeffMaxDist": 1.002,
+  "onMoveTarPosCoeffZero": 1.0,
+  "onMoveTarPosDelim": 0.1,
+  "pitchDeadZones": [],
+  "position": [
+   0,
+   0
+  ],
+  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "radiusOnDelim": 0.5,
+  "radiusOnMax": 0.6,
+  "radiusOnZero": 0.2,
+  "reduceTime": 0.1,
+  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+  "rotationSpeed": [
+   25.0,
+   15.0
+  ],
+  "shotDelay": 4.0,
+  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+  "smallGun": null,
+  "smokePenalty": 0.0001,
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "Main",
+   "type": "Gun"
+  },
+  "vertSector": [
+   -1.0,
+   85.0
+  ]
+ },
+ {
+  "HitLocationDepthCharge": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": false,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "depthcharge_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 1200.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.8,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -3655,7 +3504,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -3752,7 +3600,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -3857,7 +3704,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -3954,7 +3800,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -4082,7 +3927,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -4202,7 +4046,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -4329,7 +4172,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -4397,7 +4239,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -4465,7 +4306,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -4593,7 +4433,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -4690,7 +4529,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -4808,7 +4646,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -4921,7 +4758,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -5018,7 +4854,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -5086,7 +4921,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -5183,7 +5017,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -5296,7 +5129,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -5423,7 +5255,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -5491,7 +5322,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -5559,7 +5389,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -5656,7 +5485,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -5780,7 +5608,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -5877,7 +5704,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -5951,6 +5777,123 @@
   ]
  },
  {
+  "HitLocationTorpedo": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 0.75,
+   "autoRepairTime": 15,
+   "autoRepairTimeMin": 15,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.25,
+    0.25
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "torpedo_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 1200.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.75,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "ammoList": [
+   "PJPT001_Sea_Torpedo_Type93"
+  ],
+  "armor": {
+   "65580": 15.0
+  },
+  "barrelDiameter": 0.61,
+  "canRotate": true,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
+  "deadMesh": "content/gameplay/panasia/gun/torpedo/ZGT075_610mm4_Type_93/ZGT075_610mm4_Type_93_dead.model",
+  "deadZone": [
+   [
+    -60.0,
+    60.0
+   ]
+  ],
+  "horizSector": [
+   -120.0,
+   120.0
+  ],
+  "id": 4215694544,
+  "index": "PZGT075",
+  "lensEffect": "",
+  "mainSector": [
+   -90.0,
+   90.0
+  ],
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/panasia/gun/torpedo/ZGT075_610mm4_Type_93/ZGT075_610mm4_Type_93.model",
+  "name": "PZGT075_610mm4_Type_93",
+  "numAmmos": 1000,
+  "numBarrels": 4,
+  "position": [
+   0,
+   0
+  ],
+  "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
+  "rotationSpeed": [
+   25.0,
+   25.0
+  ],
+  "shootSector": [
+   0.0,
+   0.0
+  ],
+  "shotDelay": 120.0,
+  "shotEffect": "particles/guns/torpedo.xml",
+  "shotEffectCap": "particles/Empty_FX.xml",
+  "smallGun": null,
+  "timeBetweenShots": 0.2,
+  "timeToChangeAngle": 1,
+  "timeToChangeSpeed": 1,
+  "torpedoAngles": [
+   4.8,
+   16.0
+  ],
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "Torpedo",
+   "type": "Gun"
+  },
+  "vertSector": [
+   0.0,
+   1.0
+  ]
+ },
+ {
   "HitLocationAirDefense": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 1.0,
@@ -5995,7 +5938,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -6063,7 +6005,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -6176,7 +6117,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -6300,7 +6240,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -6368,7 +6307,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -6465,7 +6403,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -6533,7 +6470,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -6601,7 +6537,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -6719,7 +6654,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -6842,7 +6776,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -6945,7 +6878,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -7050,7 +6982,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -7147,7 +7078,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -7215,7 +7145,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -7345,7 +7274,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -7413,7 +7341,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -7516,7 +7443,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -7634,7 +7560,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -7762,7 +7687,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -7859,7 +7783,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -7964,7 +7887,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -8061,7 +7983,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -8174,7 +8095,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -8298,7 +8218,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1

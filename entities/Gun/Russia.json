@@ -44,7 +44,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -171,7 +170,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -276,7 +274,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -381,7 +378,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -453,6 +449,110 @@
   ]
  },
  {
+  "HitLocationATBA": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 0.8,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "atba_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 1200.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.75,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "aiATBAmultiplier": 3,
+  "ammoList": [
+   "PRPA138_120MM_HE_ANSALDO1926"
+  ],
+  "antiAirAuraDistance": 0.0,
+  "antiAirAuraStrength": 0.0,
+  "armor": {
+   "65580": 120.0
+  },
+  "barrelDiameter": 0.12,
+  "clusterID": 0,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
+  "deadMesh": "content/gameplay/russia/gun/secondary/RGS183_120mm50_barrels_2_M1933_RM2/RGS183_120mm50_barrels_2_M1933_RM2_dead.model",
+  "deadZone": [],
+  "delim": 0.6,
+  "effectIntensityModifier": 1.0,
+  "horizSector": [
+   0.0,
+   0.0
+  ],
+  "id": 4102481360,
+  "idealDistance": 333.333,
+  "idealRadius": 20,
+  "index": "PRGS183",
+  "lensEffect": "",
+  "minRadius": 1.0,
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/russia/gun/secondary/RGS183_120mm50_barrels_2_M1933_RM2/RGS183_120mm50_barrels_2_M1933_RM2.model",
+  "name": "PRGS183_120mm50_barrels_2_M1933_RM2",
+  "numBarrels": 2,
+  "pitchDeadZones": [],
+  "purgingEffect": "particles/guns/PMK_Purging_110to140.xml",
+  "radiusOnDelim": 0.8,
+  "radiusOnMax": 1.0,
+  "radiusOnZero": 0.1,
+  "rotationSpeed": [
+   60.0,
+   1.0
+  ],
+  "shotDelay": 6.0,
+  "shotEffect": "particles/guns/PMK_Shot_110to140.xml",
+  "smallGun": true,
+  "smokePenalty": 0.0001,
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "Secondary",
+   "type": "Gun"
+  },
+  "vertSector": [
+   -10.0,
+   40.0
+  ]
+ },
+ {
   "HitLocationArtillery": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 0.0,
@@ -497,7 +597,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -627,7 +726,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -755,7 +853,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -852,7 +949,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -957,7 +1053,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -1077,7 +1172,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -1205,7 +1299,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -1333,7 +1426,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -1419,6 +1511,136 @@
   ]
  },
  {
+  "HitLocationArtillery": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 0.0,
+   "autoRepairTime": 30,
+   "autoRepairTimeMin": 25,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.05,
+    0.75
+   ],
+   "critProbHP": [
+    1.0,
+    0.02
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "artillery_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 7500.0,
+   "moduleCritCoeffCR": 1.0,
+   "moduleCritCoeffXP": 1.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 1.0,
+   "rndPartHP": 0.0,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 0.1
+  },
+  "aiMGmaxEllipseRanging": 4.0,
+  "aiMGmedEllipseRanging": 3.7,
+  "aiMGminEllipseRanging": 3.5,
+  "ammoList": [
+   "PRPA136_320MM_HE_NOVOROS",
+   "PRPA137_320MM_AP_NOVOROS"
+  ],
+  "antiAirAuraDistance": 0.0,
+  "antiAirAuraStrength": 0.0,
+  "armor": {
+   "1": 0.0,
+   "65568": 240.0,
+   "65569": 140.0,
+   "65571": 220.0,
+   "65635": 40.0,
+   "65636": 240.0,
+   "131105": 110.0,
+   "131171": 0.0,
+   "196707": 40.0
+  },
+  "barrelDiameter": 0.32,
+  "coeffPerSecondMin": 0.3,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_medium.xml",
+  "deadMesh": "content/gameplay/russia/gun/main/RGM181_320mm44_barrels_2_M1934/RGM181_320mm44_barrels_2_M1934_dead.model",
+  "deadZone": [],
+  "delim": 0.5,
+  "effectIntensityModifier": 1.0,
+  "ellipseRangeMax": 250.0,
+  "ellipseRangeMin": 50.0,
+  "horizSector": [
+   -120.0,
+   120.0
+  ],
+  "id": 4104775120,
+  "idealDistance": 1000.0,
+  "idealRadius": 10.0,
+  "index": "PRGM181",
+  "lensEffect": "particles/guns/GK_Lens_250to440.xml",
+  "maxEllipseRanging": 1.003,
+  "medEllipseRanging": 1.002,
+  "minEllipseRanging": 1.001,
+  "minRadius": 1.6,
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/russia/gun/main/RGM181_320mm44_barrels_2_M1934/RGM181_320mm44_barrels_2_M1934.model",
+  "name": "PRGM181_320mm44_barrels_2_M1934",
+  "numBarrels": 2,
+  "onMoveTarPosCoeffDelim": 1.001,
+  "onMoveTarPosCoeffMaxDist": 1.002,
+  "onMoveTarPosCoeffZero": 1.0,
+  "onMoveTarPosDelim": 0.1,
+  "pitchDeadZones": [],
+  "position": [
+   0,
+   0
+  ],
+  "purgingEffect": "particles/guns/GK_Purging_170to350.xml",
+  "radiusOnDelim": 0.5,
+  "radiusOnMax": 0.6,
+  "radiusOnZero": 0.2,
+  "reduceTime": 0.1,
+  "reloadBoostEffect": "particles/guns/GK_Reload_250to350.xml",
+  "rotationSpeed": [
+   5.0,
+   6.0
+  ],
+  "shotDelay": 28.0,
+  "shotEffect": "particles/guns/GK_Shot_250to350.xml",
+  "smallGun": null,
+  "smokePenalty": 0.0001,
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "Main",
+   "type": "Gun"
+  },
+  "vertSector": [
+   -5.0,
+   27.0
+  ]
+ },
+ {
   "HitLocationATBA": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 0.8,
@@ -1463,7 +1685,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -1569,7 +1790,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -1701,7 +1921,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -1827,7 +2046,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -1932,7 +2150,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -2000,7 +2217,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -2112,7 +2328,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -2180,7 +2395,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -2306,7 +2520,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -2430,7 +2643,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -2498,7 +2710,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -2611,7 +2822,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -2679,7 +2889,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -2747,7 +2956,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -2874,7 +3082,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -2942,7 +3149,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -3065,7 +3271,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -3188,7 +3393,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -3295,7 +3499,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -3422,7 +3625,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -3547,7 +3749,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -3675,7 +3876,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -3800,7 +4000,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -3913,7 +4112,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -3981,7 +4179,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -4049,7 +4246,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -4162,7 +4358,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -4267,7 +4462,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -4392,7 +4586,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -4497,7 +4690,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -4627,7 +4819,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -4732,7 +4923,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -4800,7 +4990,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -4905,7 +5094,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -5010,7 +5198,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -5078,7 +5265,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -5208,7 +5394,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -5339,7 +5524,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -5459,7 +5643,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -5589,7 +5772,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -5717,7 +5899,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -5824,7 +6005,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -5892,7 +6072,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -5975,6 +6154,132 @@
  {
   "HitLocationArtillery": {
    "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 30,
+   "autoRepairTimeMin": 25,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.05,
+    0.75
+   ],
+   "critProbHP": [
+    1.0,
+    0.02
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "artillery_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 500.0,
+   "moduleCritCoeffCR": 1.0,
+   "moduleCritCoeffXP": 1.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 1.0,
+   "rndPartHP": 0.0,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 0.1
+  },
+  "aiMGmaxEllipseRanging": 4.0,
+  "aiMGmedEllipseRanging": 3.7,
+  "aiMGminEllipseRanging": 3.5,
+  "ammoList": [
+   "PJPA998_Useless_HE_Special",
+   "PJPA999_Useless_AP_Special"
+  ],
+  "antiAirAuraDistance": 0.0,
+  "antiAirAuraStrength": 0.0,
+  "armor": {
+   "65568": 25.0,
+   "65569": 25.0,
+   "65571": 25.0,
+   "65635": 25.0,
+   "65636": 25.0
+  },
+  "barrelDiameter": 0.13,
+  "coeffPerSecondMin": 0.3,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_big.xml",
+  "deadMesh": "content/gameplay/russia/gun/main/RGM501_130mm_B2LM/RGM501_130mm_B2LM_dead.model",
+  "deadZone": [],
+  "delim": 0.5,
+  "effectIntensityModifier": 1.0,
+  "ellipseRangeMax": 250.0,
+  "ellipseRangeMin": 50.0,
+  "horizSector": [
+   -150.0,
+   150.0
+  ],
+  "id": 3769230800,
+  "idealDistance": 1000.0,
+  "idealRadius": 8,
+  "index": "PRGM501",
+  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "maxEllipseRanging": 1.003,
+  "medEllipseRanging": 1.002,
+  "minEllipseRanging": 1.001,
+  "minRadius": 0.5,
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/russia/gun/main/RGM501_130mm_B2LM/RGM501_130mm_B2LM.model",
+  "name": "PRGM501_130mm_B2LM",
+  "numBarrels": 2,
+  "onMoveTarPosCoeffDelim": 1.001,
+  "onMoveTarPosCoeffMaxDist": 1.002,
+  "onMoveTarPosCoeffZero": 1.0,
+  "onMoveTarPosDelim": 0.1,
+  "pitchDeadZones": [],
+  "position": [
+   0,
+   0
+  ],
+  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "radiusOnDelim": 0.5,
+  "radiusOnMax": 0.6,
+  "radiusOnZero": 0.2,
+  "reduceTime": 0.1,
+  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+  "rotationSpeed": [
+   25.0,
+   25.0
+  ],
+  "shotDelay": 1.0,
+  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+  "smallGun": null,
+  "smokePenalty": 0.0001,
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "Main",
+   "type": "Gun"
+  },
+  "vertSector": [
+   0.0,
+   90.0
+  ]
+ },
+ {
+  "HitLocationArtillery": {
+   "antiRamCoeff": 1.0,
    "armorCoeff": 0.0,
    "autoRepairTime": 30,
    "autoRepairTimeMin": 25,
@@ -6017,7 +6322,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -6144,7 +6448,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -6212,7 +6515,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -6280,7 +6582,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -6407,7 +6708,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -6525,7 +6825,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -6653,7 +6952,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -6778,7 +7076,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -6891,7 +7188,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -7017,7 +7313,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -7085,7 +7380,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -7153,7 +7447,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -7280,7 +7573,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -7400,7 +7692,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -7468,7 +7759,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -7555,133 +7845,6 @@
   ]
  },
  {
-  "HitLocationArtillery": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 1.0,
-   "autoRepairTime": 30,
-   "autoRepairTimeMin": 25,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.05,
-    0.75
-   ],
-   "critProbHP": [
-    1.0,
-    0.02
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "artillery_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 500.0,
-   "moduleCritCoeffCR": 1.0,
-   "moduleCritCoeffXP": 1.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 1.0,
-   "rndPartHP": 0.0,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 0.1
-  },
-  "aiMGmaxEllipseRanging": 4.0,
-  "aiMGmedEllipseRanging": 3.7,
-  "aiMGminEllipseRanging": 3.5,
-  "ammoList": [
-   "PJPA998_Useless_HE_Special",
-   "PJPA999_Useless_AP_Special"
-  ],
-  "antiAirAuraDistance": 0.0,
-  "antiAirAuraStrength": 0.0,
-  "armor": {
-   "65568": 25.0,
-   "65569": 25.0,
-   "65571": 25.0,
-   "65635": 25.0,
-   "65636": 25.0
-  },
-  "barrelDiameter": 0.13,
-  "coeffPerSecondMin": 0.3,
-  "customMiscs": {},
-  "damagedEffect": "particles/guns/Gun_Broken_big.xml",
-  "deadMesh": "content/gameplay/russia/gun/main/RGM501_130mm_B2LM/RGM501_130mm_B2LM_dead.model",
-  "deadZone": [],
-  "delim": 0.5,
-  "effectIntensityModifier": 1.0,
-  "ellipseRangeMax": 250.0,
-  "ellipseRangeMin": 50.0,
-  "horizSector": [
-   -150.0,
-   150.0
-  ],
-  "id": 3769230800,
-  "idealDistance": 1000.0,
-  "idealRadius": 8,
-  "index": "PRGM501",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
-  "maxEllipseRanging": 1.003,
-  "medEllipseRanging": 1.002,
-  "minEllipseRanging": 1.001,
-  "minRadius": 0.5,
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/russia/gun/main/RGM501_130mm_B2LM/RGM501_130mm_B2LM.model",
-  "name": "PRGM501_130mm_B2LM",
-  "numBarrels": 2,
-  "onMoveTarPosCoeffDelim": 1.001,
-  "onMoveTarPosCoeffMaxDist": 1.002,
-  "onMoveTarPosCoeffZero": 1.0,
-  "onMoveTarPosDelim": 0.1,
-  "pitchDeadZones": [],
-  "position": [
-   0,
-   0
-  ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
-  "radiusOnDelim": 0.5,
-  "radiusOnMax": 0.6,
-  "radiusOnZero": 0.2,
-  "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
-  "rotationSpeed": [
-   25.0,
-   25.0
-  ],
-  "shotDelay": 1.0,
-  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
-  "smallGun": null,
-  "smokePenalty": 0.0001,
-  "typeinfo": {
-   "nation": "Russia",
-   "species": "Main",
-   "type": "Gun"
-  },
-  "vertSector": [
-   0.0,
-   90.0
-  ]
- },
- {
   "HitLocationATBA": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 1.0,
@@ -7726,7 +7889,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -7831,7 +7993,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -7928,7 +8089,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -8033,7 +8193,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -8138,7 +8297,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -8235,7 +8393,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -8367,7 +8524,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -8472,7 +8628,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -8540,7 +8695,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -8658,7 +8812,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -8763,7 +8916,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -8890,7 +9042,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -8958,7 +9109,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -9026,7 +9176,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -9154,7 +9303,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -9222,7 +9370,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -9327,7 +9474,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -9457,7 +9603,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -9584,7 +9729,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -9716,7 +9860,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -9821,7 +9964,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -9952,7 +10094,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -10020,7 +10161,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -10088,7 +10228,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -10156,7 +10295,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -10286,7 +10424,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -10391,7 +10528,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -10459,7 +10595,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -10564,7 +10699,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -10632,7 +10766,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -10760,7 +10893,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -10828,7 +10960,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -10925,7 +11056,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -11030,7 +11160,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -11162,7 +11291,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -11291,7 +11419,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -11396,7 +11523,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -11499,7 +11625,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -11612,7 +11737,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -11740,7 +11864,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -11808,7 +11931,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -11921,7 +12043,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -12024,7 +12145,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -12154,7 +12274,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -12284,7 +12403,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -12381,7 +12499,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -12509,7 +12626,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -12606,7 +12722,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -12726,7 +12841,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -12851,7 +12965,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -12981,7 +13094,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -13078,7 +13190,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -13164,6 +13275,110 @@
   ]
  },
  {
+  "HitLocationATBA": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 0.8,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "atba_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 1200.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.75,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "aiATBAmultiplier": 3,
+  "ammoList": [
+   "PRPA138_120MM_HE_ANSALDO1926"
+  ],
+  "antiAirAuraDistance": 0.0,
+  "antiAirAuraStrength": 0.0,
+  "armor": {
+   "65580": 120.0
+  },
+  "barrelDiameter": 0.12,
+  "clusterID": 0,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
+  "deadMesh": "content/gameplay/russia/gun/secondary/RGS182_120mm50_barrels_2_M1933/RGS182_120mm50_barrels_2_M1933_dead.model",
+  "deadZone": [],
+  "delim": 0.6,
+  "effectIntensityModifier": 1.0,
+  "horizSector": [
+   0.0,
+   0.0
+  ],
+  "id": 4103529936,
+  "idealDistance": 333.333,
+  "idealRadius": 20,
+  "index": "PRGS182",
+  "lensEffect": "",
+  "minRadius": 1.0,
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/russia/gun/secondary/RGS182_120mm50_barrels_2_M1933/RGS182_120mm50_barrels_2_M1933.model",
+  "name": "PRGS182_120mm50_barrels_2_M1933",
+  "numBarrels": 2,
+  "pitchDeadZones": [],
+  "purgingEffect": "particles/guns/PMK_Purging_110to140.xml",
+  "radiusOnDelim": 0.8,
+  "radiusOnMax": 1.0,
+  "radiusOnZero": 0.1,
+  "rotationSpeed": [
+   60.0,
+   1.0
+  ],
+  "shotDelay": 6.0,
+  "shotEffect": "particles/guns/PMK_Shot_110to140.xml",
+  "smallGun": true,
+  "smokePenalty": 0.0001,
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "Secondary",
+   "type": "Gun"
+  },
+  "vertSector": [
+   -10.0,
+   40.0
+  ]
+ },
+ {
   "HitLocationArtillery": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 0.75,
@@ -13208,7 +13423,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -13336,7 +13550,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -13404,7 +13617,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -13509,7 +13721,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -13629,7 +13840,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -13697,7 +13907,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -13802,7 +14011,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -13907,7 +14115,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -14012,7 +14219,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -14080,7 +14286,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -14185,7 +14390,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -14253,7 +14457,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -14380,7 +14583,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -14477,7 +14679,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -14545,7 +14746,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -14567,6 +14767,128 @@
    "species": "AAircraft",
    "type": "Gun"
   }
+ },
+ {
+  "HitLocationArtillery": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 0.5,
+   "autoRepairTime": 30,
+   "autoRepairTimeMin": 25,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.05,
+    0.75
+   ],
+   "critProbHP": [
+    1.0,
+    0.02
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "artillery_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 3750.0,
+   "moduleCritCoeffCR": 1.0,
+   "moduleCritCoeffXP": 1.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 1.0,
+   "rndPartHP": 0.0,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 0.1
+  },
+  "aiMGmaxEllipseRanging": 4.0,
+  "aiMGmedEllipseRanging": 3.7,
+  "aiMGminEllipseRanging": 3.5,
+  "ammoList": [
+   "PAPA030_Shell_152mm_HE_HC_Mark_34_Mod_1",
+   "PRPA006_Shell_152mm_AP_SC_Mk_27_Mod_2"
+  ],
+  "antiAirAuraDistance": 0.0,
+  "antiAirAuraStrength": 0.0,
+  "armor": {
+   "65580": 25.0
+  },
+  "barrelDiameter": 0.152,
+  "coeffPerSecondMin": 0.3,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
+  "deadMesh": "content/gameplay/russia/gun/main/RGM016_6in53_Mk13_Single/RGM016_6in53_Mk13_Single_dead.model",
+  "deadZone": [],
+  "delim": 0.5,
+  "effectIntensityModifier": 1.0,
+  "ellipseRangeMax": 250.0,
+  "ellipseRangeMin": 50.0,
+  "horizSector": [
+   -150.0,
+   150.0
+  ],
+  "id": 4277790160,
+  "idealDistance": 1000.0,
+  "idealRadius": 8,
+  "index": "PRGM016",
+  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "maxEllipseRanging": 1.003,
+  "medEllipseRanging": 1.002,
+  "minEllipseRanging": 1.001,
+  "minRadius": 1.1,
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/russia/gun/main/RGM016_6in53_Mk13_Single/RGM016_6in53_Mk13_Single.model",
+  "name": "PRGM016_6in53_Mk13_Single",
+  "numBarrels": 1,
+  "onMoveTarPosCoeffDelim": 1.001,
+  "onMoveTarPosCoeffMaxDist": 1.002,
+  "onMoveTarPosCoeffZero": 1.0,
+  "onMoveTarPosDelim": 0.1,
+  "pitchDeadZones": [],
+  "position": [
+   0,
+   0
+  ],
+  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "radiusOnDelim": 0.5,
+  "radiusOnMax": 0.6,
+  "radiusOnZero": 0.2,
+  "reduceTime": 0.1,
+  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+  "rotationSpeed": [
+   7.5,
+   7.5
+  ],
+  "shotDelay": 7.0,
+  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+  "smallGun": null,
+  "smokePenalty": 0.0001,
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "Main",
+   "type": "Gun"
+  },
+  "vertSector": [
+   -2.0,
+   20.0
+  ]
  },
  {
   "HitLocationATBA": {
@@ -14613,7 +14935,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -14718,7 +15039,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -14850,7 +15170,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -14978,7 +15297,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -15108,7 +15426,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -15238,7 +15555,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -15356,7 +15672,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -15424,7 +15739,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -15521,7 +15835,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -15646,7 +15959,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -15773,7 +16085,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -15841,7 +16152,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -15938,7 +16248,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -16051,7 +16360,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -16119,7 +16427,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -16141,129 +16448,6 @@
    "species": "AAircraft",
    "type": "Gun"
   }
- },
- {
-  "HitLocationArtillery": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 0.5,
-   "autoRepairTime": 30,
-   "autoRepairTimeMin": 25,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.05,
-    0.75
-   ],
-   "critProbHP": [
-    1.0,
-    0.02
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "artillery_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 3750.0,
-   "moduleCritCoeffCR": 1.0,
-   "moduleCritCoeffXP": 1.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 1.0,
-   "rndPartHP": 0.0,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 0.1
-  },
-  "aiMGmaxEllipseRanging": 4.0,
-  "aiMGmedEllipseRanging": 3.7,
-  "aiMGminEllipseRanging": 3.5,
-  "ammoList": [
-   "PAPA030_Shell_152mm_HE_HC_Mark_34_Mod_1",
-   "PRPA006_Shell_152mm_AP_SC_Mk_27_Mod_2"
-  ],
-  "antiAirAuraDistance": 0.0,
-  "antiAirAuraStrength": 0.0,
-  "armor": {
-   "65580": 25.0
-  },
-  "barrelDiameter": 0.152,
-  "coeffPerSecondMin": 0.3,
-  "customMiscs": {},
-  "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
-  "deadMesh": "content/gameplay/russia/gun/main/RGM016_6in53_Mk13_Single/RGM016_6in53_Mk13_Single_dead.model",
-  "deadZone": [],
-  "delim": 0.5,
-  "effectIntensityModifier": 1.0,
-  "ellipseRangeMax": 250.0,
-  "ellipseRangeMin": 50.0,
-  "horizSector": [
-   -150.0,
-   150.0
-  ],
-  "id": 4277790160,
-  "idealDistance": 1000.0,
-  "idealRadius": 8,
-  "index": "PRGM016",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
-  "maxEllipseRanging": 1.003,
-  "medEllipseRanging": 1.002,
-  "minEllipseRanging": 1.001,
-  "minRadius": 1.1,
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/russia/gun/main/RGM016_6in53_Mk13_Single/RGM016_6in53_Mk13_Single.model",
-  "name": "PRGM016_6in53_Mk13_Single",
-  "numBarrels": 1,
-  "onMoveTarPosCoeffDelim": 1.001,
-  "onMoveTarPosCoeffMaxDist": 1.002,
-  "onMoveTarPosCoeffZero": 1.0,
-  "onMoveTarPosDelim": 0.1,
-  "pitchDeadZones": [],
-  "position": [
-   0,
-   0
-  ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
-  "radiusOnDelim": 0.5,
-  "radiusOnMax": 0.6,
-  "radiusOnZero": 0.2,
-  "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
-  "rotationSpeed": [
-   7.5,
-   7.5
-  ],
-  "shotDelay": 7.0,
-  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
-  "smallGun": null,
-  "smokePenalty": 0.0001,
-  "typeinfo": {
-   "nation": "Russia",
-   "species": "Main",
-   "type": "Gun"
-  },
-  "vertSector": [
-   -2.0,
-   20.0
-  ]
  },
  {
   "HitLocationAirDefense": {
@@ -16310,7 +16494,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -16332,6 +16515,136 @@
    "species": "AAircraft",
    "type": "Gun"
   }
+ },
+ {
+  "HitLocationArtillery": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 0.0,
+   "autoRepairTime": 30,
+   "autoRepairTimeMin": 25,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.05,
+    0.75
+   ],
+   "critProbHP": [
+    1.0,
+    0.02
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "artillery_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 7500.0,
+   "moduleCritCoeffCR": 1.0,
+   "moduleCritCoeffXP": 1.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 1.0,
+   "rndPartHP": 0.0,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 0.1
+  },
+  "aiMGmaxEllipseRanging": 4.0,
+  "aiMGmedEllipseRanging": 3.7,
+  "aiMGminEllipseRanging": 3.5,
+  "ammoList": [
+   "PRPA136_320MM_HE_NOVOROS",
+   "PRPA137_320MM_AP_NOVOROS"
+  ],
+  "antiAirAuraDistance": 0.0,
+  "antiAirAuraStrength": 0.0,
+  "armor": {
+   "1": 0.0,
+   "65568": 240.0,
+   "65569": 140.0,
+   "65571": 220.0,
+   "65635": 40.0,
+   "65636": 240.0,
+   "131105": 110.0,
+   "131171": 0.0,
+   "196707": 40.0
+  },
+  "barrelDiameter": 0.32,
+  "coeffPerSecondMin": 0.3,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_medium.xml",
+  "deadMesh": "content/gameplay/russia/gun/main/RGM180_320mm44_barrels_3_M1934/RGM180_320mm44_barrels_3_M1934_dead.model",
+  "deadZone": [],
+  "delim": 0.5,
+  "effectIntensityModifier": 1.0,
+  "ellipseRangeMax": 250.0,
+  "ellipseRangeMin": 50.0,
+  "horizSector": [
+   -120.0,
+   120.0
+  ],
+  "id": 4105823696,
+  "idealDistance": 1000.0,
+  "idealRadius": 10.0,
+  "index": "PRGM180",
+  "lensEffect": "particles/guns/GK_Lens_250to440.xml",
+  "maxEllipseRanging": 1.003,
+  "medEllipseRanging": 1.002,
+  "minEllipseRanging": 1.001,
+  "minRadius": 1.6,
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/russia/gun/main/RGM180_320mm44_barrels_3_M1934/RGM180_320mm44_barrels_3_M1934.model",
+  "name": "PRGM180_320mm44_barrels_3_M1934",
+  "numBarrels": 3,
+  "onMoveTarPosCoeffDelim": 1.001,
+  "onMoveTarPosCoeffMaxDist": 1.002,
+  "onMoveTarPosCoeffZero": 1.0,
+  "onMoveTarPosDelim": 0.1,
+  "pitchDeadZones": [],
+  "position": [
+   0,
+   0
+  ],
+  "purgingEffect": "particles/guns/GK_Purging_170to350.xml",
+  "radiusOnDelim": 0.5,
+  "radiusOnMax": 0.6,
+  "radiusOnZero": 0.2,
+  "reduceTime": 0.1,
+  "reloadBoostEffect": "particles/guns/GK_Reload_350to440.xml",
+  "rotationSpeed": [
+   5.0,
+   6.0
+  ],
+  "shotDelay": 28.0,
+  "shotEffect": "particles/guns/GK_Shot_350to440.xml",
+  "smallGun": null,
+  "smokePenalty": 0.0001,
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "Main",
+   "type": "Gun"
+  },
+  "vertSector": [
+   -5.0,
+   27.0
+  ]
  },
  {
   "HitLocationATBA": {
@@ -16378,7 +16691,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -16483,7 +16795,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -16589,7 +16900,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -16657,7 +16967,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -16762,7 +17071,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -16875,7 +17183,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -16980,7 +17287,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -17048,7 +17354,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -17061,6 +17366,73 @@
   "index": "PRGA048",
   "model": "content/gameplay/russia/gun/aaircraft/RGA048_47mm_Hotchkiss/RGA048_47mm_Hotchkiss.model",
   "name": "PRGA048_47mm_Hotchkiss",
+  "numBarrels": 1,
+  "shotDelay": 5.0,
+  "shotEffect": "particles/guns/AA_shot.xml",
+  "smallGun": null,
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "AAircraft",
+   "type": "Gun"
+  }
+ },
+ {
+  "HitLocationAirDefense": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "airdefense_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 600.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.8,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "antiAirAuraDistance": 107.0,
+  "antiAirAuraStrength": 0.057,
+  "barrelDiameter": 0.037,
+  "deadMesh": "content/gameplay/russia/gun/aaircraft/RGA185_37mm70K/RGA185_37mm70K_dead.model",
+  "id": 4100974032,
+  "index": "PRGA185",
+  "model": "content/gameplay/russia/gun/aaircraft/RGA185_37mm70K/RGA185_37mm70K.model",
+  "name": "PRGA185_37mm70K",
   "numBarrels": 1,
   "shotDelay": 5.0,
   "shotEffect": "particles/guns/AA_shot.xml",
@@ -17116,7 +17488,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -17244,7 +17615,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -17312,7 +17682,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -17417,7 +17786,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -17485,7 +17853,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -17615,7 +17982,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -17720,7 +18086,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -17845,7 +18210,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -17913,7 +18277,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -18043,7 +18406,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0

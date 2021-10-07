@@ -44,7 +44,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -171,7 +170,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -268,7 +266,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -365,7 +362,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -433,7 +429,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -563,7 +558,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -693,7 +687,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -761,7 +754,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -829,7 +821,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -949,7 +940,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -1079,7 +1069,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -1147,7 +1136,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -1234,6 +1222,102 @@
   ]
  },
  {
+  "HitLocationDepthCharge": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": false,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "depthcharge_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 1200.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.8,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "ammoList": [
+   "PHPD004_375MM"
+  ],
+  "canBeDestroyed": true,
+  "customMiscs": {},
+  "customShotSoundType": "reactive",
+  "deadMesh": "content/gameplay/netherlands/gun/dcharge/HGB002_Bofors_375mm_model_1950/HGB002_Bofors_375mm_model_1950_dead.model",
+  "deadZone": [],
+  "disabledNodes": [],
+  "fallRollAcceleration": 0.0,
+  "horizSector": [
+   -150.0,
+   150.0
+  ],
+  "id": 4292830992,
+  "index": "PHGB002",
+  "mainSector": [
+   -90.0,
+   90.0
+  ],
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/netherlands/gun/dcharge/HGB002_Bofors_375mm_model_1950/HGB002_Bofors_375mm_model_1950.model",
+  "name": "PHGB002_Bofors_375mm_model_1950",
+  "numBombs": 4,
+  "rollAngleSpeed": 85.0,
+  "rollSpeed": 0.5,
+  "rotationSpeed": [
+   0.0,
+   0.0
+  ],
+  "shootAngle": 15.0,
+  "shootDist": 33.33,
+  "shootingType": "shoot",
+  "shotEffect": "particles/guns/Ubomb_shot_reactive.xml",
+  "startFallSpeed": 0.1,
+  "typeinfo": {
+   "nation": "Netherlands",
+   "species": "DCharge",
+   "type": "Gun"
+  },
+  "vertSector": [
+   15.0,
+   16.0
+  ],
+  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+ },
+ {
   "HitLocationAirDefense": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 1.0,
@@ -1278,7 +1362,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -1346,7 +1429,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -1466,7 +1548,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -1598,7 +1679,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -1681,103 +1761,6 @@
   ]
  },
  {
-  "HitLocationDepthCharge": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 1.0,
-   "autoRepairTime": 10,
-   "autoRepairTimeMin": 5,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": false,
-   "critProb": [
-    0.0,
-    0.0
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "depthcharge_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 1200.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.8,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
-  "ammoList": [
-   "PHPD004_375MM"
-  ],
-  "canBeDestroyed": true,
-  "customMiscs": {},
-  "customShotSoundType": "reactive",
-  "deadMesh": "content/gameplay/netherlands/gun/dcharge/HGB002_Bofors_375mm_model_1950/HGB002_Bofors_375mm_model_1950_dead.model",
-  "deadZone": [],
-  "disabledNodes": [],
-  "fallRollAcceleration": 0.0,
-  "horizSector": [
-   -150.0,
-   150.0
-  ],
-  "id": 4292830992,
-  "index": "PHGB002",
-  "mainSector": [
-   -90.0,
-   90.0
-  ],
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/netherlands/gun/dcharge/HGB002_Bofors_375mm_model_1950/HGB002_Bofors_375mm_model_1950.model",
-  "name": "PHGB002_Bofors_375mm_model_1950",
-  "numBombs": 4,
-  "rollAngleSpeed": 85.0,
-  "rollSpeed": 0.5,
-  "rotationSpeed": [
-   0.0,
-   0.0
-  ],
-  "shootAngle": 15.0,
-  "shootDist": 33.33,
-  "shootingType": "shoot",
-  "shotEffect": "particles/guns/Ubomb_shot_reactive.xml",
-  "startFallSpeed": 0.1,
-  "typeinfo": {
-   "nation": "Netherlands",
-   "species": "DCharge",
-   "type": "Gun"
-  },
-  "vertSector": [
-   15.0,
-   16.0
-  ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
- },
- {
   "HitLocationAirDefense": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 1.0,
@@ -1822,7 +1805,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -1890,7 +1872,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -1958,20 +1939,19 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
   },
   "antiAirAuraDistance": 117.0,
-  "antiAirAuraStrength": 0.106,
+  "antiAirAuraStrength": 0.075,
   "barrelDiameter": 0.04,
-  "deadMesh": "content/gameplay/netherlands/gun/aaircraft/HGA024_40mm_Bofors_M36/HGA024_40mm_Bofors_M36_dead.model",
-  "id": 4269795088,
-  "index": "PHGA024",
-  "model": "content/gameplay/netherlands/gun/aaircraft/HGA024_40mm_Bofors_M36/HGA024_40mm_Bofors_M36.model",
-  "name": "PHGA024_40mm_Bofors_M36",
-  "numBarrels": 2,
+  "deadMesh": "content/gameplay/netherlands/gun/aaircraft/HGA034_40mm_Bofors_M36_1barrel/HGA034_40mm_Bofors_M36_1barrel_dead.model",
+  "id": 4259309328,
+  "index": "PHGA034",
+  "model": "content/gameplay/netherlands/gun/aaircraft/HGA034_40mm_Bofors_M36_1barrel/HGA034_40mm_Bofors_M36_1barrel.model",
+  "name": "PHGA034_40mm_Bofors_M36_1barrel",
+  "numBarrels": 1,
   "shotDelay": 5.0,
   "shotEffect": "particles/guns/AA_shot.xml",
   "smallGun": null,
@@ -2026,20 +2006,19 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
   },
   "antiAirAuraDistance": 117.0,
-  "antiAirAuraStrength": 0.075,
+  "antiAirAuraStrength": 0.106,
   "barrelDiameter": 0.04,
-  "deadMesh": "content/gameplay/netherlands/gun/aaircraft/HGA034_40mm_Bofors_M36_1barrel/HGA034_40mm_Bofors_M36_1barrel_dead.model",
-  "id": 4259309328,
-  "index": "PHGA034",
-  "model": "content/gameplay/netherlands/gun/aaircraft/HGA034_40mm_Bofors_M36_1barrel/HGA034_40mm_Bofors_M36_1barrel.model",
-  "name": "PHGA034_40mm_Bofors_M36_1barrel",
-  "numBarrels": 1,
+  "deadMesh": "content/gameplay/netherlands/gun/aaircraft/HGA024_40mm_Bofors_M36/HGA024_40mm_Bofors_M36_dead.model",
+  "id": 4269795088,
+  "index": "PHGA024",
+  "model": "content/gameplay/netherlands/gun/aaircraft/HGA024_40mm_Bofors_M36/HGA024_40mm_Bofors_M36.model",
+  "name": "PHGA024_40mm_Bofors_M36",
+  "numBarrels": 2,
   "shotDelay": 5.0,
   "shotEffect": "particles/guns/AA_shot.xml",
   "smallGun": null,
@@ -2094,7 +2073,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -2199,7 +2177,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -2267,7 +2244,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -2335,7 +2311,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -2463,7 +2438,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -2590,7 +2564,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -2723,7 +2696,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -2856,7 +2828,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -2924,7 +2895,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -2992,7 +2962,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -3122,7 +3091,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -3219,7 +3187,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 0.1
@@ -3348,7 +3315,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -3416,7 +3382,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0
@@ -3484,7 +3449,6 @@
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
-   "transmitBPDamageToParentFactor": 1.0,
    "transmitHPDamageToParentFactor": 1.0,
    "volume": 0.5,
    "volumeCoeff": 1.0

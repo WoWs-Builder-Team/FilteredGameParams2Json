@@ -53,45 +53,6 @@
  {
   "Default": {
    "SpecialSoundID": "Default",
-   "consumableType": "trigger1",
-   "descIDs": "",
-   "group": "ship",
-   "iconIDs": "",
-   "logic": "",
-   "numConsumables": -1,
-   "reloadTime": 20.0,
-   "titleIDs": "",
-   "workTime": 10.0
-  },
-  "H2019": {
-   "SpecialSoundID": "Halloween2019_TorpedoReload_Boost",
-   "consumableType": "trigger1",
-   "descIDs": "",
-   "group": "ship",
-   "iconIDs": "",
-   "logic": "",
-   "numConsumables": 0,
-   "reloadTime": 60.0,
-   "titleIDs": "",
-   "workTime": 1.0
-  },
-  "canBuy": false,
-  "costCR": -1,
-  "costGold": -1,
-  "custom": {},
-  "freeOfCharge": true,
-  "id": 3955399952,
-  "index": "PXY323",
-  "name": "PXY323_Improve_H2019",
-  "typeinfo": {
-   "nation": "Events",
-   "species": null,
-   "type": "Ability"
-  }
- },
- {
-  "Default": {
-   "SpecialSoundID": "Default",
    "consumableType": "trigger3",
    "descIDs": "",
    "group": "ship",
@@ -179,23 +140,27 @@
  {
   "Default": {
    "SpecialSoundID": "Default",
-   "consumableType": "trigger5",
+   "absoluteBuff": "",
+   "condition": "",
+   "conditionalBuff": "",
+   "consumableType": "invisibilityExtraBuffConsumable",
    "descIDs": "",
    "group": "ship",
    "iconIDs": "",
-   "logic": "",
    "numConsumables": -1,
-   "reloadTime": 20.0,
+   "reloadTime": 10.0,
    "titleIDs": "",
    "workTime": 10.0
   },
   "H2020": {
    "SpecialSoundID": "Halloween2020_InvisibleRegen",
-   "consumableType": "trigger5",
+   "absoluteBuff": "PCOM054_HEALINVIZ_INVIZ",
+   "condition": "visibility",
+   "conditionalBuff": "PCOM053_HEALINVIZ_REGENERATION",
+   "consumableType": "invisibilityExtraBuffConsumable",
    "descIDs": "",
    "group": "ship",
    "iconIDs": "",
-   "logic": "",
    "numConsumables": -1,
    "reloadTime": 50.0,
    "titleIDs": "",
@@ -850,34 +815,6 @@
  {
   "Default": {
    "SpecialSoundID": "Default",
-   "consumableType": "trigger7",
-   "descIDs": "",
-   "group": "ship",
-   "iconIDs": "",
-   "logic": "beffsShift",
-   "numConsumables": -1,
-   "reloadTime": 0.0,
-   "targetBuff": "PXOM040_HealDamageCoefPirate_H2020",
-   "titleIDs": "",
-   "workTime": 0.0
-  },
-  "canBuy": false,
-  "costCR": -1,
-  "costGold": -1,
-  "custom": {},
-  "freeOfCharge": true,
-  "id": 3768753424,
-  "index": "PXY501",
-  "name": "PXY501_BuffsShift_Vampyre",
-  "typeinfo": {
-   "nation": "Events",
-   "species": null,
-   "type": "Ability"
-  }
- },
- {
-  "Default": {
-   "SpecialSoundID": "Default",
    "consumableType": "trigger2",
    "descIDs": "",
    "group": "ship",
@@ -920,6 +857,85 @@
   "id": 3972177168,
   "index": "PXY307",
   "name": "PXY307_LivingArmor_PVP",
+  "typeinfo": {
+   "nation": "Events",
+   "species": null,
+   "type": "Ability"
+  }
+ },
+ {
+  "Default": {
+   "SpecialSoundID": "Default",
+   "backwardEngineForsag": 2.5,
+   "backwardEngineForsagMaxSpeed": 10.0,
+   "boostCoeff": 0.08,
+   "consumableType": "speedBoosters",
+   "descIDs": "",
+   "forwardEngineForsag": 2.5,
+   "forwardEngineForsagMaxSpeed": 10.0,
+   "group": "ship",
+   "iconIDs": "",
+   "numConsumables": 2,
+   "reloadTime": 180.0,
+   "titleIDs": "",
+   "workTime": 120.0
+  },
+  "H2018_PVP": {
+   "SpecialSoundID": "Default",
+   "backwardEngineForsag": 2.5,
+   "backwardEngineForsagMaxSpeed": 10.0,
+   "boostCoeff": 3.0,
+   "consumableType": "speedBoosters",
+   "descIDs": "",
+   "forwardEngineForsag": 30.0,
+   "forwardEngineForsagMaxSpeed": 30.0,
+   "group": "ship",
+   "iconIDs": "",
+   "numConsumables": 5,
+   "reloadTime": 40.0,
+   "titleIDs": "",
+   "workTime": 80.0
+  },
+  "H2019": {
+   "SpecialSoundID": "Default",
+   "backwardEngineForsag": 2.5,
+   "backwardEngineForsagMaxSpeed": 10.0,
+   "boostCoeff": 0.3,
+   "consumableType": "speedBoosters",
+   "descIDs": "",
+   "forwardEngineForsag": 2.5,
+   "forwardEngineForsagMaxSpeed": 10.0,
+   "group": "ship",
+   "iconIDs": "",
+   "numConsumables": 0,
+   "reloadTime": 60.0,
+   "titleIDs": "",
+   "workTime": 60.0
+  },
+  "PostApocalypse": {
+   "SpecialSoundID": "Default",
+   "backwardEngineForsag": 30.0,
+   "backwardEngineForsagMaxSpeed": 50.0,
+   "boostCoeff": 0.2,
+   "consumableType": "speedBoosters",
+   "descIDs": "",
+   "forwardEngineForsag": 30.0,
+   "forwardEngineForsagMaxSpeed": 50.0,
+   "group": "ship",
+   "iconIDs": "",
+   "numConsumables": 5,
+   "reloadTime": 60.0,
+   "titleIDs": "",
+   "workTime": 60.0
+  },
+  "canBuy": false,
+  "costCR": -1,
+  "costGold": -1,
+  "custom": {},
+  "freeOfCharge": true,
+  "id": 4278361360,
+  "index": "PXY015",
+  "name": "PXY015_SpeedBoosterH18",
   "typeinfo": {
    "nation": "Events",
    "species": null,
@@ -974,6 +990,7 @@
    "iconIDs": "",
    "numConsumables": 2,
    "regenerationHPSpeed": 0.03,
+   "regenerationHPSpeedUnits": 0.0,
    "reloadTime": 30.0,
    "titleIDs": "",
    "workTime": 10.0
@@ -986,6 +1003,7 @@
    "iconIDs": "",
    "numConsumables": 4,
    "regenerationHPSpeed": 0.2,
+   "regenerationHPSpeedUnits": 0.0,
    "reloadTime": 30.0,
    "titleIDs": "",
    "workTime": 15.0
@@ -1145,6 +1163,34 @@
   "id": 3953302800,
   "index": "PXY325",
   "name": "PXY325_ImproveRegen_H2019",
+  "typeinfo": {
+   "nation": "Events",
+   "species": null,
+   "type": "Ability"
+  }
+ },
+ {
+  "Default": {
+   "SpecialSoundID": "Default",
+   "consumableType": "trigger7",
+   "descIDs": "",
+   "group": "ship",
+   "iconIDs": "",
+   "logic": "beffsShift",
+   "numConsumables": -1,
+   "reloadTime": 0.0,
+   "targetBuff": "PXOM040_HealDamageCoefPirate_H2020",
+   "titleIDs": "",
+   "workTime": 0.0
+  },
+  "canBuy": false,
+  "costCR": -1,
+  "costGold": -1,
+  "custom": {},
+  "freeOfCharge": true,
+  "id": 3768753424,
+  "index": "PXY501",
+  "name": "PXY501_BuffsShift_Vampyre",
   "typeinfo": {
    "nation": "Events",
    "species": null,
@@ -1597,47 +1643,6 @@
   }
  },
  {
-  "Default": {
-   "SpecialSoundID": "Default",
-   "consumableType": "sonar",
-   "descIDs": "",
-   "distShip": 116.0,
-   "distTorpedo": 84.0,
-   "group": "ship",
-   "iconIDs": "",
-   "numConsumables": 2,
-   "reloadTime": 180.0,
-   "titleIDs": "",
-   "workTime": 40.0
-  },
-  "H2017_Chapaev": {
-   "SpecialSoundID": "Default",
-   "consumableType": "sonar",
-   "descIDs": "",
-   "distShip": 166.0,
-   "distTorpedo": 166.0,
-   "group": "ship",
-   "iconIDs": "",
-   "numConsumables": -1,
-   "reloadTime": 120.0,
-   "titleIDs": "",
-   "workTime": 180.0
-  },
-  "canBuy": false,
-  "costCR": -1,
-  "costGold": -1,
-  "custom": {},
-  "freeOfCharge": true,
-  "id": 4282555664,
-  "index": "PXY011",
-  "name": "PXY011_SonarSearch",
-  "typeinfo": {
-   "nation": "Events",
-   "species": null,
-   "type": "Ability"
-  }
- },
- {
   "Blue_Aster": {
    "SpecialSoundID": "Default",
    "activationDelay": 0.0,
@@ -1940,27 +1945,47 @@
  {
   "Default": {
    "SpecialSoundID": "Default",
-   "consumableType": "trigger3",
+   "allyAuraBuff": "",
+   "consumableType": "groupAuraBuff",
    "descIDs": "",
+   "enemyAuraBuff": "",
    "group": "ship",
    "iconIDs": "",
-   "logic": "",
    "numConsumables": -1,
-   "reloadTime": 20.0,
+   "reloadTime": 30.0,
+   "selfAuraBuff": "",
+   "source": [
+    "SELF"
+   ],
+   "target": [
+    "SELF",
+    "ALLY"
+   ],
    "titleIDs": "",
-   "workTime": 10.0
+   "workTime": 10.0,
+   "zoneRadius": 0.0
   },
   "H2020": {
    "SpecialSoundID": "Halloween2020_HealZone",
-   "consumableType": "trigger3",
+   "allyAuraBuff": "PCOM051_HEALZONE_REGENERATION",
+   "consumableType": "groupAuraBuff",
    "descIDs": "",
+   "enemyAuraBuff": "",
    "group": "ship",
    "iconIDs": "",
-   "logic": "",
    "numConsumables": -1,
    "reloadTime": 80.0,
+   "selfAuraBuff": "PCOM056_HEALZONE_REGENERATION_ZONEOWNER",
+   "source": [
+    "SELF"
+   ],
+   "target": [
+    "SELF",
+    "ALLY"
+   ],
    "titleIDs": "",
-   "workTime": 15.0
+   "workTime": 15.0,
+   "zoneRadius": 166.7
   },
   "canBuy": false,
   "costCR": -1,
@@ -2234,6 +2259,45 @@
  {
   "Default": {
    "SpecialSoundID": "Default",
+   "consumableType": "trigger1",
+   "descIDs": "",
+   "group": "ship",
+   "iconIDs": "",
+   "logic": "",
+   "numConsumables": -1,
+   "reloadTime": 20.0,
+   "titleIDs": "",
+   "workTime": 10.0
+  },
+  "H2019": {
+   "SpecialSoundID": "Halloween2019_TorpedoReload_Boost",
+   "consumableType": "trigger1",
+   "descIDs": "",
+   "group": "ship",
+   "iconIDs": "",
+   "logic": "",
+   "numConsumables": 0,
+   "reloadTime": 60.0,
+   "titleIDs": "",
+   "workTime": 1.0
+  },
+  "canBuy": false,
+  "costCR": -1,
+  "costGold": -1,
+  "custom": {},
+  "freeOfCharge": true,
+  "id": 3955399952,
+  "index": "PXY323",
+  "name": "PXY323_Improve_H2019",
+  "typeinfo": {
+   "nation": "Events",
+   "species": null,
+   "type": "Ability"
+  }
+ },
+ {
+  "Default": {
+   "SpecialSoundID": "Default",
    "consumableType": "trigger6",
    "descIDs": "",
    "group": "ship",
@@ -2253,6 +2317,18 @@
    "logic": "",
    "numConsumables": -1,
    "reloadTime": 20.0,
+   "titleIDs": "",
+   "workTime": 1.0
+  },
+  "H2020_MC": {
+   "SpecialSoundID": "Halloween2020_TurnAround",
+   "consumableType": "trigger6",
+   "descIDs": "",
+   "group": "ship",
+   "iconIDs": "",
+   "logic": "",
+   "numConsumables": -1,
+   "reloadTime": 14.0,
    "titleIDs": "",
    "workTime": 1.0
   },
@@ -2428,6 +2504,20 @@
    "waveParams": "PXPW005_CirclerWaveBoss_2020",
    "workTime": 1.0
   },
+  "H2020_MC": {
+   "SpecialSoundID": "Halloween2020_CircleWave",
+   "consumableType": "circleWave",
+   "descIDs": "",
+   "group": "ship",
+   "iconIDs": "",
+   "numConsumables": -1,
+   "reloadTime": 35.0,
+   "startDistance": 100.0,
+   "titleIDs": "",
+   "waveDistance": 5000,
+   "waveParams": "PXPW001_CirclerWave_2020",
+   "workTime": 1.0
+  },
   "SectorWave": {
    "SpecialSoundID": "Halloween2020_CircleWave",
    "consumableType": "circleWave",
@@ -2450,6 +2540,47 @@
   "id": 3863125264,
   "index": "PXY411",
   "name": "PXY411_CircleWave_H2020",
+  "typeinfo": {
+   "nation": "Events",
+   "species": null,
+   "type": "Ability"
+  }
+ },
+ {
+  "Default": {
+   "SpecialSoundID": "Default",
+   "consumableType": "sonar",
+   "descIDs": "",
+   "distShip": 116.0,
+   "distTorpedo": 84.0,
+   "group": "ship",
+   "iconIDs": "",
+   "numConsumables": 2,
+   "reloadTime": 180.0,
+   "titleIDs": "",
+   "workTime": 40.0
+  },
+  "H2017_Chapaev": {
+   "SpecialSoundID": "Default",
+   "consumableType": "sonar",
+   "descIDs": "",
+   "distShip": 166.0,
+   "distTorpedo": 166.0,
+   "group": "ship",
+   "iconIDs": "",
+   "numConsumables": -1,
+   "reloadTime": 120.0,
+   "titleIDs": "",
+   "workTime": 180.0
+  },
+  "canBuy": false,
+  "costCR": -1,
+  "costGold": -1,
+  "custom": {},
+  "freeOfCharge": true,
+  "id": 4282555664,
+  "index": "PXY011",
+  "name": "PXY011_SonarSearch",
   "typeinfo": {
    "nation": "Events",
    "species": null,
@@ -2704,75 +2835,26 @@
  {
   "Default": {
    "SpecialSoundID": "Default",
-   "consumableType": "trigger1",
+   "consumableType": "regenCrew",
    "descIDs": "",
    "group": "ship",
    "iconIDs": "",
-   "logic": "",
-   "numConsumables": 2,
-   "reloadTime": 20.0,
-   "titleIDs": "",
-   "workTime": 10.0
-  },
-  "H2018_PVP": {
-   "SpecialSoundID": "Vampiric_PVP",
-   "consumableType": "trigger1",
-   "descIDs": "",
-   "group": "ship",
-   "iconIDs": "",
-   "logic": "",
-   "numConsumables": 3,
-   "reloadTime": 60.0,
-   "titleIDs": "",
-   "workTime": 40.0
-  },
-  "H2019": {
-   "SpecialSoundID": "Vampiric_PVP",
-   "consumableType": "trigger1",
-   "descIDs": "",
-   "group": "ship",
-   "iconIDs": "",
-   "logic": "",
-   "numConsumables": 0,
-   "reloadTime": 60.0,
-   "titleIDs": "",
-   "workTime": 40.0
-  },
-  "canBuy": false,
-  "costCR": -1,
-  "costGold": -1,
-  "custom": {},
-  "freeOfCharge": true,
-  "id": 3973225744,
-  "index": "PXY306",
-  "name": "PXY306_Vampiric_PVP",
-  "typeinfo": {
-   "nation": "Events",
-   "species": null,
-   "type": "Ability"
-  }
- },
- {
-  "Default": {
-   "SpecialSoundID": "Default",
-   "consumableType": "trigger1",
-   "descIDs": "",
-   "group": "ship",
-   "iconIDs": "",
-   "logic": "",
    "numConsumables": -1,
-   "reloadTime": 20.0,
+   "regenerationHPSpeed": 0.0,
+   "regenerationHPSpeedUnits": 0.0,
+   "reloadTime": 120.0,
    "titleIDs": "",
-   "workTime": 10.0
+   "workTime": 28.0
   },
   "H2020": {
    "SpecialSoundID": "Halloween2020_Regen",
-   "consumableType": "trigger1",
+   "consumableType": "regenCrew",
    "descIDs": "",
    "group": "ship",
    "iconIDs": "",
-   "logic": "",
    "numConsumables": -1,
+   "regenerationHPSpeed": 0.0,
+   "regenerationHPSpeedUnits": 1000.0,
    "reloadTime": 50.0,
    "titleIDs": "",
    "workTime": 15.0
@@ -2797,6 +2879,7 @@
    "backwardEngineForsag": 2.5,
    "backwardEngineForsagMaxSpeed": 10.0,
    "boostCoeff": 0.1,
+   "buoyancyState": 0,
    "consumableType": "goDeep",
    "descIDs": "",
    "effectOnEndLongivity": 3.0,
@@ -2805,25 +2888,26 @@
    "group": "ship",
    "iconIDs": "",
    "numConsumables": -1,
-   "onWaterEffect": "particles/ShipDivingEffect_H2020.xml",
+   "onWaterEffect": "particles/Empty_FX.xml",
    "reloadTime": 40,
    "titleIDs": "",
    "workTime": 15
   },
   "H2020": {
    "SpecialSoundID": "Default",
-   "backwardEngineForsag": 30.0,
-   "backwardEngineForsagMaxSpeed": 30.0,
+   "backwardEngineForsag": 4.0,
+   "backwardEngineForsagMaxSpeed": 4.0,
    "boostCoeff": 0.7,
+   "buoyancyState": 1,
    "consumableType": "goDeep",
    "descIDs": "",
    "effectOnEndLongivity": 10.0,
-   "forwardEngineForsag": 30.0,
-   "forwardEngineForsagMaxSpeed": 30.0,
+   "forwardEngineForsag": 4.0,
+   "forwardEngineForsagMaxSpeed": 4.0,
    "group": "ship",
    "iconIDs": "",
    "numConsumables": -1,
-   "onWaterEffect": "particles/ShipDivingEffect_H2020.xml",
+   "onWaterEffect": "particles/Empty_FX.xml",
    "reloadTime": 50.0,
    "titleIDs": "",
    "workTime": 15.0
@@ -2845,27 +2929,69 @@
  {
   "Default": {
    "SpecialSoundID": "Default",
-   "consumableType": "trigger3",
+   "allyAuraBuff": "",
+   "consumableType": "affectedBuffAura",
    "descIDs": "",
+   "enemyAuraBuff": "",
    "group": "ship",
    "iconIDs": "",
-   "logic": "",
    "numConsumables": -1,
-   "reloadTime": 20.0,
+   "reloadTime": 30.0,
+   "selfAuraBuff": "",
+   "source": [
+    "SELF",
+    "ENEMY"
+   ],
+   "target": [
+    "SELF"
+   ],
    "titleIDs": "",
-   "workTime": 10.0
+   "workTime": 10.0,
+   "zoneRadius": 0.0
   },
   "H2020": {
    "SpecialSoundID": "Halloween2020_DrainZone",
-   "consumableType": "trigger3",
+   "allyAuraBuff": "",
+   "consumableType": "affectedBuffAura",
    "descIDs": "",
+   "enemyAuraBuff": "",
    "group": "ship",
    "iconIDs": "",
-   "logic": "",
    "numConsumables": -1,
    "reloadTime": 60.0,
+   "selfAuraBuff": "PCOM052_DRAINZONE_REGENERATION",
+   "source": [
+    "SELF",
+    "ENEMY"
+   ],
+   "target": [
+    "SELF"
+   ],
    "titleIDs": "",
-   "workTime": 25.0
+   "workTime": 25.0,
+   "zoneRadius": 166.7
+  },
+  "H2020_CB": {
+   "SpecialSoundID": "Halloween2020_DrainZone",
+   "allyAuraBuff": "",
+   "consumableType": "affectedBuffAura",
+   "descIDs": "",
+   "enemyAuraBuff": "",
+   "group": "ship",
+   "iconIDs": "",
+   "numConsumables": -1,
+   "reloadTime": 50.0,
+   "selfAuraBuff": "PCOM052_DRAINZONE_REGENERATION",
+   "source": [
+    "SELF",
+    "ENEMY"
+   ],
+   "target": [
+    "SELF"
+   ],
+   "titleIDs": "",
+   "workTime": 25.0,
+   "zoneRadius": 166.7
   },
   "canBuy": false,
   "costCR": -1,
@@ -3067,85 +3193,6 @@
  {
   "Default": {
    "SpecialSoundID": "Default",
-   "backwardEngineForsag": 2.5,
-   "backwardEngineForsagMaxSpeed": 10.0,
-   "boostCoeff": 0.08,
-   "consumableType": "speedBoosters",
-   "descIDs": "",
-   "forwardEngineForsag": 2.5,
-   "forwardEngineForsagMaxSpeed": 10.0,
-   "group": "ship",
-   "iconIDs": "",
-   "numConsumables": 2,
-   "reloadTime": 180.0,
-   "titleIDs": "",
-   "workTime": 120.0
-  },
-  "H2018_PVP": {
-   "SpecialSoundID": "Default",
-   "backwardEngineForsag": 2.5,
-   "backwardEngineForsagMaxSpeed": 10.0,
-   "boostCoeff": 3.0,
-   "consumableType": "speedBoosters",
-   "descIDs": "",
-   "forwardEngineForsag": 30.0,
-   "forwardEngineForsagMaxSpeed": 30.0,
-   "group": "ship",
-   "iconIDs": "",
-   "numConsumables": 5,
-   "reloadTime": 40.0,
-   "titleIDs": "",
-   "workTime": 80.0
-  },
-  "H2019": {
-   "SpecialSoundID": "Default",
-   "backwardEngineForsag": 2.5,
-   "backwardEngineForsagMaxSpeed": 10.0,
-   "boostCoeff": 0.3,
-   "consumableType": "speedBoosters",
-   "descIDs": "",
-   "forwardEngineForsag": 2.5,
-   "forwardEngineForsagMaxSpeed": 10.0,
-   "group": "ship",
-   "iconIDs": "",
-   "numConsumables": 0,
-   "reloadTime": 60.0,
-   "titleIDs": "",
-   "workTime": 60.0
-  },
-  "PostApocalypse": {
-   "SpecialSoundID": "Default",
-   "backwardEngineForsag": 30.0,
-   "backwardEngineForsagMaxSpeed": 50.0,
-   "boostCoeff": 0.2,
-   "consumableType": "speedBoosters",
-   "descIDs": "",
-   "forwardEngineForsag": 30.0,
-   "forwardEngineForsagMaxSpeed": 50.0,
-   "group": "ship",
-   "iconIDs": "",
-   "numConsumables": 5,
-   "reloadTime": 60.0,
-   "titleIDs": "",
-   "workTime": 60.0
-  },
-  "canBuy": false,
-  "costCR": -1,
-  "costGold": -1,
-  "custom": {},
-  "freeOfCharge": true,
-  "id": 4278361360,
-  "index": "PXY015",
-  "name": "PXY015_SpeedBoosterH18",
-  "typeinfo": {
-   "nation": "Events",
-   "species": null,
-   "type": "Ability"
-  }
- },
- {
-  "Default": {
-   "SpecialSoundID": "Default",
    "consumableType": "trigger2",
    "descIDs": "",
    "group": "ship",
@@ -3293,6 +3340,7 @@
    "iconIDs": "",
    "numConsumables": 2,
    "regenerationHPSpeed": 0.03,
+   "regenerationHPSpeedUnits": 0.0,
    "reloadTime": 30.0,
    "titleIDs": "",
    "workTime": 10.0
@@ -3305,6 +3353,7 @@
    "iconIDs": "",
    "numConsumables": 0,
    "regenerationHPSpeed": 0.02,
+   "regenerationHPSpeedUnits": 0.0,
    "reloadTime": 30.0,
    "titleIDs": "",
    "workTime": 15.0
@@ -3676,6 +3725,7 @@
    "iconIDs": "",
    "numConsumables": 1,
    "regenerationHPSpeed": 0.03,
+   "regenerationHPSpeedUnits": 0.0,
    "reloadTime": 40.0,
    "titleIDs": "",
    "workTime": 10.0
@@ -3688,6 +3738,7 @@
    "iconIDs": "",
    "numConsumables": 0,
    "regenerationHPSpeed": 0.03,
+   "regenerationHPSpeedUnits": 0.0,
    "reloadTime": 40.0,
    "titleIDs": "",
    "workTime": 10.0
@@ -3844,8 +3895,8 @@
    "boostCoeff": 2.0,
    "consumableType": "speedBoosters",
    "descIDs": "",
-   "forwardEngineForsag": 30.0,
-   "forwardEngineForsagMaxSpeed": 30.0,
+   "forwardEngineForsag": 4.0,
+   "forwardEngineForsagMaxSpeed": 4.0,
    "group": "ship",
    "iconIDs": "",
    "numConsumables": 6,
@@ -3870,27 +3921,47 @@
  {
   "Default": {
    "SpecialSoundID": "Default",
-   "consumableType": "trigger4",
+   "allyAuraBuff": "",
+   "consumableType": "affectedBuffAura",
    "descIDs": "",
+   "enemyAuraBuff": "",
    "group": "ship",
    "iconIDs": "",
-   "logic": "invulnerable",
    "numConsumables": 2,
    "reloadTime": 30.0,
+   "selfAuraBuff": "",
+   "source": [
+    "SELF",
+    "ENEMY"
+   ],
+   "target": [
+    "SELF"
+   ],
    "titleIDs": "",
-   "workTime": 10.0
+   "workTime": 10.0,
+   "zoneRadius": 0.0
   },
   "H2020": {
    "SpecialSoundID": "Halloween2020_InvulnerableZone",
-   "consumableType": "trigger4",
+   "allyAuraBuff": "PCOM050_INVULNERABILITY",
+   "consumableType": "affectedBuffAura",
    "descIDs": "",
+   "enemyAuraBuff": "",
    "group": "ship",
    "iconIDs": "",
-   "logic": "invulnerable",
    "numConsumables": -1,
    "reloadTime": 60.0,
+   "selfAuraBuff": "PCOM055_INVULNERABILITY_ZONEOWNER",
+   "source": [
+    "SELF"
+   ],
+   "target": [
+    "ALLY",
+    "SELF"
+   ],
    "titleIDs": "",
-   "workTime": 15.0
+   "workTime": 15.0,
+   "zoneRadius": 166.7
   },
   "canBuy": false,
   "costCR": -1,
@@ -4132,6 +4203,57 @@
   "id": 3966934288,
   "index": "PXY312",
   "name": "PXY312_FilthPower_PVP",
+  "typeinfo": {
+   "nation": "Events",
+   "species": null,
+   "type": "Ability"
+  }
+ },
+ {
+  "Default": {
+   "SpecialSoundID": "Default",
+   "consumableType": "trigger1",
+   "descIDs": "",
+   "group": "ship",
+   "iconIDs": "",
+   "logic": "",
+   "numConsumables": 2,
+   "reloadTime": 20.0,
+   "titleIDs": "",
+   "workTime": 10.0
+  },
+  "H2018_PVP": {
+   "SpecialSoundID": "Vampiric_PVP",
+   "consumableType": "trigger1",
+   "descIDs": "",
+   "group": "ship",
+   "iconIDs": "",
+   "logic": "",
+   "numConsumables": 3,
+   "reloadTime": 60.0,
+   "titleIDs": "",
+   "workTime": 40.0
+  },
+  "H2019": {
+   "SpecialSoundID": "Vampiric_PVP",
+   "consumableType": "trigger1",
+   "descIDs": "",
+   "group": "ship",
+   "iconIDs": "",
+   "logic": "",
+   "numConsumables": 0,
+   "reloadTime": 60.0,
+   "titleIDs": "",
+   "workTime": 40.0
+  },
+  "canBuy": false,
+  "costCR": -1,
+  "costGold": -1,
+  "custom": {},
+  "freeOfCharge": true,
+  "id": 3973225744,
+  "index": "PXY306",
+  "name": "PXY306_Vampiric_PVP",
   "typeinfo": {
    "nation": "Events",
    "species": null,

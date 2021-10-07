@@ -4437,14 +4437,12 @@
   "name": "PCH353_CONVOY_FlawlessVictory",
   "onePerBattle": true,
   "shipCategories": [
-   "start",
    "upgradeable",
    "upgradeableExclusive",
    "premium",
    "special",
    "specialUnsellable",
    "peculiar",
-   "demoWithoutStats",
    "earlyAccess",
    "ultimate"
   ],
@@ -5176,11 +5174,18 @@
    "killCount": 6
   },
   "custom": {},
-  "enabled": true,
+  "enabled": false,
   "events": [
    [
     "meKill",
     [
+     [
+      "target",
+      "entityType",
+      "==",
+      "entityType",
+      "Vehicle"
+     ],
      [
       "target",
       "vehicleClass",
@@ -5891,20 +5896,27 @@
    "RANKED"
   ],
   "constants": {
-   "album": "PCZA009_AmericanArc"
+   "task": "PCQT725_STRASBOURG_KEY"
   },
   "custom": {},
   "enabled": true,
   "events": [
    [
-    "fillingAlbum",
+    "campaignTask",
     [
      [
-      "fillingAlbum",
-      "albumName",
+      "campaignTask",
+      "name",
       "==",
       "constant",
-      "album"
+      "task"
+     ],
+     [
+      "campaignTask",
+      "hasReward",
+      "==",
+      "constant",
+      "True"
      ]
     ],
     [
@@ -5921,13 +5933,13 @@
    "alwaysShowIfAchieved": true
   },
   "hint": "",
-  "id": 4102218672,
-  "index": "PCH183",
+  "id": 4001555376,
+  "index": "PCH279",
   "keepCounters": false,
   "maxShipLevel": 0,
   "minShipLevel": 0,
   "multiple": false,
-  "name": "PCH183_FillAlbum_AmericanArc",
+  "name": "PCH279_STRASBOURGCompleted",
   "onePerBattle": true,
   "shipCategories": [
    "start",
@@ -5950,7 +5962,7 @@
    "type": "Achievement"
   },
   "uiHideMultiplicity": true,
-  "uiName": "COLLECTION_AMERICANARC_COMPLETED",
+  "uiName": "CAMPAIGN_STRASBOURGCOMPLETED",
   "uiOutOfDate": false,
   "uiRestrictionIDS": "",
   "uiType": "common"
@@ -6228,14 +6240,12 @@
   "name": "PCH351_CONVOY_TwoToOne",
   "onePerBattle": false,
   "shipCategories": [
-   "start",
    "upgradeable",
    "upgradeableExclusive",
    "premium",
    "special",
    "specialUnsellable",
    "peculiar",
-   "demoWithoutStats",
    "earlyAccess",
    "ultimate"
   ],
@@ -7498,6 +7508,13 @@
      ],
      [
       "target",
+      "entityType",
+      "==",
+      "entityType",
+      "Vehicle"
+     ],
+     [
+      "target",
       "vehicleClass",
       "==",
       "string",
@@ -7899,14 +7916,12 @@
   "name": "PCH126_PVE_HERO_WIN_SUR",
   "onePerBattle": true,
   "shipCategories": [
-   "start",
    "upgradeable",
    "upgradeableExclusive",
    "premium",
    "special",
    "specialUnsellable",
    "peculiar",
-   "demoWithoutStats",
    "earlyAccess",
    "ultimate"
   ],
@@ -8088,14 +8103,12 @@
   "name": "PCH118_PVE_HERO_DAM_ENEM",
   "onePerBattle": true,
   "shipCategories": [
-   "start",
    "upgradeable",
    "upgradeableExclusive",
    "premium",
    "special",
    "specialUnsellable",
    "peculiar",
-   "demoWithoutStats",
    "earlyAccess",
    "ultimate"
   ],
@@ -8802,14 +8815,12 @@
   "name": "PCH109_PVE_HON_PR_SAVE_3",
   "onePerBattle": true,
   "shipCategories": [
-   "start",
    "upgradeable",
    "upgradeableExclusive",
    "premium",
    "special",
    "specialUnsellable",
    "peculiar",
-   "demoWithoutStats",
    "earlyAccess",
    "ultimate"
   ],
@@ -8939,14 +8950,12 @@
   "name": "PCH098_PVE_HON_PR_DONE_1",
   "onePerBattle": true,
   "shipCategories": [
-   "start",
    "upgradeable",
    "upgradeableExclusive",
    "premium",
    "special",
    "specialUnsellable",
    "peculiar",
-   "demoWithoutStats",
    "earlyAccess",
    "ultimate"
   ],
@@ -10330,6 +10339,76 @@
    "RANKED"
   ],
   "constants": {
+   "album": "PCZA009_AmericanArc"
+  },
+  "custom": {},
+  "enabled": true,
+  "events": [
+   [
+    "fillingAlbum",
+    [
+     [
+      "fillingAlbum",
+      "albumName",
+      "==",
+      "constant",
+      "album"
+     ]
+    ],
+    [
+     [
+      "doAction",
+      "done"
+     ]
+    ]
+   ]
+  ],
+  "group": false,
+  "hidden": true,
+  "hiddenCustom": {
+   "alwaysShowIfAchieved": true
+  },
+  "hint": "",
+  "id": 4102218672,
+  "index": "PCH183",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": false,
+  "name": "PCH183_FillAlbum_AmericanArc",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats"
+  ],
+  "showProgress": false,
+  "type": "honorable",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": true,
+  "uiName": "COLLECTION_AMERICANARC_COMPLETED",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "",
+  "uiType": "common"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "constants": {
    "album": "PCZA003_Dunkirk"
   },
   "custom": {},
@@ -10575,14 +10654,12 @@
   "name": "PCH108_PVE_HON_PR_SAVE_2",
   "onePerBattle": true,
   "shipCategories": [
-   "start",
    "upgradeable",
    "upgradeableExclusive",
    "premium",
    "special",
    "specialUnsellable",
    "peculiar",
-   "demoWithoutStats",
    "earlyAccess",
    "ultimate"
   ],
@@ -12292,7 +12369,7 @@
    "mapName": "e02_Halloween_2017"
   },
   "custom": {},
-  "enabled": false,
+  "enabled": true,
   "events": [
    [
     "battleEnd",
@@ -12335,7 +12412,6 @@
   "name": "PCH152_EVENT_HW2017",
   "onePerBattle": true,
   "shipCategories": [
-   "demoWithoutStats",
    "premium",
    "special",
    "event"
@@ -12728,6 +12804,13 @@
     [
      [
       "target",
+      "entityType",
+      "==",
+      "entityType",
+      "Vehicle"
+     ],
+     [
+      "target",
       "vehicleName",
       "in",
       "constant",
@@ -12783,7 +12866,6 @@
    "premium",
    "special",
    "specialUnsellable",
-   "demoWithoutStats",
    "ultimate",
    "earlyAccess",
    "upgradeableUltimate",
@@ -13165,7 +13247,7 @@
    "eventName": "PCH288_EV2021_MODULE"
   },
   "custom": {},
-  "enabled": true,
+  "enabled": false,
   "events": [
    [
     "battleEvent",
@@ -13599,14 +13681,12 @@
   "name": "PCH096_PVE_HERO_WIN_ONE",
   "onePerBattle": true,
   "shipCategories": [
-   "start",
    "upgradeable",
    "upgradeableExclusive",
    "premium",
    "special",
    "specialUnsellable",
    "peculiar",
-   "demoWithoutStats",
    "earlyAccess",
    "ultimate"
   ],
@@ -14010,14 +14090,12 @@
   "name": "PCH128_PVE_DUNKERQUE_OPERATION_DYNAMO",
   "onePerBattle": true,
   "shipCategories": [
-   "start",
    "upgradeable",
    "upgradeableExclusive",
    "premium",
    "special",
    "specialUnsellable",
    "peculiar",
-   "demoWithoutStats",
    "earlyAccess",
    "ultimate"
   ],
@@ -15072,11 +15150,18 @@
    "killCount": 6
   },
   "custom": {},
-  "enabled": true,
+  "enabled": false,
   "events": [
    [
     "meKill",
     [
+     [
+      "target",
+      "entityType",
+      "==",
+      "entityType",
+      "Vehicle"
+     ],
      [
       "target",
       "vehicleClass",
@@ -15165,11 +15250,18 @@
    "killCount": 6
   },
   "custom": {},
-  "enabled": true,
+  "enabled": false,
   "events": [
    [
     "meKill",
     [
+     [
+      "target",
+      "entityType",
+      "==",
+      "entityType",
+      "Vehicle"
+     ],
      [
       "target",
       "vehicleClass",
@@ -15902,56 +15994,12 @@
  {
   "battleTypes": [
    "PVP",
-   "RANKED",
-   "PVE",
-   "COOPERATIVE"
+   "RANKED"
   ],
-  "constants": {
-   "achievementCount": 5
-  },
+  "constants": {},
   "custom": {},
-  "enabled": false,
-  "events": [
-   [
-    "achievement",
-    [
-     [
-      "achievement",
-      "festival",
-      "==",
-      "constant",
-      "True"
-     ]
-    ],
-    [
-     [
-      "counter",
-      "globalA",
-      "+=",
-      "constant",
-      "1"
-     ]
-    ]
-   ],
-   [
-    "achievement",
-    [
-     [
-      "counter",
-      "globalA",
-      ">=",
-      "constant",
-      "achievementCount"
-     ]
-    ],
-    [
-     [
-      "doAction",
-      "done"
-     ]
-    ]
-   ]
-  ],
+  "enabled": true,
+  "events": [],
   "group": false,
   "hidden": true,
   "hiddenCustom": {
@@ -15980,7 +16028,7 @@
    "demoWithStats"
   ],
   "showProgress": false,
-  "type": "festival",
+  "type": "service_medal",
   "typeinfo": {
    "nation": "Common",
    "species": null,
@@ -17079,14 +17127,12 @@
   "name": "PCH100_PVE_HON_PR_DONE_3",
   "onePerBattle": true,
   "shipCategories": [
-   "start",
    "upgradeable",
    "upgradeableExclusive",
    "premium",
    "special",
    "specialUnsellable",
    "peculiar",
-   "demoWithoutStats",
    "earlyAccess",
    "ultimate"
   ],
@@ -17242,14 +17288,12 @@
   "name": "PCH103_PVE_HON_PR_DONE_ALL_2",
   "onePerBattle": true,
   "shipCategories": [
-   "start",
    "upgradeable",
    "upgradeableExclusive",
    "premium",
    "special",
    "specialUnsellable",
    "peculiar",
-   "demoWithoutStats",
    "earlyAccess",
    "ultimate"
   ],
@@ -17480,14 +17524,12 @@
   "name": "PCH124_PVE_HON_DIE",
   "onePerBattle": true,
   "shipCategories": [
-   "start",
    "upgradeable",
    "upgradeableExclusive",
    "premium",
    "special",
    "specialUnsellable",
    "peculiar",
-   "demoWithoutStats",
    "earlyAccess",
    "ultimate"
   ],
@@ -18040,53 +18082,6 @@
   "uiOutOfDate": false,
   "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_PVP_RANKED",
   "uiType": "honorable"
- },
- {
-  "battleTypes": [
-   "PVP",
-   "RANKED"
-  ],
-  "constants": {},
-  "custom": {},
-  "enabled": true,
-  "events": [],
-  "group": false,
-  "hidden": true,
-  "hiddenCustom": {},
-  "hint": "",
-  "id": 4250067888,
-  "index": "PCH042",
-  "keepCounters": false,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": false,
-  "name": "PCH042_TaskPerforming3",
-  "onePerBattle": true,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats"
-  ],
-  "showProgress": true,
-  "type": "honorable",
-  "typeinfo": {
-   "nation": "Common",
-   "species": null,
-   "type": "Achievement"
-  },
-  "uiHideMultiplicity": false,
-  "uiName": "WORKAHOLIC",
-  "uiOutOfDate": false,
-  "uiRestrictionIDS": "",
-  "uiType": "common"
  },
  {
   "battleTypes": [
@@ -18965,14 +18960,12 @@
   "name": "PCH099_PVE_HON_PR_DONE_2",
   "onePerBattle": true,
   "shipCategories": [
-   "start",
    "upgradeable",
    "upgradeableExclusive",
    "premium",
    "special",
    "specialUnsellable",
    "peculiar",
-   "demoWithoutStats",
    "earlyAccess",
    "ultimate"
   ],
@@ -19041,7 +19034,6 @@
   "name": "PCH068_F_2016",
   "onePerBattle": true,
   "shipCategories": [
-   "demoWithoutStats",
    "premium",
    "special",
    "event"
@@ -19326,7 +19318,7 @@
   ],
   "constants": {},
   "custom": {},
-  "enabled": true,
+  "enabled": false,
   "events": [
    [
     "battleEnd",
@@ -20045,14 +20037,12 @@
   "name": "PCH120_PVE_HON_HIT_TORP",
   "onePerBattle": true,
   "shipCategories": [
-   "start",
    "upgradeable",
    "upgradeableExclusive",
    "premium",
    "special",
    "specialUnsellable",
    "peculiar",
-   "demoWithoutStats",
    "earlyAccess",
    "ultimate"
   ],
@@ -22239,7 +22229,6 @@
   "name": "PCH198_PVE_HALLOWEEN_2018_COMPLETE",
   "onePerBattle": true,
   "shipCategories": [
-   "demoWithoutStats",
    "premium",
    "special",
    "event"
@@ -22794,11 +22783,18 @@
    "killCount": 6
   },
   "custom": {},
-  "enabled": true,
+  "enabled": false,
   "events": [
    [
     "meKill",
     [
+     [
+      "target",
+      "entityType",
+      "==",
+      "entityType",
+      "Vehicle"
+     ],
      [
       "target",
       "vehicleClass",
@@ -23110,14 +23106,12 @@
   "name": "PCH125_PVE_HERO_DAM",
   "onePerBattle": true,
   "shipCategories": [
-   "start",
    "upgradeable",
    "upgradeableExclusive",
    "premium",
    "special",
    "specialUnsellable",
    "peculiar",
-   "demoWithoutStats",
    "earlyAccess",
    "ultimate"
   ],
@@ -23322,14 +23316,12 @@
   "name": "PCH104_PVE_HON_PR_DONE_ALL_3",
   "onePerBattle": true,
   "shipCategories": [
-   "start",
    "upgradeable",
    "upgradeableExclusive",
    "premium",
    "special",
    "specialUnsellable",
    "peculiar",
-   "demoWithoutStats",
    "earlyAccess",
    "ultimate"
   ],
@@ -23698,14 +23690,12 @@
   "name": "PCH097_PVE_HON_WIN_ALL_DONE",
   "onePerBattle": true,
   "shipCategories": [
-   "start",
    "upgradeable",
    "upgradeableExclusive",
    "premium",
    "special",
    "specialUnsellable",
    "peculiar",
-   "demoWithoutStats",
    "earlyAccess",
    "ultimate"
   ],
@@ -23952,14 +23942,12 @@
   "name": "PCH107_PVE_HON_PR_SAVE_1",
   "onePerBattle": true,
   "shipCategories": [
-   "start",
    "upgradeable",
    "upgradeableExclusive",
    "premium",
    "special",
    "specialUnsellable",
    "peculiar",
-   "demoWithoutStats",
    "earlyAccess",
    "ultimate"
   ],
@@ -24448,14 +24436,12 @@
   "name": "PCH348_CONVOY_TransportsAreAlive",
   "onePerBattle": true,
   "shipCategories": [
-   "start",
    "upgradeable",
    "upgradeableExclusive",
    "premium",
    "special",
    "specialUnsellable",
    "peculiar",
-   "demoWithoutStats",
    "earlyAccess",
    "ultimate"
   ],
@@ -24608,14 +24594,12 @@
   "name": "PCH102_PVE_HON_PR_DONE_ALL_1",
   "onePerBattle": true,
   "shipCategories": [
-   "start",
    "upgradeable",
    "upgradeableExclusive",
    "premium",
    "special",
    "specialUnsellable",
    "peculiar",
-   "demoWithoutStats",
    "earlyAccess",
    "ultimate"
   ],
@@ -24823,51 +24807,21 @@
    "PVP",
    "RANKED"
   ],
-  "constants": {
-   "task": "PCQT725_STRASBOURG_KEY"
-  },
+  "constants": {},
   "custom": {},
   "enabled": true,
-  "events": [
-   [
-    "campaignTask",
-    [
-     [
-      "campaignTask",
-      "name",
-      "==",
-      "constant",
-      "task"
-     ],
-     [
-      "campaignTask",
-      "hasReward",
-      "==",
-      "constant",
-      "True"
-     ]
-    ],
-    [
-     [
-      "doAction",
-      "done"
-     ]
-    ]
-   ]
-  ],
+  "events": [],
   "group": false,
   "hidden": true,
-  "hiddenCustom": {
-   "alwaysShowIfAchieved": true
-  },
+  "hiddenCustom": {},
   "hint": "",
-  "id": 4001555376,
-  "index": "PCH279",
+  "id": 4250067888,
+  "index": "PCH042",
   "keepCounters": false,
   "maxShipLevel": 0,
   "minShipLevel": 0,
   "multiple": false,
-  "name": "PCH279_STRASBOURGCompleted",
+  "name": "PCH042_TaskPerforming3",
   "onePerBattle": true,
   "shipCategories": [
    "start",
@@ -24882,15 +24836,15 @@
    "upgradeableUltimate",
    "demoWithStats"
   ],
-  "showProgress": false,
+  "showProgress": true,
   "type": "honorable",
   "typeinfo": {
    "nation": "Common",
    "species": null,
    "type": "Achievement"
   },
-  "uiHideMultiplicity": true,
-  "uiName": "CAMPAIGN_STRASBOURGCOMPLETED",
+  "uiHideMultiplicity": false,
+  "uiName": "WORKAHOLIC",
   "uiOutOfDate": false,
   "uiRestrictionIDS": "",
   "uiType": "common"
@@ -24903,7 +24857,7 @@
    "eventName": "PCH289_EV2021_TOOLATE"
   },
   "custom": {},
-  "enabled": true,
+  "enabled": false,
   "events": [
    [
     "battleEvent",
@@ -25026,6 +24980,13 @@
     [
      [
       "target",
+      "entityType",
+      "==",
+      "entityType",
+      "Vehicle"
+     ],
+     [
+      "target",
       "vehicleName",
       "in",
       "constant",
@@ -25081,7 +25042,6 @@
    "premium",
    "special",
    "specialUnsellable",
-   "demoWithoutStats",
    "ultimate",
    "earlyAccess",
    "upgradeableUltimate",

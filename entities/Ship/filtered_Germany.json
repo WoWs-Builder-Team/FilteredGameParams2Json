@@ -161,6 +161,17 @@
      }
     }
    },
+   "AB_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 4000,
+    "maxPlaneFlightDist": 3400,
+    "minDist": 500,
+    "planeName": "PAAD902_ASW_T6",
+    "reloadTime": 60,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_ATBA": {
     "AuraFar": {
      "areaDamage": 22.0,
@@ -534,7 +545,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "A1_Artillery"
      ],
@@ -3994,6 +4007,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
+    "maxPlaneFlightDist": 4200,
+    "minDist": 1500,
+    "planeName": "PJAD902_ASW_T8",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_Hull": {
     "health": 69300.0,
     "maxSpeed": 30.5,
@@ -4076,6 +4100,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -7304,6 +7331,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 8000,
+    "maxPlaneFlightDist": 3500,
+    "minDist": 1500,
+    "planeName": "PJAD901_ASW_T6",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_Artillery": {
     "guns": {
      "HP_GGM_1": {
@@ -7537,11 +7575,15 @@
    "PGUH507_PEFRIEDRICH": {
     "canBuy": true,
     "components": {
-     "airArmament": [],
+     "airArmament": [
+      "A_AirArmament"
+     ],
      "airDefense": [
       "A_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "A_AirSupport"
+     ],
      "artillery": [
       "A_Artillery"
      ],
@@ -8756,6 +8798,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 6000,
+    "maxPlaneFlightDist": 3500,
+    "minDist": 1500,
+    "planeName": "PJAD904_ASW_T5",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_Hull": {
     "health": 47600.0,
     "maxSpeed": 26.5,
@@ -8824,11 +8877,15 @@
    "PGUH405_BB5_HULL_STOCK": {
     "canBuy": true,
     "components": {
-     "airArmament": [],
+     "airArmament": [
+      "A_AirArmament"
+     ],
      "airDefense": [
       "A_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "A_AirSupport"
+     ],
      "artillery": [
       "A1_Artillery"
      ],
@@ -8848,7 +8905,9 @@
      "torpedoes": []
     },
     "disabledAbilities": [],
-    "nextShips": [],
+    "nextShips": [
+     "PGSB206_Mackensen"
+    ],
     "prev": "",
     "ucType": "_Hull"
    },
@@ -8880,7 +8939,7 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "earlyAccess",
   "id": 4079957808,
   "index": "PGSB205",
   "level": 5,
@@ -9047,7 +9106,7 @@
     "maxDist": 11636.0,
     "normalDistribution": true,
     "sigmaCount": 1.5,
-    "taperDist": 4000.0
+    "taperDist": 3000.0
    },
    "AB1_Engine": {
     "backwardEngineUpTime": 30.0,
@@ -9527,7 +9586,9 @@
      "torpedoes": []
     },
     "disabledAbilities": [],
-    "nextShips": [],
+    "nextShips": [
+     "PGSB204_Moltke"
+    ],
     "prev": "PGUH205_BB3_HULL_STOCK",
     "ucType": "_Hull"
    },
@@ -9559,7 +9620,7 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "earlyAccess",
   "id": 4082054960,
   "index": "PGSB203",
   "level": 3,
@@ -12214,8 +12275,8 @@
       ],
       "shotDelay": 91.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -12249,8 +12310,8 @@
       ],
       "shotDelay": 91.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -12284,8 +12345,8 @@
       ],
       "shotDelay": 91.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -12319,8 +12380,8 @@
       ],
       "shotDelay": 91.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -12354,8 +12415,8 @@
       ],
       "shotDelay": 91.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -12389,8 +12450,8 @@
       ],
       "shotDelay": 91.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -12424,8 +12485,8 @@
       ],
       "shotDelay": 91.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -12459,8 +12520,8 @@
       ],
       "shotDelay": 91.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -12494,8 +12555,8 @@
       ],
       "shotDelay": 91.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -12529,8 +12590,8 @@
       ],
       "shotDelay": 91.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -13225,7 +13286,7 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "special",
   "id": 3753785136,
   "index": "PGSD516",
   "level": 6,
@@ -13820,6 +13881,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
+    "maxPlaneFlightDist": 4200,
+    "minDist": 1500,
+    "planeName": "PJAD902_ASW_T8",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_Hull": {
     "health": 69300.0,
     "maxSpeed": 30.5,
@@ -13902,6 +13974,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -14630,6 +14705,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 11000,
+    "maxPlaneFlightDist": 3500,
+    "minDist": 1500,
+    "planeName": "PJAD903_ASW_T10",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_Engine": {
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
@@ -14733,6 +14819,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A1_Artillery",
@@ -14949,6 +15038,17 @@
       }
      }
     }
+   },
+   "AB_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 4000,
+    "maxPlaneFlightDist": 3400,
+    "minDist": 500,
+    "planeName": "PAAD902_ASW_T6",
+    "reloadTime": 60,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
    },
    "A_ATBA": {
     "AuraFar": {
@@ -15323,7 +15423,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "A1_Artillery"
      ],
@@ -15948,6 +16050,17 @@
      "type": "near"
     },
     "isAA": true
+   },
+   "AB_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 8000,
+    "maxPlaneFlightDist": 3500,
+    "minDist": 1500,
+    "planeName": "PJAD901_ASW_T6",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
    },
    "AB_Artillery": {
     "guns": {
@@ -16928,7 +17041,9 @@
      "airDefense": [
       "AB_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB_Artillery"
      ],
@@ -16963,7 +17078,9 @@
      "airDefense": [
       "AB_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB_Artillery"
      ],
@@ -17402,12 +17519,23 @@
     "maxDist": 7600.0,
     "sigmaCount": 1.0
    },
+   "AB_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
+    "maxPlaneFlightDist": 4200,
+    "minDist": 1500,
+    "planeName": "PJAD902_ASW_T8",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "AB_Artillery": {
     "guns": {
      "HP_GGM_1": {
       "ammoList": [
        "PGPA039_406MM_HE_SPR_GR_L4_4_KZ",
-       "PGPA038_406MM_AP_PZ_GR_L4_4"
+       "PGPA041_406MM_AP_PZ_GR_L4_4_AUSF_B"
       ],
       "barrelDiameter": 0.406,
       "delim": 0.5,
@@ -17433,7 +17561,7 @@
        6.0,
        12.0
       ],
-      "shotDelay": 25.0,
+      "shotDelay": 22.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -17444,7 +17572,7 @@
      "HP_GGM_2": {
       "ammoList": [
        "PGPA039_406MM_HE_SPR_GR_L4_4_KZ",
-       "PGPA038_406MM_AP_PZ_GR_L4_4"
+       "PGPA041_406MM_AP_PZ_GR_L4_4_AUSF_B"
       ],
       "barrelDiameter": 0.406,
       "delim": 0.5,
@@ -17470,7 +17598,7 @@
        6.0,
        12.0
       ],
-      "shotDelay": 25.0,
+      "shotDelay": 22.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -17481,7 +17609,7 @@
      "HP_GGM_3": {
       "ammoList": [
        "PGPA039_406MM_HE_SPR_GR_L4_4_KZ",
-       "PGPA038_406MM_AP_PZ_GR_L4_4"
+       "PGPA041_406MM_AP_PZ_GR_L4_4_AUSF_B"
       ],
       "barrelDiameter": 0.406,
       "delim": 0.5,
@@ -17507,7 +17635,7 @@
        6.0,
        12.0
       ],
-      "shotDelay": 25.0,
+      "shotDelay": 22.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -17782,11 +17910,15 @@
    "PGUH726_BB8_HULL_STOCK": {
     "canBuy": true,
     "components": {
-     "airArmament": [],
+     "airArmament": [
+      "AB_AirArmament"
+     ],
      "airDefense": [
       "A_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB_Artillery"
      ],
@@ -17803,7 +17935,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "AB_Radars"
@@ -17820,11 +17951,15 @@
    "PGUH727_BB8_HULL_TOP": {
     "canBuy": true,
     "components": {
-     "airArmament": [],
+     "airArmament": [
+      "AB_AirArmament"
+     ],
      "airDefense": [
       "B_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB_Artillery"
      ],
@@ -17841,7 +17976,6 @@
      "hull": [
       "B_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "AB_Radars"
@@ -17851,7 +17985,9 @@
      ]
     },
     "disabledAbilities": [],
-    "nextShips": [],
+    "nextShips": [
+     "PGSB209_Prinz_Rupprecht"
+    ],
     "prev": "PGUH726_BB8_HULL_STOCK",
     "ucType": "_Hull"
    },
@@ -17895,7 +18031,7 @@
    "costXP": 1,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "earlyAccess",
   "id": 4076812080,
   "index": "PGSB208",
   "level": 8,
@@ -17967,7 +18103,7 @@
       ]
      }
     ],
-    "waveDistance": 11000.0,
+    "waveDistance": 14000.0,
     "waveHitAlertTime": 10,
     "waveHitLifeTime": 100,
     "waveParams": [
@@ -18012,10 +18148,10 @@
        12.0,
        12.0
       ],
-      "shotDelay": 85.0,
+      "shotDelay": 77.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -18047,10 +18183,10 @@
        12.0,
        12.0
       ],
-      "shotDelay": 85.0,
+      "shotDelay": 77.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -18082,10 +18218,10 @@
        12.0,
        12.0
       ],
-      "shotDelay": 85.0,
+      "shotDelay": 77.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -18117,10 +18253,10 @@
        12.0,
        12.0
       ],
-      "shotDelay": 85.0,
+      "shotDelay": 77.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -18152,10 +18288,10 @@
        12.0,
        12.0
       ],
-      "shotDelay": 85.0,
+      "shotDelay": 77.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -18187,10 +18323,10 @@
        12.0,
        12.0
       ],
-      "shotDelay": 85.0,
+      "shotDelay": 77.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -19211,6 +19347,17 @@
    "AB2_FireControl": {
     "maxDistCoef": 1.1,
     "sigmaCountCoef": 1.0
+   },
+   "AB_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
+    "maxPlaneFlightDist": 4200,
+    "minDist": 1500,
+    "planeName": "PJAD902_ASW_T8",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
    },
    "A_ATBA": {
     "AuraFar": {
@@ -20331,6 +20478,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "A1_Artillery",
       "A2_Artillery"
@@ -20365,6 +20515,9 @@
      ],
      "airDefense": [
       "B_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "B1_Artillery",
@@ -20430,6 +20583,783 @@
   "typeinfo": {
    "nation": "Germany",
    "species": "Battleship",
+   "type": "Ship"
+  }
+ },
+ {
+  "ModulesArmaments": {
+   "A1_Artillery": {
+    "guns": {
+     "HP_GGM_1": {
+      "ammoList": [
+       "PGPA124_150MM_HE_WH_BLACKTEMPLAR",
+       "PGPA125_150MM_AP_WH_BLACKTEMPLAR"
+      ],
+      "barrelDiameter": 0.15,
+      "delim": 0.5,
+      "horizSector": [
+       -141.0,
+       141.0
+      ],
+      "id": 4234798896,
+      "idealDistance": 1000.0,
+      "idealRadius": 8,
+      "index": "PGGM057",
+      "minRadius": 1.1,
+      "name": "PGGM057_149mm60_DrhTr_C25",
+      "numBarrels": 3,
+      "position": [
+       1.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       7.6,
+       8.0
+      ],
+      "shotDelay": 6.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_2": {
+      "ammoList": [
+       "PGPA124_150MM_HE_WH_BLACKTEMPLAR",
+       "PGPA125_150MM_AP_WH_BLACKTEMPLAR"
+      ],
+      "barrelDiameter": 0.15,
+      "delim": 0.5,
+      "horizSector": [
+       -141.0,
+       141.0
+      ],
+      "id": 4234798896,
+      "idealDistance": 1000.0,
+      "idealRadius": 8,
+      "index": "PGGM057",
+      "minRadius": 1.1,
+      "name": "PGGM057_149mm60_DrhTr_C25",
+      "numBarrels": 3,
+      "position": [
+       2.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       7.6,
+       8.0
+      ],
+      "shotDelay": 6.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_3": {
+      "ammoList": [
+       "PGPA124_150MM_HE_WH_BLACKTEMPLAR",
+       "PGPA125_150MM_AP_WH_BLACKTEMPLAR"
+      ],
+      "barrelDiameter": 0.15,
+      "delim": 0.5,
+      "horizSector": [
+       -142.0,
+       142.0
+      ],
+      "id": 4234798896,
+      "idealDistance": 1000.0,
+      "idealRadius": 8,
+      "index": "PGGM057",
+      "minRadius": 1.1,
+      "name": "PGGM057_149mm60_DrhTr_C25",
+      "numBarrels": 3,
+      "position": [
+       5.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       7.6,
+       8.0
+      ],
+      "shotDelay": 6.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_4": {
+      "ammoList": [
+       "PGPA124_150MM_HE_WH_BLACKTEMPLAR",
+       "PGPA125_150MM_AP_WH_BLACKTEMPLAR"
+      ],
+      "barrelDiameter": 0.15,
+      "delim": 0.5,
+      "horizSector": [
+       -142.0,
+       142.0
+      ],
+      "id": 4234798896,
+      "idealDistance": 1000.0,
+      "idealRadius": 8,
+      "index": "PGGM057",
+      "minRadius": 1.1,
+      "name": "PGGM057_149mm60_DrhTr_C25",
+      "numBarrels": 3,
+      "position": [
+       6.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       7.6,
+       8.0
+      ],
+      "shotDelay": 6.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 17520.0,
+    "normalDistribution": true,
+    "sigmaCount": 2.0,
+    "taperDist": 4000.0
+   },
+   "A1_FireControl": {
+    "maxDistCoef": 1.0,
+    "sigmaCountCoef": 1.0
+   },
+   "A1_Torpedoes": {
+    "torpedoArray": {
+     "HP_GGT_1": {
+      "ammoList": [
+       "PGPT044_G7A_WH_BLACKTEMPLAR"
+      ],
+      "barrelDiameter": 0.533,
+      "canRotate": true,
+      "deadZone": [
+       [
+        -26.0,
+        0.0
+       ]
+      ],
+      "horizSector": [
+       -150.0,
+       0.0
+      ],
+      "id": 4279658288,
+      "index": "PGGT014",
+      "name": "PGGT014_533mm_Torpedo_Tubes_Quad",
+      "numBarrels": 4,
+      "rotationSpeed": [
+       25.0,
+       25.0
+      ],
+      "shotDelay": 90.0,
+      "torpedoAngles": [
+       4.8,
+       16.0
+      ],
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Torpedo",
+       "type": "Gun"
+      }
+     },
+     "HP_GGT_2": {
+      "ammoList": [
+       "PGPT044_G7A_WH_BLACKTEMPLAR"
+      ],
+      "barrelDiameter": 0.533,
+      "canRotate": true,
+      "deadZone": [
+       [
+        0.0,
+        26.0
+       ]
+      ],
+      "horizSector": [
+       0.0,
+       150.0
+      ],
+      "id": 4279658288,
+      "index": "PGGT014",
+      "name": "PGGT014_533mm_Torpedo_Tubes_Quad",
+      "numBarrels": 4,
+      "rotationSpeed": [
+       25.0,
+       25.0
+      ],
+      "shotDelay": 90.0,
+      "torpedoAngles": [
+       4.8,
+       16.0
+      ],
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Torpedo",
+       "type": "Gun"
+      }
+     },
+     "HP_GGT_3": {
+      "ammoList": [
+       "PGPT044_G7A_WH_BLACKTEMPLAR"
+      ],
+      "barrelDiameter": 0.533,
+      "canRotate": true,
+      "deadZone": [
+       [
+        -30.0,
+        0.0
+       ]
+      ],
+      "horizSector": [
+       -151.0,
+       0.0
+      ],
+      "id": 4279658288,
+      "index": "PGGT014",
+      "name": "PGGT014_533mm_Torpedo_Tubes_Quad",
+      "numBarrels": 4,
+      "rotationSpeed": [
+       25.0,
+       25.0
+      ],
+      "shotDelay": 90.0,
+      "torpedoAngles": [
+       4.8,
+       16.0
+      ],
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Torpedo",
+       "type": "Gun"
+      }
+     },
+     "HP_GGT_4": {
+      "ammoList": [
+       "PGPT044_G7A_WH_BLACKTEMPLAR"
+      ],
+      "barrelDiameter": 0.533,
+      "canRotate": true,
+      "deadZone": [
+       [
+        0.0,
+        30.0
+       ]
+      ],
+      "horizSector": [
+       0.0,
+       151.0
+      ],
+      "id": 4279658288,
+      "index": "PGGT014",
+      "name": "PGGT014_533mm_Torpedo_Tubes_Quad",
+      "numBarrels": 4,
+      "rotationSpeed": [
+       25.0,
+       25.0
+      ],
+      "shotDelay": 90.0,
+      "torpedoAngles": [
+       4.8,
+       16.0
+      ],
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Torpedo",
+       "type": "Gun"
+      }
+     }
+    }
+   },
+   "A_ATBA": {
+    "Far1": {
+     "areaDamage": 34.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.9,
+     "innerBubbleCount": 0.0,
+     "maxDistance": 5200.0,
+     "minDistance": 100.0,
+     "type": "far"
+    },
+    "Far1_Bubbles": {
+     "areaDamage": 0.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 200.0,
+     "hitChance": 0.9,
+     "innerBubbleCount": 5.0,
+     "maxDistance": 5200.0,
+     "minDistance": 3500.0,
+     "type": "far"
+    },
+    "antiAirAndSecondaries": {
+     "HP_GGS_1": {
+      "ammoList": [
+       "PGPA085_105mm_HE_HE_33lbs"
+      ],
+      "barrelDiameter": 0.105,
+      "id": 4291225392,
+      "index": "PGGS003",
+      "name": "PGGS003_105_mm_SKC_33",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 3.35,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_2": {
+      "ammoList": [
+       "PGPA085_105mm_HE_HE_33lbs"
+      ],
+      "barrelDiameter": 0.105,
+      "id": 4291225392,
+      "index": "PGGS003",
+      "name": "PGGS003_105_mm_SKC_33",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 3.35,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_3": {
+      "ammoList": [
+       "PGPA085_105mm_HE_HE_33lbs"
+      ],
+      "barrelDiameter": 0.105,
+      "id": 4291225392,
+      "index": "PGGS003",
+      "name": "PGGS003_105_mm_SKC_33",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 3.35,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_4": {
+      "ammoList": [
+       "PGPA085_105mm_HE_HE_33lbs"
+      ],
+      "barrelDiameter": 0.105,
+      "id": 4291225392,
+      "index": "PGGS003",
+      "name": "PGGS003_105_mm_SKC_33",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 3.35,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_5": {
+      "ammoList": [
+       "PGPA085_105mm_HE_HE_33lbs"
+      ],
+      "barrelDiameter": 0.105,
+      "id": 4291225392,
+      "index": "PGGS003",
+      "name": "PGGS003_105_mm_SKC_33",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 3.35,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_6": {
+      "ammoList": [
+       "PGPA085_105mm_HE_HE_33lbs"
+      ],
+      "barrelDiameter": 0.105,
+      "id": 4291225392,
+      "index": "PGGS003",
+      "name": "PGGS003_105_mm_SKC_33",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 3.35,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 7600.0,
+    "sigmaCount": 1.0
+   },
+   "A_AirDefense": {
+    "Medium1": {
+     "areaDamage": 91.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.9,
+     "innerBubbleCount": 0,
+     "maxDistance": 3500.0,
+     "minDistance": 100.0,
+     "type": "medium"
+    },
+    "Near1": {
+     "areaDamage": 42.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.85,
+     "innerBubbleCount": 0,
+     "maxDistance": 2000.0,
+     "minDistance": 100.0,
+     "type": "near"
+    },
+    "isAA": true
+   },
+   "A_DepthChargeGuns": {
+    "depthCharges": {
+     "HP_GGB_1": {
+      "ammoList": [
+       "PGPD001_WBG"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4184827696,
+      "index": "PGGB105",
+      "name": "PGGB105_Depth_Charge_Track",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_GGB_2": {
+      "ammoList": [
+       "PGPD001_WBG"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4184827696,
+      "index": "PGGB105",
+      "name": "PGGB105_Depth_Charge_Track",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_GGB_3": {
+      "ammoList": [
+       "PGPD001_WBG"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4184827696,
+      "index": "PGGB105",
+      "name": "PGGB105_Depth_Charge_Track",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_GGB_4": {
+      "ammoList": [
+       "PGPD001_WBG"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4184827696,
+      "index": "PGGB105",
+      "name": "PGGB105_Depth_Charge_Track",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_GGB_5": {
+      "ammoList": [
+       "PGPD001_WBG"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4184827696,
+      "index": "PGGB105",
+      "name": "PGGB105_Depth_Charge_Track",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_GGB_6": {
+      "ammoList": [
+       "PGPD001_WBG"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4184827696,
+      "index": "PGGB105",
+      "name": "PGGB105_Depth_Charge_Track",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxPacks": 2,
+    "reloadTime": 40.0
+   },
+   "A_Engine": {
+    "backwardEngineUpTime": 20.0,
+    "forwardEngineUpTime": 40.0,
+    "speedCoef": 0.0
+   },
+   "A_Hull": {
+    "health": 42500.0,
+    "maxSpeed": 32.0,
+    "rudderTime": 13.74,
+    "speedCoef": 1.0,
+    "visibilityCoefGKInSmoke": 8.41,
+    "visibilityFactor": 15.3,
+    "visibilityFactorByPlane": 7.5
+   }
+  },
+  "ShipAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY009_CrashCrewPremium",
+      "CV_CA_CL_Gold"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY016_SonarSearchPremium",
+      "Deutsche_C_8_10"
+     ],
+     [
+      "PCY011_AirDefenseDispPremium",
+      "Default_Gold"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [
+     [
+      "PCY012_FighterPremium",
+      "Fighter_3"
+     ]
+    ],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "ShipUpgradeInfo": {
+   "PGUA710_ART_WH_BLACKTEMPLAR": {
+    "canBuy": true,
+    "components": {
+     "artillery": [
+      "A1_Artillery"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Artillery"
+   },
+   "PGUE720_ENG_WH_BLACKTEMPLAR": {
+    "canBuy": true,
+    "components": {
+     "engine": [
+      "A_Engine"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Engine"
+   },
+   "PGUH720_WH_BLACKTEMPLAR": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [
+      "A_AirArmament"
+     ],
+     "airDefense": [
+      "A_AirDefense"
+     ],
+     "artillery": [
+      "A1_Artillery"
+     ],
+     "atba": [
+      "A_ATBA"
+     ],
+     "depthCharges": [
+      "A_DepthChargeGuns"
+     ],
+     "directors": [
+      "A_Directors"
+     ],
+     "finders": [
+      "A_Finders"
+     ],
+     "hull": [
+      "A_Hull"
+     ],
+     "pinger": [],
+     "radars": [
+      "A_Radars"
+     ],
+     "torpedoes": [
+      "A1_Torpedoes"
+     ]
+    },
+    "disabledAbilities": [],
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Hull"
+   },
+   "PGUS720_SUO_WH_BLACKTEMPLAR": {
+    "canBuy": true,
+    "components": {
+     "fireControl": [
+      "A1_FireControl"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Suo"
+   },
+   "PGUT715_TORP_WH_BLACKTEMPLAR": {
+    "canBuy": true,
+    "components": {
+     "torpedoes": [
+      "A1_Torpedoes"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Torpedoes"
+   },
+   "costCR": 0,
+   "costGold": 11000,
+   "costSaleGold": 0,
+   "costXP": 0,
+   "value": 1
+  },
+  "group": "special",
+  "id": 3542005552,
+  "index": "PGSC718",
+  "level": 8,
+  "name": "PGSC718_Warhammer_Blacktemplar",
+  "typeinfo": {
+   "nation": "Germany",
+   "species": "Cruiser",
    "type": "Ship"
   }
  },
@@ -23064,7 +23994,7 @@
       ]
      }
     ],
-    "waveDistance": 10000.0,
+    "waveDistance": 12500.0,
     "waveHitAlertTime": 10,
     "waveHitLifeTime": 100,
     "waveParams": [
@@ -23111,8 +24041,8 @@
       ],
       "shotDelay": 58.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -23146,8 +24076,8 @@
       ],
       "shotDelay": 58.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -23181,8 +24111,8 @@
       ],
       "shotDelay": 58.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -23216,8 +24146,8 @@
       ],
       "shotDelay": 58.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -23251,8 +24181,8 @@
       ],
       "shotDelay": 58.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -23286,8 +24216,8 @@
       ],
       "shotDelay": 58.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -24416,6 +25346,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 11000,
+    "maxPlaneFlightDist": 3500,
+    "minDist": 1500,
+    "planeName": "PJAD903_ASW_T10",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_Artillery": {
     "guns": {
      "HP_GGM_1": {
@@ -24447,7 +25388,7 @@
        6.0,
        12.0
       ],
-      "shotDelay": 28.0,
+      "shotDelay": 27.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -24484,7 +25425,7 @@
        6.0,
        12.0
       ],
-      "shotDelay": 28.0,
+      "shotDelay": 27.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -24521,7 +25462,7 @@
        6.0,
        12.0
       ],
-      "shotDelay": 28.0,
+      "shotDelay": 27.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -24558,7 +25499,7 @@
        6.0,
        12.0
       ],
-      "shotDelay": 28.0,
+      "shotDelay": 27.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -24570,7 +25511,7 @@
     "maxDist": 19806.0,
     "normalDistribution": true,
     "sigmaCount": 1.7,
-    "taperDist": 4000.0
+    "taperDist": 5000.0
    },
    "A_Engine": {
     "backwardEngineUpTime": 30.0,
@@ -24798,11 +25739,15 @@
    "PGUH906_BB10_HULL_STOCK": {
     "canBuy": true,
     "components": {
-     "airArmament": [],
+     "airArmament": [
+      "A_AirArmament"
+     ],
      "airDefense": [
       "A_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "A_AirSupport"
+     ],
      "artillery": [
       "A_Artillery"
      ],
@@ -24860,7 +25805,7 @@
    "costXP": 1,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "earlyAccess",
   "id": 4074714928,
   "index": "PGSB210",
   "level": 10,
@@ -26502,7 +27447,7 @@
        6.0,
        5.0
       ],
-      "shotDelay": 29.0,
+      "shotDelay": 30.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -26539,7 +27484,7 @@
        6.0,
        5.0
       ],
-      "shotDelay": 29.0,
+      "shotDelay": 30.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -26576,7 +27521,7 @@
        6.0,
        5.0
       ],
-      "shotDelay": 29.0,
+      "shotDelay": 30.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -26613,7 +27558,7 @@
        6.0,
        5.0
       ],
-      "shotDelay": 29.0,
+      "shotDelay": 30.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -26622,7 +27567,7 @@
       }
      }
     },
-    "maxDist": 15818.0,
+    "maxDist": 15464.0,
     "normalDistribution": true,
     "sigmaCount": 1.5,
     "taperDist": 4000.0
@@ -26639,6 +27584,17 @@
    "AB2_FireControl": {
     "maxDistCoef": 1.1,
     "sigmaCountCoef": 1.0
+   },
+   "AB_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 8000,
+    "maxPlaneFlightDist": 3500,
+    "minDist": 1500,
+    "planeName": "PJAD901_ASW_T6",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
    },
    "A_ATBA": {
     "Far1": {
@@ -27630,11 +28586,15 @@
    "PGUH614_BB7_HULL_STOCK": {
     "canBuy": true,
     "components": {
-     "airArmament": [],
+     "airArmament": [
+      "AB_AirArmament"
+     ],
      "airDefense": [
       "A_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB1_Artillery"
      ],
@@ -27668,11 +28628,15 @@
    "PGUH615_BB7_HULL_TOP": {
     "canBuy": true,
     "components": {
-     "airArmament": [],
+     "airArmament": [
+      "AB_AirArmament"
+     ],
      "airDefense": [
       "B_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB1_Artillery"
      ],
@@ -27699,7 +28663,9 @@
      ]
     },
     "disabledAbilities": [],
-    "nextShips": [],
+    "nextShips": [
+     "PGSB208_Zieten"
+    ],
     "prev": "PGUH614_BB7_HULL_STOCK",
     "ucType": "_Hull"
    },
@@ -27743,7 +28709,7 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "earlyAccess",
   "id": 4077860656,
   "index": "PGSB207",
   "level": 7,
@@ -33729,6 +34695,17 @@
     "maxDistCoef": 1.1,
     "sigmaCountCoef": 1.0
    },
+   "AB_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 8000,
+    "maxPlaneFlightDist": 3500,
+    "minDist": 1500,
+    "planeName": "PJAD901_ASW_T6",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_ATBA": {
     "AuraFar": {
      "areaDamage": 43.0,
@@ -34476,6 +35453,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB1_Artillery"
      ],
@@ -34511,6 +35491,9 @@
      ],
      "airDefense": [
       "B_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "AB1_Artillery"
@@ -35752,7 +36735,9 @@
      "torpedoes": []
     },
     "disabledAbilities": [],
-    "nextShips": [],
+    "nextShips": [
+     "PGSB205_Derfflinger"
+    ],
     "prev": "PGUH307_BB4_HULL_STOCK",
     "ucType": "_Hull"
    },
@@ -37985,7 +38970,7 @@
      "HP_GGM_1": {
       "ammoList": [
        "PGPA039_406MM_HE_SPR_GR_L4_4_KZ",
-       "PGPA038_406MM_AP_PZ_GR_L4_4"
+       "PGPA041_406MM_AP_PZ_GR_L4_4_AUSF_B"
       ],
       "barrelDiameter": 0.406,
       "delim": 0.5,
@@ -38022,7 +39007,7 @@
      "HP_GGM_2": {
       "ammoList": [
        "PGPA039_406MM_HE_SPR_GR_L4_4_KZ",
-       "PGPA038_406MM_AP_PZ_GR_L4_4"
+       "PGPA041_406MM_AP_PZ_GR_L4_4_AUSF_B"
       ],
       "barrelDiameter": 0.406,
       "delim": 0.5,
@@ -38059,7 +39044,7 @@
      "HP_GGM_3": {
       "ammoList": [
        "PGPA039_406MM_HE_SPR_GR_L4_4_KZ",
-       "PGPA038_406MM_AP_PZ_GR_L4_4"
+       "PGPA041_406MM_AP_PZ_GR_L4_4_AUSF_B"
       ],
       "barrelDiameter": 0.406,
       "delim": 0.5,
@@ -38096,7 +39081,7 @@
      "HP_GGM_4": {
       "ammoList": [
        "PGPA039_406MM_HE_SPR_GR_L4_4_KZ",
-       "PGPA038_406MM_AP_PZ_GR_L4_4"
+       "PGPA041_406MM_AP_PZ_GR_L4_4_AUSF_B"
       ],
       "barrelDiameter": 0.406,
       "delim": 0.5,
@@ -38134,7 +39119,7 @@
     "maxDist": 17090.0,
     "normalDistribution": true,
     "sigmaCount": 1.7,
-    "taperDist": 4000.0
+    "taperDist": 5000.0
    },
    "AB1_Engine": {
     "backwardEngineUpTime": 30.0,
@@ -38510,6 +39495,17 @@
     },
     "maxDist": 7950.0,
     "sigmaCount": 1.0
+   },
+   "AB_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
+    "maxPlaneFlightDist": 4200,
+    "minDist": 1500,
+    "planeName": "PJAD902_ASW_T8",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
    },
    "A_AirDefense": {
     "Medium1": {
@@ -38907,11 +39903,15 @@
    "PGUH815_BB9_HULL_STOCK": {
     "canBuy": true,
     "components": {
-     "airArmament": [],
+     "airArmament": [
+      "AB_AirArmament"
+     ],
      "airDefense": [
       "A_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB1_Artillery"
      ],
@@ -38928,7 +39928,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "AB_Radars"
@@ -38945,11 +39944,15 @@
    "PGUH816_BB9_HULL_TOP": {
     "canBuy": true,
     "components": {
-     "airArmament": [],
+     "airArmament": [
+      "AB_AirArmament"
+     ],
      "airDefense": [
       "B_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB1_Artillery"
      ],
@@ -38966,7 +39969,6 @@
      "hull": [
       "B_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "AB_Radars"
@@ -38976,7 +39978,9 @@
      ]
     },
     "disabledAbilities": [],
-    "nextShips": [],
+    "nextShips": [
+     "PGSB210_Schlieffen"
+    ],
     "prev": "PGUH815_BB9_HULL_STOCK",
     "ucType": "_Hull"
    },
@@ -39020,7 +40024,7 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "earlyAccess",
   "id": 4075763504,
   "index": "PGSB209",
   "level": 9,
@@ -39206,6 +40210,17 @@
    "AB2_FireControl": {
     "maxDistCoef": 1.1,
     "sigmaCountCoef": 1.0
+   },
+   "AB_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
+    "maxPlaneFlightDist": 4200,
+    "minDist": 1500,
+    "planeName": "PJAD902_ASW_T8",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
    },
    "A_ATBA": {
     "AuraFar": {
@@ -40158,6 +41173,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "A1_Artillery"
      ],
@@ -40191,6 +41209,9 @@
      ],
      "airDefense": [
       "B_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "B1_Artillery"
@@ -40476,6 +41497,17 @@
      "type": "near"
     },
     "isAA": true
+   },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
+    "maxPlaneFlightDist": 4200,
+    "minDist": 1500,
+    "planeName": "PJAD902_ASW_T8",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
    },
    "A_Artillery": {
     "guns": {
@@ -40767,6 +41799,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
+     "airSupport": [
+      "A_AirSupport"
+     ],
      "artillery": [
       "A_Artillery"
      ],
@@ -40923,7 +41958,7 @@
       ]
      }
     ],
-    "waveDistance": 9000.0,
+    "waveDistance": 11500.0,
     "waveHitAlertTime": 10,
     "waveHitLifeTime": 100,
     "waveParams": [
@@ -40970,8 +42005,8 @@
       ],
       "shotDelay": 58.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -41005,8 +42040,8 @@
       ],
       "shotDelay": 58.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -41040,8 +42075,8 @@
       ],
       "shotDelay": 58.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -41075,8 +42110,8 @@
       ],
       "shotDelay": 58.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -41110,8 +42145,8 @@
       ],
       "shotDelay": 58.0,
       "torpedoAngles": [
-       1.0,
-       1.0
+       2.5,
+       2.5
       ],
       "typeinfo": {
        "nation": "Germany",
@@ -42501,6 +43536,17 @@
     "maxDistCoef": 1.1,
     "sigmaCountCoef": 1.0
    },
+   "AB_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 6000,
+    "maxPlaneFlightDist": 3500,
+    "minDist": 1500,
+    "planeName": "PJAD904_ASW_T5",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_ATBA": {
     "Far1": {
      "areaDamage": 16.0,
@@ -43454,6 +44500,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB1_Artillery"
      ],
@@ -43485,6 +44534,9 @@
      ],
      "airDefense": [
       "B_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "AB1_Artillery"
@@ -43552,6 +44604,17 @@
  },
  {
   "ModulesArmaments": {
+   "AB_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 5000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 1500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_ATBA": {
     "Far1": {
      "areaDamage": 29.0,
@@ -44041,6 +45104,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "A_Artillery"
@@ -44621,6 +45687,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 8000,
+    "maxPlaneFlightDist": 3500,
+    "minDist": 1500,
+    "planeName": "PJAD901_ASW_T6",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_Artillery": {
     "guns": {
      "HP_GGM_1": {
@@ -44775,7 +45852,7 @@
     "maxDist": 15060.0,
     "normalDistribution": true,
     "sigmaCount": 1.6,
-    "taperDist": 5000.0
+    "taperDist": 4000.0
    },
    "A_Engine": {
     "backwardEngineUpTime": 30.0,
@@ -44855,11 +45932,15 @@
    "PGUH514_BB6_HULL_STOCK": {
     "canBuy": true,
     "components": {
-     "airArmament": [],
+     "airArmament": [
+      "A_AirArmament"
+     ],
      "airDefense": [
       "A_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "A_AirSupport"
+     ],
      "artillery": [
       "A_Artillery"
      ],
@@ -44874,13 +45955,14 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": []
     },
     "disabledAbilities": [],
-    "nextShips": [],
+    "nextShips": [
+     "PGSB207_Prinz_Heinrich"
+    ],
     "prev": "",
     "ucType": "_Hull"
    },
@@ -44912,7 +45994,7 @@
    "costXP": 1,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "earlyAccess",
   "id": 4078909232,
   "index": "PGSB206",
   "level": 6,
@@ -45584,6 +46666,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 11000,
+    "maxPlaneFlightDist": 3500,
+    "minDist": 1500,
+    "planeName": "PJAD903_ASW_T10",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_Engine": {
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
@@ -45687,6 +46780,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A1_Artillery",
@@ -47507,6 +48603,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
+    "maxPlaneFlightDist": 4200,
+    "minDist": 1500,
+    "planeName": "PJAD902_ASW_T8",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_Artillery": {
     "guns": {
      "HP_GGM_1": {
@@ -47829,7 +48936,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "A_AirSupport"
+     ],
      "artillery": [
       "A_Artillery"
      ],
@@ -47887,7 +48996,7 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "special",
   "id": 3751753520,
   "index": "PGSB518",
   "level": 8,
@@ -47900,6 +49009,17 @@
  },
  {
   "ModulesArmaments": {
+   "AB_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 4000,
+    "maxPlaneFlightDist": 3400,
+    "minDist": 500,
+    "planeName": "PAAD902_ASW_T6",
+    "reloadTime": 60,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_ATBA": {
     "Far1": {
      "areaDamage": 26.0,
@@ -48433,6 +49553,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "A_Artillery"
@@ -56249,7 +57372,9 @@
       "AB1_Artillery"
      ]
     },
-    "nextShips": [],
+    "nextShips": [
+     "PGSB203_Von_der_Tann"
+    ],
     "prev": "",
     "ucType": "_Artillery"
    },
@@ -57246,6 +58371,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 8000,
+    "maxPlaneFlightDist": 3500,
+    "minDist": 1500,
+    "planeName": "PJAD901_ASW_T6",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_Artillery": {
     "guns": {
      "HP_GGM_1": {
@@ -57530,6 +58666,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A_Artillery"
@@ -58661,6 +59800,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 8000,
+    "maxPlaneFlightDist": 3500,
+    "minDist": 1500,
+    "planeName": "PJAD901_ASW_T6",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_Artillery": {
     "guns": {
      "HP_GGM_1": {
@@ -58946,6 +60096,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
+     "airSupport": [
+      "A_AirSupport"
+     ],
      "artillery": [
       "A_Artillery"
      ],
@@ -59014,6 +60167,17 @@
  },
  {
   "ModulesArmaments": {
+   "AB_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 5000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 1500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_ATBA": {
     "Far1": {
      "areaDamage": 37.0,
@@ -59527,9 +60691,14 @@
    "PGUH806_HULL_AEGIR": {
     "canBuy": true,
     "components": {
-     "airArmament": [],
+     "airArmament": [
+      "A_AirArmament"
+     ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "A_Artillery"
@@ -59934,6 +61103,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
+    "maxPlaneFlightDist": 4200,
+    "minDist": 1500,
+    "planeName": "PJAD902_ASW_T8",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_Artillery": {
     "guns": {
      "HP_GGM_1": {
@@ -60246,9 +61426,14 @@
    "PGUH807_HULL_POMMERN": {
     "canBuy": true,
     "components": {
-     "airArmament": [],
+     "airArmament": [
+      "A_AirArmament"
+     ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A_Artillery"

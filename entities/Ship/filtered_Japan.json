@@ -1,6 +1,746 @@
 [
  {
   "ModulesArmaments": {
+   "A1_Artillery": {
+    "guns": {
+     "HP_JGM_1": {
+      "ammoList": [
+       "PJPA002_Shell_356mm_HE_C_Type_0",
+       "PJPA001_Shell_356mm_AP_APC_Type_91"
+      ],
+      "barrelDiameter": 0.356,
+      "delim": 0.5,
+      "horizSector": [
+       -147.0,
+       147.0
+      ],
+      "id": 4243187408,
+      "idealDistance": 1000.0,
+      "idealRadius": 10.0,
+      "index": "PJGM049",
+      "minRadius": 2.8,
+      "name": "PJGM049_356mm45_Type41",
+      "numBarrels": 2,
+      "position": [
+       1.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.6,
+      "radiusOnMax": 0.8,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       3.3,
+       5.0
+      ],
+      "shotDelay": 30.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_JGM_2": {
+      "ammoList": [
+       "PJPA002_Shell_356mm_HE_C_Type_0",
+       "PJPA001_Shell_356mm_AP_APC_Type_91"
+      ],
+      "barrelDiameter": 0.356,
+      "delim": 0.5,
+      "horizSector": [
+       -147.0,
+       147.0
+      ],
+      "id": 4242138832,
+      "idealDistance": 1000.0,
+      "idealRadius": 10.0,
+      "index": "PJGM050",
+      "minRadius": 2.8,
+      "name": "PJGM050_356mm45_Type41",
+      "numBarrels": 2,
+      "position": [
+       2.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.6,
+      "radiusOnMax": 0.8,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       3.3,
+       5.0
+      ],
+      "shotDelay": 30.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_JGM_3": {
+      "ammoList": [
+       "PJPA002_Shell_356mm_HE_C_Type_0",
+       "PJPA001_Shell_356mm_AP_APC_Type_91"
+      ],
+      "barrelDiameter": 0.356,
+      "delim": 0.5,
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4242138832,
+      "idealDistance": 1000.0,
+      "idealRadius": 10.0,
+      "index": "PJGM050",
+      "minRadius": 2.8,
+      "name": "PJGM050_356mm45_Type41",
+      "numBarrels": 2,
+      "position": [
+       4.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.6,
+      "radiusOnMax": 0.8,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       3.3,
+       5.0
+      ],
+      "shotDelay": 30.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_JGM_4": {
+      "ammoList": [
+       "PJPA002_Shell_356mm_HE_C_Type_0",
+       "PJPA001_Shell_356mm_AP_APC_Type_91"
+      ],
+      "barrelDiameter": 0.356,
+      "delim": 0.5,
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4243187408,
+      "idealDistance": 1000.0,
+      "idealRadius": 10.0,
+      "index": "PJGM049",
+      "minRadius": 2.8,
+      "name": "PJGM049_356mm45_Type41",
+      "numBarrels": 2,
+      "position": [
+       5.5,
+       1.0
+      ],
+      "radiusOnDelim": 0.6,
+      "radiusOnMax": 0.8,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       3.3,
+       5.0
+      ],
+      "shotDelay": 30.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Main",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 19271.0,
+    "normalDistribution": true,
+    "sigmaCount": 1.8,
+    "taperDist": 4000.0
+   },
+   "A1_Engine": {
+    "backwardEngineUpTime": 30.0,
+    "forwardEngineUpTime": 60.0,
+    "speedCoef": 0.0
+   },
+   "A1_FireControl": {
+    "maxDistCoef": 1.1,
+    "sigmaCountCoef": 1.0
+   },
+   "A_ATBA": {
+    "AuraFar": {
+     "areaDamage": 18.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.75,
+     "innerBubbleCount": 0.0,
+     "maxDistance": 5800.0,
+     "minDistance": 100.0,
+     "type": "far"
+    },
+    "AuraFar_Bubbles": {
+     "areaDamage": 0.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 170.0,
+     "hitChance": 0.75,
+     "innerBubbleCount": 2.0,
+     "maxDistance": 5800.0,
+     "minDistance": 3500.0,
+     "type": "far"
+    },
+    "antiAirAndSecondaries": {
+     "HP_JGS_1": {
+      "ammoList": [
+       "PJPA037_Shell_152mm_HE_C_Type_4"
+      ],
+      "barrelDiameter": 0.152,
+      "id": 4285982416,
+      "index": "PJGS008",
+      "name": "PJGS008_150mm50_Type_41",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 10.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_JGS_10": {
+      "ammoList": [
+       "PJPA037_Shell_152mm_HE_C_Type_4"
+      ],
+      "barrelDiameter": 0.152,
+      "id": 4285982416,
+      "index": "PJGS008",
+      "name": "PJGS008_150mm50_Type_41",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 10.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_JGS_11": {
+      "ammoList": [
+       "PJPA004_Shell_127mm_HE_C_Type_0"
+      ],
+      "barrelDiameter": 0.127,
+      "id": 4284933840,
+      "index": "PJGS009",
+      "name": "PJGS009_127mm40_Type_89",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_JGS_12": {
+      "ammoList": [
+       "PJPA004_Shell_127mm_HE_C_Type_0"
+      ],
+      "barrelDiameter": 0.127,
+      "id": 4284933840,
+      "index": "PJGS009",
+      "name": "PJGS009_127mm40_Type_89",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_JGS_13": {
+      "ammoList": [
+       "PJPA037_Shell_152mm_HE_C_Type_4"
+      ],
+      "barrelDiameter": 0.152,
+      "id": 4285982416,
+      "index": "PJGS008",
+      "name": "PJGS008_150mm50_Type_41",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 10.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_JGS_14": {
+      "ammoList": [
+       "PJPA037_Shell_152mm_HE_C_Type_4"
+      ],
+      "barrelDiameter": 0.152,
+      "id": 4285982416,
+      "index": "PJGS008",
+      "name": "PJGS008_150mm50_Type_41",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 10.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_JGS_15": {
+      "ammoList": [
+       "PJPA037_Shell_152mm_HE_C_Type_4"
+      ],
+      "barrelDiameter": 0.152,
+      "id": 4285982416,
+      "index": "PJGS008",
+      "name": "PJGS008_150mm50_Type_41",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 10.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_JGS_16": {
+      "ammoList": [
+       "PJPA037_Shell_152mm_HE_C_Type_4"
+      ],
+      "barrelDiameter": 0.152,
+      "id": 4285982416,
+      "index": "PJGS008",
+      "name": "PJGS008_150mm50_Type_41",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 10.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_JGS_17": {
+      "ammoList": [
+       "PJPA037_Shell_152mm_HE_C_Type_4"
+      ],
+      "barrelDiameter": 0.152,
+      "id": 4285982416,
+      "index": "PJGS008",
+      "name": "PJGS008_150mm50_Type_41",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 10.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_JGS_18": {
+      "ammoList": [
+       "PJPA037_Shell_152mm_HE_C_Type_4"
+      ],
+      "barrelDiameter": 0.152,
+      "id": 4285982416,
+      "index": "PJGS008",
+      "name": "PJGS008_150mm50_Type_41",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 10.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_JGS_2": {
+      "ammoList": [
+       "PJPA037_Shell_152mm_HE_C_Type_4"
+      ],
+      "barrelDiameter": 0.152,
+      "id": 4285982416,
+      "index": "PJGS008",
+      "name": "PJGS008_150mm50_Type_41",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 10.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_JGS_3": {
+      "ammoList": [
+       "PJPA037_Shell_152mm_HE_C_Type_4"
+      ],
+      "barrelDiameter": 0.152,
+      "id": 4285982416,
+      "index": "PJGS008",
+      "name": "PJGS008_150mm50_Type_41",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 10.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_JGS_4": {
+      "ammoList": [
+       "PJPA037_Shell_152mm_HE_C_Type_4"
+      ],
+      "barrelDiameter": 0.152,
+      "id": 4285982416,
+      "index": "PJGS008",
+      "name": "PJGS008_150mm50_Type_41",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 10.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_JGS_5": {
+      "ammoList": [
+       "PJPA004_Shell_127mm_HE_C_Type_0"
+      ],
+      "barrelDiameter": 0.127,
+      "id": 4284933840,
+      "index": "PJGS009",
+      "name": "PJGS009_127mm40_Type_89",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_JGS_6": {
+      "ammoList": [
+       "PJPA004_Shell_127mm_HE_C_Type_0"
+      ],
+      "barrelDiameter": 0.127,
+      "id": 4284933840,
+      "index": "PJGS009",
+      "name": "PJGS009_127mm40_Type_89",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_JGS_7": {
+      "ammoList": [
+       "PJPA037_Shell_152mm_HE_C_Type_4"
+      ],
+      "barrelDiameter": 0.152,
+      "id": 4285982416,
+      "index": "PJGS008",
+      "name": "PJGS008_150mm50_Type_41",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 10.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_JGS_8": {
+      "ammoList": [
+       "PJPA037_Shell_152mm_HE_C_Type_4"
+      ],
+      "barrelDiameter": 0.152,
+      "id": 4285982416,
+      "index": "PJGS008",
+      "name": "PJGS008_150mm50_Type_41",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 10.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_JGS_9": {
+      "ammoList": [
+       "PJPA037_Shell_152mm_HE_C_Type_4"
+      ],
+      "barrelDiameter": 0.152,
+      "id": 4285982416,
+      "index": "PJGS008",
+      "name": "PJGS008_150mm50_Type_41",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 10.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 4300.0,
+    "sigmaCount": 1.0
+   },
+   "A_AirDefense": {
+    "AuraMedium": {
+     "areaDamage": 13.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.85,
+     "innerBubbleCount": 0,
+     "maxDistance": 2500.0,
+     "minDistance": 100.0,
+     "type": "near"
+    },
+    "AuraNear": {
+     "areaDamage": 11.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.85,
+     "innerBubbleCount": 0,
+     "maxDistance": 2500.0,
+     "minDistance": 100.0,
+     "type": "near"
+    },
+    "isAA": true
+   },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 6000,
+    "maxPlaneFlightDist": 3800,
+    "minDist": 1500,
+    "planeName": "PJAD904_ASW_T5",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
+   "A_Hull": {
+    "health": 54100.0,
+    "maxSpeed": 30,
+    "rudderTime": 19.38,
+    "speedCoef": 1.0,
+    "visibilityCoefGKInSmoke": 14.17,
+    "visibilityFactor": 16.2,
+    "visibilityFactorByPlane": 9.36
+   }
+  },
+  "ShipAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY009_CrashCrewPremium",
+      "B_Japan_Gold"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY010_RegenCrewPremium",
+      "B_Gold"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [
+     [
+      "PCY013_SpotterPremium",
+      "Default"
+     ]
+    ],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "ShipUpgradeInfo": {
+   "PJUA495_356_45_TYPE41_KONGOU": {
+    "canBuy": true,
+    "components": {
+     "artillery": [
+      "A1_Artillery"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Artillery"
+   },
+   "PJUE495_ENGINE_136000_KONGOU": {
+    "canBuy": true,
+    "components": {
+     "engine": [
+      "A1_Engine"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Engine"
+   },
+   "PJUH495_Kongou": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [
+      "A_AirArmament"
+     ],
+     "airDefense": [
+      "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
+     ],
+     "artillery": [
+      "A1_Artillery"
+     ],
+     "atba": [
+      "A_ATBA"
+     ],
+     "depthCharges": [],
+     "directors": [
+      "A_Directors"
+     ],
+     "finders": [
+      "A_Finders"
+     ],
+     "hull": [
+      "A_Hull"
+     ],
+     "pinger": [],
+     "radars": [],
+     "torpedoes": []
+    },
+    "disabledAbilities": [],
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Hull"
+   },
+   "PJUS495_SUO_KONGOU": {
+    "canBuy": true,
+    "components": {
+     "fireControl": [
+      "A1_FireControl"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Suo"
+   },
+   "costCR": 0,
+   "costGold": 5000,
+   "costSaleGold": 0,
+   "costXP": 0,
+   "value": 1
+  },
+  "group": "special",
+  "id": 3555669712,
+  "index": "PJSB705",
+  "level": 5,
+  "name": "PJSB705_Kongou",
+  "typeinfo": {
+   "nation": "Japan",
+   "species": "Battleship",
+   "type": "Ship"
+  }
+ },
+ {
+  "ModulesArmaments": {
    "A_DepthChargeGuns": {
     "depthCharges": {
      "HP_JGB_1": {
@@ -1205,6 +1945,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 11000,
+    "maxPlaneFlightDist": 3500,
+    "minDist": 1500,
+    "planeName": "PJAD903_ASW_T10",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_Artillery": {
     "guns": {
      "HP_JGM_1": {
@@ -1415,6 +2166,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A_Artillery"
@@ -2018,9 +2772,9 @@
    },
    "A_AirSupport": {
     "chargesNum": 2,
-    "flyAwayTime": 15.0,
-    "maxDist": 12000,
-    "maxPlaneFlightDist": 3500,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
+    "maxPlaneFlightDist": 4200,
     "minDist": 1500,
     "planeName": "PJAD902_ASW_T8",
     "reloadTime": 60.0,
@@ -2721,8 +3475,8 @@
    },
    "A_AirSupport": {
     "chargesNum": 2,
-    "flyAwayTime": 15.0,
-    "maxDist": 13000,
+    "flyAwayTime": 5.0,
+    "maxDist": 11000,
     "maxPlaneFlightDist": 3500,
     "minDist": 1500,
     "planeName": "PJAD903_ASW_T10",
@@ -3491,6 +4245,17 @@
      }
     }
    },
+   "AB_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 5000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 1500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_ATBA": {
     "AuraFar": {
      "areaDamage": 32.0,
@@ -3848,7 +4613,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB1_Artillery"
      ],
@@ -3888,7 +4655,9 @@
      "airDefense": [
       "B_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB1_Artillery"
      ],
@@ -6394,6 +7163,17 @@
      }
     }
    },
+   "AB_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 5000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 1500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_ATBA": {
     "AuraFar": {
      "areaDamage": 18.0,
@@ -6604,6 +7384,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -7021,6 +7804,17 @@
      }
     }
    },
+   "AB_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 5000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 1500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_ATBA": {
     "AuraFar": {
      "areaDamage": 18.0,
@@ -7231,6 +8025,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -8804,9 +9601,9 @@
    },
    "A_AirSupport": {
     "chargesNum": 2,
-    "flyAwayTime": 15.0,
-    "maxDist": 12000,
-    "maxPlaneFlightDist": 3500,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
+    "maxPlaneFlightDist": 4200,
     "minDist": 1500,
     "planeName": "PJAD902_ASW_T8",
     "reloadTime": 60.0,
@@ -10813,8 +11610,8 @@
    },
    "AB_AirSupport": {
     "chargesNum": 2,
-    "flyAwayTime": 15.0,
-    "maxDist": 10000,
+    "flyAwayTime": 5.0,
+    "maxDist": 8000,
     "maxPlaneFlightDist": 3500,
     "minDist": 1500,
     "planeName": "PJAD901_ASW_T6",
@@ -12866,6 +13663,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 6000,
+    "maxPlaneFlightDist": 3800,
+    "minDist": 1500,
+    "planeName": "PAAD905_ASW_T10_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_Hull": {
     "health": 40800.0,
     "maxSpeed": 34.5,
@@ -12958,7 +13766,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "A_AirSupport"
+     ],
      "artillery": [
       "A1_Artillery"
      ],
@@ -17000,6 +17810,17 @@
      }
     }
    },
+   "AB_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 4000,
+    "maxPlaneFlightDist": 3400,
+    "minDist": 500,
+    "planeName": "PAAD902_ASW_T6",
+    "reloadTime": 60,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_ATBA": {
     "AuraFar": {
      "areaDamage": 17.0,
@@ -17205,6 +18026,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -19349,6 +20173,17 @@
      }
     }
    },
+   "AB_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 5000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 1500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_ATBA": {
     "AuraFar": {
      "areaDamage": 18.0,
@@ -19559,6 +20394,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -20110,6 +20948,17 @@
  },
  {
   "ModulesArmaments": {
+   "AB_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 5000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 1500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_ATBA": {
     "Far_1": {
      "areaDamage": 59.0,
@@ -20532,6 +21381,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "A_Artillery"
@@ -25497,6 +26349,17 @@
      }
     }
    },
+   "AB_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 4000,
+    "maxPlaneFlightDist": 3400,
+    "minDist": 500,
+    "planeName": "PAAD902_ASW_T6",
+    "reloadTime": 60,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_ATBA": {
     "AuraFar": {
      "areaDamage": 17.0,
@@ -25702,6 +26565,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -26693,6 +27559,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 6000,
+    "maxPlaneFlightDist": 3800,
+    "minDist": 1500,
+    "planeName": "PAAD905_ASW_T10_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_Artillery": {
     "guns": {
      "HP_JGM_1": {
@@ -26912,6 +27789,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A_Artillery"
@@ -27587,6 +28467,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 6000,
+    "maxPlaneFlightDist": 3800,
+    "minDist": 1500,
+    "planeName": "PJAD904_ASW_T5",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_Hull": {
     "health": 54100.0,
     "maxSpeed": 30,
@@ -27665,6 +28556,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -30995,6 +31889,17 @@
     "maxDistCoef": 1.1,
     "sigmaCountCoef": 1.0
    },
+   "AB_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 6000,
+    "maxPlaneFlightDist": 3800,
+    "minDist": 1500,
+    "planeName": "PJAD904_ASW_T5",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_ATBA": {
     "AuraFar": {
      "areaDamage": 20.0,
@@ -32095,6 +33000,9 @@
      "airDefense": [
       "B_AirDefense"
      ],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "B1_Artillery"
      ],
@@ -32130,6 +33038,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -32546,8 +33457,8 @@
    },
    "A_AirSupport": {
     "chargesNum": 2,
-    "flyAwayTime": 15.0,
-    "maxDist": 13000,
+    "flyAwayTime": 5.0,
+    "maxDist": 11000,
     "maxPlaneFlightDist": 3500,
     "minDist": 1500,
     "planeName": "PJAD903_ASW_T10",
@@ -34306,6 +35217,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 6000,
+    "maxPlaneFlightDist": 3800,
+    "minDist": 1500,
+    "planeName": "PJAD904_ASW_T5",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_Hull": {
     "health": 54100.0,
     "maxSpeed": 30,
@@ -34384,6 +35306,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -37460,9 +38385,9 @@
    },
    "AB_AirSupport": {
     "chargesNum": 2,
-    "flyAwayTime": 15.0,
-    "maxDist": 10000,
-    "maxPlaneFlightDist": 2800,
+    "flyAwayTime": 5.0,
+    "maxDist": 8000,
+    "maxPlaneFlightDist": 3500,
     "minDist": 1500,
     "planeName": "PJAD901_ASW_T6",
     "reloadTime": 60.0,
@@ -39001,6 +39926,17 @@
     "maxDist": 5600.0,
     "sigmaCount": 1.0
    },
+   "AB_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 4000,
+    "maxPlaneFlightDist": 3400,
+    "minDist": 500,
+    "planeName": "PAAD902_ASW_T6",
+    "reloadTime": 60,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "AB_Artillery": {
     "guns": {
      "HP_JGM_1": {
@@ -39629,7 +40565,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB_Artillery"
      ],
@@ -39669,7 +40607,9 @@
      "airDefense": [
       "B_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB_Artillery"
      ],
@@ -40848,6 +41788,17 @@
     "maxDist": 6600.0,
     "sigmaCount": 1.0
    },
+   "AB_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 5000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 1500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "AB_Engine": {
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
@@ -41126,7 +42077,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB1_Artillery",
       "AB2_Artillery"
@@ -41166,7 +42119,9 @@
      "airDefense": [
       "B_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB1_Artillery",
       "AB2_Artillery"
@@ -42001,6 +42956,17 @@
     "maxDist": 4960.0,
     "sigmaCount": 1.0
    },
+   "AB_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 4000,
+    "maxPlaneFlightDist": 3400,
+    "minDist": 500,
+    "planeName": "PAAD902_ASW_T6",
+    "reloadTime": 60,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_AirDefense": {
     "AuraMedium": {
      "areaDamage": 5.0,
@@ -42129,7 +43095,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB1_Artillery"
      ],
@@ -42168,7 +43136,9 @@
      "airDefense": [
       "B_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB1_Artillery"
      ],
@@ -43215,732 +44185,6 @@
     "guns": {
      "HP_JGM_1": {
       "ammoList": [
-       "PJPA002_Shell_356mm_HE_C_Type_0",
-       "PJPA001_Shell_356mm_AP_APC_Type_91"
-      ],
-      "barrelDiameter": 0.356,
-      "delim": 0.5,
-      "horizSector": [
-       -147.0,
-       147.0
-      ],
-      "id": 4243187408,
-      "idealDistance": 1000.0,
-      "idealRadius": 10.0,
-      "index": "PJGM049",
-      "minRadius": 2.8,
-      "name": "PJGM049_356mm45_Type41",
-      "numBarrels": 2,
-      "position": [
-       1.0,
-       1.0
-      ],
-      "radiusOnDelim": 0.6,
-      "radiusOnMax": 0.8,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       3.3,
-       5.0
-      ],
-      "shotDelay": 30.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_JGM_2": {
-      "ammoList": [
-       "PJPA002_Shell_356mm_HE_C_Type_0",
-       "PJPA001_Shell_356mm_AP_APC_Type_91"
-      ],
-      "barrelDiameter": 0.356,
-      "delim": 0.5,
-      "horizSector": [
-       -147.0,
-       147.0
-      ],
-      "id": 4242138832,
-      "idealDistance": 1000.0,
-      "idealRadius": 10.0,
-      "index": "PJGM050",
-      "minRadius": 2.8,
-      "name": "PJGM050_356mm45_Type41",
-      "numBarrels": 2,
-      "position": [
-       2.0,
-       1.0
-      ],
-      "radiusOnDelim": 0.6,
-      "radiusOnMax": 0.8,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       3.3,
-       5.0
-      ],
-      "shotDelay": 30.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_JGM_3": {
-      "ammoList": [
-       "PJPA002_Shell_356mm_HE_C_Type_0",
-       "PJPA001_Shell_356mm_AP_APC_Type_91"
-      ],
-      "barrelDiameter": 0.356,
-      "delim": 0.5,
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4242138832,
-      "idealDistance": 1000.0,
-      "idealRadius": 10.0,
-      "index": "PJGM050",
-      "minRadius": 2.8,
-      "name": "PJGM050_356mm45_Type41",
-      "numBarrels": 2,
-      "position": [
-       4.0,
-       1.0
-      ],
-      "radiusOnDelim": 0.6,
-      "radiusOnMax": 0.8,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       3.3,
-       5.0
-      ],
-      "shotDelay": 30.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_JGM_4": {
-      "ammoList": [
-       "PJPA002_Shell_356mm_HE_C_Type_0",
-       "PJPA001_Shell_356mm_AP_APC_Type_91"
-      ],
-      "barrelDiameter": 0.356,
-      "delim": 0.5,
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4243187408,
-      "idealDistance": 1000.0,
-      "idealRadius": 10.0,
-      "index": "PJGM049",
-      "minRadius": 2.8,
-      "name": "PJGM049_356mm45_Type41",
-      "numBarrels": 2,
-      "position": [
-       5.5,
-       1.0
-      ],
-      "radiusOnDelim": 0.6,
-      "radiusOnMax": 0.8,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       3.3,
-       5.0
-      ],
-      "shotDelay": 30.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Main",
-       "type": "Gun"
-      }
-     }
-    },
-    "maxDist": 19271.0,
-    "normalDistribution": true,
-    "sigmaCount": 1.8,
-    "taperDist": 4000.0
-   },
-   "A1_Engine": {
-    "backwardEngineUpTime": 30.0,
-    "forwardEngineUpTime": 60.0,
-    "speedCoef": 0.0
-   },
-   "A1_FireControl": {
-    "maxDistCoef": 1.1,
-    "sigmaCountCoef": 1.0
-   },
-   "A_ATBA": {
-    "AuraFar": {
-     "areaDamage": 18.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 0.75,
-     "innerBubbleCount": 0.0,
-     "maxDistance": 5800.0,
-     "minDistance": 100.0,
-     "type": "far"
-    },
-    "AuraFar_Bubbles": {
-     "areaDamage": 0.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 170.0,
-     "hitChance": 0.75,
-     "innerBubbleCount": 2.0,
-     "maxDistance": 5800.0,
-     "minDistance": 3500.0,
-     "type": "far"
-    },
-    "antiAirAndSecondaries": {
-     "HP_JGS_1": {
-      "ammoList": [
-       "PJPA037_Shell_152mm_HE_C_Type_4"
-      ],
-      "barrelDiameter": 0.152,
-      "id": 4285982416,
-      "index": "PJGS008",
-      "name": "PJGS008_150mm50_Type_41",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 10.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_JGS_10": {
-      "ammoList": [
-       "PJPA037_Shell_152mm_HE_C_Type_4"
-      ],
-      "barrelDiameter": 0.152,
-      "id": 4285982416,
-      "index": "PJGS008",
-      "name": "PJGS008_150mm50_Type_41",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 10.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_JGS_11": {
-      "ammoList": [
-       "PJPA004_Shell_127mm_HE_C_Type_0"
-      ],
-      "barrelDiameter": 0.127,
-      "id": 4284933840,
-      "index": "PJGS009",
-      "name": "PJGS009_127mm40_Type_89",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_JGS_12": {
-      "ammoList": [
-       "PJPA004_Shell_127mm_HE_C_Type_0"
-      ],
-      "barrelDiameter": 0.127,
-      "id": 4284933840,
-      "index": "PJGS009",
-      "name": "PJGS009_127mm40_Type_89",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_JGS_13": {
-      "ammoList": [
-       "PJPA037_Shell_152mm_HE_C_Type_4"
-      ],
-      "barrelDiameter": 0.152,
-      "id": 4285982416,
-      "index": "PJGS008",
-      "name": "PJGS008_150mm50_Type_41",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 10.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_JGS_14": {
-      "ammoList": [
-       "PJPA037_Shell_152mm_HE_C_Type_4"
-      ],
-      "barrelDiameter": 0.152,
-      "id": 4285982416,
-      "index": "PJGS008",
-      "name": "PJGS008_150mm50_Type_41",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 10.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_JGS_15": {
-      "ammoList": [
-       "PJPA037_Shell_152mm_HE_C_Type_4"
-      ],
-      "barrelDiameter": 0.152,
-      "id": 4285982416,
-      "index": "PJGS008",
-      "name": "PJGS008_150mm50_Type_41",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 10.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_JGS_16": {
-      "ammoList": [
-       "PJPA037_Shell_152mm_HE_C_Type_4"
-      ],
-      "barrelDiameter": 0.152,
-      "id": 4285982416,
-      "index": "PJGS008",
-      "name": "PJGS008_150mm50_Type_41",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 10.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_JGS_17": {
-      "ammoList": [
-       "PJPA037_Shell_152mm_HE_C_Type_4"
-      ],
-      "barrelDiameter": 0.152,
-      "id": 4285982416,
-      "index": "PJGS008",
-      "name": "PJGS008_150mm50_Type_41",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 10.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_JGS_18": {
-      "ammoList": [
-       "PJPA037_Shell_152mm_HE_C_Type_4"
-      ],
-      "barrelDiameter": 0.152,
-      "id": 4285982416,
-      "index": "PJGS008",
-      "name": "PJGS008_150mm50_Type_41",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 10.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_JGS_2": {
-      "ammoList": [
-       "PJPA037_Shell_152mm_HE_C_Type_4"
-      ],
-      "barrelDiameter": 0.152,
-      "id": 4285982416,
-      "index": "PJGS008",
-      "name": "PJGS008_150mm50_Type_41",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 10.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_JGS_3": {
-      "ammoList": [
-       "PJPA037_Shell_152mm_HE_C_Type_4"
-      ],
-      "barrelDiameter": 0.152,
-      "id": 4285982416,
-      "index": "PJGS008",
-      "name": "PJGS008_150mm50_Type_41",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 10.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_JGS_4": {
-      "ammoList": [
-       "PJPA037_Shell_152mm_HE_C_Type_4"
-      ],
-      "barrelDiameter": 0.152,
-      "id": 4285982416,
-      "index": "PJGS008",
-      "name": "PJGS008_150mm50_Type_41",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 10.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_JGS_5": {
-      "ammoList": [
-       "PJPA004_Shell_127mm_HE_C_Type_0"
-      ],
-      "barrelDiameter": 0.127,
-      "id": 4284933840,
-      "index": "PJGS009",
-      "name": "PJGS009_127mm40_Type_89",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_JGS_6": {
-      "ammoList": [
-       "PJPA004_Shell_127mm_HE_C_Type_0"
-      ],
-      "barrelDiameter": 0.127,
-      "id": 4284933840,
-      "index": "PJGS009",
-      "name": "PJGS009_127mm40_Type_89",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_JGS_7": {
-      "ammoList": [
-       "PJPA037_Shell_152mm_HE_C_Type_4"
-      ],
-      "barrelDiameter": 0.152,
-      "id": 4285982416,
-      "index": "PJGS008",
-      "name": "PJGS008_150mm50_Type_41",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 10.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_JGS_8": {
-      "ammoList": [
-       "PJPA037_Shell_152mm_HE_C_Type_4"
-      ],
-      "barrelDiameter": 0.152,
-      "id": 4285982416,
-      "index": "PJGS008",
-      "name": "PJGS008_150mm50_Type_41",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 10.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_JGS_9": {
-      "ammoList": [
-       "PJPA037_Shell_152mm_HE_C_Type_4"
-      ],
-      "barrelDiameter": 0.152,
-      "id": 4285982416,
-      "index": "PJGS008",
-      "name": "PJGS008_150mm50_Type_41",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 10.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Japan",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     }
-    },
-    "maxDist": 4300.0,
-    "sigmaCount": 1.0
-   },
-   "A_AirDefense": {
-    "AuraMedium": {
-     "areaDamage": 13.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 0.85,
-     "innerBubbleCount": 0,
-     "maxDistance": 2500.0,
-     "minDistance": 100.0,
-     "type": "near"
-    },
-    "AuraNear": {
-     "areaDamage": 11.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 0.85,
-     "innerBubbleCount": 0,
-     "maxDistance": 2500.0,
-     "minDistance": 100.0,
-     "type": "near"
-    },
-    "isAA": true
-   },
-   "A_Hull": {
-    "health": 54100.0,
-    "maxSpeed": 30,
-    "rudderTime": 19.38,
-    "speedCoef": 1.0,
-    "visibilityCoefGKInSmoke": 14.17,
-    "visibilityFactor": 16.2,
-    "visibilityFactorByPlane": 9.36
-   }
-  },
-  "ShipAbilities": {
-   "AbilitySlot0": {
-    "abils": [
-     [
-      "PCY009_CrashCrewPremium",
-      "B_Japan_Gold"
-     ]
-    ],
-    "slot": 0
-   },
-   "AbilitySlot1": {
-    "abils": [
-     [
-      "PCY010_RegenCrewPremium",
-      "B_Gold"
-     ]
-    ],
-    "slot": 1
-   },
-   "AbilitySlot2": {
-    "abils": [
-     [
-      "PCY013_SpotterPremium",
-      "Default"
-     ]
-    ],
-    "slot": 2
-   },
-   "AbilitySlot3": {
-    "abils": [],
-    "slot": 3
-   },
-   "AbilitySlot4": {
-    "abils": [],
-    "slot": 4
-   }
-  },
-  "ShipUpgradeInfo": {
-   "PJUA495_356_45_TYPE41_KONGOU": {
-    "canBuy": true,
-    "components": {
-     "artillery": [
-      "A1_Artillery"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Artillery"
-   },
-   "PJUE495_ENGINE_136000_KONGOU": {
-    "canBuy": true,
-    "components": {
-     "engine": [
-      "A1_Engine"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Engine"
-   },
-   "PJUH495_Kongou": {
-    "canBuy": true,
-    "components": {
-     "airArmament": [
-      "A_AirArmament"
-     ],
-     "airDefense": [
-      "A_AirDefense"
-     ],
-     "artillery": [
-      "A1_Artillery"
-     ],
-     "atba": [
-      "A_ATBA"
-     ],
-     "depthCharges": [],
-     "directors": [
-      "A_Directors"
-     ],
-     "finders": [
-      "A_Finders"
-     ],
-     "hull": [
-      "A_Hull"
-     ],
-     "pinger": [],
-     "radars": [],
-     "torpedoes": []
-    },
-    "disabledAbilities": [],
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Hull"
-   },
-   "PJUS495_SUO_KONGOU": {
-    "canBuy": true,
-    "components": {
-     "fireControl": [
-      "A1_FireControl"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Suo"
-   },
-   "costCR": 0,
-   "costGold": 5000,
-   "costSaleGold": 0,
-   "costXP": 0,
-   "value": 1
-  },
-  "group": "special",
-  "id": 3555669712,
-  "index": "PJSB705",
-  "level": 5,
-  "name": "PJSB705_Kongou",
-  "typeinfo": {
-   "nation": "Japan",
-   "species": "Battleship",
-   "type": "Ship"
-  }
- },
- {
-  "ModulesArmaments": {
-   "A1_Artillery": {
-    "guns": {
-     "HP_JGM_1": {
-      "ammoList": [
        "PJPA039_Shell_203mm_HE_C_Type_1",
        "PJPA038_Shell_203mm_AP_AP_Type_92"
       ],
@@ -44565,6 +44809,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 6000,
+    "maxPlaneFlightDist": 3800,
+    "minDist": 1500,
+    "planeName": "PAAD905_ASW_T10_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_Hull": {
     "health": 40800.0,
     "maxSpeed": 34.5,
@@ -44656,6 +44911,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -47902,8 +48160,8 @@
    },
    "A_AirSupport": {
     "chargesNum": 2,
-    "flyAwayTime": 15.0,
-    "maxDist": 10000,
+    "flyAwayTime": 5.0,
+    "maxDist": 8000,
     "maxPlaneFlightDist": 3500,
     "minDist": 1500,
     "planeName": "PJAD901_ASW_T6",
@@ -50771,6 +51029,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 6000,
+    "maxPlaneFlightDist": 3800,
+    "minDist": 1500,
+    "planeName": "PJAD904_ASW_T5",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_Artillery": {
     "guns": {
      "HP_JGM_1": {
@@ -51014,6 +51283,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A_Artillery"
@@ -53127,6 +53399,17 @@
      }
     }
    },
+   "AB_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 5000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 1500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_ATBA": {
     "AuraFar": {
      "areaDamage": 18.0,
@@ -53337,6 +53620,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -53754,6 +54040,17 @@
      }
     }
    },
+   "AB_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 4000,
+    "maxPlaneFlightDist": 3400,
+    "minDist": 500,
+    "planeName": "PAAD902_ASW_T6",
+    "reloadTime": 60,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_ATBA": {
     "AuraFar": {
      "areaDamage": 17.0,
@@ -53959,6 +54256,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -54575,9 +54875,9 @@
    },
    "A_AirSupport": {
     "chargesNum": 2,
-    "flyAwayTime": 15.0,
-    "maxDist": 13000,
-    "maxPlaneFlightDist": 3500,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
+    "maxPlaneFlightDist": 4200,
     "minDist": 1500,
     "planeName": "PJAD902_ASW_T8",
     "reloadTime": 60.0,
@@ -57272,8 +57572,8 @@
    },
    "AB_AirSupport": {
     "chargesNum": 2,
-    "flyAwayTime": 15.0,
-    "maxDist": 12000,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
     "maxPlaneFlightDist": 4200,
     "minDist": 1500,
     "planeName": "PJAD902_ASW_T8",
@@ -60192,8 +60492,8 @@
    },
    "A_AirSupport": {
     "chargesNum": 2,
-    "flyAwayTime": 15.0,
-    "maxDist": 13000,
+    "flyAwayTime": 5.0,
+    "maxDist": 11000,
     "maxPlaneFlightDist": 3500,
     "minDist": 1500,
     "planeName": "PJAD903_ASW_T10",
@@ -60814,6 +61114,17 @@
      }
     }
    },
+   "AB_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 4000,
+    "maxPlaneFlightDist": 3400,
+    "minDist": 500,
+    "planeName": "PAAD902_ASW_T6",
+    "reloadTime": 60,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_ATBA": {
     "AuraFar": {
      "areaDamage": 17.0,
@@ -61019,6 +61330,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -61688,6 +62002,17 @@
      }
     }
    },
+   "AB_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 4000,
+    "maxPlaneFlightDist": 3400,
+    "minDist": 500,
+    "planeName": "PAAD902_ASW_T6",
+    "reloadTime": 60,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_ATBA": {
     "AuraFar": {
      "areaDamage": 17.0,
@@ -61893,6 +62218,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -63090,6 +63418,17 @@
      }
     }
    },
+   "AB_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 4000,
+    "maxPlaneFlightDist": 3600,
+    "minDist": 500,
+    "planeName": "PAAD909_ASW_T5",
+    "reloadTime": 60,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "AB_Engine": {
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
@@ -63450,7 +63789,9 @@
      "airDefense": [
       "A_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB1_Artillery",
       "AB2_Artillery"
@@ -63489,7 +63830,9 @@
      "airDefense": [
       "B_AirDefense"
      ],
-     "airSupport": [],
+     "airSupport": [
+      "AB_AirSupport"
+     ],
      "artillery": [
       "AB1_Artillery",
       "AB2_Artillery"
@@ -66782,6 +67125,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 6000,
+    "maxPlaneFlightDist": 3800,
+    "minDist": 1500,
+    "planeName": "PJAD904_ASW_T5",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_Hull": {
     "health": 54100.0,
     "maxSpeed": 30,
@@ -66860,6 +67214,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -67262,6 +67619,17 @@
      }
     }
    },
+   "AB_AirSupport": {
+    "chargesNum": 1,
+    "flyAwayTime": 5.0,
+    "maxDist": 4000,
+    "maxPlaneFlightDist": 3400,
+    "minDist": 500,
+    "planeName": "PAAD902_ASW_T6",
+    "reloadTime": 60,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
    "A_ATBA": {
     "AuraFar": {
      "areaDamage": 17.0,
@@ -67467,6 +67835,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "AB_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -67920,6 +68291,17 @@
     },
     "isAA": true
    },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 5000,
+    "maxPlaneFlightDist": 4550,
+    "minDist": 1500,
+    "planeName": "PAAD903_ASW_T8_ALT",
+    "reloadTime": 90.0,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
    "A_Engine": {
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
@@ -68007,6 +68389,9 @@
      ],
      "airDefense": [
       "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
      ],
      "artillery": [
       "A1_Artillery"
@@ -68609,8 +68994,8 @@
    },
    "A_AirSupport": {
     "chargesNum": 2,
-    "flyAwayTime": 15.0,
-    "maxDist": 13000,
+    "flyAwayTime": 5.0,
+    "maxDist": 8000,
     "maxPlaneFlightDist": 3500,
     "minDist": 1500,
     "planeName": "PJAD901_ASW_T6",
@@ -71732,8 +72117,8 @@
    },
    "A_AirSupport": {
     "chargesNum": 2,
-    "flyAwayTime": 15.0,
-    "maxDist": 10000,
+    "flyAwayTime": 5.0,
+    "maxDist": 8000,
     "maxPlaneFlightDist": 3500,
     "minDist": 1500,
     "planeName": "PJAD901_ASW_T6",
@@ -72320,8 +72705,8 @@
    },
    "A_AirSupport": {
     "chargesNum": 2,
-    "flyAwayTime": 15.0,
-    "maxDist": 13000,
+    "flyAwayTime": 5.0,
+    "maxDist": 11000,
     "maxPlaneFlightDist": 3500,
     "minDist": 1500,
     "planeName": "PJAD903_ASW_T10",
@@ -72599,9 +72984,6 @@
      "pinger": [],
      "radars": [
       "A_Radars"
-     ],
-     "specials": [
-      "A_Specials"
      ],
      "torpedoes": []
     },
@@ -72959,9 +73341,9 @@
    },
    "AB_AirSupport": {
     "chargesNum": 2,
-    "flyAwayTime": 15.0,
-    "maxDist": 12000,
-    "maxPlaneFlightDist": 3850,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
+    "maxPlaneFlightDist": 4200,
     "minDist": 1500,
     "planeName": "PJAD902_ASW_T8",
     "reloadTime": 60.0,
@@ -75328,9 +75710,9 @@
    },
    "A_AirSupport": {
     "chargesNum": 2,
-    "flyAwayTime": 15.0,
-    "maxDist": 12000,
-    "maxPlaneFlightDist": 3500,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
+    "maxPlaneFlightDist": 4200,
     "minDist": 1500,
     "planeName": "PJAD902_ASW_T8",
     "reloadTime": 60.0,
