@@ -1,4 +1,4 @@
-MODERNIZATION_KEYS = ["modifiers", "nation", "shiplevel", "ships", "shiptype", "slot", "excludes"]
+MODERNIZATION_KEYS = ["modifiers", "nation", "shiplevel", "ships", "shiptype", "slot", "excludes", "type"]
 COMMON_KEYS = ['id', 'typeinfo', 'name', 'index']
 
 
