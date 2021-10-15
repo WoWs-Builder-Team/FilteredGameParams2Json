@@ -2,7 +2,7 @@ ARTILLERY_KEYS = ["maxDist", "normalDistribution", "sigmaCount", "AuraFar", "Aur
                   "taperDist"]
 ARTILLERY_GUN_KEYS = ["ammoList", "barrelDiameter", "horizSector", "id", "index", "numBarrels", "position",
                       "rotationSpeed", "shotDelay", "smokePenalty", "typeinfo", "name", "idealRadius", "minRadius",
-                      "idealDistance", "radiusOnZero", "delim", "radiusOnMax", "radiusOnDelim"]
+                      "idealDistance", "radiusOnZero", "delim", "radiusOnMax", "radiusOnDelim", "deadZone"]
 AIRDEFENCE_KEYS = []
 AIRDEFENCE_SUBKEYS = ["areaDamage", "areaDamagePeriod", "bubbleDamage", "hitChance", "innerBubbleCount", "maxDistance",
                       "minDistance", "type"]
@@ -20,7 +20,7 @@ TORPEDO_SUBKEYS = ["ammoList", "barrelDiameter", "id", "index", "name", "numBarr
                    "torpedoAngles", "typeinfo", "deadZone", "horizSector", "canRotate", "useGroups", "useOneShot",
                    "groups", "torpAngles"]
 HULL_SUBKEYS = ["health", "maxSpeed", "rudderTime", "speedCoef", "visibilityCoefGKInSmoke", "visibilityFactor",
-                "visibilityFactorByPlane"]
+                "visibilityFactorByPlane", "burnNodes", "floodNodes"]
 ENGINE_KEYS = ["forwardEngineUpTime", "backwardEngineUpTime", "speedCoef"]
 PINGERGUN_KEYS = ["rotationSpeed", "sectorParams", "waveDistance", "waveHitAlertTime", "waveHitLifeTime", "waveParams",
                   "waveReloadTime"]
