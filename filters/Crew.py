@@ -1,4 +1,4 @@
-KEYS = ["personName", "Skills", "UniqueSkills"]
+KEYS = ["personName", "Skills", "UniqueSkills","CrewPersonality","tags"]
 COMMON_KEYS = ['id', 'typeinfo', 'name', 'index']
 
 
