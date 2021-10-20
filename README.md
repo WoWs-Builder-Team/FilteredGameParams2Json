@@ -7,7 +7,7 @@
 
  - --path: GameParams.data file path
  - --filter: Filter the data. (Optional)
-
+ - --pts: Extracts the entities to `pts` directory. Omitting this argument will extract the entities to `live` directory instead.
   
 It will create **entities** folder which has all the entities separated by types (with their respective folders.)  
 
