@@ -120,6 +120,6 @@ if __name__ == '__main__':
             entity_types[data_type] = [value]
 
     with ThreadPoolExecutor() as tpe:
-        list(tpe.map(write_entities, [(k, v, args.filter, args.pt) for k, v in entity_types.items()]))
+        list(tpe.map(write_entities, [(k, v, args.filter, args.pts) for k, v in entity_types.items()]))
 
     print("Done.")
