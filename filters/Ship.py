@@ -15,7 +15,7 @@ ATBA_SUBKEYS = ["maxDist", "sigmaCount", "ammoList", "id", "index", "name", "num
 AA_KEYS = ["AuraFar", "AuraFar_Bubbles", "AuraMedium", "AuraMedium_Bubbles", "AuraNear", "AuraNear_Bubbles"]
 DEPTHCHARGE_KEYS = ["reloadTime", "maxPacks"]
 DEPTHCHARGE_SUBKEYS = ["ammoList", "horizSector", "id", "index", "name", "numBombs", "rotationSpeed", "typeinfo"]
-TORPEDO_KEYS = []
+TORPEDO_KEYS = ["timeToChangeAmmo"]
 TORPEDO_SUBKEYS = ["ammoList", "barrelDiameter", "id", "index", "name", "numBarrels", "rotationSpeed", "shotDelay",
                    "torpedoAngles", "typeinfo", "deadZone", "horizSector", "canRotate", "useGroups", "useOneShot",
                    "groups", "torpAngles"]
@@ -136,19 +136,28 @@ class Ship:
         pingergun_keys = self._get_components(("_Hull", "pinger"))
         # NL RELATED
         airsupport_keys = self._get_components(("_Hull", "airSupport"))
+        # SPECIALS (HANNOVER, SATSUNA, etc..)
+        specials = self._get_components(("_Hull", "specials"))
 
         all_components = fire_control_keys + artillery_keys + atba_keys + depthcharge_keys + torpedo_keys
         all_components = all_components + airdefence_keys + hull_keys + engine_keys
         all_components = all_components + tbomber_keys + dbomber_keys + fighter_keys + sbomber_keys + fcontrol_keys
-        all_components = all_components + pingergun_keys + airsupport_keys
+        all_components = all_components + pingergun_keys + airsupport_keys + specials
 
         modules_armaments = {comp: self._data.__getattribute__(comp) for comp in all_components}
 
         self._data.__setattr__("ModulesArmaments", modules_armaments)
 
-        all_root_keys = ROOT_KEYS + ["ModulesArmaments"]
+        all_root_keys = ROOT_KEYS + ["ModulesArmaments", "BurstArtilleryModule"]
         self._add_new_key(("_Hull", "airDefense"), {"isAA": True})
         self._delete_attributes(self._data, all_root_keys)
+
+    def _move_burst_artillery_module(self):
+        if artillery_keys := self._get_components(("_Artillery", "artillery")):
+            artillery = self._data.__getattribute__(artillery_keys[0])
+
+            if hasattr(artillery, "BurstArtilleryModule"):
+                self._data.__setattr__("BurstArtilleryModule", artillery.__getattribute__("BurstArtilleryModule"))
 
     @staticmethod
     def _delete_attributes(obj: object, keys_to_keep: list):
@@ -157,6 +166,7 @@ class Ship:
                 obj.__delattr__(_k)
 
     def get_filtered(self):
+        self._move_burst_artillery_module()
         self._apply_gun_filters(("_Artillery", "artillery"), ARTILLERY_KEYS, ARTILLERY_GUN_KEYS)
         self._apply_gun_filters(("_Hull", "atba"), ATBA_KEYS, ATBA_SUBKEYS)
         self._apply_gun_filters(("_Hull", "depthCharges"), DEPTHCHARGE_KEYS, DEPTHCHARGE_SUBKEYS)
