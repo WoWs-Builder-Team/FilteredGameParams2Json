@@ -38,15 +38,19 @@ class GPEncode(json.JSONEncoder):
 
 
 def write_entities(data):
-    _key, _value, do_filter = data
+    _key, _value, do_filter, is_pt = data
 
-    _ent_dir = os.path.join(entities_dir, _key)
+    if is_pt:
+        _ent_dir = os.path.join(__location__, "pts", "entities", _key)
+    else:
+        _ent_dir = os.path.join(__location__, "live", "entities", _key)
 
     if not os.path.exists(_ent_dir):
         try:
             os.makedirs(_ent_dir)
         except OSError:
-            pass
+            print("Error at creating directories for the entities.")
+            exit()
 
     data = {}
     data_filtered = {}
@@ -90,6 +94,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--path", type=str, help="GameParams.data file path.", required=True)
     parser.add_argument("--filter", help="Filter the data. (WoWs ShipBuilder)", action="store_true", required=False)
+    parser.add_argument("--pt", help="Extracts the entities and put it in a folder named `pts`.", action="store_true",
+                        required=False)
 
     args = parser.parse_args()
 
@@ -97,8 +103,7 @@ if __name__ == '__main__':
         print("Invalid GameParams.data file path.")
         exit(-1)
 
-    gp_file_path = os.path.join(__location__, 'GameParams.data')
-    with open(gp_file_path, "rb") as f:
+    with open(args.path, "rb") as f:
         gp_data: bytes = f.read()
     gp_data: bytes = struct.pack('B' * len(gp_data), *gp_data[::-1])
     gp_data: bytes = zlib.decompress(gp_data)
@@ -115,6 +120,6 @@ if __name__ == '__main__':
             entity_types[data_type] = [value]
 
     with ThreadPoolExecutor() as tpe:
-        list(tpe.map(write_entities, [(k, v, args.filter) for k, v in entity_types.items()]))
+        list(tpe.map(write_entities, [(k, v, args.filter, args.pt) for k, v in entity_types.items()]))
 
     print("Done.")
