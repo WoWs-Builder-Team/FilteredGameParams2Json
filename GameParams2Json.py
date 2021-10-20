@@ -94,7 +94,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--path", type=str, help="GameParams.data file path.", required=True)
     parser.add_argument("--filter", help="Filter the data. (WoWs ShipBuilder)", action="store_true", required=False)
-    parser.add_argument("--pt", help="Extracts the entities and put it in a folder named `pts`.", action="store_true",
+    parser.add_argument("--pts", help="Extracts the entities and put it in a folder named `pts`.", action="store_true",
                         required=False)
 
     args = parser.parse_args()
