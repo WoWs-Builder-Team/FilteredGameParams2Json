@@ -1,5 +1,5 @@
 ARTILLERY_KEYS = ["affectedByPTZ", "alphaDamage", "alphaPiercingCS", "alphaPiercingHE", "ammoType", "applyPTZCoeff",
-                  "bulletAirDrag", "bulletAlwayRiccochetAt", "bulletDetonator", "bulletDetonatorThreshold",
+                  "bulletAirDrag", "bulletAlwaysRicochetAt", "bulletDetonator", "bulletDetonatorThreshold",
                   "bulletDiametr", "bulletKrupp", "bulletMass", "bulletRicochetAt", "bulletSpeed", "burnProb",
                   "distTile", "ignoreClasses", "isBomb"]
 TORPEDO_KEYS = ["alertDist", "alphaDamage", "ammoType", "bulletDiametr", "maxDist", "ignoreClasses",
