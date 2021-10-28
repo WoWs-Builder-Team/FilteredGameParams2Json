@@ -40,6 +40,8 @@ class GPEncode(json.JSONEncoder):
 def write_entities(data):
     _key, _value, do_filter, is_pt = data
 
+    print(f"Processing {_key}.")
+
     if is_pt:
         _ent_dir = os.path.join(__location__, "pts", "entities", _key)
     else:
@@ -88,6 +90,8 @@ def write_entities(data):
 
             with open(os.path.join(_ent_dir, f"filtered_{k}.json"), "w") as ff:
                 json.dump(v, ff, indent=1, cls=GPEncode, sort_keys=True)
+
+    print(f"Processing {_key}. Done.")
 
 
 if __name__ == '__main__':
