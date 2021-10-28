@@ -3,7 +3,7 @@ AIRCRAFT_KEYS = ["hangarSettings", "maxHealth", "naturalAcceleration", "naturalD
                  "attackerDamageTakenMultiplier", "attackSpeedMultiplier", "attackSpeedMultiplierApplyTime",
                  "attackerSize", "bombFallingTime", "damageTakenMultiplier", "flightHeight", "flightRadius",
                  "innerBombsPercentage", "innerSalvoSize", "isAirSupportPlane", "isConsumablePlane",
-                 "isJatoBoosterDetachable", "jatoDuration", "jatoSpeedMultiplier", "speedMoveWithBomb"]
+                 "isJatoBoosterDetachable", "jatoDuration", "jatoSpeedMultiplier", "speedMoveWithBomb", "PlaneAbilities"]
 COMMON_KEYS = ['id', 'typeinfo', 'name', 'index']
 
 
