@@ -11,6 +11,8 @@
   "variants": {
    "C_4_7": {
     "descIDs": "",
+    "distShip": 133.3333,
+    "distTorpedo": 100.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -19,6 +21,8 @@
    },
    "C_8_10": {
     "descIDs": "",
+    "distShip": 166.6666,
+    "distTorpedo": 116.6666,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -27,6 +31,8 @@
    },
    "Default": {
     "descIDs": "",
+    "distShip": 116.0,
+    "distTorpedo": 84.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -35,6 +41,8 @@
    },
    "Deutsche_C": {
     "descIDs": "",
+    "distShip": 166.0,
+    "distTorpedo": 116.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -43,6 +51,8 @@
    },
    "Deutsche_C_4_7": {
     "descIDs": "",
+    "distShip": 183.3333,
+    "distTorpedo": 125.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -51,6 +61,8 @@
    },
    "Deutsche_C_8_10": {
     "descIDs": "",
+    "distShip": 200.0,
+    "distTorpedo": 133.3333,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -59,6 +71,8 @@
    },
    "DukeOfYork": {
     "descIDs": "",
+    "distShip": 133.3333,
+    "distTorpedo": 100.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -67,6 +81,8 @@
    },
    "Haida": {
     "descIDs": "",
+    "distShip": 116.6666,
+    "distTorpedo": 83.3333,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -75,6 +91,8 @@
    },
    "LoYang": {
     "descIDs": "",
+    "distShip": 183.3333,
+    "distTorpedo": 125.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -83,6 +101,8 @@
    },
    "Salem": {
     "descIDs": "",
+    "distShip": 166.6666,
+    "distTorpedo": 116.6666,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -91,6 +111,8 @@
    },
    "UKDD_6_10": {
     "descIDs": "",
+    "distShip": 100.0,
+    "distTorpedo": 100.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -363,6 +385,7 @@
   },
   "variants": {
    "Default_gold": {
+    "boostCoeff": 0.75,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -371,6 +394,7 @@
     "workTime": 10.0
    },
    "FR_BB": {
+    "boostCoeff": 0.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -379,6 +403,7 @@
     "workTime": 20.0
    },
    "FR_BB_Strasbourg": {
+    "boostCoeff": 0.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -387,6 +412,7 @@
     "workTime": 20.0
    },
    "FR_CR_6_7_8_Gold": {
+    "boostCoeff": 0.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -395,6 +421,7 @@
     "workTime": 15.0
    },
    "FR_CR_9_10_Gold": {
+    "boostCoeff": 0.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -403,6 +430,7 @@
     "workTime": 15.0
    },
    "FR_DD_Gold": {
+    "boostCoeff": 0.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -411,6 +439,7 @@
     "workTime": 15.0
    },
    "IJN_BB_HYUGA": {
+    "boostCoeff": 0.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -419,6 +448,7 @@
     "workTime": 15.0
    },
    "USA_Austin": {
+    "boostCoeff": 0.25,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -635,11 +665,15 @@
   },
   "variants": {
    "Default": {
+    "buoyancyRudderResetTimeCoeff": 0.4,
+    "buoyancyRudderTimeCoeff": 0.8,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "maxBuoyancySpeedCoeff": 1.2,
     "numConsumables": 2,
     "reloadTime": 120.0,
+    "underwaterMaxRudderAngleCoeff": 1.0,
     "workTime": 30.0
    }
   }
@@ -655,6 +689,7 @@
   },
   "variants": {
    "Allplanes": {
+    "boostCoeff": 10,
     "descIDs": "",
     "group": "squadron",
     "iconIDs": "",
@@ -663,6 +698,7 @@
     "workTime": 5.0
    },
    "GER_Fighters": {
+    "boostCoeff": 10,
     "descIDs": "",
     "group": "squadron",
     "iconIDs": "",
@@ -671,6 +707,7 @@
     "workTime": 10.0
    },
    "level_4": {
+    "boostCoeff": 10,
     "descIDs": "",
     "group": "squadron",
     "iconIDs": "",
@@ -692,6 +729,7 @@
   "variants": {
    "Aurora": {
     "descIDs": "",
+    "distShip": 400.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -700,6 +738,7 @@
    },
    "Black": {
     "descIDs": "",
+    "distShip": 250.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -708,6 +747,7 @@
    },
    "Default": {
     "descIDs": "",
+    "distShip": 270.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": -1,
@@ -716,6 +756,7 @@
    },
    "EU_DD": {
     "descIDs": "",
+    "distShip": 250.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -724,6 +765,7 @@
    },
    "Galaxy": {
     "descIDs": "",
+    "distShip": 333.33,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -732,6 +774,7 @@
    },
    "Gb_7_BELFAST": {
     "descIDs": "",
+    "distShip": 283.33,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -740,6 +783,7 @@
    },
    "Norma": {
     "descIDs": "",
+    "distShip": 333.33,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -748,6 +792,7 @@
    },
    "PAZ_10": {
     "descIDs": "",
+    "distShip": 250.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -756,6 +801,7 @@
    },
    "PAZ_8": {
     "descIDs": "",
+    "distShip": 250.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -764,6 +810,7 @@
    },
    "PAZ_9": {
     "descIDs": "",
+    "distShip": 250.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -772,6 +819,7 @@
    },
    "Salem": {
     "descIDs": "",
+    "distShip": 283.33,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -780,6 +828,7 @@
    },
    "USSR_10": {
     "descIDs": "",
+    "distShip": 400.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -788,6 +837,7 @@
    },
    "USSR_10_BB": {
     "descIDs": "",
+    "distShip": 500.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -796,6 +846,7 @@
    },
    "USSR_8": {
     "descIDs": "",
+    "distShip": 400.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -804,6 +855,7 @@
    },
    "USSR_8_BB": {
     "descIDs": "",
+    "distShip": 500.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -812,6 +864,7 @@
    },
    "USSR_9": {
     "descIDs": "",
+    "distShip": 400.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -820,6 +873,7 @@
    },
    "USSR_9_BB": {
     "descIDs": "",
+    "distShip": 500.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -828,6 +882,7 @@
    },
    "USSR_CA_8_10": {
     "descIDs": "",
+    "distShip": 400.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -836,6 +891,7 @@
    },
    "USSR_OCHAKOV": {
     "descIDs": "",
+    "distShip": 333.3,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -844,6 +900,7 @@
    },
    "US_10": {
     "descIDs": "",
+    "distShip": 333.33,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -852,6 +909,7 @@
    },
    "US_10_CL": {
     "descIDs": "",
+    "distShip": 300.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -860,6 +918,7 @@
    },
    "US_7_ATLANTA": {
     "descIDs": "",
+    "distShip": 283.33,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -868,6 +927,7 @@
    },
    "US_7_INDIANAPOLIS": {
     "descIDs": "",
+    "distShip": 333.33,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -876,6 +936,7 @@
    },
    "US_8": {
     "descIDs": "",
+    "distShip": 333.33,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -884,6 +945,7 @@
    },
    "US_8_CL": {
     "descIDs": "",
+    "distShip": 300.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -892,6 +954,7 @@
    },
    "US_9": {
     "descIDs": "",
+    "distShip": 333.33,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -900,6 +963,7 @@
    },
    "US_9_CL": {
     "descIDs": "",
+    "distShip": 300.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -908,6 +972,7 @@
    },
    "US_9_MISSOURI": {
     "descIDs": "",
+    "distShip": 316.67,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -930,488 +995,671 @@
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 80.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "DE_Lvl_10_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 77.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "DE_Lvl_2_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 45.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "DE_Lvl_3_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 49.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "DE_Lvl_4_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 53.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "DE_Lvl_5_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 57.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "DE_Lvl_6_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 61.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "DE_Lvl_7_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 65.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "DE_Lvl_8_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 69.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "DE_Lvl_9_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 73.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Default": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 60.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 1.0
    },
    "Grozovoi_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 97.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Haida_Gold": {
     "descIDs": "PCY014_SmokeGeneratorCrawler_Premium",
     "group": "ship",
     "iconIDs": "PCY014_SmokeGeneratorCrawler_Premium",
+    "lifeTime": 10.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 80.0,
+    "speedLimit": 12.5,
     "workTime": 90.0
    },
    "IT_Oil_5_7": {
     "descIDs": "PCY014_SmokeGeneratorOil_Premium",
     "group": "ship",
     "iconIDs": "PCY014_SmokeGeneratorOil_Premium",
+    "lifeTime": 10.0,
     "numConsumables": 2,
+    "radius": 17.0,
     "reloadTime": 180.0,
+    "speedLimit": 60.0,
     "workTime": 25.0
    },
    "IT_Oil_8_10": {
     "descIDs": "PCY014_SmokeGeneratorOil_Premium",
     "group": "ship",
     "iconIDs": "PCY014_SmokeGeneratorOil_Premium",
+    "lifeTime": 10.0,
     "numConsumables": 2,
+    "radius": 17.0,
     "reloadTime": 180.0,
+    "speedLimit": 60.0,
     "workTime": 40.0
    },
    "IT_Oil_BB": {
     "descIDs": "PCY014_SmokeGeneratorOil_Premium",
     "group": "ship",
     "iconIDs": "PCY014_SmokeGeneratorOil_Premium",
+    "lifeTime": 10.0,
     "numConsumables": 3,
+    "radius": 17.0,
     "reloadTime": 180.0,
+    "speedLimit": 60.0,
     "workTime": 45.0
    },
    "IT_Oil_BB_Verdi": {
     "descIDs": "PCY014_SmokeGeneratorOil_Premium",
     "group": "ship",
     "iconIDs": "PCY014_SmokeGeneratorOil_Premium",
+    "lifeTime": 15.0,
     "numConsumables": 3,
+    "radius": 35.0,
     "reloadTime": 180.0,
+    "speedLimit": 60.0,
     "workTime": 80.0
    },
    "IT_Oil_Gorizia": {
     "descIDs": "PCY014_SmokeGeneratorOil_Premium",
     "group": "ship",
     "iconIDs": "PCY014_SmokeGeneratorOil_Premium",
+    "lifeTime": 10.0,
     "numConsumables": 2,
+    "radius": 17.0,
     "reloadTime": 140.0,
+    "speedLimit": 60.0,
     "workTime": 40.0
    },
    "IT_Oil_Paolo_Emilio": {
     "descIDs": "PCY014_SmokeGeneratorOil_Premium",
     "group": "ship",
     "iconIDs": "PCY014_SmokeGeneratorOil_Premium",
+    "lifeTime": 10.0,
     "numConsumables": 5,
+    "radius": 17.0,
     "reloadTime": 140.0,
+    "speedLimit": 100.0,
     "workTime": 35.0
    },
    "IT_Oil_Test_Gold": {
     "descIDs": "PCY014_SmokeGeneratorOil_Premium",
     "group": "ship",
     "iconIDs": "PCY014_SmokeGeneratorOil_Premium",
+    "lifeTime": 15.0,
     "numConsumables": 3,
+    "radius": 17.0,
     "reloadTime": 180.0,
+    "speedLimit": 60.0,
     "workTime": 35.0
    },
    "Kitakami": {
     "descIDs": "PCY014_SmokeGenerator_Cycle_Premium",
     "group": "ship",
     "iconIDs": "PCY014_SmokeGenerator_Cycle_Premium",
+    "lifeTime": 40.0,
     "numConsumables": 6,
+    "radius": 15.0,
     "reloadTime": 80.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "Leone": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 118.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "Liberty_Convoy_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 45.0,
     "numConsumables": 5,
+    "radius": 20.0,
     "reloadTime": 70.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "Lvl_10_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 97.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_2_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 65.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_3_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 69.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_4_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 73.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_5_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 77.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_6_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 81.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_7_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 85.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_8_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 89.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_8_Gold_Kutuzov": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 89.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_9_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 93.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Ognevoy": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 89.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "PAZ_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 70.0,
     "numConsumables": 5,
+    "radius": 15.0,
     "reloadTime": 100.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "PanOceania_Gold": {
     "descIDs": "PCY014_SmokeGeneratorCrawler_Premium",
     "group": "ship",
     "iconIDs": "PCY014_SmokeGeneratorCrawler_Premium",
+    "lifeTime": 10.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 90.0
    },
    "Test": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 60.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 10.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "UK_Belfast_43": {
     "descIDs": "PCY014_SmokeGenerator_Cycle_Premium",
     "group": "ship",
     "iconIDs": "PCY014_SmokeGenerator_Cycle_Premium",
+    "lifeTime": 40.0,
     "numConsumables": 5,
+    "radius": 20.0,
     "reloadTime": 70.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_DD": {
     "descIDs": "PCY014_SmokeGenerator_Cycle_Premium",
     "group": "ship",
     "iconIDs": "PCY014_SmokeGenerator_Cycle_Premium",
+    "lifeTime": 40.0,
     "numConsumables": 6,
+    "radius": 20.0,
     "reloadTime": 70.0,
+    "speedLimit": 12.5,
     "workTime": 10.0
    },
    "UK_Lvl_10_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 113.0,
     "numConsumables": 3,
+    "radius": 20.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_Lvl_2_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 85.0,
     "numConsumables": 3,
+    "radius": 20.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_Lvl_3_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 89.0,
     "numConsumables": 3,
+    "radius": 20.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_Lvl_4_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 92.0,
     "numConsumables": 3,
+    "radius": 20.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_Lvl_5_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 96.0,
     "numConsumables": 3,
+    "radius": 20.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_Lvl_6_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 99.0,
     "numConsumables": 3,
+    "radius": 20.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_Lvl_7_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 103.0,
     "numConsumables": 3,
+    "radius": 20.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_Lvl_8_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 106.0,
     "numConsumables": 3,
+    "radius": 20.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_Lvl_9_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 110.0,
     "numConsumables": 3,
+    "radius": 20.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "US_Anchorage": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 104.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_10_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 130.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_2_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 106.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_3_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 109.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_4_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 112.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_5_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 115.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_6_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 118.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_7_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 121.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_8_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 124.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_9_Gold": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 127.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Rochester": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 104.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "Udaloy": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 93.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Vampire_2": {
     "descIDs": "PCY014_SmokeGeneratorCrawler_Premium",
     "group": "ship",
     "iconIDs": "PCY014_SmokeGeneratorCrawler_Premium",
+    "lifeTime": 10.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 120.0,
+    "speedLimit": 12.5,
     "workTime": 90.0
    }
   }
@@ -1447,7 +1695,10 @@
   },
   "variants": {
    "Cossack": {
+    "backwardEngineForsag": 1.75,
+    "boostCoeff": 0.08,
     "descIDs": "",
+    "forwardEngineForsag": 1.75,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1455,7 +1706,10 @@
     "workTime": 120.0
    },
    "Default": {
+    "backwardEngineForsag": 2.5,
+    "boostCoeff": 0.08,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1463,7 +1717,10 @@
     "workTime": 120.0
    },
    "EU_DD_Turbo": {
+    "backwardEngineForsag": 2.5,
+    "boostCoeff": 0.3,
     "descIDs": "PCY015_SpeedBooster_Imp_Premium",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "PCY015_SpeedBooster_Imp_Premium",
     "numConsumables": 4,
@@ -1471,7 +1728,10 @@
     "workTime": 60.0
    },
    "EU_DD_Turbo_Ragnar": {
+    "backwardEngineForsag": 2.5,
+    "boostCoeff": 0.3,
     "descIDs": "PCY015_SpeedBooster_Imp_Premium",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "PCY015_SpeedBooster_Imp_Premium",
     "numConsumables": 2,
@@ -1479,7 +1739,10 @@
     "workTime": 60.0
    },
    "FR_AIGLE_PREM": {
+    "backwardEngineForsag": 4.0,
+    "boostCoeff": 0.2,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1487,7 +1750,10 @@
     "workTime": 120.0
    },
    "FR_BB_PREM": {
+    "backwardEngineForsag": 4.0,
+    "boostCoeff": 0.08,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1495,7 +1761,10 @@
     "workTime": 180.0
    },
    "FR_CR_6_7_PREM": {
+    "backwardEngineForsag": 4.0,
+    "boostCoeff": 0.15,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1503,7 +1772,10 @@
     "workTime": 180.0
    },
    "FR_CR_8_9_10_PREM": {
+    "backwardEngineForsag": 4.0,
+    "boostCoeff": 0.2,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1511,7 +1783,10 @@
     "workTime": 180.0
    },
    "FR_CR_Henri_IV": {
+    "backwardEngineForsag": 2.5,
+    "boostCoeff": 0.2,
     "descIDs": "",
+    "forwardEngineForsag": 1.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1519,7 +1794,10 @@
     "workTime": 180.0
    },
    "FR_DD_2_7_PREM": {
+    "backwardEngineForsag": 4.0,
+    "boostCoeff": 0.2,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1527,7 +1805,10 @@
     "workTime": 120.0
    },
    "FR_DD_8_10_PREM": {
+    "backwardEngineForsag": 4.0,
+    "boostCoeff": 0.2,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1535,7 +1816,10 @@
     "workTime": 180.0
    },
    "FR_Repulse": {
+    "backwardEngineForsag": 4.0,
+    "boostCoeff": 0.08,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1543,7 +1827,10 @@
     "workTime": 180.0
    },
    "FR_Terrible": {
+    "backwardEngineForsag": 2.5,
+    "boostCoeff": 0.2,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1551,7 +1838,10 @@
     "workTime": 120.0
    },
    "GROZOVOI_PREM": {
+    "backwardEngineForsag": 2.5,
+    "boostCoeff": 0.08,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -1559,7 +1849,10 @@
     "workTime": 120.0
    },
    "IT_Paolo_Emilio": {
+    "backwardEngineForsag": 2.5,
+    "boostCoeff": 0.25,
     "descIDs": "PCY015_SpeedBooster_Imp_Premium",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "PCY015_SpeedBooster_Imp_Premium",
     "numConsumables": 5,
@@ -1567,7 +1860,10 @@
     "workTime": 50.0
    },
    "Incomparable": {
+    "backwardEngineForsag": 4.0,
+    "boostCoeff": 0.08,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1575,7 +1871,10 @@
     "workTime": 180.0
    },
    "Test": {
+    "backwardEngineForsag": 2.5,
+    "boostCoeff": 10.0,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1583,7 +1882,10 @@
     "workTime": 120.0
    },
    "UK_CL_PREM": {
+    "backwardEngineForsag": 4.5,
+    "boostCoeff": 0.15,
     "descIDs": "",
+    "forwardEngineForsag": 4.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1604,154 +1906,230 @@
   "variants": {
    "CV_Default": {
     "descIDs": "",
+    "fightersNum": 4,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "radius": 100.0,
     "reloadTime": 40.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 600.0
    },
    "CV_FR_6": {
     "descIDs": "",
+    "fightersNum": 4,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "radius": 100.0,
     "reloadTime": 40.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 600.0
    },
    "CV_FR_6_Bearn": {
     "descIDs": "",
+    "fightersNum": 8,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 6,
+    "radius": 100.0,
     "reloadTime": 40.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 600.0
    },
    "CV_GER_10": {
     "descIDs": "",
+    "fightersNum": 4,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "radius": 100.0,
     "reloadTime": 40.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 600.0
    },
    "CV_GER_4": {
     "descIDs": "",
+    "fightersNum": 4,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "radius": 100.0,
     "reloadTime": 40.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 600.0
    },
    "CV_GER_6": {
     "descIDs": "",
+    "fightersNum": 4,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "radius": 100.0,
     "reloadTime": 40.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 600.0
    },
    "CV_GER_8": {
     "descIDs": "",
+    "fightersNum": 4,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "radius": 100.0,
     "reloadTime": 40.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 600.0
    },
    "CV_JAP_10": {
     "descIDs": "",
+    "fightersNum": 4,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "radius": 100.0,
     "reloadTime": 40.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 600.0
    },
    "CV_JAP_4": {
     "descIDs": "",
+    "fightersNum": 4,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "radius": 100.0,
     "reloadTime": 40.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 600.0
    },
    "CV_JAP_6": {
     "descIDs": "",
+    "fightersNum": 4,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "radius": 100.0,
     "reloadTime": 40.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 600.0
    },
    "CV_JAP_8": {
     "descIDs": "",
+    "fightersNum": 4,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "radius": 100.0,
     "reloadTime": 40.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 600.0
    },
    "CV_UK_10": {
     "descIDs": "",
+    "fightersNum": 4,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "radius": 100.0,
     "reloadTime": 40.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 600.0
    },
    "CV_UK_4": {
     "descIDs": "",
+    "fightersNum": 4,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "radius": 100.0,
     "reloadTime": 40.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 600.0
    },
    "CV_UK_6": {
     "descIDs": "",
+    "fightersNum": 4,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "radius": 100.0,
     "reloadTime": 40.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 600.0
    },
    "CV_UK_8": {
     "descIDs": "",
+    "fightersNum": 4,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "radius": 100.0,
     "reloadTime": 40.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 600.0
    },
    "CV_USA_10": {
     "descIDs": "",
+    "fightersNum": 4,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "radius": 100.0,
     "reloadTime": 40.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 600.0
    },
    "CV_USA_4": {
     "descIDs": "",
+    "fightersNum": 4,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "radius": 100.0,
     "reloadTime": 40.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 600.0
    },
    "CV_USA_6": {
     "descIDs": "",
+    "fightersNum": 4,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "radius": 100.0,
     "reloadTime": 40.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 600.0
    },
    "CV_USA_8": {
     "descIDs": "",
+    "fightersNum": 4,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "radius": 100.0,
     "reloadTime": 40.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 600.0
    }
   }
@@ -1768,6 +2146,8 @@
   "variants": {
    "C_4_7": {
     "descIDs": "",
+    "distShip": 133.3333,
+    "distTorpedo": 100.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1776,6 +2156,8 @@
    },
    "C_4_7_Low": {
     "descIDs": "",
+    "distShip": 133.3333,
+    "distTorpedo": 100.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1784,6 +2166,8 @@
    },
    "C_8_10": {
     "descIDs": "",
+    "distShip": 166.6666,
+    "distTorpedo": 116.6666,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1792,6 +2176,8 @@
    },
    "C_8_RCHSTR": {
     "descIDs": "",
+    "distShip": 166.6666,
+    "distTorpedo": 116.6666,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -1800,6 +2186,8 @@
    },
    "Default": {
     "descIDs": "",
+    "distShip": 116.0,
+    "distTorpedo": 84.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1808,6 +2196,8 @@
    },
    "Deutsche_C": {
     "descIDs": "",
+    "distShip": 166.0,
+    "distTorpedo": 116.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1816,6 +2206,8 @@
    },
    "Deutsche_C_4_7": {
     "descIDs": "",
+    "distShip": 183.3333,
+    "distTorpedo": 125.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1824,6 +2216,8 @@
    },
    "Deutsche_C_8_10": {
     "descIDs": "",
+    "distShip": 200.0,
+    "distTorpedo": 133.3333,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1832,6 +2226,8 @@
    },
    "DukeOfYork": {
     "descIDs": "",
+    "distShip": 133.3333,
+    "distTorpedo": 100.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -1840,6 +2236,8 @@
    },
    "Haida_gold": {
     "descIDs": "",
+    "distShip": 116.6666,
+    "distTorpedo": 83.3333,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1848,6 +2246,8 @@
    },
    "LoYang": {
     "descIDs": "",
+    "distShip": 183.3333,
+    "distTorpedo": 125.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1856,6 +2256,8 @@
    },
    "S_10": {
     "descIDs": "",
+    "distShip": 200.0,
+    "distTorpedo": 133.3333,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1864,6 +2266,8 @@
    },
    "S_6": {
     "descIDs": "",
+    "distShip": 133.3333,
+    "distTorpedo": 100.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1872,6 +2276,8 @@
    },
    "S_8": {
     "descIDs": "",
+    "distShip": 166.67,
+    "distTorpedo": 116.67,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1880,6 +2286,8 @@
    },
    "Salem": {
     "descIDs": "",
+    "distShip": 166.6666,
+    "distTorpedo": 116.6666,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1888,6 +2296,8 @@
    },
    "UKDD_6_10": {
     "descIDs": "PCY016_SonarSearch_Short_Premium",
+    "distShip": 100.0,
+    "distTorpedo": 100.0,
     "group": "ship",
     "iconIDs": "PCY016_SonarSearch_Short_Premium",
     "numConsumables": 3,
@@ -1896,6 +2306,8 @@
    },
    "UK_Belfast_43": {
     "descIDs": "",
+    "distShip": 166.6666,
+    "distTorpedo": 116.6666,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -1916,42 +2328,62 @@
   "variants": {
    "Fighter_1": {
     "descIDs": "",
+    "fightersNum": 1,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
+    "radius": 100.0,
     "reloadTime": 135.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "Fighter_2": {
     "descIDs": "",
+    "fightersNum": 2,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
+    "radius": 100.0,
     "reloadTime": 135.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "Fighter_3": {
     "descIDs": "",
+    "fightersNum": 3,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
+    "radius": 100.0,
     "reloadTime": 135.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "Fighter_4": {
     "descIDs": "",
+    "fightersNum": 4,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
+    "radius": 100.0,
     "reloadTime": 135.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "Musashi": {
     "descIDs": "",
+    "fightersNum": 4,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
+    "radius": 100.0,
     "reloadTime": 135.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 80.0
    }
   }
@@ -1967,7 +2399,10 @@
   },
   "variants": {
    "Blue_Aster": {
+    "backwardEngineForsag": 2.5,
+    "boostCoeff": 0.08,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -1975,7 +2410,10 @@
     "workTime": 120.0
    },
    "Cossack": {
+    "backwardEngineForsag": 1.75,
+    "boostCoeff": 0.08,
     "descIDs": "",
+    "forwardEngineForsag": 1.75,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -1983,7 +2421,10 @@
     "workTime": 120.0
    },
    "Default": {
+    "backwardEngineForsag": 2.5,
+    "boostCoeff": 0.08,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -1991,7 +2432,10 @@
     "workTime": 120.0
    },
    "EU_DD_Turbo": {
+    "backwardEngineForsag": 2.5,
+    "boostCoeff": 0.3,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -1999,7 +2443,10 @@
     "workTime": 60.0
    },
    "FR_AIGLE": {
+    "backwardEngineForsag": 4.0,
+    "boostCoeff": 0.2,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -2007,7 +2454,10 @@
     "workTime": 120.0
    },
    "FR_BB": {
+    "backwardEngineForsag": 4.0,
+    "boostCoeff": 0.08,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -2015,7 +2465,10 @@
     "workTime": 180.0
    },
    "FR_CR_6_7": {
+    "backwardEngineForsag": 4.0,
+    "boostCoeff": 0.15,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -2023,7 +2476,10 @@
     "workTime": 180.0
    },
    "FR_CR_8_9_10": {
+    "backwardEngineForsag": 4.0,
+    "boostCoeff": 0.2,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -2031,7 +2487,10 @@
     "workTime": 180.0
    },
    "FR_CR_Henri_IV": {
+    "backwardEngineForsag": 2.5,
+    "boostCoeff": 0.2,
     "descIDs": "",
+    "forwardEngineForsag": 1.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -2039,7 +2498,10 @@
     "workTime": 180.0
    },
    "FR_DD_2_7": {
+    "backwardEngineForsag": 4.0,
+    "boostCoeff": 0.2,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -2047,7 +2509,10 @@
     "workTime": 120.0
    },
    "FR_DD_8_10": {
+    "backwardEngineForsag": 4.0,
+    "boostCoeff": 0.2,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -2055,7 +2520,10 @@
     "workTime": 180.0
    },
    "FR_Terrible": {
+    "backwardEngineForsag": 2.5,
+    "boostCoeff": 0.2,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -2063,7 +2531,10 @@
     "workTime": 120.0
    },
    "FlyFire": {
+    "backwardEngineForsag": 2.5,
+    "boostCoeff": 0.08,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -2071,7 +2542,10 @@
     "workTime": 120.0
    },
    "GROZOVOI": {
+    "backwardEngineForsag": 2.5,
+    "boostCoeff": 0.08,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 1,
@@ -2079,7 +2553,10 @@
     "workTime": 120.0
    },
    "H2019": {
+    "backwardEngineForsag": 2.0,
+    "boostCoeff": 0.2,
     "descIDs": "",
+    "forwardEngineForsag": 2.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
@@ -2087,7 +2564,10 @@
     "workTime": 120.0
    },
    "Paris": {
+    "backwardEngineForsag": 4.0,
+    "boostCoeff": 0.08,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -2095,7 +2575,10 @@
     "workTime": 120.0
    },
    "Post_Apocalypse": {
+    "backwardEngineForsag": 1.0,
+    "boostCoeff": 0.1,
     "descIDs": "",
+    "forwardEngineForsag": 1.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 0,
@@ -2103,7 +2586,10 @@
     "workTime": 60.0
    },
    "Post_Apocalypse2": {
+    "backwardEngineForsag": 2.0,
+    "boostCoeff": 0.2,
     "descIDs": "",
+    "forwardEngineForsag": 2.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 0,
@@ -2111,7 +2597,10 @@
     "workTime": 60.0
    },
    "Sub": {
+    "backwardEngineForsag": 2.5,
+    "boostCoeff": 0.25,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 15,
@@ -2119,7 +2608,10 @@
     "workTime": 45.0
    },
    "Test": {
+    "backwardEngineForsag": 2.5,
+    "boostCoeff": 0.5,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -2127,7 +2619,10 @@
     "workTime": 120.0
    },
    "UK_CL": {
+    "backwardEngineForsag": 4.5,
+    "boostCoeff": 0.15,
     "descIDs": "",
+    "forwardEngineForsag": 4.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -2148,6 +2643,7 @@
   "variants": {
    "Black": {
     "descIDs": "",
+    "distShip": 250.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2156,6 +2652,7 @@
    },
    "Default": {
     "descIDs": "",
+    "distShip": 270.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": -1,
@@ -2164,6 +2661,7 @@
    },
    "Gb_7_BELFAST": {
     "descIDs": "",
+    "distShip": 283.33,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2172,6 +2670,7 @@
    },
    "PAZ_10": {
     "descIDs": "",
+    "distShip": 250.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2180,6 +2679,7 @@
    },
    "PAZ_8": {
     "descIDs": "",
+    "distShip": 250.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2188,6 +2688,7 @@
    },
    "PAZ_9": {
     "descIDs": "",
+    "distShip": 250.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2196,6 +2697,7 @@
    },
    "Salem": {
     "descIDs": "",
+    "distShip": 283.33,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2204,6 +2706,7 @@
    },
    "USSR_10": {
     "descIDs": "",
+    "distShip": 400.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2212,6 +2715,7 @@
    },
    "USSR_10_BB": {
     "descIDs": "",
+    "distShip": 500.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2220,6 +2724,7 @@
    },
    "USSR_8": {
     "descIDs": "",
+    "distShip": 400.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2228,6 +2733,7 @@
    },
    "USSR_8_BB": {
     "descIDs": "",
+    "distShip": 500.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2236,6 +2742,7 @@
    },
    "USSR_9": {
     "descIDs": "",
+    "distShip": 400.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2244,6 +2751,7 @@
    },
    "USSR_9_BB": {
     "descIDs": "",
+    "distShip": 500.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2252,6 +2760,7 @@
    },
    "USSR_CA_8_10": {
     "descIDs": "",
+    "distShip": 400.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2260,6 +2769,7 @@
    },
    "USSR_OCHAKOV": {
     "descIDs": "",
+    "distShip": 333.3,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2268,6 +2778,7 @@
    },
    "US_10": {
     "descIDs": "",
+    "distShip": 333.33,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2276,6 +2787,7 @@
    },
    "US_10_CL": {
     "descIDs": "",
+    "distShip": 300.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2284,6 +2796,7 @@
    },
    "US_7_ATLANTA": {
     "descIDs": "",
+    "distShip": 283.33,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2292,6 +2805,7 @@
    },
    "US_7_INDIANAPOLIS": {
     "descIDs": "",
+    "distShip": 333.33,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2300,6 +2814,7 @@
    },
    "US_8": {
     "descIDs": "",
+    "distShip": 300.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2308,6 +2823,7 @@
    },
    "US_8_CL": {
     "descIDs": "",
+    "distShip": 300.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2316,6 +2832,7 @@
    },
    "US_9": {
     "descIDs": "",
+    "distShip": 333.33,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2324,6 +2841,7 @@
    },
    "US_9_CL": {
     "descIDs": "",
+    "distShip": 300.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2332,6 +2850,7 @@
    },
    "US_9_MISSOURI": {
     "descIDs": "",
+    "distShip": 316.67,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2351,6 +2870,7 @@
   },
   "variants": {
    "Default": {
+    "boostCoeff": 0.75,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2359,6 +2879,7 @@
     "workTime": 10.0
    },
    "FR_BB": {
+    "boostCoeff": 0.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2367,6 +2888,7 @@
     "workTime": 20.0
    },
    "FR_CR_6_7_8": {
+    "boostCoeff": 0.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2375,6 +2897,7 @@
     "workTime": 15.0
    },
    "FR_CR_9_10": {
+    "boostCoeff": 0.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2383,6 +2906,7 @@
     "workTime": 15.0
    },
    "FR_DD": {
+    "boostCoeff": 0.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2471,6 +2995,7 @@
   },
   "variants": {
    "Default": {
+    "boostCoeff": 0.75,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2479,6 +3004,7 @@
     "workTime": 10.0
    },
    "FR_BB": {
+    "boostCoeff": 0.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2487,6 +3013,7 @@
     "workTime": 20.0
    },
    "FR_CR_6_7_8": {
+    "boostCoeff": 0.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2495,6 +3022,7 @@
     "workTime": 15.0
    },
    "FR_CR_9_10": {
+    "boostCoeff": 0.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2503,6 +3031,7 @@
     "workTime": 15.0
    },
    "FR_DD": {
+    "boostCoeff": 0.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2511,6 +3040,7 @@
     "workTime": 15.0
    },
    "Post_Apocalypse": {
+    "boostCoeff": 0.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2519,6 +3049,7 @@
     "workTime": 20.0
    },
    "Post_Apocalypse2": {
+    "boostCoeff": 0.4,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2540,6 +3071,7 @@
   "variants": {
    "Black": {
     "descIDs": "",
+    "distShip": 250.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2548,6 +3080,7 @@
    },
    "Default": {
     "descIDs": "",
+    "distShip": 270.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": -1,
@@ -2556,6 +3089,7 @@
    },
    "EU_DD": {
     "descIDs": "",
+    "distShip": 250.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2564,6 +3098,7 @@
    },
    "EU_RLS_Ragnar": {
     "descIDs": "",
+    "distShip": 250.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -2572,6 +3107,7 @@
    },
    "Gb_7_BELFAST_PREMIUM": {
     "descIDs": "",
+    "distShip": 283.33,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2580,6 +3116,7 @@
    },
    "PAZ_10_PREMIUM": {
     "descIDs": "",
+    "distShip": 250.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2588,6 +3125,7 @@
    },
    "PAZ_8_PREMIUM": {
     "descIDs": "",
+    "distShip": 250.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2596,6 +3134,7 @@
    },
    "PAZ_9_PREMIUM": {
     "descIDs": "",
+    "distShip": 250.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2604,6 +3143,7 @@
    },
    "Salem_PREMIUM": {
     "descIDs": "",
+    "distShip": 283.33,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2612,6 +3152,7 @@
    },
    "Tiger_59": {
     "descIDs": "",
+    "distShip": 300.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2620,6 +3161,7 @@
    },
    "UK_Belfast_43": {
     "descIDs": "",
+    "distShip": 300.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -2628,6 +3170,7 @@
    },
    "USSR_10_BB": {
     "descIDs": "",
+    "distShip": 500.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2636,6 +3179,7 @@
    },
    "USSR_10_PREMIUM": {
     "descIDs": "",
+    "distShip": 400.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2644,6 +3188,7 @@
    },
    "USSR_8_BB": {
     "descIDs": "",
+    "distShip": 500.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2652,6 +3197,7 @@
    },
    "USSR_8_PREMIUM": {
     "descIDs": "",
+    "distShip": 400.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2660,6 +3206,7 @@
    },
    "USSR_9_BB": {
     "descIDs": "",
+    "distShip": 500.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2668,6 +3215,7 @@
    },
    "USSR_9_PREMIUM": {
     "descIDs": "",
+    "distShip": 400.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2676,6 +3224,7 @@
    },
    "USSR_CA_8_10": {
     "descIDs": "",
+    "distShip": 400.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2684,6 +3233,7 @@
    },
    "USSR_OCHAKOV": {
     "descIDs": "",
+    "distShip": 333.3,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2692,6 +3242,7 @@
    },
    "US_10_CL": {
     "descIDs": "",
+    "distShip": 300.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2700,6 +3251,7 @@
    },
    "US_10_PREMIUM": {
     "descIDs": "",
+    "distShip": 333.33,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2708,6 +3260,7 @@
    },
    "US_7_ATLANTA_PREMIUM": {
     "descIDs": "",
+    "distShip": 283.33,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2716,6 +3269,7 @@
    },
    "US_7_INDIANAPOLIS_PREMIUM": {
     "descIDs": "",
+    "distShip": 333.33,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2724,6 +3278,7 @@
    },
    "US_8_BLTMR": {
     "descIDs": "",
+    "distShip": 333.33,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2732,6 +3287,7 @@
    },
    "US_8_CL": {
     "descIDs": "",
+    "distShip": 300.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2740,6 +3296,7 @@
    },
    "US_8_CL_CLEV": {
     "descIDs": "",
+    "distShip": 300.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2748,6 +3305,7 @@
    },
    "US_8_CL_RCHSTR": {
     "descIDs": "",
+    "distShip": 300.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -2756,6 +3314,7 @@
    },
    "US_8_PREMIUM": {
     "descIDs": "",
+    "distShip": 333.33,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2764,6 +3323,7 @@
    },
    "US_9_CL": {
     "descIDs": "",
+    "distShip": 300.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2772,6 +3332,7 @@
    },
    "US_9_MISSOURI": {
     "descIDs": "",
+    "distShip": 316.67,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2780,6 +3341,7 @@
    },
    "US_9_PREMIUM": {
     "descIDs": "",
+    "distShip": 333.33,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -2859,6 +3421,7 @@
   },
   "variants": {
    "Anthony_event": {
+    "areaDamageMultiplier": 2,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2867,6 +3430,7 @@
     "workTime": 15.0
    },
    "Aurora": {
+    "areaDamageMultiplier": 2.0,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2875,6 +3439,7 @@
     "workTime": 40.0
    },
    "Default": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2883,6 +3448,7 @@
     "workTime": 40.0
    },
    "FlyFire": {
+    "areaDamageMultiplier": 3.0,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2891,6 +3457,7 @@
     "workTime": 30.0
    },
    "Galaxy": {
+    "areaDamageMultiplier": 2.0,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2899,6 +3466,7 @@
     "workTime": 40.0
    },
    "Hellcarrier": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2907,6 +3475,7 @@
     "workTime": 120.0
    },
    "Play_test": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2915,6 +3484,7 @@
     "workTime": 40.0
    },
    "SU_DD": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2923,6 +3493,7 @@
     "workTime": 40.0
    },
    "Stalingrad": {
+    "areaDamageMultiplier": 1.25,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2931,6 +3502,7 @@
     "workTime": 60.0
    },
    "Test": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2939,6 +3511,7 @@
     "workTime": 20.0
    },
    "UK_UPs": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2947,6 +3520,7 @@
     "workTime": 40.0
    },
    "US_Cruisers": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2955,6 +3529,7 @@
     "workTime": 40.0
    },
    "US_Cruisers_Atlanta": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2963,6 +3538,7 @@
     "workTime": 40.0
    },
    "US_DD": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2971,6 +3547,7 @@
     "workTime": 40.0
    },
    "Yubari": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2979,6 +3556,7 @@
     "workTime": 40.0
    },
    "Zaya": {
+    "areaDamageMultiplier": 2.0,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -3002,456 +3580,627 @@
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 77.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Cruiser": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 80.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "DE_Lvl_10": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 77.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "DE_Lvl_2": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 45.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "DE_Lvl_3": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 49.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "DE_Lvl_4": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 53.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "DE_Lvl_5": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 57.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "DE_Lvl_6": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 61.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "DE_Lvl_7": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 65.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "DE_Lvl_8": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 69.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "DE_Lvl_9": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 73.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Default": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 60.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 1.0
    },
    "FlyFire": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 130.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "Grozovoi": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 97.0,
     "numConsumables": 1,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Haida": {
     "descIDs": "PCY006_SmokeGeneratorCrawler",
     "group": "ship",
     "iconIDs": "PCY006_SmokeGeneratorCrawler",
+    "lifeTime": 10.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 120.0,
+    "speedLimit": 12.5,
     "workTime": 90.0
    },
    "IT_Oil_5_7": {
     "descIDs": "PCY006_SmokeGeneratorOil",
     "group": "ship",
     "iconIDs": "PCY006_SmokeGeneratorOil",
+    "lifeTime": 10.0,
     "numConsumables": 1,
+    "radius": 17.0,
     "reloadTime": 240.0,
+    "speedLimit": 60.0,
     "workTime": 25.0
    },
    "IT_Oil_8_10": {
     "descIDs": "PCY006_SmokeGeneratorOil",
     "group": "ship",
     "iconIDs": "PCY006_SmokeGeneratorOil",
+    "lifeTime": 10.0,
     "numConsumables": 1,
+    "radius": 17.0,
     "reloadTime": 240.0,
+    "speedLimit": 60.0,
     "workTime": 40.0
    },
    "IT_Oil_DD_8_10": {
     "descIDs": "PCY006_SmokeGeneratorOil",
     "group": "ship",
     "iconIDs": "PCY006_SmokeGeneratorOil",
+    "lifeTime": 10.0,
     "numConsumables": 2,
+    "radius": 17.0,
     "reloadTime": 240.0,
+    "speedLimit": 60.0,
     "workTime": 40.0
    },
    "IT_Oil_Gorizia": {
     "descIDs": "PCY006_SmokeGeneratorOil",
     "group": "ship",
     "iconIDs": "PCY006_SmokeGeneratorOil",
+    "lifeTime": 10.0,
     "numConsumables": 1,
+    "radius": 17.0,
     "reloadTime": 210.0,
+    "speedLimit": 60.0,
     "workTime": 40.0
    },
    "IT_Oil_IMPERO": {
     "descIDs": "PCY006_SmokeGeneratorOil",
     "group": "ship",
     "iconIDs": "PCY006_SmokeGeneratorOil",
+    "lifeTime": 10.0,
     "numConsumables": 2,
+    "radius": 17.0,
     "reloadTime": 240.0,
+    "speedLimit": 60.0,
     "workTime": 45.0
    },
    "IT_Oil_Test": {
     "descIDs": "PCY006_SmokeGeneratorOil",
     "group": "ship",
     "iconIDs": "PCY006_SmokeGeneratorOil",
+    "lifeTime": 15.0,
     "numConsumables": 2,
+    "radius": 17.0,
     "reloadTime": 240.0,
+    "speedLimit": 60.0,
     "workTime": 35.0
    },
    "Leone": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 118.0,
     "numConsumables": 1,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "Lvl_10": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 97.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_2": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 65.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_3": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 69.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_4": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 73.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_5": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 77.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_6": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 81.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_7": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 85.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_8": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 89.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_8_Kutuzov": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 89.0,
     "numConsumables": 1,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_9": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 93.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Norma": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 113.0,
     "numConsumables": 2,
+    "radius": 20.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "PAZ": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 70.0,
     "numConsumables": 4,
+    "radius": 15.0,
     "reloadTime": 150.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "PanOceania": {
     "descIDs": "PCY006_SmokeGeneratorCrawler",
     "group": "ship",
     "iconIDs": "PCY006_SmokeGeneratorCrawler",
+    "lifeTime": 10.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 90.0
    },
    "Post_Apocalypse": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 5.0,
     "numConsumables": 0,
+    "radius": 15.0,
     "reloadTime": 60.0,
+    "speedLimit": 12.5,
     "workTime": 60.0
    },
    "Post_Apocalypse2": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 5.0,
     "numConsumables": 0,
+    "radius": 20.0,
     "reloadTime": 30.0,
+    "speedLimit": 12.5,
     "workTime": 60.0
    },
    "Test": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 60.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 10.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "UK_DD": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 40.0,
     "numConsumables": 5,
+    "radius": 20.0,
     "reloadTime": 105.0,
+    "speedLimit": 12.5,
     "workTime": 10.0
    },
    "UK_Lvl_10": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 113.0,
     "numConsumables": 2,
+    "radius": 20.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_Lvl_2": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 85.0,
     "numConsumables": 2,
+    "radius": 20.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_Lvl_3": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 89.0,
     "numConsumables": 2,
+    "radius": 20.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_Lvl_4": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 92.0,
     "numConsumables": 2,
+    "radius": 20.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_Lvl_5": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 96.0,
     "numConsumables": 2,
+    "radius": 20.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_Lvl_6": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 99.0,
     "numConsumables": 2,
+    "radius": 20.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_Lvl_7": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 103.0,
     "numConsumables": 2,
+    "radius": 20.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_Lvl_8": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 106.0,
     "numConsumables": 2,
+    "radius": 20.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_Lvl_9": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 110.0,
     "numConsumables": 2,
+    "radius": 20.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "US_Lvl_10": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 130.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_2": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 106.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_3": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 109.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_4": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 112.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_5": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 115.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_6": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 118.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_7": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 121.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_8": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 124.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_9": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 127.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    }
   }
@@ -3471,6 +4220,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 80.0,
     "workTime": 28.0
    },
@@ -3479,6 +4229,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "regenerationHPSpeed": 0.0066,
     "reloadTime": 80.0,
     "workTime": 28.0
    },
@@ -3487,6 +4238,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 80.0,
     "workTime": 28.0
    },
@@ -3495,6 +4247,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "regenerationHPSpeed": 0.006,
     "reloadTime": 60.0,
     "workTime": 28.0
    },
@@ -3503,6 +4256,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "regenerationHPSpeed": 0.006,
     "reloadTime": 80.0,
     "workTime": 28.0
    },
@@ -3511,6 +4265,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 80.0,
     "workTime": 28.0
    },
@@ -3519,6 +4274,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 80.0,
     "workTime": 28.0
    },
@@ -3527,6 +4283,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
+    "regenerationHPSpeed": 0.015,
     "reloadTime": 80.0,
     "workTime": 20.0
    },
@@ -3535,6 +4292,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 40.0,
     "workTime": 28.0
    },
@@ -3543,6 +4301,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
+    "regenerationHPSpeed": 0.02,
     "reloadTime": 80.0,
     "workTime": 20.0
    },
@@ -3551,6 +4310,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "regenerationHPSpeed": 0.02,
     "reloadTime": 80.0,
     "workTime": 20.0
    },
@@ -3559,6 +4319,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
+    "regenerationHPSpeed": 0.01,
     "reloadTime": 80.0,
     "workTime": 10.0
    },
@@ -3567,6 +4328,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "regenerationHPSpeed": 0.02,
     "reloadTime": 120.0,
     "workTime": 20.0
    },
@@ -3575,6 +4337,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 40.0,
     "workTime": 28.0
    }
@@ -3595,6 +4358,7 @@
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "regenerationRate": 0.1,
     "reloadTime": 180.0,
     "workTime": 5.0
    },
@@ -3603,6 +4367,7 @@
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 4,
+    "regenerationRate": 0.1,
     "reloadTime": 120.0,
     "workTime": 5.0
    },
@@ -3611,6 +4376,7 @@
     "group": "squadron",
     "iconIDs": "PCY036_RegenerateHealth_Long_Premium",
     "numConsumables": 5,
+    "regenerationRate": 0.023,
     "reloadTime": 10.0,
     "workTime": 25.0
    }
@@ -3627,6 +4393,7 @@
   },
   "variants": {
    "Default": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -3635,6 +4402,7 @@
     "workTime": 40.0
    },
    "SU_DD": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -3643,6 +4411,7 @@
     "workTime": 40.0
    },
    "Stalingrad": {
+    "areaDamageMultiplier": 1.25,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -3651,6 +4420,7 @@
     "workTime": 60.0
    },
    "UK_UPs": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -3659,6 +4429,7 @@
     "workTime": 40.0
    },
    "US_Cruisers": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -3667,6 +4438,7 @@
     "workTime": 40.0
    },
    "US_Cruisers_Atlanta": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -3675,6 +4447,7 @@
     "workTime": 40.0
    },
    "US_DD": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -3683,6 +4456,7 @@
     "workTime": 40.0
    },
    "Yubari": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -3788,42 +4562,62 @@
   "variants": {
    "Fighter_1": {
     "descIDs": "",
+    "fightersNum": 1,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 100.0,
     "reloadTime": 90.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "Fighter_2": {
     "descIDs": "",
+    "fightersNum": 2,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 100.0,
     "reloadTime": 90.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "Fighter_3": {
     "descIDs": "",
+    "fightersNum": 3,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 100.0,
     "reloadTime": 90.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "Fighter_4": {
     "descIDs": "",
+    "fightersNum": 4,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 100.0,
     "reloadTime": 90.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "Musashi": {
     "descIDs": "",
+    "fightersNum": 4,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 100.0,
     "reloadTime": 90.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 80.0
    }
   }
@@ -3840,42 +4634,62 @@
   "variants": {
    "Fighter_1": {
     "descIDs": "",
+    "fightersNum": 1,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 100.0,
     "reloadTime": 90.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "Fighter_2": {
     "descIDs": "",
+    "fightersNum": 2,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 100.0,
     "reloadTime": 90.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "Fighter_3": {
     "descIDs": "",
+    "fightersNum": 3,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 100.0,
     "reloadTime": 90.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "Fighter_4": {
     "descIDs": "",
+    "fightersNum": 4,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 100.0,
     "reloadTime": 90.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "Musashi": {
     "descIDs": "",
+    "fightersNum": 4,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 100.0,
     "reloadTime": 90.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 80.0
    }
   }
@@ -3892,6 +4706,8 @@
   "variants": {
    "Alldestroyer": {
     "descIDs": "",
+    "distShip": 196.0,
+    "distTorpedo": 134.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -3900,6 +4716,8 @@
    },
    "Aurora": {
     "descIDs": "",
+    "distShip": 164.0,
+    "distTorpedo": 114.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -3908,6 +4726,8 @@
    },
    "Blue_Aster": {
     "descIDs": "",
+    "distShip": 200.0,
+    "distTorpedo": 133.3333,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -3916,6 +4736,8 @@
    },
    "Blue_Aster2": {
     "descIDs": "",
+    "distShip": 200.0,
+    "distTorpedo": 166.6666,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 5,
@@ -3924,6 +4746,8 @@
    },
    "C_4_7": {
     "descIDs": "",
+    "distShip": 133.3333,
+    "distTorpedo": 100.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -3932,6 +4756,8 @@
    },
    "C_8_10": {
     "descIDs": "",
+    "distShip": 166.6666,
+    "distTorpedo": 116.6666,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -3940,6 +4766,8 @@
    },
    "Default": {
     "descIDs": "",
+    "distShip": 116.0,
+    "distTorpedo": 84.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -3948,6 +4776,8 @@
    },
    "Deutsche_C": {
     "descIDs": "",
+    "distShip": 166.0,
+    "distTorpedo": 116.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -3956,6 +4786,8 @@
    },
    "Deutsche_C_4_7": {
     "descIDs": "",
+    "distShip": 183.3333,
+    "distTorpedo": 125.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -3964,6 +4796,8 @@
    },
    "Deutsche_C_8_10": {
     "descIDs": "",
+    "distShip": 200.0,
+    "distTorpedo": 133.3333,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -3972,6 +4806,8 @@
    },
    "DukeOfYork": {
     "descIDs": "",
+    "distShip": 133.3333,
+    "distTorpedo": 100.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 1,
@@ -3980,6 +4816,8 @@
    },
    "Galaxy": {
     "descIDs": "",
+    "distShip": 164.0,
+    "distTorpedo": 114.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -3988,6 +4826,8 @@
    },
    "Haida": {
     "descIDs": "",
+    "distShip": 116.6666,
+    "distTorpedo": 83.3333,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -3996,6 +4836,8 @@
    },
    "LoYang": {
     "descIDs": "",
+    "distShip": 183.3333,
+    "distTorpedo": 125.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -4004,6 +4846,8 @@
    },
    "Norma": {
     "descIDs": "",
+    "distShip": 164.0,
+    "distTorpedo": 114.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -4012,6 +4856,8 @@
    },
    "Post_Apocalypse": {
     "descIDs": "",
+    "distShip": 166.6666,
+    "distTorpedo": 166.6666,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 0,
@@ -4020,6 +4866,8 @@
    },
    "Post_Apocalypse2": {
     "descIDs": "",
+    "distShip": 233.3333,
+    "distTorpedo": 233.3333,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 0,
@@ -4028,6 +4876,8 @@
    },
    "Salem": {
     "descIDs": "",
+    "distShip": 166.6666,
+    "distTorpedo": 116.6666,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -4036,6 +4886,8 @@
    },
    "UKDD_6_10": {
     "descIDs": "",
+    "distShip": 100.0,
+    "distTorpedo": 100.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -4044,6 +4896,8 @@
    },
    "Zaya": {
     "descIDs": "",
+    "distShip": 164.0,
+    "distTorpedo": 114.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -4063,7 +4917,10 @@
   },
   "variants": {
    "Default": {
+    "backwardEngineForsag": 2.5,
+    "boostCoeff": 0.08,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -4071,7 +4928,10 @@
     "workTime": 120.0
    },
    "FR_AIGLE": {
+    "backwardEngineForsag": 4.0,
+    "boostCoeff": 0.2,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -4079,7 +4939,10 @@
     "workTime": 120.0
    },
    "FR_BB": {
+    "backwardEngineForsag": 4.0,
+    "boostCoeff": 0.08,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -4087,7 +4950,10 @@
     "workTime": 180.0
    },
    "FR_CR_6_7": {
+    "backwardEngineForsag": 4.0,
+    "boostCoeff": 0.15,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -4095,7 +4961,10 @@
     "workTime": 180.0
    },
    "FR_CR_8_9_10": {
+    "backwardEngineForsag": 4.0,
+    "boostCoeff": 0.2,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -4103,7 +4972,10 @@
     "workTime": 180.0
    },
    "FR_CR_Henri_IV": {
+    "backwardEngineForsag": 2.5,
+    "boostCoeff": 0.2,
     "descIDs": "",
+    "forwardEngineForsag": 1.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -4111,7 +4983,10 @@
     "workTime": 180.0
    },
    "FR_DD_2_7": {
+    "backwardEngineForsag": 4.0,
+    "boostCoeff": 0.2,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -4119,7 +4994,10 @@
     "workTime": 120.0
    },
    "FR_DD_8_10": {
+    "backwardEngineForsag": 4.0,
+    "boostCoeff": 0.2,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -4127,7 +5005,10 @@
     "workTime": 180.0
    },
    "FR_Terrible": {
+    "backwardEngineForsag": 2.5,
+    "boostCoeff": 0.2,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -4135,7 +5016,10 @@
     "workTime": 120.0
    },
    "GROZOVOI": {
+    "backwardEngineForsag": 2.5,
+    "boostCoeff": 0.08,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -4143,7 +5027,10 @@
     "workTime": 120.0
    },
    "Test": {
+    "backwardEngineForsag": 2.5,
+    "boostCoeff": 10.0,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -4151,7 +5038,10 @@
     "workTime": 120.0
    },
    "UK_CL": {
+    "backwardEngineForsag": 4.5,
+    "boostCoeff": 0.15,
     "descIDs": "",
+    "forwardEngineForsag": 4.5,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
@@ -4171,6 +5061,7 @@
   },
   "variants": {
    "Anthony_event_Gold": {
+    "areaDamageMultiplier": 2.0,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -4179,6 +5070,7 @@
     "workTime": 15.0
    },
    "Default_Gold": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -4187,6 +5079,7 @@
     "workTime": 40.0
    },
    "Play_test_Gold": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -4195,6 +5088,7 @@
     "workTime": 40.0
    },
    "SU_DD_Gold": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -4203,6 +5097,7 @@
     "workTime": 40.0
    },
    "Stalingrad": {
+    "areaDamageMultiplier": 1.25,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -4211,6 +5106,7 @@
     "workTime": 60.0
    },
    "UK_UPs_Gold": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -4219,6 +5115,7 @@
     "workTime": 40.0
    },
    "US_Cruisers_Atlanta": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -4227,6 +5124,7 @@
     "workTime": 40.0
    },
    "US_Cruisers_Gold": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -4235,6 +5133,7 @@
     "workTime": 40.0
    },
    "US_DD_Branch": {
+    "areaDamageMultiplier": 2.0,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -4243,6 +5142,7 @@
     "workTime": 40.0
    },
    "US_DD_Gold": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -4251,6 +5151,7 @@
     "workTime": 40.0
    },
    "Yubari_Gold": {
+    "areaDamageMultiplier": 1.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -4350,368 +5251,506 @@
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 80.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "DE_Lvl_10": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 77.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "DE_Lvl_2": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 45.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "DE_Lvl_3": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 49.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "DE_Lvl_4": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 53.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "DE_Lvl_5": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 57.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "DE_Lvl_6": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 61.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "DE_Lvl_7": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 65.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "DE_Lvl_8": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 69.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "DE_Lvl_9": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 73.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Default": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 60.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 1.0
    },
    "Grozovoi": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 97.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Haida": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 10.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 80.0,
+    "speedLimit": 12.5,
     "workTime": 90.0
    },
    "Leone": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 118.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "Lvl_10": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 97.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_2": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 65.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_3": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 69.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_4": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 73.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_5": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 77.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_6": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 81.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_7": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 85.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_8": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 89.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_8_Kutuzov": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 89.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Lvl_9": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 93.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "PAZ": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 70.0,
     "numConsumables": 5,
+    "radius": 15.0,
     "reloadTime": 100.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "PanOceania": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 10.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 90.0
    },
    "Test": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 60.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 10.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "UK_DD": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 40.0,
     "numConsumables": 6,
+    "radius": 20.0,
     "reloadTime": 70.0,
+    "speedLimit": 12.5,
     "workTime": 10.0
    },
    "UK_Lvl_10": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 113.0,
     "numConsumables": 3,
+    "radius": 20.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_Lvl_2": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 85.0,
     "numConsumables": 3,
+    "radius": 20.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_Lvl_3": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 89.0,
     "numConsumables": 3,
+    "radius": 20.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_Lvl_4": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 92.0,
     "numConsumables": 3,
+    "radius": 20.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_Lvl_5": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 96.0,
     "numConsumables": 3,
+    "radius": 20.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_Lvl_6": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 99.0,
     "numConsumables": 3,
+    "radius": 20.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_Lvl_7": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 103.0,
     "numConsumables": 3,
+    "radius": 20.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_Lvl_8": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 106.0,
     "numConsumables": 3,
+    "radius": 20.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "UK_Lvl_9": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 110.0,
     "numConsumables": 3,
+    "radius": 20.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    },
    "US_Lvl_10": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 130.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_2": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 106.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_3": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 109.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_4": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 112.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_5": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 115.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_6": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 118.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_7": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 121.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_8": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 124.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    },
    "US_Lvl_9": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 127.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    }
   }
@@ -4732,6 +5771,8 @@
     "iconIDs": "",
     "numConsumables": -1,
     "reloadTime": 1.0,
+    "updateFrequency": 10.0,
+    "visionDistance": 116.0,
     "workTime": 30.0
    },
    "Ger_Sub_10": {
@@ -4740,6 +5781,8 @@
     "iconIDs": "",
     "numConsumables": 3,
     "reloadTime": 60.0,
+    "updateFrequency": 15.0,
+    "visionDistance": 216.66666666666666,
     "workTime": 40.0
    },
    "Ger_Sub_6": {
@@ -4748,6 +5791,8 @@
     "iconIDs": "",
     "numConsumables": 3,
     "reloadTime": 60.0,
+    "updateFrequency": 15.0,
+    "visionDistance": 183.33333333333334,
     "workTime": 40.0
    },
    "Ger_Sub_8": {
@@ -4756,6 +5801,8 @@
     "iconIDs": "",
     "numConsumables": 3,
     "reloadTime": 60.0,
+    "updateFrequency": 15.0,
+    "visionDistance": 200.0,
     "workTime": 40.0
    },
    "Sub_10": {
@@ -4764,6 +5811,8 @@
     "iconIDs": "",
     "numConsumables": 3,
     "reloadTime": 80.0,
+    "updateFrequency": 15.0,
+    "visionDistance": 200.0,
     "workTime": 40.0
    },
    "Sub_6": {
@@ -4772,6 +5821,8 @@
     "iconIDs": "",
     "numConsumables": 3,
     "reloadTime": 80.0,
+    "updateFrequency": 15.0,
+    "visionDistance": 166.66666666666666,
     "workTime": 40.0
    },
    "Sub_8": {
@@ -4780,6 +5831,8 @@
     "iconIDs": "",
     "numConsumables": 3,
     "reloadTime": 80.0,
+    "updateFrequency": 15.0,
+    "visionDistance": 183.33333333333334,
     "workTime": 40.0
    }
   }
@@ -4799,6 +5852,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "regenerationHPSpeed": 0.0066,
     "reloadTime": 80.0,
     "workTime": 28.0
    },
@@ -4807,6 +5861,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 80.0,
     "workTime": 28.0
    },
@@ -4815,6 +5870,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 80.0,
     "workTime": 28.0
    },
@@ -4823,6 +5879,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "regenerationHPSpeed": 0.006,
     "reloadTime": 60.0,
     "workTime": 28.0
    },
@@ -4831,6 +5888,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "regenerationHPSpeed": 0.006,
     "reloadTime": 80.0,
     "workTime": 28.0
    },
@@ -4839,6 +5897,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "regenerationHPSpeed": 0.0075,
     "reloadTime": 80.0,
     "workTime": 28.0
    },
@@ -4847,6 +5906,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 80.0,
     "workTime": 28.0
    },
@@ -4855,6 +5915,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 80.0,
     "workTime": 10.0
    },
@@ -4863,6 +5924,7 @@
     "group": "ship",
     "iconIDs": "PCY010_RegenCrew_Eheal_Premium",
     "numConsumables": 2,
+    "regenerationHPSpeed": 0.015,
     "reloadTime": 80.0,
     "workTime": 20.0
    },
@@ -4871,6 +5933,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 80.0,
     "workTime": 28.0
    },
@@ -4879,6 +5942,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "regenerationHPSpeed": 0.01,
     "reloadTime": 80.0,
     "workTime": 14.0
    },
@@ -4887,6 +5951,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "regenerationHPSpeed": 0.01,
     "reloadTime": 80.0,
     "workTime": 10.0
    },
@@ -4895,6 +5960,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
+    "regenerationHPSpeed": 0.01,
     "reloadTime": 80.0,
     "workTime": 14.0
    },
@@ -4903,6 +5969,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 40.0,
     "workTime": 28.0
    },
@@ -4911,6 +5978,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 80.0,
     "workTime": 28.0
    },
@@ -4919,6 +5987,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 40.0,
     "workTime": 28.0
    },
@@ -4927,6 +5996,7 @@
     "group": "ship",
     "iconIDs": "PCY010_RegenCrew_Eheal_Premium",
     "numConsumables": 2,
+    "regenerationHPSpeed": 0.02,
     "reloadTime": 80.0,
     "workTime": 20.0
    },
@@ -4935,6 +6005,7 @@
     "group": "ship",
     "iconIDs": "PCY010_RegenCrew_Eheal_Premium",
     "numConsumables": 3,
+    "regenerationHPSpeed": 0.02,
     "reloadTime": 80.0,
     "workTime": 20.0
    },
@@ -4943,6 +6014,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
+    "regenerationHPSpeed": 0.01,
     "reloadTime": 80.0,
     "workTime": 10.0
    },
@@ -4951,6 +6023,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "regenerationHPSpeed": 0.02,
     "reloadTime": 120.0,
     "workTime": 20.0
    },
@@ -4959,6 +6032,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 40.0,
     "workTime": 28.0
    }
@@ -4976,234 +6050,350 @@
   "variants": {
    "AntiSubs_Test": {
     "descIDs": "",
+    "fightersNum": 1,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 116.667,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "BR_10": {
     "descIDs": "",
+    "fightersNum": 7,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 116.667,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "BR_6": {
     "descIDs": "",
+    "fightersNum": 3,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 83.334,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "BR_8": {
     "descIDs": "",
+    "fightersNum": 5,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 100.0,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "BR_ARKR": {
     "descIDs": "",
+    "fightersNum": 3,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 83.334,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "BR_Indomitable": {
     "descIDs": "",
+    "fightersNum": 5,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 4,
+    "radius": 100.0,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "China_Saipan_Sanzang": {
     "descIDs": "",
+    "fightersNum": 5,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 100.0,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "FR_6_Bearn": {
     "descIDs": "",
+    "fightersNum": 8,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 8,
+    "radius": 100.0,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 100.0
    },
    "GER_10": {
     "descIDs": "",
+    "fightersNum": 7,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 116.667,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "GER_6": {
     "descIDs": "",
+    "fightersNum": 3,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 83.334,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "GER_8": {
     "descIDs": "",
+    "fightersNum": 5,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 100.0,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "GER_Graf_Zeppelin_8": {
     "descIDs": "",
+    "fightersNum": 5,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 100.0,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "GER_Loewenhardt_6": {
     "descIDs": "",
+    "fightersNum": 3,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 83.334,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "ISE_1": {
     "descIDs": "",
+    "fightersNum": 3,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 83.334,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "ISE_2": {
     "descIDs": "",
+    "fightersNum": 3,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 83.334,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "ISE_3": {
     "descIDs": "",
+    "fightersNum": 3,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 83.334,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "JAP_10": {
     "descIDs": "",
+    "fightersNum": 7,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 116.667,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "JAP_6": {
     "descIDs": "",
+    "fightersNum": 3,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 83.334,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "JAP_8": {
     "descIDs": "",
+    "fightersNum": 5,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 100.0,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "JAP_Kaga": {
     "descIDs": "",
+    "fightersNum": 5,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 100.0,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "USA_10": {
     "descIDs": "",
+    "fightersNum": 7,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 116.667,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "USA_6": {
     "descIDs": "",
+    "fightersNum": 3,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 83.334,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "USA_8": {
     "descIDs": "",
+    "fightersNum": 5,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 100.0,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "USA_Enterprise": {
     "descIDs": "",
+    "fightersNum": 10,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 120.0,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "USA_Roosevelt": {
     "descIDs": "",
+    "fightersNum": 7,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 116.667,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "USA_Saipan": {
     "descIDs": "",
+    "fightersNum": 5,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 100.0,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "USSR_10": {
     "descIDs": "",
+    "fightersNum": 7,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 116.667,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "USSR_6": {
     "descIDs": "",
+    "fightersNum": 3,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 83.334,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    },
    "USSR_8": {
     "descIDs": "",
+    "fightersNum": 5,
     "group": "squadron",
     "iconIDs": "",
     "numConsumables": 3,
+    "radius": 100.0,
     "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    }
   }
@@ -5223,6 +6413,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": -1,
+    "radius": 333.33,
     "reloadTime": 30.0,
     "workTime": 3.0
    }
@@ -5243,6 +6434,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 120.0,
     "workTime": 28.0
    },
@@ -5251,6 +6443,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 1,
+    "regenerationHPSpeed": 0.02,
     "reloadTime": 15.0,
     "workTime": 15.0
    },
@@ -5259,6 +6452,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 120.0,
     "workTime": 28.0
    },
@@ -5267,6 +6461,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 120.0,
     "workTime": 28.0
    },
@@ -5275,6 +6470,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "regenerationHPSpeed": 0.0066,
     "reloadTime": 120.0,
     "workTime": 28.0
    },
@@ -5283,6 +6479,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 120.0,
     "workTime": 28.0
    },
@@ -5291,6 +6488,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "regenerationHPSpeed": 0.006,
     "reloadTime": 90.0,
     "workTime": 28.0
    },
@@ -5299,6 +6497,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "regenerationHPSpeed": 0.006,
     "reloadTime": 120.0,
     "workTime": 28.0
    },
@@ -5307,6 +6506,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
+    "regenerationHPSpeed": 0.0075,
     "reloadTime": 120.0,
     "workTime": 28.0
    },
@@ -5315,6 +6515,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 120.0,
     "workTime": 28.0
    },
@@ -5323,6 +6524,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 1,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 120.0,
     "workTime": 28.0
    },
@@ -5331,6 +6533,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 1,
+    "regenerationHPSpeed": 0.015,
     "reloadTime": 120.0,
     "workTime": 20.0
    },
@@ -5339,6 +6542,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
+    "regenerationHPSpeed": 0.01,
     "reloadTime": 120.0,
     "workTime": 14.0
    },
@@ -5347,6 +6551,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
+    "regenerationHPSpeed": 0.01,
     "reloadTime": 120.0,
     "workTime": 10.0
    },
@@ -5355,6 +6560,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 120.0,
     "workTime": 28.0
    },
@@ -5363,6 +6569,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 60.0,
     "workTime": 28.0
    },
@@ -5371,6 +6578,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
+    "regenerationHPSpeed": 0.02,
     "reloadTime": 120.0,
     "workTime": 20.0
    },
@@ -5379,6 +6587,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 120.0,
     "workTime": 28.0
    },
@@ -5387,6 +6596,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 0,
+    "regenerationHPSpeed": 0.02,
     "reloadTime": 30.0,
     "workTime": 15.0
    },
@@ -5395,6 +6605,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 0,
+    "regenerationHPSpeed": 0.04,
     "reloadTime": 15.0,
     "workTime": 15.0
    },
@@ -5403,6 +6614,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 1,
+    "regenerationHPSpeed": 0.02,
     "reloadTime": 120.0,
     "workTime": 20.0
    },
@@ -5411,6 +6623,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
+    "regenerationHPSpeed": 0.02,
     "reloadTime": 120.0,
     "workTime": 20.0
    },
@@ -5419,6 +6632,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 1,
+    "regenerationHPSpeed": 0.01,
     "reloadTime": 120.0,
     "workTime": 10.0
    },
@@ -5427,6 +6641,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
+    "regenerationHPSpeed": 0.02,
     "reloadTime": 180.0,
     "workTime": 20.0
    },
@@ -5435,6 +6650,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 3,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 60.0,
     "workTime": 28.0
    },
@@ -5443,6 +6659,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
+    "regenerationHPSpeed": 0.005,
     "reloadTime": 120.0,
     "workTime": 28.0
    }
