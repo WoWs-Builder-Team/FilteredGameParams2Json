@@ -90,6 +90,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -837,6 +838,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -985,6 +987,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB2_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -1732,6 +1735,7 @@
     "speedCoef": 0.0
    },
    "AB_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -2391,6 +2395,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -2539,6 +2544,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB2_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -3168,6 +3174,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -3246,6 +3253,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB2_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -3971,6 +3979,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -4757,6 +4766,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -5557,6 +5567,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -5635,6 +5646,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB2_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -6944,6 +6956,7 @@
     "taperDist": 4000.0
    },
    "B1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -8641,6 +8654,7 @@
     "visibilityFactorByPlane": 3.2
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -10363,7 +10377,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": []
@@ -10395,7 +10408,6 @@
      "hull": [
       "B_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": []
@@ -11655,6 +11667,7 @@
     "speedCoef": 0.0
    },
    "AB_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -12642,6 +12655,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -12720,6 +12734,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB2_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -13369,7 +13384,7 @@
     "waveReloadTime": 7.0
    },
    "A_Torpedoes": {
-    "timeToChangeAmmo": 10.0,
+    "timeToChangeAmmo": 5.0,
     "torpedoArray": {
      "HP_GGT_01": {
       "ammoList": [
@@ -14248,6 +14263,7 @@
     "visibilityFactorByPlane": 3.43
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -14460,6 +14476,1295 @@
  },
  {
   "ModulesArmaments": {
+   "AB1_FireControl": {
+    "maxDistCoef": 1.0,
+    "sigmaCountCoef": 1.0
+   },
+   "AB2_FireControl": {
+    "maxDistCoef": 1.1,
+    "sigmaCountCoef": 1.0
+   },
+   "AB_Artillery": {
+    "guns": {
+     "HP_GGM_1": {
+      "ammoList": [
+       "PGPA057_283MM_HE_SPR_GR_L3_6",
+       "PGPA056_283MM_AP_PZ_GR_L3_2"
+      ],
+      "barrelDiameter": 0.283,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4160350000,
+      "idealDistance": 1000.0,
+      "idealRadius": 10.0,
+      "index": "PGGM128",
+      "minRadius": 1.6,
+      "name": "PGGM128_283mm_SK_L50_LC_1908",
+      "numBarrels": 2,
+      "position": [
+       0.5,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       4.0,
+       3.5
+      ],
+      "shotDelay": 30.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_2": {
+      "ammoList": [
+       "PGPA057_283MM_HE_SPR_GR_L3_6",
+       "PGPA056_283MM_AP_PZ_GR_L3_2"
+      ],
+      "barrelDiameter": 0.283,
+      "deadZone": [
+       [
+        -54.0,
+        0.0
+       ]
+      ],
+      "delim": 0.5,
+      "horizSector": [
+       -124.0,
+       180.0
+      ],
+      "id": 4160350000,
+      "idealDistance": 1000.0,
+      "idealRadius": 10.0,
+      "index": "PGGM128",
+      "minRadius": 1.6,
+      "name": "PGGM128_283mm_SK_L50_LC_1908",
+      "numBarrels": 2,
+      "position": [
+       2.0,
+       0.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       4.0,
+       3.5
+      ],
+      "shotDelay": 30.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_3": {
+      "ammoList": [
+       "PGPA057_283MM_HE_SPR_GR_L3_6",
+       "PGPA056_283MM_AP_PZ_GR_L3_2"
+      ],
+      "barrelDiameter": 0.283,
+      "deadZone": [
+       [
+        -52.0,
+        0.0
+       ]
+      ],
+      "delim": 0.5,
+      "horizSector": [
+       -124.0,
+       180.0
+      ],
+      "id": 4160350000,
+      "idealDistance": 1000.0,
+      "idealRadius": 10.0,
+      "index": "PGGM128",
+      "minRadius": 1.6,
+      "name": "PGGM128_283mm_SK_L50_LC_1908",
+      "numBarrels": 2,
+      "position": [
+       3.0,
+       2.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       4.0,
+       3.5
+      ],
+      "shotDelay": 30.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_4": {
+      "ammoList": [
+       "PGPA057_283MM_HE_SPR_GR_L3_6",
+       "PGPA056_283MM_AP_PZ_GR_L3_2"
+      ],
+      "barrelDiameter": 0.283,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -143.0,
+       143.0
+      ],
+      "id": 4160350000,
+      "idealDistance": 1000.0,
+      "idealRadius": 10.0,
+      "index": "PGGM128",
+      "minRadius": 1.6,
+      "name": "PGGM128_283mm_SK_L50_LC_1908",
+      "numBarrels": 2,
+      "position": [
+       4.5,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       4.0,
+       3.5
+      ],
+      "shotDelay": 30.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_5": {
+      "ammoList": [
+       "PGPA057_283MM_HE_SPR_GR_L3_6",
+       "PGPA056_283MM_AP_PZ_GR_L3_2"
+      ],
+      "barrelDiameter": 0.283,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -143.0,
+       143.0
+      ],
+      "id": 4160350000,
+      "idealDistance": 1000.0,
+      "idealRadius": 10.0,
+      "index": "PGGM128",
+      "minRadius": 1.6,
+      "name": "PGGM128_283mm_SK_L50_LC_1908",
+      "numBarrels": 2,
+      "position": [
+       5.5,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       4.0,
+       3.5
+      ],
+      "shotDelay": 30.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 13546.0,
+    "normalDistribution": true,
+    "sigmaCount": 1.5,
+    "taperDist": 3500.0
+   },
+   "AB_Engine": {
+    "backwardEngineUpTime": 30.0,
+    "forwardEngineUpTime": 60.0,
+    "speedCoef": 0.0
+   },
+   "A_ATBA": {
+    "AuraMedium": {
+     "areaDamage": 2.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.75,
+     "innerBubbleCount": 0.0,
+     "maxDistance": 4600.0,
+     "minDistance": 100.0,
+     "type": "far"
+    },
+    "AuraMedium_Bubbles": {
+     "areaDamage": 0.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 110.0,
+     "hitChance": 0.75,
+     "innerBubbleCount": 1.0,
+     "maxDistance": 4600.0,
+     "minDistance": 3500.0,
+     "type": "far"
+    },
+    "antiAirAndSecondaries": {
+     "HP_GGS_1": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_10": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_11": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_12": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_13": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_14": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_16": {
+      "ammoList": [
+       "PGPA013_88MM_HE_SPR_GR"
+      ],
+      "barrelDiameter": 0.088,
+      "id": 4274448176,
+      "index": "PGGS019",
+      "name": "PGGS019_88mm45_SK_L45",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_17": {
+      "ammoList": [
+       "PGPA013_88MM_HE_SPR_GR"
+      ],
+      "barrelDiameter": 0.088,
+      "id": 4274448176,
+      "index": "PGGS019",
+      "name": "PGGS019_88mm45_SK_L45",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_19": {
+      "ammoList": [
+       "PGPA013_88MM_HE_SPR_GR"
+      ],
+      "barrelDiameter": 0.088,
+      "id": 4274448176,
+      "index": "PGGS019",
+      "name": "PGGS019_88mm45_SK_L45",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_2": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_20": {
+      "ammoList": [
+       "PGPA013_88MM_HE_SPR_GR"
+      ],
+      "barrelDiameter": 0.088,
+      "id": 4274448176,
+      "index": "PGGS019",
+      "name": "PGGS019_88mm45_SK_L45",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_5": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_6": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_7": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_8": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_9": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 4800.0,
+    "sigmaCount": 1.0
+   },
+   "A_Hull": {
+    "burnNodes": [
+     [
+      0.9334,
+      0.3,
+      60.0
+     ],
+     [
+      0.9334,
+      0.3,
+      60.0
+     ],
+     [
+      0.9334,
+      0.3,
+      60.0
+     ],
+     [
+      0.9334,
+      0.3,
+      60.0
+     ]
+    ],
+    "floodNodes": [
+     [
+      0.281,
+      0.5,
+      40.0
+     ],
+     [
+      0.281,
+      0.5,
+      40.0
+     ]
+    ],
+    "health": 37600.0,
+    "maxSpeed": 28.4,
+    "rudderTime": 22.37,
+    "speedCoef": 1.0,
+    "turningRadius": 650.0,
+    "visibilityCoefGKInSmoke": 7.85,
+    "visibilityFactor": 10.86,
+    "visibilityFactorByPlane": 8.83
+   },
+   "B_ATBA": {
+    "AuraMedium": {
+     "areaDamage": 10.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.75,
+     "innerBubbleCount": 0.0,
+     "maxDistance": 4600.0,
+     "minDistance": 100.0,
+     "type": "far"
+    },
+    "AuraMedium_Bubbles": {
+     "areaDamage": 0.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 110.0,
+     "hitChance": 0.75,
+     "innerBubbleCount": 1.0,
+     "maxDistance": 4600.0,
+     "minDistance": 3500.0,
+     "type": "far"
+    },
+    "antiAirAndSecondaries": {
+     "HP_GGS_1": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_10": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_11": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_12": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_13": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_14": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_15": {
+      "ammoList": [
+       "PGPA013_88MM_HE_SPR_GR"
+      ],
+      "barrelDiameter": 0.088,
+      "id": 4274448176,
+      "index": "PGGS019",
+      "name": "PGGS019_88mm45_SK_L45",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_16": {
+      "ammoList": [
+       "PGPA013_88MM_HE_SPR_GR"
+      ],
+      "barrelDiameter": 0.088,
+      "id": 4274448176,
+      "index": "PGGS019",
+      "name": "PGGS019_88mm45_SK_L45",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_17": {
+      "ammoList": [
+       "PGPA013_88MM_HE_SPR_GR"
+      ],
+      "barrelDiameter": 0.088,
+      "id": 4274448176,
+      "index": "PGGS019",
+      "name": "PGGS019_88mm45_SK_L45",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_18": {
+      "ammoList": [
+       "PGPA013_88MM_HE_SPR_GR"
+      ],
+      "barrelDiameter": 0.088,
+      "id": 4274448176,
+      "index": "PGGS019",
+      "name": "PGGS019_88mm45_SK_L45",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_19": {
+      "ammoList": [
+       "PGPA013_88MM_HE_SPR_GR"
+      ],
+      "barrelDiameter": 0.088,
+      "id": 4274448176,
+      "index": "PGGS019",
+      "name": "PGGS019_88mm45_SK_L45",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_2": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_20": {
+      "ammoList": [
+       "PGPA013_88MM_HE_SPR_GR"
+      ],
+      "barrelDiameter": 0.088,
+      "id": 4274448176,
+      "index": "PGGS019",
+      "name": "PGGS019_88mm45_SK_L45",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_3": {
+      "ammoList": [
+       "PGPA013_88MM_HE_SPR_GR"
+      ],
+      "barrelDiameter": 0.088,
+      "id": 4274448176,
+      "index": "PGGS019",
+      "name": "PGGS019_88mm45_SK_L45",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_4": {
+      "ammoList": [
+       "PGPA013_88MM_HE_SPR_GR"
+      ],
+      "barrelDiameter": 0.088,
+      "id": 4274448176,
+      "index": "PGGS019",
+      "name": "PGGS019_88mm45_SK_L45",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_5": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_6": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_7": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_8": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_9": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 4800.0,
+    "sigmaCount": 1.0
+   },
+   "B_AirDefense": {
+    "AuraNear": {
+     "areaDamage": 17.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.7,
+     "innerBubbleCount": 0,
+     "maxDistance": 1500.0,
+     "minDistance": 100.0,
+     "type": "near"
+    },
+    "isAA": true
+   },
+   "B_Hull": {
+    "burnNodes": [
+     [
+      0.9001,
+      0.3,
+      60.0
+     ],
+     [
+      0.9001,
+      0.3,
+      60.0
+     ],
+     [
+      0.9001,
+      0.3,
+      60.0
+     ],
+     [
+      0.9001,
+      0.3,
+      60.0
+     ]
+    ],
+    "floodNodes": [
+     [
+      0.281,
+      0.5,
+      40.0
+     ],
+     [
+      0.281,
+      0.5,
+      40.0
+     ]
+    ],
+    "health": 40800.0,
+    "maxSpeed": 28.4,
+    "rudderTime": 15.98,
+    "speedCoef": 1.0,
+    "turningRadius": 650.0,
+    "visibilityCoefGKInSmoke": 7.85,
+    "visibilityFactor": 10.86,
+    "visibilityFactorByPlane": 8.83
+   }
+  },
+  "ShipAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY009_CrashCrewPremium",
+      "B_DE_LIM"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY010_RegenCrewPremium",
+      "C_Gold"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "ShipUpgradeInfo": {
+   "PGUA303_BB4_ART_STOCK": {
+    "canBuy": true,
+    "components": {
+     "artillery": [
+      "AB_Artillery"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Artillery"
+   },
+   "PGUE304_BB4_ENG_STOCK": {
+    "canBuy": true,
+    "components": {
+     "engine": [
+      "AB_Engine"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Engine"
+   },
+   "PGUH307_BB4_HULL_STOCK": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [],
+     "airDefense": [],
+     "airSupport": [],
+     "artillery": [
+      "AB_Artillery"
+     ],
+     "atba": [
+      "A_ATBA"
+     ],
+     "depthCharges": [],
+     "directors": [],
+     "finders": [
+      "AB_Finders"
+     ],
+     "hull": [
+      "A_Hull"
+     ],
+     "pinger": [],
+     "radars": [],
+     "torpedoes": []
+    },
+    "disabledAbilities": [],
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Hull"
+   },
+   "PGUH308_BB4_HULL_TOP": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [],
+     "airDefense": [
+      "B_AirDefense"
+     ],
+     "airSupport": [],
+     "artillery": [
+      "AB_Artillery"
+     ],
+     "atba": [
+      "B_ATBA"
+     ],
+     "depthCharges": [],
+     "directors": [],
+     "finders": [
+      "AB_Finders"
+     ],
+     "hull": [
+      "B_Hull"
+     ],
+     "pinger": [],
+     "radars": [],
+     "torpedoes": []
+    },
+    "disabledAbilities": [],
+    "nextShips": [
+     "PGSB205_Derfflinger"
+    ],
+    "prev": "PGUH307_BB4_HULL_STOCK",
+    "ucType": "_Hull"
+   },
+   "PGUS305_BB4_SUO_STOCK": {
+    "canBuy": true,
+    "components": {
+     "fireControl": [
+      "AB1_FireControl"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Suo"
+   },
+   "PGUS306_BB4_SUO_TOP": {
+    "canBuy": true,
+    "components": {
+     "fireControl": [
+      "AB2_FireControl"
+     ]
+    },
+    "nextShips": [],
+    "prev": "PGUS305_BB4_SUO_STOCK",
+    "ucType": "_Suo"
+   },
+   "costCR": 1,
+   "costGold": 0,
+   "costSaleGold": 0,
+   "costXP": 1,
+   "value": 1
+  },
+  "group": "earlyAccess",
+  "id": 4081006384,
+  "index": "PGSB204",
+  "level": 4,
+  "name": "PGSB204_Moltke",
+  "typeinfo": {
+   "nation": "Germany",
+   "species": "Battleship",
+   "type": "Ship"
+  }
+ },
+ {
+  "ModulesArmaments": {
    "A1_Artillery": {
     "guns": {
      "HP_GGM_1": {
@@ -14630,6 +15935,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -15250,882 +16556,6 @@
     "guns": {
      "HP_GGM_1": {
       "ammoList": [
-       "PGPA039_406MM_HE_SPR_GR_L4_4_KZ",
-       "PGPA038_406MM_AP_PZ_GR_L4_4"
-      ],
-      "barrelDiameter": 0.406,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -145.0,
-       145.0
-      ],
-      "id": 4253673264,
-      "idealDistance": 1000.0,
-      "idealRadius": 12.0,
-      "index": "PGGM039",
-      "minRadius": 2.0,
-      "name": "PGGM039_406mm_C34",
-      "numBarrels": 3,
-      "position": [
-       0.0,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       4.5,
-       12.0
-      ],
-      "shotDelay": 29.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_GGM_2": {
-      "ammoList": [
-       "PGPA039_406MM_HE_SPR_GR_L4_4_KZ",
-       "PGPA038_406MM_AP_PZ_GR_L4_4"
-      ],
-      "barrelDiameter": 0.406,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -145.0,
-       145.0
-      ],
-      "id": 4253673264,
-      "idealDistance": 1000.0,
-      "idealRadius": 12.0,
-      "index": "PGGM039",
-      "minRadius": 2.0,
-      "name": "PGGM039_406mm_C34",
-      "numBarrels": 3,
-      "position": [
-       1.0,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       4.5,
-       12.0
-      ],
-      "shotDelay": 29.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_GGM_3": {
-      "ammoList": [
-       "PGPA039_406MM_HE_SPR_GR_L4_4_KZ",
-       "PGPA038_406MM_AP_PZ_GR_L4_4"
-      ],
-      "barrelDiameter": 0.406,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -134.0,
-       134.0
-      ],
-      "id": 4253673264,
-      "idealDistance": 1000.0,
-      "idealRadius": 12.0,
-      "index": "PGGM039",
-      "minRadius": 2.0,
-      "name": "PGGM039_406mm_C34",
-      "numBarrels": 3,
-      "position": [
-       4.0,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       4.5,
-       12.0
-      ],
-      "shotDelay": 29.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_GGM_4": {
-      "ammoList": [
-       "PGPA039_406MM_HE_SPR_GR_L4_4_KZ",
-       "PGPA038_406MM_AP_PZ_GR_L4_4"
-      ],
-      "barrelDiameter": 0.406,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -134.0,
-       134.0
-      ],
-      "id": 4253673264,
-      "idealDistance": 1000.0,
-      "idealRadius": 12.0,
-      "index": "PGGM039",
-      "minRadius": 2.0,
-      "name": "PGGM039_406mm_C34",
-      "numBarrels": 3,
-      "position": [
-       5.0,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       4.5,
-       12.0
-      ],
-      "shotDelay": 29.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Main",
-       "type": "Gun"
-      }
-     }
-    },
-    "maxDist": 20610.0,
-    "normalDistribution": true,
-    "sigmaCount": 1.8,
-    "taperDist": 5000.0
-   },
-   "A1_FireControl": {
-    "maxDistCoef": 1.0,
-    "sigmaCountCoef": 1.0
-   },
-   "A2_Artillery": {
-    "guns": {
-     "HP_GGM_1": {
-      "ammoList": [
-       "PGPA053_420MM_HE_HE_L_4_6",
-       "PGPA052_420MM_AP_APC_L_4_6"
-      ],
-      "barrelDiameter": 0.42,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -145.0,
-       145.0
-      ],
-      "id": 4139378480,
-      "idealDistance": 1000.0,
-      "idealRadius": 12.0,
-      "index": "PGGM148",
-      "minRadius": 2.0,
-      "name": "PGGM148_420MM_48_DRH_LC_1940",
-      "numBarrels": 3,
-      "position": [
-       0.0,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       4.5,
-       12.0
-      ],
-      "shotDelay": 32.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_GGM_2": {
-      "ammoList": [
-       "PGPA053_420MM_HE_HE_L_4_6",
-       "PGPA052_420MM_AP_APC_L_4_6"
-      ],
-      "barrelDiameter": 0.42,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -145.0,
-       145.0
-      ],
-      "id": 4139378480,
-      "idealDistance": 1000.0,
-      "idealRadius": 12.0,
-      "index": "PGGM148",
-      "minRadius": 2.0,
-      "name": "PGGM148_420MM_48_DRH_LC_1940",
-      "numBarrels": 3,
-      "position": [
-       1.0,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       4.5,
-       12.0
-      ],
-      "shotDelay": 32.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_GGM_3": {
-      "ammoList": [
-       "PGPA053_420MM_HE_HE_L_4_6",
-       "PGPA052_420MM_AP_APC_L_4_6"
-      ],
-      "barrelDiameter": 0.42,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -134.0,
-       134.0
-      ],
-      "id": 4139378480,
-      "idealDistance": 1000.0,
-      "idealRadius": 12.0,
-      "index": "PGGM148",
-      "minRadius": 2.0,
-      "name": "PGGM148_420MM_48_DRH_LC_1940",
-      "numBarrels": 3,
-      "position": [
-       4.0,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       4.5,
-       12.0
-      ],
-      "shotDelay": 32.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_GGM_4": {
-      "ammoList": [
-       "PGPA053_420MM_HE_HE_L_4_6",
-       "PGPA052_420MM_AP_APC_L_4_6"
-      ],
-      "barrelDiameter": 0.42,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -134.0,
-       134.0
-      ],
-      "id": 4139378480,
-      "idealDistance": 1000.0,
-      "idealRadius": 12.0,
-      "index": "PGGM148",
-      "minRadius": 2.0,
-      "name": "PGGM148_420MM_48_DRH_LC_1940",
-      "numBarrels": 3,
-      "position": [
-       5.0,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       4.5,
-       12.0
-      ],
-      "shotDelay": 32.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Main",
-       "type": "Gun"
-      }
-     }
-    },
-    "maxDist": 20610.0,
-    "normalDistribution": true,
-    "sigmaCount": 1.8,
-    "taperDist": 5000.0
-   },
-   "A_ATBA": {
-    "AuraFar": {
-     "areaDamage": 41.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 0.75,
-     "innerBubbleCount": 0.0,
-     "maxDistance": 6000.0,
-     "minDistance": 100.0,
-     "type": "far"
-    },
-    "AuraFar_Bubbles": {
-     "areaDamage": 0.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 230.0,
-     "hitChance": 0.75,
-     "innerBubbleCount": 5.0,
-     "maxDistance": 6000.0,
-     "minDistance": 3500.0,
-     "type": "far"
-    },
-    "antiAirAndSecondaries": {
-     "HP_GGS_1": {
-      "ammoList": [
-       "PGPA059_128MM_HE_SPR_GR_KZ"
-      ],
-      "barrelDiameter": 0.128,
-      "id": 4209436464,
-      "index": "PGGS081",
-      "name": "PGGS081_127mm_KC_40",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_10": {
-      "ammoList": [
-       "PGPA059_128MM_HE_SPR_GR_KZ"
-      ],
-      "barrelDiameter": 0.128,
-      "id": 4209436464,
-      "index": "PGGS081",
-      "name": "PGGS081_127mm_KC_40",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_11": {
-      "ammoList": [
-       "PGPA003_150mm_HE_HE_N_F"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4292273968,
-      "index": "PGGS002",
-      "name": "PGGS002_150mm_SKC_28_RF",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 7.5,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_12": {
-      "ammoList": [
-       "PGPA003_150mm_HE_HE_N_F"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4292273968,
-      "index": "PGGS002",
-      "name": "PGGS002_150mm_SKC_28_RF",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 7.5,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_13": {
-      "ammoList": [
-       "PGPA059_128MM_HE_SPR_GR_KZ"
-      ],
-      "barrelDiameter": 0.128,
-      "id": 4209436464,
-      "index": "PGGS081",
-      "name": "PGGS081_127mm_KC_40",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_14": {
-      "ammoList": [
-       "PGPA059_128MM_HE_SPR_GR_KZ"
-      ],
-      "barrelDiameter": 0.128,
-      "id": 4209436464,
-      "index": "PGGS081",
-      "name": "PGGS081_127mm_KC_40",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_2": {
-      "ammoList": [
-       "PGPA059_128MM_HE_SPR_GR_KZ"
-      ],
-      "barrelDiameter": 0.128,
-      "id": 4209436464,
-      "index": "PGGS081",
-      "name": "PGGS081_127mm_KC_40",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_3": {
-      "ammoList": [
-       "PGPA059_128MM_HE_SPR_GR_KZ"
-      ],
-      "barrelDiameter": 0.128,
-      "id": 4209436464,
-      "index": "PGGS081",
-      "name": "PGGS081_127mm_KC_40",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_4": {
-      "ammoList": [
-       "PGPA059_128MM_HE_SPR_GR_KZ"
-      ],
-      "barrelDiameter": 0.128,
-      "id": 4209436464,
-      "index": "PGGS081",
-      "name": "PGGS081_127mm_KC_40",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_5": {
-      "ammoList": [
-       "PGPA003_150mm_HE_HE_N_F"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4292273968,
-      "index": "PGGS002",
-      "name": "PGGS002_150mm_SKC_28_RF",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 7.5,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_6": {
-      "ammoList": [
-       "PGPA003_150mm_HE_HE_N_F"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4292273968,
-      "index": "PGGS002",
-      "name": "PGGS002_150mm_SKC_28_RF",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 7.5,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_7": {
-      "ammoList": [
-       "PGPA059_128MM_HE_SPR_GR_KZ"
-      ],
-      "barrelDiameter": 0.128,
-      "id": 4209436464,
-      "index": "PGGS081",
-      "name": "PGGS081_127mm_KC_40",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_8": {
-      "ammoList": [
-       "PGPA059_128MM_HE_SPR_GR_KZ"
-      ],
-      "barrelDiameter": 0.128,
-      "id": 4209436464,
-      "index": "PGGS081",
-      "name": "PGGS081_127mm_KC_40",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_9": {
-      "ammoList": [
-       "PGPA059_128MM_HE_SPR_GR_KZ"
-      ],
-      "barrelDiameter": 0.128,
-      "id": 4209436464,
-      "index": "PGGS081",
-      "name": "PGGS081_127mm_KC_40",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     }
-    },
-    "maxDist": 8300.0,
-    "sigmaCount": 1.0
-   },
-   "A_AirDefense": {
-    "AuraMedium": {
-     "areaDamage": 93.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 0.75,
-     "innerBubbleCount": 0,
-     "maxDistance": 4000.0,
-     "minDistance": 100.0,
-     "type": "medium"
-    },
-    "AuraNear": {
-     "areaDamage": 36.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 0.7,
-     "innerBubbleCount": 0,
-     "maxDistance": 2000.0,
-     "minDistance": 100.0,
-     "type": "near"
-    },
-    "isAA": true
-   },
-   "A_AirSupport": {
-    "chargesNum": 2,
-    "flyAwayTime": 5.0,
-    "maxDist": 11000,
-    "maxPlaneFlightDist": 3500,
-    "minDist": 1500,
-    "planeName": "PJAD903_ASW_T10",
-    "reloadTime": 60.0,
-    "timeBetweenShots": 0.1,
-    "timeFromHeaven": 2.0
-   },
-   "A_Engine": {
-    "backwardEngineUpTime": 30.0,
-    "forwardEngineUpTime": 60.0,
-    "speedCoef": 0.0
-   },
-   "A_Hull": {
-    "burnNodes": [
-     [
-      0.5005,
-      0.3,
-      60.0
-     ],
-     [
-      0.5005,
-      0.3,
-      60.0
-     ],
-     [
-      0.5005,
-      0.3,
-      60.0
-     ],
-     [
-      0.5005,
-      0.3,
-      60.0
-     ]
-    ],
-    "floodNodes": [
-     [
-      0.25,
-      0.5,
-      40.0
-     ],
-     [
-      0.25,
-      0.5,
-      40.0
-     ]
-    ],
-    "health": 105800.0,
-    "maxSpeed": 30.0,
-    "rudderTime": 25.3,
-    "speedCoef": 1.0,
-    "turningRadius": 1050.0,
-    "visibilityCoefGKInSmoke": 18.22,
-    "visibilityFactor": 18.18,
-    "visibilityFactorByPlane": 14.93
-   }
-  },
-  "ShipAbilities": {
-   "AbilitySlot0": {
-    "abils": [
-     [
-      "PCY009_CrashCrewPremium",
-      "B_UK_Germany_Gold"
-     ]
-    ],
-    "slot": 0
-   },
-   "AbilitySlot1": {
-    "abils": [
-     [
-      "PCY010_RegenCrewPremium",
-      "B_Deutsche_gold"
-     ]
-    ],
-    "slot": 1
-   },
-   "AbilitySlot2": {
-    "abils": [
-     [
-      "PCY013_SpotterPremium",
-      "Default"
-     ],
-     [
-      "PCY012_FighterPremium",
-      "Fighter_4"
-     ]
-    ],
-    "slot": 2
-   },
-   "AbilitySlot3": {
-    "abils": [
-     [
-      "PCY016_SonarSearchPremium",
-      "Deutsche_C_8_10"
-     ]
-    ],
-    "slot": 3
-   },
-   "AbilitySlot4": {
-    "abils": [],
-    "slot": 4
-   }
-  },
-  "ShipUpgradeInfo": {
-   "PGUA974_ART1_GROSS": {
-    "canBuy": true,
-    "components": {
-     "artillery": [
-      "A1_Artillery"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Artillery"
-   },
-   "PGUA975_ART2_GROSS": {
-    "canBuy": true,
-    "components": {
-     "artillery": [
-      "A2_Artillery"
-     ]
-    },
-    "nextShips": [],
-    "prev": "PGUA974_ART1_GROSS",
-    "ucType": "_Artillery"
-   },
-   "PGUE974_ENG_GROSS": {
-    "canBuy": true,
-    "components": {
-     "engine": [
-      "A_Engine"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Engine"
-   },
-   "PGUH974_GROSS": {
-    "canBuy": true,
-    "components": {
-     "airArmament": [
-      "A_AirArmament"
-     ],
-     "airDefense": [
-      "A_AirDefense"
-     ],
-     "airSupport": [
-      "A_AirSupport"
-     ],
-     "artillery": [
-      "A1_Artillery",
-      "A2_Artillery"
-     ],
-     "atba": [
-      "A_ATBA"
-     ],
-     "depthCharges": [],
-     "directors": [
-      "A_Directors"
-     ],
-     "finders": [
-      "A_Finders"
-     ],
-     "hull": [
-      "A_Hull"
-     ],
-     "pinger": [],
-     "radars": [],
-     "torpedoes": []
-    },
-    "disabledAbilities": [],
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Hull"
-   },
-   "PGUS974_SUO_GROSS": {
-    "canBuy": true,
-    "components": {
-     "fireControl": [
-      "A1_FireControl"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Suo"
-   },
-   "costCR": 0,
-   "costGold": 0,
-   "costSaleGold": 0,
-   "costXP": 0,
-   "value": 1
-  },
-  "group": "clan",
-  "id": 3340711728,
-  "index": "PGSB910",
-  "level": 10,
-  "name": "PGSB910_Grossdeutschland",
-  "typeinfo": {
-   "nation": "Germany",
-   "species": "Battleship",
-   "type": "Ship"
-  }
- },
- {
-  "ModulesArmaments": {
-   "A1_Artillery": {
-    "guns": {
-     "HP_GGM_1": {
-      "ammoList": [
        "PGPA076_283MM_HE_GRAF",
        "PGPA075_283MM_AP_GRAF"
       ],
@@ -16211,6 +16641,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -16769,6 +17200,958 @@
   "typeinfo": {
    "nation": "Germany",
    "species": "Cruiser",
+   "type": "Ship"
+  }
+ },
+ {
+  "ModulesArmaments": {
+   "A1_Artillery": {
+    "guns": {
+     "HP_GGM_1": {
+      "ammoList": [
+       "PGPA062_305MM_HE_KA",
+       "PGPA061_305MM_AP_KA"
+      ],
+      "barrelDiameter": 0.305,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -147.0,
+       147.0
+      ],
+      "id": 4208584496,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM082",
+      "minRadius": 2.0,
+      "name": "PGGM082_305mm_50_Drh_LC_1909",
+      "numBarrels": 2,
+      "position": [
+       0.5,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       3.0,
+       4.0
+      ],
+      "shotDelay": 30.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_2": {
+      "ammoList": [
+       "PGPA062_305MM_HE_KA",
+       "PGPA061_305MM_AP_KA"
+      ],
+      "barrelDiameter": 0.305,
+      "deadZone": [
+       [
+        150.0,
+        -106.0
+       ]
+      ],
+      "delim": 0.5,
+      "horizSector": [
+       0.0,
+       -83.0
+      ],
+      "id": 4241090352,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM051",
+      "minRadius": 2.0,
+      "name": "PGGM051_305mm_50_Drh_LC_1909",
+      "numBarrels": 2,
+      "position": [
+       2.0,
+       0.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       3.0,
+       4.0
+      ],
+      "shotDelay": 30.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_3": {
+      "ammoList": [
+       "PGPA062_305MM_HE_KA",
+       "PGPA061_305MM_AP_KA"
+      ],
+      "barrelDiameter": 0.305,
+      "deadZone": [
+       [
+        160.0,
+        -114.0
+       ]
+      ],
+      "delim": 0.5,
+      "horizSector": [
+       0.0,
+       -77.0
+      ],
+      "id": 4241090352,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM051",
+      "minRadius": 2.0,
+      "name": "PGGM051_305mm_50_Drh_LC_1909",
+      "numBarrels": 2,
+      "position": [
+       3.0,
+       2.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       3.0,
+       4.0
+      ],
+      "shotDelay": 30.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_4": {
+      "ammoList": [
+       "PGPA062_305MM_HE_KA",
+       "PGPA061_305MM_AP_KA"
+      ],
+      "barrelDiameter": 0.305,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -147.0,
+       147.0
+      ],
+      "id": 4208584496,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM082",
+      "minRadius": 2.0,
+      "name": "PGGM082_305mm_50_Drh_LC_1909",
+      "numBarrels": 2,
+      "position": [
+       4.5,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       3.0,
+       4.0
+      ],
+      "shotDelay": 30.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_5": {
+      "ammoList": [
+       "PGPA062_305MM_HE_KA",
+       "PGPA061_305MM_AP_KA"
+      ],
+      "barrelDiameter": 0.305,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -145.0,
+       145.0
+      ],
+      "id": 4241090352,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM051",
+      "minRadius": 2.0,
+      "name": "PGGM051_305mm_50_Drh_LC_1909",
+      "numBarrels": 2,
+      "position": [
+       5.5,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       3.0,
+       4.0
+      ],
+      "shotDelay": 30.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 11860.0,
+    "normalDistribution": true,
+    "sigmaCount": 1.8,
+    "taperDist": 4000.0
+   },
+   "A1_Engine": {
+    "backwardEngineUpTime": 30.0,
+    "forwardEngineUpTime": 60.0,
+    "speedCoef": 0.0
+   },
+   "A1_FireControl": {
+    "maxDistCoef": 1.0,
+    "sigmaCountCoef": 1.0
+   },
+   "A_ATBA": {
+    "AuraFar": {
+     "areaDamage": 2.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.75,
+     "innerBubbleCount": 0.0,
+     "maxDistance": 4600.0,
+     "minDistance": 100.0,
+     "type": "far"
+    },
+    "AuraFar_Bubbles": {
+     "areaDamage": 0.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 100.0,
+     "hitChance": 0.75,
+     "innerBubbleCount": 1.0,
+     "maxDistance": 4600.0,
+     "minDistance": 3500.0,
+     "type": "far"
+    },
+    "antiAirAndSecondaries": {
+     "HP_GGS_1": {
+      "ammoList": [
+       "PGPA013_88MM_HE_SPR_GR"
+      ],
+      "barrelDiameter": 0.088,
+      "id": 4229359408,
+      "index": "PGGS062",
+      "name": "PGGS062_88mm45_SK_L45",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0001,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_10": {
+      "ammoList": [
+       "PGPA013_88MM_HE_SPR_GR"
+      ],
+      "barrelDiameter": 0.088,
+      "id": 4239845168,
+      "index": "PGGS052",
+      "name": "PGGS052_88mm45_casemate_SK_L45",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0001,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_11": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_12": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_13": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_14": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_15": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_16": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_17": {
+      "ammoList": [
+       "PGPA013_88MM_HE_SPR_GR"
+      ],
+      "barrelDiameter": 0.088,
+      "id": 4274448176,
+      "index": "PGGS019",
+      "name": "PGGS019_88mm45_SK_L45",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_18": {
+      "ammoList": [
+       "PGPA013_88MM_HE_SPR_GR"
+      ],
+      "barrelDiameter": 0.088,
+      "id": 4274448176,
+      "index": "PGGS019",
+      "name": "PGGS019_88mm45_SK_L45",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_19": {
+      "ammoList": [
+       "PGPA013_88MM_HE_SPR_GR"
+      ],
+      "barrelDiameter": 0.088,
+      "id": 4274448176,
+      "index": "PGGS019",
+      "name": "PGGS019_88mm45_SK_L45",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_2": {
+      "ammoList": [
+       "PGPA013_88MM_HE_SPR_GR"
+      ],
+      "barrelDiameter": 0.088,
+      "id": 4229359408,
+      "index": "PGGS062",
+      "name": "PGGS062_88mm45_SK_L45",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0001,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_20": {
+      "ammoList": [
+       "PGPA013_88MM_HE_SPR_GR"
+      ],
+      "barrelDiameter": 0.088,
+      "id": 4274448176,
+      "index": "PGGS019",
+      "name": "PGGS019_88mm45_SK_L45",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_21": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_22": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_23": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_24": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_25": {
+      "ammoList": [
+       "PGPA013_88MM_HE_SPR_GR"
+      ],
+      "barrelDiameter": 0.088,
+      "id": 4229359408,
+      "index": "PGGS062",
+      "name": "PGGS062_88mm45_SK_L45",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0001,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_26": {
+      "ammoList": [
+       "PGPA013_88MM_HE_SPR_GR"
+      ],
+      "barrelDiameter": 0.088,
+      "id": 4229359408,
+      "index": "PGGS062",
+      "name": "PGGS062_88mm45_SK_L45",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0001,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_3": {
+      "ammoList": [
+       "PGPA013_88MM_HE_SPR_GR"
+      ],
+      "barrelDiameter": 0.088,
+      "id": 4229359408,
+      "index": "PGGS062",
+      "name": "PGGS062_88mm45_SK_L45",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0001,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_4": {
+      "ammoList": [
+       "PGPA013_88MM_HE_SPR_GR"
+      ],
+      "barrelDiameter": 0.088,
+      "id": 4229359408,
+      "index": "PGGS062",
+      "name": "PGGS062_88mm45_SK_L45",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0001,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_5": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_6": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_7": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_8": {
+      "ammoList": [
+       "PGPA123_150MM_HE_K_GR_18"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4242990896,
+      "index": "PGGS049",
+      "name": "PGGS049_150mm_SK_L45_C06",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 8.57,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_9": {
+      "ammoList": [
+       "PGPA013_88MM_HE_SPR_GR"
+      ],
+      "barrelDiameter": 0.088,
+      "id": 4239845168,
+      "index": "PGGS052",
+      "name": "PGGS052_88mm45_casemate_SK_L45",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0001,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 4000.0,
+    "sigmaCount": 1.0
+   },
+   "A_AirDefense": {
+    "isAA": true
+   },
+   "A_Hull": {
+    "burnNodes": [
+     [
+      0.9667,
+      0.3,
+      60.0
+     ],
+     [
+      0.9667,
+      0.3,
+      60.0
+     ],
+     [
+      0.9667,
+      0.3,
+      60.0
+     ],
+     [
+      0.9667,
+      0.3,
+      60.0
+     ]
+    ],
+    "floodNodes": [
+     [
+      0.27,
+      0.5,
+      40.0
+     ],
+     [
+      0.27,
+      0.5,
+      40.0
+     ]
+    ],
+    "health": 41300.0,
+    "maxSpeed": 21.0,
+    "rudderTime": 15.82,
+    "speedCoef": 1.0,
+    "turningRadius": 600.0,
+    "visibilityCoefGKInSmoke": 8.85,
+    "visibilityFactor": 11.52,
+    "visibilityFactorByPlane": 7.87
+   }
+  },
+  "ShipAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY009_CrashCrewPremium",
+      "B_UK_Germany_Gold"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY010_RegenCrewPremium",
+      "B_Gold"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "ShipUpgradeInfo": {
+   "PGUA221_ART_KA": {
+    "canBuy": true,
+    "components": {
+     "artillery": [
+      "A1_Artillery"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Artillery"
+   },
+   "PGUE221_ENG_KA": {
+    "canBuy": true,
+    "components": {
+     "engine": [
+      "A1_Engine"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Engine"
+   },
+   "PGUH221_KA": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [],
+     "airDefense": [
+      "A_AirDefense"
+     ],
+     "artillery": [
+      "A1_Artillery"
+     ],
+     "atba": [
+      "A_ATBA"
+     ],
+     "depthCharges": [],
+     "directors": [],
+     "finders": [
+      "A_Finders"
+     ],
+     "hull": [
+      "A_Hull"
+     ],
+     "pinger": [],
+     "radars": [],
+     "torpedoes": []
+    },
+    "disabledAbilities": [],
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Hull"
+   },
+   "PGUS221_SUO_KA": {
+    "canBuy": true,
+    "components": {
+     "fireControl": [
+      "A1_FireControl"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Suo"
+   },
+   "costCR": 0,
+   "costGold": 2200,
+   "costSaleGold": 0,
+   "costXP": 0,
+   "value": 1
+  },
+  "group": "special",
+  "id": 3767482160,
+  "index": "PGSB503",
+  "level": 3,
+  "name": "PGSB503_Koenig_Albert",
+  "typeinfo": {
+   "nation": "Germany",
+   "species": "Battleship",
    "type": "Ship"
   }
  },
@@ -19109,6 +20492,7 @@
     "visibilityFactorByPlane": 11.04
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -19240,6 +20624,7 @@
     "visibilityFactorByPlane": 11.04
    },
    "B_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -19511,6 +20896,779 @@
  },
  {
   "ModulesArmaments": {
+   "A_ATBA": {
+    "AuraFar": {
+     "areaDamage": 45.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.75,
+     "innerBubbleCount": 0.0,
+     "maxDistance": 5200.0,
+     "minDistance": 100.0,
+     "type": "far"
+    },
+    "AuraFar_Bubbles": {
+     "areaDamage": 0.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 210.0,
+     "hitChance": 0.75,
+     "innerBubbleCount": 6.0,
+     "maxDistance": 5200.0,
+     "minDistance": 3500.0,
+     "type": "far"
+    },
+    "antiAirAndSecondaries": {
+     "HP_GGS_1": {
+      "ammoList": [
+       "PGPA003_150mm_HE_HE_N_F"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4293322544,
+      "index": "PGGS001",
+      "name": "PGGS001_150mm_SKC_28",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 7.5,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_10": {
+      "ammoList": [
+       "PGPA003_150mm_HE_HE_N_F"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4292273968,
+      "index": "PGGS002",
+      "name": "PGGS002_150mm_SKC_28_RF",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 7.5,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_11": {
+      "ammoList": [
+       "PGPA004_105mm_HE_HE_33lbs"
+      ],
+      "barrelDiameter": 0.105,
+      "id": 4235650864,
+      "index": "PGGS056",
+      "name": "PGGS056_105mm_DopL_C38",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 3.35,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_12": {
+      "ammoList": [
+       "PGPA004_105mm_HE_HE_33lbs"
+      ],
+      "barrelDiameter": 0.105,
+      "id": 4235650864,
+      "index": "PGGS056",
+      "name": "PGGS056_105mm_DopL_C38",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 3.35,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_13": {
+      "ammoList": [
+       "PGPA004_105mm_HE_HE_33lbs"
+      ],
+      "barrelDiameter": 0.105,
+      "id": 4235650864,
+      "index": "PGGS056",
+      "name": "PGGS056_105mm_DopL_C38",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 3.35,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_14": {
+      "ammoList": [
+       "PGPA004_105mm_HE_HE_33lbs"
+      ],
+      "barrelDiameter": 0.105,
+      "id": 4235650864,
+      "index": "PGGS056",
+      "name": "PGGS056_105mm_DopL_C38",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 3.35,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_2": {
+      "ammoList": [
+       "PGPA003_150mm_HE_HE_N_F"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4293322544,
+      "index": "PGGS001",
+      "name": "PGGS001_150mm_SKC_28",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 7.5,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_3": {
+      "ammoList": [
+       "PGPA004_105mm_HE_HE_33lbs"
+      ],
+      "barrelDiameter": 0.105,
+      "id": 4235650864,
+      "index": "PGGS056",
+      "name": "PGGS056_105mm_DopL_C38",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 3.35,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_4": {
+      "ammoList": [
+       "PGPA004_105mm_HE_HE_33lbs"
+      ],
+      "barrelDiameter": 0.105,
+      "id": 4235650864,
+      "index": "PGGS056",
+      "name": "PGGS056_105mm_DopL_C38",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 3.35,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_5": {
+      "ammoList": [
+       "PGPA003_150mm_HE_HE_N_F"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4292273968,
+      "index": "PGGS002",
+      "name": "PGGS002_150mm_SKC_28_RF",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 7.5,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_6": {
+      "ammoList": [
+       "PGPA003_150mm_HE_HE_N_F"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4292273968,
+      "index": "PGGS002",
+      "name": "PGGS002_150mm_SKC_28_RF",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 7.5,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_7": {
+      "ammoList": [
+       "PGPA004_105mm_HE_HE_33lbs"
+      ],
+      "barrelDiameter": 0.105,
+      "id": 4235650864,
+      "index": "PGGS056",
+      "name": "PGGS056_105mm_DopL_C38",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 3.35,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_8": {
+      "ammoList": [
+       "PGPA004_105mm_HE_HE_33lbs"
+      ],
+      "barrelDiameter": 0.105,
+      "id": 4235650864,
+      "index": "PGGS056",
+      "name": "PGGS056_105mm_DopL_C38",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 3.35,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_9": {
+      "ammoList": [
+       "PGPA003_150mm_HE_HE_N_F"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4292273968,
+      "index": "PGGS002",
+      "name": "PGGS002_150mm_SKC_28_RF",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 7.5,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 7950.0,
+    "sigmaCount": 1.0
+   },
+   "A_AirDefense": {
+    "AuraNear": {
+     "areaDamage": 133.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.7,
+     "innerBubbleCount": 0,
+     "maxDistance": 3000.0,
+     "minDistance": 100.0,
+     "type": "near"
+    },
+    "isAA": true
+   },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 10000,
+    "maxPlaneFlightDist": 4200,
+    "minDist": 1500,
+    "planeName": "PJAD902_ASW_T8",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
+   "A_Artillery": {
+    "guns": {
+     "HP_GGM_1": {
+      "ammoList": [
+       "PGPA097_380MM_HE_L_4_6_B_POMMERN",
+       "PGPA098_380MM_AP_L_4_4_B_POMMERN"
+      ],
+      "barrelDiameter": 0.38,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -143.0,
+       143.0
+      ],
+      "id": 4182370096,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM107",
+      "minRadius": 2.0,
+      "name": "PGGM107_380mm_52_triple_SK_C_34",
+      "numBarrels": 3,
+      "position": [
+       1.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       5.0,
+       6.0
+      ],
+      "shotDelay": 33.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_2": {
+      "ammoList": [
+       "PGPA097_380MM_HE_L_4_6_B_POMMERN",
+       "PGPA098_380MM_AP_L_4_4_B_POMMERN"
+      ],
+      "barrelDiameter": 0.38,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -140.0,
+       140.0
+      ],
+      "id": 4180272944,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM109",
+      "minRadius": 2.0,
+      "name": "PGGM109_380mm_52_triple_SK_C_34_RF",
+      "numBarrels": 3,
+      "position": [
+       2.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       5.0,
+       6.0
+      ],
+      "shotDelay": 33.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_3": {
+      "ammoList": [
+       "PGPA097_380MM_HE_L_4_6_B_POMMERN",
+       "PGPA098_380MM_AP_L_4_4_B_POMMERN"
+      ],
+      "barrelDiameter": 0.38,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -137.0,
+       137.0
+      ],
+      "id": 4180272944,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM109",
+      "minRadius": 2.0,
+      "name": "PGGM109_380mm_52_triple_SK_C_34_RF",
+      "numBarrels": 3,
+      "position": [
+       4.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       5.0,
+       6.0
+      ],
+      "shotDelay": 33.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_4": {
+      "ammoList": [
+       "PGPA097_380MM_HE_L_4_6_B_POMMERN",
+       "PGPA098_380MM_AP_L_4_4_B_POMMERN"
+      ],
+      "barrelDiameter": 0.38,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -137.0,
+       137.0
+      ],
+      "id": 4182370096,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM107",
+      "minRadius": 2.0,
+      "name": "PGGM107_380mm_52_triple_SK_C_34",
+      "numBarrels": 3,
+      "position": [
+       5.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       5.0,
+       6.0
+      ],
+      "shotDelay": 33.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 21340.0,
+    "normalDistribution": true,
+    "sigmaCount": 1.5,
+    "taperDist": 5000.0
+   },
+   "A_Engine": {
+    "backwardEngineUpTime": 30.0,
+    "forwardEngineUpTime": 60.0,
+    "speedCoef": 0.0
+   },
+   "A_FireControl": {
+    "maxDistCoef": 1.0,
+    "sigmaCountCoef": 1.0
+   },
+   "A_Hull": {
+    "burnNodes": [
+     [
+      0.5671,
+      0.3,
+      60.0
+     ],
+     [
+      0.5671,
+      0.3,
+      60.0
+     ],
+     [
+      0.5671,
+      0.3,
+      60.0
+     ],
+     [
+      0.5671,
+      0.3,
+      60.0
+     ]
+    ],
+    "floodNodes": [
+     [
+      0.25,
+      0.5,
+      40.0
+     ],
+     [
+      0.25,
+      0.5,
+      40.0
+     ]
+    ],
+    "health": 81900.0,
+    "maxSpeed": 31.0,
+    "rudderTime": 22.54,
+    "speedCoef": 1.0,
+    "turningRadius": 940.0,
+    "visibilityCoefGKInSmoke": 16.0,
+    "visibilityFactor": 17.28,
+    "visibilityFactorByPlane": 12.81
+   },
+   "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
+    "torpedoArray": {
+     "HP_GGT_1": {
+      "ammoList": [
+       "PGPT033_G7A_T1_POMMERN"
+      ],
+      "barrelDiameter": 0.533,
+      "canRotate": true,
+      "deadZone": [
+       [
+        -30.0,
+        0.0
+       ]
+      ],
+      "horizSector": [
+       -150.0,
+       0.0
+      ],
+      "id": 4279658288,
+      "index": "PGGT014",
+      "name": "PGGT014_533mm_Torpedo_Tubes_Quad",
+      "numBarrels": 4,
+      "rotationSpeed": [
+       25.0,
+       25.0
+      ],
+      "shotDelay": 90.0,
+      "torpedoAngles": [
+       4.8,
+       16.0
+      ],
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Torpedo",
+       "type": "Gun"
+      }
+     },
+     "HP_GGT_2": {
+      "ammoList": [
+       "PGPT033_G7A_T1_POMMERN"
+      ],
+      "barrelDiameter": 0.533,
+      "canRotate": true,
+      "deadZone": [
+       [
+        0.0,
+        30.0
+       ]
+      ],
+      "horizSector": [
+       0.0,
+       150.0
+      ],
+      "id": 4279658288,
+      "index": "PGGT014",
+      "name": "PGGT014_533mm_Torpedo_Tubes_Quad",
+      "numBarrels": 4,
+      "rotationSpeed": [
+       25.0,
+       25.0
+      ],
+      "shotDelay": 90.0,
+      "torpedoAngles": [
+       4.8,
+       16.0
+      ],
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Torpedo",
+       "type": "Gun"
+      }
+     }
+    }
+   }
+  },
+  "ShipAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY009_CrashCrewPremium",
+      "B_UK_Germany_Gold"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY010_RegenCrewPremium",
+      "B_Deutsche_gold"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [
+     [
+      "PCY016_SonarSearchPremium",
+      "Deutsche_C_8_10"
+     ]
+    ],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "ShipUpgradeInfo": {
+   "PGUA813_ART_BLACK_POMMERN": {
+    "canBuy": true,
+    "components": {
+     "artillery": [
+      "A_Artillery"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Artillery"
+   },
+   "PGUE814_ENG_BLACK_POMMERN": {
+    "canBuy": true,
+    "components": {
+     "engine": [
+      "A_Engine"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Engine"
+   },
+   "PGUH817_HULL_BLACK_POMMERN": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [
+      "A_AirArmament"
+     ],
+     "airDefense": [
+      "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
+     ],
+     "artillery": [
+      "A_Artillery"
+     ],
+     "atba": [
+      "A_ATBA"
+     ],
+     "depthCharges": [],
+     "directors": [
+      "A_Directors"
+     ],
+     "finders": [
+      "A_Finders"
+     ],
+     "hull": [
+      "A_Hull"
+     ],
+     "pinger": [],
+     "radars": [],
+     "torpedoes": [
+      "A_Torpedoes"
+     ]
+    },
+    "disabledAbilities": [],
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Hull"
+   },
+   "PGUS817_SUO_BLACK_POMMERN": {
+    "canBuy": true,
+    "components": {
+     "fireControl": [
+      "A_FireControl"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Suo"
+   },
+   "PGUT811_TORP_BLACK_POMMERN": {
+    "canBuy": true,
+    "components": {
+     "torpedoes": [
+      "A_Torpedoes"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Torpedoes"
+   },
+   "costCR": 0,
+   "costGold": 19000,
+   "costSaleGold": 0,
+   "costXP": 0,
+   "value": 1
+  },
+  "group": "special",
+  "id": 3666818864,
+  "index": "PGSB599",
+  "level": 9,
+  "name": "PGSB599_Black_Pommern",
+  "typeinfo": {
+   "nation": "Germany",
+   "species": "Battleship",
+   "type": "Ship"
+  }
+ },
+ {
+  "ModulesArmaments": {
    "A_Engine": {
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
@@ -19605,11 +21763,12 @@
     "waveReloadTime": 8.3
    },
    "A_Torpedoes": {
-    "timeToChangeAmmo": 40.0,
+    "timeToChangeAmmo": 5.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
-       "PGPT021_G7E_T4_Sub"
+       "PGPT021_G7E_T4_Sub",
+       "PGPT043_G7E_T4_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -19644,7 +21803,8 @@
      },
      "HP_GGT_2": {
       "ammoList": [
-       "PGPT021_G7E_T4_Sub"
+       "PGPT021_G7E_T4_Sub",
+       "PGPT043_G7E_T4_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -19679,7 +21839,8 @@
      },
      "HP_GGT_3": {
       "ammoList": [
-       "PGPT021_G7E_T4_Sub"
+       "PGPT021_G7E_T4_Sub",
+       "PGPT043_G7E_T4_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -19714,7 +21875,8 @@
      },
      "HP_GGT_4": {
       "ammoList": [
-       "PGPT021_G7E_T4_Sub"
+       "PGPT021_G7E_T4_Sub",
+       "PGPT043_G7E_T4_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -19749,7 +21911,8 @@
      },
      "HP_GGT_5": {
       "ammoList": [
-       "PGPT021_G7E_T4_Sub"
+       "PGPT021_G7E_T4_Sub",
+       "PGPT043_G7E_T4_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -19784,7 +21947,8 @@
      },
      "HP_GGT_6": {
       "ammoList": [
-       "PGPT021_G7E_T4_Sub"
+       "PGPT021_G7E_T4_Sub",
+       "PGPT043_G7E_T4_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -22357,6 +24521,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -23160,6 +25325,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -23785,6 +25951,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -24601,6 +26768,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -25764,6 +27932,777 @@
  },
  {
   "ModulesArmaments": {
+   "A_ATBA": {
+    "Far1": {
+     "areaDamage": 63.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.75,
+     "innerBubbleCount": 0.0,
+     "maxDistance": 6000.0,
+     "minDistance": 100.0,
+     "type": "far"
+    },
+    "Far1_Bubbles": {
+     "areaDamage": 0.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 230.0,
+     "hitChance": 0.75,
+     "innerBubbleCount": 6.0,
+     "maxDistance": 6000.0,
+     "minDistance": 3500.0,
+     "type": "far"
+    },
+    "antiAirAndSecondaries": {
+     "HP_GGS_1": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_10": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_11": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_12": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_13": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_14": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_15": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_16": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_2": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_3": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_4": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_5": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_6": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_7": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_8": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_9": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 8300.0,
+    "sigmaCount": 1.0
+   },
+   "A_AirDefense": {
+    "Medium1": {
+     "areaDamage": 107.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.75,
+     "innerBubbleCount": 0,
+     "maxDistance": 4000.0,
+     "minDistance": 100.0,
+     "type": "medium"
+    },
+    "Near1": {
+     "areaDamage": 90.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.7,
+     "innerBubbleCount": 0,
+     "maxDistance": 3000.0,
+     "minDistance": 100.0,
+     "type": "near"
+    },
+    "isAA": true
+   },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 11000,
+    "maxPlaneFlightDist": 3500,
+    "minDist": 1500,
+    "planeName": "PJAD903_ASW_T10",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
+   "A_Artillery": {
+    "guns": {
+     "HP_GGM_1": {
+      "ammoList": [
+       "PGPA115_483MM_HE_HANNOVER",
+       "PGPA116_483MM_AP_HANNOVER"
+      ],
+      "barrelDiameter": 0.483,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -151.0,
+       151.0
+      ],
+      "id": 4164544304,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM124",
+      "minRadius": 2.0,
+      "name": "PGGM124_483mm_50_SK_C42",
+      "numBarrels": 2,
+      "position": [
+       1.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       4.5,
+       10.0
+      ],
+      "shotDelay": 31.5,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_2": {
+      "ammoList": [
+       "PGPA115_483MM_HE_HANNOVER",
+       "PGPA116_483MM_AP_HANNOVER"
+      ],
+      "barrelDiameter": 0.483,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -151.0,
+       151.0
+      ],
+      "id": 4164544304,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM124",
+      "minRadius": 2.0,
+      "name": "PGGM124_483mm_50_SK_C42",
+      "numBarrels": 2,
+      "position": [
+       2.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       4.5,
+       10.0
+      ],
+      "shotDelay": 31.5,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_3": {
+      "ammoList": [
+       "PGPA115_483MM_HE_HANNOVER",
+       "PGPA116_483MM_AP_HANNOVER"
+      ],
+      "barrelDiameter": 0.483,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -151.0,
+       151.0
+      ],
+      "id": 4164544304,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM124",
+      "minRadius": 2.0,
+      "name": "PGGM124_483mm_50_SK_C42",
+      "numBarrels": 2,
+      "position": [
+       4.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       4.5,
+       10.0
+      ],
+      "shotDelay": 31.5,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_4": {
+      "ammoList": [
+       "PGPA115_483MM_HE_HANNOVER",
+       "PGPA116_483MM_AP_HANNOVER"
+      ],
+      "barrelDiameter": 0.483,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -151.0,
+       151.0
+      ],
+      "id": 4164544304,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM124",
+      "minRadius": 2.0,
+      "name": "PGGM124_483mm_50_SK_C42",
+      "numBarrels": 2,
+      "position": [
+       5.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       4.5,
+       10.0
+      ],
+      "shotDelay": 31.5,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 21400.0,
+    "normalDistribution": true,
+    "sigmaCount": 1.8,
+    "taperDist": 5000.0
+   },
+   "A_Engine": {
+    "backwardEngineUpTime": 30.0,
+    "forwardEngineUpTime": 60.0,
+    "speedCoef": 0.0
+   },
+   "A_FireControl": {
+    "maxDistCoef": 1.0,
+    "sigmaCountCoef": 1.0
+   },
+   "A_Hull": {
+    "burnNodes": [
+     [
+      0.4339,
+      0.3,
+      60.0
+     ],
+     [
+      0.4339,
+      0.3,
+      60.0
+     ],
+     [
+      0.4339,
+      0.3,
+      60.0
+     ],
+     [
+      0.4339,
+      0.3,
+      60.0
+     ]
+    ],
+    "floodNodes": [
+     [
+      0.234,
+      0.5,
+      40.0
+     ],
+     [
+      0.234,
+      0.5,
+      40.0
+     ]
+    ],
+    "health": 126500.0,
+    "maxSpeed": 30.0,
+    "rudderTime": 27.38,
+    "speedCoef": 1.0,
+    "turningRadius": 1170.0,
+    "visibilityCoefGKInSmoke": 21.38,
+    "visibilityFactor": 19.14,
+    "visibilityFactorByPlane": 16.26
+   },
+   "A_Specials": {
+    "RageMode": {
+     "boostDuration": 50.0,
+     "decrementCount": 1,
+     "decrementDelay": 45.0,
+     "decrementPeriod": 5.0,
+     "gunsForSalvo": 4,
+     "modifiers": {
+      "GSMaxDist": 1.12,
+      "GSShotDelay": 0.8
+     },
+     "radius": 1500.0,
+     "rageModeName": "atba_firepower",
+     "requiredHits": 16
+    },
+    "buffsShiftMaxLevel": 0,
+    "buffsShiftSpeed": 1.0,
+    "buffsStartPool": 0,
+    "modifiers": {}
+   }
+  },
+  "ShipAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY009_CrashCrewPremium",
+      "B_UK_Germany_Gold"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY010_RegenCrewPremium",
+      "B_Deutsche_gold"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [
+     [
+      "PCY013_SpotterPremium",
+      "Default"
+     ],
+     [
+      "PCY012_FighterPremium",
+      "Fighter_4"
+     ]
+    ],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [
+     [
+      "PCY016_SonarSearchPremium",
+      "Deutsche_C_8_10"
+     ]
+    ],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "ShipUpgradeInfo": {
+   "PGUA930_ART_HANNOVER": {
+    "canBuy": true,
+    "components": {
+     "artillery": [
+      "A_Artillery"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Artillery"
+   },
+   "PGUE930_ENG_HANNOVER": {
+    "canBuy": true,
+    "components": {
+     "engine": [
+      "A_Engine"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Engine"
+   },
+   "PGUH930_HANNOVER": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [
+      "A_AirArmament"
+     ],
+     "airDefense": [
+      "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
+     ],
+     "artillery": [
+      "A_Artillery"
+     ],
+     "atba": [
+      "A_ATBA"
+     ],
+     "depthCharges": [],
+     "directors": [
+      "A_Directors"
+     ],
+     "finders": [
+      "A_Finders"
+     ],
+     "hull": [
+      "A_Hull"
+     ],
+     "pinger": [],
+     "radars": [
+      "A_Radars"
+     ],
+     "specials": [
+      "A_Specials"
+     ],
+     "torpedoes": []
+    },
+    "disabledAbilities": [],
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Hull"
+   },
+   "PGUS930_SUO_HANNOVER": {
+    "canBuy": true,
+    "components": {
+     "fireControl": [
+      "A_FireControl"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Suo"
+   },
+   "costCR": 0,
+   "costGold": 0,
+   "costSaleGold": 0,
+   "costXP": 0,
+   "value": 1
+  },
+  "group": "legendaryBattle",
+  "id": 4178523952,
+  "index": "PGSB111",
+  "level": 11,
+  "name": "PGSB111_Hannover",
+  "typeinfo": {
+   "nation": "Germany",
+   "species": "Battleship",
+   "type": "Ship"
+  }
+ },
+ {
+  "ModulesArmaments": {
    "A_Engine": {
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
@@ -25858,11 +28797,12 @@
     "waveReloadTime": 7.1
    },
    "A_Torpedoes": {
-    "timeToChangeAmmo": 35.0,
+    "timeToChangeAmmo": 5.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
-       "PGPT020_G7E_T3_Sub"
+       "PGPT020_G7E_T3_Sub",
+       "PGPT022_G7E_T3_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -25897,7 +28837,8 @@
      },
      "HP_GGT_2": {
       "ammoList": [
-       "PGPT020_G7E_T3_Sub"
+       "PGPT020_G7E_T3_Sub",
+       "PGPT022_G7E_T3_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -25932,7 +28873,8 @@
      },
      "HP_GGT_3": {
       "ammoList": [
-       "PGPT020_G7E_T3_Sub"
+       "PGPT020_G7E_T3_Sub",
+       "PGPT022_G7E_T3_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -25967,7 +28909,8 @@
      },
      "HP_GGT_4": {
       "ammoList": [
-       "PGPT020_G7E_T3_Sub"
+       "PGPT020_G7E_T3_Sub",
+       "PGPT022_G7E_T3_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -26002,7 +28945,8 @@
      },
      "HP_GGT_5": {
       "ammoList": [
-       "PGPT020_G7E_T3_Sub"
+       "PGPT020_G7E_T3_Sub",
+       "PGPT022_G7E_T3_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -26037,7 +28981,8 @@
      },
      "HP_GGT_6": {
       "ammoList": [
-       "PGPT020_G7E_T3_Sub"
+       "PGPT020_G7E_T3_Sub",
+       "PGPT022_G7E_T3_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -26551,11 +29496,12 @@
     "rudderTime": 5.74,
     "speedCoef": 1.0,
     "turningRadius": 670.0,
-    "visibilityCoefGKInSmoke": 2.93,
-    "visibilityFactor": 7.78,
-    "visibilityFactorByPlane": 3.64
+    "visibilityCoefGKInSmoke": 2.81,
+    "visibilityFactor": 7.48,
+    "visibilityFactorByPlane": 3.5
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -27466,6 +30412,7 @@
     "visibilityFactorByPlane": 13.04
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -27922,6 +30869,7 @@
     "sigmaCountCoef": 1.0
    },
    "ABC1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -28804,6 +31752,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -29423,7 +32372,721 @@
  },
  {
   "ModulesArmaments": {
+   "A_ATBA": {
+    "AuraFar": {
+     "areaDamage": 40.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.75,
+     "innerBubbleCount": 0.0,
+     "maxDistance": 6000.0,
+     "minDistance": 100.0,
+     "type": "far"
+    },
+    "AuraFar_Bubbles": {
+     "areaDamage": 0.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 230.0,
+     "hitChance": 0.75,
+     "innerBubbleCount": 5.0,
+     "maxDistance": 6000.0,
+     "minDistance": 3500.0,
+     "type": "far"
+    },
+    "antiAirAndSecondaries": {
+     "HP_GGS_1": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_10": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_11": {
+      "ammoList": [
+       "PGPA003_150mm_HE_HE_N_F"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4292273968,
+      "index": "PGGS002",
+      "name": "PGGS002_150mm_SKC_28_RF",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 7.5,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_12": {
+      "ammoList": [
+       "PGPA003_150mm_HE_HE_N_F"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4292273968,
+      "index": "PGGS002",
+      "name": "PGGS002_150mm_SKC_28_RF",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 7.5,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_13": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_14": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_2": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_3": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_4": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_5": {
+      "ammoList": [
+       "PGPA003_150mm_HE_HE_N_F"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4292273968,
+      "index": "PGGS002",
+      "name": "PGGS002_150mm_SKC_28_RF",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 7.5,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_6": {
+      "ammoList": [
+       "PGPA003_150mm_HE_HE_N_F"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4292273968,
+      "index": "PGGS002",
+      "name": "PGGS002_150mm_SKC_28_RF",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 7.5,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_7": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_8": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_9": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4165396272,
+      "index": "PGGS123",
+      "name": "PGGS123_127mm_61_twin",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 8300.0,
+    "sigmaCount": 1.0
+   },
+   "A_AirDefense": {
+    "AuraMedium": {
+     "areaDamage": 93.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.75,
+     "innerBubbleCount": 0,
+     "maxDistance": 4000.0,
+     "minDistance": 100.0,
+     "type": "medium"
+    },
+    "AuraMedium1": {
+     "areaDamage": 70.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.7,
+     "innerBubbleCount": 0,
+     "maxDistance": 3000.0,
+     "minDistance": 100.0,
+     "type": "near"
+    },
+    "AuraNear": {
+     "areaDamage": 13.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.7,
+     "innerBubbleCount": 0,
+     "maxDistance": 3000.0,
+     "minDistance": 100.0,
+     "type": "near"
+    },
+    "isAA": true
+   },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 11000,
+    "maxPlaneFlightDist": 3500,
+    "minDist": 1500,
+    "planeName": "PJAD903_ASW_T10",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
+   "A_Artillery": {
+    "guns": {
+     "HP_GGM_1": {
+      "ammoList": [
+       "PGPA126_457MM_HE_PREUSSEN",
+       "PGPA127_457MM_AP_PREUSSEN"
+      ],
+      "barrelDiameter": 0.457,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4158252848,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM130",
+      "minRadius": 2.0,
+      "name": "PGGM130_457mm_52_SK_C34",
+      "numBarrels": 2,
+      "position": [
+       0.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       4.5,
+       10.0
+      ],
+      "shotDelay": 24.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_2": {
+      "ammoList": [
+       "PGPA126_457MM_HE_PREUSSEN",
+       "PGPA127_457MM_AP_PREUSSEN"
+      ],
+      "barrelDiameter": 0.457,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4158252848,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM130",
+      "minRadius": 2.0,
+      "name": "PGGM130_457mm_52_SK_C34",
+      "numBarrels": 2,
+      "position": [
+       1.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       4.5,
+       10.0
+      ],
+      "shotDelay": 24.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_3": {
+      "ammoList": [
+       "PGPA126_457MM_HE_PREUSSEN",
+       "PGPA127_457MM_AP_PREUSSEN"
+      ],
+      "barrelDiameter": 0.457,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -142.0,
+       142.0
+      ],
+      "id": 4158252848,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM130",
+      "minRadius": 2.0,
+      "name": "PGGM130_457mm_52_SK_C34",
+      "numBarrels": 2,
+      "position": [
+       4.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       4.5,
+       10.0
+      ],
+      "shotDelay": 24.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_4": {
+      "ammoList": [
+       "PGPA126_457MM_HE_PREUSSEN",
+       "PGPA127_457MM_AP_PREUSSEN"
+      ],
+      "barrelDiameter": 0.457,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -142.0,
+       142.0
+      ],
+      "id": 4158252848,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM130",
+      "minRadius": 2.0,
+      "name": "PGGM130_457mm_52_SK_C34",
+      "numBarrels": 2,
+      "position": [
+       5.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       4.5,
+       10.0
+      ],
+      "shotDelay": 24.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 20600.0,
+    "normalDistribution": true,
+    "sigmaCount": 1.8,
+    "taperDist": 5000.0
+   },
+   "A_Engine": {
+    "backwardEngineUpTime": 30.0,
+    "forwardEngineUpTime": 60.0,
+    "speedCoef": 0.0
+   },
+   "A_FireControl": {
+    "maxDistCoef": 1.0,
+    "sigmaCountCoef": 1.0
+   },
+   "A_Hull": {
+    "burnNodes": [
+     [
+      0.5005,
+      0.3,
+      60.0
+     ],
+     [
+      0.5005,
+      0.3,
+      60.0
+     ],
+     [
+      0.5005,
+      0.3,
+      60.0
+     ],
+     [
+      0.5005,
+      0.3,
+      60.0
+     ]
+    ],
+    "floodNodes": [
+     [
+      0.25,
+      0.5,
+      40.0
+     ],
+     [
+      0.25,
+      0.5,
+      40.0
+     ]
+    ],
+    "health": 105800.0,
+    "maxSpeed": 30.0,
+    "rudderTime": 25.3,
+    "speedCoef": 1.0,
+    "turningRadius": 1050.0,
+    "visibilityCoefGKInSmoke": 19.38,
+    "visibilityFactor": 18.18,
+    "visibilityFactorByPlane": 14.93
+   }
+  },
+  "ShipAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY009_CrashCrewPremium",
+      "B_UK_Germany_Gold"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY010_RegenCrewPremium",
+      "B_Deutsche_gold"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [
+     [
+      "PCY013_SpotterPremium",
+      "Default"
+     ],
+     [
+      "PCY012_FighterPremium",
+      "Fighter_4"
+     ]
+    ],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [
+     [
+      "PCY016_SonarSearchPremium",
+      "Deutsche_C_8_10"
+     ]
+    ],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "ShipUpgradeInfo": {
+   "PGUA906_ART_PREUSSEN": {
+    "canBuy": true,
+    "components": {
+     "artillery": [
+      "A_Artillery"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Artillery"
+   },
+   "PGUE907_ENG_PREUSSEN": {
+    "canBuy": true,
+    "components": {
+     "engine": [
+      "A_Engine"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Engine"
+   },
+   "PGUH907_PREUSSEN": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [
+      "A_AirArmament"
+     ],
+     "airDefense": [
+      "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
+     ],
+     "artillery": [
+      "A_Artillery"
+     ],
+     "atba": [
+      "A_ATBA"
+     ],
+     "depthCharges": [],
+     "directors": [
+      "A_Directors"
+     ],
+     "finders": [
+      "A_Finders"
+     ],
+     "hull": [
+      "A_Hull"
+     ],
+     "pinger": [],
+     "radars": []
+    },
+    "disabledAbilities": [],
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Hull"
+   },
+   "PGUS906_SUO_PREUSSEN": {
+    "canBuy": true,
+    "components": {
+     "fireControl": [
+      "A_FireControl"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Suo"
+   },
+   "costCR": 1,
+   "costGold": 0,
+   "costSaleGold": 0,
+   "costXP": 1,
+   "value": 1
+  },
+  "group": "demoWithoutStats",
+  "id": 3969857328,
+  "index": "PGSB310",
+  "level": 10,
+  "name": "PGSB310_Preussen",
+  "typeinfo": {
+   "nation": "Germany",
+   "species": "Battleship",
+   "type": "Ship"
+  }
+ },
+ {
+  "ModulesArmaments": {
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -29657,7 +33320,7 @@
       }
      }
     },
-    "maxDist": 15464.0,
+    "maxDist": 15818.0,
     "normalDistribution": true,
     "sigmaCount": 1.5,
     "taperDist": 4000.0
@@ -30148,6 +33811,7 @@
     "visibilityFactorByPlane": 9.66
    },
    "B1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -33241,6 +36905,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -33896,6 +37561,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -34180,6 +37846,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB2_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -34798,6 +38465,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -35383,6 +39051,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -35457,6 +39126,7 @@
     }
    },
    "A2_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -36227,6 +39897,7 @@
     "speedCoef": 0.0
    },
    "AB_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -37283,6 +40954,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -38316,1297 +41988,6 @@
  },
  {
   "ModulesArmaments": {
-   "AB1_FireControl": {
-    "maxDistCoef": 1.0,
-    "sigmaCountCoef": 1.0
-   },
-   "AB2_FireControl": {
-    "maxDistCoef": 1.1,
-    "sigmaCountCoef": 1.0
-   },
-   "AB_Artillery": {
-    "guns": {
-     "HP_GGM_1": {
-      "ammoList": [
-       "PGPA057_283MM_HE_SPR_GR_L3_6",
-       "PGPA056_283MM_AP_PZ_GR_L3_2"
-      ],
-      "barrelDiameter": 0.283,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4160350000,
-      "idealDistance": 1000.0,
-      "idealRadius": 10.0,
-      "index": "PGGM128",
-      "minRadius": 1.6,
-      "name": "PGGM128_283mm_SK_L50_LC_1908",
-      "numBarrels": 2,
-      "position": [
-       0.5,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       4.0,
-       3.5
-      ],
-      "shotDelay": 30.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_GGM_2": {
-      "ammoList": [
-       "PGPA057_283MM_HE_SPR_GR_L3_6",
-       "PGPA056_283MM_AP_PZ_GR_L3_2"
-      ],
-      "barrelDiameter": 0.283,
-      "deadZone": [
-       [
-        -54.0,
-        0.0
-       ]
-      ],
-      "delim": 0.5,
-      "horizSector": [
-       -124.0,
-       180.0
-      ],
-      "id": 4160350000,
-      "idealDistance": 1000.0,
-      "idealRadius": 10.0,
-      "index": "PGGM128",
-      "minRadius": 1.6,
-      "name": "PGGM128_283mm_SK_L50_LC_1908",
-      "numBarrels": 2,
-      "position": [
-       2.0,
-       0.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       4.0,
-       3.5
-      ],
-      "shotDelay": 30.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_GGM_3": {
-      "ammoList": [
-       "PGPA057_283MM_HE_SPR_GR_L3_6",
-       "PGPA056_283MM_AP_PZ_GR_L3_2"
-      ],
-      "barrelDiameter": 0.283,
-      "deadZone": [
-       [
-        -52.0,
-        0.0
-       ]
-      ],
-      "delim": 0.5,
-      "horizSector": [
-       -124.0,
-       180.0
-      ],
-      "id": 4160350000,
-      "idealDistance": 1000.0,
-      "idealRadius": 10.0,
-      "index": "PGGM128",
-      "minRadius": 1.6,
-      "name": "PGGM128_283mm_SK_L50_LC_1908",
-      "numBarrels": 2,
-      "position": [
-       3.0,
-       2.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       4.0,
-       3.5
-      ],
-      "shotDelay": 30.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_GGM_4": {
-      "ammoList": [
-       "PGPA057_283MM_HE_SPR_GR_L3_6",
-       "PGPA056_283MM_AP_PZ_GR_L3_2"
-      ],
-      "barrelDiameter": 0.283,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -143.0,
-       143.0
-      ],
-      "id": 4160350000,
-      "idealDistance": 1000.0,
-      "idealRadius": 10.0,
-      "index": "PGGM128",
-      "minRadius": 1.6,
-      "name": "PGGM128_283mm_SK_L50_LC_1908",
-      "numBarrels": 2,
-      "position": [
-       4.5,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       4.0,
-       3.5
-      ],
-      "shotDelay": 30.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_GGM_5": {
-      "ammoList": [
-       "PGPA057_283MM_HE_SPR_GR_L3_6",
-       "PGPA056_283MM_AP_PZ_GR_L3_2"
-      ],
-      "barrelDiameter": 0.283,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -143.0,
-       143.0
-      ],
-      "id": 4160350000,
-      "idealDistance": 1000.0,
-      "idealRadius": 10.0,
-      "index": "PGGM128",
-      "minRadius": 1.6,
-      "name": "PGGM128_283mm_SK_L50_LC_1908",
-      "numBarrels": 2,
-      "position": [
-       5.5,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       4.0,
-       3.5
-      ],
-      "shotDelay": 30.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Main",
-       "type": "Gun"
-      }
-     }
-    },
-    "maxDist": 13546.0,
-    "normalDistribution": true,
-    "sigmaCount": 1.5,
-    "taperDist": 3500.0
-   },
-   "AB_Engine": {
-    "backwardEngineUpTime": 30.0,
-    "forwardEngineUpTime": 60.0,
-    "speedCoef": 0.0
-   },
-   "A_ATBA": {
-    "AuraMedium": {
-     "areaDamage": 2.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 0.75,
-     "innerBubbleCount": 0.0,
-     "maxDistance": 4600.0,
-     "minDistance": 100.0,
-     "type": "far"
-    },
-    "AuraMedium_Bubbles": {
-     "areaDamage": 0.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 110.0,
-     "hitChance": 0.75,
-     "innerBubbleCount": 1.0,
-     "maxDistance": 4600.0,
-     "minDistance": 3500.0,
-     "type": "far"
-    },
-    "antiAirAndSecondaries": {
-     "HP_GGS_1": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_10": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_11": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_12": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_13": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_14": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_16": {
-      "ammoList": [
-       "PGPA013_88MM_HE_SPR_GR"
-      ],
-      "barrelDiameter": 0.088,
-      "id": 4274448176,
-      "index": "PGGS019",
-      "name": "PGGS019_88mm45_SK_L45",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_17": {
-      "ammoList": [
-       "PGPA013_88MM_HE_SPR_GR"
-      ],
-      "barrelDiameter": 0.088,
-      "id": 4274448176,
-      "index": "PGGS019",
-      "name": "PGGS019_88mm45_SK_L45",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_19": {
-      "ammoList": [
-       "PGPA013_88MM_HE_SPR_GR"
-      ],
-      "barrelDiameter": 0.088,
-      "id": 4274448176,
-      "index": "PGGS019",
-      "name": "PGGS019_88mm45_SK_L45",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_2": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_20": {
-      "ammoList": [
-       "PGPA013_88MM_HE_SPR_GR"
-      ],
-      "barrelDiameter": 0.088,
-      "id": 4274448176,
-      "index": "PGGS019",
-      "name": "PGGS019_88mm45_SK_L45",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_5": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_6": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_7": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_8": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_9": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     }
-    },
-    "maxDist": 4800.0,
-    "sigmaCount": 1.0
-   },
-   "A_Hull": {
-    "burnNodes": [
-     [
-      0.9334,
-      0.3,
-      60.0
-     ],
-     [
-      0.9334,
-      0.3,
-      60.0
-     ],
-     [
-      0.9334,
-      0.3,
-      60.0
-     ],
-     [
-      0.9334,
-      0.3,
-      60.0
-     ]
-    ],
-    "floodNodes": [
-     [
-      0.281,
-      0.5,
-      40.0
-     ],
-     [
-      0.281,
-      0.5,
-      40.0
-     ]
-    ],
-    "health": 37600.0,
-    "maxSpeed": 28.4,
-    "rudderTime": 22.37,
-    "speedCoef": 1.0,
-    "turningRadius": 650.0,
-    "visibilityCoefGKInSmoke": 7.85,
-    "visibilityFactor": 10.86,
-    "visibilityFactorByPlane": 8.83
-   },
-   "B_ATBA": {
-    "AuraMedium": {
-     "areaDamage": 10.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 0.75,
-     "innerBubbleCount": 0.0,
-     "maxDistance": 4600.0,
-     "minDistance": 100.0,
-     "type": "far"
-    },
-    "AuraMedium_Bubbles": {
-     "areaDamage": 0.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 110.0,
-     "hitChance": 0.75,
-     "innerBubbleCount": 1.0,
-     "maxDistance": 4600.0,
-     "minDistance": 3500.0,
-     "type": "far"
-    },
-    "antiAirAndSecondaries": {
-     "HP_GGS_1": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_10": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_11": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_12": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_13": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_14": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_15": {
-      "ammoList": [
-       "PGPA013_88MM_HE_SPR_GR"
-      ],
-      "barrelDiameter": 0.088,
-      "id": 4274448176,
-      "index": "PGGS019",
-      "name": "PGGS019_88mm45_SK_L45",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_16": {
-      "ammoList": [
-       "PGPA013_88MM_HE_SPR_GR"
-      ],
-      "barrelDiameter": 0.088,
-      "id": 4274448176,
-      "index": "PGGS019",
-      "name": "PGGS019_88mm45_SK_L45",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_17": {
-      "ammoList": [
-       "PGPA013_88MM_HE_SPR_GR"
-      ],
-      "barrelDiameter": 0.088,
-      "id": 4274448176,
-      "index": "PGGS019",
-      "name": "PGGS019_88mm45_SK_L45",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_18": {
-      "ammoList": [
-       "PGPA013_88MM_HE_SPR_GR"
-      ],
-      "barrelDiameter": 0.088,
-      "id": 4274448176,
-      "index": "PGGS019",
-      "name": "PGGS019_88mm45_SK_L45",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_19": {
-      "ammoList": [
-       "PGPA013_88MM_HE_SPR_GR"
-      ],
-      "barrelDiameter": 0.088,
-      "id": 4274448176,
-      "index": "PGGS019",
-      "name": "PGGS019_88mm45_SK_L45",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_2": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_20": {
-      "ammoList": [
-       "PGPA013_88MM_HE_SPR_GR"
-      ],
-      "barrelDiameter": 0.088,
-      "id": 4274448176,
-      "index": "PGGS019",
-      "name": "PGGS019_88mm45_SK_L45",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_3": {
-      "ammoList": [
-       "PGPA013_88MM_HE_SPR_GR"
-      ],
-      "barrelDiameter": 0.088,
-      "id": 4274448176,
-      "index": "PGGS019",
-      "name": "PGGS019_88mm45_SK_L45",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_4": {
-      "ammoList": [
-       "PGPA013_88MM_HE_SPR_GR"
-      ],
-      "barrelDiameter": 0.088,
-      "id": 4274448176,
-      "index": "PGGS019",
-      "name": "PGGS019_88mm45_SK_L45",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_5": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_6": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_7": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_8": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_9": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     }
-    },
-    "maxDist": 4800.0,
-    "sigmaCount": 1.0
-   },
-   "B_AirDefense": {
-    "AuraNear": {
-     "areaDamage": 17.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 0.7,
-     "innerBubbleCount": 0,
-     "maxDistance": 1500.0,
-     "minDistance": 100.0,
-     "type": "near"
-    },
-    "isAA": true
-   },
-   "B_Hull": {
-    "burnNodes": [
-     [
-      0.9001,
-      0.3,
-      60.0
-     ],
-     [
-      0.9001,
-      0.3,
-      60.0
-     ],
-     [
-      0.9001,
-      0.3,
-      60.0
-     ],
-     [
-      0.9001,
-      0.3,
-      60.0
-     ]
-    ],
-    "floodNodes": [
-     [
-      0.281,
-      0.5,
-      40.0
-     ],
-     [
-      0.281,
-      0.5,
-      40.0
-     ]
-    ],
-    "health": 40800.0,
-    "maxSpeed": 28.4,
-    "rudderTime": 15.98,
-    "speedCoef": 1.0,
-    "turningRadius": 650.0,
-    "visibilityCoefGKInSmoke": 7.85,
-    "visibilityFactor": 10.86,
-    "visibilityFactorByPlane": 8.83
-   }
-  },
-  "ShipAbilities": {
-   "AbilitySlot0": {
-    "abils": [
-     [
-      "PCY009_CrashCrewPremium",
-      "B_DE_LIM"
-     ]
-    ],
-    "slot": 0
-   },
-   "AbilitySlot1": {
-    "abils": [
-     [
-      "PCY010_RegenCrewPremium",
-      "C_Gold"
-     ]
-    ],
-    "slot": 1
-   },
-   "AbilitySlot2": {
-    "abils": [],
-    "slot": 2
-   },
-   "AbilitySlot3": {
-    "abils": [],
-    "slot": 3
-   },
-   "AbilitySlot4": {
-    "abils": [],
-    "slot": 4
-   }
-  },
-  "ShipUpgradeInfo": {
-   "PGUA303_BB4_ART_STOCK": {
-    "canBuy": true,
-    "components": {
-     "artillery": [
-      "AB_Artillery"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Artillery"
-   },
-   "PGUE304_BB4_ENG_STOCK": {
-    "canBuy": true,
-    "components": {
-     "engine": [
-      "AB_Engine"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Engine"
-   },
-   "PGUH307_BB4_HULL_STOCK": {
-    "canBuy": true,
-    "components": {
-     "airArmament": [],
-     "airDefense": [],
-     "airSupport": [],
-     "artillery": [
-      "AB_Artillery"
-     ],
-     "atba": [
-      "A_ATBA"
-     ],
-     "depthCharges": [],
-     "directors": [],
-     "finders": [
-      "AB_Finders"
-     ],
-     "hull": [
-      "A_Hull"
-     ],
-     "hydrophone": [],
-     "pinger": [],
-     "radars": [],
-     "torpedoes": []
-    },
-    "disabledAbilities": [],
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Hull"
-   },
-   "PGUH308_BB4_HULL_TOP": {
-    "canBuy": true,
-    "components": {
-     "airArmament": [],
-     "airDefense": [
-      "B_AirDefense"
-     ],
-     "airSupport": [],
-     "artillery": [
-      "AB_Artillery"
-     ],
-     "atba": [
-      "B_ATBA"
-     ],
-     "depthCharges": [],
-     "directors": [],
-     "finders": [
-      "AB_Finders"
-     ],
-     "hull": [
-      "B_Hull"
-     ],
-     "hydrophone": [],
-     "pinger": [],
-     "radars": [],
-     "torpedoes": []
-    },
-    "disabledAbilities": [],
-    "nextShips": [
-     "PGSB205_Derfflinger"
-    ],
-    "prev": "PGUH307_BB4_HULL_STOCK",
-    "ucType": "_Hull"
-   },
-   "PGUS305_BB4_SUO_STOCK": {
-    "canBuy": true,
-    "components": {
-     "fireControl": [
-      "AB1_FireControl"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Suo"
-   },
-   "PGUS306_BB4_SUO_TOP": {
-    "canBuy": true,
-    "components": {
-     "fireControl": [
-      "AB2_FireControl"
-     ]
-    },
-    "nextShips": [],
-    "prev": "PGUS305_BB4_SUO_STOCK",
-    "ucType": "_Suo"
-   },
-   "costCR": 1,
-   "costGold": 0,
-   "costSaleGold": 0,
-   "costXP": 1,
-   "value": 1
-  },
-  "group": "earlyAccess",
-  "id": 4081006384,
-  "index": "PGSB204",
-  "level": 4,
-  "name": "PGSB204_Moltke",
-  "typeinfo": {
-   "nation": "Germany",
-   "species": "Battleship",
-   "type": "Ship"
-  }
- },
- {
-  "ModulesArmaments": {
    "A1_Artillery": {
     "guns": {
      "HP_GGM_1": {
@@ -39777,6 +42158,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -42538,6 +44920,7 @@
     "visibilityFactorByPlane": 11.77
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -42739,6 +45122,7 @@
     "visibilityFactorByPlane": 11.77
    },
    "B_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -44806,6 +47190,7 @@
     "visibilityFactorByPlane": 9.86
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -45152,7 +47537,7 @@
     "waveReloadTime": 6.0
    },
    "A_Torpedoes": {
-    "timeToChangeAmmo": 10.0,
+    "timeToChangeAmmo": 5.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -45617,6 +48002,7 @@
     "taperDist": 4000.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -45691,6 +48077,7 @@
     }
    },
    "A2_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -46168,6 +48555,7 @@
     "taperDist": 4000.0
    },
    "B1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -46242,6 +48630,7 @@
     }
    },
    "B2_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -48330,6 +50719,7 @@
     "visibilityFactorByPlane": 10.74
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -50207,6 +52597,882 @@
    }
   },
   "ShipUpgradeInfo": {
+   "PGUA974_ART1_GROSS": {
+    "canBuy": true,
+    "components": {
+     "artillery": [
+      "A1_Artillery"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Artillery"
+   },
+   "PGUA975_ART2_GROSS": {
+    "canBuy": true,
+    "components": {
+     "artillery": [
+      "A2_Artillery"
+     ]
+    },
+    "nextShips": [],
+    "prev": "PGUA974_ART1_GROSS",
+    "ucType": "_Artillery"
+   },
+   "PGUE974_ENG_GROSS": {
+    "canBuy": true,
+    "components": {
+     "engine": [
+      "A_Engine"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Engine"
+   },
+   "PGUH974_GROSS": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [
+      "A_AirArmament"
+     ],
+     "airDefense": [
+      "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
+     ],
+     "artillery": [
+      "A1_Artillery",
+      "A2_Artillery"
+     ],
+     "atba": [
+      "A_ATBA"
+     ],
+     "depthCharges": [],
+     "directors": [
+      "A_Directors"
+     ],
+     "finders": [
+      "A_Finders"
+     ],
+     "hull": [
+      "A_Hull"
+     ],
+     "pinger": [],
+     "radars": [],
+     "torpedoes": []
+    },
+    "disabledAbilities": [],
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Hull"
+   },
+   "PGUS974_SUO_GROSS": {
+    "canBuy": true,
+    "components": {
+     "fireControl": [
+      "A1_FireControl"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Suo"
+   },
+   "costCR": 0,
+   "costGold": 0,
+   "costSaleGold": 0,
+   "costXP": 0,
+   "value": 1
+  },
+  "group": "clan",
+  "id": 3340711728,
+  "index": "PGSB910",
+  "level": 10,
+  "name": "PGSB910_Grossdeutschland",
+  "typeinfo": {
+   "nation": "Germany",
+   "species": "Battleship",
+   "type": "Ship"
+  }
+ },
+ {
+  "ModulesArmaments": {
+   "A1_Artillery": {
+    "guns": {
+     "HP_GGM_1": {
+      "ammoList": [
+       "PGPA039_406MM_HE_SPR_GR_L4_4_KZ",
+       "PGPA038_406MM_AP_PZ_GR_L4_4"
+      ],
+      "barrelDiameter": 0.406,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -145.0,
+       145.0
+      ],
+      "id": 4253673264,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM039",
+      "minRadius": 2.0,
+      "name": "PGGM039_406mm_C34",
+      "numBarrels": 3,
+      "position": [
+       0.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       4.5,
+       12.0
+      ],
+      "shotDelay": 29.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_2": {
+      "ammoList": [
+       "PGPA039_406MM_HE_SPR_GR_L4_4_KZ",
+       "PGPA038_406MM_AP_PZ_GR_L4_4"
+      ],
+      "barrelDiameter": 0.406,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -145.0,
+       145.0
+      ],
+      "id": 4253673264,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM039",
+      "minRadius": 2.0,
+      "name": "PGGM039_406mm_C34",
+      "numBarrels": 3,
+      "position": [
+       1.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       4.5,
+       12.0
+      ],
+      "shotDelay": 29.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_3": {
+      "ammoList": [
+       "PGPA039_406MM_HE_SPR_GR_L4_4_KZ",
+       "PGPA038_406MM_AP_PZ_GR_L4_4"
+      ],
+      "barrelDiameter": 0.406,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -134.0,
+       134.0
+      ],
+      "id": 4253673264,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM039",
+      "minRadius": 2.0,
+      "name": "PGGM039_406mm_C34",
+      "numBarrels": 3,
+      "position": [
+       4.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       4.5,
+       12.0
+      ],
+      "shotDelay": 29.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_4": {
+      "ammoList": [
+       "PGPA039_406MM_HE_SPR_GR_L4_4_KZ",
+       "PGPA038_406MM_AP_PZ_GR_L4_4"
+      ],
+      "barrelDiameter": 0.406,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -134.0,
+       134.0
+      ],
+      "id": 4253673264,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM039",
+      "minRadius": 2.0,
+      "name": "PGGM039_406mm_C34",
+      "numBarrels": 3,
+      "position": [
+       5.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       4.5,
+       12.0
+      ],
+      "shotDelay": 29.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 20610.0,
+    "normalDistribution": true,
+    "sigmaCount": 1.8,
+    "taperDist": 5000.0
+   },
+   "A1_FireControl": {
+    "maxDistCoef": 1.0,
+    "sigmaCountCoef": 1.0
+   },
+   "A2_Artillery": {
+    "guns": {
+     "HP_GGM_1": {
+      "ammoList": [
+       "PGPA053_420MM_HE_HE_L_4_6",
+       "PGPA052_420MM_AP_APC_L_4_6"
+      ],
+      "barrelDiameter": 0.42,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -145.0,
+       145.0
+      ],
+      "id": 4139378480,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM148",
+      "minRadius": 2.0,
+      "name": "PGGM148_420MM_48_DRH_LC_1940",
+      "numBarrels": 3,
+      "position": [
+       0.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       4.5,
+       12.0
+      ],
+      "shotDelay": 32.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_2": {
+      "ammoList": [
+       "PGPA053_420MM_HE_HE_L_4_6",
+       "PGPA052_420MM_AP_APC_L_4_6"
+      ],
+      "barrelDiameter": 0.42,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -145.0,
+       145.0
+      ],
+      "id": 4139378480,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM148",
+      "minRadius": 2.0,
+      "name": "PGGM148_420MM_48_DRH_LC_1940",
+      "numBarrels": 3,
+      "position": [
+       1.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       4.5,
+       12.0
+      ],
+      "shotDelay": 32.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_3": {
+      "ammoList": [
+       "PGPA053_420MM_HE_HE_L_4_6",
+       "PGPA052_420MM_AP_APC_L_4_6"
+      ],
+      "barrelDiameter": 0.42,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -134.0,
+       134.0
+      ],
+      "id": 4139378480,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM148",
+      "minRadius": 2.0,
+      "name": "PGGM148_420MM_48_DRH_LC_1940",
+      "numBarrels": 3,
+      "position": [
+       4.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       4.5,
+       12.0
+      ],
+      "shotDelay": 32.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_GGM_4": {
+      "ammoList": [
+       "PGPA053_420MM_HE_HE_L_4_6",
+       "PGPA052_420MM_AP_APC_L_4_6"
+      ],
+      "barrelDiameter": 0.42,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -134.0,
+       134.0
+      ],
+      "id": 4139378480,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PGGM148",
+      "minRadius": 2.0,
+      "name": "PGGM148_420MM_48_DRH_LC_1940",
+      "numBarrels": 3,
+      "position": [
+       5.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       4.5,
+       12.0
+      ],
+      "shotDelay": 32.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Main",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 20610.0,
+    "normalDistribution": true,
+    "sigmaCount": 1.8,
+    "taperDist": 5000.0
+   },
+   "A_ATBA": {
+    "AuraFar": {
+     "areaDamage": 41.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.75,
+     "innerBubbleCount": 0.0,
+     "maxDistance": 6000.0,
+     "minDistance": 100.0,
+     "type": "far"
+    },
+    "AuraFar_Bubbles": {
+     "areaDamage": 0.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 230.0,
+     "hitChance": 0.75,
+     "innerBubbleCount": 5.0,
+     "maxDistance": 6000.0,
+     "minDistance": 3500.0,
+     "type": "far"
+    },
+    "antiAirAndSecondaries": {
+     "HP_GGS_1": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4209436464,
+      "index": "PGGS081",
+      "name": "PGGS081_127mm_KC_40",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_10": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4209436464,
+      "index": "PGGS081",
+      "name": "PGGS081_127mm_KC_40",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_11": {
+      "ammoList": [
+       "PGPA003_150mm_HE_HE_N_F"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4292273968,
+      "index": "PGGS002",
+      "name": "PGGS002_150mm_SKC_28_RF",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 7.5,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_12": {
+      "ammoList": [
+       "PGPA003_150mm_HE_HE_N_F"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4292273968,
+      "index": "PGGS002",
+      "name": "PGGS002_150mm_SKC_28_RF",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 7.5,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_13": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4209436464,
+      "index": "PGGS081",
+      "name": "PGGS081_127mm_KC_40",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_14": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4209436464,
+      "index": "PGGS081",
+      "name": "PGGS081_127mm_KC_40",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_2": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4209436464,
+      "index": "PGGS081",
+      "name": "PGGS081_127mm_KC_40",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_3": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4209436464,
+      "index": "PGGS081",
+      "name": "PGGS081_127mm_KC_40",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_4": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4209436464,
+      "index": "PGGS081",
+      "name": "PGGS081_127mm_KC_40",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_5": {
+      "ammoList": [
+       "PGPA003_150mm_HE_HE_N_F"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4292273968,
+      "index": "PGGS002",
+      "name": "PGGS002_150mm_SKC_28_RF",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 7.5,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_6": {
+      "ammoList": [
+       "PGPA003_150mm_HE_HE_N_F"
+      ],
+      "barrelDiameter": 0.15,
+      "id": 4292273968,
+      "index": "PGGS002",
+      "name": "PGGS002_150mm_SKC_28_RF",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 7.5,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_7": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4209436464,
+      "index": "PGGS081",
+      "name": "PGGS081_127mm_KC_40",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_8": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4209436464,
+      "index": "PGGS081",
+      "name": "PGGS081_127mm_KC_40",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_GGS_9": {
+      "ammoList": [
+       "PGPA059_128MM_HE_SPR_GR_KZ"
+      ],
+      "barrelDiameter": 0.128,
+      "id": 4209436464,
+      "index": "PGGS081",
+      "name": "PGGS081_127mm_KC_40",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Germany",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 8300.0,
+    "sigmaCount": 1.0
+   },
+   "A_AirDefense": {
+    "AuraMedium": {
+     "areaDamage": 93.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.75,
+     "innerBubbleCount": 0,
+     "maxDistance": 4000.0,
+     "minDistance": 100.0,
+     "type": "medium"
+    },
+    "AuraNear": {
+     "areaDamage": 36.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.7,
+     "innerBubbleCount": 0,
+     "maxDistance": 2000.0,
+     "minDistance": 100.0,
+     "type": "near"
+    },
+    "isAA": true
+   },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 11000,
+    "maxPlaneFlightDist": 3500,
+    "minDist": 1500,
+    "planeName": "PJAD903_ASW_T10",
+    "reloadTime": 60.0,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
+   "A_Engine": {
+    "backwardEngineUpTime": 30.0,
+    "forwardEngineUpTime": 60.0,
+    "speedCoef": 0.0
+   },
+   "A_Hull": {
+    "burnNodes": [
+     [
+      0.5005,
+      0.3,
+      60.0
+     ],
+     [
+      0.5005,
+      0.3,
+      60.0
+     ],
+     [
+      0.5005,
+      0.3,
+      60.0
+     ],
+     [
+      0.5005,
+      0.3,
+      60.0
+     ]
+    ],
+    "floodNodes": [
+     [
+      0.25,
+      0.5,
+      40.0
+     ],
+     [
+      0.25,
+      0.5,
+      40.0
+     ]
+    ],
+    "health": 105800.0,
+    "maxSpeed": 30.0,
+    "rudderTime": 25.3,
+    "speedCoef": 1.0,
+    "turningRadius": 1050.0,
+    "visibilityCoefGKInSmoke": 18.22,
+    "visibilityFactor": 18.18,
+    "visibilityFactorByPlane": 14.93
+   }
+  },
+  "ShipAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY009_CrashCrewPremium",
+      "B_UK_Germany_Gold"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY010_RegenCrewPremium",
+      "B_Deutsche_gold"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [
+     [
+      "PCY013_SpotterPremium",
+      "Default"
+     ],
+     [
+      "PCY012_FighterPremium",
+      "Fighter_4"
+     ]
+    ],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [
+     [
+      "PCY016_SonarSearchPremium",
+      "Deutsche_C_8_10"
+     ]
+    ],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "ShipUpgradeInfo": {
    "PGUA913_B10_ART_TOP": {
     "canBuy": true,
     "components": {
@@ -50473,6 +53739,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -50711,6 +53978,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB2_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -51623,8 +54891,8 @@
    },
    "A_FlightControl": {
     "squadrons": [
-     "Skip",
-     "Bomber"
+     "Bomber",
+     "Skip"
     ]
    },
    "A_Hull": {
@@ -52409,6 +55677,7 @@
     "visibilityFactorByPlane": 11.22
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -52987,6 +56256,7 @@
     "visibilityFactorByPlane": 5.64
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -53921,6 +57191,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -54922,6 +58193,7 @@
     "speedCoef": 0.0
    },
    "AB_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -55722,6 +58994,7 @@
     "visibilityFactorByPlane": 3.7
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -56656,958 +59929,6 @@
     "guns": {
      "HP_GGM_1": {
       "ammoList": [
-       "PGPA062_305MM_HE_KA",
-       "PGPA061_305MM_AP_KA"
-      ],
-      "barrelDiameter": 0.305,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -147.0,
-       147.0
-      ],
-      "id": 4208584496,
-      "idealDistance": 1000.0,
-      "idealRadius": 12.0,
-      "index": "PGGM082",
-      "minRadius": 2.0,
-      "name": "PGGM082_305mm_50_Drh_LC_1909",
-      "numBarrels": 2,
-      "position": [
-       0.5,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       3.0,
-       4.0
-      ],
-      "shotDelay": 30.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_GGM_2": {
-      "ammoList": [
-       "PGPA062_305MM_HE_KA",
-       "PGPA061_305MM_AP_KA"
-      ],
-      "barrelDiameter": 0.305,
-      "deadZone": [
-       [
-        150.0,
-        -106.0
-       ]
-      ],
-      "delim": 0.5,
-      "horizSector": [
-       0.0,
-       -83.0
-      ],
-      "id": 4241090352,
-      "idealDistance": 1000.0,
-      "idealRadius": 12.0,
-      "index": "PGGM051",
-      "minRadius": 2.0,
-      "name": "PGGM051_305mm_50_Drh_LC_1909",
-      "numBarrels": 2,
-      "position": [
-       2.0,
-       0.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       3.0,
-       4.0
-      ],
-      "shotDelay": 30.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_GGM_3": {
-      "ammoList": [
-       "PGPA062_305MM_HE_KA",
-       "PGPA061_305MM_AP_KA"
-      ],
-      "barrelDiameter": 0.305,
-      "deadZone": [
-       [
-        160.0,
-        -114.0
-       ]
-      ],
-      "delim": 0.5,
-      "horizSector": [
-       0.0,
-       -77.0
-      ],
-      "id": 4241090352,
-      "idealDistance": 1000.0,
-      "idealRadius": 12.0,
-      "index": "PGGM051",
-      "minRadius": 2.0,
-      "name": "PGGM051_305mm_50_Drh_LC_1909",
-      "numBarrels": 2,
-      "position": [
-       3.0,
-       2.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       3.0,
-       4.0
-      ],
-      "shotDelay": 30.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_GGM_4": {
-      "ammoList": [
-       "PGPA062_305MM_HE_KA",
-       "PGPA061_305MM_AP_KA"
-      ],
-      "barrelDiameter": 0.305,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -147.0,
-       147.0
-      ],
-      "id": 4208584496,
-      "idealDistance": 1000.0,
-      "idealRadius": 12.0,
-      "index": "PGGM082",
-      "minRadius": 2.0,
-      "name": "PGGM082_305mm_50_Drh_LC_1909",
-      "numBarrels": 2,
-      "position": [
-       4.5,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       3.0,
-       4.0
-      ],
-      "shotDelay": 30.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_GGM_5": {
-      "ammoList": [
-       "PGPA062_305MM_HE_KA",
-       "PGPA061_305MM_AP_KA"
-      ],
-      "barrelDiameter": 0.305,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -145.0,
-       145.0
-      ],
-      "id": 4241090352,
-      "idealDistance": 1000.0,
-      "idealRadius": 12.0,
-      "index": "PGGM051",
-      "minRadius": 2.0,
-      "name": "PGGM051_305mm_50_Drh_LC_1909",
-      "numBarrels": 2,
-      "position": [
-       5.5,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       3.0,
-       4.0
-      ],
-      "shotDelay": 30.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Main",
-       "type": "Gun"
-      }
-     }
-    },
-    "maxDist": 11860.0,
-    "normalDistribution": true,
-    "sigmaCount": 1.8,
-    "taperDist": 4000.0
-   },
-   "A1_Engine": {
-    "backwardEngineUpTime": 30.0,
-    "forwardEngineUpTime": 60.0,
-    "speedCoef": 0.0
-   },
-   "A1_FireControl": {
-    "maxDistCoef": 1.0,
-    "sigmaCountCoef": 1.0
-   },
-   "A_ATBA": {
-    "AuraFar": {
-     "areaDamage": 2.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 0.75,
-     "innerBubbleCount": 0.0,
-     "maxDistance": 4600.0,
-     "minDistance": 100.0,
-     "type": "far"
-    },
-    "AuraFar_Bubbles": {
-     "areaDamage": 0.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 100.0,
-     "hitChance": 0.75,
-     "innerBubbleCount": 1.0,
-     "maxDistance": 4600.0,
-     "minDistance": 3500.0,
-     "type": "far"
-    },
-    "antiAirAndSecondaries": {
-     "HP_GGS_1": {
-      "ammoList": [
-       "PGPA013_88MM_HE_SPR_GR"
-      ],
-      "barrelDiameter": 0.088,
-      "id": 4229359408,
-      "index": "PGGS062",
-      "name": "PGGS062_88mm45_SK_L45",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0001,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_10": {
-      "ammoList": [
-       "PGPA013_88MM_HE_SPR_GR"
-      ],
-      "barrelDiameter": 0.088,
-      "id": 4239845168,
-      "index": "PGGS052",
-      "name": "PGGS052_88mm45_casemate_SK_L45",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0001,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_11": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_12": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_13": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_14": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_15": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_16": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_17": {
-      "ammoList": [
-       "PGPA013_88MM_HE_SPR_GR"
-      ],
-      "barrelDiameter": 0.088,
-      "id": 4274448176,
-      "index": "PGGS019",
-      "name": "PGGS019_88mm45_SK_L45",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_18": {
-      "ammoList": [
-       "PGPA013_88MM_HE_SPR_GR"
-      ],
-      "barrelDiameter": 0.088,
-      "id": 4274448176,
-      "index": "PGGS019",
-      "name": "PGGS019_88mm45_SK_L45",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_19": {
-      "ammoList": [
-       "PGPA013_88MM_HE_SPR_GR"
-      ],
-      "barrelDiameter": 0.088,
-      "id": 4274448176,
-      "index": "PGGS019",
-      "name": "PGGS019_88mm45_SK_L45",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_2": {
-      "ammoList": [
-       "PGPA013_88MM_HE_SPR_GR"
-      ],
-      "barrelDiameter": 0.088,
-      "id": 4229359408,
-      "index": "PGGS062",
-      "name": "PGGS062_88mm45_SK_L45",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0001,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_20": {
-      "ammoList": [
-       "PGPA013_88MM_HE_SPR_GR"
-      ],
-      "barrelDiameter": 0.088,
-      "id": 4274448176,
-      "index": "PGGS019",
-      "name": "PGGS019_88mm45_SK_L45",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_21": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_22": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_23": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_24": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_25": {
-      "ammoList": [
-       "PGPA013_88MM_HE_SPR_GR"
-      ],
-      "barrelDiameter": 0.088,
-      "id": 4229359408,
-      "index": "PGGS062",
-      "name": "PGGS062_88mm45_SK_L45",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0001,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_26": {
-      "ammoList": [
-       "PGPA013_88MM_HE_SPR_GR"
-      ],
-      "barrelDiameter": 0.088,
-      "id": 4229359408,
-      "index": "PGGS062",
-      "name": "PGGS062_88mm45_SK_L45",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0001,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_3": {
-      "ammoList": [
-       "PGPA013_88MM_HE_SPR_GR"
-      ],
-      "barrelDiameter": 0.088,
-      "id": 4229359408,
-      "index": "PGGS062",
-      "name": "PGGS062_88mm45_SK_L45",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0001,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_4": {
-      "ammoList": [
-       "PGPA013_88MM_HE_SPR_GR"
-      ],
-      "barrelDiameter": 0.088,
-      "id": 4229359408,
-      "index": "PGGS062",
-      "name": "PGGS062_88mm45_SK_L45",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0001,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_5": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_6": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_7": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_8": {
-      "ammoList": [
-       "PGPA123_150MM_HE_K_GR_18"
-      ],
-      "barrelDiameter": 0.15,
-      "id": 4242990896,
-      "index": "PGGS049",
-      "name": "PGGS049_150mm_SK_L45_C06",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 8.57,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_GGS_9": {
-      "ammoList": [
-       "PGPA013_88MM_HE_SPR_GR"
-      ],
-      "barrelDiameter": 0.088,
-      "id": 4239845168,
-      "index": "PGGS052",
-      "name": "PGGS052_88mm45_casemate_SK_L45",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0001,
-       1.0
-      ],
-      "shotDelay": 4.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Germany",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     }
-    },
-    "maxDist": 4000.0,
-    "sigmaCount": 1.0
-   },
-   "A_AirDefense": {
-    "isAA": true
-   },
-   "A_Hull": {
-    "burnNodes": [
-     [
-      0.9667,
-      0.3,
-      60.0
-     ],
-     [
-      0.9667,
-      0.3,
-      60.0
-     ],
-     [
-      0.9667,
-      0.3,
-      60.0
-     ],
-     [
-      0.9667,
-      0.3,
-      60.0
-     ]
-    ],
-    "floodNodes": [
-     [
-      0.27,
-      0.5,
-      40.0
-     ],
-     [
-      0.27,
-      0.5,
-      40.0
-     ]
-    ],
-    "health": 41300.0,
-    "maxSpeed": 21.0,
-    "rudderTime": 15.82,
-    "speedCoef": 1.0,
-    "turningRadius": 600.0,
-    "visibilityCoefGKInSmoke": 8.85,
-    "visibilityFactor": 11.52,
-    "visibilityFactorByPlane": 7.87
-   }
-  },
-  "ShipAbilities": {
-   "AbilitySlot0": {
-    "abils": [
-     [
-      "PCY009_CrashCrewPremium",
-      "B_UK_Germany_Gold"
-     ]
-    ],
-    "slot": 0
-   },
-   "AbilitySlot1": {
-    "abils": [
-     [
-      "PCY010_RegenCrewPremium",
-      "B_Gold"
-     ]
-    ],
-    "slot": 1
-   },
-   "AbilitySlot2": {
-    "abils": [],
-    "slot": 2
-   },
-   "AbilitySlot3": {
-    "abils": [],
-    "slot": 3
-   },
-   "AbilitySlot4": {
-    "abils": [],
-    "slot": 4
-   }
-  },
-  "ShipUpgradeInfo": {
-   "PGUA221_ART_KA": {
-    "canBuy": true,
-    "components": {
-     "artillery": [
-      "A1_Artillery"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Artillery"
-   },
-   "PGUE221_ENG_KA": {
-    "canBuy": true,
-    "components": {
-     "engine": [
-      "A1_Engine"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Engine"
-   },
-   "PGUH221_KA": {
-    "canBuy": true,
-    "components": {
-     "airArmament": [],
-     "airDefense": [
-      "A_AirDefense"
-     ],
-     "artillery": [
-      "A1_Artillery"
-     ],
-     "atba": [
-      "A_ATBA"
-     ],
-     "depthCharges": [],
-     "directors": [],
-     "finders": [
-      "A_Finders"
-     ],
-     "hull": [
-      "A_Hull"
-     ],
-     "pinger": [],
-     "radars": [],
-     "torpedoes": []
-    },
-    "disabledAbilities": [],
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Hull"
-   },
-   "PGUS221_SUO_KA": {
-    "canBuy": true,
-    "components": {
-     "fireControl": [
-      "A1_FireControl"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Suo"
-   },
-   "costCR": 0,
-   "costGold": 2200,
-   "costSaleGold": 0,
-   "costXP": 0,
-   "value": 1
-  },
-  "group": "special",
-  "id": 3767482160,
-  "index": "PGSB503",
-  "level": 3,
-  "name": "PGSB503_Koenig_Albert",
-  "typeinfo": {
-   "nation": "Germany",
-   "species": "Battleship",
-   "type": "Ship"
-  }
- },
- {
-  "ModulesArmaments": {
-   "A1_Artillery": {
-    "guns": {
-     "HP_GGM_1": {
-      "ammoList": [
        "PGPA040_150MM_HE_K_GR_18",
        "PGPA019_150MM_AP_PSGR_L3_7"
       ],
@@ -57917,6 +60238,7 @@
     "taperDist": 4000.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -58451,6 +60773,7 @@
     "taperDist": 4000.0
    },
    "B2_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -59709,6 +62032,7 @@
     "speedCoef": 0.0
    },
    "AB_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -62922,6 +65246,7 @@
     "visibilityFactorByPlane": 9.94
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -63557,7 +65882,7 @@
        4.5,
        10.0
       ],
-      "shotDelay": 30.0,
+      "shotDelay": 31.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -63595,7 +65920,7 @@
        4.5,
        10.0
       ],
-      "shotDelay": 30.0,
+      "shotDelay": 31.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -63633,7 +65958,7 @@
        4.5,
        10.0
       ],
-      "shotDelay": 30.0,
+      "shotDelay": 31.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -63671,7 +65996,7 @@
        4.5,
        10.0
       ],
-      "shotDelay": 30.0,
+      "shotDelay": 31.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Germany",
@@ -63751,6 +66076,7 @@
       "GSShotDelay": 0.925
      },
      "radius": 1500.0,
+     "rageModeName": "atba_firepower",
      "requiredHits": 16
     },
     "buffsShiftMaxLevel": 0,
@@ -63887,7 +66213,7 @@
   "group": "disabled",
   "id": 3247388464,
   "index": "PGSB999",
-  "level": 10,
+  "level": 11,
   "name": "PGSB999_Hannover",
   "typeinfo": {
    "nation": "Germany",
@@ -64448,6 +66774,7 @@
     "visibilityFactorByPlane": 9.94
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -65091,6 +67418,7 @@
     "visibilityFactorByPlane": 10.74
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [
@@ -65865,6 +68193,7 @@
     "visibilityFactorByPlane": 12.81
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_GGT_1": {
       "ammoList": [

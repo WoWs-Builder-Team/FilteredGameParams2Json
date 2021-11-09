@@ -2153,6 +2153,7 @@
     "visibilityFactorByPlane": 8.14
    },
    "TorpedoesDefault": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -2642,6 +2643,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -7266,6 +7268,7 @@
  {
   "ModulesArmaments": {
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -7340,6 +7343,7 @@
     }
    },
    "A2_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -9643,6 +9647,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -10069,6 +10074,7 @@
     "taperDist": 4000.0
    },
    "B1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -10740,6 +10746,7 @@
     "visibilityFactorByPlane": 2.85
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -12280,11 +12287,12 @@
     "waveReloadTime": 8.9
    },
    "A_Torpedoes": {
-    "timeToChangeAmmo": 34.0,
+    "timeToChangeAmmo": 5.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
-       "PAPT048_Mk28_Sub"
+       "PAPT048_Mk28_Sub",
+       "PAPT042_Mk28_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -12319,7 +12327,8 @@
      },
      "HP_AGT_2": {
       "ammoList": [
-       "PAPT048_Mk28_Sub"
+       "PAPT048_Mk28_Sub",
+       "PAPT042_Mk28_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -12354,7 +12363,8 @@
      },
      "HP_AGT_3": {
       "ammoList": [
-       "PAPT048_Mk28_Sub"
+       "PAPT048_Mk28_Sub",
+       "PAPT042_Mk28_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -12389,7 +12399,8 @@
      },
      "HP_AGT_4": {
       "ammoList": [
-       "PAPT048_Mk28_Sub"
+       "PAPT048_Mk28_Sub",
+       "PAPT042_Mk28_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -12424,7 +12435,8 @@
      },
      "HP_AGT_5": {
       "ammoList": [
-       "PAPT048_Mk28_Sub"
+       "PAPT048_Mk28_Sub",
+       "PAPT042_Mk28_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -12459,7 +12471,8 @@
      },
      "HP_AGT_6": {
       "ammoList": [
-       "PAPT048_Mk28_Sub"
+       "PAPT048_Mk28_Sub",
+       "PAPT042_Mk28_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -12494,7 +12507,8 @@
      },
      "HP_AGT_7": {
       "ammoList": [
-       "PAPT048_Mk28_Sub"
+       "PAPT048_Mk28_Sub",
+       "PAPT042_Mk28_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -12529,7 +12543,8 @@
      },
      "HP_AGT_8": {
       "ammoList": [
-       "PAPT048_Mk28_Sub"
+       "PAPT048_Mk28_Sub",
+       "PAPT042_Mk28_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -13843,6 +13858,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -15810,6 +15826,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -15888,6 +15905,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB2_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -18873,6 +18891,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -19268,13 +19287,10 @@
    "PAUH610_HULL_BLACK_ATLANTA": {
     "canBuy": true,
     "components": {
-     "airArmament": [
-      "A_AirArmament"
-     ],
+     "airArmament": [],
      "airDefense": [
       "A_AirDefense"
      ],
-     "airSupport": [],
      "artillery": [
       "A1_Artillery"
      ],
@@ -21708,6 +21724,7 @@
     "visibilityFactorByPlane": 5.35
    },
    "TorpedoesDefault": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -22086,6 +22103,7 @@
     "taperDist": 4000.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -22405,6 +22423,7 @@
     "taperDist": 4000.0
    },
    "AB2_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -23634,6 +23653,233 @@
   "typeinfo": {
    "nation": "USA",
    "species": "Cruiser",
+   "type": "Ship"
+  }
+ },
+ {
+  "ModulesArmaments": {
+   "A1_FlightControl": {
+    "squadrons": [
+     "Fighter",
+     "Bomber",
+     "Dive"
+    ]
+   },
+   "A_AirDefense": {
+    "AuraMedium": {
+     "areaDamage": 99.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 1.0,
+     "innerBubbleCount": 0,
+     "maxDistance": 3500.0,
+     "minDistance": 100.0,
+     "type": "medium"
+    },
+    "AuraNear": {
+     "areaDamage": 56.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.95,
+     "innerBubbleCount": 0,
+     "maxDistance": 2000.0,
+     "minDistance": 100.0,
+     "type": "near"
+    },
+    "isAA": true
+   },
+   "A_DiveBomber": {
+    "planeType": "PAAD518_Saipan_stock"
+   },
+   "A_Engine": {
+    "backwardEngineUpTime": 30.0,
+    "forwardEngineUpTime": 60.0,
+    "speedCoef": 0.0
+   },
+   "A_Fighter": {
+    "planeType": "PAAF518_Saipan_stock"
+   },
+   "A_Hull": {
+    "burnNodes": [
+     [
+      0.8002,
+      1.0,
+      5.0
+     ],
+     [
+      0.8002,
+      1.0,
+      5.0
+     ],
+     [
+      0.8002,
+      1.0,
+      5.0
+     ],
+     [
+      0.8002,
+      1.0,
+      5.0
+     ]
+    ],
+    "floodNodes": [
+     [
+      0.32,
+      0.25,
+      30.0
+     ],
+     [
+      0.32,
+      0.25,
+      30.0
+     ]
+    ],
+    "health": 47900.0,
+    "maxSpeed": 33.0,
+    "rudderTime": 20.8,
+    "speedCoef": 1.0,
+    "turningRadius": 920.0,
+    "visibilityCoefGKInSmoke": 1e-06,
+    "visibilityFactor": 12.24,
+    "visibilityFactorByPlane": 10.18
+   },
+   "A_TorpedoBomber": {
+    "planeType": "PAAB518_Saipan_stock"
+   }
+  },
+  "ShipAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY037_CrashCrewAuto",
+      "CV"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY038_FighterAuto",
+      "CV_USA_8"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "ShipUpgradeInfo": {
+   "PAUB711_TB_BLACK_SAIPAN": {
+    "canBuy": true,
+    "components": {
+     "torpedoBomber": [
+      "A_TorpedoBomber"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_TorpedoBomber"
+   },
+   "PAUD713_DB_BLACK_SAIPAN": {
+    "canBuy": true,
+    "components": {
+     "diveBomber": [
+      "A_DiveBomber"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_DiveBomber"
+   },
+   "PAUE722_ENG_BLACK_SAIPAN": {
+    "canBuy": true,
+    "components": {
+     "engine": [
+      "A_Engine"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Engine"
+   },
+   "PAUF714_FC_BLACK_SAIPAN": {
+    "canBuy": true,
+    "components": {
+     "flightControl": [
+      "A1_FlightControl"
+     ]
+    },
+    "nextShips": [],
+    "prepareTimeFactor": 0.5,
+    "prev": "",
+    "ucType": "_FlightControl"
+   },
+   "PAUH727_HULL_BLACK_SAIPAN": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [
+      "A1_AirArmament"
+     ],
+     "airDefense": [
+      "A_AirDefense"
+     ],
+     "artillery": [],
+     "atba": [],
+     "depthCharges": [],
+     "directors": [
+      "A_Directors"
+     ],
+     "finders": [],
+     "hull": [
+      "A_Hull"
+     ],
+     "pinger": [],
+     "radars": [
+      "A_Radars"
+     ],
+     "torpedoes": []
+    },
+    "disabledAbilities": [],
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Hull"
+   },
+   "PAUI708_F_BLACK_SAIPAN": {
+    "canBuy": true,
+    "components": {
+     "fighter": [
+      "A_Fighter"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Fighter"
+   },
+   "costCR": 0,
+   "costGold": 11000,
+   "costSaleGold": 0,
+   "costXP": 0,
+   "value": 1
+  },
+  "group": "special",
+  "id": 3667900400,
+  "index": "PASA598",
+  "level": 8,
+  "name": "PASA598_Black_Saipan",
+  "typeinfo": {
+   "nation": "USA",
+   "species": "AirCarrier",
    "type": "Ship"
   }
  },
@@ -26162,6 +26408,7 @@
     "visibilityFactorByPlane": 2.86
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -27045,9 +27292,9 @@
        "PAPA018_Main_127mm_HE_C_Mk_32"
       ],
       "barrelDiameter": 0.127,
-      "id": 4265011184,
-      "index": "PAGS028",
-      "name": "PAGS028_5in38_Mk29_Mod0",
+      "id": 4283885552,
+      "index": "PAGS010",
+      "name": "PAGS010_5in38_Mk32_Mod12",
       "numBarrels": 2,
       "rotationSpeed": [
        60.0,
@@ -27066,9 +27313,9 @@
        "PAPA018_Main_127mm_HE_C_Mk_32"
       ],
       "barrelDiameter": 0.127,
-      "id": 4265011184,
-      "index": "PAGS028",
-      "name": "PAGS028_5in38_Mk29_Mod0",
+      "id": 4283885552,
+      "index": "PAGS010",
+      "name": "PAGS010_5in38_Mk32_Mod12",
       "numBarrels": 2,
       "rotationSpeed": [
        60.0,
@@ -27087,9 +27334,9 @@
        "PAPA018_Main_127mm_HE_C_Mk_32"
       ],
       "barrelDiameter": 0.127,
-      "id": 4265011184,
-      "index": "PAGS028",
-      "name": "PAGS028_5in38_Mk29_Mod0",
+      "id": 4283885552,
+      "index": "PAGS010",
+      "name": "PAGS010_5in38_Mk32_Mod12",
       "numBarrels": 2,
       "rotationSpeed": [
        60.0,
@@ -27108,9 +27355,9 @@
        "PAPA018_Main_127mm_HE_C_Mk_32"
       ],
       "barrelDiameter": 0.127,
-      "id": 4265011184,
-      "index": "PAGS028",
-      "name": "PAGS028_5in38_Mk29_Mod0",
+      "id": 4283885552,
+      "index": "PAGS010",
+      "name": "PAGS010_5in38_Mk32_Mod12",
       "numBarrels": 2,
       "rotationSpeed": [
        60.0,
@@ -27129,9 +27376,9 @@
        "PAPA018_Main_127mm_HE_C_Mk_32"
       ],
       "barrelDiameter": 0.127,
-      "id": 4265011184,
-      "index": "PAGS028",
-      "name": "PAGS028_5in38_Mk29_Mod0",
+      "id": 4283885552,
+      "index": "PAGS010",
+      "name": "PAGS010_5in38_Mk32_Mod12",
       "numBarrels": 2,
       "rotationSpeed": [
        60.0,
@@ -27150,9 +27397,9 @@
        "PAPA018_Main_127mm_HE_C_Mk_32"
       ],
       "barrelDiameter": 0.127,
-      "id": 4265011184,
-      "index": "PAGS028",
-      "name": "PAGS028_5in38_Mk29_Mod0",
+      "id": 4283885552,
+      "index": "PAGS010",
+      "name": "PAGS010_5in38_Mk32_Mod12",
       "numBarrels": 2,
       "rotationSpeed": [
        60.0,
@@ -27171,9 +27418,9 @@
        "PAPA018_Main_127mm_HE_C_Mk_32"
       ],
       "barrelDiameter": 0.127,
-      "id": 4265011184,
-      "index": "PAGS028",
-      "name": "PAGS028_5in38_Mk29_Mod0",
+      "id": 4283885552,
+      "index": "PAGS010",
+      "name": "PAGS010_5in38_Mk32_Mod12",
       "numBarrels": 2,
       "rotationSpeed": [
        60.0,
@@ -27192,9 +27439,9 @@
        "PAPA018_Main_127mm_HE_C_Mk_32"
       ],
       "barrelDiameter": 0.127,
-      "id": 4265011184,
-      "index": "PAGS028",
-      "name": "PAGS028_5in38_Mk29_Mod0",
+      "id": 4283885552,
+      "index": "PAGS010",
+      "name": "PAGS010_5in38_Mk32_Mod12",
       "numBarrels": 2,
       "rotationSpeed": [
        60.0,
@@ -27213,9 +27460,9 @@
        "PAPA018_Main_127mm_HE_C_Mk_32"
       ],
       "barrelDiameter": 0.127,
-      "id": 4265011184,
-      "index": "PAGS028",
-      "name": "PAGS028_5in38_Mk29_Mod0",
+      "id": 4283885552,
+      "index": "PAGS010",
+      "name": "PAGS010_5in38_Mk32_Mod12",
       "numBarrels": 2,
       "rotationSpeed": [
        60.0,
@@ -27234,9 +27481,9 @@
        "PAPA018_Main_127mm_HE_C_Mk_32"
       ],
       "barrelDiameter": 0.127,
-      "id": 4265011184,
-      "index": "PAGS028",
-      "name": "PAGS028_5in38_Mk29_Mod0",
+      "id": 4283885552,
+      "index": "PAGS010",
+      "name": "PAGS010_5in38_Mk32_Mod12",
       "numBarrels": 2,
       "rotationSpeed": [
        60.0,
@@ -27255,9 +27502,9 @@
        "PAPA018_Main_127mm_HE_C_Mk_32"
       ],
       "barrelDiameter": 0.127,
-      "id": 4265011184,
-      "index": "PAGS028",
-      "name": "PAGS028_5in38_Mk29_Mod0",
+      "id": 4283885552,
+      "index": "PAGS010",
+      "name": "PAGS010_5in38_Mk32_Mod12",
       "numBarrels": 2,
       "rotationSpeed": [
        60.0,
@@ -27276,9 +27523,9 @@
        "PAPA018_Main_127mm_HE_C_Mk_32"
       ],
       "barrelDiameter": 0.127,
-      "id": 4265011184,
-      "index": "PAGS028",
-      "name": "PAGS028_5in38_Mk29_Mod0",
+      "id": 4283885552,
+      "index": "PAGS010",
+      "name": "PAGS010_5in38_Mk32_Mod12",
       "numBarrels": 2,
       "rotationSpeed": [
        60.0,
@@ -27297,9 +27544,9 @@
        "PAPA018_Main_127mm_HE_C_Mk_32"
       ],
       "barrelDiameter": 0.127,
-      "id": 4265011184,
-      "index": "PAGS028",
-      "name": "PAGS028_5in38_Mk29_Mod0",
+      "id": 4283885552,
+      "index": "PAGS010",
+      "name": "PAGS010_5in38_Mk32_Mod12",
       "numBarrels": 2,
       "rotationSpeed": [
        60.0,
@@ -27318,9 +27565,9 @@
        "PAPA018_Main_127mm_HE_C_Mk_32"
       ],
       "barrelDiameter": 0.127,
-      "id": 4265011184,
-      "index": "PAGS028",
-      "name": "PAGS028_5in38_Mk29_Mod0",
+      "id": 4283885552,
+      "index": "PAGS010",
+      "name": "PAGS010_5in38_Mk32_Mod12",
       "numBarrels": 2,
       "rotationSpeed": [
        60.0,
@@ -28019,7 +28266,7 @@
       }
      }
     },
-    "maxDist": 5000.0,
+    "maxDist": 4960.0,
     "sigmaCount": 1.0
    },
    "A_AirDefense": {
@@ -28196,7 +28443,7 @@
       }
      }
     },
-    "maxDist": 5000.0,
+    "maxDist": 4960.0,
     "sigmaCount": 1.0
    },
    "B_AirDefense": {
@@ -29119,6 +29366,7 @@
     "reloadTime": 40.0
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -29358,6 +29606,7 @@
     "taperDist": 4000.0
    },
    "B_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -34924,6 +35173,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -35396,6 +35646,7 @@
  {
   "ModulesArmaments": {
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -35635,6 +35886,7 @@
     "taperDist": 4000.0
    },
    "B_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -36091,6 +36343,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -36239,6 +36492,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB2_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -38986,6 +39240,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -39099,6 +39354,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB2_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -40996,6 +41252,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -41690,6 +41947,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -41768,6 +42026,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB2_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -42726,6 +42985,7 @@
     "reloadTime": 40.0
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -42965,6 +43225,7 @@
     "taperDist": 4000.0
    },
    "B_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -44615,11 +44876,12 @@
     "waveReloadTime": 10.0
    },
    "A_Torpedoes": {
-    "timeToChangeAmmo": 32.0,
+    "timeToChangeAmmo": 5.0,
     "torpedoArray": {
      "HP_AGT_01": {
       "ammoList": [
-       "PAPT043_Mk29_Sub"
+       "PAPT043_Mk29_Sub",
+       "PAPT044_Mk29_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -44654,7 +44916,8 @@
      },
      "HP_AGT_02": {
       "ammoList": [
-       "PAPT043_Mk29_Sub"
+       "PAPT043_Mk29_Sub",
+       "PAPT044_Mk29_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -44689,7 +44952,8 @@
      },
      "HP_AGT_03": {
       "ammoList": [
-       "PAPT043_Mk29_Sub"
+       "PAPT043_Mk29_Sub",
+       "PAPT044_Mk29_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -44724,7 +44988,8 @@
      },
      "HP_AGT_04": {
       "ammoList": [
-       "PAPT043_Mk29_Sub"
+       "PAPT043_Mk29_Sub",
+       "PAPT044_Mk29_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -44759,7 +45024,8 @@
      },
      "HP_AGT_05": {
       "ammoList": [
-       "PAPT043_Mk29_Sub"
+       "PAPT043_Mk29_Sub",
+       "PAPT044_Mk29_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -44794,7 +45060,8 @@
      },
      "HP_AGT_06": {
       "ammoList": [
-       "PAPT043_Mk29_Sub"
+       "PAPT043_Mk29_Sub",
+       "PAPT044_Mk29_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -44829,7 +45096,8 @@
      },
      "HP_AGT_07": {
       "ammoList": [
-       "PAPT043_Mk29_Sub"
+       "PAPT043_Mk29_Sub",
+       "PAPT044_Mk29_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -44864,7 +45132,8 @@
      },
      "HP_AGT_08": {
       "ammoList": [
-       "PAPT043_Mk29_Sub"
+       "PAPT043_Mk29_Sub",
+       "PAPT044_Mk29_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -44899,7 +45168,8 @@
      },
      "HP_AGT_09": {
       "ammoList": [
-       "PAPT043_Mk29_Sub"
+       "PAPT043_Mk29_Sub",
+       "PAPT044_Mk29_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -44934,7 +45204,8 @@
      },
      "HP_AGT_10": {
       "ammoList": [
-       "PAPT043_Mk29_Sub"
+       "PAPT043_Mk29_Sub",
+       "PAPT044_Mk29_Sub_Magnetic"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -46763,6 +47034,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -47385,6 +47657,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -47533,6 +47806,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB2_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -49604,7 +49878,7 @@
       }
      }
     },
-    "maxDist": 2500.0,
+    "maxDist": 3200.0,
     "sigmaCount": 1.0
    },
    "A_Hull_1908": {
@@ -50262,7 +50536,7 @@
       }
      }
     },
-    "maxDist": 2500.0,
+    "maxDist": 3200.0,
     "sigmaCount": 1.0
    },
    "B_AirDefense": {
@@ -50493,6 +50767,7 @@
  {
   "ModulesArmaments": {
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -50567,6 +50842,7 @@
     }
    },
    "A2_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -53478,7 +53754,7 @@
       }
      }
     },
-    "maxDist": 2000.0,
+    "maxDist": 3200.0,
     "sigmaCount": 1.0
    },
    "A_AirDefense": {
@@ -55432,6 +55708,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -55510,6 +55787,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB2_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -57068,6 +57346,539 @@
   "index": "PASC007",
   "level": 6,
   "name": "PASC007_Cleveland_1945",
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Cruiser",
+   "type": "Ship"
+  }
+ },
+ {
+  "BurstArtilleryModule": {
+   "burstReloadTime": 1.0,
+   "fullReloadTime": 40.0,
+   "modifiers": {},
+   "shotIntensity": 1.0,
+   "shotsCount": 3
+  },
+  "ModulesArmaments": {
+   "A_ATBA": {
+    "Far1": {
+     "areaDamage": 66.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.9,
+     "innerBubbleCount": 0.0,
+     "maxDistance": 6000.0,
+     "minDistance": 100.0,
+     "type": "far"
+    },
+    "Far1_Bubbles": {
+     "areaDamage": 0.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 260.0,
+     "hitChance": 0.9,
+     "innerBubbleCount": 6.0,
+     "maxDistance": 6000.0,
+     "minDistance": 3500.0,
+     "type": "far"
+    },
+    "antiAirAndSecondaries": {
+     "HP_AGS_1": {
+      "ammoList": [
+       "PAPA058_127mm_HE_HC_Mk41"
+      ],
+      "barrelDiameter": 0.127,
+      "id": 3726043120,
+      "index": "PAGS542",
+      "name": "PAGS542_5in54_Mark42",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "USA",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_AGS_2": {
+      "ammoList": [
+       "PAPA058_127mm_HE_HC_Mk41"
+      ],
+      "barrelDiameter": 0.127,
+      "id": 3726043120,
+      "index": "PAGS542",
+      "name": "PAGS542_5in54_Mark42",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "USA",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_AGS_3": {
+      "ammoList": [
+       "PAPA058_127mm_HE_HC_Mk41"
+      ],
+      "barrelDiameter": 0.127,
+      "id": 3726043120,
+      "index": "PAGS542",
+      "name": "PAGS542_5in54_Mark42",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "USA",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_AGS_4": {
+      "ammoList": [
+       "PAPA058_127mm_HE_HC_Mk41"
+      ],
+      "barrelDiameter": 0.127,
+      "id": 3726043120,
+      "index": "PAGS542",
+      "name": "PAGS542_5in54_Mark42",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "USA",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_AGS_5": {
+      "ammoList": [
+       "PAPA058_127mm_HE_HC_Mk41"
+      ],
+      "barrelDiameter": 0.127,
+      "id": 3726043120,
+      "index": "PAGS542",
+      "name": "PAGS542_5in54_Mark42",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "USA",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_AGS_6": {
+      "ammoList": [
+       "PAPA058_127mm_HE_HC_Mk41"
+      ],
+      "barrelDiameter": 0.127,
+      "id": 3726043120,
+      "index": "PAGS542",
+      "name": "PAGS542_5in54_Mark42",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "USA",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 7300.0,
+    "sigmaCount": 1.0
+   },
+   "A_AirDefense": {
+    "Far1": {
+     "areaDamage": 160.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.9,
+     "innerBubbleCount": 0,
+     "maxDistance": 4000.0,
+     "minDistance": 100.0,
+     "type": "medium"
+    },
+    "isAA": true
+   },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 6000,
+    "maxPlaneFlightDist": 3800,
+    "minDist": 500,
+    "planeName": "PAAD905_ASW_T10_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 2.0,
+    "timeFromHeaven": 2.0
+   },
+   "A_Artillery": {
+    "guns": {
+     "HP_AGM_1": {
+      "ammoList": [
+       "PAPA202_203MM_HE_MK_25_T11",
+       "PAPA203_203MM_AP_MK_21_T11"
+      ],
+      "barrelDiameter": 0.203,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -148.0,
+       148.0
+      ],
+      "id": 4268353520,
+      "idealDistance": 1000.0,
+      "idealRadius": 8,
+      "index": "PAGM025",
+      "minRadius": 1.1,
+      "name": "PAGM025_8in55_Triple_Mk16",
+      "numBarrels": 3.0,
+      "position": [
+       1.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       9.0,
+       8.2
+      ],
+      "shotDelay": 6.1,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "USA",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_AGM_2": {
+      "ammoList": [
+       "PAPA202_203MM_HE_MK_25_T11",
+       "PAPA203_203MM_AP_MK_21_T11"
+      ],
+      "barrelDiameter": 0.203,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -148.0,
+       148.0
+      ],
+      "id": 4268353520,
+      "idealDistance": 1000.0,
+      "idealRadius": 8,
+      "index": "PAGM025",
+      "minRadius": 1.1,
+      "name": "PAGM025_8in55_Triple_Mk16",
+      "numBarrels": 3.0,
+      "position": [
+       2.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       9.0,
+       8.2
+      ],
+      "shotDelay": 6.1,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "USA",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_AGM_3": {
+      "ammoList": [
+       "PAPA202_203MM_HE_MK_25_T11",
+       "PAPA203_203MM_AP_MK_21_T11"
+      ],
+      "barrelDiameter": 0.203,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -148.0,
+       148.0
+      ],
+      "id": 4268353520,
+      "idealDistance": 1000.0,
+      "idealRadius": 8,
+      "index": "PAGM025",
+      "minRadius": 1.1,
+      "name": "PAGM025_8in55_Triple_Mk16",
+      "numBarrels": 3.0,
+      "position": [
+       4.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       9.0,
+       8.2
+      ],
+      "shotDelay": 6.1,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "USA",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_AGM_4": {
+      "ammoList": [
+       "PAPA202_203MM_HE_MK_25_T11",
+       "PAPA203_203MM_AP_MK_21_T11"
+      ],
+      "barrelDiameter": 0.203,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -148.0,
+       148.0
+      ],
+      "id": 4268353520,
+      "idealDistance": 1000.0,
+      "idealRadius": 8,
+      "index": "PAGM025",
+      "minRadius": 1.1,
+      "name": "PAGM025_8in55_Triple_Mk16",
+      "numBarrels": 3.0,
+      "position": [
+       5.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       9.0,
+       8.2
+      ],
+      "shotDelay": 6.1,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "USA",
+       "species": "Main",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 16220.0,
+    "normalDistribution": true,
+    "sigmaCount": 2.05,
+    "taperDist": 4000.0
+   },
+   "A_Engine": {
+    "backwardEngineUpTime": 20.0,
+    "forwardEngineUpTime": 40.0,
+    "speedCoef": 0.0
+   },
+   "A_FireControl": {
+    "maxDistCoef": 1.0,
+    "sigmaCountCoef": 1.0
+   },
+   "A_Hull": {
+    "burnNodes": [
+     [
+      0.4339,
+      0.3,
+      30.0
+     ],
+     [
+      0.4339,
+      0.3,
+      30.0
+     ],
+     [
+      0.4339,
+      0.3,
+      30.0
+     ],
+     [
+      0.4339,
+      0.3,
+      30.0
+     ]
+    ],
+    "floodNodes": [
+     [
+      0.28,
+      0.25,
+      40.0
+     ],
+     [
+      0.28,
+      0.25,
+      40.0
+     ]
+    ],
+    "health": 56000.0,
+    "maxSpeed": 33.0,
+    "rudderTime": 11.5,
+    "speedCoef": 1.0,
+    "turningRadius": 860.0,
+    "visibilityCoefGKInSmoke": 8.3,
+    "visibilityFactor": 14.0,
+    "visibilityFactorByPlane": 9.61
+   }
+  },
+  "ShipAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY009_CrashCrewPremium",
+      "CV_CA_CL_Gold"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY011_AirDefenseDispPremium",
+      "US_Cruisers_Gold"
+     ],
+     [
+      "PCY016_SonarSearchPremium",
+      "C_8_10"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [
+     [
+      "PCY020_RLSSearchPremium",
+      "US_10_PREMIUM"
+     ]
+    ],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [
+     [
+      "PCY010_RegenCrewPremium",
+      "C_Gold"
+     ]
+    ],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "ShipUpgradeInfo": {
+   "PAUA932_ART_ANNAPOLIS": {
+    "canBuy": true,
+    "components": {
+     "artillery": [
+      "A_Artillery"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Artillery"
+   },
+   "PAUE931_ENG_ANNAPOLIS": {
+    "canBuy": true,
+    "components": {
+     "engine": [
+      "A_Engine"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Engine"
+   },
+   "PAUH932_ANNAPOLIS": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [
+      "A_AirArmament"
+     ],
+     "airDefense": [
+      "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
+     ],
+     "artillery": [
+      "A_Artillery"
+     ],
+     "atba": [
+      "A_ATBA"
+     ],
+     "depthCharges": [],
+     "directors": [
+      "A_Directors"
+     ],
+     "finders": [],
+     "hull": [
+      "A_Hull"
+     ],
+     "pinger": [],
+     "radars": [
+      "A_Radars"
+     ],
+     "torpedoes": []
+    },
+    "disabledAbilities": [],
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Hull"
+   },
+   "PAUS932_SUO_ANNAPOLIS": {
+    "canBuy": true,
+    "components": {
+     "fireControl": [
+      "A_FireControl"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Suo"
+   },
+   "costCR": 0,
+   "costGold": 0,
+   "costSaleGold": 0,
+   "costXP": 0,
+   "value": 1
+  },
+  "group": "legendaryBattle",
+  "id": 4178491376,
+  "index": "PASC111",
+  "level": 11,
+  "name": "PASC111_Annapolis",
   "typeinfo": {
    "nation": "USA",
    "species": "Cruiser",
@@ -59312,6 +60123,7 @@
     "visibilityFactorByPlane": 13.0
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -61826,6 +62638,7 @@
     "visibilityFactorByPlane": 5.35
    },
    "TorpedoesDefault": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -62149,7 +62962,7 @@
     "waveReloadTime": 10.0
    },
    "A_Torpedoes": {
-    "timeToChangeAmmo": 10.0,
+    "timeToChangeAmmo": 5.0,
     "torpedoArray": {
      "HP_AGT_01": {
       "ammoList": [
@@ -65561,6 +66374,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -67233,6 +68047,7 @@
     "visibilityFactorByPlane": 3.12
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -67724,6 +68539,7 @@
     "taperDist": 4000.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -68437,6 +69253,7 @@
     "taperDist": 4000.0
    },
    "B1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -69302,6 +70119,7 @@
     "taperDist": 4000.0
    },
    "C1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -70309,6 +71127,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -72402,7 +73221,7 @@
     "waveReloadTime": 7.5
    },
    "A_Torpedoes": {
-    "timeToChangeAmmo": 10.0,
+    "timeToChangeAmmo": 5.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -72768,7 +73587,7 @@
        6.0,
        6.0
       ],
-      "shotDelay": 12.0,
+      "shotDelay": 11.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "USA",
@@ -72806,7 +73625,7 @@
        6.0,
        6.0
       ],
-      "shotDelay": 12.0,
+      "shotDelay": 11.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "USA",
@@ -72844,7 +73663,7 @@
        6.0,
        6.0
       ],
-      "shotDelay": 12.0,
+      "shotDelay": 11.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "USA",
@@ -72882,7 +73701,7 @@
        6.0,
        6.0
       ],
-      "shotDelay": 12.0,
+      "shotDelay": 11.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "USA",
@@ -79572,7 +80391,7 @@
        6.0,
        8.2
       ],
-      "shotDelay": 5.5,
+      "shotDelay": 5.8,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "USA",
@@ -79610,7 +80429,7 @@
        6.0,
        8.2
       ],
-      "shotDelay": 5.5,
+      "shotDelay": 5.8,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "USA",
@@ -79648,7 +80467,7 @@
        6.0,
        8.2
       ],
-      "shotDelay": 5.5,
+      "shotDelay": 5.8,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "USA",
@@ -79839,7 +80658,7 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "special",
   "id": 3750672368,
   "index": "PASC519",
   "level": 9,
@@ -81257,6 +82076,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [
@@ -82707,6 +83527,50 @@
        "species": "DCharge",
        "type": "Gun"
       }
+     },
+     "HP_AGB_7": {
+      "ammoList": [
+       "PAPD002_mk6"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4098844656,
+      "index": "PAGB187",
+      "name": "PAGB187_Depth_Charge_Roller_Track",
+      "numBombs": 3,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "USA",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_AGB_8": {
+      "ammoList": [
+       "PAPD002_mk6"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4086261744,
+      "index": "PAGB199",
+      "name": "PAGB199_Depth_Charge_Roller_Track_R",
+      "numBombs": 3,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "USA",
+       "species": "DCharge",
+       "type": "Gun"
+      }
      }
     },
     "maxPacks": 2,
@@ -82766,6 +83630,7 @@
     "visibilityFactorByPlane": 7.41
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_AGT_1": {
       "ammoList": [

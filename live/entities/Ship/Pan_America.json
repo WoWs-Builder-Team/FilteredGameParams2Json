@@ -1909,7 +1909,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small_2.xml"
+      "particles/vehicles/WakeTraceReverce_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -1918,32 +1918,32 @@
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceReverce_screw_small_2.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small_2.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_small_2.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    },
@@ -2079,10 +2079,10 @@
    "visibilityFactorByPlane": 2.69,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 2.69,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 2.69,
-    "SEMI_DEEP_WATER": 2.69,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },
@@ -2321,6 +2321,7 @@
      1.0
     ]
    },
+   "timeToChangeAmmo": 10.0,
    "useGroups": false,
    "useOneShot": true
   },
@@ -2940,7 +2941,7 @@
     ]
    },
    "artificialOffset": 0,
-   "maxDist": 2000.0,
+   "maxDist": 3200.0,
    "minDistH": 50.0,
    "minDistV": 110.0,
    "sigmaCount": 1.0,
@@ -5222,7 +5223,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small.xml"
+      "particles/vehicles/WakeTraceReverce_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -5231,32 +5232,32 @@
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceReverce_screw_small.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    },
@@ -5392,10 +5393,10 @@
    "visibilityFactorByPlane": 3.31,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 3.31,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 3.31,
-    "SEMI_DEEP_WATER": 3.31,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },
@@ -10219,7 +10220,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_medium_2.xml"
+      "particles/vehicles/WakeTraceReverce_back_wide_1.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -10236,40 +10237,48 @@
      [
       "HP_FX_WakeTrace_screw_4",
       "particles/vehicles/WakeTraceReverce_screw_medium.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_medium_2.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_medium.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_medium.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_center.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_medium.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_3",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_3",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_4",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_medium_2.xml"
+      "HP_FX_WakeTrace_screw_4",
+      "particles/vehicles/WakeTraceForward_screw_right_center.xml"
      ]
     ]
    },
@@ -10405,10 +10414,10 @@
    "visibilityFactorByPlane": 6.05,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 6.05,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 6.05,
-    "SEMI_DEEP_WATER": 6.05,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },

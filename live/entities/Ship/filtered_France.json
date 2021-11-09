@@ -2018,6 +2018,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -2706,6 +2707,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -3656,6 +3658,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -4591,6 +4594,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -5216,6 +5220,7 @@
     "visibilityFactorByPlane": 7.16
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -6212,8 +6217,8 @@
    },
    "A_FlightControl": {
     "squadrons": [
-     "Skip",
-     "Dive"
+     "Dive",
+     "Skip"
     ]
    },
    "A_Hull": {
@@ -6381,7 +6386,7 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "special",
   "id": 3764369232,
   "index": "PFSA506",
   "level": 6,
@@ -6526,6 +6531,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -7071,6 +7077,7 @@
     "visibilityFactorByPlane": 2.49
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -7202,6 +7209,7 @@
     "visibilityFactorByPlane": 2.49
    },
    "B_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -8073,6 +8081,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -9246,6 +9255,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -9764,6 +9774,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -11128,6 +11139,7 @@
     "visibilityFactorByPlane": 4.59
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -12097,6 +12109,641 @@
   }
  },
  {
+  "BurstArtilleryModule": {
+   "burstReloadTime": 1.5,
+   "fullReloadTime": 50.0,
+   "modifiers": {
+    "GMIdealRadius": 0.6,
+    "penetrationCoeffHE": 1.25
+   },
+   "shotIntensity": 1.0,
+   "shotsCount": 2
+  },
+  "ModulesArmaments": {
+   "A_ATBA": {
+    "AuraFar": {
+     "areaDamage": 42.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.9,
+     "innerBubbleCount": 0.0,
+     "maxDistance": 6000.0,
+     "minDistance": 100.0,
+     "type": "far"
+    },
+    "AuraFar_Bubbles": {
+     "areaDamage": 0.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 240.0,
+     "hitChance": 0.9,
+     "innerBubbleCount": 5.0,
+     "maxDistance": 6000.0,
+     "minDistance": 3500.0,
+     "type": "far"
+    },
+    "antiAirAndSecondaries": {
+     "HP_FGS_1": {
+      "ammoList": [
+       "PFPA018_127MM_54_1948_HE"
+      ],
+      "barrelDiameter": 0.127,
+      "id": 4256622416,
+      "index": "PFGS036",
+      "name": "PFGS036_127mm_54_5_1948",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "France",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_FGS_2": {
+      "ammoList": [
+       "PFPA018_127MM_54_1948_HE"
+      ],
+      "barrelDiameter": 0.127,
+      "id": 4256622416,
+      "index": "PFGS036",
+      "name": "PFGS036_127mm_54_5_1948",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "France",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_FGS_3": {
+      "ammoList": [
+       "PFPA018_127MM_54_1948_HE"
+      ],
+      "barrelDiameter": 0.127,
+      "id": 4256622416,
+      "index": "PFGS036",
+      "name": "PFGS036_127mm_54_5_1948",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "France",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_FGS_4": {
+      "ammoList": [
+       "PFPA018_127MM_54_1948_HE"
+      ],
+      "barrelDiameter": 0.127,
+      "id": 4256622416,
+      "index": "PFGS036",
+      "name": "PFGS036_127mm_54_5_1948",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "France",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_FGS_5": {
+      "ammoList": [
+       "PFPA018_127MM_54_1948_HE"
+      ],
+      "barrelDiameter": 0.127,
+      "id": 4256622416,
+      "index": "PFGS036",
+      "name": "PFGS036_127mm_54_5_1948",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "France",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_FGS_6": {
+      "ammoList": [
+       "PFPA018_127MM_54_1948_HE"
+      ],
+      "barrelDiameter": 0.127,
+      "id": 4256622416,
+      "index": "PFGS036",
+      "name": "PFGS036_127mm_54_5_1948",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "France",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_FGS_7": {
+      "ammoList": [
+       "PFPA018_127MM_54_1948_HE"
+      ],
+      "barrelDiameter": 0.127,
+      "id": 4256622416,
+      "index": "PFGS036",
+      "name": "PFGS036_127mm_54_5_1948",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "France",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_FGS_8": {
+      "ammoList": [
+       "PFPA018_127MM_54_1948_HE"
+      ],
+      "barrelDiameter": 0.127,
+      "id": 4256622416,
+      "index": "PFGS036",
+      "name": "PFGS036_127mm_54_5_1948",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 4.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "France",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 8300.0,
+    "sigmaCount": 1.0
+   },
+   "A_AirDefense": {
+    "AuraMedium": {
+     "areaDamage": 98.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.9,
+     "innerBubbleCount": 0,
+     "maxDistance": 3800.0,
+     "minDistance": 100.0,
+     "type": "medium"
+    },
+    "isAA": true
+   },
+   "A_AirSupport": {
+    "chargesNum": 2,
+    "flyAwayTime": 5.0,
+    "maxDist": 6000,
+    "maxPlaneFlightDist": 3800,
+    "minDist": 500,
+    "planeName": "PAAD905_ASW_T10_ALT",
+    "reloadTime": 90,
+    "timeBetweenShots": 0.1,
+    "timeFromHeaven": 2.0
+   },
+   "A_Artillery": {
+    "guns": {
+     "HP_FGM_1": {
+      "ammoList": [
+       "PFPA080_240MM_55_HE_T11",
+       "PFPA081_240MM_55_AP_T11"
+      ],
+      "barrelDiameter": 0.24,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -146.0,
+       146.0
+      ],
+      "id": 4201244496,
+      "idealDistance": 1000.0,
+      "idealRadius": 8,
+      "index": "PFGM089",
+      "minRadius": 1.1,
+      "name": "PFGM089_240mm_50_4",
+      "numBarrels": 4,
+      "position": [
+       0.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       5.5,
+       10.0
+      ],
+      "shotDelay": 15.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "France",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_FGM_2": {
+      "ammoList": [
+       "PFPA080_240MM_55_HE_T11",
+       "PFPA081_240MM_55_AP_T11"
+      ],
+      "barrelDiameter": 0.24,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -146.0,
+       146.0
+      ],
+      "id": 4201244496,
+      "idealDistance": 1000.0,
+      "idealRadius": 8,
+      "index": "PFGM089",
+      "minRadius": 1.1,
+      "name": "PFGM089_240mm_50_4",
+      "numBarrels": 4,
+      "position": [
+       1.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       5.5,
+       10.0
+      ],
+      "shotDelay": 15.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "France",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_FGM_3": {
+      "ammoList": [
+       "PFPA080_240MM_55_HE_T11",
+       "PFPA081_240MM_55_AP_T11"
+      ],
+      "barrelDiameter": 0.24,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -146.0,
+       146.0
+      ],
+      "id": 4201244496,
+      "idealDistance": 1000.0,
+      "idealRadius": 8,
+      "index": "PFGM089",
+      "minRadius": 1.1,
+      "name": "PFGM089_240mm_50_4",
+      "numBarrels": 4,
+      "position": [
+       5.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       5.5,
+       10.0
+      ],
+      "shotDelay": 15.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "France",
+       "species": "Main",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 19500.0,
+    "normalDistribution": true,
+    "sigmaCount": 2.05,
+    "taperDist": 4000.0
+   },
+   "A_Engine": {
+    "backwardEngineUpTime": 20.0,
+    "forwardEngineUpTime": 40.0,
+    "speedCoef": 0.0
+   },
+   "A_FireControl": {
+    "maxDistCoef": 1.0,
+    "sigmaCountCoef": 1.0
+   },
+   "A_Hull": {
+    "burnNodes": [
+     [
+      0.4339,
+      0.3,
+      30.0
+     ],
+     [
+      0.4339,
+      0.3,
+      30.0
+     ],
+     [
+      0.4339,
+      0.3,
+      30.0
+     ],
+     [
+      0.4339,
+      0.3,
+      30.0
+     ]
+    ],
+    "floodNodes": [
+     [
+      0.27,
+      0.25,
+      40.0
+     ],
+     [
+      0.27,
+      0.25,
+      40.0
+     ]
+    ],
+    "health": 63000.0,
+    "maxSpeed": 34.5,
+    "rudderTime": 16.82,
+    "speedCoef": 1.0,
+    "turningRadius": 900.0,
+    "visibilityCoefGKInSmoke": 11.59,
+    "visibilityFactor": 16.6,
+    "visibilityFactorByPlane": 9.89
+   },
+   "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
+    "torpedoArray": {
+     "HP_FGT_1": {
+      "ammoList": [
+       "PFPT019_550_T11"
+      ],
+      "barrelDiameter": 0.55,
+      "canRotate": true,
+      "deadZone": [
+       [
+        -21.0,
+        0.0
+       ]
+      ],
+      "horizSector": [
+       -155.0,
+       0.0
+      ],
+      "id": 4154877776,
+      "index": "PFGT133",
+      "name": "PFGT133_550mm_4tube_L",
+      "numBarrels": 4,
+      "rotationSpeed": [
+       25.0,
+       25.0
+      ],
+      "shotDelay": 110.0,
+      "torpedoAngles": [
+       4.8,
+       16.0
+      ],
+      "typeinfo": {
+       "nation": "France",
+       "species": "Torpedo",
+       "type": "Gun"
+      }
+     },
+     "HP_FGT_2": {
+      "ammoList": [
+       "PFPT019_550_T11"
+      ],
+      "barrelDiameter": 0.55,
+      "canRotate": true,
+      "deadZone": [
+       [
+        0.0,
+        21.0
+       ]
+      ],
+      "horizSector": [
+       0.0,
+       155.0
+      ],
+      "id": 4198917968,
+      "index": "PFGT091",
+      "name": "PFGT091_550mm_4tube_R",
+      "numBarrels": 4,
+      "rotationSpeed": [
+       25.0,
+       25.0
+      ],
+      "shotDelay": 110.0,
+      "torpedoAngles": [
+       4.8,
+       16.0
+      ],
+      "typeinfo": {
+       "nation": "France",
+       "species": "Torpedo",
+       "type": "Gun"
+      }
+     }
+    }
+   }
+  },
+  "ShipAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY009_CrashCrewPremium",
+      "CV_CA_CL_Gold"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY011_AirDefenseDispPremium",
+      "Default_Gold"
+     ],
+     [
+      "PCY016_SonarSearchPremium",
+      "C_8_10"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [
+     [
+      "PCY015_SpeedBoosterPremium",
+      "FR_CR_8_9_10_PREM"
+     ]
+    ],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [
+     [
+      "PCY010_RegenCrewPremium",
+      "C_Gold"
+     ]
+    ],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [
+     [
+      "PCY022_ArtilleryBoosterPremium",
+      "FR_CR_9_10_Gold"
+     ]
+    ],
+    "slot": 4
+   }
+  },
+  "ShipUpgradeInfo": {
+   "PFUA930_C11_ART_STOCK": {
+    "canBuy": true,
+    "components": {
+     "artillery": [
+      "A_Artillery"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Artillery"
+   },
+   "PFUE930_C11_ENG_STOCK": {
+    "canBuy": true,
+    "components": {
+     "engine": [
+      "A_Engine"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Engine"
+   },
+   "PFUH930_C11_HULL_STOCK": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [
+      "A_AirArmament"
+     ],
+     "airDefense": [
+      "A_AirDefense"
+     ],
+     "airSupport": [
+      "A_AirSupport"
+     ],
+     "artillery": [
+      "A_Artillery"
+     ],
+     "atba": [
+      "A_ATBA"
+     ],
+     "depthCharges": [],
+     "directors": [
+      "A_Directors"
+     ],
+     "finders": [
+      "A_Finders"
+     ],
+     "hull": [
+      "A_Hull"
+     ],
+     "pinger": [],
+     "radars": [
+      "A_Radars"
+     ],
+     "torpedoes": [
+      "A_Torpedoes"
+     ]
+    },
+    "disabledAbilities": [],
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Hull"
+   },
+   "PFUS930_C11_SUO_STOCK": {
+    "canBuy": true,
+    "components": {
+     "fireControl": [
+      "A_FireControl"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Suo"
+   },
+   "PFUT930_C11_TORP_STOCK": {
+    "canBuy": true,
+    "components": {
+     "torpedoes": [
+      "A_Torpedoes"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Torpedoes"
+   },
+   "costCR": 1,
+   "costGold": 0,
+   "costSaleGold": 0,
+   "costXP": 1,
+   "value": 1
+  },
+  "group": "legendaryBattle",
+  "id": 4178491216,
+  "index": "PFSC111",
+  "level": 11,
+  "name": "PFSC111_Conde",
+  "typeinfo": {
+   "nation": "France",
+   "species": "Cruiser",
+   "type": "Ship"
+  }
+ },
+ {
   "ModulesArmaments": {
    "A1_Artillery": {
     "guns": {
@@ -12263,6 +12910,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -12907,6 +13555,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -14122,6 +14771,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -15677,6 +16327,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -16935,6 +17586,7 @@
     "visibilityFactorByPlane": 3.51
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -17111,6 +17763,7 @@
     "visibilityFactorByPlane": 3.51
    },
    "B_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -18691,6 +19344,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -19377,6 +20031,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -21798,6 +22453,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -22665,6 +23321,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -24387,6 +25044,7 @@
     "sigmaCountCoef": 1.0
    },
    "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -25053,6 +25711,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -26000,7 +26659,7 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "disabled",
+  "group": "special",
   "id": 3669964624,
   "index": "PFSB596",
   "level": 6,
@@ -26178,6 +26837,7 @@
     "sigmaCountCoef": 1.0
    },
    "AB1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -32459,6 +33119,7 @@
     "visibilityFactorByPlane": 2.7
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -32691,6 +33352,7 @@
     "speedCoef": 0.0
    },
    "AB_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
@@ -33840,6 +34502,7 @@
     "visibilityFactorByPlane": 4.84
    },
    "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_FGT_1": {
       "ammoList": [
