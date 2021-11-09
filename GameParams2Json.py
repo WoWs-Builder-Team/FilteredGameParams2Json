@@ -5,9 +5,13 @@ import pickle
 import json
 import copy
 import argparse
+import logging
 from filters import *
 from concurrent.futures import ThreadPoolExecutor
 from os import path
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 __location__ = os.path.realpath(
     os.path.join(os.getcwd(), os.path.dirname(__file__)))
@@ -40,7 +44,7 @@ class GPEncode(json.JSONEncoder):
 def write_entities(data):
     _key, _value, do_filter, is_pt = data
 
-    print(f"Processing {_key}.")
+    logger.info(f"Processing {_key}.")
 
     if is_pt:
         _ent_dir = os.path.join(__location__, "pts", "entities", _key)
@@ -51,7 +55,7 @@ def write_entities(data):
         try:
             os.makedirs(_ent_dir)
         except OSError:
-            print("Error at creating directories for the entities.")
+            logger.error("Error at creating directories for the entities.")
             exit()
 
     data = {}
@@ -91,7 +95,7 @@ def write_entities(data):
             with open(os.path.join(_ent_dir, f"filtered_{k}.json"), "w") as ff:
                 json.dump(v, ff, indent=1, cls=GPEncode, sort_keys=True)
 
-    print(f"Processing {_key}. Done.")
+    logger.info(f"Processing {_key}. Done.")
 
 
 if __name__ == '__main__':
@@ -104,7 +108,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     if not path.isfile(args.path):
-        print("Invalid GameParams.data file path.")
+        logger.error("Invalid GameParams.data file path.")
         exit(-1)
 
     with open(args.path, "rb") as f:
@@ -126,4 +130,4 @@ if __name__ == '__main__':
     with ThreadPoolExecutor() as tpe:
         list(tpe.map(write_entities, [(k, v, args.filter, args.pts) for k, v in entity_types.items()]))
 
-    print("Done.")
+    logger.info('Done.')
