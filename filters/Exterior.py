@@ -1,4 +1,4 @@
-EXTERIOR_KEYS = ["camouflage", "modifiers", "sortOrder", "restrictions"]
+EXTERIOR_KEYS = ["camouflage", "modifiers", "sortOrder", "restrictions", "group"]
 COMMON_KEYS = ['id', 'typeinfo', 'name', 'index']
 
 
