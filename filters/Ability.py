@@ -12,7 +12,7 @@ CONSUMABLE_KEYS = ["artilleryDistCoeff", "regenerationHPSpeed", "regenerationRat
                    "timeDelayAttack", "timeWaitDelayAttack", "distShip", "backwardEngineForsag", "forwardEngineForsag",
                    "forwardEngineForsagMaxSpeed", "backwardEngineForsagMaxSpeed", "lifeTime", "radius", "speedLimit",
                    "workTime", "distTorpedo", "boostCoeff", "buoyancyRudderResetTimeCoeff", "buoyancyRudderTimeCoeff",
-                   "maxBuoyancySpeedCoeff", "underwaterMaxRudderAngleCoeff", "numConsumables", "reloadTime", "workTime",
+                   "maxBuoyancySpeedCoeff", "timeFromHeaven", "underwaterMaxRudderAngleCoeff", "numConsumables", "reloadTime", "workTime",
                    "iconIDs", "descIDs", "group"]
 COMMON_KEYS = ['id', 'typeinfo', 'name', 'index']
 
