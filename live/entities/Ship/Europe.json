@@ -1,5 +1,3275 @@
 [
  {
+  "AB1_FireControl": {
+   "maxDistCoef": 1.0,
+   "sigmaCountCoef": 1.0
+  },
+  "AB2_FireControl": {
+   "maxDistCoef": 1.1,
+   "sigmaCountCoef": 1.0
+  },
+  "AB_Engine": {
+   "HitLocationEngine": {
+    "antiRamCoeff": 1.0,
+    "armorCoeff": 0.8,
+    "autoRepairTime": 60,
+    "autoRepairTimeMin": 60,
+    "buoyancyShipPercent": 0.0,
+    "burnNode": "",
+    "canBeDestroyed": false,
+    "critProb": [
+     0.25,
+     0.1
+    ],
+    "critProbHP": [
+     1.0,
+     0.0
+    ],
+    "damageEffects": [
+     [
+      0.1,
+      ""
+     ],
+     [
+      0.3,
+      ""
+     ],
+     [
+      0.6,
+      ""
+     ]
+    ],
+    "deathEffects": [
+     "/",
+     "/"
+    ],
+    "detonateEffect": "particles/vehicles/Battleship_death.xml",
+    "detonateOnDead": false,
+    "hitDetonationMaxProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hitDetonationMinProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hlType": "engine_hitlocation",
+    "maxBuoyancy": 0.0,
+    "maxHP": 8100.0,
+    "moduleCritCoeffCR": 1.0,
+    "moduleCritCoeffXP": 1.0,
+    "parentHL": null,
+    "ramCoeff": 1.0,
+    "ramExtraDamage": 0.0,
+    "regeneratedHPPart": 0.5,
+    "rndPartHP": 0.0,
+    "splashBoxes": [
+     "CM_SB_engine_1_1",
+     "CM_SB_engine_1_2"
+    ],
+    "tbSkipProbMax": 0.0,
+    "tbSkipProbMin": 0.0,
+    "transmitHPDamageToParentFactor": 1.0,
+    "volume": 10.0,
+    "volumeCoeff": 1.0
+   },
+   "backwardEngineForsag": 2.5,
+   "backwardEngineForsagMaxSpeed": 2.5,
+   "backwardEngineUpTime": 10.0,
+   "backwardSpeedOnFlood": -0.6,
+   "damagedEnginePowerMultiplier": -0.6,
+   "damagedEnginePowerTimeMultiplier": 6.5,
+   "engineType": "SteamTurbine",
+   "forwardEngineForsag": 2.5,
+   "forwardEngineForsagMaxSpeed": 2.5,
+   "forwardEngineUpTime": 20.0,
+   "forwardSpeedOnFlood": -0.3,
+   "histEnginePower": 20500,
+   "sound": "GameLogic.Engines.Battleship.Turbine.Type_1",
+   "speedCoef": 0.0
+  },
+  "AIParams": {
+   "default_distance": 0,
+   "max_distance": 0,
+   "min_distance": 0
+  },
+  "A_Artillery": {
+   "HP_WGM_1": {
+    "HitLocationArtillery": {
+     "antiRamCoeff": 1.0,
+     "armorCoeff": 0.8,
+     "autoRepairTime": 30,
+     "autoRepairTimeMin": 25,
+     "buoyancyShipPercent": 0.0,
+     "burnNode": "",
+     "canBeDestroyed": true,
+     "critProb": [
+      0.05,
+      0.75
+     ],
+     "critProbHP": [
+      1.0,
+      0.02
+     ],
+     "damageEffects": [],
+     "deathEffects": [
+      "/",
+      "/"
+     ],
+     "detonateEffect": "particles/vehicles/Battleship_death.xml",
+     "detonateOnDead": false,
+     "hitDetonationMaxProbAtDamage": [
+      0.0,
+      0.0
+     ],
+     "hitDetonationMinProbAtDamage": [
+      0.0,
+      0.0
+     ],
+     "hlType": "artillery_hitlocation",
+     "maxBuoyancy": 0.0,
+     "maxHP": 2000.0,
+     "moduleCritCoeffCR": 1.0,
+     "moduleCritCoeffXP": 1.0,
+     "parentHL": null,
+     "ramCoeff": 1.0,
+     "ramExtraDamage": 0.0,
+     "regeneratedHPPart": 1.0,
+     "rndPartHP": 0.0,
+     "splashBoxes": [],
+     "tbSkipProbMax": 0.0,
+     "tbSkipProbMin": 0.0,
+     "transmitHPDamageToParentFactor": 1.0,
+     "volume": 0.5,
+     "volumeCoeff": 0.1
+    },
+    "aiMGmaxEllipseRanging": 4.0,
+    "aiMGmedEllipseRanging": 3.7,
+    "aiMGminEllipseRanging": 3.5,
+    "ammoList": [
+     "PWPA014_100MM_HE_50_K11",
+     "PWPA015_100MM_AP_50_K11"
+    ],
+    "antiAirAuraDistance": 0.0,
+    "antiAirAuraStrength": 0.0,
+    "armor": {
+     "65580": 6.0
+    },
+    "barrelDiameter": 0.1,
+    "coeffPerSecondMin": 0.3,
+    "customMiscs": {},
+    "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+    "deadMesh": "content/gameplay/europe/gun/main/WGM009_100mm50_K10_Skoda/WGM009_100mm50_K10_Skoda_dead.model",
+    "deadZone": [],
+    "delim": 0.5,
+    "effectIntensityModifier": 1.0,
+    "ellipseRangeMax": 250.0,
+    "ellipseRangeMin": 50.0,
+    "horizSector": [
+     -145.0,
+     145.0
+    ],
+    "id": 4285130032,
+    "idealDistance": 1000.0,
+    "idealRadius": 8,
+    "index": "PWGM009",
+    "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+    "maxEllipseRanging": 1.003,
+    "medEllipseRanging": 1.002,
+    "minEllipseRanging": 1.001,
+    "minRadius": 0.5,
+    "miscFilter": [],
+    "miscFilterMode": false,
+    "model": "content/gameplay/europe/gun/main/WGM009_100mm50_K10_Skoda/WGM009_100mm50_K10_Skoda.model",
+    "name": "PWGM009_100mm50_K10_Skoda",
+    "numBarrels": 1,
+    "onMoveTarPosCoeffDelim": 1.001,
+    "onMoveTarPosCoeffMaxDist": 1.002,
+    "onMoveTarPosCoeffZero": 1.0,
+    "onMoveTarPosDelim": 0.1,
+    "pitchDeadZones": [],
+    "position": [
+     0.0,
+     1.0
+    ],
+    "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+    "radiusOnDelim": 0.5,
+    "radiusOnMax": 0.6,
+    "radiusOnZero": 0.2,
+    "reduceTime": 0.1,
+    "reloadBoostEffect": "particles/guns/GK_Reload_50to110.xml",
+    "rotationSpeed": [
+     10.0,
+     10.0
+    ],
+    "shotDelay": 4.5,
+    "shotEffect": "particles/guns/GK_Shot_50to110.xml",
+    "smallGun": null,
+    "smokePenalty": 0.0001,
+    "typeinfo": {
+     "nation": "Europe",
+     "species": "Main",
+     "type": "Gun"
+    },
+    "vertSector": [
+     -2.0,
+     16.0
+    ]
+   },
+   "HP_WGM_2": {
+    "HitLocationArtillery": {
+     "antiRamCoeff": 1.0,
+     "armorCoeff": 0.8,
+     "autoRepairTime": 30,
+     "autoRepairTimeMin": 25,
+     "buoyancyShipPercent": 0.0,
+     "burnNode": "",
+     "canBeDestroyed": true,
+     "critProb": [
+      0.05,
+      0.75
+     ],
+     "critProbHP": [
+      1.0,
+      0.02
+     ],
+     "damageEffects": [],
+     "deathEffects": [
+      "/",
+      "/"
+     ],
+     "detonateEffect": "particles/vehicles/Battleship_death.xml",
+     "detonateOnDead": false,
+     "hitDetonationMaxProbAtDamage": [
+      0.0,
+      0.0
+     ],
+     "hitDetonationMinProbAtDamage": [
+      0.0,
+      0.0
+     ],
+     "hlType": "artillery_hitlocation",
+     "maxBuoyancy": 0.0,
+     "maxHP": 2000.0,
+     "moduleCritCoeffCR": 1.0,
+     "moduleCritCoeffXP": 1.0,
+     "parentHL": null,
+     "ramCoeff": 1.0,
+     "ramExtraDamage": 0.0,
+     "regeneratedHPPart": 1.0,
+     "rndPartHP": 0.0,
+     "splashBoxes": [],
+     "tbSkipProbMax": 0.0,
+     "tbSkipProbMin": 0.0,
+     "transmitHPDamageToParentFactor": 1.0,
+     "volume": 0.5,
+     "volumeCoeff": 0.1
+    },
+    "aiMGmaxEllipseRanging": 4.0,
+    "aiMGmedEllipseRanging": 3.7,
+    "aiMGminEllipseRanging": 3.5,
+    "ammoList": [
+     "PWPA014_100MM_HE_50_K11",
+     "PWPA015_100MM_AP_50_K11"
+    ],
+    "antiAirAuraDistance": 0.0,
+    "antiAirAuraStrength": 0.0,
+    "armor": {
+     "65580": 6.0
+    },
+    "barrelDiameter": 0.1,
+    "coeffPerSecondMin": 0.3,
+    "customMiscs": {},
+    "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+    "deadMesh": "content/gameplay/europe/gun/main/WGM009_100mm50_K10_Skoda/WGM009_100mm50_K10_Skoda_dead.model",
+    "deadZone": [],
+    "delim": 0.5,
+    "effectIntensityModifier": 1.0,
+    "ellipseRangeMax": 250.0,
+    "ellipseRangeMin": 50.0,
+    "horizSector": [
+     -150.0,
+     150.0
+    ],
+    "id": 4285130032,
+    "idealDistance": 1000.0,
+    "idealRadius": 8,
+    "index": "PWGM009",
+    "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+    "maxEllipseRanging": 1.003,
+    "medEllipseRanging": 1.002,
+    "minEllipseRanging": 1.001,
+    "minRadius": 0.5,
+    "miscFilter": [],
+    "miscFilterMode": false,
+    "model": "content/gameplay/europe/gun/main/WGM009_100mm50_K10_Skoda/WGM009_100mm50_K10_Skoda.model",
+    "name": "PWGM009_100mm50_K10_Skoda",
+    "numBarrels": 1,
+    "onMoveTarPosCoeffDelim": 1.001,
+    "onMoveTarPosCoeffMaxDist": 1.002,
+    "onMoveTarPosCoeffZero": 1.0,
+    "onMoveTarPosDelim": 0.1,
+    "pitchDeadZones": [],
+    "position": [
+     6.0,
+     1.0
+    ],
+    "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+    "radiusOnDelim": 0.5,
+    "radiusOnMax": 0.6,
+    "radiusOnZero": 0.2,
+    "reduceTime": 0.1,
+    "reloadBoostEffect": "particles/guns/GK_Reload_50to110.xml",
+    "rotationSpeed": [
+     10.0,
+     10.0
+    ],
+    "shotDelay": 4.5,
+    "shotEffect": "particles/guns/GK_Shot_50to110.xml",
+    "smallGun": null,
+    "smokePenalty": 0.0001,
+    "typeinfo": {
+     "nation": "Europe",
+     "species": "Main",
+     "type": "Gun"
+    },
+    "vertSector": [
+     -2.0,
+     16.0
+    ]
+   },
+   "ammoPool": {
+    "AP": 99999,
+    "CS": 99999,
+    "HE": 99999,
+    "axisLaser": 99999,
+    "chargeLaser": 99999,
+    "impulseLaser": 99999
+   },
+   "artificialOffset": 0,
+   "maxDist": 8300.0,
+   "minDistH": 50.0,
+   "minDistV": 110.0,
+   "normalDistribution": true,
+   "sigmaCount": 2.0,
+   "taperDist": 4000.0,
+   "targetTypeIgnore": [],
+   "targetWeightAllyAttacker": 1.0,
+   "targetWeightDist": 1.0,
+   "targetWeightHealth": 1.0,
+   "targetWeightIncoming": 10.0,
+   "targetWeightMaxDist": 2.0,
+   "targetWeightMaxHealth": 1.0,
+   "targetWeightMinDist": 10.0,
+   "targetWeightMinHealth": 5.0,
+   "targetWeightMyAttacker": 1.0,
+   "targetWeightOutcoming": 0.1,
+   "targetWeightType": 1.0,
+   "targetWeightTypeTable": {
+    "AirCarrier": [
+     6.0,
+     6.0,
+     6.0
+    ],
+    "Auxiliary": [
+     6.0,
+     6.0,
+     6.0
+    ],
+    "Battleship": [
+     3.0,
+     3.0,
+     3.0
+    ],
+    "Cruiser": [
+     4.0,
+     4.0,
+     4.0
+    ],
+    "Destroyer": [
+     5.0,
+     5.0,
+     5.0
+    ],
+    "Submarine": [
+     5.0,
+     5.0,
+     5.0
+    ]
+   },
+   "targetWeightYaw": 1.0
+  },
+  "A_Hull": {
+   "Ammo1": {
+    "antiRamCoeff": 1.0,
+    "armorCoeff": 0.8,
+    "autoRepairTime": 40,
+    "autoRepairTimeMin": 5,
+    "buoyancyShipPercent": 0.0,
+    "burnNode": "",
+    "canBeDestroyed": true,
+    "coeffReloadDamaged": 1.0,
+    "critProb": [
+     0.0,
+     0.0
+    ],
+    "critProbHP": [
+     1.0,
+     0.0
+    ],
+    "damageEffects": [
+     [
+      0.1,
+      ""
+     ],
+     [
+      0.3,
+      ""
+     ],
+     [
+      0.6,
+      ""
+     ]
+    ],
+    "deathEffects": [
+     "/",
+     "/"
+    ],
+    "detonateEffect": "particles/vehicles/Battleship_death.xml",
+    "detonateOnDead": false,
+    "guns": [],
+    "hitDetonationMaxProbAtDamage": [
+     0.1,
+     1.0
+    ],
+    "hitDetonationMinProbAtDamage": [
+     0.01,
+     0.3
+    ],
+    "hlType": "powdermagazine_hitlocation",
+    "maxBuoyancy": 0.0,
+    "maxHP": 3600.0,
+    "moduleCritCoeffCR": 1.0,
+    "moduleCritCoeffXP": 1.0,
+    "parentHL": null,
+    "ramCoeff": 1.0,
+    "ramExtraDamage": 0.0,
+    "regeneratedHPPart": 0.5,
+    "rndPartHP": 0.0,
+    "splashBoxes": [
+     "CM_SB_bow_ammo_1_1",
+     "CM_SB_bow_ammo_1_2"
+    ],
+    "tbSkipProbMax": 0.0,
+    "tbSkipProbMin": 0.0,
+    "transmitHPDamageToParentFactor": 1.0,
+    "volume": 1.0,
+    "volumeCoeff": 1.0
+   },
+   "Ammo2": {
+    "antiRamCoeff": 1.0,
+    "armorCoeff": 0.8,
+    "autoRepairTime": 40,
+    "autoRepairTimeMin": 5,
+    "buoyancyShipPercent": 0.0,
+    "burnNode": "",
+    "canBeDestroyed": true,
+    "coeffReloadDamaged": 1.0,
+    "critProb": [
+     0.0,
+     0.0
+    ],
+    "critProbHP": [
+     1.0,
+     0.0
+    ],
+    "damageEffects": [
+     [
+      0.1,
+      ""
+     ],
+     [
+      0.3,
+      ""
+     ],
+     [
+      0.6,
+      ""
+     ]
+    ],
+    "deathEffects": [
+     "/",
+     "/"
+    ],
+    "detonateEffect": "particles/vehicles/Battleship_death.xml",
+    "detonateOnDead": false,
+    "guns": [],
+    "hitDetonationMaxProbAtDamage": [
+     0.1,
+     1.0
+    ],
+    "hitDetonationMinProbAtDamage": [
+     0.01,
+     0.3
+    ],
+    "hlType": "powdermagazine_hitlocation",
+    "maxBuoyancy": 0.0,
+    "maxHP": 3600.0,
+    "moduleCritCoeffCR": 1.0,
+    "moduleCritCoeffXP": 1.0,
+    "parentHL": null,
+    "ramCoeff": 1.0,
+    "ramExtraDamage": 0.0,
+    "regeneratedHPPart": 0.5,
+    "rndPartHP": 0.0,
+    "splashBoxes": [
+     "CM_SB_stern_ammo_1_1",
+     "CM_SB_stern_ammo_1_2"
+    ],
+    "tbSkipProbMax": 0.0,
+    "tbSkipProbMin": 0.0,
+    "transmitHPDamageToParentFactor": 1.0,
+    "volume": 1.0,
+    "volumeCoeff": 1.0
+   },
+   "Bow": {
+    "antiRamCoeff": 1.0,
+    "armorCoeff": 0.0,
+    "autoRepairTime": 10,
+    "autoRepairTimeMin": 5,
+    "buoyancyShipPercent": 0.0,
+    "burnNode": "",
+    "canBeDestroyed": false,
+    "critProb": [
+     0.0,
+     0.0
+    ],
+    "critProbHP": [
+     1.0,
+     0.0
+    ],
+    "damageEffects": [
+     [
+      0.1,
+      ""
+     ],
+     [
+      0.3,
+      ""
+     ],
+     [
+      0.6,
+      ""
+     ]
+    ],
+    "deathEffects": [
+     "/",
+     "/"
+    ],
+    "detonateEffect": "particles/vehicles/Battleship_death.xml",
+    "detonateOnDead": false,
+    "hitDetonationMaxProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hitDetonationMinProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hlType": "simple_hitlocation",
+    "maxBuoyancy": 0.0,
+    "maxHP": 1100.0,
+    "moduleCritCoeffCR": 0.0,
+    "moduleCritCoeffXP": 0.0,
+    "parentHL": "Hull",
+    "ramCoeff": 1.0,
+    "ramExtraDamage": 0.0,
+    "regeneratedHPPart": 0.5,
+    "rndPartHP": 0.0,
+    "splashBoxes": [
+     "CM_SB_bow_1",
+     "CM_SB_bow_2",
+     "CM_SB_bow_3",
+     "CM_SB_bow_4"
+    ],
+    "tbSkipProbMax": 0.0,
+    "tbSkipProbMin": 0.0,
+    "transmitHPDamageToParentFactor": 1.0,
+    "volume": 0.17,
+    "volumeCoeff": 0.165
+   },
+   "Cas": {
+    "antiRamCoeff": 1.0,
+    "armorCoeff": 0.0,
+    "autoRepairTime": 10,
+    "autoRepairTimeMin": 5,
+    "buoyancyShipPercent": 0.0,
+    "burnNode": "",
+    "canBeDestroyed": false,
+    "critProb": [
+     0.0,
+     0.0
+    ],
+    "critProbHP": [
+     1.0,
+     0.0
+    ],
+    "damageEffects": [
+     [
+      0.1,
+      ""
+     ],
+     [
+      0.3,
+      ""
+     ],
+     [
+      0.6,
+      ""
+     ]
+    ],
+    "deathEffects": [
+     "/",
+     "/"
+    ],
+    "detonateEffect": "particles/vehicles/Battleship_death.xml",
+    "detonateOnDead": false,
+    "hitDetonationMaxProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hitDetonationMinProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hlType": "casemate_hitlocation",
+    "maxBuoyancy": 0.0,
+    "maxHP": 165500,
+    "moduleCritCoeffCR": 0.0,
+    "moduleCritCoeffXP": 0.0,
+    "parentHL": null,
+    "ramCoeff": 1.0,
+    "ramExtraDamage": 0.0,
+    "regeneratedHPPart": 0.5,
+    "rndPartHP": 0.0,
+    "splashBoxes": [
+     "CM_SB_cit_1"
+    ],
+    "tbSkipProbMax": 0.0,
+    "tbSkipProbMin": 0.0,
+    "transmitHPDamageToParentFactor": 1.0,
+    "volume": 0.37,
+    "volumeCoeff": 0.33
+   },
+   "Hull": {
+    "antiRamCoeff": 1.0,
+    "armorCoeff": 0.0,
+    "autoRepairTime": 10,
+    "autoRepairTimeMin": 5,
+    "buoyancyShipPercent": 0.0,
+    "burnNode": "",
+    "canBeDestroyed": false,
+    "critProb": [
+     0.0,
+     0.0
+    ],
+    "critProbHP": [
+     1.0,
+     0.0
+    ],
+    "damageEffects": [
+     [
+      0.1,
+      ""
+     ],
+     [
+      0.3,
+      ""
+     ],
+     [
+      0.6,
+      ""
+     ]
+    ],
+    "deathEffects": [
+     "/",
+     "/"
+    ],
+    "detonateEffect": "particles/vehicles/Battleship_death.xml",
+    "detonateOnDead": false,
+    "hitDetonationMaxProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hitDetonationMinProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hlType": "hull_hitlocation",
+    "maxBuoyancy": 0.0,
+    "maxHP": 5300.0,
+    "moduleCritCoeffCR": 0.0,
+    "moduleCritCoeffXP": 0.0,
+    "parentHL": null,
+    "ramCoeff": 1.0,
+    "ramExtraDamage": 0.0,
+    "regeneratedHPPart": 0.5,
+    "rndPartHP": 0.0,
+    "splashBoxes": [],
+    "tbSkipProbMax": 0.0,
+    "tbSkipProbMin": 0.0,
+    "transmitHPDamageToParentFactor": 1.0,
+    "volume": 1.0,
+    "volumeCoeff": 0.165
+   },
+   "SG": {
+    "antiRamCoeff": 1.0,
+    "armorCoeff": 0.8,
+    "autoRepairTime": 40,
+    "autoRepairTimeMin": 40,
+    "buoyancyShipPercent": 0.0,
+    "burnNode": "",
+    "canBeDestroyed": false,
+    "critProb": [
+     0.65,
+     0.25
+    ],
+    "critProbHP": [
+     1.0,
+     0.0
+    ],
+    "damageEffects": [
+     [
+      0.1,
+      ""
+     ],
+     [
+      0.3,
+      ""
+     ],
+     [
+      0.6,
+      ""
+     ]
+    ],
+    "deathEffects": [
+     "/",
+     "/"
+    ],
+    "detonateEffect": "particles/vehicles/Battleship_death.xml",
+    "detonateOnDead": false,
+    "hitDetonationMaxProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hitDetonationMinProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hlType": "steering_gear_hitlocation",
+    "maxBuoyancy": 0.0,
+    "maxHP": 2100.0,
+    "moduleCritCoeffCR": 0.0,
+    "moduleCritCoeffXP": 0.0,
+    "parentHL": null,
+    "ramCoeff": 1.0,
+    "ramExtraDamage": 0.0,
+    "regeneratedHPPart": 0.5,
+    "rndPartHP": 0.0,
+    "splashBoxes": [
+     "CM_SB_ruder_1_1",
+     "CM_SB_ruder_1_2",
+     "CM_SB_ruder_1_3",
+     "CM_SB_ruder_1_4"
+    ],
+    "tbSkipProbMax": 0.0,
+    "tbSkipProbMin": 0.0,
+    "transmitHPDamageToParentFactor": 1.0,
+    "volume": 1.0,
+    "volumeCoeff": 1.0
+   },
+   "SS": {
+    "antiRamCoeff": 1.0,
+    "armorCoeff": 0.0,
+    "autoRepairTime": 10,
+    "autoRepairTimeMin": 5,
+    "buoyancyShipPercent": 0.0,
+    "burnNode": "",
+    "canBeDestroyed": false,
+    "critProb": [
+     0.0,
+     0.0
+    ],
+    "critProbHP": [
+     1.0,
+     0.0
+    ],
+    "damageEffects": [
+     [
+      0.1,
+      ""
+     ],
+     [
+      0.3,
+      ""
+     ],
+     [
+      0.6,
+      ""
+     ]
+    ],
+    "deathEffects": [
+     "/",
+     "/"
+    ],
+    "detonateEffect": "particles/vehicles/Battleship_death.xml",
+    "detonateOnDead": false,
+    "hitDetonationMaxProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hitDetonationMinProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hlType": "supersctructure_hitlocation",
+    "maxBuoyancy": 0.0,
+    "maxHP": 400.0,
+    "moduleCritCoeffCR": 0.0,
+    "moduleCritCoeffXP": 0.0,
+    "parentHL": "Hull",
+    "ramCoeff": 1.0,
+    "ramExtraDamage": 0.0,
+    "regeneratedHPPart": 0.5,
+    "rndPartHP": 0.0,
+    "splashBoxes": [
+     "CM_SB_ss_1_1",
+     "CM_SB_ss_1_2",
+     "CM_SB_ss_2_1",
+     "CM_SB_ss_2_2",
+     "CM_SB_ss_2_3",
+     "CM_SB_ss_2_4",
+     "CM_SB_ss_2_5",
+     "CM_SB_ss_2_6",
+     "CM_SB_ss_3_1"
+    ],
+    "tbSkipProbMax": 0.0,
+    "tbSkipProbMin": 0.0,
+    "transmitHPDamageToParentFactor": 1.0,
+    "volume": 0.06,
+    "volumeCoeff": 0.165
+   },
+   "St": {
+    "antiRamCoeff": 1.0,
+    "armorCoeff": 0.0,
+    "autoRepairTime": 10,
+    "autoRepairTimeMin": 5,
+    "buoyancyShipPercent": 0.0,
+    "burnNode": "",
+    "canBeDestroyed": false,
+    "critProb": [
+     0.0,
+     0.0
+    ],
+    "critProbHP": [
+     1.0,
+     0.0
+    ],
+    "damageEffects": [
+     [
+      0.1,
+      ""
+     ],
+     [
+      0.3,
+      ""
+     ],
+     [
+      0.6,
+      ""
+     ]
+    ],
+    "deathEffects": [
+     "/",
+     "/"
+    ],
+    "detonateEffect": "particles/vehicles/Battleship_death.xml",
+    "detonateOnDead": false,
+    "hitDetonationMaxProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hitDetonationMinProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hlType": "simple_hitlocation",
+    "maxBuoyancy": 0.0,
+    "maxHP": 700.0,
+    "moduleCritCoeffCR": 0.0,
+    "moduleCritCoeffXP": 0.0,
+    "parentHL": "Hull",
+    "ramCoeff": 1.0,
+    "ramExtraDamage": 0.0,
+    "regeneratedHPPart": 0.5,
+    "rndPartHP": 0.0,
+    "splashBoxes": [
+     "CM_SB_stern_1",
+     "CM_SB_stern_2",
+     "CM_SB_stern_3"
+    ],
+    "tbSkipProbMax": 0.0,
+    "tbSkipProbMin": 0.0,
+    "transmitHPDamageToParentFactor": 1.0,
+    "volume": 0.11,
+    "volumeCoeff": 0.165
+   },
+   "acidDamage": 0,
+   "acidDuration": 0,
+   "armor": {
+    "1": 0.0,
+    "65583": 6.0,
+    "65584": 6.0,
+    "65585": 6.0,
+    "65587": 0.0,
+    "65591": 6.0,
+    "65592": 6.0,
+    "65593": 6.0,
+    "65594": 6.0,
+    "65616": 6.0,
+    "65617": 6.0,
+    "65619": 6.0,
+    "65625": 6.0,
+    "65626": 6.0,
+    "65628": 6.0,
+    "65629": 6.0,
+    "65630": 6.0,
+    "65632": 0.0,
+    "65646": 6.0,
+    "131161": 0.0,
+    "131162": 0.0
+   },
+   "armourCas": [
+    -1,
+    -1
+   ],
+   "armourCit": [
+    -1,
+    -1
+   ],
+   "armourDeck": [
+    -1,
+    -1
+   ],
+   "armourExtremities": [
+    -1,
+    -1
+   ],
+   "backwardPowerCoef": 3.0,
+   "barbettes": {},
+   "baseUnderwaterPitchAngle": 0.0,
+   "bodyType": "dynamic",
+   "boilerExplosionPostDeath": "particles/Empty_FX.xml",
+   "buoyancy": 200000,
+   "buoyancyEffects": [],
+   "buoyancyHighlightEffect": "particles/submarines/Sub_location.xml",
+   "buoyancyRudderDepths": [
+    0,
+    -8,
+    -16,
+    -24,
+    -32,
+    -40,
+    -48,
+    -56,
+    -64,
+    -72,
+    -80
+   ],
+   "buoyancyRudderResetTime": 1.0,
+   "buoyancyRudderTime": 1.0,
+   "buoyancyStates": {
+    "DEEP_WATER": [
+     [
+      -34.0,
+      -59.0
+     ],
+     0.63,
+     10.0
+    ],
+    "DEEP_WATER_INVUL": [
+     [
+      -59.0,
+      -80.0
+     ],
+     0.63,
+     10.0
+    ],
+    "PERISCOPE": [
+     [
+      -4.0,
+      -13.0
+     ],
+     0.63,
+     10.0
+    ],
+    "SEMI_DEEP_WATER": [
+     [
+      -13.0,
+      -34.0
+     ],
+     0.63,
+     10.0
+    ],
+    "SURFACE": [
+     [
+      0.0,
+      -4.0
+     ],
+     1.0,
+     1.0
+    ]
+   },
+   "buoyancyStopLine": 10.0,
+   "buoyancyStopLineMinSpeedCoeff": 0.35,
+   "burnNodes": [
+    [
+     1.0,
+     0.3,
+     30.0
+    ],
+    [
+     1.0,
+     0.3,
+     30.0
+    ],
+    [
+     1.0,
+     0.3,
+     30.0
+    ],
+    [
+     1.0,
+     0.3,
+     30.0
+    ]
+   ],
+   "canReceiveAcid": false,
+   "consumablePlaneTypes": {
+    "fighter": "",
+    "scout": ""
+   },
+   "coolingOffSpeed": 0.1,
+   "crackCoords": [
+    0.25,
+    0.0,
+    -0.25
+   ],
+   "customMiscs": {},
+   "deathBubblesEffect": "particles/NF_DD_seething_bubbles_post_death.xml",
+   "deathDetonateEffect": "particles/Empty_FX.xml",
+   "deathFaultEffect": "particles/Empty_FX.xml",
+   "deathFireEffect": "particles/Empty_FX.xml",
+   "deathFoamEffect": "particles/vehicles/Death_foam_small_2.xml",
+   "deathFountainsEffect": "particles/NF_DD_water_fountains_post_death.xml",
+   "deathFumingEffect": "particles/NF_DD_fuming_at_flooding_post_death.xml",
+   "deathNodes": [
+    "HP_Ship_death_1",
+    "HP_Ship_death_2",
+    "HP_Ship_death_3"
+   ],
+   "deathPlaneEffect": "particles/NF_AA_death_catapult_ships.xml",
+   "deathPostFireEffect": "particles/NF_DD_fuming_post_fire.xml",
+   "deathSettings": "PCOS001_Default",
+   "deathShellEffect": "particles/Empty_FX.xml",
+   "deathTorpedoEffect": "particles/NF_death_torpedo.xml",
+   "deathUnderWaterBubblesEffects": [
+    "particles/submarines/Sub_bomb_trace.xml",
+    "particles/submarines/Sub_bomb_trace.xml"
+   ],
+   "deckHeight": 1.94,
+   "deepwaterVisionCoeff": {},
+   "deepwaterVisionToPlaneCoeff": {},
+   "defaultCamouflage": "",
+   "dockYOffset": 0.0,
+   "draft": 11,
+   "effectCauldronExplosion": "particles/Empty_FX.xml",
+   "effectOnDeath": "particles/vehicles/Destroyer_death.xml",
+   "effectOnDetonatePowderChamber": "particles/simple_death.xml",
+   "effectOnFloodDeath": "particles/vehicles/Destroyer_death.xml",
+   "effectShipCracksAndOilPuddle": "particles/Empty_FX.xml",
+   "effects": {
+    "death": [
+     [
+      "HP_FX_Death_1",
+      "particles/vehicles/Death_foam_small_2.xml"
+     ],
+     [
+      "HP_FX_Death_2",
+      "particles/vehicles/Death_foam_small_2.xml"
+     ],
+     [
+      "HP_FX_Death_3",
+      "particles/vehicles/Death_foam_small_2.xml"
+     ]
+    ],
+    "fire1": [
+     [
+      "HP_FX_Fire_1",
+      "particles/vehicles/Fire_vvsmall.xml"
+     ]
+    ],
+    "fire2": [
+     [
+      "HP_FX_Fire_2",
+      "particles/vehicles/Fire_vsmall_2.xml"
+     ],
+     [
+      "HP_FX_Fire_2_side_1",
+      "particles/vehicles/Fire_side_small.xml"
+     ],
+     [
+      "HP_FX_Fire_2_side_2",
+      "particles/vehicles/Fire_side_small.xml"
+     ]
+    ],
+    "fire3": [
+     [
+      "HP_FX_Fire_3",
+      "particles/vehicles/Fire_vsmall_2.xml"
+     ],
+     [
+      "HP_FX_Fire_3_side_1",
+      "particles/vehicles/Fire_side_small.xml"
+     ],
+     [
+      "HP_FX_Fire_3_side_2",
+      "particles/vehicles/Fire_side_small.xml"
+     ]
+    ],
+    "fire4": [
+     [
+      "HP_FX_Fire_4",
+      "particles/vehicles/Fire_vvsmall_2.xml"
+     ]
+    ],
+    "fireResistance": [],
+    "fixDeluge": [
+     [
+      "HP_FX_Flood_water_left_1",
+      "particles/vehicles/Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_left_2",
+      "particles/vehicles/Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right_1",
+      "particles/vehicles/Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right_2",
+      "particles/vehicles/Flood_deluge_small.xml"
+     ]
+    ],
+    "fixLight": [
+     [
+      "HP_FX_FloodLight_left_1",
+      "particles/vehicles/FixLight_small.xml"
+     ],
+     [
+      "HP_FX_FloodLight_left_2",
+      "particles/vehicles/FixLight_small.xml"
+     ],
+     [
+      "HP_FX_FloodLight_right_1",
+      "particles/vehicles/FixLight_small.xml"
+     ],
+     [
+      "HP_FX_FloodLight_right_2",
+      "particles/vehicles/FixLight_small.xml"
+     ]
+    ],
+    "flood": [
+     [
+      "HP_FX_Flood_steam_1",
+      "particles/vehicles/Flood_steam_exhaust_small.xml"
+     ],
+     [
+      "HP_FX_Flood_steam_1",
+      "particles/vehicles/Flood_steam_small.xml"
+     ],
+     [
+      "HP_FX_Flood_steam_2",
+      "particles/vehicles/Flood_steam_exhaust_small_delayed.xml"
+     ],
+     [
+      "HP_FX_Flood_steam_2",
+      "particles/vehicles/Flood_steam_small.xml"
+     ],
+     [
+      "HP_FX_Flood_steam_left",
+      "particles/vehicles/Flood_steam_side_small.xml"
+     ],
+     [
+      "HP_FX_Flood_steam_right",
+      "particles/vehicles/Flood_steam_side_small.xml"
+     ]
+    ],
+    "floodLight": [
+     [
+      "HP_FX_FloodLight_left_1",
+      "particles/vehicles/FloodLight_small.xml"
+     ],
+     [
+      "HP_FX_FloodLight_left_2",
+      "particles/vehicles/FloodLight_small.xml"
+     ],
+     [
+      "HP_FX_FloodLight_right_1",
+      "particles/vehicles/FloodLight_small.xml"
+     ],
+     [
+      "HP_FX_FloodLight_right_2",
+      "particles/vehicles/FloodLight_small.xml"
+     ]
+    ],
+    "horn": [
+     [
+      "HP_FX_Smoke_1",
+      "particles/vehicles/Horn.xml"
+     ],
+     [
+      "HP_FX_Smoke_2",
+      "particles/vehicles/Horn.xml"
+     ],
+     [
+      "HP_FX_Smoke_3",
+      "particles/vehicles/Horn.xml"
+     ],
+     [
+      "HP_FX_Smoke_4",
+      "particles/vehicles/Horn.xml"
+     ]
+    ],
+    "idle": [],
+    "idlePort": [
+     [
+      "HP_FX_Flood_water_left_1",
+      "particles/vehicles/idlePort_Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_left_2",
+      "particles/vehicles/idlePort_Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right_1",
+      "particles/vehicles/idlePort_Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right_2",
+      "particles/vehicles/idlePort_Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Smoke_1",
+      "particles/vehicles/idlePort_RunSmoke_vsmall.xml"
+     ],
+     [
+      "HP_FX_Smoke_2",
+      "particles/vehicles/idlePort_RunSmoke_vsmall.xml"
+     ],
+     [
+      "HP_FX_Smoke_3",
+      "particles/vehicles/idlePort_RunSmoke_vsmall.xml"
+     ],
+     [
+      "HP_FX_Smoke_4",
+      "particles/vehicles/idlePort_RunSmoke_vsmall.xml"
+     ]
+    ],
+    "repairLight": [],
+    "smoke": [
+     [
+      "HP_FX_Smoke_1",
+      "particles/vehicles/RunSmoke_vsmall.xml"
+     ],
+     [
+      "HP_FX_Smoke_2",
+      "particles/vehicles/RunSmoke_vsmall.xml"
+     ],
+     [
+      "HP_FX_Smoke_3",
+      "particles/vehicles/RunSmoke_vsmall.xml"
+     ],
+     [
+      "HP_FX_Smoke_4",
+      "particles/vehicles/RunSmoke_vsmall.xml"
+     ]
+    ],
+    "waketraceback": [
+     [
+      "HP_FX_WakeTraceBack",
+      "particles/vehicles/WakeTraceReverce_back.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceReverce_screw_small_2.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceReverce_screw_small_2.xml"
+     ]
+    ],
+    "waketracefront": [
+     [
+      "HP_FX_WakeTrace",
+      "particles/vehicles/WakeTraceForward_front.xml"
+     ],
+     [
+      "HP_FX_WakeTraceBack",
+      "particles/vehicles/WakeTraceForward_back.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTrace_screw_small_2.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small_2.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ]
+    ]
+   },
+   "enemyEngineEffects": false,
+   "enemyVisibilityCoeffByDepth": {
+    "-44.0": 1.0,
+    "0.0": 1.0
+   },
+   "enginePower": 20500.0,
+   "finderBase": 2.0,
+   "finderHeight": 9.0,
+   "flagPoleModelName": "content/gameplay/common/misc/CM500/CM500.model",
+   "floodNodes": [
+    [
+     0.333,
+     0.25,
+     40.0
+    ],
+    [
+     0.333,
+     0.25,
+     40.0
+    ]
+   ],
+   "foghornEffect": "particles/Hooter.xml",
+   "health": 7100.0,
+   "heatChangeValue": 1,
+   "heightIntensityEffects": [],
+   "isBlind": false,
+   "isFakeSubmarine": false,
+   "mass": 1050000.0,
+   "maxBuoyancyLevel": 0.0,
+   "maxBuoyancySpeed": 0.0,
+   "maxHeatValue": 100.0,
+   "maxRudderAngle": 30.0,
+   "maxSpeed": 32.5,
+   "model": "content/gameplay/europe/ship/destroyer/WSD002_Tatra_1918/WSD002_Tatra_1918.model",
+   "numOfParts": 0,
+   "propellerEffect": "",
+   "propellerEffectReversed": "",
+   "pushingMaxRudderAngle": 16.0,
+   "pushingMinRudderAngle": 1.0,
+   "regenerationHPSpeed": 0.0,
+   "repairingCoeff": 0.0,
+   "rollEffect": 1.6,
+   "rudderPower": 20500000.0,
+   "rudderTime": 3.92,
+   "shipBodySunkDifferenceCoeff": 2.0,
+   "shipBodySunkStartMassCoeff": 1.0,
+   "shipPartSunkDifferenceCoeff": 2.2,
+   "shipPartSunkStartMassCoeff": 2.2,
+   "shipWheelsPresent": false,
+   "sideDragCoef": 26200.0,
+   "sinkStartTime": [
+    [
+     4.0,
+     10.0
+    ],
+    [
+     2.0,
+     4.0
+    ],
+    [
+     3.0,
+     3.0
+    ],
+    [
+     4.0,
+     1.0
+    ]
+   ],
+   "sinkTime": [
+    [
+     45.0,
+     130.0
+    ],
+    [
+     18.0,
+     30.0
+    ],
+    [
+     21.0,
+     27.0
+    ],
+    [
+     27.0,
+     15.0
+    ]
+   ],
+   "sinkingEffects": "PCXS009_Destroyer",
+   "size": [
+    83.44,
+    8.16,
+    7.92
+   ],
+   "smokeScanRadius": 27.0,
+   "speedCoef": 1.0,
+   "timeBeforeCauldronExplosion": 4.0,
+   "timeBeforeDeathEffect": 0.2,
+   "tonnage": 850.0,
+   "torpedoImpactMassImpulseCoeff": 0.5,
+   "turningRadius": 460.0,
+   "underwaterMaxRudderAngle": 0.0,
+   "underwaterRollEffect": 0.0,
+   "unpeculiarCamouflage": "",
+   "unpeculiarCamouflageColorSchemeId": 0,
+   "visibilityCoefATBA": 1e-06,
+   "visibilityCoefATBAByPlane": 1e-06,
+   "visibilityCoefFire": 2.0,
+   "visibilityCoefFireByPlane": 3.0,
+   "visibilityCoefGK": 1e-06,
+   "visibilityCoefGKByPlane": 2.0,
+   "visibilityCoefGKInSmoke": 2.0,
+   "visibilityCoefPinger": {
+    "-22.0": 0.0,
+    "-6.0": 1.0,
+    "0.0": 1.0
+   },
+   "visibilityCoefPingerByPlane": {
+    "-22.0": 0.0,
+    "-6.0": 1.0,
+    "0.0": 1.0
+   },
+   "visibilityCoefPingerInSmoke": 1e-06,
+   "visibilityCoeff": 14.16,
+   "visibilityCoeffUnderwaterDepths": {
+    "0.0": 1.0
+   },
+   "visibilityCoeffUnderwaterDepthsByPlane": {
+    "0.0": 1.0
+   },
+   "visibilityFactor": 6.22,
+   "visibilityFactorByPlane": 2.43,
+   "visibilityFactorInSmoke": 1e-06,
+   "visibilityFactorsBySubmarine": {
+    "DEEP_WATER": 2.0,
+    "DEEP_WATER_INVUL": 0.0,
+    "PERISCOPE": 2.43,
+    "SEMI_DEEP_WATER": 2.0,
+    "SURFACE": 0.0
+   }
+  },
+  "A_Torpedoes": {
+   "HP_WGT_1": {
+    "HitLocationTorpedo": {
+     "antiRamCoeff": 1.0,
+     "armorCoeff": 1.0,
+     "autoRepairTime": 15,
+     "autoRepairTimeMin": 15,
+     "buoyancyShipPercent": 0.0,
+     "burnNode": "",
+     "canBeDestroyed": true,
+     "critProb": [
+      0.25,
+      0.25
+     ],
+     "critProbHP": [
+      1.0,
+      0.0
+     ],
+     "damageEffects": [],
+     "deathEffects": [
+      "/",
+      "/"
+     ],
+     "detonateEffect": "particles/vehicles/Battleship_death.xml",
+     "detonateOnDead": false,
+     "hitDetonationMaxProbAtDamage": [
+      0.0,
+      0.0
+     ],
+     "hitDetonationMinProbAtDamage": [
+      0.0,
+      0.0
+     ],
+     "hlType": "torpedo_hitlocation",
+     "maxBuoyancy": 0.0,
+     "maxHP": 1200.0,
+     "moduleCritCoeffCR": 0.0,
+     "moduleCritCoeffXP": 0.0,
+     "parentHL": null,
+     "ramCoeff": 1.0,
+     "ramExtraDamage": 0.0,
+     "regeneratedHPPart": 0.5,
+     "rndPartHP": 0.75,
+     "splashBoxes": [],
+     "tbSkipProbMax": 0.0,
+     "tbSkipProbMin": 0.0,
+     "transmitHPDamageToParentFactor": 1.0,
+     "volume": 0.5,
+     "volumeCoeff": 1.0
+    },
+    "ammoList": [
+     "PWPT002_Torped_M1913"
+    ],
+    "armor": {
+     "65580": 6.0
+    },
+    "barrelDiameter": 0.45,
+    "canRotate": true,
+    "customMiscs": {},
+    "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+    "deadMesh": "content/gameplay/europe/gun/torpedo/WGT018_450mm_twin_AW/WGT018_450mm_twin_AW_dead.model",
+    "deadZone": [
+     [
+      -58.0,
+      58.0
+     ],
+     [
+      140.0,
+      -140.0
+     ]
+    ],
+    "horizSector": [
+     0.0,
+     0.0
+    ],
+    "id": 4275463472,
+    "index": "PWGT018",
+    "lensEffect": "",
+    "mainSector": [
+     -90.0,
+     90.0
+    ],
+    "miscFilter": [],
+    "miscFilterMode": false,
+    "model": "content/gameplay/europe/gun/torpedo/WGT018_450mm_twin_AW/WGT018_450mm_twin_AW.model",
+    "name": "PWGT018_450mm_twin_AW",
+    "numAmmos": 1000,
+    "numBarrels": 2,
+    "position": [
+     3.8,
+     1.0
+    ],
+    "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
+    "rotationSpeed": [
+     25.0,
+     25.0
+    ],
+    "shootSector": [
+     0.0,
+     0.0
+    ],
+    "shotDelay": 30.0,
+    "shotEffect": "particles/guns/torpedo.xml",
+    "shotEffectCap": "particles/Empty_FX.xml",
+    "smallGun": null,
+    "timeBetweenShots": 0.2,
+    "timeToChangeAngle": 1,
+    "timeToChangeSpeed": 1,
+    "torpedoAngles": [
+     2.4,
+     4.8
+    ],
+    "typeinfo": {
+     "nation": "Europe",
+     "species": "Torpedo",
+     "type": "Gun"
+    },
+    "vertSector": [
+     0.0,
+     1.0
+    ]
+   },
+   "HP_WGT_2": {
+    "HitLocationTorpedo": {
+     "antiRamCoeff": 1.0,
+     "armorCoeff": 1.0,
+     "autoRepairTime": 15,
+     "autoRepairTimeMin": 15,
+     "buoyancyShipPercent": 0.0,
+     "burnNode": "",
+     "canBeDestroyed": true,
+     "critProb": [
+      0.25,
+      0.25
+     ],
+     "critProbHP": [
+      1.0,
+      0.0
+     ],
+     "damageEffects": [],
+     "deathEffects": [
+      "/",
+      "/"
+     ],
+     "detonateEffect": "particles/vehicles/Battleship_death.xml",
+     "detonateOnDead": false,
+     "hitDetonationMaxProbAtDamage": [
+      0.0,
+      0.0
+     ],
+     "hitDetonationMinProbAtDamage": [
+      0.0,
+      0.0
+     ],
+     "hlType": "torpedo_hitlocation",
+     "maxBuoyancy": 0.0,
+     "maxHP": 1200.0,
+     "moduleCritCoeffCR": 0.0,
+     "moduleCritCoeffXP": 0.0,
+     "parentHL": null,
+     "ramCoeff": 1.0,
+     "ramExtraDamage": 0.0,
+     "regeneratedHPPart": 0.5,
+     "rndPartHP": 0.75,
+     "splashBoxes": [],
+     "tbSkipProbMax": 0.0,
+     "tbSkipProbMin": 0.0,
+     "transmitHPDamageToParentFactor": 1.0,
+     "volume": 0.5,
+     "volumeCoeff": 1.0
+    },
+    "ammoList": [
+     "PWPT002_Torped_M1913"
+    ],
+    "armor": {
+     "65580": 6.0
+    },
+    "barrelDiameter": 0.45,
+    "canRotate": true,
+    "customMiscs": {},
+    "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+    "deadMesh": "content/gameplay/europe/gun/torpedo/WGT018_450mm_twin_AW/WGT018_450mm_twin_AW_dead.model",
+    "deadZone": [
+     [
+      -59.0,
+      59.0
+     ]
+    ],
+    "horizSector": [
+     -131.0,
+     131.0
+    ],
+    "id": 4275463472,
+    "index": "PWGT018",
+    "lensEffect": "",
+    "mainSector": [
+     -90.0,
+     90.0
+    ],
+    "miscFilter": [],
+    "miscFilterMode": false,
+    "model": "content/gameplay/europe/gun/torpedo/WGT018_450mm_twin_AW/WGT018_450mm_twin_AW.model",
+    "name": "PWGT018_450mm_twin_AW",
+    "numAmmos": 1000,
+    "numBarrels": 2,
+    "position": [
+     5.0,
+     1.0
+    ],
+    "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
+    "rotationSpeed": [
+     25.0,
+     25.0
+    ],
+    "shootSector": [
+     0.0,
+     0.0
+    ],
+    "shotDelay": 30.0,
+    "shotEffect": "particles/guns/torpedo.xml",
+    "shotEffectCap": "particles/Empty_FX.xml",
+    "smallGun": null,
+    "timeBetweenShots": 0.2,
+    "timeToChangeAngle": 1,
+    "timeToChangeSpeed": 1,
+    "torpedoAngles": [
+     2.4,
+     4.8
+    ],
+    "typeinfo": {
+     "nation": "Europe",
+     "species": "Torpedo",
+     "type": "Gun"
+    },
+    "vertSector": [
+     0.0,
+     1.0
+    ]
+   },
+   "timeToChangeAmmo": 10.0,
+   "useGroups": false,
+   "useOneShot": false
+  },
+  "B_Hull": {
+   "Ammo1": {
+    "antiRamCoeff": 1.0,
+    "armorCoeff": 0.8,
+    "autoRepairTime": 40,
+    "autoRepairTimeMin": 5,
+    "buoyancyShipPercent": 0.0,
+    "burnNode": "",
+    "canBeDestroyed": true,
+    "coeffReloadDamaged": 1.0,
+    "critProb": [
+     0.0,
+     0.0
+    ],
+    "critProbHP": [
+     1.0,
+     0.0
+    ],
+    "damageEffects": [
+     [
+      0.1,
+      ""
+     ],
+     [
+      0.3,
+      ""
+     ],
+     [
+      0.6,
+      ""
+     ]
+    ],
+    "deathEffects": [
+     "/",
+     "/"
+    ],
+    "detonateEffect": "particles/vehicles/Battleship_death.xml",
+    "detonateOnDead": false,
+    "guns": [],
+    "hitDetonationMaxProbAtDamage": [
+     0.1,
+     1.0
+    ],
+    "hitDetonationMinProbAtDamage": [
+     0.01,
+     0.3
+    ],
+    "hlType": "powdermagazine_hitlocation",
+    "maxBuoyancy": 0.0,
+    "maxHP": 4100.0,
+    "moduleCritCoeffCR": 1.0,
+    "moduleCritCoeffXP": 1.0,
+    "parentHL": null,
+    "ramCoeff": 1.0,
+    "ramExtraDamage": 0.0,
+    "regeneratedHPPart": 0.5,
+    "rndPartHP": 0.0,
+    "splashBoxes": [
+     "CM_SB_bow_ammo_1_1",
+     "CM_SB_bow_ammo_1_2"
+    ],
+    "tbSkipProbMax": 0.0,
+    "tbSkipProbMin": 0.0,
+    "transmitHPDamageToParentFactor": 1.0,
+    "volume": 1.0,
+    "volumeCoeff": 1.0
+   },
+   "Ammo2": {
+    "antiRamCoeff": 1.0,
+    "armorCoeff": 0.8,
+    "autoRepairTime": 40,
+    "autoRepairTimeMin": 5,
+    "buoyancyShipPercent": 0.0,
+    "burnNode": "",
+    "canBeDestroyed": true,
+    "coeffReloadDamaged": 1.0,
+    "critProb": [
+     0.0,
+     0.0
+    ],
+    "critProbHP": [
+     1.0,
+     0.0
+    ],
+    "damageEffects": [
+     [
+      0.1,
+      ""
+     ],
+     [
+      0.3,
+      ""
+     ],
+     [
+      0.6,
+      ""
+     ]
+    ],
+    "deathEffects": [
+     "/",
+     "/"
+    ],
+    "detonateEffect": "particles/vehicles/Battleship_death.xml",
+    "detonateOnDead": false,
+    "guns": [],
+    "hitDetonationMaxProbAtDamage": [
+     0.1,
+     1.0
+    ],
+    "hitDetonationMinProbAtDamage": [
+     0.01,
+     0.3
+    ],
+    "hlType": "powdermagazine_hitlocation",
+    "maxBuoyancy": 0.0,
+    "maxHP": 4100.0,
+    "moduleCritCoeffCR": 1.0,
+    "moduleCritCoeffXP": 1.0,
+    "parentHL": null,
+    "ramCoeff": 1.0,
+    "ramExtraDamage": 0.0,
+    "regeneratedHPPart": 0.5,
+    "rndPartHP": 0.0,
+    "splashBoxes": [
+     "CM_SB_stern_ammo_1_1",
+     "CM_SB_stern_ammo_1_2"
+    ],
+    "tbSkipProbMax": 0.0,
+    "tbSkipProbMin": 0.0,
+    "transmitHPDamageToParentFactor": 1.0,
+    "volume": 1.0,
+    "volumeCoeff": 1.0
+   },
+   "Bow": {
+    "antiRamCoeff": 1.0,
+    "armorCoeff": 0.0,
+    "autoRepairTime": 10,
+    "autoRepairTimeMin": 5,
+    "buoyancyShipPercent": 0.0,
+    "burnNode": "",
+    "canBeDestroyed": false,
+    "critProb": [
+     0.0,
+     0.0
+    ],
+    "critProbHP": [
+     1.0,
+     0.0
+    ],
+    "damageEffects": [
+     [
+      0.1,
+      ""
+     ],
+     [
+      0.3,
+      ""
+     ],
+     [
+      0.6,
+      ""
+     ]
+    ],
+    "deathEffects": [
+     "/",
+     "/"
+    ],
+    "detonateEffect": "particles/vehicles/Battleship_death.xml",
+    "detonateOnDead": false,
+    "hitDetonationMaxProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hitDetonationMinProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hlType": "simple_hitlocation",
+    "maxBuoyancy": 0.0,
+    "maxHP": 1200.0,
+    "moduleCritCoeffCR": 0.0,
+    "moduleCritCoeffXP": 0.0,
+    "parentHL": "Hull",
+    "ramCoeff": 1.0,
+    "ramExtraDamage": 0.0,
+    "regeneratedHPPart": 0.5,
+    "rndPartHP": 0.0,
+    "splashBoxes": [
+     "CM_SB_bow_1",
+     "CM_SB_bow_2",
+     "CM_SB_bow_3",
+     "CM_SB_bow_4"
+    ],
+    "tbSkipProbMax": 0.0,
+    "tbSkipProbMin": 0.0,
+    "transmitHPDamageToParentFactor": 1.0,
+    "volume": 0.17,
+    "volumeCoeff": 0.165
+   },
+   "Cas": {
+    "antiRamCoeff": 1.0,
+    "armorCoeff": 0.0,
+    "autoRepairTime": 10,
+    "autoRepairTimeMin": 5,
+    "buoyancyShipPercent": 0.0,
+    "burnNode": "",
+    "canBeDestroyed": false,
+    "critProb": [
+     0.0,
+     0.0
+    ],
+    "critProbHP": [
+     1.0,
+     0.0
+    ],
+    "damageEffects": [
+     [
+      0.1,
+      ""
+     ],
+     [
+      0.3,
+      ""
+     ],
+     [
+      0.6,
+      ""
+     ]
+    ],
+    "deathEffects": [
+     "/",
+     "/"
+    ],
+    "detonateEffect": "particles/vehicles/Battleship_death.xml",
+    "detonateOnDead": false,
+    "hitDetonationMaxProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hitDetonationMinProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hlType": "casemate_hitlocation",
+    "maxBuoyancy": 0.0,
+    "maxHP": 165500,
+    "moduleCritCoeffCR": 0.0,
+    "moduleCritCoeffXP": 0.0,
+    "parentHL": null,
+    "ramCoeff": 1.0,
+    "ramExtraDamage": 0.0,
+    "regeneratedHPPart": 0.5,
+    "rndPartHP": 0.0,
+    "splashBoxes": [
+     "CM_SB_cit_1"
+    ],
+    "tbSkipProbMax": 0.0,
+    "tbSkipProbMin": 0.0,
+    "transmitHPDamageToParentFactor": 1.0,
+    "volume": 0.37,
+    "volumeCoeff": 0.33
+   },
+   "Hull": {
+    "antiRamCoeff": 1.0,
+    "armorCoeff": 0.0,
+    "autoRepairTime": 10,
+    "autoRepairTimeMin": 5,
+    "buoyancyShipPercent": 0.0,
+    "burnNode": "",
+    "canBeDestroyed": false,
+    "critProb": [
+     0.0,
+     0.0
+    ],
+    "critProbHP": [
+     1.0,
+     0.0
+    ],
+    "damageEffects": [
+     [
+      0.1,
+      ""
+     ],
+     [
+      0.3,
+      ""
+     ],
+     [
+      0.6,
+      ""
+     ]
+    ],
+    "deathEffects": [
+     "/",
+     "/"
+    ],
+    "detonateEffect": "particles/vehicles/Battleship_death.xml",
+    "detonateOnDead": false,
+    "hitDetonationMaxProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hitDetonationMinProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hlType": "hull_hitlocation",
+    "maxBuoyancy": 0.0,
+    "maxHP": 6100.0,
+    "moduleCritCoeffCR": 0.0,
+    "moduleCritCoeffXP": 0.0,
+    "parentHL": null,
+    "ramCoeff": 1.0,
+    "ramExtraDamage": 0.0,
+    "regeneratedHPPart": 0.5,
+    "rndPartHP": 0.0,
+    "splashBoxes": [],
+    "tbSkipProbMax": 0.0,
+    "tbSkipProbMin": 0.0,
+    "transmitHPDamageToParentFactor": 1.0,
+    "volume": 1.0,
+    "volumeCoeff": 0.165
+   },
+   "SG": {
+    "antiRamCoeff": 1.0,
+    "armorCoeff": 0.8,
+    "autoRepairTime": 40,
+    "autoRepairTimeMin": 40,
+    "buoyancyShipPercent": 0.0,
+    "burnNode": "",
+    "canBeDestroyed": false,
+    "critProb": [
+     0.65,
+     0.25
+    ],
+    "critProbHP": [
+     1.0,
+     0.0
+    ],
+    "damageEffects": [
+     [
+      0.1,
+      ""
+     ],
+     [
+      0.3,
+      ""
+     ],
+     [
+      0.6,
+      ""
+     ]
+    ],
+    "deathEffects": [
+     "/",
+     "/"
+    ],
+    "detonateEffect": "particles/vehicles/Battleship_death.xml",
+    "detonateOnDead": false,
+    "hitDetonationMaxProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hitDetonationMinProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hlType": "steering_gear_hitlocation",
+    "maxBuoyancy": 0.0,
+    "maxHP": 2400.0,
+    "moduleCritCoeffCR": 0.0,
+    "moduleCritCoeffXP": 0.0,
+    "parentHL": null,
+    "ramCoeff": 1.0,
+    "ramExtraDamage": 0.0,
+    "regeneratedHPPart": 0.5,
+    "rndPartHP": 0.0,
+    "splashBoxes": [
+     "CM_SB_ruder_1_1",
+     "CM_SB_ruder_1_2",
+     "CM_SB_ruder_1_3",
+     "CM_SB_ruder_1_4"
+    ],
+    "tbSkipProbMax": 0.0,
+    "tbSkipProbMin": 0.0,
+    "transmitHPDamageToParentFactor": 1.0,
+    "volume": 1.0,
+    "volumeCoeff": 1.0
+   },
+   "SS": {
+    "antiRamCoeff": 1.0,
+    "armorCoeff": 0.0,
+    "autoRepairTime": 10,
+    "autoRepairTimeMin": 5,
+    "buoyancyShipPercent": 0.0,
+    "burnNode": "",
+    "canBeDestroyed": false,
+    "critProb": [
+     0.0,
+     0.0
+    ],
+    "critProbHP": [
+     1.0,
+     0.0
+    ],
+    "damageEffects": [
+     [
+      0.1,
+      ""
+     ],
+     [
+      0.3,
+      ""
+     ],
+     [
+      0.6,
+      ""
+     ]
+    ],
+    "deathEffects": [
+     "/",
+     "/"
+    ],
+    "detonateEffect": "particles/vehicles/Battleship_death.xml",
+    "detonateOnDead": false,
+    "hitDetonationMaxProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hitDetonationMinProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hlType": "supersctructure_hitlocation",
+    "maxBuoyancy": 0.0,
+    "maxHP": 400.0,
+    "moduleCritCoeffCR": 0.0,
+    "moduleCritCoeffXP": 0.0,
+    "parentHL": "Hull",
+    "ramCoeff": 1.0,
+    "ramExtraDamage": 0.0,
+    "regeneratedHPPart": 0.5,
+    "rndPartHP": 0.0,
+    "splashBoxes": [
+     "CM_SB_ss_1_1",
+     "CM_SB_ss_1_2",
+     "CM_SB_ss_2_1",
+     "CM_SB_ss_2_2",
+     "CM_SB_ss_2_3",
+     "CM_SB_ss_2_4",
+     "CM_SB_ss_2_5",
+     "CM_SB_ss_2_6",
+     "CM_SB_ss_3_1"
+    ],
+    "tbSkipProbMax": 0.0,
+    "tbSkipProbMin": 0.0,
+    "transmitHPDamageToParentFactor": 1.0,
+    "volume": 0.06,
+    "volumeCoeff": 0.165
+   },
+   "St": {
+    "antiRamCoeff": 1.0,
+    "armorCoeff": 0.0,
+    "autoRepairTime": 10,
+    "autoRepairTimeMin": 5,
+    "buoyancyShipPercent": 0.0,
+    "burnNode": "",
+    "canBeDestroyed": false,
+    "critProb": [
+     0.0,
+     0.0
+    ],
+    "critProbHP": [
+     1.0,
+     0.0
+    ],
+    "damageEffects": [
+     [
+      0.1,
+      ""
+     ],
+     [
+      0.3,
+      ""
+     ],
+     [
+      0.6,
+      ""
+     ]
+    ],
+    "deathEffects": [
+     "/",
+     "/"
+    ],
+    "detonateEffect": "particles/vehicles/Battleship_death.xml",
+    "detonateOnDead": false,
+    "hitDetonationMaxProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hitDetonationMinProbAtDamage": [
+     0.0,
+     0.0
+    ],
+    "hlType": "simple_hitlocation",
+    "maxBuoyancy": 0.0,
+    "maxHP": 800.0,
+    "moduleCritCoeffCR": 0.0,
+    "moduleCritCoeffXP": 0.0,
+    "parentHL": "Hull",
+    "ramCoeff": 1.0,
+    "ramExtraDamage": 0.0,
+    "regeneratedHPPart": 0.5,
+    "rndPartHP": 0.0,
+    "splashBoxes": [
+     "CM_SB_stern_1",
+     "CM_SB_stern_2",
+     "CM_SB_stern_3"
+    ],
+    "tbSkipProbMax": 0.0,
+    "tbSkipProbMin": 0.0,
+    "transmitHPDamageToParentFactor": 1.0,
+    "volume": 0.11,
+    "volumeCoeff": 0.165
+   },
+   "acidDamage": 0,
+   "acidDuration": 0,
+   "armor": {
+    "1": 0.0,
+    "65583": 6.0,
+    "65584": 6.0,
+    "65585": 6.0,
+    "65587": 0.0,
+    "65591": 6.0,
+    "65592": 6.0,
+    "65593": 6.0,
+    "65594": 6.0,
+    "65616": 6.0,
+    "65617": 6.0,
+    "65619": 6.0,
+    "65625": 6.0,
+    "65626": 6.0,
+    "65628": 6.0,
+    "65629": 6.0,
+    "65630": 6.0,
+    "65632": 0.0,
+    "65646": 6.0,
+    "131161": 0.0,
+    "131162": 0.0
+   },
+   "armourCas": [
+    -1,
+    -1
+   ],
+   "armourCit": [
+    -1,
+    -1
+   ],
+   "armourDeck": [
+    -1,
+    -1
+   ],
+   "armourExtremities": [
+    -1,
+    -1
+   ],
+   "backwardPowerCoef": 3.0,
+   "barbettes": {},
+   "baseUnderwaterPitchAngle": 0.0,
+   "bodyType": "dynamic",
+   "boilerExplosionPostDeath": "particles/Empty_FX.xml",
+   "buoyancy": 200000,
+   "buoyancyEffects": [],
+   "buoyancyHighlightEffect": "particles/submarines/Sub_location.xml",
+   "buoyancyRudderDepths": [
+    0,
+    -8,
+    -16,
+    -24,
+    -32,
+    -40,
+    -48,
+    -56,
+    -64,
+    -72,
+    -80
+   ],
+   "buoyancyRudderResetTime": 1.0,
+   "buoyancyRudderTime": 1.0,
+   "buoyancyStates": {
+    "DEEP_WATER": [
+     [
+      -34.0,
+      -59.0
+     ],
+     0.63,
+     10.0
+    ],
+    "DEEP_WATER_INVUL": [
+     [
+      -59.0,
+      -80.0
+     ],
+     0.63,
+     10.0
+    ],
+    "PERISCOPE": [
+     [
+      -4.0,
+      -13.0
+     ],
+     0.63,
+     10.0
+    ],
+    "SEMI_DEEP_WATER": [
+     [
+      -13.0,
+      -34.0
+     ],
+     0.63,
+     10.0
+    ],
+    "SURFACE": [
+     [
+      0.0,
+      -4.0
+     ],
+     1.0,
+     1.0
+    ]
+   },
+   "buoyancyStopLine": 10.0,
+   "buoyancyStopLineMinSpeedCoeff": 0.35,
+   "burnNodes": [
+    [
+     1.0,
+     0.3,
+     30.0
+    ],
+    [
+     1.0,
+     0.3,
+     30.0
+    ],
+    [
+     1.0,
+     0.3,
+     30.0
+    ],
+    [
+     1.0,
+     0.3,
+     30.0
+    ]
+   ],
+   "canReceiveAcid": false,
+   "consumablePlaneTypes": {
+    "fighter": "",
+    "scout": ""
+   },
+   "coolingOffSpeed": 0.1,
+   "crackCoords": [
+    0.25,
+    0.0,
+    -0.25
+   ],
+   "customMiscs": {},
+   "deathBubblesEffect": "particles/NF_DD_seething_bubbles_post_death.xml",
+   "deathDetonateEffect": "particles/Empty_FX.xml",
+   "deathFaultEffect": "particles/Empty_FX.xml",
+   "deathFireEffect": "particles/Empty_FX.xml",
+   "deathFoamEffect": "particles/vehicles/Death_foam_small_2.xml",
+   "deathFountainsEffect": "particles/NF_DD_water_fountains_post_death.xml",
+   "deathFumingEffect": "particles/NF_DD_fuming_at_flooding_post_death.xml",
+   "deathNodes": [
+    "HP_Ship_death_1",
+    "HP_Ship_death_2",
+    "HP_Ship_death_3"
+   ],
+   "deathPlaneEffect": "particles/NF_AA_death_catapult_ships.xml",
+   "deathPostFireEffect": "particles/NF_DD_fuming_post_fire.xml",
+   "deathSettings": "PCOS001_Default",
+   "deathShellEffect": "particles/Empty_FX.xml",
+   "deathTorpedoEffect": "particles/NF_death_torpedo.xml",
+   "deathUnderWaterBubblesEffects": [
+    "particles/submarines/Sub_bomb_trace.xml",
+    "particles/submarines/Sub_bomb_trace.xml"
+   ],
+   "deckHeight": 1.94,
+   "deepwaterVisionCoeff": {},
+   "deepwaterVisionToPlaneCoeff": {},
+   "defaultCamouflage": "",
+   "dockYOffset": 0.0,
+   "draft": 11,
+   "effectCauldronExplosion": "particles/Empty_FX.xml",
+   "effectOnDeath": "particles/vehicles/Destroyer_death.xml",
+   "effectOnDetonatePowderChamber": "particles/simple_death.xml",
+   "effectOnFloodDeath": "particles/vehicles/Destroyer_death.xml",
+   "effectShipCracksAndOilPuddle": "particles/Empty_FX.xml",
+   "effects": {
+    "death": [
+     [
+      "HP_FX_Death_1",
+      "particles/vehicles/Death_foam_small_2.xml"
+     ],
+     [
+      "HP_FX_Death_2",
+      "particles/vehicles/Death_foam_small_2.xml"
+     ],
+     [
+      "HP_FX_Death_3",
+      "particles/vehicles/Death_foam_small_2.xml"
+     ]
+    ],
+    "fire1": [
+     [
+      "HP_FX_Fire_1",
+      "particles/vehicles/Fire_vvsmall.xml"
+     ]
+    ],
+    "fire2": [
+     [
+      "HP_FX_Fire_2",
+      "particles/vehicles/Fire_vsmall_2.xml"
+     ],
+     [
+      "HP_FX_Fire_2_side_1",
+      "particles/vehicles/Fire_side_small.xml"
+     ],
+     [
+      "HP_FX_Fire_2_side_2",
+      "particles/vehicles/Fire_side_small.xml"
+     ]
+    ],
+    "fire3": [
+     [
+      "HP_FX_Fire_3",
+      "particles/vehicles/Fire_vsmall_2.xml"
+     ],
+     [
+      "HP_FX_Fire_3_side_1",
+      "particles/vehicles/Fire_side_small.xml"
+     ],
+     [
+      "HP_FX_Fire_3_side_2",
+      "particles/vehicles/Fire_side_small.xml"
+     ]
+    ],
+    "fire4": [
+     [
+      "HP_FX_Fire_4",
+      "particles/vehicles/Fire_vvsmall_2.xml"
+     ]
+    ],
+    "fireResistance": [],
+    "fixDeluge": [
+     [
+      "HP_FX_Flood_water_left_1",
+      "particles/vehicles/Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_left_2",
+      "particles/vehicles/Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right_1",
+      "particles/vehicles/Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right_2",
+      "particles/vehicles/Flood_deluge_small.xml"
+     ]
+    ],
+    "fixLight": [
+     [
+      "HP_FX_FloodLight_left_1",
+      "particles/vehicles/FixLight_small.xml"
+     ],
+     [
+      "HP_FX_FloodLight_left_2",
+      "particles/vehicles/FixLight_small.xml"
+     ],
+     [
+      "HP_FX_FloodLight_right_1",
+      "particles/vehicles/FixLight_small.xml"
+     ],
+     [
+      "HP_FX_FloodLight_right_2",
+      "particles/vehicles/FixLight_small.xml"
+     ]
+    ],
+    "flood": [
+     [
+      "HP_FX_Flood_steam_1",
+      "particles/vehicles/Flood_steam_exhaust_small.xml"
+     ],
+     [
+      "HP_FX_Flood_steam_1",
+      "particles/vehicles/Flood_steam_small.xml"
+     ],
+     [
+      "HP_FX_Flood_steam_2",
+      "particles/vehicles/Flood_steam_exhaust_small_delayed.xml"
+     ],
+     [
+      "HP_FX_Flood_steam_2",
+      "particles/vehicles/Flood_steam_small.xml"
+     ],
+     [
+      "HP_FX_Flood_steam_left",
+      "particles/vehicles/Flood_steam_side_small.xml"
+     ],
+     [
+      "HP_FX_Flood_steam_right",
+      "particles/vehicles/Flood_steam_side_small.xml"
+     ]
+    ],
+    "floodLight": [
+     [
+      "HP_FX_FloodLight_left_1",
+      "particles/vehicles/FloodLight_small.xml"
+     ],
+     [
+      "HP_FX_FloodLight_left_2",
+      "particles/vehicles/FloodLight_small.xml"
+     ],
+     [
+      "HP_FX_FloodLight_right_1",
+      "particles/vehicles/FloodLight_small.xml"
+     ],
+     [
+      "HP_FX_FloodLight_right_2",
+      "particles/vehicles/FloodLight_small.xml"
+     ]
+    ],
+    "horn": [
+     [
+      "HP_FX_Smoke_1",
+      "particles/vehicles/Horn.xml"
+     ],
+     [
+      "HP_FX_Smoke_2",
+      "particles/vehicles/Horn.xml"
+     ],
+     [
+      "HP_FX_Smoke_3",
+      "particles/vehicles/Horn.xml"
+     ],
+     [
+      "HP_FX_Smoke_4",
+      "particles/vehicles/Horn.xml"
+     ]
+    ],
+    "idle": [],
+    "idlePort": [
+     [
+      "HP_FX_Flood_water_left_1",
+      "particles/vehicles/idlePort_Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_left_2",
+      "particles/vehicles/idlePort_Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right_1",
+      "particles/vehicles/idlePort_Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Flood_water_right_2",
+      "particles/vehicles/idlePort_Flood_deluge_small.xml"
+     ],
+     [
+      "HP_FX_Smoke_1",
+      "particles/vehicles/idlePort_RunSmoke_vsmall.xml"
+     ],
+     [
+      "HP_FX_Smoke_2",
+      "particles/vehicles/idlePort_RunSmoke_vsmall.xml"
+     ],
+     [
+      "HP_FX_Smoke_3",
+      "particles/vehicles/idlePort_RunSmoke_vsmall.xml"
+     ],
+     [
+      "HP_FX_Smoke_4",
+      "particles/vehicles/idlePort_RunSmoke_vsmall.xml"
+     ]
+    ],
+    "repairLight": [],
+    "smoke": [
+     [
+      "HP_FX_Smoke_1",
+      "particles/vehicles/RunSmoke_vsmall.xml"
+     ],
+     [
+      "HP_FX_Smoke_2",
+      "particles/vehicles/RunSmoke_vsmall.xml"
+     ],
+     [
+      "HP_FX_Smoke_3",
+      "particles/vehicles/RunSmoke_vsmall.xml"
+     ],
+     [
+      "HP_FX_Smoke_4",
+      "particles/vehicles/RunSmoke_vsmall.xml"
+     ]
+    ],
+    "waketraceback": [
+     [
+      "HP_FX_WakeTraceBack",
+      "particles/vehicles/WakeTraceReverce_back.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceReverce_screw_small_2.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceReverce_screw_small_2.xml"
+     ]
+    ],
+    "waketracefront": [
+     [
+      "HP_FX_WakeTrace",
+      "particles/vehicles/WakeTraceForward_front.xml"
+     ],
+     [
+      "HP_FX_WakeTraceBack",
+      "particles/vehicles/WakeTraceForward_back.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTrace_screw_small_2.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small_2.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ]
+    ]
+   },
+   "enemyEngineEffects": false,
+   "enemyVisibilityCoeffByDepth": {
+    "-44.0": 1.0,
+    "0.0": 1.0
+   },
+   "enginePower": 20500.0,
+   "finderBase": 2.0,
+   "finderHeight": 9.0,
+   "flagPoleModelName": "content/gameplay/common/misc/CM500/CM500.model",
+   "floodNodes": [
+    [
+     0.333,
+     0.25,
+     40.0
+    ],
+    [
+     0.333,
+     0.25,
+     40.0
+    ]
+   ],
+   "foghornEffect": "particles/Hooter.xml",
+   "health": 8100.0,
+   "heatChangeValue": 1,
+   "heightIntensityEffects": [],
+   "isBlind": false,
+   "isFakeSubmarine": false,
+   "mass": 1050000.0,
+   "maxBuoyancyLevel": 0.0,
+   "maxBuoyancySpeed": 0.0,
+   "maxHeatValue": 100.0,
+   "maxRudderAngle": 30.0,
+   "maxSpeed": 32.5,
+   "model": "content/gameplay/europe/ship/destroyer/WSD002_Tatra_1918/WSD002_Tatra_1918.model",
+   "numOfParts": 0,
+   "propellerEffect": "",
+   "propellerEffectReversed": "",
+   "pushingMaxRudderAngle": 16.0,
+   "pushingMinRudderAngle": 1.0,
+   "regenerationHPSpeed": 0.0,
+   "repairingCoeff": 0.0,
+   "rollEffect": 1.6,
+   "rudderPower": 20500000.0,
+   "rudderTime": 2.8,
+   "shipBodySunkDifferenceCoeff": 2.0,
+   "shipBodySunkStartMassCoeff": 1.0,
+   "shipPartSunkDifferenceCoeff": 2.2,
+   "shipPartSunkStartMassCoeff": 2.2,
+   "shipWheelsPresent": false,
+   "sideDragCoef": 26200.0,
+   "sinkStartTime": [
+    [
+     4.0,
+     10.0
+    ],
+    [
+     2.0,
+     4.0
+    ],
+    [
+     3.0,
+     3.0
+    ],
+    [
+     4.0,
+     1.0
+    ]
+   ],
+   "sinkTime": [
+    [
+     45.0,
+     130.0
+    ],
+    [
+     18.0,
+     30.0
+    ],
+    [
+     21.0,
+     27.0
+    ],
+    [
+     27.0,
+     15.0
+    ]
+   ],
+   "sinkingEffects": "PCXS009_Destroyer",
+   "size": [
+    83.44,
+    8.16,
+    7.92
+   ],
+   "smokeScanRadius": 27.0,
+   "speedCoef": 1.0,
+   "timeBeforeCauldronExplosion": 4.0,
+   "timeBeforeDeathEffect": 0.2,
+   "tonnage": 1050.0,
+   "torpedoImpactMassImpulseCoeff": 0.5,
+   "turningRadius": 460.0,
+   "underwaterMaxRudderAngle": 0.0,
+   "underwaterRollEffect": 0.0,
+   "unpeculiarCamouflage": "",
+   "unpeculiarCamouflageColorSchemeId": 0,
+   "visibilityCoefATBA": 1e-06,
+   "visibilityCoefATBAByPlane": 1e-06,
+   "visibilityCoefFire": 2.0,
+   "visibilityCoefFireByPlane": 3.0,
+   "visibilityCoefGK": 1e-06,
+   "visibilityCoefGKByPlane": 2.0,
+   "visibilityCoefGKInSmoke": 2.0,
+   "visibilityCoefPinger": {
+    "-22.0": 0.0,
+    "-6.0": 1.0,
+    "0.0": 1.0
+   },
+   "visibilityCoefPingerByPlane": {
+    "-22.0": 0.0,
+    "-6.0": 1.0,
+    "0.0": 1.0
+   },
+   "visibilityCoefPingerInSmoke": 1e-06,
+   "visibilityCoeff": 14.16,
+   "visibilityCoeffUnderwaterDepths": {
+    "0.0": 1.0
+   },
+   "visibilityCoeffUnderwaterDepthsByPlane": {
+    "0.0": 1.0
+   },
+   "visibilityFactor": 6.22,
+   "visibilityFactorByPlane": 2.43,
+   "visibilityFactorInSmoke": 1e-06,
+   "visibilityFactorsBySubmarine": {
+    "DEEP_WATER": 2.0,
+    "DEEP_WATER_INVUL": 0.0,
+    "PERISCOPE": 2.43,
+    "SEMI_DEEP_WATER": 2.0,
+    "SURFACE": 0.0
+   }
+  },
+  "B_Torpedoes": {
+   "HP_WGT_1": {
+    "HitLocationTorpedo": {
+     "antiRamCoeff": 1.0,
+     "armorCoeff": 1.0,
+     "autoRepairTime": 15,
+     "autoRepairTimeMin": 15,
+     "buoyancyShipPercent": 0.0,
+     "burnNode": "",
+     "canBeDestroyed": true,
+     "critProb": [
+      0.25,
+      0.25
+     ],
+     "critProbHP": [
+      1.0,
+      0.0
+     ],
+     "damageEffects": [],
+     "deathEffects": [
+      "/",
+      "/"
+     ],
+     "detonateEffect": "particles/vehicles/Battleship_death.xml",
+     "detonateOnDead": false,
+     "hitDetonationMaxProbAtDamage": [
+      0.0,
+      0.0
+     ],
+     "hitDetonationMinProbAtDamage": [
+      0.0,
+      0.0
+     ],
+     "hlType": "torpedo_hitlocation",
+     "maxBuoyancy": 0.0,
+     "maxHP": 1200.0,
+     "moduleCritCoeffCR": 0.0,
+     "moduleCritCoeffXP": 0.0,
+     "parentHL": null,
+     "ramCoeff": 1.0,
+     "ramExtraDamage": 0.0,
+     "regeneratedHPPart": 0.5,
+     "rndPartHP": 0.75,
+     "splashBoxes": [],
+     "tbSkipProbMax": 0.0,
+     "tbSkipProbMin": 0.0,
+     "transmitHPDamageToParentFactor": 1.0,
+     "volume": 0.5,
+     "volumeCoeff": 1.0
+    },
+    "ammoList": [
+     "PWPT002_Torped_M1913"
+    ],
+    "armor": {
+     "65580": 6.0
+    },
+    "barrelDiameter": 0.45,
+    "canRotate": true,
+    "customMiscs": {},
+    "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+    "deadMesh": "content/gameplay/europe/gun/torpedo/WGT033_450mm_triple_AW/WGT033_450mm_triple_AW_dead.model",
+    "deadZone": [
+     [
+      -64.0,
+      64.0
+     ],
+     [
+      137.0,
+      -137.0
+     ]
+    ],
+    "horizSector": [
+     0.0,
+     0.0
+    ],
+    "id": 4259734832,
+    "index": "PWGT033",
+    "lensEffect": "",
+    "mainSector": [
+     -90.0,
+     90.0
+    ],
+    "miscFilter": [],
+    "miscFilterMode": false,
+    "model": "content/gameplay/europe/gun/torpedo/WGT033_450mm_triple_AW/WGT033_450mm_triple_AW.model",
+    "name": "PWGT033_450mm_triple_AW",
+    "numAmmos": 1000,
+    "numBarrels": 3,
+    "position": [
+     3.8,
+     1.0
+    ],
+    "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
+    "rotationSpeed": [
+     25.0,
+     25.0
+    ],
+    "shootSector": [
+     0.0,
+     0.0
+    ],
+    "shotDelay": 40.0,
+    "shotEffect": "particles/guns/torpedo.xml",
+    "shotEffectCap": "particles/Empty_FX.xml",
+    "smallGun": null,
+    "timeBetweenShots": 0.2,
+    "timeToChangeAngle": 1,
+    "timeToChangeSpeed": 1,
+    "torpedoAngles": [
+     2.6,
+     5.2
+    ],
+    "typeinfo": {
+     "nation": "Europe",
+     "species": "Torpedo",
+     "type": "Gun"
+    },
+    "vertSector": [
+     0.0,
+     1.0
+    ]
+   },
+   "HP_WGT_2": {
+    "HitLocationTorpedo": {
+     "antiRamCoeff": 1.0,
+     "armorCoeff": 1.0,
+     "autoRepairTime": 15,
+     "autoRepairTimeMin": 15,
+     "buoyancyShipPercent": 0.0,
+     "burnNode": "",
+     "canBeDestroyed": true,
+     "critProb": [
+      0.25,
+      0.25
+     ],
+     "critProbHP": [
+      1.0,
+      0.0
+     ],
+     "damageEffects": [],
+     "deathEffects": [
+      "/",
+      "/"
+     ],
+     "detonateEffect": "particles/vehicles/Battleship_death.xml",
+     "detonateOnDead": false,
+     "hitDetonationMaxProbAtDamage": [
+      0.0,
+      0.0
+     ],
+     "hitDetonationMinProbAtDamage": [
+      0.0,
+      0.0
+     ],
+     "hlType": "torpedo_hitlocation",
+     "maxBuoyancy": 0.0,
+     "maxHP": 1200.0,
+     "moduleCritCoeffCR": 0.0,
+     "moduleCritCoeffXP": 0.0,
+     "parentHL": null,
+     "ramCoeff": 1.0,
+     "ramExtraDamage": 0.0,
+     "regeneratedHPPart": 0.5,
+     "rndPartHP": 0.75,
+     "splashBoxes": [],
+     "tbSkipProbMax": 0.0,
+     "tbSkipProbMin": 0.0,
+     "transmitHPDamageToParentFactor": 1.0,
+     "volume": 0.5,
+     "volumeCoeff": 1.0
+    },
+    "ammoList": [
+     "PWPT002_Torped_M1913"
+    ],
+    "armor": {
+     "65580": 6.0
+    },
+    "barrelDiameter": 0.45,
+    "canRotate": true,
+    "customMiscs": {},
+    "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+    "deadMesh": "content/gameplay/europe/gun/torpedo/WGT033_450mm_triple_AW/WGT033_450mm_triple_AW_dead.model",
+    "deadZone": [
+     [
+      -63.0,
+      63.0
+     ]
+    ],
+    "horizSector": [
+     -128.0,
+     128.0
+    ],
+    "id": 4259734832,
+    "index": "PWGT033",
+    "lensEffect": "",
+    "mainSector": [
+     -90.0,
+     90.0
+    ],
+    "miscFilter": [],
+    "miscFilterMode": false,
+    "model": "content/gameplay/europe/gun/torpedo/WGT033_450mm_triple_AW/WGT033_450mm_triple_AW.model",
+    "name": "PWGT033_450mm_triple_AW",
+    "numAmmos": 1000,
+    "numBarrels": 3,
+    "position": [
+     5.0,
+     1.0
+    ],
+    "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
+    "rotationSpeed": [
+     25.0,
+     25.0
+    ],
+    "shootSector": [
+     0.0,
+     0.0
+    ],
+    "shotDelay": 40.0,
+    "shotEffect": "particles/guns/torpedo.xml",
+    "shotEffectCap": "particles/Empty_FX.xml",
+    "smallGun": null,
+    "timeBetweenShots": 0.2,
+    "timeToChangeAngle": 1,
+    "timeToChangeSpeed": 1,
+    "torpedoAngles": [
+     2.6,
+     5.2
+    ],
+    "typeinfo": {
+     "nation": "Europe",
+     "species": "Torpedo",
+     "type": "Gun"
+    },
+    "vertSector": [
+     0.0,
+     1.0
+    ]
+   },
+   "timeToChangeAmmo": 10.0,
+   "useGroups": false,
+   "useOneShot": false
+  },
+  "BattleUpgradeInfo": {},
+  "ShipAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY009_CrashCrewPremium",
+      "D_Gold"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY015_SpeedBoosterPremium",
+      "Default"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "ShipUpgradeInfo": {
+   "PWUA101_DD2_ART_STOCK": {
+    "canBuy": true,
+    "components": {
+     "artillery": [
+      "A_Artillery"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Artillery"
+   },
+   "PWUE101_DD2_ENG_STOCK": {
+    "canBuy": true,
+    "components": {
+     "engine": [
+      "AB_Engine"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Engine"
+   },
+   "PWUH101_DD2_HULL_STOCK": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [],
+     "airDefense": [],
+     "artillery": [
+      "A_Artillery"
+     ],
+     "atba": [],
+     "depthCharges": [],
+     "directors": [],
+     "finders": [],
+     "hull": [
+      "A_Hull"
+     ],
+     "pinger": [],
+     "radars": [],
+     "torpedoes": [
+      "A_Torpedoes"
+     ]
+    },
+    "disabledAbilities": [],
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Hull"
+   },
+   "PWUH102_DD2_HULL_TOP": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [],
+     "airDefense": [],
+     "artillery": [
+      "A_Artillery"
+     ],
+     "atba": [],
+     "depthCharges": [],
+     "directors": [],
+     "finders": [],
+     "hull": [
+      "B_Hull"
+     ],
+     "pinger": [],
+     "radars": [],
+     "torpedoes": [
+      "B_Torpedoes"
+     ]
+    },
+    "disabledAbilities": [],
+    "nextShips": [
+     "PWSD103_Romulus"
+    ],
+    "prev": "PWUH101_DD2_HULL_STOCK",
+    "ucType": "_Hull"
+   },
+   "PWUS101_DD2_SUO_STOCK": {
+    "canBuy": true,
+    "components": {
+     "fireControl": [
+      "AB1_FireControl"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Suo"
+   },
+   "PWUS102_DD2_SUO_TOP": {
+    "canBuy": true,
+    "components": {
+     "fireControl": [
+      "AB2_FireControl"
+     ]
+    },
+    "nextShips": [],
+    "prev": "PWUS101_DD2_SUO_STOCK",
+    "ucType": "_Suo"
+   },
+   "PWUT101_DD2_TORP_STOCK": {
+    "canBuy": true,
+    "components": {
+     "torpedoes": [
+      "A_Torpedoes",
+      "B_Torpedoes"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Torpedoes"
+   },
+   "costCR": 72000,
+   "costGold": 0,
+   "costSaleGold": 0,
+   "costXP": 350,
+   "lockedConfig": [],
+   "value": 1
+  },
+  "Specials": {
+   "buffsShiftMaxLevel": 0,
+   "buffsShiftSpeed": 1.0,
+   "buffsStartPool": 0,
+   "modifiers": {}
+  },
+  "UnderwaterCamera": {
+   "cameraDragOff": 1000,
+   "cameraDragOffTime": 5,
+   "cameraDragOnTime": 5,
+   "castZoom": {},
+   "maxZoomLength": 5.0,
+   "shipHeigthCoeff": 3.0,
+   "shipLengthCoeff": 1.0,
+   "shipWidthCoeff": 3.0,
+   "zoomDragCoefficient": 0.85
+  },
+  "alternateFlags": [
+   "austria_hungary"
+  ],
+  "apDamageLimitCoeff": 0.1,
+  "battleSignalsModifiersOrder": [],
+  "battleSignalsOrder": [],
+  "canEquipCamouflage": true,
+  "custom": {},
+  "defaultCrew": "PWW003_Default_Austria_Hungary",
+  "effects": {},
+  "flagsScale": 0.5,
+  "group": "upgradeable",
+  "id": 4187895088,
+  "index": "PWSD102",
+  "isPaperShip": false,
+  "level": 2,
+  "maxEquippedFlags": 8,
+  "name": "PWSD102_Tatra",
+  "nationFlagScale": 0.9,
+  "nativePermoflage": "",
+  "navalFlag": "europe",
+  "needShowProjectYear": true,
+  "peculiarity": "default",
+  "peculiarityEffects": {},
+  "peculiarityFlag": "",
+  "peculiarityModels": {},
+  "permoflages": [],
+  "steerAngle": [
+   0.2,
+   0.7,
+   1.0
+  ],
+  "steerDist": null,
+  "subnation": "Austria_Hungary",
+  "tags": [],
+  "typeinfo": {
+   "nation": "Europe",
+   "species": "Destroyer",
+   "type": "Ship"
+  },
+  "unpeculiarShip": ""
+ },
+ {
   "AIParams": {
    "default_distance": 0,
    "max_distance": 0,
@@ -2484,7 +5754,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small_2.xml"
+      "particles/vehicles/WakeTraceReverce_back_wide_1.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -2493,32 +5763,32 @@
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceReverce_screw_small.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    },
@@ -2654,10 +5924,10 @@
    "visibilityFactorByPlane": 2.9,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 2.9,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 2.9,
-    "SEMI_DEEP_WATER": 2.9,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },
@@ -5510,7 +8780,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small_2.xml"
+      "particles/vehicles/WakeTraceReverce_back_wide_2.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -5519,32 +8789,32 @@
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceReverce_screw_medium.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    },
@@ -5680,10 +8950,10 @@
    "visibilityFactorByPlane": 3.47,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 3.47,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 3.47,
-    "SEMI_DEEP_WATER": 3.47,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },
@@ -6009,6 +9279,7 @@
      1.0
     ]
    },
+   "timeToChangeAmmo": 10.0,
    "useGroups": false,
    "useOneShot": false
   },
@@ -6898,6 +10169,7 @@
      1.0
     ]
    },
+   "timeToChangeAmmo": 10.0,
    "useGroups": false,
    "useOneShot": false
   },
@@ -8170,7 +11442,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small.xml"
+      "particles/vehicles/WakeTraceReverce_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -8179,32 +11451,32 @@
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceReverce_screw_small_2.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small_2.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_small_2.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    },
@@ -8340,10 +11612,10 @@
    "visibilityFactorByPlane": 2.64,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 2.64,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 2.64,
-    "SEMI_DEEP_WATER": 2.64,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },
@@ -9941,7 +13213,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small.xml"
+      "particles/vehicles/WakeTraceReverce_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -9950,32 +13222,32 @@
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceReverce_screw_small_2.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small_2.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_small_2.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    },
@@ -10111,10 +13383,10 @@
    "visibilityFactorByPlane": 2.64,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 2.64,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 2.64,
-    "SEMI_DEEP_WATER": 2.64,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },
@@ -11059,6 +14331,7 @@
      1.0
     ]
    },
+   "timeToChangeAmmo": 10.0,
    "useGroups": false,
    "useOneShot": false
   },
@@ -13235,7 +16508,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small_2.xml"
+      "particles/vehicles/WakeTraceReverce_back_wide_2.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -13244,32 +16517,32 @@
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceReverce_screw_medium.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    },
@@ -13405,10 +16678,10 @@
    "visibilityFactorByPlane": 3.38,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 3.38,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 3.38,
-    "SEMI_DEEP_WATER": 3.38,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },
@@ -16615,7 +19888,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small_2.xml"
+      "particles/vehicles/WakeTraceReverce_back_wide_1.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -16624,32 +19897,32 @@
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceReverce_screw_small.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    },
@@ -16785,10 +20058,10 @@
    "visibilityFactorByPlane": 3.25,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 3.25,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 3.25,
-    "SEMI_DEEP_WATER": 3.25,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },
@@ -16933,6 +20206,7 @@
      1.0
     ]
    },
+   "timeToChangeAmmo": 10.0,
    "useGroups": false,
    "useOneShot": false
   },
@@ -20698,7 +23972,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_medium.xml"
+      "particles/vehicles/WakeTraceReverce_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -20715,20 +23989,20 @@
      [
       "HP_FX_WakeTrace_screw_4",
       "particles/vehicles/WakeTraceReverce_screw_small.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_medium.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_medium.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_medium.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -20736,7 +24010,15 @@
      ],
      [
       "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_left_center.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_small.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_3",
+      "particles/vehicles/WakeTraceForward_screw_right_center.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_3",
@@ -20744,11 +24026,11 @@
      ],
      [
       "HP_FX_WakeTrace_screw_4",
-      "particles/vehicles/WakeTrace_screw_small.xml"
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_medium.xml"
+      "HP_FX_WakeTrace_screw_4",
+      "particles/vehicles/WakeTrace_screw_small.xml"
      ]
     ]
    },
@@ -20884,10 +24166,10 @@
    "visibilityFactorByPlane": 6.82,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 6.82,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 6.82,
-    "SEMI_DEEP_WATER": 6.82,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },
@@ -23063,7 +26345,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small_2.xml"
+      "particles/vehicles/WakeTraceReverce_back_wide_1.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -23072,32 +26354,32 @@
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceReverce_screw_small.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    },
@@ -23233,10 +26515,10 @@
    "visibilityFactorByPlane": 5.36,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 5.36,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 5.36,
-    "SEMI_DEEP_WATER": 5.36,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },
@@ -24111,6 +27393,7 @@
      1.0
     ]
    },
+   "timeToChangeAmmo": 10.0,
    "useGroups": false,
    "useOneShot": false
   },
@@ -24353,6 +27636,7 @@
      1.0
     ]
    },
+   "timeToChangeAmmo": 10.0,
    "useGroups": false,
    "useOneShot": false
   },
@@ -26816,7 +30100,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small_2.xml"
+      "particles/vehicles/WakeTraceReverce_back_wide_1.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -26825,32 +30109,32 @@
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceReverce_screw_small.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    },
@@ -26986,10 +30270,10 @@
    "visibilityFactorByPlane": 3.2,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 3.2,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 3.2,
-    "SEMI_DEEP_WATER": 3.2,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },
@@ -28892,7 +32176,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small_2.xml"
+      "particles/vehicles/WakeTraceReverce_back_wide_1.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -28901,32 +32185,32 @@
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceReverce_screw_small.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    },
@@ -29062,10 +32346,10 @@
    "visibilityFactorByPlane": 3.2,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 3.2,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 3.2,
-    "SEMI_DEEP_WATER": 3.2,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },
@@ -31687,7 +34971,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small.xml"
+      "particles/vehicles/WakeTraceReverce_back_wide_1.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -31696,32 +34980,32 @@
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceReverce_screw_small.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    },
@@ -31857,10 +35141,10 @@
    "visibilityFactorByPlane": 3.07,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 3.07,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 3.07,
-    "SEMI_DEEP_WATER": 3.07,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },
@@ -32226,6 +35510,7 @@
      1.0
     ]
    },
+   "timeToChangeAmmo": 10.0,
    "useGroups": false,
    "useOneShot": false
   },
@@ -35233,7 +38518,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small_2.xml"
+      "particles/vehicles/WakeTraceReverce_back_wide_2.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -35242,32 +38527,32 @@
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceReverce_screw_medium.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small_3.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_medium_3.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    },
@@ -35403,10 +38688,10 @@
    "visibilityFactorByPlane": 4.71,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 4.71,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 4.71,
-    "SEMI_DEEP_WATER": 4.71,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },
@@ -35607,14 +38892,7 @@
   ],
   "battleSignalsOrder": [],
   "canEquipCamouflage": true,
-  "custom": {
-   "PT": {
-    "group": "demoWithoutStats"
-   },
-   "ST": {
-    "group": "demoWithoutStats"
-   }
-  },
+  "custom": {},
   "defaultCrew": "PWW005_Default_Sweden",
   "effects": {},
   "flagsScale": 0.3,
@@ -35645,3274 +38923,6 @@
   ],
   "steerDist": null,
   "subnation": "Sweden",
-  "tags": [],
-  "typeinfo": {
-   "nation": "Europe",
-   "species": "Destroyer",
-   "type": "Ship"
-  },
-  "unpeculiarShip": ""
- },
- {
-  "AB1_FireControl": {
-   "maxDistCoef": 1.0,
-   "sigmaCountCoef": 1.0
-  },
-  "AB2_FireControl": {
-   "maxDistCoef": 1.1,
-   "sigmaCountCoef": 1.0
-  },
-  "AB_Engine": {
-   "HitLocationEngine": {
-    "antiRamCoeff": 1.0,
-    "armorCoeff": 0.8,
-    "autoRepairTime": 60,
-    "autoRepairTimeMin": 60,
-    "buoyancyShipPercent": 0.0,
-    "burnNode": "",
-    "canBeDestroyed": false,
-    "critProb": [
-     0.25,
-     0.1
-    ],
-    "critProbHP": [
-     1.0,
-     0.0
-    ],
-    "damageEffects": [
-     [
-      0.1,
-      ""
-     ],
-     [
-      0.3,
-      ""
-     ],
-     [
-      0.6,
-      ""
-     ]
-    ],
-    "deathEffects": [
-     "/",
-     "/"
-    ],
-    "detonateEffect": "particles/vehicles/Battleship_death.xml",
-    "detonateOnDead": false,
-    "hitDetonationMaxProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hitDetonationMinProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hlType": "engine_hitlocation",
-    "maxBuoyancy": 0.0,
-    "maxHP": 8100.0,
-    "moduleCritCoeffCR": 1.0,
-    "moduleCritCoeffXP": 1.0,
-    "parentHL": null,
-    "ramCoeff": 1.0,
-    "ramExtraDamage": 0.0,
-    "regeneratedHPPart": 0.5,
-    "rndPartHP": 0.0,
-    "splashBoxes": [
-     "CM_SB_engine_1_1",
-     "CM_SB_engine_1_2"
-    ],
-    "tbSkipProbMax": 0.0,
-    "tbSkipProbMin": 0.0,
-    "transmitHPDamageToParentFactor": 1.0,
-    "volume": 10.0,
-    "volumeCoeff": 1.0
-   },
-   "backwardEngineForsag": 2.5,
-   "backwardEngineForsagMaxSpeed": 2.5,
-   "backwardEngineUpTime": 10.0,
-   "backwardSpeedOnFlood": -0.6,
-   "damagedEnginePowerMultiplier": -0.6,
-   "damagedEnginePowerTimeMultiplier": 6.5,
-   "engineType": "SteamTurbine",
-   "forwardEngineForsag": 2.5,
-   "forwardEngineForsagMaxSpeed": 2.5,
-   "forwardEngineUpTime": 20.0,
-   "forwardSpeedOnFlood": -0.3,
-   "histEnginePower": 20500,
-   "sound": "GameLogic.Engines.Battleship.Turbine.Type_1",
-   "speedCoef": 0.0
-  },
-  "AIParams": {
-   "default_distance": 0,
-   "max_distance": 0,
-   "min_distance": 0
-  },
-  "A_Artillery": {
-   "HP_WGM_1": {
-    "HitLocationArtillery": {
-     "antiRamCoeff": 1.0,
-     "armorCoeff": 0.8,
-     "autoRepairTime": 30,
-     "autoRepairTimeMin": 25,
-     "buoyancyShipPercent": 0.0,
-     "burnNode": "",
-     "canBeDestroyed": true,
-     "critProb": [
-      0.05,
-      0.75
-     ],
-     "critProbHP": [
-      1.0,
-      0.02
-     ],
-     "damageEffects": [],
-     "deathEffects": [
-      "/",
-      "/"
-     ],
-     "detonateEffect": "particles/vehicles/Battleship_death.xml",
-     "detonateOnDead": false,
-     "hitDetonationMaxProbAtDamage": [
-      0.0,
-      0.0
-     ],
-     "hitDetonationMinProbAtDamage": [
-      0.0,
-      0.0
-     ],
-     "hlType": "artillery_hitlocation",
-     "maxBuoyancy": 0.0,
-     "maxHP": 2000.0,
-     "moduleCritCoeffCR": 1.0,
-     "moduleCritCoeffXP": 1.0,
-     "parentHL": null,
-     "ramCoeff": 1.0,
-     "ramExtraDamage": 0.0,
-     "regeneratedHPPart": 1.0,
-     "rndPartHP": 0.0,
-     "splashBoxes": [],
-     "tbSkipProbMax": 0.0,
-     "tbSkipProbMin": 0.0,
-     "transmitHPDamageToParentFactor": 1.0,
-     "volume": 0.5,
-     "volumeCoeff": 0.1
-    },
-    "aiMGmaxEllipseRanging": 4.0,
-    "aiMGmedEllipseRanging": 3.7,
-    "aiMGminEllipseRanging": 3.5,
-    "ammoList": [
-     "PWPA014_100MM_HE_50_K11",
-     "PWPA015_100MM_AP_50_K11"
-    ],
-    "antiAirAuraDistance": 0.0,
-    "antiAirAuraStrength": 0.0,
-    "armor": {
-     "65580": 6.0
-    },
-    "barrelDiameter": 0.1,
-    "coeffPerSecondMin": 0.3,
-    "customMiscs": {},
-    "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
-    "deadMesh": "content/gameplay/europe/gun/main/WGM009_100mm50_K10_Skoda/WGM009_100mm50_K10_Skoda_dead.model",
-    "deadZone": [],
-    "delim": 0.5,
-    "effectIntensityModifier": 1.0,
-    "ellipseRangeMax": 250.0,
-    "ellipseRangeMin": 50.0,
-    "horizSector": [
-     -145.0,
-     145.0
-    ],
-    "id": 4285130032,
-    "idealDistance": 1000.0,
-    "idealRadius": 8,
-    "index": "PWGM009",
-    "lensEffect": "particles/guns/GK_Lens_50to170.xml",
-    "maxEllipseRanging": 1.003,
-    "medEllipseRanging": 1.002,
-    "minEllipseRanging": 1.001,
-    "minRadius": 0.5,
-    "miscFilter": [],
-    "miscFilterMode": false,
-    "model": "content/gameplay/europe/gun/main/WGM009_100mm50_K10_Skoda/WGM009_100mm50_K10_Skoda.model",
-    "name": "PWGM009_100mm50_K10_Skoda",
-    "numBarrels": 1,
-    "onMoveTarPosCoeffDelim": 1.001,
-    "onMoveTarPosCoeffMaxDist": 1.002,
-    "onMoveTarPosCoeffZero": 1.0,
-    "onMoveTarPosDelim": 0.1,
-    "pitchDeadZones": [],
-    "position": [
-     0.0,
-     1.0
-    ],
-    "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
-    "radiusOnDelim": 0.5,
-    "radiusOnMax": 0.6,
-    "radiusOnZero": 0.2,
-    "reduceTime": 0.1,
-    "reloadBoostEffect": "particles/guns/GK_Reload_50to110.xml",
-    "rotationSpeed": [
-     10.0,
-     10.0
-    ],
-    "shotDelay": 4.5,
-    "shotEffect": "particles/guns/GK_Shot_50to110.xml",
-    "smallGun": null,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    },
-    "vertSector": [
-     -2.0,
-     16.0
-    ]
-   },
-   "HP_WGM_2": {
-    "HitLocationArtillery": {
-     "antiRamCoeff": 1.0,
-     "armorCoeff": 0.8,
-     "autoRepairTime": 30,
-     "autoRepairTimeMin": 25,
-     "buoyancyShipPercent": 0.0,
-     "burnNode": "",
-     "canBeDestroyed": true,
-     "critProb": [
-      0.05,
-      0.75
-     ],
-     "critProbHP": [
-      1.0,
-      0.02
-     ],
-     "damageEffects": [],
-     "deathEffects": [
-      "/",
-      "/"
-     ],
-     "detonateEffect": "particles/vehicles/Battleship_death.xml",
-     "detonateOnDead": false,
-     "hitDetonationMaxProbAtDamage": [
-      0.0,
-      0.0
-     ],
-     "hitDetonationMinProbAtDamage": [
-      0.0,
-      0.0
-     ],
-     "hlType": "artillery_hitlocation",
-     "maxBuoyancy": 0.0,
-     "maxHP": 2000.0,
-     "moduleCritCoeffCR": 1.0,
-     "moduleCritCoeffXP": 1.0,
-     "parentHL": null,
-     "ramCoeff": 1.0,
-     "ramExtraDamage": 0.0,
-     "regeneratedHPPart": 1.0,
-     "rndPartHP": 0.0,
-     "splashBoxes": [],
-     "tbSkipProbMax": 0.0,
-     "tbSkipProbMin": 0.0,
-     "transmitHPDamageToParentFactor": 1.0,
-     "volume": 0.5,
-     "volumeCoeff": 0.1
-    },
-    "aiMGmaxEllipseRanging": 4.0,
-    "aiMGmedEllipseRanging": 3.7,
-    "aiMGminEllipseRanging": 3.5,
-    "ammoList": [
-     "PWPA014_100MM_HE_50_K11",
-     "PWPA015_100MM_AP_50_K11"
-    ],
-    "antiAirAuraDistance": 0.0,
-    "antiAirAuraStrength": 0.0,
-    "armor": {
-     "65580": 6.0
-    },
-    "barrelDiameter": 0.1,
-    "coeffPerSecondMin": 0.3,
-    "customMiscs": {},
-    "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
-    "deadMesh": "content/gameplay/europe/gun/main/WGM009_100mm50_K10_Skoda/WGM009_100mm50_K10_Skoda_dead.model",
-    "deadZone": [],
-    "delim": 0.5,
-    "effectIntensityModifier": 1.0,
-    "ellipseRangeMax": 250.0,
-    "ellipseRangeMin": 50.0,
-    "horizSector": [
-     -150.0,
-     150.0
-    ],
-    "id": 4285130032,
-    "idealDistance": 1000.0,
-    "idealRadius": 8,
-    "index": "PWGM009",
-    "lensEffect": "particles/guns/GK_Lens_50to170.xml",
-    "maxEllipseRanging": 1.003,
-    "medEllipseRanging": 1.002,
-    "minEllipseRanging": 1.001,
-    "minRadius": 0.5,
-    "miscFilter": [],
-    "miscFilterMode": false,
-    "model": "content/gameplay/europe/gun/main/WGM009_100mm50_K10_Skoda/WGM009_100mm50_K10_Skoda.model",
-    "name": "PWGM009_100mm50_K10_Skoda",
-    "numBarrels": 1,
-    "onMoveTarPosCoeffDelim": 1.001,
-    "onMoveTarPosCoeffMaxDist": 1.002,
-    "onMoveTarPosCoeffZero": 1.0,
-    "onMoveTarPosDelim": 0.1,
-    "pitchDeadZones": [],
-    "position": [
-     6.0,
-     1.0
-    ],
-    "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
-    "radiusOnDelim": 0.5,
-    "radiusOnMax": 0.6,
-    "radiusOnZero": 0.2,
-    "reduceTime": 0.1,
-    "reloadBoostEffect": "particles/guns/GK_Reload_50to110.xml",
-    "rotationSpeed": [
-     10.0,
-     10.0
-    ],
-    "shotDelay": 4.5,
-    "shotEffect": "particles/guns/GK_Shot_50to110.xml",
-    "smallGun": null,
-    "smokePenalty": 0.0001,
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Main",
-     "type": "Gun"
-    },
-    "vertSector": [
-     -2.0,
-     16.0
-    ]
-   },
-   "ammoPool": {
-    "AP": 99999,
-    "CS": 99999,
-    "HE": 99999,
-    "axisLaser": 99999,
-    "chargeLaser": 99999,
-    "impulseLaser": 99999
-   },
-   "artificialOffset": 0,
-   "maxDist": 8300.0,
-   "minDistH": 50.0,
-   "minDistV": 110.0,
-   "normalDistribution": true,
-   "sigmaCount": 2.0,
-   "taperDist": 4000.0,
-   "targetTypeIgnore": [],
-   "targetWeightAllyAttacker": 1.0,
-   "targetWeightDist": 1.0,
-   "targetWeightHealth": 1.0,
-   "targetWeightIncoming": 10.0,
-   "targetWeightMaxDist": 2.0,
-   "targetWeightMaxHealth": 1.0,
-   "targetWeightMinDist": 10.0,
-   "targetWeightMinHealth": 5.0,
-   "targetWeightMyAttacker": 1.0,
-   "targetWeightOutcoming": 0.1,
-   "targetWeightType": 1.0,
-   "targetWeightTypeTable": {
-    "AirCarrier": [
-     6.0,
-     6.0,
-     6.0
-    ],
-    "Auxiliary": [
-     6.0,
-     6.0,
-     6.0
-    ],
-    "Battleship": [
-     3.0,
-     3.0,
-     3.0
-    ],
-    "Cruiser": [
-     4.0,
-     4.0,
-     4.0
-    ],
-    "Destroyer": [
-     5.0,
-     5.0,
-     5.0
-    ],
-    "Submarine": [
-     5.0,
-     5.0,
-     5.0
-    ]
-   },
-   "targetWeightYaw": 1.0
-  },
-  "A_Hull": {
-   "Ammo1": {
-    "antiRamCoeff": 1.0,
-    "armorCoeff": 0.8,
-    "autoRepairTime": 40,
-    "autoRepairTimeMin": 5,
-    "buoyancyShipPercent": 0.0,
-    "burnNode": "",
-    "canBeDestroyed": true,
-    "coeffReloadDamaged": 1.0,
-    "critProb": [
-     0.0,
-     0.0
-    ],
-    "critProbHP": [
-     1.0,
-     0.0
-    ],
-    "damageEffects": [
-     [
-      0.1,
-      ""
-     ],
-     [
-      0.3,
-      ""
-     ],
-     [
-      0.6,
-      ""
-     ]
-    ],
-    "deathEffects": [
-     "/",
-     "/"
-    ],
-    "detonateEffect": "particles/vehicles/Battleship_death.xml",
-    "detonateOnDead": false,
-    "guns": [],
-    "hitDetonationMaxProbAtDamage": [
-     0.1,
-     1.0
-    ],
-    "hitDetonationMinProbAtDamage": [
-     0.01,
-     0.3
-    ],
-    "hlType": "powdermagazine_hitlocation",
-    "maxBuoyancy": 0.0,
-    "maxHP": 3600.0,
-    "moduleCritCoeffCR": 1.0,
-    "moduleCritCoeffXP": 1.0,
-    "parentHL": null,
-    "ramCoeff": 1.0,
-    "ramExtraDamage": 0.0,
-    "regeneratedHPPart": 0.5,
-    "rndPartHP": 0.0,
-    "splashBoxes": [
-     "CM_SB_bow_ammo_1_1",
-     "CM_SB_bow_ammo_1_2"
-    ],
-    "tbSkipProbMax": 0.0,
-    "tbSkipProbMin": 0.0,
-    "transmitHPDamageToParentFactor": 1.0,
-    "volume": 1.0,
-    "volumeCoeff": 1.0
-   },
-   "Ammo2": {
-    "antiRamCoeff": 1.0,
-    "armorCoeff": 0.8,
-    "autoRepairTime": 40,
-    "autoRepairTimeMin": 5,
-    "buoyancyShipPercent": 0.0,
-    "burnNode": "",
-    "canBeDestroyed": true,
-    "coeffReloadDamaged": 1.0,
-    "critProb": [
-     0.0,
-     0.0
-    ],
-    "critProbHP": [
-     1.0,
-     0.0
-    ],
-    "damageEffects": [
-     [
-      0.1,
-      ""
-     ],
-     [
-      0.3,
-      ""
-     ],
-     [
-      0.6,
-      ""
-     ]
-    ],
-    "deathEffects": [
-     "/",
-     "/"
-    ],
-    "detonateEffect": "particles/vehicles/Battleship_death.xml",
-    "detonateOnDead": false,
-    "guns": [],
-    "hitDetonationMaxProbAtDamage": [
-     0.1,
-     1.0
-    ],
-    "hitDetonationMinProbAtDamage": [
-     0.01,
-     0.3
-    ],
-    "hlType": "powdermagazine_hitlocation",
-    "maxBuoyancy": 0.0,
-    "maxHP": 3600.0,
-    "moduleCritCoeffCR": 1.0,
-    "moduleCritCoeffXP": 1.0,
-    "parentHL": null,
-    "ramCoeff": 1.0,
-    "ramExtraDamage": 0.0,
-    "regeneratedHPPart": 0.5,
-    "rndPartHP": 0.0,
-    "splashBoxes": [
-     "CM_SB_stern_ammo_1_1",
-     "CM_SB_stern_ammo_1_2"
-    ],
-    "tbSkipProbMax": 0.0,
-    "tbSkipProbMin": 0.0,
-    "transmitHPDamageToParentFactor": 1.0,
-    "volume": 1.0,
-    "volumeCoeff": 1.0
-   },
-   "Bow": {
-    "antiRamCoeff": 1.0,
-    "armorCoeff": 0.0,
-    "autoRepairTime": 10,
-    "autoRepairTimeMin": 5,
-    "buoyancyShipPercent": 0.0,
-    "burnNode": "",
-    "canBeDestroyed": false,
-    "critProb": [
-     0.0,
-     0.0
-    ],
-    "critProbHP": [
-     1.0,
-     0.0
-    ],
-    "damageEffects": [
-     [
-      0.1,
-      ""
-     ],
-     [
-      0.3,
-      ""
-     ],
-     [
-      0.6,
-      ""
-     ]
-    ],
-    "deathEffects": [
-     "/",
-     "/"
-    ],
-    "detonateEffect": "particles/vehicles/Battleship_death.xml",
-    "detonateOnDead": false,
-    "hitDetonationMaxProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hitDetonationMinProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hlType": "simple_hitlocation",
-    "maxBuoyancy": 0.0,
-    "maxHP": 1100.0,
-    "moduleCritCoeffCR": 0.0,
-    "moduleCritCoeffXP": 0.0,
-    "parentHL": "Hull",
-    "ramCoeff": 1.0,
-    "ramExtraDamage": 0.0,
-    "regeneratedHPPart": 0.5,
-    "rndPartHP": 0.0,
-    "splashBoxes": [
-     "CM_SB_bow_1",
-     "CM_SB_bow_2",
-     "CM_SB_bow_3",
-     "CM_SB_bow_4"
-    ],
-    "tbSkipProbMax": 0.0,
-    "tbSkipProbMin": 0.0,
-    "transmitHPDamageToParentFactor": 1.0,
-    "volume": 0.17,
-    "volumeCoeff": 0.165
-   },
-   "Cas": {
-    "antiRamCoeff": 1.0,
-    "armorCoeff": 0.0,
-    "autoRepairTime": 10,
-    "autoRepairTimeMin": 5,
-    "buoyancyShipPercent": 0.0,
-    "burnNode": "",
-    "canBeDestroyed": false,
-    "critProb": [
-     0.0,
-     0.0
-    ],
-    "critProbHP": [
-     1.0,
-     0.0
-    ],
-    "damageEffects": [
-     [
-      0.1,
-      ""
-     ],
-     [
-      0.3,
-      ""
-     ],
-     [
-      0.6,
-      ""
-     ]
-    ],
-    "deathEffects": [
-     "/",
-     "/"
-    ],
-    "detonateEffect": "particles/vehicles/Battleship_death.xml",
-    "detonateOnDead": false,
-    "hitDetonationMaxProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hitDetonationMinProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hlType": "casemate_hitlocation",
-    "maxBuoyancy": 0.0,
-    "maxHP": 165500,
-    "moduleCritCoeffCR": 0.0,
-    "moduleCritCoeffXP": 0.0,
-    "parentHL": null,
-    "ramCoeff": 1.0,
-    "ramExtraDamage": 0.0,
-    "regeneratedHPPart": 0.5,
-    "rndPartHP": 0.0,
-    "splashBoxes": [
-     "CM_SB_cit_1"
-    ],
-    "tbSkipProbMax": 0.0,
-    "tbSkipProbMin": 0.0,
-    "transmitHPDamageToParentFactor": 1.0,
-    "volume": 0.37,
-    "volumeCoeff": 0.33
-   },
-   "Hull": {
-    "antiRamCoeff": 1.0,
-    "armorCoeff": 0.0,
-    "autoRepairTime": 10,
-    "autoRepairTimeMin": 5,
-    "buoyancyShipPercent": 0.0,
-    "burnNode": "",
-    "canBeDestroyed": false,
-    "critProb": [
-     0.0,
-     0.0
-    ],
-    "critProbHP": [
-     1.0,
-     0.0
-    ],
-    "damageEffects": [
-     [
-      0.1,
-      ""
-     ],
-     [
-      0.3,
-      ""
-     ],
-     [
-      0.6,
-      ""
-     ]
-    ],
-    "deathEffects": [
-     "/",
-     "/"
-    ],
-    "detonateEffect": "particles/vehicles/Battleship_death.xml",
-    "detonateOnDead": false,
-    "hitDetonationMaxProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hitDetonationMinProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hlType": "hull_hitlocation",
-    "maxBuoyancy": 0.0,
-    "maxHP": 5300.0,
-    "moduleCritCoeffCR": 0.0,
-    "moduleCritCoeffXP": 0.0,
-    "parentHL": null,
-    "ramCoeff": 1.0,
-    "ramExtraDamage": 0.0,
-    "regeneratedHPPart": 0.5,
-    "rndPartHP": 0.0,
-    "splashBoxes": [],
-    "tbSkipProbMax": 0.0,
-    "tbSkipProbMin": 0.0,
-    "transmitHPDamageToParentFactor": 1.0,
-    "volume": 1.0,
-    "volumeCoeff": 0.165
-   },
-   "SG": {
-    "antiRamCoeff": 1.0,
-    "armorCoeff": 0.8,
-    "autoRepairTime": 40,
-    "autoRepairTimeMin": 40,
-    "buoyancyShipPercent": 0.0,
-    "burnNode": "",
-    "canBeDestroyed": false,
-    "critProb": [
-     0.65,
-     0.25
-    ],
-    "critProbHP": [
-     1.0,
-     0.0
-    ],
-    "damageEffects": [
-     [
-      0.1,
-      ""
-     ],
-     [
-      0.3,
-      ""
-     ],
-     [
-      0.6,
-      ""
-     ]
-    ],
-    "deathEffects": [
-     "/",
-     "/"
-    ],
-    "detonateEffect": "particles/vehicles/Battleship_death.xml",
-    "detonateOnDead": false,
-    "hitDetonationMaxProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hitDetonationMinProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hlType": "steering_gear_hitlocation",
-    "maxBuoyancy": 0.0,
-    "maxHP": 2100.0,
-    "moduleCritCoeffCR": 0.0,
-    "moduleCritCoeffXP": 0.0,
-    "parentHL": null,
-    "ramCoeff": 1.0,
-    "ramExtraDamage": 0.0,
-    "regeneratedHPPart": 0.5,
-    "rndPartHP": 0.0,
-    "splashBoxes": [
-     "CM_SB_ruder_1_1",
-     "CM_SB_ruder_1_2",
-     "CM_SB_ruder_1_3",
-     "CM_SB_ruder_1_4"
-    ],
-    "tbSkipProbMax": 0.0,
-    "tbSkipProbMin": 0.0,
-    "transmitHPDamageToParentFactor": 1.0,
-    "volume": 1.0,
-    "volumeCoeff": 1.0
-   },
-   "SS": {
-    "antiRamCoeff": 1.0,
-    "armorCoeff": 0.0,
-    "autoRepairTime": 10,
-    "autoRepairTimeMin": 5,
-    "buoyancyShipPercent": 0.0,
-    "burnNode": "",
-    "canBeDestroyed": false,
-    "critProb": [
-     0.0,
-     0.0
-    ],
-    "critProbHP": [
-     1.0,
-     0.0
-    ],
-    "damageEffects": [
-     [
-      0.1,
-      ""
-     ],
-     [
-      0.3,
-      ""
-     ],
-     [
-      0.6,
-      ""
-     ]
-    ],
-    "deathEffects": [
-     "/",
-     "/"
-    ],
-    "detonateEffect": "particles/vehicles/Battleship_death.xml",
-    "detonateOnDead": false,
-    "hitDetonationMaxProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hitDetonationMinProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hlType": "supersctructure_hitlocation",
-    "maxBuoyancy": 0.0,
-    "maxHP": 400.0,
-    "moduleCritCoeffCR": 0.0,
-    "moduleCritCoeffXP": 0.0,
-    "parentHL": "Hull",
-    "ramCoeff": 1.0,
-    "ramExtraDamage": 0.0,
-    "regeneratedHPPart": 0.5,
-    "rndPartHP": 0.0,
-    "splashBoxes": [
-     "CM_SB_ss_1_1",
-     "CM_SB_ss_1_2",
-     "CM_SB_ss_2_1",
-     "CM_SB_ss_2_2",
-     "CM_SB_ss_2_3",
-     "CM_SB_ss_2_4",
-     "CM_SB_ss_2_5",
-     "CM_SB_ss_2_6",
-     "CM_SB_ss_3_1"
-    ],
-    "tbSkipProbMax": 0.0,
-    "tbSkipProbMin": 0.0,
-    "transmitHPDamageToParentFactor": 1.0,
-    "volume": 0.06,
-    "volumeCoeff": 0.165
-   },
-   "St": {
-    "antiRamCoeff": 1.0,
-    "armorCoeff": 0.0,
-    "autoRepairTime": 10,
-    "autoRepairTimeMin": 5,
-    "buoyancyShipPercent": 0.0,
-    "burnNode": "",
-    "canBeDestroyed": false,
-    "critProb": [
-     0.0,
-     0.0
-    ],
-    "critProbHP": [
-     1.0,
-     0.0
-    ],
-    "damageEffects": [
-     [
-      0.1,
-      ""
-     ],
-     [
-      0.3,
-      ""
-     ],
-     [
-      0.6,
-      ""
-     ]
-    ],
-    "deathEffects": [
-     "/",
-     "/"
-    ],
-    "detonateEffect": "particles/vehicles/Battleship_death.xml",
-    "detonateOnDead": false,
-    "hitDetonationMaxProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hitDetonationMinProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hlType": "simple_hitlocation",
-    "maxBuoyancy": 0.0,
-    "maxHP": 700.0,
-    "moduleCritCoeffCR": 0.0,
-    "moduleCritCoeffXP": 0.0,
-    "parentHL": "Hull",
-    "ramCoeff": 1.0,
-    "ramExtraDamage": 0.0,
-    "regeneratedHPPart": 0.5,
-    "rndPartHP": 0.0,
-    "splashBoxes": [
-     "CM_SB_stern_1",
-     "CM_SB_stern_2",
-     "CM_SB_stern_3"
-    ],
-    "tbSkipProbMax": 0.0,
-    "tbSkipProbMin": 0.0,
-    "transmitHPDamageToParentFactor": 1.0,
-    "volume": 0.11,
-    "volumeCoeff": 0.165
-   },
-   "acidDamage": 0,
-   "acidDuration": 0,
-   "armor": {
-    "1": 0.0,
-    "65583": 6.0,
-    "65584": 6.0,
-    "65585": 6.0,
-    "65587": 0.0,
-    "65591": 6.0,
-    "65592": 6.0,
-    "65593": 6.0,
-    "65594": 6.0,
-    "65616": 6.0,
-    "65617": 6.0,
-    "65619": 6.0,
-    "65625": 6.0,
-    "65626": 6.0,
-    "65628": 6.0,
-    "65629": 6.0,
-    "65630": 6.0,
-    "65632": 0.0,
-    "65646": 6.0,
-    "131161": 0.0,
-    "131162": 0.0
-   },
-   "armourCas": [
-    -1,
-    -1
-   ],
-   "armourCit": [
-    -1,
-    -1
-   ],
-   "armourDeck": [
-    -1,
-    -1
-   ],
-   "armourExtremities": [
-    -1,
-    -1
-   ],
-   "backwardPowerCoef": 3.0,
-   "barbettes": {},
-   "baseUnderwaterPitchAngle": 0.0,
-   "bodyType": "dynamic",
-   "boilerExplosionPostDeath": "particles/Empty_FX.xml",
-   "buoyancy": 200000,
-   "buoyancyEffects": [],
-   "buoyancyHighlightEffect": "particles/submarines/Sub_location.xml",
-   "buoyancyRudderDepths": [
-    0,
-    -8,
-    -16,
-    -24,
-    -32,
-    -40,
-    -48,
-    -56,
-    -64,
-    -72,
-    -80
-   ],
-   "buoyancyRudderResetTime": 1.0,
-   "buoyancyRudderTime": 1.0,
-   "buoyancyStates": {
-    "DEEP_WATER": [
-     [
-      -34.0,
-      -59.0
-     ],
-     0.63,
-     10.0
-    ],
-    "DEEP_WATER_INVUL": [
-     [
-      -59.0,
-      -80.0
-     ],
-     0.63,
-     10.0
-    ],
-    "PERISCOPE": [
-     [
-      -4.0,
-      -13.0
-     ],
-     0.63,
-     10.0
-    ],
-    "SEMI_DEEP_WATER": [
-     [
-      -13.0,
-      -34.0
-     ],
-     0.63,
-     10.0
-    ],
-    "SURFACE": [
-     [
-      0.0,
-      -4.0
-     ],
-     1.0,
-     1.0
-    ]
-   },
-   "buoyancyStopLine": 10.0,
-   "buoyancyStopLineMinSpeedCoeff": 0.35,
-   "burnNodes": [
-    [
-     1.0,
-     0.3,
-     30.0
-    ],
-    [
-     1.0,
-     0.3,
-     30.0
-    ],
-    [
-     1.0,
-     0.3,
-     30.0
-    ],
-    [
-     1.0,
-     0.3,
-     30.0
-    ]
-   ],
-   "canReceiveAcid": false,
-   "consumablePlaneTypes": {
-    "fighter": "",
-    "scout": ""
-   },
-   "coolingOffSpeed": 0.1,
-   "crackCoords": [
-    0.25,
-    0.0,
-    -0.25
-   ],
-   "customMiscs": {},
-   "deathBubblesEffect": "particles/NF_DD_seething_bubbles_post_death.xml",
-   "deathDetonateEffect": "particles/Empty_FX.xml",
-   "deathFaultEffect": "particles/Empty_FX.xml",
-   "deathFireEffect": "particles/Empty_FX.xml",
-   "deathFoamEffect": "particles/vehicles/Death_foam_small_2.xml",
-   "deathFountainsEffect": "particles/NF_DD_water_fountains_post_death.xml",
-   "deathFumingEffect": "particles/NF_DD_fuming_at_flooding_post_death.xml",
-   "deathNodes": [
-    "HP_Ship_death_1",
-    "HP_Ship_death_2",
-    "HP_Ship_death_3"
-   ],
-   "deathPlaneEffect": "particles/NF_AA_death_catapult_ships.xml",
-   "deathPostFireEffect": "particles/NF_DD_fuming_post_fire.xml",
-   "deathSettings": "PCOS001_Default",
-   "deathShellEffect": "particles/Empty_FX.xml",
-   "deathTorpedoEffect": "particles/NF_death_torpedo.xml",
-   "deathUnderWaterBubblesEffects": [
-    "particles/submarines/Sub_bomb_trace.xml",
-    "particles/submarines/Sub_bomb_trace.xml"
-   ],
-   "deckHeight": 1.94,
-   "deepwaterVisionCoeff": {},
-   "deepwaterVisionToPlaneCoeff": {},
-   "defaultCamouflage": "",
-   "dockYOffset": 0.0,
-   "draft": 11,
-   "effectCauldronExplosion": "particles/Empty_FX.xml",
-   "effectOnDeath": "particles/vehicles/Destroyer_death.xml",
-   "effectOnDetonatePowderChamber": "particles/simple_death.xml",
-   "effectOnFloodDeath": "particles/vehicles/Destroyer_death.xml",
-   "effectShipCracksAndOilPuddle": "particles/Empty_FX.xml",
-   "effects": {
-    "death": [
-     [
-      "HP_FX_Death_1",
-      "particles/vehicles/Death_foam_small_2.xml"
-     ],
-     [
-      "HP_FX_Death_2",
-      "particles/vehicles/Death_foam_small_2.xml"
-     ],
-     [
-      "HP_FX_Death_3",
-      "particles/vehicles/Death_foam_small_2.xml"
-     ]
-    ],
-    "fire1": [
-     [
-      "HP_FX_Fire_1",
-      "particles/vehicles/Fire_vvsmall.xml"
-     ]
-    ],
-    "fire2": [
-     [
-      "HP_FX_Fire_2",
-      "particles/vehicles/Fire_vsmall_2.xml"
-     ],
-     [
-      "HP_FX_Fire_2_side_1",
-      "particles/vehicles/Fire_side_small.xml"
-     ],
-     [
-      "HP_FX_Fire_2_side_2",
-      "particles/vehicles/Fire_side_small.xml"
-     ]
-    ],
-    "fire3": [
-     [
-      "HP_FX_Fire_3",
-      "particles/vehicles/Fire_vsmall_2.xml"
-     ],
-     [
-      "HP_FX_Fire_3_side_1",
-      "particles/vehicles/Fire_side_small.xml"
-     ],
-     [
-      "HP_FX_Fire_3_side_2",
-      "particles/vehicles/Fire_side_small.xml"
-     ]
-    ],
-    "fire4": [
-     [
-      "HP_FX_Fire_4",
-      "particles/vehicles/Fire_vvsmall_2.xml"
-     ]
-    ],
-    "fireResistance": [],
-    "fixDeluge": [
-     [
-      "HP_FX_Flood_water_left_1",
-      "particles/vehicles/Flood_deluge_small.xml"
-     ],
-     [
-      "HP_FX_Flood_water_left_2",
-      "particles/vehicles/Flood_deluge_small.xml"
-     ],
-     [
-      "HP_FX_Flood_water_right_1",
-      "particles/vehicles/Flood_deluge_small.xml"
-     ],
-     [
-      "HP_FX_Flood_water_right_2",
-      "particles/vehicles/Flood_deluge_small.xml"
-     ]
-    ],
-    "fixLight": [
-     [
-      "HP_FX_FloodLight_left_1",
-      "particles/vehicles/FixLight_small.xml"
-     ],
-     [
-      "HP_FX_FloodLight_left_2",
-      "particles/vehicles/FixLight_small.xml"
-     ],
-     [
-      "HP_FX_FloodLight_right_1",
-      "particles/vehicles/FixLight_small.xml"
-     ],
-     [
-      "HP_FX_FloodLight_right_2",
-      "particles/vehicles/FixLight_small.xml"
-     ]
-    ],
-    "flood": [
-     [
-      "HP_FX_Flood_steam_1",
-      "particles/vehicles/Flood_steam_exhaust_small.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_1",
-      "particles/vehicles/Flood_steam_small.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_2",
-      "particles/vehicles/Flood_steam_exhaust_small_delayed.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_2",
-      "particles/vehicles/Flood_steam_small.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_left",
-      "particles/vehicles/Flood_steam_side_small.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_right",
-      "particles/vehicles/Flood_steam_side_small.xml"
-     ]
-    ],
-    "floodLight": [
-     [
-      "HP_FX_FloodLight_left_1",
-      "particles/vehicles/FloodLight_small.xml"
-     ],
-     [
-      "HP_FX_FloodLight_left_2",
-      "particles/vehicles/FloodLight_small.xml"
-     ],
-     [
-      "HP_FX_FloodLight_right_1",
-      "particles/vehicles/FloodLight_small.xml"
-     ],
-     [
-      "HP_FX_FloodLight_right_2",
-      "particles/vehicles/FloodLight_small.xml"
-     ]
-    ],
-    "horn": [
-     [
-      "HP_FX_Smoke_1",
-      "particles/vehicles/Horn.xml"
-     ],
-     [
-      "HP_FX_Smoke_2",
-      "particles/vehicles/Horn.xml"
-     ],
-     [
-      "HP_FX_Smoke_3",
-      "particles/vehicles/Horn.xml"
-     ],
-     [
-      "HP_FX_Smoke_4",
-      "particles/vehicles/Horn.xml"
-     ]
-    ],
-    "idle": [],
-    "idlePort": [
-     [
-      "HP_FX_Flood_water_left_1",
-      "particles/vehicles/idlePort_Flood_deluge_small.xml"
-     ],
-     [
-      "HP_FX_Flood_water_left_2",
-      "particles/vehicles/idlePort_Flood_deluge_small.xml"
-     ],
-     [
-      "HP_FX_Flood_water_right_1",
-      "particles/vehicles/idlePort_Flood_deluge_small.xml"
-     ],
-     [
-      "HP_FX_Flood_water_right_2",
-      "particles/vehicles/idlePort_Flood_deluge_small.xml"
-     ],
-     [
-      "HP_FX_Smoke_1",
-      "particles/vehicles/idlePort_RunSmoke_vsmall.xml"
-     ],
-     [
-      "HP_FX_Smoke_2",
-      "particles/vehicles/idlePort_RunSmoke_vsmall.xml"
-     ],
-     [
-      "HP_FX_Smoke_3",
-      "particles/vehicles/idlePort_RunSmoke_vsmall.xml"
-     ],
-     [
-      "HP_FX_Smoke_4",
-      "particles/vehicles/idlePort_RunSmoke_vsmall.xml"
-     ]
-    ],
-    "repairLight": [],
-    "smoke": [
-     [
-      "HP_FX_Smoke_1",
-      "particles/vehicles/RunSmoke_vsmall.xml"
-     ],
-     [
-      "HP_FX_Smoke_2",
-      "particles/vehicles/RunSmoke_vsmall.xml"
-     ],
-     [
-      "HP_FX_Smoke_3",
-      "particles/vehicles/RunSmoke_vsmall.xml"
-     ],
-     [
-      "HP_FX_Smoke_4",
-      "particles/vehicles/RunSmoke_vsmall.xml"
-     ]
-    ],
-    "waketraceback": [
-     [
-      "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTraceReverce_screw_small_2.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_2",
-      "particles/vehicles/WakeTraceReverce_screw_small_2.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
-     ]
-    ],
-    "waketracefront": [
-     [
-      "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
-     ],
-     [
-      "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small_2.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_2",
-      "particles/vehicles/WakeTrace_screw_small_2.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
-     ]
-    ]
-   },
-   "enemyEngineEffects": false,
-   "enemyVisibilityCoeffByDepth": {
-    "-44.0": 1.0,
-    "0.0": 1.0
-   },
-   "enginePower": 20500.0,
-   "finderBase": 2.0,
-   "finderHeight": 9.0,
-   "flagPoleModelName": "content/gameplay/common/misc/CM500/CM500.model",
-   "floodNodes": [
-    [
-     0.333,
-     0.25,
-     40.0
-    ],
-    [
-     0.333,
-     0.25,
-     40.0
-    ]
-   ],
-   "foghornEffect": "particles/Hooter.xml",
-   "health": 7100.0,
-   "heatChangeValue": 1,
-   "heightIntensityEffects": [],
-   "isBlind": false,
-   "isFakeSubmarine": false,
-   "mass": 1050000.0,
-   "maxBuoyancyLevel": 0.0,
-   "maxBuoyancySpeed": 0.0,
-   "maxHeatValue": 100.0,
-   "maxRudderAngle": 30.0,
-   "maxSpeed": 32.5,
-   "model": "content/gameplay/europe/ship/destroyer/WSD002_Tatra_1918/WSD002_Tatra_1918.model",
-   "numOfParts": 0,
-   "propellerEffect": "",
-   "propellerEffectReversed": "",
-   "pushingMaxRudderAngle": 16.0,
-   "pushingMinRudderAngle": 1.0,
-   "regenerationHPSpeed": 0.0,
-   "repairingCoeff": 0.0,
-   "rollEffect": 1.6,
-   "rudderPower": 20500000.0,
-   "rudderTime": 3.92,
-   "shipBodySunkDifferenceCoeff": 2.0,
-   "shipBodySunkStartMassCoeff": 1.0,
-   "shipPartSunkDifferenceCoeff": 2.2,
-   "shipPartSunkStartMassCoeff": 2.2,
-   "shipWheelsPresent": false,
-   "sideDragCoef": 26200.0,
-   "sinkStartTime": [
-    [
-     4.0,
-     10.0
-    ],
-    [
-     2.0,
-     4.0
-    ],
-    [
-     3.0,
-     3.0
-    ],
-    [
-     4.0,
-     1.0
-    ]
-   ],
-   "sinkTime": [
-    [
-     45.0,
-     130.0
-    ],
-    [
-     18.0,
-     30.0
-    ],
-    [
-     21.0,
-     27.0
-    ],
-    [
-     27.0,
-     15.0
-    ]
-   ],
-   "sinkingEffects": "PCXS009_Destroyer",
-   "size": [
-    83.44,
-    8.16,
-    7.92
-   ],
-   "smokeScanRadius": 27.0,
-   "speedCoef": 1.0,
-   "timeBeforeCauldronExplosion": 4.0,
-   "timeBeforeDeathEffect": 0.2,
-   "tonnage": 850.0,
-   "torpedoImpactMassImpulseCoeff": 0.5,
-   "turningRadius": 460.0,
-   "underwaterMaxRudderAngle": 0.0,
-   "underwaterRollEffect": 0.0,
-   "unpeculiarCamouflage": "",
-   "unpeculiarCamouflageColorSchemeId": 0,
-   "visibilityCoefATBA": 1e-06,
-   "visibilityCoefATBAByPlane": 1e-06,
-   "visibilityCoefFire": 2.0,
-   "visibilityCoefFireByPlane": 3.0,
-   "visibilityCoefGK": 1e-06,
-   "visibilityCoefGKByPlane": 2.0,
-   "visibilityCoefGKInSmoke": 2.0,
-   "visibilityCoefPinger": {
-    "-22.0": 0.0,
-    "-6.0": 1.0,
-    "0.0": 1.0
-   },
-   "visibilityCoefPingerByPlane": {
-    "-22.0": 0.0,
-    "-6.0": 1.0,
-    "0.0": 1.0
-   },
-   "visibilityCoefPingerInSmoke": 1e-06,
-   "visibilityCoeff": 14.16,
-   "visibilityCoeffUnderwaterDepths": {
-    "0.0": 1.0
-   },
-   "visibilityCoeffUnderwaterDepthsByPlane": {
-    "0.0": 1.0
-   },
-   "visibilityFactor": 6.22,
-   "visibilityFactorByPlane": 2.43,
-   "visibilityFactorInSmoke": 1e-06,
-   "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 2.43,
-    "DEEP_WATER_INVUL": 0.0,
-    "PERISCOPE": 2.43,
-    "SEMI_DEEP_WATER": 2.43,
-    "SURFACE": 0.0
-   }
-  },
-  "A_Torpedoes": {
-   "HP_WGT_1": {
-    "HitLocationTorpedo": {
-     "antiRamCoeff": 1.0,
-     "armorCoeff": 1.0,
-     "autoRepairTime": 15,
-     "autoRepairTimeMin": 15,
-     "buoyancyShipPercent": 0.0,
-     "burnNode": "",
-     "canBeDestroyed": true,
-     "critProb": [
-      0.25,
-      0.25
-     ],
-     "critProbHP": [
-      1.0,
-      0.0
-     ],
-     "damageEffects": [],
-     "deathEffects": [
-      "/",
-      "/"
-     ],
-     "detonateEffect": "particles/vehicles/Battleship_death.xml",
-     "detonateOnDead": false,
-     "hitDetonationMaxProbAtDamage": [
-      0.0,
-      0.0
-     ],
-     "hitDetonationMinProbAtDamage": [
-      0.0,
-      0.0
-     ],
-     "hlType": "torpedo_hitlocation",
-     "maxBuoyancy": 0.0,
-     "maxHP": 1200.0,
-     "moduleCritCoeffCR": 0.0,
-     "moduleCritCoeffXP": 0.0,
-     "parentHL": null,
-     "ramCoeff": 1.0,
-     "ramExtraDamage": 0.0,
-     "regeneratedHPPart": 0.5,
-     "rndPartHP": 0.75,
-     "splashBoxes": [],
-     "tbSkipProbMax": 0.0,
-     "tbSkipProbMin": 0.0,
-     "transmitHPDamageToParentFactor": 1.0,
-     "volume": 0.5,
-     "volumeCoeff": 1.0
-    },
-    "ammoList": [
-     "PWPT002_Torped_M1913"
-    ],
-    "armor": {
-     "65580": 6.0
-    },
-    "barrelDiameter": 0.45,
-    "canRotate": true,
-    "customMiscs": {},
-    "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
-    "deadMesh": "content/gameplay/europe/gun/torpedo/WGT018_450mm_twin_AW/WGT018_450mm_twin_AW_dead.model",
-    "deadZone": [
-     [
-      -58.0,
-      58.0
-     ],
-     [
-      140.0,
-      -140.0
-     ]
-    ],
-    "horizSector": [
-     0.0,
-     0.0
-    ],
-    "id": 4275463472,
-    "index": "PWGT018",
-    "lensEffect": "",
-    "mainSector": [
-     -90.0,
-     90.0
-    ],
-    "miscFilter": [],
-    "miscFilterMode": false,
-    "model": "content/gameplay/europe/gun/torpedo/WGT018_450mm_twin_AW/WGT018_450mm_twin_AW.model",
-    "name": "PWGT018_450mm_twin_AW",
-    "numAmmos": 1000,
-    "numBarrels": 2,
-    "position": [
-     3.8,
-     1.0
-    ],
-    "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shootSector": [
-     0.0,
-     0.0
-    ],
-    "shotDelay": 30.0,
-    "shotEffect": "particles/guns/torpedo.xml",
-    "shotEffectCap": "particles/Empty_FX.xml",
-    "smallGun": null,
-    "timeBetweenShots": 0.2,
-    "timeToChangeAngle": 1,
-    "timeToChangeSpeed": 1,
-    "torpedoAngles": [
-     2.4,
-     4.8
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
-    },
-    "vertSector": [
-     0.0,
-     1.0
-    ]
-   },
-   "HP_WGT_2": {
-    "HitLocationTorpedo": {
-     "antiRamCoeff": 1.0,
-     "armorCoeff": 1.0,
-     "autoRepairTime": 15,
-     "autoRepairTimeMin": 15,
-     "buoyancyShipPercent": 0.0,
-     "burnNode": "",
-     "canBeDestroyed": true,
-     "critProb": [
-      0.25,
-      0.25
-     ],
-     "critProbHP": [
-      1.0,
-      0.0
-     ],
-     "damageEffects": [],
-     "deathEffects": [
-      "/",
-      "/"
-     ],
-     "detonateEffect": "particles/vehicles/Battleship_death.xml",
-     "detonateOnDead": false,
-     "hitDetonationMaxProbAtDamage": [
-      0.0,
-      0.0
-     ],
-     "hitDetonationMinProbAtDamage": [
-      0.0,
-      0.0
-     ],
-     "hlType": "torpedo_hitlocation",
-     "maxBuoyancy": 0.0,
-     "maxHP": 1200.0,
-     "moduleCritCoeffCR": 0.0,
-     "moduleCritCoeffXP": 0.0,
-     "parentHL": null,
-     "ramCoeff": 1.0,
-     "ramExtraDamage": 0.0,
-     "regeneratedHPPart": 0.5,
-     "rndPartHP": 0.75,
-     "splashBoxes": [],
-     "tbSkipProbMax": 0.0,
-     "tbSkipProbMin": 0.0,
-     "transmitHPDamageToParentFactor": 1.0,
-     "volume": 0.5,
-     "volumeCoeff": 1.0
-    },
-    "ammoList": [
-     "PWPT002_Torped_M1913"
-    ],
-    "armor": {
-     "65580": 6.0
-    },
-    "barrelDiameter": 0.45,
-    "canRotate": true,
-    "customMiscs": {},
-    "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
-    "deadMesh": "content/gameplay/europe/gun/torpedo/WGT018_450mm_twin_AW/WGT018_450mm_twin_AW_dead.model",
-    "deadZone": [
-     [
-      -59.0,
-      59.0
-     ]
-    ],
-    "horizSector": [
-     -131.0,
-     131.0
-    ],
-    "id": 4275463472,
-    "index": "PWGT018",
-    "lensEffect": "",
-    "mainSector": [
-     -90.0,
-     90.0
-    ],
-    "miscFilter": [],
-    "miscFilterMode": false,
-    "model": "content/gameplay/europe/gun/torpedo/WGT018_450mm_twin_AW/WGT018_450mm_twin_AW.model",
-    "name": "PWGT018_450mm_twin_AW",
-    "numAmmos": 1000,
-    "numBarrels": 2,
-    "position": [
-     5.0,
-     1.0
-    ],
-    "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shootSector": [
-     0.0,
-     0.0
-    ],
-    "shotDelay": 30.0,
-    "shotEffect": "particles/guns/torpedo.xml",
-    "shotEffectCap": "particles/Empty_FX.xml",
-    "smallGun": null,
-    "timeBetweenShots": 0.2,
-    "timeToChangeAngle": 1,
-    "timeToChangeSpeed": 1,
-    "torpedoAngles": [
-     2.4,
-     4.8
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
-    },
-    "vertSector": [
-     0.0,
-     1.0
-    ]
-   },
-   "useGroups": false,
-   "useOneShot": false
-  },
-  "B_Hull": {
-   "Ammo1": {
-    "antiRamCoeff": 1.0,
-    "armorCoeff": 0.8,
-    "autoRepairTime": 40,
-    "autoRepairTimeMin": 5,
-    "buoyancyShipPercent": 0.0,
-    "burnNode": "",
-    "canBeDestroyed": true,
-    "coeffReloadDamaged": 1.0,
-    "critProb": [
-     0.0,
-     0.0
-    ],
-    "critProbHP": [
-     1.0,
-     0.0
-    ],
-    "damageEffects": [
-     [
-      0.1,
-      ""
-     ],
-     [
-      0.3,
-      ""
-     ],
-     [
-      0.6,
-      ""
-     ]
-    ],
-    "deathEffects": [
-     "/",
-     "/"
-    ],
-    "detonateEffect": "particles/vehicles/Battleship_death.xml",
-    "detonateOnDead": false,
-    "guns": [],
-    "hitDetonationMaxProbAtDamage": [
-     0.1,
-     1.0
-    ],
-    "hitDetonationMinProbAtDamage": [
-     0.01,
-     0.3
-    ],
-    "hlType": "powdermagazine_hitlocation",
-    "maxBuoyancy": 0.0,
-    "maxHP": 4100.0,
-    "moduleCritCoeffCR": 1.0,
-    "moduleCritCoeffXP": 1.0,
-    "parentHL": null,
-    "ramCoeff": 1.0,
-    "ramExtraDamage": 0.0,
-    "regeneratedHPPart": 0.5,
-    "rndPartHP": 0.0,
-    "splashBoxes": [
-     "CM_SB_bow_ammo_1_1",
-     "CM_SB_bow_ammo_1_2"
-    ],
-    "tbSkipProbMax": 0.0,
-    "tbSkipProbMin": 0.0,
-    "transmitHPDamageToParentFactor": 1.0,
-    "volume": 1.0,
-    "volumeCoeff": 1.0
-   },
-   "Ammo2": {
-    "antiRamCoeff": 1.0,
-    "armorCoeff": 0.8,
-    "autoRepairTime": 40,
-    "autoRepairTimeMin": 5,
-    "buoyancyShipPercent": 0.0,
-    "burnNode": "",
-    "canBeDestroyed": true,
-    "coeffReloadDamaged": 1.0,
-    "critProb": [
-     0.0,
-     0.0
-    ],
-    "critProbHP": [
-     1.0,
-     0.0
-    ],
-    "damageEffects": [
-     [
-      0.1,
-      ""
-     ],
-     [
-      0.3,
-      ""
-     ],
-     [
-      0.6,
-      ""
-     ]
-    ],
-    "deathEffects": [
-     "/",
-     "/"
-    ],
-    "detonateEffect": "particles/vehicles/Battleship_death.xml",
-    "detonateOnDead": false,
-    "guns": [],
-    "hitDetonationMaxProbAtDamage": [
-     0.1,
-     1.0
-    ],
-    "hitDetonationMinProbAtDamage": [
-     0.01,
-     0.3
-    ],
-    "hlType": "powdermagazine_hitlocation",
-    "maxBuoyancy": 0.0,
-    "maxHP": 4100.0,
-    "moduleCritCoeffCR": 1.0,
-    "moduleCritCoeffXP": 1.0,
-    "parentHL": null,
-    "ramCoeff": 1.0,
-    "ramExtraDamage": 0.0,
-    "regeneratedHPPart": 0.5,
-    "rndPartHP": 0.0,
-    "splashBoxes": [
-     "CM_SB_stern_ammo_1_1",
-     "CM_SB_stern_ammo_1_2"
-    ],
-    "tbSkipProbMax": 0.0,
-    "tbSkipProbMin": 0.0,
-    "transmitHPDamageToParentFactor": 1.0,
-    "volume": 1.0,
-    "volumeCoeff": 1.0
-   },
-   "Bow": {
-    "antiRamCoeff": 1.0,
-    "armorCoeff": 0.0,
-    "autoRepairTime": 10,
-    "autoRepairTimeMin": 5,
-    "buoyancyShipPercent": 0.0,
-    "burnNode": "",
-    "canBeDestroyed": false,
-    "critProb": [
-     0.0,
-     0.0
-    ],
-    "critProbHP": [
-     1.0,
-     0.0
-    ],
-    "damageEffects": [
-     [
-      0.1,
-      ""
-     ],
-     [
-      0.3,
-      ""
-     ],
-     [
-      0.6,
-      ""
-     ]
-    ],
-    "deathEffects": [
-     "/",
-     "/"
-    ],
-    "detonateEffect": "particles/vehicles/Battleship_death.xml",
-    "detonateOnDead": false,
-    "hitDetonationMaxProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hitDetonationMinProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hlType": "simple_hitlocation",
-    "maxBuoyancy": 0.0,
-    "maxHP": 1200.0,
-    "moduleCritCoeffCR": 0.0,
-    "moduleCritCoeffXP": 0.0,
-    "parentHL": "Hull",
-    "ramCoeff": 1.0,
-    "ramExtraDamage": 0.0,
-    "regeneratedHPPart": 0.5,
-    "rndPartHP": 0.0,
-    "splashBoxes": [
-     "CM_SB_bow_1",
-     "CM_SB_bow_2",
-     "CM_SB_bow_3",
-     "CM_SB_bow_4"
-    ],
-    "tbSkipProbMax": 0.0,
-    "tbSkipProbMin": 0.0,
-    "transmitHPDamageToParentFactor": 1.0,
-    "volume": 0.17,
-    "volumeCoeff": 0.165
-   },
-   "Cas": {
-    "antiRamCoeff": 1.0,
-    "armorCoeff": 0.0,
-    "autoRepairTime": 10,
-    "autoRepairTimeMin": 5,
-    "buoyancyShipPercent": 0.0,
-    "burnNode": "",
-    "canBeDestroyed": false,
-    "critProb": [
-     0.0,
-     0.0
-    ],
-    "critProbHP": [
-     1.0,
-     0.0
-    ],
-    "damageEffects": [
-     [
-      0.1,
-      ""
-     ],
-     [
-      0.3,
-      ""
-     ],
-     [
-      0.6,
-      ""
-     ]
-    ],
-    "deathEffects": [
-     "/",
-     "/"
-    ],
-    "detonateEffect": "particles/vehicles/Battleship_death.xml",
-    "detonateOnDead": false,
-    "hitDetonationMaxProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hitDetonationMinProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hlType": "casemate_hitlocation",
-    "maxBuoyancy": 0.0,
-    "maxHP": 165500,
-    "moduleCritCoeffCR": 0.0,
-    "moduleCritCoeffXP": 0.0,
-    "parentHL": null,
-    "ramCoeff": 1.0,
-    "ramExtraDamage": 0.0,
-    "regeneratedHPPart": 0.5,
-    "rndPartHP": 0.0,
-    "splashBoxes": [
-     "CM_SB_cit_1"
-    ],
-    "tbSkipProbMax": 0.0,
-    "tbSkipProbMin": 0.0,
-    "transmitHPDamageToParentFactor": 1.0,
-    "volume": 0.37,
-    "volumeCoeff": 0.33
-   },
-   "Hull": {
-    "antiRamCoeff": 1.0,
-    "armorCoeff": 0.0,
-    "autoRepairTime": 10,
-    "autoRepairTimeMin": 5,
-    "buoyancyShipPercent": 0.0,
-    "burnNode": "",
-    "canBeDestroyed": false,
-    "critProb": [
-     0.0,
-     0.0
-    ],
-    "critProbHP": [
-     1.0,
-     0.0
-    ],
-    "damageEffects": [
-     [
-      0.1,
-      ""
-     ],
-     [
-      0.3,
-      ""
-     ],
-     [
-      0.6,
-      ""
-     ]
-    ],
-    "deathEffects": [
-     "/",
-     "/"
-    ],
-    "detonateEffect": "particles/vehicles/Battleship_death.xml",
-    "detonateOnDead": false,
-    "hitDetonationMaxProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hitDetonationMinProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hlType": "hull_hitlocation",
-    "maxBuoyancy": 0.0,
-    "maxHP": 6100.0,
-    "moduleCritCoeffCR": 0.0,
-    "moduleCritCoeffXP": 0.0,
-    "parentHL": null,
-    "ramCoeff": 1.0,
-    "ramExtraDamage": 0.0,
-    "regeneratedHPPart": 0.5,
-    "rndPartHP": 0.0,
-    "splashBoxes": [],
-    "tbSkipProbMax": 0.0,
-    "tbSkipProbMin": 0.0,
-    "transmitHPDamageToParentFactor": 1.0,
-    "volume": 1.0,
-    "volumeCoeff": 0.165
-   },
-   "SG": {
-    "antiRamCoeff": 1.0,
-    "armorCoeff": 0.8,
-    "autoRepairTime": 40,
-    "autoRepairTimeMin": 40,
-    "buoyancyShipPercent": 0.0,
-    "burnNode": "",
-    "canBeDestroyed": false,
-    "critProb": [
-     0.65,
-     0.25
-    ],
-    "critProbHP": [
-     1.0,
-     0.0
-    ],
-    "damageEffects": [
-     [
-      0.1,
-      ""
-     ],
-     [
-      0.3,
-      ""
-     ],
-     [
-      0.6,
-      ""
-     ]
-    ],
-    "deathEffects": [
-     "/",
-     "/"
-    ],
-    "detonateEffect": "particles/vehicles/Battleship_death.xml",
-    "detonateOnDead": false,
-    "hitDetonationMaxProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hitDetonationMinProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hlType": "steering_gear_hitlocation",
-    "maxBuoyancy": 0.0,
-    "maxHP": 2400.0,
-    "moduleCritCoeffCR": 0.0,
-    "moduleCritCoeffXP": 0.0,
-    "parentHL": null,
-    "ramCoeff": 1.0,
-    "ramExtraDamage": 0.0,
-    "regeneratedHPPart": 0.5,
-    "rndPartHP": 0.0,
-    "splashBoxes": [
-     "CM_SB_ruder_1_1",
-     "CM_SB_ruder_1_2",
-     "CM_SB_ruder_1_3",
-     "CM_SB_ruder_1_4"
-    ],
-    "tbSkipProbMax": 0.0,
-    "tbSkipProbMin": 0.0,
-    "transmitHPDamageToParentFactor": 1.0,
-    "volume": 1.0,
-    "volumeCoeff": 1.0
-   },
-   "SS": {
-    "antiRamCoeff": 1.0,
-    "armorCoeff": 0.0,
-    "autoRepairTime": 10,
-    "autoRepairTimeMin": 5,
-    "buoyancyShipPercent": 0.0,
-    "burnNode": "",
-    "canBeDestroyed": false,
-    "critProb": [
-     0.0,
-     0.0
-    ],
-    "critProbHP": [
-     1.0,
-     0.0
-    ],
-    "damageEffects": [
-     [
-      0.1,
-      ""
-     ],
-     [
-      0.3,
-      ""
-     ],
-     [
-      0.6,
-      ""
-     ]
-    ],
-    "deathEffects": [
-     "/",
-     "/"
-    ],
-    "detonateEffect": "particles/vehicles/Battleship_death.xml",
-    "detonateOnDead": false,
-    "hitDetonationMaxProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hitDetonationMinProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hlType": "supersctructure_hitlocation",
-    "maxBuoyancy": 0.0,
-    "maxHP": 400.0,
-    "moduleCritCoeffCR": 0.0,
-    "moduleCritCoeffXP": 0.0,
-    "parentHL": "Hull",
-    "ramCoeff": 1.0,
-    "ramExtraDamage": 0.0,
-    "regeneratedHPPart": 0.5,
-    "rndPartHP": 0.0,
-    "splashBoxes": [
-     "CM_SB_ss_1_1",
-     "CM_SB_ss_1_2",
-     "CM_SB_ss_2_1",
-     "CM_SB_ss_2_2",
-     "CM_SB_ss_2_3",
-     "CM_SB_ss_2_4",
-     "CM_SB_ss_2_5",
-     "CM_SB_ss_2_6",
-     "CM_SB_ss_3_1"
-    ],
-    "tbSkipProbMax": 0.0,
-    "tbSkipProbMin": 0.0,
-    "transmitHPDamageToParentFactor": 1.0,
-    "volume": 0.06,
-    "volumeCoeff": 0.165
-   },
-   "St": {
-    "antiRamCoeff": 1.0,
-    "armorCoeff": 0.0,
-    "autoRepairTime": 10,
-    "autoRepairTimeMin": 5,
-    "buoyancyShipPercent": 0.0,
-    "burnNode": "",
-    "canBeDestroyed": false,
-    "critProb": [
-     0.0,
-     0.0
-    ],
-    "critProbHP": [
-     1.0,
-     0.0
-    ],
-    "damageEffects": [
-     [
-      0.1,
-      ""
-     ],
-     [
-      0.3,
-      ""
-     ],
-     [
-      0.6,
-      ""
-     ]
-    ],
-    "deathEffects": [
-     "/",
-     "/"
-    ],
-    "detonateEffect": "particles/vehicles/Battleship_death.xml",
-    "detonateOnDead": false,
-    "hitDetonationMaxProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hitDetonationMinProbAtDamage": [
-     0.0,
-     0.0
-    ],
-    "hlType": "simple_hitlocation",
-    "maxBuoyancy": 0.0,
-    "maxHP": 800.0,
-    "moduleCritCoeffCR": 0.0,
-    "moduleCritCoeffXP": 0.0,
-    "parentHL": "Hull",
-    "ramCoeff": 1.0,
-    "ramExtraDamage": 0.0,
-    "regeneratedHPPart": 0.5,
-    "rndPartHP": 0.0,
-    "splashBoxes": [
-     "CM_SB_stern_1",
-     "CM_SB_stern_2",
-     "CM_SB_stern_3"
-    ],
-    "tbSkipProbMax": 0.0,
-    "tbSkipProbMin": 0.0,
-    "transmitHPDamageToParentFactor": 1.0,
-    "volume": 0.11,
-    "volumeCoeff": 0.165
-   },
-   "acidDamage": 0,
-   "acidDuration": 0,
-   "armor": {
-    "1": 0.0,
-    "65583": 6.0,
-    "65584": 6.0,
-    "65585": 6.0,
-    "65587": 0.0,
-    "65591": 6.0,
-    "65592": 6.0,
-    "65593": 6.0,
-    "65594": 6.0,
-    "65616": 6.0,
-    "65617": 6.0,
-    "65619": 6.0,
-    "65625": 6.0,
-    "65626": 6.0,
-    "65628": 6.0,
-    "65629": 6.0,
-    "65630": 6.0,
-    "65632": 0.0,
-    "65646": 6.0,
-    "131161": 0.0,
-    "131162": 0.0
-   },
-   "armourCas": [
-    -1,
-    -1
-   ],
-   "armourCit": [
-    -1,
-    -1
-   ],
-   "armourDeck": [
-    -1,
-    -1
-   ],
-   "armourExtremities": [
-    -1,
-    -1
-   ],
-   "backwardPowerCoef": 3.0,
-   "barbettes": {},
-   "baseUnderwaterPitchAngle": 0.0,
-   "bodyType": "dynamic",
-   "boilerExplosionPostDeath": "particles/Empty_FX.xml",
-   "buoyancy": 200000,
-   "buoyancyEffects": [],
-   "buoyancyHighlightEffect": "particles/submarines/Sub_location.xml",
-   "buoyancyRudderDepths": [
-    0,
-    -8,
-    -16,
-    -24,
-    -32,
-    -40,
-    -48,
-    -56,
-    -64,
-    -72,
-    -80
-   ],
-   "buoyancyRudderResetTime": 1.0,
-   "buoyancyRudderTime": 1.0,
-   "buoyancyStates": {
-    "DEEP_WATER": [
-     [
-      -34.0,
-      -59.0
-     ],
-     0.63,
-     10.0
-    ],
-    "DEEP_WATER_INVUL": [
-     [
-      -59.0,
-      -80.0
-     ],
-     0.63,
-     10.0
-    ],
-    "PERISCOPE": [
-     [
-      -4.0,
-      -13.0
-     ],
-     0.63,
-     10.0
-    ],
-    "SEMI_DEEP_WATER": [
-     [
-      -13.0,
-      -34.0
-     ],
-     0.63,
-     10.0
-    ],
-    "SURFACE": [
-     [
-      0.0,
-      -4.0
-     ],
-     1.0,
-     1.0
-    ]
-   },
-   "buoyancyStopLine": 10.0,
-   "buoyancyStopLineMinSpeedCoeff": 0.35,
-   "burnNodes": [
-    [
-     1.0,
-     0.3,
-     30.0
-    ],
-    [
-     1.0,
-     0.3,
-     30.0
-    ],
-    [
-     1.0,
-     0.3,
-     30.0
-    ],
-    [
-     1.0,
-     0.3,
-     30.0
-    ]
-   ],
-   "canReceiveAcid": false,
-   "consumablePlaneTypes": {
-    "fighter": "",
-    "scout": ""
-   },
-   "coolingOffSpeed": 0.1,
-   "crackCoords": [
-    0.25,
-    0.0,
-    -0.25
-   ],
-   "customMiscs": {},
-   "deathBubblesEffect": "particles/NF_DD_seething_bubbles_post_death.xml",
-   "deathDetonateEffect": "particles/Empty_FX.xml",
-   "deathFaultEffect": "particles/Empty_FX.xml",
-   "deathFireEffect": "particles/Empty_FX.xml",
-   "deathFoamEffect": "particles/vehicles/Death_foam_small_2.xml",
-   "deathFountainsEffect": "particles/NF_DD_water_fountains_post_death.xml",
-   "deathFumingEffect": "particles/NF_DD_fuming_at_flooding_post_death.xml",
-   "deathNodes": [
-    "HP_Ship_death_1",
-    "HP_Ship_death_2",
-    "HP_Ship_death_3"
-   ],
-   "deathPlaneEffect": "particles/NF_AA_death_catapult_ships.xml",
-   "deathPostFireEffect": "particles/NF_DD_fuming_post_fire.xml",
-   "deathSettings": "PCOS001_Default",
-   "deathShellEffect": "particles/Empty_FX.xml",
-   "deathTorpedoEffect": "particles/NF_death_torpedo.xml",
-   "deathUnderWaterBubblesEffects": [
-    "particles/submarines/Sub_bomb_trace.xml",
-    "particles/submarines/Sub_bomb_trace.xml"
-   ],
-   "deckHeight": 1.94,
-   "deepwaterVisionCoeff": {},
-   "deepwaterVisionToPlaneCoeff": {},
-   "defaultCamouflage": "",
-   "dockYOffset": 0.0,
-   "draft": 11,
-   "effectCauldronExplosion": "particles/Empty_FX.xml",
-   "effectOnDeath": "particles/vehicles/Destroyer_death.xml",
-   "effectOnDetonatePowderChamber": "particles/simple_death.xml",
-   "effectOnFloodDeath": "particles/vehicles/Destroyer_death.xml",
-   "effectShipCracksAndOilPuddle": "particles/Empty_FX.xml",
-   "effects": {
-    "death": [
-     [
-      "HP_FX_Death_1",
-      "particles/vehicles/Death_foam_small_2.xml"
-     ],
-     [
-      "HP_FX_Death_2",
-      "particles/vehicles/Death_foam_small_2.xml"
-     ],
-     [
-      "HP_FX_Death_3",
-      "particles/vehicles/Death_foam_small_2.xml"
-     ]
-    ],
-    "fire1": [
-     [
-      "HP_FX_Fire_1",
-      "particles/vehicles/Fire_vvsmall.xml"
-     ]
-    ],
-    "fire2": [
-     [
-      "HP_FX_Fire_2",
-      "particles/vehicles/Fire_vsmall_2.xml"
-     ],
-     [
-      "HP_FX_Fire_2_side_1",
-      "particles/vehicles/Fire_side_small.xml"
-     ],
-     [
-      "HP_FX_Fire_2_side_2",
-      "particles/vehicles/Fire_side_small.xml"
-     ]
-    ],
-    "fire3": [
-     [
-      "HP_FX_Fire_3",
-      "particles/vehicles/Fire_vsmall_2.xml"
-     ],
-     [
-      "HP_FX_Fire_3_side_1",
-      "particles/vehicles/Fire_side_small.xml"
-     ],
-     [
-      "HP_FX_Fire_3_side_2",
-      "particles/vehicles/Fire_side_small.xml"
-     ]
-    ],
-    "fire4": [
-     [
-      "HP_FX_Fire_4",
-      "particles/vehicles/Fire_vvsmall_2.xml"
-     ]
-    ],
-    "fireResistance": [],
-    "fixDeluge": [
-     [
-      "HP_FX_Flood_water_left_1",
-      "particles/vehicles/Flood_deluge_small.xml"
-     ],
-     [
-      "HP_FX_Flood_water_left_2",
-      "particles/vehicles/Flood_deluge_small.xml"
-     ],
-     [
-      "HP_FX_Flood_water_right_1",
-      "particles/vehicles/Flood_deluge_small.xml"
-     ],
-     [
-      "HP_FX_Flood_water_right_2",
-      "particles/vehicles/Flood_deluge_small.xml"
-     ]
-    ],
-    "fixLight": [
-     [
-      "HP_FX_FloodLight_left_1",
-      "particles/vehicles/FixLight_small.xml"
-     ],
-     [
-      "HP_FX_FloodLight_left_2",
-      "particles/vehicles/FixLight_small.xml"
-     ],
-     [
-      "HP_FX_FloodLight_right_1",
-      "particles/vehicles/FixLight_small.xml"
-     ],
-     [
-      "HP_FX_FloodLight_right_2",
-      "particles/vehicles/FixLight_small.xml"
-     ]
-    ],
-    "flood": [
-     [
-      "HP_FX_Flood_steam_1",
-      "particles/vehicles/Flood_steam_exhaust_small.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_1",
-      "particles/vehicles/Flood_steam_small.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_2",
-      "particles/vehicles/Flood_steam_exhaust_small_delayed.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_2",
-      "particles/vehicles/Flood_steam_small.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_left",
-      "particles/vehicles/Flood_steam_side_small.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_right",
-      "particles/vehicles/Flood_steam_side_small.xml"
-     ]
-    ],
-    "floodLight": [
-     [
-      "HP_FX_FloodLight_left_1",
-      "particles/vehicles/FloodLight_small.xml"
-     ],
-     [
-      "HP_FX_FloodLight_left_2",
-      "particles/vehicles/FloodLight_small.xml"
-     ],
-     [
-      "HP_FX_FloodLight_right_1",
-      "particles/vehicles/FloodLight_small.xml"
-     ],
-     [
-      "HP_FX_FloodLight_right_2",
-      "particles/vehicles/FloodLight_small.xml"
-     ]
-    ],
-    "horn": [
-     [
-      "HP_FX_Smoke_1",
-      "particles/vehicles/Horn.xml"
-     ],
-     [
-      "HP_FX_Smoke_2",
-      "particles/vehicles/Horn.xml"
-     ],
-     [
-      "HP_FX_Smoke_3",
-      "particles/vehicles/Horn.xml"
-     ],
-     [
-      "HP_FX_Smoke_4",
-      "particles/vehicles/Horn.xml"
-     ]
-    ],
-    "idle": [],
-    "idlePort": [
-     [
-      "HP_FX_Flood_water_left_1",
-      "particles/vehicles/idlePort_Flood_deluge_small.xml"
-     ],
-     [
-      "HP_FX_Flood_water_left_2",
-      "particles/vehicles/idlePort_Flood_deluge_small.xml"
-     ],
-     [
-      "HP_FX_Flood_water_right_1",
-      "particles/vehicles/idlePort_Flood_deluge_small.xml"
-     ],
-     [
-      "HP_FX_Flood_water_right_2",
-      "particles/vehicles/idlePort_Flood_deluge_small.xml"
-     ],
-     [
-      "HP_FX_Smoke_1",
-      "particles/vehicles/idlePort_RunSmoke_vsmall.xml"
-     ],
-     [
-      "HP_FX_Smoke_2",
-      "particles/vehicles/idlePort_RunSmoke_vsmall.xml"
-     ],
-     [
-      "HP_FX_Smoke_3",
-      "particles/vehicles/idlePort_RunSmoke_vsmall.xml"
-     ],
-     [
-      "HP_FX_Smoke_4",
-      "particles/vehicles/idlePort_RunSmoke_vsmall.xml"
-     ]
-    ],
-    "repairLight": [],
-    "smoke": [
-     [
-      "HP_FX_Smoke_1",
-      "particles/vehicles/RunSmoke_vsmall.xml"
-     ],
-     [
-      "HP_FX_Smoke_2",
-      "particles/vehicles/RunSmoke_vsmall.xml"
-     ],
-     [
-      "HP_FX_Smoke_3",
-      "particles/vehicles/RunSmoke_vsmall.xml"
-     ],
-     [
-      "HP_FX_Smoke_4",
-      "particles/vehicles/RunSmoke_vsmall.xml"
-     ]
-    ],
-    "waketraceback": [
-     [
-      "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTraceReverce_screw_small_2.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_2",
-      "particles/vehicles/WakeTraceReverce_screw_small_2.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
-     ]
-    ],
-    "waketracefront": [
-     [
-      "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
-     ],
-     [
-      "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small_2.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_2",
-      "particles/vehicles/WakeTrace_screw_small_2.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
-     ]
-    ]
-   },
-   "enemyEngineEffects": false,
-   "enemyVisibilityCoeffByDepth": {
-    "-44.0": 1.0,
-    "0.0": 1.0
-   },
-   "enginePower": 20500.0,
-   "finderBase": 2.0,
-   "finderHeight": 9.0,
-   "flagPoleModelName": "content/gameplay/common/misc/CM500/CM500.model",
-   "floodNodes": [
-    [
-     0.333,
-     0.25,
-     40.0
-    ],
-    [
-     0.333,
-     0.25,
-     40.0
-    ]
-   ],
-   "foghornEffect": "particles/Hooter.xml",
-   "health": 8100.0,
-   "heatChangeValue": 1,
-   "heightIntensityEffects": [],
-   "isBlind": false,
-   "isFakeSubmarine": false,
-   "mass": 1050000.0,
-   "maxBuoyancyLevel": 0.0,
-   "maxBuoyancySpeed": 0.0,
-   "maxHeatValue": 100.0,
-   "maxRudderAngle": 30.0,
-   "maxSpeed": 32.5,
-   "model": "content/gameplay/europe/ship/destroyer/WSD002_Tatra_1918/WSD002_Tatra_1918.model",
-   "numOfParts": 0,
-   "propellerEffect": "",
-   "propellerEffectReversed": "",
-   "pushingMaxRudderAngle": 16.0,
-   "pushingMinRudderAngle": 1.0,
-   "regenerationHPSpeed": 0.0,
-   "repairingCoeff": 0.0,
-   "rollEffect": 1.6,
-   "rudderPower": 20500000.0,
-   "rudderTime": 2.8,
-   "shipBodySunkDifferenceCoeff": 2.0,
-   "shipBodySunkStartMassCoeff": 1.0,
-   "shipPartSunkDifferenceCoeff": 2.2,
-   "shipPartSunkStartMassCoeff": 2.2,
-   "shipWheelsPresent": false,
-   "sideDragCoef": 26200.0,
-   "sinkStartTime": [
-    [
-     4.0,
-     10.0
-    ],
-    [
-     2.0,
-     4.0
-    ],
-    [
-     3.0,
-     3.0
-    ],
-    [
-     4.0,
-     1.0
-    ]
-   ],
-   "sinkTime": [
-    [
-     45.0,
-     130.0
-    ],
-    [
-     18.0,
-     30.0
-    ],
-    [
-     21.0,
-     27.0
-    ],
-    [
-     27.0,
-     15.0
-    ]
-   ],
-   "sinkingEffects": "PCXS009_Destroyer",
-   "size": [
-    83.44,
-    8.16,
-    7.92
-   ],
-   "smokeScanRadius": 27.0,
-   "speedCoef": 1.0,
-   "timeBeforeCauldronExplosion": 4.0,
-   "timeBeforeDeathEffect": 0.2,
-   "tonnage": 1050.0,
-   "torpedoImpactMassImpulseCoeff": 0.5,
-   "turningRadius": 460.0,
-   "underwaterMaxRudderAngle": 0.0,
-   "underwaterRollEffect": 0.0,
-   "unpeculiarCamouflage": "",
-   "unpeculiarCamouflageColorSchemeId": 0,
-   "visibilityCoefATBA": 1e-06,
-   "visibilityCoefATBAByPlane": 1e-06,
-   "visibilityCoefFire": 2.0,
-   "visibilityCoefFireByPlane": 3.0,
-   "visibilityCoefGK": 1e-06,
-   "visibilityCoefGKByPlane": 2.0,
-   "visibilityCoefGKInSmoke": 2.0,
-   "visibilityCoefPinger": {
-    "-22.0": 0.0,
-    "-6.0": 1.0,
-    "0.0": 1.0
-   },
-   "visibilityCoefPingerByPlane": {
-    "-22.0": 0.0,
-    "-6.0": 1.0,
-    "0.0": 1.0
-   },
-   "visibilityCoefPingerInSmoke": 1e-06,
-   "visibilityCoeff": 14.16,
-   "visibilityCoeffUnderwaterDepths": {
-    "0.0": 1.0
-   },
-   "visibilityCoeffUnderwaterDepthsByPlane": {
-    "0.0": 1.0
-   },
-   "visibilityFactor": 6.22,
-   "visibilityFactorByPlane": 2.43,
-   "visibilityFactorInSmoke": 1e-06,
-   "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 2.43,
-    "DEEP_WATER_INVUL": 0.0,
-    "PERISCOPE": 2.43,
-    "SEMI_DEEP_WATER": 2.43,
-    "SURFACE": 0.0
-   }
-  },
-  "B_Torpedoes": {
-   "HP_WGT_1": {
-    "HitLocationTorpedo": {
-     "antiRamCoeff": 1.0,
-     "armorCoeff": 1.0,
-     "autoRepairTime": 15,
-     "autoRepairTimeMin": 15,
-     "buoyancyShipPercent": 0.0,
-     "burnNode": "",
-     "canBeDestroyed": true,
-     "critProb": [
-      0.25,
-      0.25
-     ],
-     "critProbHP": [
-      1.0,
-      0.0
-     ],
-     "damageEffects": [],
-     "deathEffects": [
-      "/",
-      "/"
-     ],
-     "detonateEffect": "particles/vehicles/Battleship_death.xml",
-     "detonateOnDead": false,
-     "hitDetonationMaxProbAtDamage": [
-      0.0,
-      0.0
-     ],
-     "hitDetonationMinProbAtDamage": [
-      0.0,
-      0.0
-     ],
-     "hlType": "torpedo_hitlocation",
-     "maxBuoyancy": 0.0,
-     "maxHP": 1200.0,
-     "moduleCritCoeffCR": 0.0,
-     "moduleCritCoeffXP": 0.0,
-     "parentHL": null,
-     "ramCoeff": 1.0,
-     "ramExtraDamage": 0.0,
-     "regeneratedHPPart": 0.5,
-     "rndPartHP": 0.75,
-     "splashBoxes": [],
-     "tbSkipProbMax": 0.0,
-     "tbSkipProbMin": 0.0,
-     "transmitHPDamageToParentFactor": 1.0,
-     "volume": 0.5,
-     "volumeCoeff": 1.0
-    },
-    "ammoList": [
-     "PWPT002_Torped_M1913"
-    ],
-    "armor": {
-     "65580": 6.0
-    },
-    "barrelDiameter": 0.45,
-    "canRotate": true,
-    "customMiscs": {},
-    "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
-    "deadMesh": "content/gameplay/europe/gun/torpedo/WGT033_450mm_triple_AW/WGT033_450mm_triple_AW_dead.model",
-    "deadZone": [
-     [
-      -64.0,
-      64.0
-     ],
-     [
-      137.0,
-      -137.0
-     ]
-    ],
-    "horizSector": [
-     0.0,
-     0.0
-    ],
-    "id": 4259734832,
-    "index": "PWGT033",
-    "lensEffect": "",
-    "mainSector": [
-     -90.0,
-     90.0
-    ],
-    "miscFilter": [],
-    "miscFilterMode": false,
-    "model": "content/gameplay/europe/gun/torpedo/WGT033_450mm_triple_AW/WGT033_450mm_triple_AW.model",
-    "name": "PWGT033_450mm_triple_AW",
-    "numAmmos": 1000,
-    "numBarrels": 3,
-    "position": [
-     3.8,
-     1.0
-    ],
-    "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shootSector": [
-     0.0,
-     0.0
-    ],
-    "shotDelay": 40.0,
-    "shotEffect": "particles/guns/torpedo.xml",
-    "shotEffectCap": "particles/Empty_FX.xml",
-    "smallGun": null,
-    "timeBetweenShots": 0.2,
-    "timeToChangeAngle": 1,
-    "timeToChangeSpeed": 1,
-    "torpedoAngles": [
-     2.6,
-     5.2
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
-    },
-    "vertSector": [
-     0.0,
-     1.0
-    ]
-   },
-   "HP_WGT_2": {
-    "HitLocationTorpedo": {
-     "antiRamCoeff": 1.0,
-     "armorCoeff": 1.0,
-     "autoRepairTime": 15,
-     "autoRepairTimeMin": 15,
-     "buoyancyShipPercent": 0.0,
-     "burnNode": "",
-     "canBeDestroyed": true,
-     "critProb": [
-      0.25,
-      0.25
-     ],
-     "critProbHP": [
-      1.0,
-      0.0
-     ],
-     "damageEffects": [],
-     "deathEffects": [
-      "/",
-      "/"
-     ],
-     "detonateEffect": "particles/vehicles/Battleship_death.xml",
-     "detonateOnDead": false,
-     "hitDetonationMaxProbAtDamage": [
-      0.0,
-      0.0
-     ],
-     "hitDetonationMinProbAtDamage": [
-      0.0,
-      0.0
-     ],
-     "hlType": "torpedo_hitlocation",
-     "maxBuoyancy": 0.0,
-     "maxHP": 1200.0,
-     "moduleCritCoeffCR": 0.0,
-     "moduleCritCoeffXP": 0.0,
-     "parentHL": null,
-     "ramCoeff": 1.0,
-     "ramExtraDamage": 0.0,
-     "regeneratedHPPart": 0.5,
-     "rndPartHP": 0.75,
-     "splashBoxes": [],
-     "tbSkipProbMax": 0.0,
-     "tbSkipProbMin": 0.0,
-     "transmitHPDamageToParentFactor": 1.0,
-     "volume": 0.5,
-     "volumeCoeff": 1.0
-    },
-    "ammoList": [
-     "PWPT002_Torped_M1913"
-    ],
-    "armor": {
-     "65580": 6.0
-    },
-    "barrelDiameter": 0.45,
-    "canRotate": true,
-    "customMiscs": {},
-    "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
-    "deadMesh": "content/gameplay/europe/gun/torpedo/WGT033_450mm_triple_AW/WGT033_450mm_triple_AW_dead.model",
-    "deadZone": [
-     [
-      -63.0,
-      63.0
-     ]
-    ],
-    "horizSector": [
-     -128.0,
-     128.0
-    ],
-    "id": 4259734832,
-    "index": "PWGT033",
-    "lensEffect": "",
-    "mainSector": [
-     -90.0,
-     90.0
-    ],
-    "miscFilter": [],
-    "miscFilterMode": false,
-    "model": "content/gameplay/europe/gun/torpedo/WGT033_450mm_triple_AW/WGT033_450mm_triple_AW.model",
-    "name": "PWGT033_450mm_triple_AW",
-    "numAmmos": 1000,
-    "numBarrels": 3,
-    "position": [
-     5.0,
-     1.0
-    ],
-    "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
-    "rotationSpeed": [
-     25.0,
-     25.0
-    ],
-    "shootSector": [
-     0.0,
-     0.0
-    ],
-    "shotDelay": 40.0,
-    "shotEffect": "particles/guns/torpedo.xml",
-    "shotEffectCap": "particles/Empty_FX.xml",
-    "smallGun": null,
-    "timeBetweenShots": 0.2,
-    "timeToChangeAngle": 1,
-    "timeToChangeSpeed": 1,
-    "torpedoAngles": [
-     2.6,
-     5.2
-    ],
-    "typeinfo": {
-     "nation": "Europe",
-     "species": "Torpedo",
-     "type": "Gun"
-    },
-    "vertSector": [
-     0.0,
-     1.0
-    ]
-   },
-   "useGroups": false,
-   "useOneShot": false
-  },
-  "BattleUpgradeInfo": {},
-  "ShipAbilities": {
-   "AbilitySlot0": {
-    "abils": [
-     [
-      "PCY009_CrashCrewPremium",
-      "D_Gold"
-     ]
-    ],
-    "slot": 0
-   },
-   "AbilitySlot1": {
-    "abils": [
-     [
-      "PCY015_SpeedBoosterPremium",
-      "Default"
-     ]
-    ],
-    "slot": 1
-   },
-   "AbilitySlot2": {
-    "abils": [],
-    "slot": 2
-   },
-   "AbilitySlot3": {
-    "abils": [],
-    "slot": 3
-   },
-   "AbilitySlot4": {
-    "abils": [],
-    "slot": 4
-   }
-  },
-  "ShipUpgradeInfo": {
-   "PWUA101_DD2_ART_STOCK": {
-    "canBuy": true,
-    "components": {
-     "artillery": [
-      "A_Artillery"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Artillery"
-   },
-   "PWUE101_DD2_ENG_STOCK": {
-    "canBuy": true,
-    "components": {
-     "engine": [
-      "AB_Engine"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Engine"
-   },
-   "PWUH101_DD2_HULL_STOCK": {
-    "canBuy": true,
-    "components": {
-     "airArmament": [],
-     "airDefense": [],
-     "artillery": [
-      "A_Artillery"
-     ],
-     "atba": [],
-     "depthCharges": [],
-     "directors": [],
-     "finders": [],
-     "hull": [
-      "A_Hull"
-     ],
-     "pinger": [],
-     "radars": [],
-     "torpedoes": [
-      "A_Torpedoes"
-     ]
-    },
-    "disabledAbilities": [],
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Hull"
-   },
-   "PWUH102_DD2_HULL_TOP": {
-    "canBuy": true,
-    "components": {
-     "airArmament": [],
-     "airDefense": [],
-     "artillery": [
-      "A_Artillery"
-     ],
-     "atba": [],
-     "depthCharges": [],
-     "directors": [],
-     "finders": [],
-     "hull": [
-      "B_Hull"
-     ],
-     "pinger": [],
-     "radars": [],
-     "torpedoes": [
-      "B_Torpedoes"
-     ]
-    },
-    "disabledAbilities": [],
-    "nextShips": [
-     "PWSD103_Romulus"
-    ],
-    "prev": "PWUH101_DD2_HULL_STOCK",
-    "ucType": "_Hull"
-   },
-   "PWUS101_DD2_SUO_STOCK": {
-    "canBuy": true,
-    "components": {
-     "fireControl": [
-      "AB1_FireControl"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Suo"
-   },
-   "PWUS102_DD2_SUO_TOP": {
-    "canBuy": true,
-    "components": {
-     "fireControl": [
-      "AB2_FireControl"
-     ]
-    },
-    "nextShips": [],
-    "prev": "PWUS101_DD2_SUO_STOCK",
-    "ucType": "_Suo"
-   },
-   "PWUT101_DD2_TORP_STOCK": {
-    "canBuy": true,
-    "components": {
-     "torpedoes": [
-      "A_Torpedoes",
-      "B_Torpedoes"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Torpedoes"
-   },
-   "costCR": 72000,
-   "costGold": 0,
-   "costSaleGold": 0,
-   "costXP": 350,
-   "lockedConfig": [],
-   "value": 1
-  },
-  "Specials": {
-   "buffsShiftMaxLevel": 0,
-   "buffsShiftSpeed": 1.0,
-   "buffsStartPool": 0,
-   "modifiers": {}
-  },
-  "UnderwaterCamera": {
-   "cameraDragOff": 1000,
-   "cameraDragOffTime": 5,
-   "cameraDragOnTime": 5,
-   "castZoom": {},
-   "maxZoomLength": 5.0,
-   "shipHeigthCoeff": 3.0,
-   "shipLengthCoeff": 1.0,
-   "shipWidthCoeff": 3.0,
-   "zoomDragCoefficient": 0.85
-  },
-  "alternateFlags": [
-   "austria_hungary"
-  ],
-  "apDamageLimitCoeff": 0.1,
-  "battleSignalsModifiersOrder": [],
-  "battleSignalsOrder": [],
-  "canEquipCamouflage": true,
-  "custom": {},
-  "defaultCrew": "PWW003_Default_Austria_Hungary",
-  "effects": {},
-  "flagsScale": 0.5,
-  "group": "upgradeable",
-  "id": 4187895088,
-  "index": "PWSD102",
-  "isPaperShip": false,
-  "level": 2,
-  "maxEquippedFlags": 8,
-  "name": "PWSD102_Tatra",
-  "nationFlagScale": 0.9,
-  "nativePermoflage": "",
-  "navalFlag": "europe",
-  "needShowProjectYear": true,
-  "peculiarity": "default",
-  "peculiarityEffects": {},
-  "peculiarityFlag": "",
-  "peculiarityModels": {},
-  "permoflages": [],
-  "steerAngle": [
-   0.2,
-   0.7,
-   1.0
-  ],
-  "steerDist": null,
-  "subnation": "Austria_Hungary",
   "tags": [],
   "typeinfo": {
    "nation": "Europe",
@@ -39646,6 +39656,7 @@
      1.0
     ]
    },
+   "timeToChangeAmmo": 10.0,
    "useGroups": false,
    "useOneShot": false
   },
@@ -41822,7 +41833,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small_2.xml"
+      "particles/vehicles/WakeTraceReverce_back_wide_2.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -41831,32 +41842,32 @@
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceReverce_screw_medium.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    },
@@ -41992,10 +42003,10 @@
    "visibilityFactorByPlane": 3.38,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 3.38,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 3.38,
-    "SEMI_DEEP_WATER": 3.38,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },
@@ -43016,6 +43027,7 @@
      1.0
     ]
    },
+   "timeToChangeAmmo": 10.0,
    "useGroups": false,
    "useOneShot": false
   },
@@ -43262,6 +43274,7 @@
      1.0
     ]
    },
+   "timeToChangeAmmo": 10.0,
    "useGroups": false,
    "useOneShot": false
   },
@@ -45316,7 +45329,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small_2.xml"
+      "particles/vehicles/WakeTraceReverce_back_wide_1.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -45325,32 +45338,32 @@
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceReverce_screw_small.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    },
@@ -45486,10 +45499,10 @@
    "visibilityFactorByPlane": 3.29,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 3.29,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 3.29,
-    "SEMI_DEEP_WATER": 3.29,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },
@@ -47006,7 +47019,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small_2.xml"
+      "particles/vehicles/WakeTraceReverce_back_wide_1.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -47015,32 +47028,32 @@
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceReverce_screw_small.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    },
@@ -47176,10 +47189,10 @@
    "visibilityFactorByPlane": 3.29,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 3.29,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 3.29,
-    "SEMI_DEEP_WATER": 3.29,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },
@@ -48117,6 +48130,7 @@
      1.0
     ]
    },
+   "timeToChangeAmmo": 10.0,
    "useGroups": false,
    "useOneShot": false
   },
@@ -48359,6 +48373,7 @@
      1.0
     ]
    },
+   "timeToChangeAmmo": 10.0,
    "useGroups": false,
    "useOneShot": false
   },
@@ -50741,7 +50756,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small_3.xml"
+      "particles/vehicles/WakeTraceReverce_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -50750,32 +50765,32 @@
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceReverce_screw_small_2.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small_2.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_small_2.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    },
@@ -50911,10 +50926,10 @@
    "visibilityFactorByPlane": 2.64,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 2.64,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 2.64,
-    "SEMI_DEEP_WATER": 2.64,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },
@@ -53191,7 +53206,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small_3.xml"
+      "particles/vehicles/WakeTraceReverce_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -53200,32 +53215,32 @@
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceReverce_screw_small_2.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small_2.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_small_2.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    },
@@ -53361,10 +53376,10 @@
    "visibilityFactorByPlane": 2.64,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 2.64,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 2.64,
-    "SEMI_DEEP_WATER": 2.64,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },
@@ -53855,6 +53870,7 @@
      1.0
     ]
    },
+   "timeToChangeAmmo": 10.0,
    "useGroups": false,
    "useOneShot": false
   },
@@ -54097,6 +54113,7 @@
      1.0
     ]
    },
+   "timeToChangeAmmo": 10.0,
    "useGroups": false,
    "useOneShot": false
   },
@@ -56819,7 +56836,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small_2.xml"
+      "particles/vehicles/WakeTraceReverce_back_wide_1.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -56828,32 +56845,32 @@
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceReverce_screw_small.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    },
@@ -56989,10 +57006,10 @@
    "visibilityFactorByPlane": 3.24,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 3.24,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 3.24,
-    "SEMI_DEEP_WATER": 3.24,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },
@@ -58998,7 +59015,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small_2.xml"
+      "particles/vehicles/WakeTraceReverce_back_wide_1.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -59007,32 +59024,32 @@
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceReverce_screw_small.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    },
@@ -59168,10 +59185,10 @@
    "visibilityFactorByPlane": 3.24,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 3.24,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 3.24,
-    "SEMI_DEEP_WATER": 3.24,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },
@@ -59773,6 +59790,7 @@
      1.0
     ]
    },
+   "timeToChangeAmmo": 10.0,
    "useGroups": false,
    "useOneShot": false
   },
@@ -61343,7 +61361,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small_4.xml"
+      "particles/vehicles/WakeTraceReverce_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -61351,33 +61369,33 @@
      ],
      [
       "HP_FX_WakeTrace_screw_2",
-      "particles/vehicles/WakeTraceReverce_screw_small_2.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
+      "particles/vehicles/WakeTraceReverce_screw_small.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
-      "particles/vehicles/WakeTrace_screw_small_2.xml"
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    },
@@ -61513,10 +61531,10 @@
    "visibilityFactorByPlane": 2.02,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 2.02,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 2.02,
-    "SEMI_DEEP_WATER": 2.02,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },
@@ -63075,7 +63093,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small_4.xml"
+      "particles/vehicles/WakeTraceReverce_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -63083,33 +63101,33 @@
      ],
      [
       "HP_FX_WakeTrace_screw_2",
-      "particles/vehicles/WakeTraceReverce_screw_small_2.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
+      "particles/vehicles/WakeTraceReverce_screw_small.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
-      "particles/vehicles/WakeTrace_screw_small_2.xml"
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    },
@@ -63245,10 +63263,10 @@
    "visibilityFactorByPlane": 2.02,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 2.02,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 2.02,
-    "SEMI_DEEP_WATER": 2.02,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },
@@ -64251,6 +64269,7 @@
      1.0
     ]
    },
+   "timeToChangeAmmo": 10.0,
    "useGroups": false,
    "useOneShot": false
   },
@@ -64501,6 +64520,7 @@
      1.0
     ]
    },
+   "timeToChangeAmmo": 10.0,
    "useGroups": false,
    "useOneShot": false
   },
@@ -66387,7 +66407,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small.xml"
+      "particles/vehicles/WakeTraceReverce_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -66396,32 +66416,32 @@
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceReverce_screw_small_2.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small_2.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_small_2.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    },
@@ -66557,10 +66577,10 @@
    "visibilityFactorByPlane": 2.99,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 2.99,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 2.99,
-    "SEMI_DEEP_WATER": 2.99,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },
@@ -68033,7 +68053,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small.xml"
+      "particles/vehicles/WakeTraceReverce_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -68042,32 +68062,32 @@
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceReverce_screw_small_2.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small_2.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_small_2.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    },
@@ -68203,10 +68223,10 @@
    "visibilityFactorByPlane": 2.99,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 2.99,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 2.99,
-    "SEMI_DEEP_WATER": 2.99,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },

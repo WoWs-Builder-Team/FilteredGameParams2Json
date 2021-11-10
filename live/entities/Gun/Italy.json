@@ -249,6 +249,135 @@
    ],
    "hlType": "artillery_hitlocation",
    "maxBuoyancy": 0.0,
+   "maxHP": 5000.0,
+   "moduleCritCoeffCR": 1.0,
+   "moduleCritCoeffXP": 1.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 1.0,
+   "rndPartHP": 0.0,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 0.1
+  },
+  "aiMGmaxEllipseRanging": 4.0,
+  "aiMGmedEllipseRanging": 3.7,
+  "aiMGminEllipseRanging": 3.5,
+  "ammoList": [
+   "PIPA032_203MM_53_1927_CS",
+   "PIPA035_203MM_53_1927_AP"
+  ],
+  "antiAirAuraDistance": 0.0,
+  "antiAirAuraStrength": 0.0,
+  "armor": {
+   "1": 0.0,
+   "65568": 75.0,
+   "65569": 70.0,
+   "65571": 70.0,
+   "65635": 25.0,
+   "65636": 150.0,
+   "131171": 0.0,
+   "196707": 0.0
+  },
+  "barrelDiameter": 0.203,
+  "coeffPerSecondMin": 0.3,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_small.xml",
+  "deadMesh": "content/gameplay/italy/gun/main/IGM055_203mm_53_1927/IGM055_203mm_53_1927_dead.model",
+  "deadZone": [],
+  "delim": 0.5,
+  "effectIntensityModifier": 1.0,
+  "ellipseRangeMax": 250.0,
+  "ellipseRangeMin": 50.0,
+  "horizSector": [
+   -150.0,
+   150.0
+  ],
+  "id": 4236895984,
+  "idealDistance": 1000.0,
+  "idealRadius": 8,
+  "index": "PIGM055",
+  "lensEffect": "particles/guns/GK_Lens_170to250.xml",
+  "maxEllipseRanging": 1.003,
+  "medEllipseRanging": 1.002,
+  "minEllipseRanging": 1.001,
+  "minRadius": 1.1,
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/italy/gun/main/IGM055_203mm_53_1927/IGM055_203mm_53_1927.model",
+  "name": "PIGM055_203mm_53_1927",
+  "numBarrels": 2.0,
+  "onMoveTarPosCoeffDelim": 1.001,
+  "onMoveTarPosCoeffMaxDist": 1.002,
+  "onMoveTarPosCoeffZero": 1.0,
+  "onMoveTarPosDelim": 0.1,
+  "pitchDeadZones": [],
+  "position": [
+   0,
+   0
+  ],
+  "purgingEffect": "particles/guns/GK_Purging_170to350.xml",
+  "radiusOnDelim": 0.5,
+  "radiusOnMax": 0.6,
+  "radiusOnZero": 0.2,
+  "reduceTime": 0.1,
+  "reloadBoostEffect": "particles/guns/GK_Reload_170to250.xml",
+  "rotationSpeed": [
+   7.0,
+   6.0
+  ],
+  "shotDelay": 14.5,
+  "shotEffect": "particles/guns/GK_Shot_170to250.xml",
+  "smallGun": null,
+  "smokePenalty": 0.0001,
+  "typeinfo": {
+   "nation": "Italy",
+   "species": "Main",
+   "type": "Gun"
+  },
+  "vertSector": [
+   -1.0,
+   45.0
+  ]
+ },
+ {
+  "HitLocationArtillery": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 0.0,
+   "autoRepairTime": 30,
+   "autoRepairTimeMin": 25,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.05,
+    0.75
+   ],
+   "critProbHP": [
+    1.0,
+    0.02
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "artillery_hitlocation",
+   "maxBuoyancy": 0.0,
    "maxHP": 7500.0,
    "moduleCritCoeffCR": 1.0,
    "moduleCritCoeffXP": 1.0,
@@ -2502,135 +2631,6 @@
   "vertSector": [
    -1.0,
    70.0
-  ]
- },
- {
-  "HitLocationArtillery": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 0.0,
-   "autoRepairTime": 30,
-   "autoRepairTimeMin": 25,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.05,
-    0.75
-   ],
-   "critProbHP": [
-    1.0,
-    0.02
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "artillery_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 5000.0,
-   "moduleCritCoeffCR": 1.0,
-   "moduleCritCoeffXP": 1.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 1.0,
-   "rndPartHP": 0.0,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 0.1
-  },
-  "aiMGmaxEllipseRanging": 4.0,
-  "aiMGmedEllipseRanging": 3.7,
-  "aiMGminEllipseRanging": 3.5,
-  "ammoList": [
-   "PIPA032_203MM_53_1927_CS",
-   "PIPA035_203MM_53_1927_AP"
-  ],
-  "antiAirAuraDistance": 0.0,
-  "antiAirAuraStrength": 0.0,
-  "armor": {
-   "1": 0.0,
-   "65568": 75.0,
-   "65569": 70.0,
-   "65571": 70.0,
-   "65635": 25.0,
-   "65636": 150.0,
-   "131171": 0.0,
-   "196707": 0.0
-  },
-  "barrelDiameter": 0.203,
-  "coeffPerSecondMin": 0.3,
-  "customMiscs": {},
-  "damagedEffect": "particles/guns/Gun_Broken_small.xml",
-  "deadMesh": "content/gameplay/italy/gun/main/IGM055_203mm_53_1927/IGM055_203mm_53_1927_dead.model",
-  "deadZone": [],
-  "delim": 0.5,
-  "effectIntensityModifier": 1.0,
-  "ellipseRangeMax": 250.0,
-  "ellipseRangeMin": 50.0,
-  "horizSector": [
-   -150.0,
-   150.0
-  ],
-  "id": 4236895984,
-  "idealDistance": 1000.0,
-  "idealRadius": 8,
-  "index": "PIGM055",
-  "lensEffect": "particles/guns/GK_Lens_170to250.xml",
-  "maxEllipseRanging": 1.003,
-  "medEllipseRanging": 1.002,
-  "minEllipseRanging": 1.001,
-  "minRadius": 1.1,
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/italy/gun/main/IGM055_203mm_53_1927/IGM055_203mm_53_1927.model",
-  "name": "PIGM055_203mm_53_1927",
-  "numBarrels": 2.0,
-  "onMoveTarPosCoeffDelim": 1.001,
-  "onMoveTarPosCoeffMaxDist": 1.002,
-  "onMoveTarPosCoeffZero": 1.0,
-  "onMoveTarPosDelim": 0.1,
-  "pitchDeadZones": [],
-  "position": [
-   0,
-   0
-  ],
-  "purgingEffect": "particles/guns/GK_Purging_170to350.xml",
-  "radiusOnDelim": 0.5,
-  "radiusOnMax": 0.6,
-  "radiusOnZero": 0.2,
-  "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_170to250.xml",
-  "rotationSpeed": [
-   7.0,
-   6.0
-  ],
-  "shotDelay": 14.5,
-  "shotEffect": "particles/guns/GK_Shot_170to250.xml",
-  "smallGun": null,
-  "smokePenalty": 0.0001,
-  "typeinfo": {
-   "nation": "Italy",
-   "species": "Main",
-   "type": "Gun"
-  },
-  "vertSector": [
-   -1.0,
-   45.0
   ]
  },
  {

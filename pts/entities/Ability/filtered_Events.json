@@ -85,8 +85,11 @@
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 113.0,
     "numConsumables": 3,
+    "radius": 20.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 15.0
    }
   }
@@ -194,6 +197,7 @@
   },
   "variants": {
    "Default": {
+    "boostCoeff": 0.75,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -202,6 +206,7 @@
     "workTime": 10.0
    },
    "H2019": {
+    "boostCoeff": 0.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -223,6 +228,8 @@
   "variants": {
    "Default": {
     "descIDs": "",
+    "distShip": 116.0,
+    "distTorpedo": 84.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -231,6 +238,8 @@
    },
    "H2018_PVP": {
     "descIDs": "",
+    "distShip": 166.6,
+    "distTorpedo": 166.6,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 5,
@@ -239,6 +248,8 @@
    },
    "H2019": {
     "descIDs": "",
+    "distShip": 400.0,
+    "distTorpedo": 400.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": -1,
@@ -247,6 +258,8 @@
    },
    "H2019_Henri": {
     "descIDs": "",
+    "distShip": 400.0,
+    "distTorpedo": 400.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": -1,
@@ -553,8 +566,11 @@
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 130.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    }
   }
@@ -606,7 +622,12 @@
   },
   "variants": {
    "Default": {
+    "backwardEngineForsag": 2.5,
+    "backwardEngineForsagMaxSpeed": 10.0,
+    "boostCoeff": 0.08,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
+    "forwardEngineForsagMaxSpeed": 10.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -614,7 +635,12 @@
     "workTime": 120.0
    },
    "H2018_PVP": {
+    "backwardEngineForsag": 2.5,
+    "backwardEngineForsagMaxSpeed": 10.0,
+    "boostCoeff": 3.0,
     "descIDs": "",
+    "forwardEngineForsag": 30.0,
+    "forwardEngineForsagMaxSpeed": 30.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 5,
@@ -622,7 +648,12 @@
     "workTime": 80.0
    },
    "H2019": {
+    "backwardEngineForsag": 2.5,
+    "backwardEngineForsagMaxSpeed": 10.0,
+    "boostCoeff": 0.3,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
+    "forwardEngineForsagMaxSpeed": 10.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 0,
@@ -630,7 +661,12 @@
     "workTime": 60.0
    },
    "PostApocalypse": {
+    "backwardEngineForsag": 30.0,
+    "backwardEngineForsagMaxSpeed": 50.0,
+    "boostCoeff": 0.2,
     "descIDs": "",
+    "forwardEngineForsag": 30.0,
+    "forwardEngineForsagMaxSpeed": 50.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 5,
@@ -682,6 +718,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
+    "regenerationHPSpeed": 0.03,
     "reloadTime": 30.0,
     "workTime": 10.0
    },
@@ -690,6 +727,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
+    "regenerationHPSpeed": 0.2,
     "reloadTime": 30.0,
     "workTime": 15.0
    }
@@ -709,16 +747,22 @@
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 60.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 1.0
    },
    "H2016": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 60.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 135.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    }
   }
@@ -838,6 +882,7 @@
   },
   "variants": {
    "Default": {
+    "boostCoeff": 0.75,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -846,6 +891,7 @@
     "workTime": 10.0
    },
    "H2017_Chapaev": {
+    "boostCoeff": 0.25,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -854,6 +900,7 @@
     "workTime": 30.0
    },
    "H2019": {
+    "boostCoeff": 0.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -911,6 +958,7 @@
   "variants": {
    "Default": {
     "descIDs": "",
+    "distShip": 270.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 6,
@@ -919,6 +967,7 @@
    },
    "H2017_Chapaev": {
     "descIDs": "",
+    "distShip": 500.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": -1,
@@ -1010,7 +1059,12 @@
   },
   "variants": {
    "Default": {
+    "backwardEngineForsag": 2.5,
+    "backwardEngineForsagMaxSpeed": 10.0,
+    "boostCoeff": 0.08,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
+    "forwardEngineForsagMaxSpeed": 10.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -1018,7 +1072,12 @@
     "workTime": 120.0
    },
    "H2017_Kagero": {
+    "backwardEngineForsag": 2.5,
+    "backwardEngineForsagMaxSpeed": 10.0,
+    "boostCoeff": 3.0,
     "descIDs": "",
+    "forwardEngineForsag": 30.0,
+    "forwardEngineForsagMaxSpeed": 30.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 5,
@@ -1026,7 +1085,12 @@
     "workTime": 80.0
    },
    "H2019": {
+    "backwardEngineForsag": 2.5,
+    "backwardEngineForsagMaxSpeed": 10.0,
+    "boostCoeff": 0.3,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
+    "forwardEngineForsagMaxSpeed": 10.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 0,
@@ -1153,16 +1217,22 @@
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 77.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    },
    "Shimakaze2": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 77.0,
     "numConsumables": 3,
+    "radius": 15.0,
     "reloadTime": 160.0,
+    "speedLimit": 12.5,
     "workTime": 20.0
    }
   }
@@ -1278,7 +1348,12 @@
   },
   "variants": {
    "Default": {
+    "backwardEngineForsag": 2.5,
+    "backwardEngineForsagMaxSpeed": 10.0,
+    "boostCoeff": 0.08,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
+    "forwardEngineForsagMaxSpeed": 10.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -1286,7 +1361,12 @@
     "workTime": 120.0
    },
    "H2018_PVP": {
+    "backwardEngineForsag": 2.5,
+    "backwardEngineForsagMaxSpeed": 10.0,
+    "boostCoeff": 0.5,
     "descIDs": "",
+    "forwardEngineForsag": 3.0,
+    "forwardEngineForsagMaxSpeed": 3.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
@@ -1294,7 +1374,12 @@
     "workTime": 30.0
    },
    "H2019": {
+    "backwardEngineForsag": 2.5,
+    "backwardEngineForsagMaxSpeed": 10.0,
+    "boostCoeff": 0.5,
     "descIDs": "",
+    "forwardEngineForsag": 3.0,
+    "forwardEngineForsagMaxSpeed": 3.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 0,
@@ -1399,6 +1484,7 @@
   "variants": {
    "Default": {
     "descIDs": "",
+    "distShip": 270.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 5,
@@ -1407,6 +1493,7 @@
    },
    "H2017_Chapaev": {
     "descIDs": "",
+    "distShip": 500.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": -1,
@@ -1415,6 +1502,7 @@
    },
    "H2019": {
     "descIDs": "",
+    "distShip": 400.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 7,
@@ -1510,7 +1598,12 @@
   },
   "variants": {
    "Default": {
+    "backwardEngineForsag": 2.5,
+    "backwardEngineForsagMaxSpeed": 10.0,
+    "boostCoeff": 0.08,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
+    "forwardEngineForsagMaxSpeed": 10.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -1518,7 +1611,12 @@
     "workTime": 120.0
    },
    "H2019": {
+    "backwardEngineForsag": 2.5,
+    "backwardEngineForsagMaxSpeed": 10.0,
+    "boostCoeff": 0.5,
     "descIDs": "",
+    "forwardEngineForsag": 3.0,
+    "forwardEngineForsagMaxSpeed": 3.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
@@ -1703,6 +1801,8 @@
   "variants": {
    "Default": {
     "descIDs": "",
+    "distShip": 116.0,
+    "distTorpedo": 84.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -1711,6 +1811,8 @@
    },
    "H2017_Chapaev": {
     "descIDs": "",
+    "distShip": 166.0,
+    "distTorpedo": 166.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": -1,
@@ -1730,6 +1832,7 @@
   },
   "variants": {
    "Default": {
+    "boostCoeff": 0.75,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -1738,6 +1841,7 @@
     "workTime": 10.0
    },
    "H2017_Chapaev": {
+    "boostCoeff": 0.25,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -1746,6 +1850,7 @@
     "workTime": 30.0
    },
    "PA": {
+    "boostCoeff": 0.4,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -1766,6 +1871,7 @@
   },
   "variants": {
    "Default": {
+    "boostCoeff": 0.75,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -1774,6 +1880,7 @@
     "workTime": 10.0
    },
    "H2019": {
+    "boostCoeff": 0.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -1822,6 +1929,7 @@
   },
   "variants": {
    "Default": {
+    "boostCoeff": 0.75,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -1830,6 +1938,7 @@
     "workTime": 10.0
    },
    "H2019": {
+    "boostCoeff": 0.5,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -1851,6 +1960,7 @@
   "variants": {
    "Default": {
     "descIDs": "",
+    "distShip": 270.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -1859,6 +1969,7 @@
    },
    "H2018_PVP": {
     "descIDs": "",
+    "distShip": 500.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 5,
@@ -1867,6 +1978,7 @@
    },
    "H2019_Alaska": {
     "descIDs": "",
+    "distShip": 500.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": -1,
@@ -1875,6 +1987,7 @@
    },
    "H2019_Hinden": {
     "descIDs": "",
+    "distShip": 400.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": -1,
@@ -1898,6 +2011,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": -1,
+    "regenerationHPSpeed": 0.0,
     "reloadTime": 120.0,
     "workTime": 28.0
    },
@@ -1906,6 +2020,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": -1,
+    "regenerationHPSpeed": 0.0,
     "reloadTime": 50.0,
     "workTime": 15.0
    }
@@ -1922,7 +2037,12 @@
   },
   "variants": {
    "Default": {
+    "backwardEngineForsag": 2.5,
+    "backwardEngineForsagMaxSpeed": 10.0,
+    "boostCoeff": 0.1,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
+    "forwardEngineForsagMaxSpeed": 10.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": -1,
@@ -1930,7 +2050,12 @@
     "workTime": 15
    },
    "H2020": {
+    "backwardEngineForsag": 4.0,
+    "backwardEngineForsagMaxSpeed": 4.0,
+    "boostCoeff": 0.7,
     "descIDs": "",
+    "forwardEngineForsag": 4.0,
+    "forwardEngineForsagMaxSpeed": 4.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": -1,
@@ -2014,7 +2139,12 @@
   },
   "variants": {
    "Default": {
+    "backwardEngineForsag": 2.5,
+    "backwardEngineForsagMaxSpeed": 10.0,
+    "boostCoeff": 0.08,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
+    "forwardEngineForsagMaxSpeed": 10.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -2022,7 +2152,12 @@
     "workTime": 120.0
    },
    "H2018_PVP": {
+    "backwardEngineForsag": 2.5,
+    "backwardEngineForsagMaxSpeed": 10.0,
+    "boostCoeff": 0.5,
     "descIDs": "",
+    "forwardEngineForsag": 3.0,
+    "forwardEngineForsagMaxSpeed": 3.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 4,
@@ -2030,7 +2165,12 @@
     "workTime": 30.0
    },
    "H2019": {
+    "backwardEngineForsag": 2.5,
+    "backwardEngineForsagMaxSpeed": 10.0,
+    "boostCoeff": 0.5,
     "descIDs": "",
+    "forwardEngineForsag": 3.0,
+    "forwardEngineForsagMaxSpeed": 3.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 0,
@@ -2214,6 +2354,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
+    "regenerationHPSpeed": 0.03,
     "reloadTime": 30.0,
     "workTime": 10.0
    },
@@ -2222,6 +2363,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 0,
+    "regenerationHPSpeed": 0.02,
     "reloadTime": 30.0,
     "workTime": 15.0
    }
@@ -2274,7 +2416,12 @@
   },
   "variants": {
    "Default": {
+    "backwardEngineForsag": 2.5,
+    "backwardEngineForsagMaxSpeed": 10.0,
+    "boostCoeff": 0.08,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
+    "forwardEngineForsagMaxSpeed": 10.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -2282,7 +2429,12 @@
     "workTime": 120.0
    },
    "H2020": {
+    "backwardEngineForsag": 2.5,
+    "backwardEngineForsagMaxSpeed": 10.0,
+    "boostCoeff": 1.5,
     "descIDs": "",
+    "forwardEngineForsag": 3.0,
+    "forwardEngineForsagMaxSpeed": 3.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": -1,
@@ -2389,24 +2541,33 @@
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 60.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 1.0
    },
    "H2018_PVP": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 10.0,
     "numConsumables": 3,
+    "radius": 40.0,
     "reloadTime": 60.0,
+    "speedLimit": 12.5,
     "workTime": 60.0
    },
    "H2019": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 10.0,
     "numConsumables": 0,
+    "radius": 40.0,
     "reloadTime": 60.0,
+    "speedLimit": 12.5,
     "workTime": 60.0
    }
   }
@@ -2450,6 +2611,7 @@
   },
   "variants": {
    "Default": {
+    "boostCoeff": 0.75,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2458,6 +2620,7 @@
     "workTime": 10.0
    },
    "H2018_PVP": {
+    "boostCoeff": 0.25,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2466,6 +2629,7 @@
     "workTime": 20.0
    },
    "H2019": {
+    "boostCoeff": 0.4,
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
@@ -2490,6 +2654,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 1,
+    "regenerationHPSpeed": 0.03,
     "reloadTime": 40.0,
     "workTime": 10.0
    },
@@ -2498,6 +2663,7 @@
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 0,
+    "regenerationHPSpeed": 0.03,
     "reloadTime": 40.0,
     "workTime": 10.0
    }
@@ -2514,7 +2680,12 @@
   },
   "variants": {
    "Default": {
+    "backwardEngineForsag": 2.5,
+    "backwardEngineForsagMaxSpeed": 10.0,
+    "boostCoeff": 0.08,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
+    "forwardEngineForsagMaxSpeed": 10.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -2522,7 +2693,12 @@
     "workTime": 120.0
    },
    "H2018": {
+    "backwardEngineForsag": 2.5,
+    "backwardEngineForsagMaxSpeed": 10.0,
+    "boostCoeff": 3.0,
     "descIDs": "",
+    "forwardEngineForsag": 30.0,
+    "forwardEngineForsagMaxSpeed": 30.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 6,
@@ -2590,7 +2766,12 @@
   },
   "variants": {
    "Default": {
+    "backwardEngineForsag": 2.5,
+    "backwardEngineForsagMaxSpeed": 10.0,
+    "boostCoeff": 0.08,
     "descIDs": "",
+    "forwardEngineForsag": 2.5,
+    "forwardEngineForsagMaxSpeed": 10.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 2,
@@ -2598,7 +2779,12 @@
     "workTime": 120.0
    },
    "H2017_Kagero": {
+    "backwardEngineForsag": 2.5,
+    "backwardEngineForsagMaxSpeed": 10.0,
+    "boostCoeff": 2.0,
     "descIDs": "",
+    "forwardEngineForsag": 4.0,
+    "forwardEngineForsagMaxSpeed": 4.0,
     "group": "ship",
     "iconIDs": "",
     "numConsumables": 6,
@@ -2677,16 +2863,22 @@
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 60.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 240.0,
+    "speedLimit": 12.5,
     "workTime": 1.0
    },
    "H2016": {
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
+    "lifeTime": 60.0,
     "numConsumables": 2,
+    "radius": 15.0,
     "reloadTime": 180.0,
+    "speedLimit": 12.5,
     "workTime": 30.0
    }
   }

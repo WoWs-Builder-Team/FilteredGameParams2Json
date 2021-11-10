@@ -216,7 +216,7 @@
     "rewards": [
      [
       "<Item idx=\"PCEF010_JC_SignalFlag\" count=\"7\"/>",
-      "<Item idx=\"PCEF011_IB3_SignalFlag\" count=\"7\"/>"
+      "<Item idx=\"PCEF001_Zulu_SignalFlag\" count=\"7\"/>"
      ],
      [
       "<Item idx=\"PCEF007_ID_SignalFlag\" count=\"7\"/>",
@@ -1264,76 +1264,6 @@
   }
  },
  {
-  "allowDivisions": true,
-  "battleProvider": "PVPTestBattles",
-  "economics": {
-   "currencyType": null,
-   "earningBySelf": 0.0,
-   "earningByTeamPool": 0.0,
-   "earningsByLevel": {},
-   "premFactor": 1.0
-  },
-  "gameLogicConfig": {},
-  "id": 4288523184,
-  "index": "PCVE006",
-  "matchmakerConfig": "eventEV20Submarines",
-  "name": "PCVE006_EV20Submarines",
-  "restrictions": {
-   "classes": {
-    "AirCarrier": [
-     0,
-     1
-    ],
-    "Battleship": [
-     0,
-     3
-    ],
-    "Cruiser": [
-     0,
-     3
-    ],
-    "Destroyer": [
-     0,
-     3
-    ],
-    "Submarine": [
-     0,
-     3
-    ]
-   },
-   "filters": [
-    {
-     "shipLevels": [
-      6
-     ],
-     "shipTypes": [
-      "AirCarrier",
-      "Battleship",
-      "Cruiser",
-      "Destroyer",
-      "Submarine"
-     ]
-    }
-   ],
-   "totalShips": 12
-  },
-  "scenariosByMap": {
-   "spaces/41_Conquest_Sub": [
-    "Domination_rhombus",
-    "Domination_2_BASES"
-   ],
-   "spaces/42_Neighbors_Sub": [
-    "Domination_rhombus",
-    "Domination_2_BASES"
-   ]
-  },
-  "typeinfo": {
-   "nation": "Common",
-   "species": "Event",
-   "type": "BattleScript"
-  }
- },
- {
   "custom": {
    "CN": {
     "difficulty": {
@@ -1598,8 +1528,7 @@
    "normal": {
     "rewards": [
      [
-      "<Item idx=\"PCEF001_Zulu_SignalFlag\" count=\"7\"/>",
-      "<Item idx=\"PCEF011_IB3_SignalFlag\" count=\"7\"/>"
+      "<Item idx=\"PCEF001_Zulu_SignalFlag\" count=\"14\"/>"
      ],
      [
       "<Item idx=\"PCEF003_EqualSpeed_SignalFlag\" count=\"7\"/>",
@@ -1662,6 +1591,83 @@
   "typeinfo": {
    "nation": "Common",
    "species": "Operation",
+   "type": "BattleScript"
+  }
+ },
+ {
+  "allowDivisions": true,
+  "battleProvider": "ArmsBattles",
+  "economics": {
+   "currencyType": "CREDITS",
+   "earningBySelf": 1.0,
+   "earningByTeamPool": 0.0,
+   "earningsByLevel": {},
+   "premFactor": 1.0
+  },
+  "gameLogicConfig": {},
+  "id": 4278037424,
+  "index": "PCVE016",
+  "matchmakerConfig": "ArmsBattles2021",
+  "name": "PCVE016_EV21ArmsRace",
+  "restrictions": {
+   "classes": {
+    "AirCarrier": [
+     0,
+     1
+    ],
+    "Battleship": [
+     0,
+     7
+    ],
+    "Cruiser": [
+     0,
+     7
+    ],
+    "Destroyer": [
+     0,
+     7
+    ],
+    "Submarine": [
+     0,
+     2
+    ]
+   },
+   "filters": [
+    {
+     "shipLevels": [
+      9,
+      10
+     ],
+     "shipTypes": [
+      "Destroyer",
+      "Cruiser",
+      "Battleship",
+      "AirCarrier"
+     ]
+    }
+   ],
+   "totalShips": 24
+  },
+  "scenariosByMap": {
+   "spaces/18_NE_ice_islands": [
+    "ArmsRace"
+   ],
+   "spaces/37_Ridge": [
+    "ArmsRace"
+   ],
+   "spaces/44_Path_warrior": [
+    "ArmsRace"
+   ],
+   "spaces/47_Sleeping_Giant": [
+    "ArmsRace"
+   ],
+   "spaces/53_Shoreside": [
+    "ArmsRace"
+   ]
+  },
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Event",
    "type": "BattleScript"
   }
  },
@@ -2347,19 +2353,36 @@
   },
   "scenariosByMap": {
    "spaces/14_Atlantic": [
-    "convoy1R_Light"
+    "convoy1R_Light",
+    "convoy1R_LightB"
    ],
    "spaces/18_NE_ice_islands": [
-    "convoy1R_Light"
+    "convoy1R_Light",
+    "convoy1R_LightB"
+   ],
+   "spaces/22_tierra_del_fuego": [
+    "convoy1R_Light",
+    "convoy1R_LightB"
    ],
    "spaces/44_Path_warrior": [
-    "convoy1R_Light"
+    "convoy1R_Light",
+    "convoy1R_LightB"
    ],
    "spaces/45_Zigzag": [
-    "convoy1R_Light"
+    "convoy1R_Light",
+    "convoy1R_LightB"
+   ],
+   "spaces/50_Gold_harbor": [
+    "convoy1R_Light",
+    "convoy1R_LightB"
+   ],
+   "spaces/53_Shoreside": [
+    "convoy1R_Light",
+    "convoy1R_LightB"
    ],
    "spaces/s03_Labyrinth": [
-    "convoy1R_Light"
+    "convoy1R_Light",
+    "convoy1R_LightB"
    ]
   },
   "typeinfo": {
@@ -2916,6 +2939,76 @@
   "scenariosByMap": {
    "spaces/e03_1st_April_2018": [
     "EV19_TorpedoBeat_2019"
+   ]
+  },
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Event",
+   "type": "BattleScript"
+  }
+ },
+ {
+  "allowDivisions": true,
+  "battleProvider": "PVPTestBattles",
+  "economics": {
+   "currencyType": null,
+   "earningBySelf": 0.0,
+   "earningByTeamPool": 0.0,
+   "earningsByLevel": {},
+   "premFactor": 1.0
+  },
+  "gameLogicConfig": {},
+  "id": 4288523184,
+  "index": "PCVE006",
+  "matchmakerConfig": "eventEV20Submarines",
+  "name": "PCVE006_EV20Submarines",
+  "restrictions": {
+   "classes": {
+    "AirCarrier": [
+     0,
+     1
+    ],
+    "Battleship": [
+     0,
+     3
+    ],
+    "Cruiser": [
+     0,
+     3
+    ],
+    "Destroyer": [
+     0,
+     3
+    ],
+    "Submarine": [
+     0,
+     3
+    ]
+   },
+   "filters": [
+    {
+     "shipLevels": [
+      6
+     ],
+     "shipTypes": [
+      "AirCarrier",
+      "Battleship",
+      "Cruiser",
+      "Destroyer",
+      "Submarine"
+     ]
+    }
+   ],
+   "totalShips": 12
+  },
+  "scenariosByMap": {
+   "spaces/41_Conquest_Sub": [
+    "Domination_rhombus",
+    "Domination_2_BASES"
+   ],
+   "spaces/42_Neighbors_Sub": [
+    "Domination_rhombus",
+    "Domination_2_BASES"
    ]
   },
   "typeinfo": {

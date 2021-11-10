@@ -470,6 +470,35 @@
  },
  {
   "affectedByPTZ": false,
+  "alphaDamage": 2600.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "AP",
+  "applyPTZCoeff": false,
+  "bulletAirDrag": 0.2941,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletDetonator": 0.01,
+  "bulletDetonatorThreshold": 22.0,
+  "bulletDiametr": 0.13,
+  "bulletKrupp": 1900.0,
+  "bulletMass": 33.4,
+  "bulletRicochetAt": 45.0,
+  "bulletSpeed": 950.0,
+  "burnProb": -0.5,
+  "distTile": 3.0,
+  "id": 4091527632,
+  "ignoreClasses": [],
+  "index": "PRPA194",
+  "isBomb": false,
+  "name": "PRPA194_130MM_AP_PB_42_YEREVAN",
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "Artillery",
+   "type": "Projectile"
+  }
+ },
+ {
+  "affectedByPTZ": false,
   "alphaDamage": 6100.0,
   "alphaPiercingCS": 0,
   "alphaPiercingHE": 32.3,
@@ -872,27 +901,6 @@
   }
  },
  {
-  "alertDist": 100,
-  "alphaDamage": 13400.0,
-  "ammoType": "torpedo_alternative",
-  "armingTime": 1.0,
-  "bulletDiametr": 0.533,
-  "damage": 700.0,
-  "id": 4240851408,
-  "ignoreClasses": [],
-  "index": "PRPT051",
-  "maxDist": 410.0,
-  "name": "PRPT051_53_38U_Sub",
-  "speed": 65.0,
-  "typeinfo": {
-   "nation": "Russia",
-   "species": "Torpedo",
-   "type": "Projectile"
-  },
-  "uwCritical": 0.77,
-  "visibilityFactor": 1.7
- },
- {
   "affectedByPTZ": false,
   "alphaDamage": 1900.0,
   "alphaPiercingCS": 0,
@@ -915,35 +923,6 @@
   "index": "PRPA010",
   "isBomb": false,
   "name": "PRPA010_130MM_HE_OF_46_B2U",
-  "typeinfo": {
-   "nation": "Russia",
-   "species": "Artillery",
-   "type": "Projectile"
-  }
- },
- {
-  "affectedByPTZ": false,
-  "alphaDamage": 4500.0,
-  "alphaPiercingCS": 0,
-  "alphaPiercingHE": 51.0,
-  "ammoType": "HE",
-  "applyPTZCoeff": false,
-  "bulletAirDrag": 0.4595,
-  "bulletAlwaysRicochetAt": 60.0,
-  "bulletDetonator": 0.001,
-  "bulletDetonatorThreshold": 2.0,
-  "bulletDiametr": 0.305,
-  "bulletKrupp": 1.0,
-  "bulletMass": 470.9,
-  "bulletRicochetAt": 91.0,
-  "bulletSpeed": 762.0,
-  "burnProb": 0.33,
-  "distTile": 3.0,
-  "id": 4280271312,
-  "ignoreClasses": [],
-  "index": "PRPA014",
-  "isBomb": false,
-  "name": "PRPA014_305_HE_1911",
   "typeinfo": {
    "nation": "Russia",
    "species": "Artillery",
@@ -1236,6 +1215,64 @@
   },
   "uwCritical": 2.5,
   "visibilityFactor": 1.2
+ },
+ {
+  "affectedByPTZ": false,
+  "alphaDamage": 1900.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 22.0,
+  "ammoType": "HE",
+  "applyPTZCoeff": false,
+  "bulletAirDrag": 0.2906,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletDetonator": 0.001,
+  "bulletDetonatorThreshold": 2.0,
+  "bulletDiametr": 0.13,
+  "bulletKrupp": 475.0,
+  "bulletMass": 33.0,
+  "bulletRicochetAt": 91.0,
+  "bulletSpeed": 950.0,
+  "burnProb": 0.1,
+  "distTile": 3.0,
+  "id": 4149199312,
+  "ignoreClasses": [],
+  "index": "PRPA139",
+  "isBomb": false,
+  "name": "PRPA139_130MM_HE_OF_42_SM21_T11",
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "Artillery",
+   "type": "Projectile"
+  }
+ },
+ {
+  "affectedByPTZ": false,
+  "alphaDamage": 2150.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 26.1,
+  "ammoType": "HE",
+  "applyPTZCoeff": false,
+  "bulletAirDrag": 0.35,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletDetonator": 0.03,
+  "bulletDetonatorThreshold": 25.0,
+  "bulletDiametr": 0.04,
+  "bulletKrupp": 3.0,
+  "bulletMass": 30,
+  "bulletRicochetAt": 45.0,
+  "bulletSpeed": 350,
+  "burnProb": 0.08,
+  "distTile": 3.0,
+  "id": 4286005712,
+  "ignoreClasses": [],
+  "index": "PRPR008",
+  "isBomb": false,
+  "name": "PRPR008_KOMSOMOLETS_STOCK",
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "Rocket",
+   "type": "Projectile"
+  }
  },
  {
   "affectedByPTZ": false,
@@ -1600,6 +1637,27 @@
  },
  {
   "alertDist": 100,
+  "alphaDamage": 16700.0,
+  "ammoType": "torpedo",
+  "armingTime": 1,
+  "bulletDiametr": 0.45,
+  "damage": 600.0,
+  "id": 4290134480,
+  "ignoreClasses": [],
+  "index": "PRPT004",
+  "maxDist": 134.0,
+  "name": "PRPT004_PAT_10",
+  "speed": 51.0,
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "Torpedo",
+   "type": "Projectile"
+  },
+  "uwCritical": 0.96,
+  "visibilityFactor": 0.8
+ },
+ {
+  "alertDist": 100,
   "alphaDamage": 1700.0,
   "ammoType": "depthcharge",
   "burnProb": 0.1,
@@ -1946,6 +2004,27 @@
   "uwCritical": 0.43
  },
  {
+  "alertDist": 100,
+  "alphaDamage": 40200.0,
+  "ammoType": "torpedo",
+  "armingTime": 1,
+  "bulletDiametr": 0.533,
+  "damage": 1000.0,
+  "id": 4239802832,
+  "ignoreClasses": [],
+  "index": "PRPT052",
+  "maxDist": 267.0,
+  "name": "PRPT052_53_51_T11",
+  "speed": 60.0,
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "Torpedo",
+   "type": "Projectile"
+  },
+  "uwCritical": 2.4,
+  "visibilityFactor": 1.2
+ },
+ {
   "affectedByPTZ": false,
   "alphaDamage": 2600.0,
   "alphaPiercingCS": 0,
@@ -1973,6 +2052,27 @@
    "species": "Artillery",
    "type": "Projectile"
   }
+ },
+ {
+  "alertDist": 100,
+  "alphaDamage": 13400.0,
+  "ammoType": "torpedo_alternative",
+  "armingTime": 1.0,
+  "bulletDiametr": 0.533,
+  "damage": 700.0,
+  "id": 4240851408,
+  "ignoreClasses": [],
+  "index": "PRPT051",
+  "maxDist": 410.0,
+  "name": "PRPT051_53_38U_Sub",
+  "speed": 65.0,
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "Torpedo",
+   "type": "Projectile"
+  },
+  "uwCritical": 0.77,
+  "visibilityFactor": 1.7
  },
  {
   "affectedByPTZ": false,
@@ -2062,6 +2162,35 @@
   }
  },
  {
+  "affectedByPTZ": false,
+  "alphaDamage": 4500.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 51.0,
+  "ammoType": "HE",
+  "applyPTZCoeff": false,
+  "bulletAirDrag": 0.4595,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletDetonator": 0.001,
+  "bulletDetonatorThreshold": 2.0,
+  "bulletDiametr": 0.305,
+  "bulletKrupp": 1.0,
+  "bulletMass": 470.9,
+  "bulletRicochetAt": 91.0,
+  "bulletSpeed": 762.0,
+  "burnProb": 0.33,
+  "distTile": 3.0,
+  "id": 4280271312,
+  "ignoreClasses": [],
+  "index": "PRPA014",
+  "isBomb": false,
+  "name": "PRPA014_305_HE_1911",
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "Artillery",
+   "type": "Projectile"
+  }
+ },
+ {
   "alertDist": 100,
   "alphaDamage": 40200.0,
   "ammoType": "torpedo",
@@ -2113,18 +2242,18 @@
  },
  {
   "affectedByPTZ": false,
-  "alphaDamage": 12950.0,
+  "alphaDamage": 12500.0,
   "alphaPiercingCS": 0,
   "alphaPiercingHE": 0.0,
   "ammoType": "AP",
   "applyPTZCoeff": false,
-  "bulletAirDrag": 0.3813,
+  "bulletAirDrag": 0.3573,
   "bulletAlwaysRicochetAt": 60.0,
   "bulletDetonator": 0.033,
   "bulletDetonatorThreshold": 68.0,
   "bulletDiametr": 0.406,
-  "bulletKrupp": 2430.0,
-  "bulletMass": 1116.0,
+  "bulletKrupp": 2530.0,
+  "bulletMass": 1040.0,
   "bulletRicochetAt": 45.0,
   "bulletSpeed": 766.5,
   "burnProb": -0.5,
@@ -2137,35 +2266,6 @@
   "typeinfo": {
    "nation": "Russia",
    "species": "Artillery",
-   "type": "Projectile"
-  }
- },
- {
-  "affectedByPTZ": false,
-  "alphaDamage": 2150.0,
-  "alphaPiercingCS": 0,
-  "alphaPiercingHE": 26.1,
-  "ammoType": "HE",
-  "applyPTZCoeff": false,
-  "bulletAirDrag": 0.35,
-  "bulletAlwaysRicochetAt": 60.0,
-  "bulletDetonator": 0.03,
-  "bulletDetonatorThreshold": 25.0,
-  "bulletDiametr": 0.04,
-  "bulletKrupp": 3.0,
-  "bulletMass": 30,
-  "bulletRicochetAt": 45.0,
-  "bulletSpeed": 350,
-  "burnProb": 0.08,
-  "distTile": 3.0,
-  "id": 4286005712,
-  "ignoreClasses": [],
-  "index": "PRPR008",
-  "isBomb": false,
-  "name": "PRPR008_KOMSOMOLETS_STOCK",
-  "typeinfo": {
-   "nation": "Russia",
-   "species": "Rocket",
    "type": "Projectile"
   }
  },
@@ -2928,6 +3028,35 @@
   }
  },
  {
+  "affectedByPTZ": false,
+  "alphaDamage": 10500.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "AP",
+  "applyPTZCoeff": false,
+  "bulletAirDrag": 0.371,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletDetonator": 0.033,
+  "bulletDetonatorThreshold": 59.0,
+  "bulletDiametr": 0.356,
+  "bulletKrupp": 2350.0,
+  "bulletMass": 747.8,
+  "bulletRicochetAt": 45.0,
+  "bulletSpeed": 823.0,
+  "burnProb": -0.5,
+  "distTile": 3.0,
+  "id": 4218405328,
+  "ignoreClasses": [],
+  "index": "PRPA073",
+  "isBomb": false,
+  "name": "PRPA073_356MM_AP_1911",
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "Artillery",
+   "type": "Projectile"
+  }
+ },
+ {
   "alertDist": 100,
   "alphaDamage": 100.0,
   "ammoType": "torpedo",
@@ -3410,6 +3539,35 @@
  },
  {
   "affectedByPTZ": false,
+  "alphaDamage": 2600.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "AP",
+  "applyPTZCoeff": false,
+  "bulletAirDrag": 0.2941,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletDetonator": 0.01,
+  "bulletDetonatorThreshold": 22.0,
+  "bulletDiametr": 0.13,
+  "bulletKrupp": 1900.0,
+  "bulletMass": 33.4,
+  "bulletRicochetAt": 45.0,
+  "bulletSpeed": 950.0,
+  "burnProb": -0.5,
+  "distTile": 3.0,
+  "id": 4148150736,
+  "ignoreClasses": [],
+  "index": "PRPA140",
+  "isBomb": false,
+  "name": "PRPA140_130MM_AP_PB_42_SM21_T11",
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "Artillery",
+   "type": "Projectile"
+  }
+ },
+ {
+  "affectedByPTZ": false,
   "alphaDamage": 6350.0,
   "alphaPiercingCS": 0,
   "alphaPiercingHE": 0.0,
@@ -3436,6 +3594,27 @@
    "species": "Artillery",
    "type": "Projectile"
   }
+ },
+ {
+  "alertDist": 100,
+  "alphaDamage": 50200.0,
+  "ammoType": "torpedo",
+  "armingTime": 1,
+  "bulletDiametr": 0.533,
+  "damage": 1200.0,
+  "id": 4275454416,
+  "ignoreClasses": [],
+  "index": "PRPT018",
+  "maxDist": 134.0,
+  "name": "PRPT018_53_38I",
+  "speed": 65.0,
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "Torpedo",
+   "type": "Projectile"
+  },
+  "uwCritical": 3.02,
+  "visibilityFactor": 1.3
  },
  {
   "alertDist": 100,
@@ -3652,27 +3831,6 @@
   },
   "uwCritical": 0.5,
   "visibilityFactor": 1.4
- },
- {
-  "alertDist": 100,
-  "alphaDamage": 16700.0,
-  "ammoType": "torpedo",
-  "armingTime": 1,
-  "bulletDiametr": 0.45,
-  "damage": 600.0,
-  "id": 4290134480,
-  "ignoreClasses": [],
-  "index": "PRPT004",
-  "maxDist": 134.0,
-  "name": "PRPT004_PAT_10",
-  "speed": 51.0,
-  "typeinfo": {
-   "nation": "Russia",
-   "species": "Torpedo",
-   "type": "Projectile"
-  },
-  "uwCritical": 0.96,
-  "visibilityFactor": 0.8
  },
  {
   "alertDist": 100,
@@ -4486,35 +4644,6 @@
   "index": "PRPA117",
   "isBomb": false,
   "name": "PRPA117_180_AP_B_32_S_MIKOYAN",
-  "typeinfo": {
-   "nation": "Russia",
-   "species": "Artillery",
-   "type": "Projectile"
-  }
- },
- {
-  "affectedByPTZ": false,
-  "alphaDamage": 10500.0,
-  "alphaPiercingCS": 0,
-  "alphaPiercingHE": 0.0,
-  "ammoType": "AP",
-  "applyPTZCoeff": false,
-  "bulletAirDrag": 0.371,
-  "bulletAlwaysRicochetAt": 60.0,
-  "bulletDetonator": 0.033,
-  "bulletDetonatorThreshold": 59.0,
-  "bulletDiametr": 0.356,
-  "bulletKrupp": 2350.0,
-  "bulletMass": 747.8,
-  "bulletRicochetAt": 45.0,
-  "bulletSpeed": 823.0,
-  "burnProb": -0.5,
-  "distTile": 3.0,
-  "id": 4218405328,
-  "ignoreClasses": [],
-  "index": "PRPA073",
-  "isBomb": false,
-  "name": "PRPA073_356MM_AP_1911",
   "typeinfo": {
    "nation": "Russia",
    "species": "Artillery",
@@ -5506,6 +5635,64 @@
   }
  },
  {
+  "affectedByPTZ": false,
+  "alphaDamage": 8600.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "AP",
+  "applyPTZCoeff": false,
+  "bulletAirDrag": 0.4595,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletDetonator": 0.01,
+  "bulletDetonatorThreshold": 51.0,
+  "bulletDiametr": 0.305,
+  "bulletKrupp": 2627.0,
+  "bulletMass": 470.9,
+  "bulletRicochetAt": 45.0,
+  "bulletSpeed": 762.0,
+  "burnProb": -0.5,
+  "distTile": 3.0,
+  "id": 4279222736,
+  "ignoreClasses": [],
+  "index": "PRPA015",
+  "isBomb": false,
+  "name": "PRPA015_305_AP_1911",
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "Artillery",
+   "type": "Projectile"
+  }
+ },
+ {
+  "affectedByPTZ": false,
+  "alphaDamage": 1900.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 22.0,
+  "ammoType": "HE",
+  "applyPTZCoeff": false,
+  "bulletAirDrag": 0.2906,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletDetonator": 0.001,
+  "bulletDetonatorThreshold": 2.0,
+  "bulletDiametr": 0.13,
+  "bulletKrupp": 475.0,
+  "bulletMass": 33.0,
+  "bulletRicochetAt": 91.0,
+  "bulletSpeed": 950.0,
+  "burnProb": 0.1,
+  "distTile": 3.0,
+  "id": 4092576208,
+  "ignoreClasses": [],
+  "index": "PRPA193",
+  "isBomb": false,
+  "name": "PRPA193_130MM_HE_OF_42_YEREVAN",
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "Artillery",
+   "type": "Projectile"
+  }
+ },
+ {
   "alertDist": 100,
   "alphaDamage": 42000.0,
   "ammoType": "torpedo",
@@ -5549,35 +5736,6 @@
   "index": "PRPA129",
   "isBomb": false,
   "name": "PRPA129_406MM_HE_V_I_LENIN",
-  "typeinfo": {
-   "nation": "Russia",
-   "species": "Artillery",
-   "type": "Projectile"
-  }
- },
- {
-  "affectedByPTZ": false,
-  "alphaDamage": 8600.0,
-  "alphaPiercingCS": 0,
-  "alphaPiercingHE": 0.0,
-  "ammoType": "AP",
-  "applyPTZCoeff": false,
-  "bulletAirDrag": 0.4595,
-  "bulletAlwaysRicochetAt": 60.0,
-  "bulletDetonator": 0.01,
-  "bulletDetonatorThreshold": 51.0,
-  "bulletDiametr": 0.305,
-  "bulletKrupp": 2627.0,
-  "bulletMass": 470.9,
-  "bulletRicochetAt": 45.0,
-  "bulletSpeed": 762.0,
-  "burnProb": -0.5,
-  "distTile": 3.0,
-  "id": 4279222736,
-  "ignoreClasses": [],
-  "index": "PRPA015",
-  "isBomb": false,
-  "name": "PRPA015_305_AP_1911",
   "typeinfo": {
    "nation": "Russia",
    "species": "Artillery",
@@ -5670,27 +5828,6 @@
    "species": "Artillery",
    "type": "Projectile"
   }
- },
- {
-  "alertDist": 100,
-  "alphaDamage": 50200.0,
-  "ammoType": "torpedo",
-  "armingTime": 1,
-  "bulletDiametr": 0.533,
-  "damage": 1200.0,
-  "id": 4275454416,
-  "ignoreClasses": [],
-  "index": "PRPT018",
-  "maxDist": 134.0,
-  "name": "PRPT018_53_38I",
-  "speed": 65.0,
-  "typeinfo": {
-   "nation": "Russia",
-   "species": "Torpedo",
-   "type": "Projectile"
-  },
-  "uwCritical": 3.02,
-  "visibilityFactor": 1.3
  },
  {
   "affectedByPTZ": false,

@@ -2484,6 +2484,353 @@
  {
   "battleTypes": [
    "PVP",
+   "RANKED"
+  ],
+  "constants": {},
+  "custom": {},
+  "enabled": true,
+  "events": [],
+  "group": false,
+  "hidden": true,
+  "hiddenCustom": {
+   "alwaysShowIfAchieved": true
+  },
+  "hint": "",
+  "id": 3907183536,
+  "index": "PCH369",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCH369_Navoeval",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats"
+  ],
+  "showProgress": false,
+  "type": "service_medal",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": false,
+  "uiName": "NAVOEVAL",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "",
+  "uiType": "service_medal"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "constants": {
+   "classCount": 3
+  },
+  "custom": {},
+  "enabled": true,
+  "events": [
+   [
+    "dead",
+    [
+     [
+      "counter",
+      "a",
+      "!=",
+      "constant",
+      "1"
+     ],
+     [
+      "attacker",
+      "inPrebattleDivision"
+     ],
+     [
+      "attacker",
+      "prebattleDivision",
+      "==",
+      "me",
+      "prebattleDivision"
+     ],
+     [
+      "target",
+      "vehicleClass",
+      "==",
+      "string",
+      "Cruiser"
+     ]
+    ],
+    [
+     [
+      "counter",
+      "a",
+      "=",
+      "constant",
+      "1"
+     ]
+    ]
+   ],
+   [
+    "dead",
+    [
+     [
+      "counter",
+      "b",
+      "!=",
+      "constant",
+      "1"
+     ],
+     [
+      "attacker",
+      "inPrebattleDivision"
+     ],
+     [
+      "attacker",
+      "prebattleDivision",
+      "==",
+      "me",
+      "prebattleDivision"
+     ],
+     [
+      "target",
+      "vehicleClass",
+      "==",
+      "string",
+      "Battleship"
+     ]
+    ],
+    [
+     [
+      "counter",
+      "b",
+      "=",
+      "constant",
+      "1"
+     ]
+    ]
+   ],
+   [
+    "dead",
+    [
+     [
+      "counter",
+      "c",
+      "!=",
+      "constant",
+      "1"
+     ],
+     [
+      "attacker",
+      "inPrebattleDivision"
+     ],
+     [
+      "attacker",
+      "prebattleDivision",
+      "==",
+      "me",
+      "prebattleDivision"
+     ],
+     [
+      "target",
+      "vehicleClass",
+      "==",
+      "string",
+      "Destroyer"
+     ]
+    ],
+    [
+     [
+      "counter",
+      "c",
+      "=",
+      "constant",
+      "1"
+     ]
+    ]
+   ],
+   [
+    "dead",
+    [
+     [
+      "counter",
+      "d",
+      "!=",
+      "constant",
+      "1"
+     ],
+     [
+      "attacker",
+      "inPrebattleDivision"
+     ],
+     [
+      "attacker",
+      "prebattleDivision",
+      "==",
+      "me",
+      "prebattleDivision"
+     ],
+     [
+      "target",
+      "vehicleClass",
+      "==",
+      "string",
+      "AirCarrier"
+     ]
+    ],
+    [
+     [
+      "counter",
+      "d",
+      "=",
+      "constant",
+      "1"
+     ]
+    ]
+   ],
+   [
+    "dead",
+    [
+     [
+      "counter",
+      "e",
+      "!=",
+      "constant",
+      "1"
+     ],
+     [
+      "attacker",
+      "inPrebattleDivision"
+     ],
+     [
+      "attacker",
+      "prebattleDivision",
+      "==",
+      "me",
+      "prebattleDivision"
+     ],
+     [
+      "target",
+      "vehicleClass",
+      "==",
+      "string",
+      "Submarine"
+     ]
+    ],
+    [
+     [
+      "counter",
+      "e",
+      "=",
+      "constant",
+      "1"
+     ]
+    ]
+   ],
+   [
+    "dead",
+    [
+     [
+      "attacker",
+      "inPrebattleDivision"
+     ],
+     [
+      "attacker",
+      "prebattleDivision",
+      "==",
+      "me",
+      "prebattleDivision"
+     ],
+     [
+      "subInstruction",
+      [
+       "subInstruction",
+       [
+        "subInstruction",
+        [
+         "subInstruction",
+         [
+          "counter",
+          "a",
+          "+",
+          "counter",
+          "b"
+         ],
+         "+",
+         "counter",
+         "c"
+        ],
+        "+",
+        "counter",
+        "d"
+       ],
+       "+",
+       "counter",
+       "e"
+      ],
+      ">=",
+      "constant",
+      "classCount"
+     ]
+    ],
+    [
+     [
+      "doAction",
+      "done"
+     ]
+    ]
+   ]
+  ],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 3911377840,
+  "index": "PCH365",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCH365_ClassDestroy_Squad",
+  "onePerBattle": false,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats"
+  ],
+  "showProgress": false,
+  "type": "squad",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": true,
+  "uiName": "CLASSDESTROY_SQUAD",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_PVP_RANKED_SQUAD",
+  "uiType": "squad"
+ },
+ {
+  "battleTypes": [
+   "PVP",
    "PVE",
    "RANKED"
   ],
@@ -2821,6 +3168,118 @@
   },
   "uiHideMultiplicity": true,
   "uiName": "BD2016_PARTY_CHECK_IN",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "",
+  "uiType": "service_medal"
+ },
+ {
+  "battleTypes": [
+   "PVP"
+  ],
+  "constants": {
+   "damageRatio": 1.2,
+   "damagersCount": 4,
+   "ships": [
+    "PGSB108_Bismarck"
+   ]
+  },
+  "custom": {},
+  "enabled": false,
+  "events": [
+   [
+    "meDamaged",
+    [
+     [
+      "me",
+      "vehicleName",
+      "in",
+      "constant",
+      "ships"
+     ]
+    ],
+    [
+     [
+      "counter",
+      "attackerA",
+      "+=",
+      "damage",
+      "ratio"
+     ]
+    ]
+   ],
+   [
+    "battleEnd",
+    [
+     [
+      "me",
+      "alive"
+     ],
+     [
+      "shipCountersA",
+      "sumValues",
+      ">=",
+      "constant",
+      "damageRatio"
+     ],
+     [
+      "shipCountersA",
+      "nonZero",
+      ">=",
+      "constant",
+      "damagersCount"
+     ],
+     [
+      "me",
+      "vehicleName",
+      "in",
+      "constant",
+      "ships"
+     ]
+    ],
+    [
+     [
+      "doAction",
+      "done"
+     ]
+    ]
+   ]
+  ],
+  "group": false,
+  "hidden": true,
+  "hiddenCustom": {
+   "alwaysShowIfAchieved": true
+  },
+  "hint": "",
+  "id": 4139967408,
+  "index": "PCH147",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCH147_BD2_BISMARCK",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats"
+  ],
+  "showProgress": false,
+  "type": "festival",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": false,
+  "uiName": "BD2_BISMARCK",
   "uiOutOfDate": false,
   "uiRestrictionIDS": "",
   "uiType": "service_medal"
@@ -3421,6 +3880,55 @@
   "uiOutOfDate": false,
   "uiRestrictionIDS": "",
   "uiType": "service_medal"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "constants": {},
+  "custom": {},
+  "enabled": true,
+  "events": [],
+  "group": false,
+  "hidden": true,
+  "hiddenCustom": {
+   "alwaysShowIfAchieved": true
+  },
+  "hint": "",
+  "id": 4053984176,
+  "index": "PCH229",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": false,
+  "name": "PCH229_KingOfTheSeaVIII",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats"
+  ],
+  "showProgress": false,
+  "type": "clan",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": true,
+  "uiName": "KINGOFTHESEAVIII",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "",
+  "uiType": "heroic"
  },
  {
   "battleTypes": [
@@ -5479,55 +5987,6 @@
    "PVP",
    "RANKED"
   ],
-  "constants": {},
-  "custom": {},
-  "enabled": true,
-  "events": [],
-  "group": false,
-  "hidden": true,
-  "hiddenCustom": {
-   "alwaysShowIfAchieved": true
-  },
-  "hint": "",
-  "id": 4053984176,
-  "index": "PCH229",
-  "keepCounters": false,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": false,
-  "name": "PCH229_KingOfTheSeaVIII",
-  "onePerBattle": true,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats"
-  ],
-  "showProgress": false,
-  "type": "clan",
-  "typeinfo": {
-   "nation": "Common",
-   "species": null,
-   "type": "Achievement"
-  },
-  "uiHideMultiplicity": true,
-  "uiName": "KINGOFTHESEAVIII",
-  "uiOutOfDate": false,
-  "uiRestrictionIDS": "",
-  "uiType": "heroic"
- },
- {
-  "battleTypes": [
-   "PVP",
-   "RANKED"
-  ],
   "constants": {
    "album": "PCZA012_BritishArc"
   },
@@ -6238,7 +6697,7 @@
   "minShipLevel": 0,
   "multiple": true,
   "name": "PCH351_CONVOY_TwoToOne",
-  "onePerBattle": false,
+  "onePerBattle": true,
   "shipCategories": [
    "upgradeable",
    "upgradeableExclusive",
@@ -12164,6 +12623,55 @@
    "PVP",
    "RANKED"
   ],
+  "constants": {},
+  "custom": {},
+  "enabled": true,
+  "events": [],
+  "group": false,
+  "hidden": true,
+  "hiddenCustom": {
+   "alwaysShowIfAchieved": true
+  },
+  "hint": "",
+  "id": 3960660912,
+  "index": "PCH318",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": false,
+  "name": "PCH318_WinnerClanSeason_15",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats"
+  ],
+  "showProgress": false,
+  "type": "clan",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": true,
+  "uiName": "WINNER_CLAN_SEASON_15",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_CLAN",
+  "uiType": "heroic"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
   "constants": {
    "campaign": "PCQC004_NewYear2017EliteCampaign"
   },
@@ -12474,97 +12982,6 @@
   },
   "uiHideMultiplicity": true,
   "uiName": "TOP_LEAGUE_CLAN_SEASON_2",
-  "uiOutOfDate": false,
-  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_CLAN",
-  "uiType": "heroic"
- },
- {
-  "battleTypes": [
-   "CLAN"
-  ],
-  "constants": {
-   "battleType": "CLAN",
-   "clanSeasonType": "regular"
-  },
-  "custom": {},
-  "enabled": true,
-  "events": [
-   [
-    "afterBattle",
-    [
-     [
-      "afterBattle",
-      "battleType",
-      "==",
-      "constant",
-      "battleType"
-     ],
-     [
-      "afterBattle",
-      "clanLeague",
-      "==",
-      "constant",
-      "0"
-     ],
-     [
-      "afterBattle",
-      "clanSeasonType",
-      "==",
-      "constant",
-      "clanSeasonType"
-     ],
-     [
-      "afterBattle",
-      "clanSeasonId",
-      "==",
-      "constant",
-      "12"
-     ]
-    ],
-    [
-     [
-      "doAction",
-      "done"
-     ]
-    ]
-   ]
-  ],
-  "group": false,
-  "hidden": true,
-  "hiddenCustom": {
-   "alwaysShowIfAchieved": true
-  },
-  "hint": "",
-  "id": 3997361072,
-  "index": "PCH283",
-  "keepCounters": false,
-  "maxShipLevel": 9,
-  "minShipLevel": 9,
-  "multiple": false,
-  "name": "PCH283_TopLeagueClanSeason_12",
-  "onePerBattle": true,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats"
-  ],
-  "showProgress": false,
-  "type": "clan",
-  "typeinfo": {
-   "nation": "Common",
-   "species": null,
-   "type": "Achievement"
-  },
-  "uiHideMultiplicity": true,
-  "uiName": "TOP_LEAGUE_CLAN_SEASON_12",
   "uiOutOfDate": false,
   "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_CLAN",
   "uiType": "heroic"
@@ -13241,6 +13658,131 @@
  },
  {
   "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "constants": {
+   "damageRatio": 0.2,
+   "victimsCount": 10
+  },
+  "custom": {},
+  "enabled": true,
+  "events": [
+   [
+    "damage",
+    [
+     [
+      "attacker",
+      "inPrebattleDivision"
+     ],
+     [
+      "attacker",
+      "prebattleDivision",
+      "==",
+      "me",
+      "prebattleDivision"
+     ],
+     [
+      "target",
+      "entityType",
+      "==",
+      "entityType",
+      "Vehicle"
+     ]
+    ],
+    [
+     [
+      "counter",
+      "targetA",
+      "+=",
+      "damage",
+      "ratio"
+     ]
+    ]
+   ],
+   [
+    "damage",
+    [
+     [
+      "attacker",
+      "inPrebattleDivision"
+     ],
+     [
+      "attacker",
+      "prebattleDivision",
+      "==",
+      "me",
+      "prebattleDivision"
+     ],
+     [
+      "target",
+      "entityType",
+      "==",
+      "entityType",
+      "Vehicle"
+     ],
+     [
+      "subInstruction",
+      [
+       "shipCountersA",
+       "moreThan",
+       ":",
+       "constant",
+       "damageRatio"
+      ],
+      ">=",
+      "constant",
+      "victimsCount"
+     ]
+    ],
+    [
+     [
+      "doAction",
+      "done"
+     ]
+    ]
+   ]
+  ],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 3909280688,
+  "index": "PCH367",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCH367_Support_Squad",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats"
+  ],
+  "showProgress": false,
+  "type": "squad",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": true,
+  "uiName": "SUPPORT_SQUAD",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_PVP_RANKED_SQUAD",
+  "uiType": "squad"
+ },
+ {
+  "battleTypes": [
    "EVENT"
   ],
   "constants": {
@@ -13277,7 +13819,9 @@
   ],
   "group": false,
   "hidden": true,
-  "hiddenCustom": {},
+  "hiddenCustom": {
+   "alwaysShowIfAchieved": true
+  },
   "hint": "",
   "id": 3992118192,
   "index": "PCH288",
@@ -16028,7 +16572,7 @@
    "demoWithStats"
   ],
   "showProgress": false,
-  "type": "service_medal",
+  "type": "festival",
   "typeinfo": {
    "nation": "Common",
    "species": null,
@@ -17597,6 +18141,130 @@
  },
  {
   "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "constants": {
+   "victimsCount": 2
+  },
+  "custom": {},
+  "enabled": true,
+  "events": [
+   [
+    "dead",
+    [
+     [
+      "attacker",
+      "inPrebattleDivision"
+     ],
+     [
+      "attacker",
+      "prebattleDivision",
+      "==",
+      "me",
+      "prebattleDivision"
+     ],
+     [
+      "target",
+      "entityType",
+      "==",
+      "entityType",
+      "Vehicle"
+     ]
+    ],
+    [
+     [
+      "counter",
+      "attackerA",
+      "+=",
+      "constant",
+      "1"
+     ]
+    ]
+   ],
+   [
+    "dead",
+    [
+     [
+      "attacker",
+      "inPrebattleDivision"
+     ],
+     [
+      "attacker",
+      "prebattleDivision",
+      "==",
+      "me",
+      "prebattleDivision"
+     ],
+     [
+      "target",
+      "entityType",
+      "==",
+      "entityType",
+      "Vehicle"
+     ],
+     [
+      "subInstruction",
+      [
+       "shipCountersA",
+       "moreThan",
+       ":",
+       "constant",
+       "victimsCount"
+      ],
+      "==",
+      "me",
+      "shipsInPrebattleDivision"
+     ]
+    ],
+    [
+     [
+      "doAction",
+      "done"
+     ]
+    ]
+   ]
+  ],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 3908232112,
+  "index": "PCH368",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCH368_Frag_Squad",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats"
+  ],
+  "showProgress": false,
+  "type": "squad",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": true,
+  "uiName": "FRAG_SQUAD",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_PVP_RANKED_SQUAD",
+  "uiType": "squad"
+ },
+ {
+  "battleTypes": [
    "CLAN"
   ],
   "constants": {
@@ -17943,6 +18611,97 @@
  },
  {
   "battleTypes": [
+   "CLAN"
+  ],
+  "constants": {
+   "battleType": "CLAN",
+   "clanSeasonType": "regular"
+  },
+  "custom": {},
+  "enabled": true,
+  "events": [
+   [
+    "afterBattle",
+    [
+     [
+      "afterBattle",
+      "battleType",
+      "==",
+      "constant",
+      "battleType"
+     ],
+     [
+      "afterBattle",
+      "clanLeague",
+      "==",
+      "constant",
+      "0"
+     ],
+     [
+      "afterBattle",
+      "clanSeasonType",
+      "==",
+      "constant",
+      "clanSeasonType"
+     ],
+     [
+      "afterBattle",
+      "clanSeasonId",
+      "==",
+      "constant",
+      "15"
+     ]
+    ],
+    [
+     [
+      "doAction",
+      "done"
+     ]
+    ]
+   ]
+  ],
+  "group": false,
+  "hidden": true,
+  "hiddenCustom": {
+   "alwaysShowIfAchieved": true
+  },
+  "hint": "",
+  "id": 3961709488,
+  "index": "PCH317",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": false,
+  "name": "PCH317_TopLeagueClanSeason_15",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats"
+  ],
+  "showProgress": false,
+  "type": "clan",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": true,
+  "uiName": "TOP_LEAGUE_CLAN_SEASON_15",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_CLAN",
+  "uiType": "heroic"
+ },
+ {
+  "battleTypes": [
    "PVP",
    "RANKED"
   ],
@@ -18085,89 +18844,24 @@
  },
  {
   "battleTypes": [
-   "PVP"
+   "PVP",
+   "RANKED"
   ],
-  "constants": {
-   "damageRatio": 1.2,
-   "damagersCount": 4,
-   "ships": [
-    "PGSB108_Bismarck"
-   ]
-  },
+  "constants": {},
   "custom": {},
-  "enabled": false,
-  "events": [
-   [
-    "meDamaged",
-    [
-     [
-      "me",
-      "vehicleName",
-      "in",
-      "constant",
-      "ships"
-     ]
-    ],
-    [
-     [
-      "counter",
-      "attackerA",
-      "+=",
-      "damage",
-      "ratio"
-     ]
-    ]
-   ],
-   [
-    "battleEnd",
-    [
-     [
-      "me",
-      "alive"
-     ],
-     [
-      "shipCountersA",
-      "sumValues",
-      ">=",
-      "constant",
-      "damageRatio"
-     ],
-     [
-      "shipCountersA",
-      "nonZero",
-      ">=",
-      "constant",
-      "damagersCount"
-     ],
-     [
-      "me",
-      "vehicleName",
-      "in",
-      "constant",
-      "ships"
-     ]
-    ],
-    [
-     [
-      "doAction",
-      "done"
-     ]
-    ]
-   ]
-  ],
+  "enabled": true,
+  "events": [],
   "group": false,
   "hidden": true,
-  "hiddenCustom": {
-   "alwaysShowIfAchieved": true
-  },
+  "hiddenCustom": {},
   "hint": "",
-  "id": 4139967408,
-  "index": "PCH147",
+  "id": 4250067888,
+  "index": "PCH042",
   "keepCounters": false,
   "maxShipLevel": 0,
   "minShipLevel": 0,
-  "multiple": true,
-  "name": "PCH147_BD2_BISMARCK",
+  "multiple": false,
+  "name": "PCH042_TaskPerforming3",
   "onePerBattle": true,
   "shipCategories": [
    "start",
@@ -18182,18 +18876,18 @@
    "upgradeableUltimate",
    "demoWithStats"
   ],
-  "showProgress": false,
-  "type": "festival",
+  "showProgress": true,
+  "type": "honorable",
   "typeinfo": {
    "nation": "Common",
    "species": null,
    "type": "Achievement"
   },
   "uiHideMultiplicity": false,
-  "uiName": "BD2_BISMARCK",
+  "uiName": "WORKAHOLIC",
   "uiOutOfDate": false,
   "uiRestrictionIDS": "",
-  "uiType": "service_medal"
+  "uiType": "common"
  },
  {
   "battleTypes": [
@@ -18292,6 +18986,130 @@
   "uiOutOfDate": false,
   "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_CLAN",
   "uiType": "heroic"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "constants": {
+   "damageRatio": 0.5
+  },
+  "custom": {},
+  "enabled": true,
+  "events": [
+   [
+    "damage",
+    [
+     [
+      "attacker",
+      "inPrebattleDivision"
+     ],
+     [
+      "attacker",
+      "prebattleDivision",
+      "==",
+      "me",
+      "prebattleDivision"
+     ],
+     [
+      "target",
+      "entityType",
+      "==",
+      "entityType",
+      "Vehicle"
+     ]
+    ],
+    [
+     [
+      "counter",
+      "a",
+      "+=",
+      "damage",
+      "value"
+     ]
+    ]
+   ],
+   [
+    "damage",
+    [
+     [
+      "attacker",
+      "inPrebattleDivision"
+     ],
+     [
+      "attacker",
+      "prebattleDivision",
+      "==",
+      "me",
+      "prebattleDivision"
+     ],
+     [
+      "target",
+      "entityType",
+      "==",
+      "entityType",
+      "Vehicle"
+     ],
+     [
+      "subInstruction",
+      [
+       "counter",
+       "a",
+       "/",
+       "me",
+       "enemyTeamHealth"
+      ],
+      ">=",
+      "constant",
+      "damageRatio"
+     ]
+    ],
+    [
+     [
+      "doAction",
+      "done"
+     ]
+    ]
+   ]
+  ],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 3912426416,
+  "index": "PCH364",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCH364_MainCaliber_Squad",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats"
+  ],
+  "showProgress": false,
+  "type": "squad",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": true,
+  "uiName": "MAIN_CALIBER_SQUAD",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_PVP_RANKED_SQUAD",
+  "uiType": "squad"
  },
  {
   "battleTypes": [
@@ -18812,6 +19630,124 @@
   "uiOutOfDate": false,
   "uiRestrictionIDS": "",
   "uiType": "honorable"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "constants": {
+   "victimsCount": 7
+  },
+  "custom": {},
+  "enabled": true,
+  "events": [
+   [
+    "dead",
+    [
+     [
+      "attacker",
+      "inPrebattleDivision"
+     ],
+     [
+      "attacker",
+      "prebattleDivision",
+      "==",
+      "me",
+      "prebattleDivision"
+     ],
+     [
+      "target",
+      "entityType",
+      "==",
+      "entityType",
+      "Vehicle"
+     ]
+    ],
+    [
+     [
+      "counter",
+      "a",
+      "+=",
+      "constant",
+      "1"
+     ]
+    ]
+   ],
+   [
+    "dead",
+    [
+     [
+      "attacker",
+      "inPrebattleDivision"
+     ],
+     [
+      "attacker",
+      "prebattleDivision",
+      "==",
+      "me",
+      "prebattleDivision"
+     ],
+     [
+      "target",
+      "entityType",
+      "==",
+      "entityType",
+      "Vehicle"
+     ],
+     [
+      "counter",
+      "a",
+      ">=",
+      "constant",
+      "victimsCount"
+     ]
+    ],
+    [
+     [
+      "doAction",
+      "done"
+     ]
+    ]
+   ]
+  ],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 3910329264,
+  "index": "PCH366",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCH366_Warrior_Squad",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats"
+  ],
+  "showProgress": false,
+  "type": "squad",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": true,
+  "uiName": "WARRIOR_SQUAD",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_PVP_RANKED_SQUAD",
+  "uiType": "squad"
  },
  {
   "battleTypes": [
@@ -23833,6 +24769,97 @@
  },
  {
   "battleTypes": [
+   "CLAN"
+  ],
+  "constants": {
+   "battleType": "CLAN",
+   "clanSeasonType": "regular"
+  },
+  "custom": {},
+  "enabled": true,
+  "events": [
+   [
+    "afterBattle",
+    [
+     [
+      "afterBattle",
+      "battleType",
+      "==",
+      "constant",
+      "battleType"
+     ],
+     [
+      "afterBattle",
+      "clanLeague",
+      "==",
+      "constant",
+      "0"
+     ],
+     [
+      "afterBattle",
+      "clanSeasonType",
+      "==",
+      "constant",
+      "clanSeasonType"
+     ],
+     [
+      "afterBattle",
+      "clanSeasonId",
+      "==",
+      "constant",
+      "12"
+     ]
+    ],
+    [
+     [
+      "doAction",
+      "done"
+     ]
+    ]
+   ]
+  ],
+  "group": false,
+  "hidden": true,
+  "hiddenCustom": {
+   "alwaysShowIfAchieved": true
+  },
+  "hint": "",
+  "id": 3997361072,
+  "index": "PCH283",
+  "keepCounters": false,
+  "maxShipLevel": 9,
+  "minShipLevel": 9,
+  "multiple": false,
+  "name": "PCH283_TopLeagueClanSeason_12",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats"
+  ],
+  "showProgress": false,
+  "type": "clan",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": true,
+  "uiName": "TOP_LEAGUE_CLAN_SEASON_12",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_CLAN",
+  "uiType": "heroic"
+ },
+ {
+  "battleTypes": [
    "PVE",
    "PVE_PREMADE"
   ],
@@ -24804,53 +25831,6 @@
  },
  {
   "battleTypes": [
-   "PVP",
-   "RANKED"
-  ],
-  "constants": {},
-  "custom": {},
-  "enabled": true,
-  "events": [],
-  "group": false,
-  "hidden": true,
-  "hiddenCustom": {},
-  "hint": "",
-  "id": 4250067888,
-  "index": "PCH042",
-  "keepCounters": false,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": false,
-  "name": "PCH042_TaskPerforming3",
-  "onePerBattle": true,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats"
-  ],
-  "showProgress": true,
-  "type": "honorable",
-  "typeinfo": {
-   "nation": "Common",
-   "species": null,
-   "type": "Achievement"
-  },
-  "uiHideMultiplicity": false,
-  "uiName": "WORKAHOLIC",
-  "uiOutOfDate": false,
-  "uiRestrictionIDS": "",
-  "uiType": "common"
- },
- {
-  "battleTypes": [
    "EVENT"
   ],
   "constants": {
@@ -24887,7 +25867,9 @@
   ],
   "group": false,
   "hidden": true,
-  "hiddenCustom": {},
+  "hiddenCustom": {
+   "alwaysShowIfAchieved": true
+  },
   "hint": "",
   "id": 3991069616,
   "index": "PCH289",

@@ -3,7 +3,9 @@ AIRCRAFT_KEYS = ["hangarSettings", "maxHealth", "naturalAcceleration", "naturalD
                  "attackerDamageTakenMultiplier", "attackSpeedMultiplier", "attackSpeedMultiplierApplyTime",
                  "attackerSize", "bombFallingTime", "flightHeight", "flightRadius",
                  "innerBombsPercentage", "innerSalvoSize", "isAirSupportPlane", "isConsumablePlane",
-                 "isJatoBoosterDetachable", "jatoDuration", "jatoSpeedMultiplier", "speedMoveWithBomb", "PlaneAbilities", "projectilesPerAttack"]
+                 "isJatoBoosterDetachable", "jatoDuration", "jatoSpeedMultiplier", "speedMoveWithBomb", "PlaneAbilities",
+                 "aimingAccuracyDecreaseRate", "aimingAccuracyIncreaseRate", "aimingTime", "postAttackInvulnerabilityDuration", 
+                 "preparationAccuracyDecreaseRate", "preparationAccuracyIncreaseRate", "preparationTime"]
 COMMON_KEYS = ['id', 'typeinfo', 'name', 'index']
 
 

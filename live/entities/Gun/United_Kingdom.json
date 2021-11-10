@@ -660,132 +660,6 @@
   ]
  },
  {
-  "HitLocationArtillery": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 1.0,
-   "autoRepairTime": 30,
-   "autoRepairTimeMin": 25,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.05,
-    0.75
-   ],
-   "critProbHP": [
-    1.0,
-    0.02
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "artillery_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 2000.0,
-   "moduleCritCoeffCR": 1.0,
-   "moduleCritCoeffXP": 1.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 1.0,
-   "rndPartHP": 0.0,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 0.1
-  },
-  "aiMGmaxEllipseRanging": 4.0,
-  "aiMGmedEllipseRanging": 3.7,
-  "aiMGminEllipseRanging": 3.5,
-  "ammoList": [
-   "PBPA069_114MM_MII_HE_Main",
-   "PBPA062_114MM_SAP_55LB"
-  ],
-  "antiAirAuraDistance": 167.0,
-  "antiAirAuraStrength": 0.178,
-  "armor": {
-   "65568": 6.0,
-   "65569": 6.0,
-   "65571": 6.0,
-   "65635": 6.0,
-   "65636": 6.0
-  },
-  "barrelDiameter": 0.113,
-  "coeffPerSecondMin": 0.3,
-  "customMiscs": {},
-  "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
-  "deadMesh": "content/gameplay/uk/gun/main/BGM102_4_5in45_MK_5/BGM102_4_5in45_MK_5_dead.model",
-  "deadZone": [],
-  "delim": 0.5,
-  "effectIntensityModifier": 1.0,
-  "ellipseRangeMax": 250.0,
-  "ellipseRangeMin": 50.0,
-  "horizSector": [
-   0.0,
-   0.0
-  ],
-  "id": 4187613136,
-  "idealDistance": 1000.0,
-  "idealRadius": 8,
-  "index": "PBGM102",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
-  "maxEllipseRanging": 1.003,
-  "medEllipseRanging": 1.002,
-  "minEllipseRanging": 1.001,
-  "minRadius": 0.5,
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/uk/gun/main/BGM102_4_5in45_MK_5/BGM102_4_5in45_MK_5.model",
-  "name": "PBGM102_4_5in45_MK_5",
-  "numBarrels": 2,
-  "onMoveTarPosCoeffDelim": 1.001,
-  "onMoveTarPosCoeffMaxDist": 1.002,
-  "onMoveTarPosCoeffZero": 1.0,
-  "onMoveTarPosDelim": 0.1,
-  "pitchDeadZones": [],
-  "position": [
-   0,
-   0
-  ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
-  "radiusOnDelim": 0.5,
-  "radiusOnMax": 0.6,
-  "radiusOnZero": 0.2,
-  "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
-  "rotationSpeed": [
-   25.0,
-   25.0
-  ],
-  "shotDelay": 2.8,
-  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
-  "smallGun": null,
-  "smokePenalty": 0.0001,
-  "typeinfo": {
-   "nation": "United_Kingdom",
-   "species": "Main",
-   "type": "Gun"
-  },
-  "vertSector": [
-   -4.0,
-   80.0
-  ]
- },
- {
   "HitLocationATBA": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 1.0,
@@ -6969,6 +6843,132 @@
   "vertSector": [
    -2.0,
    40.0
+  ]
+ },
+ {
+  "HitLocationArtillery": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 30,
+   "autoRepairTimeMin": 25,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.05,
+    0.75
+   ],
+   "critProbHP": [
+    1.0,
+    0.02
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "artillery_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 2000.0,
+   "moduleCritCoeffCR": 1.0,
+   "moduleCritCoeffXP": 1.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 1.0,
+   "rndPartHP": 0.0,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 0.1
+  },
+  "aiMGmaxEllipseRanging": 4.0,
+  "aiMGmedEllipseRanging": 3.7,
+  "aiMGminEllipseRanging": 3.5,
+  "ammoList": [
+   "PBPA069_114MM_MII_HE_Main",
+   "PBPA062_114MM_SAP_55LB"
+  ],
+  "antiAirAuraDistance": 167.0,
+  "antiAirAuraStrength": 0.178,
+  "armor": {
+   "65568": 6.0,
+   "65569": 6.0,
+   "65571": 6.0,
+   "65635": 6.0,
+   "65636": 6.0
+  },
+  "barrelDiameter": 0.113,
+  "coeffPerSecondMin": 0.3,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
+  "deadMesh": "content/gameplay/uk/gun/main/BGM102_4_5in45_MK_5/BGM102_4_5in45_MK_5_dead.model",
+  "deadZone": [],
+  "delim": 0.5,
+  "effectIntensityModifier": 1.0,
+  "ellipseRangeMax": 250.0,
+  "ellipseRangeMin": 50.0,
+  "horizSector": [
+   0.0,
+   0.0
+  ],
+  "id": 4187613136,
+  "idealDistance": 1000.0,
+  "idealRadius": 8,
+  "index": "PBGM102",
+  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "maxEllipseRanging": 1.003,
+  "medEllipseRanging": 1.002,
+  "minEllipseRanging": 1.001,
+  "minRadius": 0.5,
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/uk/gun/main/BGM102_4_5in45_MK_5/BGM102_4_5in45_MK_5.model",
+  "name": "PBGM102_4_5in45_MK_5",
+  "numBarrels": 2,
+  "onMoveTarPosCoeffDelim": 1.001,
+  "onMoveTarPosCoeffMaxDist": 1.002,
+  "onMoveTarPosCoeffZero": 1.0,
+  "onMoveTarPosDelim": 0.1,
+  "pitchDeadZones": [],
+  "position": [
+   0,
+   0
+  ],
+  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "radiusOnDelim": 0.5,
+  "radiusOnMax": 0.6,
+  "radiusOnZero": 0.2,
+  "reduceTime": 0.1,
+  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+  "rotationSpeed": [
+   25.0,
+   25.0
+  ],
+  "shotDelay": 2.8,
+  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+  "smallGun": null,
+  "smokePenalty": 0.0001,
+  "typeinfo": {
+   "nation": "United_Kingdom",
+   "species": "Main",
+   "type": "Gun"
+  },
+  "vertSector": [
+   -4.0,
+   80.0
   ]
  },
  {

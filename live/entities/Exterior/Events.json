@@ -354,7 +354,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_big.xml"
+      "particles/vehicles/WakeTraceReverce_back_wide_3.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -371,20 +371,20 @@
      [
       "HP_FX_WakeTrace_screw_4",
       "particles/vehicles/WakeTraceReverce_screw_medium.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_big.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_big.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_big.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -395,16 +395,24 @@
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_left_center.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_3",
       "particles/vehicles/WakeTrace_screw_medium.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_3",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_4",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_big.xml"
+      "HP_FX_WakeTrace_screw_4",
+      "particles/vehicles/WakeTraceForward_screw_right_center.xml"
      ]
     ]
    }
@@ -811,55 +819,6 @@
      [
       "HP_FX_Idle_smoke",
       "particles/vehicles/Idle_Shimakaze_HW19_smoke.xml"
-     ]
-    ],
-    "idlePort": [
-     [
-      "HP_FX_Idle_light",
-      "particles/vehicles/Idle_Shimakaze_HW19_light.xml"
-     ],
-     [
-      "HP_FX_Idle_smoke",
-      "particles/vehicles/Idle_Shimakaze_HW19_smoke.xml"
-     ],
-     [
-      "HP_FX_Smoke_1",
-      "particles/vehicles/idlePort_RunSmoke_vsmall.xml"
-     ]
-    ],
-    "repairLight": [],
-    "smoke": [
-     [
-      "HP_FX_Smoke_1",
-      "particles/vehicles/RunSmoke_vsmall.xml"
-     ]
-    ],
-    "waketraceback": [
-     [
-      "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTraceReverce_screw_medium.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_2",
-      "particles/vehicles/WakeTraceReverce_screw_medium.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_small.xml"
-     ]
-    ],
-    "waketracefront": [
-     [
-      "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_small.xml"
-     ],
-     [
-      "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
      ],
      [
       "HP_FX_WakeTrace_fire_1",
@@ -876,6 +835,71 @@
      [
       "HP_FX_WakeTrace_fire_4",
       "particles/vehicles/WakeTrace_fire_HW19.xml"
+     ]
+    ],
+    "idlePort": [
+     [
+      "HP_FX_Idle_light",
+      "particles/vehicles/Idle_Shimakaze_HW19_light.xml"
+     ],
+     [
+      "HP_FX_Idle_smoke",
+      "particles/vehicles/Idle_Shimakaze_HW19_smoke.xml"
+     ],
+     [
+      "HP_FX_Smoke_1",
+      "particles/vehicles/idlePort_RunSmoke_vsmall.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_fire_1",
+      "particles/vehicles/WakeTrace_fire_HW19.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_fire_2",
+      "particles/vehicles/WakeTrace_fire_HW19.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_fire_3",
+      "particles/vehicles/WakeTrace_fire_HW19.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_fire_4",
+      "particles/vehicles/WakeTrace_fire_HW19.xml"
+     ]
+    ],
+    "repairLight": [],
+    "smoke": [
+     [
+      "HP_FX_Smoke_1",
+      "particles/vehicles/RunSmoke_vsmall.xml"
+     ]
+    ],
+    "waketraceback": [
+     [
+      "HP_FX_WakeTraceBack",
+      "particles/vehicles/WakeTraceReverce_back_wide_1.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceReverce_screw_medium.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceReverce_screw_medium.xml"
+     ]
+    ],
+    "waketracefront": [
+     [
+      "HP_FX_WakeTrace",
+      "particles/vehicles/WakeTraceForward_front.xml"
+     ],
+     [
+      "HP_FX_WakeTraceBack",
+      "particles/vehicles/WakeTraceForward_back.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -883,11 +907,11 @@
      ],
      [
       "HP_FX_WakeTrace_screw_2",
-      "particles/vehicles/WakeTrace_screw_medium.xml"
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_small.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_medium.xml"
      ]
     ]
    }
@@ -1342,57 +1366,33 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_big.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTraceReverce_screw_big_2.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_2",
-      "particles/vehicles/WakeTraceReverce_screw_big_2.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_3",
-      "particles/vehicles/WakeTraceReverce_screw_big_2.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_4",
-      "particles/vehicles/WakeTraceReverce_screw_big_2.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_big.xml"
+      "particles/vehicles/WakeTraceReverce_back.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_big.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_big.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_big_2.xml"
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
-      "particles/vehicles/WakeTrace_screw_big_2.xml"
+      "particles/vehicles/WakeTraceForward_screw_left_center.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_3",
-      "particles/vehicles/WakeTrace_screw_big_2.xml"
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_4",
-      "particles/vehicles/WakeTrace_screw_big_2.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_big.xml"
+      "particles/vehicles/WakeTraceForward_screw_right_center.xml"
      ]
     ]
    }
@@ -1823,7 +1823,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_small_2.xml"
+      "particles/vehicles/WakeTraceReverce_back_wide_1.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -1832,32 +1832,32 @@
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceReverce_screw_medium.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_medium_3.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_medium.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_small.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_medium_3.xml"
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    }
@@ -2199,7 +2199,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_medium.xml"
+      "particles/vehicles/WakeTraceReverce_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -2216,40 +2216,48 @@
      [
       "HP_FX_WakeTrace_screw_4",
       "particles/vehicles/WakeTraceReverce_screw_big.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_medium.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_medium.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_medium.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_big.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_center.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_big.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_3",
       "particles/vehicles/WakeTrace_screw_big.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_3",
+      "particles/vehicles/WakeTraceForward_screw_right_center.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_4",
       "particles/vehicles/WakeTrace_screw_big.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_medium.xml"
+      "HP_FX_WakeTrace_screw_4",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ]
     ]
    }
@@ -2588,7 +2596,7 @@
     "waketraceback": [
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back_medium_2.xml"
+      "particles/vehicles/WakeTraceReverce_back_wide_3.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
@@ -2605,40 +2613,48 @@
      [
       "HP_FX_WakeTrace_screw_4",
       "particles/vehicles/WakeTraceReverce_screw_medium.xml"
-     ],
-     [
-      "Scene Root",
-      "particles/vehicles/WakeTraceReverce_center_big_3.xml"
      ]
     ],
     "waketracefront": [
      [
       "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front_big.xml"
+      "particles/vehicles/WakeTraceForward_front.xml"
      ],
      [
       "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back_big.xml"
+      "particles/vehicles/WakeTraceForward_back.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_medium.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_left_center.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_3",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
+      "HP_FX_WakeTrace_screw_3",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
       "HP_FX_WakeTrace_screw_4",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
-      "Scene Root",
-      "particles/vehicles/WakeTraceForward_center_big_3.xml"
+      "HP_FX_WakeTrace_screw_4",
+      "particles/vehicles/WakeTraceForward_screw_right_center.xml"
      ]
     ]
    }
