@@ -15,9 +15,8 @@ It will create **entities** folder which has all the entities separated by types
 
 **mo2json.py** arguments:
 - --filter: The filter. A csv file. Each line is the used keys. (Required)
-- --mofile: WoWS localization file. (Required)
+- --localizations: WoWS localizations path. (C:\Games\World_of_Warships\bin\XXXXXXX\res\texts) (Required)
 - --missing: Outputs the not found indexes to a text file. (Optional)
-- --out: Output file (optional) (default: strings.json)
 
 ### DEPENDENCIES:  
   
