@@ -18,6 +18,9 @@ It will create **entities** folder which has all the entities separated by types
 - --localizations: WoWS localizations path. (C:\Games\World_of_Warships\bin\XXXXXXX\res\texts) (Required)
 - --missing: Outputs the not found indexes to a text file. (Optional)
 
+**Command**: 
+`python mo2json.py --filter TranslationNames.csv --localizations "C:\Games\World_of_Warships\bin\4747907\res\texts" --missing`
+
 ### DEPENDENCIES:  
   
  For GameParams2Json, nothing. Everything it needs is already in Python's buitins.  
