@@ -17,6 +17,7 @@ It will create **entities** folder which has all the entities separated by types
 - --filter: The filter. A csv file. Each line is the used keys. (Required)
 - --localizations: WoWS localizations path. (C:\Games\World_of_Warships\bin\XXXXXXX\res\texts) (Required)
 - --missing: Outputs the not found indexes to a text file. (Optional)
+- --serial: Run the converter serially.  
 
 **Command**: 
 `python mo2json.py --filter TranslationNames.csv --localizations "C:\Games\World_of_Warships\bin\4747907\res\texts" --missing`
