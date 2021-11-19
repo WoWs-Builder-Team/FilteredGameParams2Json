@@ -62,9 +62,6 @@ def process_multiple_mo(dir_path: str, filter_path: str, missing=False, serial=T
 
     # process_single_mo(*paths[0])
 
-    with ThreadPoolExecutor(max_workers=4) as tpe:
-        list(tpe.map(process_single_mo, *zip(*paths)))
-
     if serial:
         for params in paths:
             process_single_mo(*params)
