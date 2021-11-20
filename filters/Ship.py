@@ -20,7 +20,7 @@ TORPEDO_SUBKEYS = ["ammoList", "barrelDiameter", "id", "index", "name", "numBarr
                    "torpedoAngles", "typeinfo", "deadZone", "horizSector", "canRotate", "useGroups", "useOneShot",
                    "groups", "torpAngles"]
 HULL_SUBKEYS = ["health", "maxSpeed", "rudderTime", "speedCoef", "visibilityCoefGKInSmoke", "visibilityFactor",
-                "visibilityFactorByPlane", "burnNodes", "floodNodes", "turningRadius"]
+                "visibilityFactorByPlane", "visibilityFactorsBySubmarine", "burnNodes", "floodNodes", "turningRadius"]
 ENGINE_KEYS = ["forwardEngineUpTime", "backwardEngineUpTime", "speedCoef"]
 PINGERGUN_KEYS = ["rotationSpeed", "sectorParams", "waveDistance", "waveHitAlertTime", "waveHitLifeTime", "waveParams",
                   "waveReloadTime"]
