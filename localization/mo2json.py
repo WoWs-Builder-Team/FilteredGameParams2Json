@@ -45,8 +45,7 @@ def process_single_mo(lang_name: str, mo_file_path: str, output_path: str, filte
     logger.info(f"Processing language: {lang_name}, Done.")
 
 
-def process_multiple_mo(dir_path: str, filter_path: str, missing=False):
-    # C:\Games\World_of_Warships\bin\XXXXXXX\res\texts
+def process_multiple_mo(dir_path: str, filter_path: str, missing=False, serial=True):
     output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'output')
 
     if not os.path.exists(output_dir):
@@ -63,10 +62,12 @@ def process_multiple_mo(dir_path: str, filter_path: str, missing=False):
 
     # process_single_mo(*paths[0])
 
-    # add max_workers=num of threads to limit or increase no. of threads.
-    # ThreadPoolExecutor(max_workers=4)
-    with ThreadPoolExecutor() as tpe:
-        list(tpe.map(process_single_mo, *zip(*paths)))
+    if serial:
+        for params in paths:
+            process_single_mo(*params)
+    else:
+        with ThreadPoolExecutor() as tpe:
+            list(tpe.map(process_single_mo, *zip(*paths)))
 
 
 if __name__ == '__main__':
@@ -74,9 +75,10 @@ if __name__ == '__main__':
     parser.add_argument("--localizations", help="Localization folder path.", type=str, required=False)
     parser.add_argument("--filter", help="Filter. A csv file.", type=str, required=True)
     parser.add_argument("--missing", help="Not found indexes.", action="store_true", required=False)
+    parser.add_argument("--serial", help="Run serially.", action="store_true", required=False)
     parsed = parser.parse_args()
 
     if not all([path.exists(i) and (path.isfile(i) or path.isdir(i)) for i in [parsed.filter, parsed.localizations]]):
         raise RuntimeError
 
-    process_multiple_mo(parsed.localizations, parsed.filter, parsed.missing)
+    process_multiple_mo(parsed.localizations, parsed.filter, parsed.missing, parsed.serial)
