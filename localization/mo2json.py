@@ -1,6 +1,3 @@
-from collections import Iterable
-from typing import Any, Set
-
 import polib
 import json
 import argparse
