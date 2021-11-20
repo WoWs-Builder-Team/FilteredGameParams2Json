@@ -1,3 +1,6 @@
+from collections import Iterable
+from typing import Any, Set
+
 import polib
 import json
 import argparse
@@ -11,6 +14,8 @@ from concurrent.futures import ThreadPoolExecutor
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+matched = set()
+
 
 def process_single_mo(lang_name: str, mo_file_path: str, output_path: str, filter_file: str, missing=False):
     logger.info(f"Processing language: {lang_name}")
@@ -22,13 +27,22 @@ def process_single_mo(lang_name: str, mo_file_path: str, output_path: str, filte
 
     filtered_strings = {}
 
-    for filter_string in filter_strings:
-        for game_string, value in game_strings.items():
-            if filter_string.lower() in game_string.lower():
-                if game_string.lower().startswith('ids_'):
-                    filtered_strings[game_string[4:]] = value
-                else:
-                    filtered_strings[game_string] = value
+    if matched:
+        for i in matched:
+            if i.lower().startswith('ids_'):
+                filtered_strings[i[4:]] = game_strings[i]
+            else:
+                filtered_strings[i] = game_strings[i]
+
+    else:
+        for filter_string in filter_strings:
+            for game_string, value in game_strings.items():
+                if filter_string.lower() in game_string.lower():
+                    if game_string.lower().startswith('ids_'):
+                        filtered_strings[game_string[4:]] = value
+                    else:
+                        filtered_strings[game_string] = value
+                    matched.add(game_string)
 
     if missing:
         missing_file = os.path.join(output_path, f"missing_{lang_name}.txt")
@@ -75,7 +89,7 @@ if __name__ == '__main__':
     parser.add_argument("--localizations", help="Localization folder path.", type=str, required=False)
     parser.add_argument("--filter", help="Filter. A csv file.", type=str, required=True)
     parser.add_argument("--missing", help="Not found indexes.", action="store_true", required=False)
-    parser.add_argument("--serial", help="Run serially.", action="store_true", required=False)
+    parser.add_argument("--serial", help="Run serially.", action="store_true", required=False, default=True)
     parsed = parser.parse_args()
 
     if not all([path.exists(i) and (path.isfile(i) or path.isdir(i)) for i in [parsed.filter, parsed.localizations]]):
