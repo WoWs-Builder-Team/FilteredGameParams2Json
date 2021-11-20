@@ -109,6 +109,35 @@
  },
  {
   "affectedByPTZ": false,
+  "alphaDamage": 4000.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 88.0,
+  "ammoType": "HE",
+  "applyPTZCoeff": false,
+  "bulletAirDrag": 0.4075,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletDetonator": 0.001,
+  "bulletDetonatorThreshold": 2.0,
+  "bulletDiametr": 0.35,
+  "bulletKrupp": 385.0,
+  "bulletMass": 600.0,
+  "bulletRicochetAt": 91.0,
+  "bulletSpeed": 815.0,
+  "burnProb": 0.27,
+  "distTile": 3.0,
+  "id": 4210017072,
+  "ignoreClasses": [],
+  "index": "PGPA081",
+  "isBomb": false,
+  "name": "PGPA081_350MM_HE_PEFRIEDRICH",
+  "typeinfo": {
+   "nation": "Germany",
+   "species": "Artillery",
+   "type": "Projectile"
+  }
+ },
+ {
+  "affectedByPTZ": false,
   "alphaDamage": 12950.0,
   "alphaPiercingCS": 0,
   "alphaPiercingHE": 0.0,
@@ -220,6 +249,35 @@
   "typeinfo": {
    "nation": "Germany",
    "species": "Rocket",
+   "type": "Projectile"
+  }
+ },
+ {
+  "affectedByPTZ": false,
+  "alphaDamage": 3200.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 71.0,
+  "ammoType": "HE",
+  "applyPTZCoeff": false,
+  "bulletAirDrag": 0.5337,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletDetonator": 0.001,
+  "bulletDetonatorThreshold": 2.0,
+  "bulletDiametr": 0.283,
+  "bulletKrupp": 1.0,
+  "bulletMass": 302.0,
+  "bulletRicochetAt": 91.0,
+  "bulletSpeed": 855.0,
+  "burnProb": 0.19,
+  "distTile": 3.0,
+  "id": 4235182896,
+  "ignoreClasses": [],
+  "index": "PGPA057",
+  "isBomb": false,
+  "name": "PGPA057_283MM_HE_SPR_GR_L3_6",
+  "typeinfo": {
+   "nation": "Germany",
+   "species": "Artillery",
    "type": "Projectile"
   }
  },
@@ -512,35 +570,6 @@
  },
  {
   "affectedByPTZ": false,
-  "alphaDamage": 4000.0,
-  "alphaPiercingCS": 0,
-  "alphaPiercingHE": 88.0,
-  "ammoType": "HE",
-  "applyPTZCoeff": false,
-  "bulletAirDrag": 0.4075,
-  "bulletAlwaysRicochetAt": 60.0,
-  "bulletDetonator": 0.001,
-  "bulletDetonatorThreshold": 2.0,
-  "bulletDiametr": 0.35,
-  "bulletKrupp": 385.0,
-  "bulletMass": 600.0,
-  "bulletRicochetAt": 91.0,
-  "bulletSpeed": 815.0,
-  "burnProb": 0.27,
-  "distTile": 3.0,
-  "id": 4210017072,
-  "ignoreClasses": [],
-  "index": "PGPA081",
-  "isBomb": false,
-  "name": "PGPA081_350MM_HE_PEFRIEDRICH",
-  "typeinfo": {
-   "nation": "Germany",
-   "species": "Artillery",
-   "type": "Projectile"
-  }
- },
- {
-  "affectedByPTZ": false,
   "alphaDamage": 2900.0,
   "alphaPiercingCS": 0,
   "alphaPiercingHE": 53.0,
@@ -791,27 +820,6 @@
    "species": "Artillery",
    "type": "Projectile"
   }
- },
- {
-  "alertDist": 100,
-  "alphaDamage": 13800.0,
-  "ammoType": "torpedo",
-  "armingTime": 1,
-  "bulletDiametr": 0.533,
-  "damage": 700.0,
-  "id": 4271260464,
-  "ignoreClasses": [],
-  "index": "PGPT022",
-  "maxDist": 283.33,
-  "name": "PGPT022_G7E_T3_Magnetic",
-  "speed": 92.0,
-  "typeinfo": {
-   "nation": "Germany",
-   "species": "Torpedo",
-   "type": "Projectile"
-  },
-  "uwCritical": 6.27,
-  "visibilityFactor": 2.1
  },
  {
   "affectedByPTZ": false,
@@ -1073,6 +1081,27 @@
    "species": "Artillery",
    "type": "Projectile"
   }
+ },
+ {
+  "alertDist": 100,
+  "alphaDamage": 46600.0,
+  "ammoType": "torpedo",
+  "armingTime": 1,
+  "bulletDiametr": 0.533,
+  "damage": 1000.0,
+  "id": 4251337520,
+  "ignoreClasses": [],
+  "index": "PGPT041",
+  "maxDist": 450.0,
+  "name": "PGPT041_G7_T1_Asf_C",
+  "speed": 50.0,
+  "typeinfo": {
+   "nation": "Germany",
+   "species": "Torpedo",
+   "type": "Projectile"
+  },
+  "uwCritical": 2.79,
+  "visibilityFactor": 1.2
  },
  {
   "affectedByPTZ": false,
@@ -2126,6 +2155,27 @@
   }
  },
  {
+  "alertDist": 100,
+  "alphaDamage": 32800.0,
+  "ammoType": "torpedo_alternative",
+  "armingTime": 2.0,
+  "bulletDiametr": 0.533,
+  "damage": 1100.0,
+  "id": 4271260464,
+  "ignoreClasses": [],
+  "index": "PGPT022",
+  "maxDist": 416.7,
+  "name": "PGPT022_G7E_T3_Sub_Magnetic",
+  "speed": 77.0,
+  "typeinfo": {
+   "nation": "Germany",
+   "species": "Torpedo",
+   "type": "Projectile"
+  },
+  "uwCritical": 0.7,
+  "visibilityFactor": 2.1
+ },
+ {
   "affectedByPTZ": false,
   "alphaDamage": 3750.0,
   "alphaPiercingCS": 0,
@@ -2209,35 +2259,6 @@
   "typeinfo": {
    "nation": "Germany",
    "species": "SkipBomb",
-   "type": "Projectile"
-  }
- },
- {
-  "affectedByPTZ": false,
-  "alphaDamage": 3200.0,
-  "alphaPiercingCS": 0,
-  "alphaPiercingHE": 71.0,
-  "ammoType": "HE",
-  "applyPTZCoeff": false,
-  "bulletAirDrag": 0.5337,
-  "bulletAlwaysRicochetAt": 60.0,
-  "bulletDetonator": 0.001,
-  "bulletDetonatorThreshold": 2.0,
-  "bulletDiametr": 0.283,
-  "bulletKrupp": 1.0,
-  "bulletMass": 302.0,
-  "bulletRicochetAt": 91.0,
-  "bulletSpeed": 855.0,
-  "burnProb": 0.19,
-  "distTile": 3.0,
-  "id": 4235182896,
-  "ignoreClasses": [],
-  "index": "PGPA057",
-  "isBomb": false,
-  "name": "PGPA057_283MM_HE_SPR_GR_L3_6",
-  "typeinfo": {
-   "nation": "Germany",
-   "species": "Artillery",
    "type": "Projectile"
   }
  },
@@ -3027,6 +3048,27 @@
   }
  },
  {
+  "alertDist": 100,
+  "alphaDamage": 32800.0,
+  "ammoType": "torpedo_alternative",
+  "armingTime": 2.0,
+  "bulletDiametr": 0.533,
+  "damage": 1100.0,
+  "id": 4249240368,
+  "ignoreClasses": [],
+  "index": "PGPT043",
+  "maxDist": 466.7,
+  "name": "PGPT043_G7E_T4_Sub_Magnetic",
+  "speed": 82.0,
+  "typeinfo": {
+   "nation": "Germany",
+   "species": "Torpedo",
+   "type": "Projectile"
+  },
+  "uwCritical": 0.7,
+  "visibilityFactor": 2.2
+ },
+ {
   "affectedByPTZ": false,
   "alphaDamage": 10500.0,
   "alphaPiercingCS": 0,
@@ -3397,27 +3439,6 @@
  },
  {
   "alertDist": 100,
-  "alphaDamage": 15300.0,
-  "ammoType": "torpedo_alternative",
-  "armingTime": 1.0,
-  "bulletDiametr": 0.533,
-  "damage": 700.0,
-  "id": 4249240368,
-  "ignoreClasses": [],
-  "index": "PGPT043",
-  "maxDist": 363.33,
-  "name": "PGPT043_G7E_T4_Sub_Burn",
-  "speed": 64.0,
-  "typeinfo": {
-   "nation": "Germany",
-   "species": "Torpedo",
-   "type": "Projectile"
-  },
-  "uwCritical": 0.89,
-  "visibilityFactor": 1.7
- },
- {
-  "alertDist": 100,
   "alphaDamage": 11800.0,
   "ammoType": "torpedo",
   "armingTime": 4,
@@ -3573,27 +3594,6 @@
    "species": "Artillery",
    "type": "Projectile"
   }
- },
- {
-  "alertDist": 100,
-  "alphaDamage": 46600.0,
-  "ammoType": "torpedo",
-  "armingTime": 1,
-  "bulletDiametr": 0.533,
-  "damage": 1000.0,
-  "id": 4251337520,
-  "ignoreClasses": [],
-  "index": "PGPT041",
-  "maxDist": 450.0,
-  "name": "PGPT041_G7_T1_Asf_C",
-  "speed": 50.0,
-  "typeinfo": {
-   "nation": "Germany",
-   "species": "Torpedo",
-   "type": "Projectile"
-  },
-  "uwCritical": 2.79,
-  "visibilityFactor": 1.2
  },
  {
   "affectedByPTZ": false,
