@@ -139,6 +139,27 @@
   "visibilityFactor": 1.8
  },
  {
+  "alertDist": 100,
+  "alphaDamage": 50100.0,
+  "ammoType": "torpedo",
+  "armingTime": 1,
+  "bulletDiametr": 0.533,
+  "damage": 1200.0,
+  "id": 4241900528,
+  "ignoreClasses": [],
+  "index": "PAPT050",
+  "maxDist": 550.0,
+  "name": "PAPT050_533_SHERMAN",
+  "speed": 66.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Torpedo",
+   "type": "Projectile"
+  },
+  "uwCritical": 3.01,
+  "visibilityFactor": 1.4
+ },
+ {
   "affectedByPTZ": false,
   "alphaDamage": 2700.0,
   "alphaPiercingCS": 36.0,
@@ -1839,35 +1860,6 @@
   "visibilityFactor": 1.5
  },
  {
-  "affectedByPTZ": false,
-  "alphaDamage": 15750.0,
-  "alphaPiercingCS": 0,
-  "alphaPiercingHE": 0.0,
-  "ammoType": "AP",
-  "applyPTZCoeff": false,
-  "bulletAirDrag": 0.341,
-  "bulletAlwaysRicochetAt": 60.0,
-  "bulletDetonator": 0.033,
-  "bulletDetonatorThreshold": 76.0,
-  "bulletDiametr": 0.457,
-  "bulletKrupp": 2390.0,
-  "bulletMass": 1746.0,
-  "bulletRicochetAt": 45.0,
-  "bulletSpeed": 732.0,
-  "burnProb": -0.5,
-  "distTile": 3.0,
-  "id": 4184851440,
-  "ignoreClasses": [],
-  "index": "PAPA105",
-  "isBomb": false,
-  "name": "PAPA105_457MM_AP_GEORGIA_SH",
-  "typeinfo": {
-   "nation": "USA",
-   "species": "Artillery",
-   "type": "Projectile"
-  }
- },
- {
   "alertDist": 100,
   "alphaDamage": 53500.0,
   "ammoType": "torpedo",
@@ -2840,6 +2832,35 @@
   "index": "PAPA032",
   "isBomb": false,
   "name": "PAPA032_Shell_152mm_HE_C_105lbs",
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Artillery",
+   "type": "Projectile"
+  }
+ },
+ {
+  "affectedByPTZ": false,
+  "alphaDamage": 1800.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 21.0,
+  "ammoType": "HE",
+  "applyPTZCoeff": false,
+  "bulletAirDrag": 0.21,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletDetonator": 0.001,
+  "bulletDetonatorThreshold": 2.0,
+  "bulletDiametr": 0.127,
+  "bulletKrupp": 475.0,
+  "bulletMass": 31.75,
+  "bulletRicochetAt": 91.0,
+  "bulletSpeed": 808.0,
+  "burnProb": 0.09,
+  "distTile": 3.0,
+  "id": 4143956976,
+  "ignoreClasses": [],
+  "index": "PAPA144",
+  "isBomb": false,
+  "name": "PAPA144_127MM_HE_F_SHERMAN",
   "typeinfo": {
    "nation": "USA",
    "species": "Artillery",
@@ -4080,6 +4101,35 @@
   "index": "PAPA046",
   "isBomb": false,
   "name": "PAPA046_Shell_127_AP_C_Mk_15",
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Artillery",
+   "type": "Projectile"
+  }
+ },
+ {
+  "affectedByPTZ": false,
+  "alphaDamage": 2700.0,
+  "alphaPiercingCS": 36.0,
+  "alphaPiercingHE": 0,
+  "ammoType": "CS",
+  "applyPTZCoeff": false,
+  "bulletAirDrag": 0.21,
+  "bulletAlwaysRicochetAt": 75.0,
+  "bulletDetonator": 0.03,
+  "bulletDetonatorThreshold": 25.0,
+  "bulletDiametr": 0.127,
+  "bulletKrupp": 3.0,
+  "bulletMass": 31.75,
+  "bulletRicochetAt": 65.0,
+  "bulletSpeed": 808.0,
+  "burnProb": -0.5,
+  "distTile": 3.0,
+  "id": 4142908400,
+  "ignoreClasses": [],
+  "index": "PAPA145",
+  "isBomb": false,
+  "name": "PAPA145_127MM_CS_F_SHERMAN",
   "typeinfo": {
    "nation": "USA",
    "species": "Artillery",
@@ -6246,6 +6296,35 @@
   "typeinfo": {
    "nation": "USA",
    "species": "Rocket",
+   "type": "Projectile"
+  }
+ },
+ {
+  "affectedByPTZ": false,
+  "alphaDamage": 15750.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "AP",
+  "applyPTZCoeff": false,
+  "bulletAirDrag": 0.341,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletDetonator": 0.033,
+  "bulletDetonatorThreshold": 76.0,
+  "bulletDiametr": 0.457,
+  "bulletKrupp": 2390.0,
+  "bulletMass": 1746.0,
+  "bulletRicochetAt": 45.0,
+  "bulletSpeed": 732.0,
+  "burnProb": -0.5,
+  "distTile": 3.0,
+  "id": 4184851440,
+  "ignoreClasses": [],
+  "index": "PAPA105",
+  "isBomb": false,
+  "name": "PAPA105_457MM_AP_GEORGIA_SH",
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Artillery",
    "type": "Projectile"
   }
  },

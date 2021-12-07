@@ -121,7 +121,7 @@
   "costUnlock": 0,
   "id": 4213587888,
   "index": "PCQT077",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 1,
   "name": "PCQT077",
   "rewards": [
@@ -871,7 +871,7 @@
   "costUnlock": 0,
   "id": 4111876016,
   "index": "PCQT174",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 3,
   "name": "PCQT174_CampaignSB_Mission03_Task04",
   "rewards": [
@@ -883,7 +883,7 @@
    "type": "Campaign"
   },
   "uiCondition": [
-   "IDS_PCQT100_1",
+   "IDS_PCQT174_CampaignSB_Mission03_Task04_1",
    "isEarnBattleAchievements",
    "IDS_TASKRESTRICTION_STANDART"
   ],
@@ -1042,7 +1042,7 @@
   "costUnlock": 0,
   "id": 4280696752,
   "index": "PCQT013",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 2,
   "name": "PCQT013",
   "rewards": [
@@ -1126,7 +1126,7 @@
   "costUnlock": 0,
   "id": 4275453872,
   "index": "PCQT018",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 4,
   "name": "PCQT018",
   "rewards": [
@@ -1182,7 +1182,7 @@
   "costUnlock": 9,
   "id": 3521527728,
   "index": "PCQT737",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 0,
   "name": "PCQT737_NYSantas_Key",
   "rewards": [
@@ -1339,7 +1339,7 @@
    "type": "Campaign"
   },
   "uiCondition": [
-   "IDS_PCQT527_1",
+   "IDS_PCQT384_1",
    "isEarnBattleAchievements",
    "IDS_TASKRESTRICTION_STANDART"
   ],
@@ -1740,34 +1740,6 @@
   "uiNumber": "2"
  },
  {
-  "backgroundIconID": 54,
-  "conditions": [
-   "<isMyShip shipLevel=\"5,6,7,8\"/>",
-   "<isBattleType battleTypes=\"PVP,COOPERATIVE,RANKED\"/>",
-   "<isDamage count=\"400000\"/>"
-  ],
-  "costUnlock": 0,
-  "id": 3599122352,
-  "index": "PCQT663",
-  "isSingleBattle": false,
-  "lootStars": 1,
-  "name": "PCQT663_Ships",
-  "rewards": [
-   "<Lootbox boxType=\"PCL109_FiveEpochs098_Coll\" count=\"1\"/>"
-  ],
-  "typeinfo": {
-   "nation": "Common",
-   "species": "Task",
-   "type": "Campaign"
-  },
-  "uiCondition": [
-   "IDS_PCQT663_1",
-   "isDamage",
-   "IDS_TASKRESTRICTION_STANDART"
-  ],
-  "unlockMissions": []
- },
- {
   "backgroundIconID": 79,
   "conditions": [
    "<isMyShip shipLevel=\"8,9,10\"/>",
@@ -2004,7 +1976,7 @@
   "costUnlock": 0,
   "id": 4254482352,
   "index": "PCQT038",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 4,
   "name": "PCQT038",
   "rewards": [
@@ -2116,7 +2088,7 @@
   "costUnlock": 0,
   "id": 4261822384,
   "index": "PCQT031",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 1,
   "name": "PCQT031",
   "rewards": [
@@ -2144,7 +2116,7 @@
   "costUnlock": 0,
   "id": 4256579504,
   "index": "PCQT036",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 1,
   "name": "PCQT036",
   "rewards": [
@@ -2200,7 +2172,7 @@
   "costUnlock": 0,
   "id": 4258676656,
   "index": "PCQT034",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 2,
   "name": "PCQT034",
   "rewards": [
@@ -2284,7 +2256,7 @@
   "costUnlock": 14,
   "id": 3496361904,
   "index": "PCQT761",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 0,
   "name": "PCQT761_NYSantas_Key",
   "rewards": [
@@ -2477,34 +2449,6 @@
    "IDS_PCQT728_1",
    "isXP",
    "IDS_TASKRESTRICTION_STANDART"
-  ],
-  "unlockMissions": []
- },
- {
-  "backgroundIconID": 24,
-  "conditions": [
-   "<isMyShip shipIds=\"PJSD004_Minekadze_1920,PASD019_Clemson_1920,PRSD104_Izyaslav\"/>",
-   "<isBattleType battleTypes=\"PVP,COOPERATIVE\"/>",
-   "<isRibbons count=\"8\" ribbons=\"BASE_CAPTURE,BASE_CAPTURE_ASSIST\"/>"
-  ],
-  "costUnlock": 0,
-  "id": 3602268080,
-  "index": "PCQT660",
-  "isSingleBattle": false,
-  "lootStars": 2,
-  "name": "PCQT660_Ships",
-  "rewards": [
-   "<Item idx=\"PCEF018_IX_SignalFlag\" count=\"6\"/>"
-  ],
-  "typeinfo": {
-   "nation": "Common",
-   "species": "Task",
-   "type": "Campaign"
-  },
-  "uiCondition": [
-   "IDS_PCQT660_1",
-   "isRibbons",
-   "IDS_TASKRESTRICTIONSPECIAL_2EPOCH_DD_1"
   ],
   "unlockMissions": []
  },
@@ -2796,6 +2740,34 @@
    "IDS_PCQT454_1",
    "isKillShips",
    "IDS_TASKRESTRICTION_PVPRANKED"
+  ],
+  "unlockMissions": []
+ },
+ {
+  "backgroundIconID": 31,
+  "conditions": [
+   "<isMyShip shipLevel=\"5,6,7,8,9,10\" class=\"Cruiser,Destroyer\"/>",
+   "<isBattleType battleTypes=\"PVP,RANKED\" />",
+   "<isDamage count=\"90000\" damageTypes=\"torps\" />"
+  ],
+  "costUnlock": 0,
+  "id": 3816177584,
+  "index": "PCQT456",
+  "isSingleBattle": true,
+  "lootStars": 2,
+  "name": "PCQT456",
+  "rewards": [
+   "<Item idx=\"PCEF005_SM_SignalFlag\" count=\"5\"/>"
+  ],
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Task",
+   "type": "Campaign"
+  },
+  "uiCondition": [
+   "IDS_PCQT456_1",
+   "isDamage",
+   "IDS_TASKRESTRICTION_CADD_PVPRANKED"
   ],
   "unlockMissions": []
  },
@@ -3164,7 +3136,7 @@
   "costUnlock": 10,
   "id": 3515236272,
   "index": "PCQT743",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 0,
   "name": "PCQT743_NYSantas_Key",
   "rewards": [
@@ -3647,6 +3619,34 @@
   "unlockMissions": []
  },
  {
+  "backgroundIconID": 0,
+  "conditions": [
+   "<isMyShip shipLevel=\"5,6,7,8,9,10\" />",
+   "<isBattleType battleTypes=\"PVP,COOPERATIVE,RANKED\"/>",
+   "<isXP count=\"10000\" />"
+  ],
+  "costUnlock": 0,
+  "id": 4050010032,
+  "index": "PCQT233",
+  "isSingleBattle": false,
+  "lootStars": 2,
+  "name": "PCQT233",
+  "rewards": [
+   "<Add type=\"CREDITS\" limit=\"500000\" count=\"500000\"/>"
+  ],
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Task",
+   "type": "Campaign"
+  },
+  "uiCondition": [
+   "IDS_PCQT233_1",
+   "isXP",
+   "IDS_TASKRESTRICTION_PVPCOOPRANKED"
+  ],
+  "unlockMissions": []
+ },
+ {
   "backgroundIconID": 2,
   "conditions": [
    "<isMyShip shipLevel=\"8,9,10\"/>",
@@ -3929,7 +3929,7 @@
    "type": "Campaign"
   },
   "uiCondition": [
-   "IDS_PCQT549_1",
+   "IDS_PCQT559_1",
    "isTotalXP",
    "IDS_TASKRESTRICTION_PVPCOOPRANKEDCLAN"
   ],
@@ -3947,7 +3947,7 @@
   "costUnlock": 0,
   "id": 4063641520,
   "index": "PCQT220",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 0,
   "name": "PCQT220_Key",
   "rewards": [
@@ -3972,7 +3972,6 @@
   "conditions": [
    "<isMyShip shipIds=\"PASC206_Dallas\" />",
    "<isMyShip nation=\"USA\" />",
-   "<isMyShip class=\"Cruiser\" />",
    "<isBattleType battleTypes=\"PVP,RANKED\" />",
    "<isRibbons count=\"120\" />"
   ],
@@ -4122,7 +4121,7 @@
   "costUnlock": 0,
   "id": 3822469040,
   "index": "PCQT450",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 2,
   "name": "PCQT450",
   "rewards": [
@@ -4197,34 +4196,6 @@
   "unlockMissions": []
  },
  {
-  "backgroundIconID": 31,
-  "conditions": [
-   "<isMyShip shipLevel=\"5,6,7,8,9,10\" class=\"Cruiser,Destroyer\"/>",
-   "<isBattleType battleTypes=\"PVP,RANKED\" />",
-   "<isDamage count=\"90000\" damageTypes=\"torps\" />"
-  ],
-  "costUnlock": 0,
-  "id": 3816177584,
-  "index": "PCQT456",
-  "isSingleBattle": true,
-  "lootStars": 2,
-  "name": "PCQT456",
-  "rewards": [
-   "<Item idx=\"PCEF005_SM_SignalFlag\" count=\"5\"/>"
-  ],
-  "typeinfo": {
-   "nation": "Common",
-   "species": "Task",
-   "type": "Campaign"
-  },
-  "uiCondition": [
-   "IDS_PCQT456_1",
-   "isDamage",
-   "IDS_TASKRESTRICTION_CADD_PVPRANKED"
-  ],
-  "unlockMissions": []
- },
- {
   "backgroundIconID": 27,
   "conditions": [
    "<isMyShip shipIds=\"PBSB527_Duke_of_York\"/>",
@@ -4234,7 +4205,7 @@
   "costUnlock": 0,
   "id": 3815129008,
   "index": "PCQT457",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 3,
   "name": "PCQT457",
   "rewards": [
@@ -6055,7 +6026,7 @@
    "type": "Campaign"
   },
   "uiCondition": [
-   "IDS_PCQT458_1",
+   "IDS_PCQT490_1",
    "isTotalXP",
    "IDS_TASKRESTRICTION_FR_PVPCOOP"
   ],
@@ -6088,7 +6059,7 @@
    "type": "Campaign"
   },
   "uiCondition": [
-   "IDS_PCQT458_1",
+   "IDS_PCQT491_1",
    "isTotalXP",
    "IDS_TASKRESTRICTION_PVPCOOPERATIVE_AIGLE"
   ],
@@ -6677,7 +6648,7 @@
   "costUnlock": 11,
   "id": 3508944816,
   "index": "PCQT749",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 0,
   "name": "PCQT749_NYSantas_Key",
   "rewards": [
@@ -6870,7 +6841,7 @@
   "costUnlock": 6,
   "id": 3983949744,
   "index": "PCQT296",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 0,
   "name": "PCQT296_Key",
   "rewards": [
@@ -7209,7 +7180,7 @@
   "costUnlock": 0,
   "id": 3801497520,
   "index": "PCQT470",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 1,
   "name": "PCQT470",
   "rewards": [
@@ -7480,6 +7451,34 @@
   "unlockMissions": []
  },
  {
+  "backgroundIconID": 54,
+  "conditions": [
+   "<isMyShip shipLevel=\"5,6,7,8\"/>",
+   "<isBattleType battleTypes=\"PVP,COOPERATIVE,RANKED\"/>",
+   "<isDamage count=\"400000\"/>"
+  ],
+  "costUnlock": 0,
+  "id": 3599122352,
+  "index": "PCQT663",
+  "isSingleBattle": false,
+  "lootStars": 1,
+  "name": "PCQT663_Ships",
+  "rewards": [
+   "<Lootbox boxType=\"PCL109_FiveEpochs098_Coll\" count=\"1\"/>"
+  ],
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Task",
+   "type": "Campaign"
+  },
+  "uiCondition": [
+   "IDS_PCQT663_1",
+   "isDamage",
+   "IDS_TASKRESTRICTION_STANDART"
+  ],
+  "unlockMissions": []
+ },
+ {
   "backgroundIconID": 13,
   "conditions": [
    "<isMyShip shipIds=\"PJSD108_Akizuki,PJSD219_Kitakaze,PASD013_Gearing_1945,PASD021_Fletcher_1943\" />",
@@ -7677,7 +7676,7 @@
    "type": "Campaign"
   },
   "uiCondition": [
-   "IDS_PCQT458_1",
+   "IDS_PCQT489_1",
    "isTotalXP",
    "IDS_TASKRESTRICTION_PVP"
   ],
@@ -7873,7 +7872,7 @@
    "type": "Campaign"
   },
   "uiCondition": [
-   "IDS_PCQT570_1",
+   "IDS_PCQT572_1",
    "isTotalFreeXP",
    "IDS_TASKRESTRICTION_PVPCOOPRANKEDCLAN"
   ],
@@ -8335,6 +8334,34 @@
   "unlockMissions": []
  },
  {
+  "backgroundIconID": 34,
+  "conditions": [
+   "<isMyShip shipLevel=\"8,9,10\" />",
+   "<isBattleType battleTypes=\"PVP,COOPERATIVE,RANKED,CLAN\" />",
+   "<isTotalCredits count=\"5000000\" />"
+  ],
+  "costUnlock": 0,
+  "id": 3728097200,
+  "index": "PCQT540",
+  "isSingleBattle": false,
+  "lootStars": 1,
+  "name": "PCQT540",
+  "rewards": [
+   "<Add type=\"CREDITS\" count=\"2000000\"/>"
+  ],
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Task",
+   "type": "Campaign"
+  },
+  "uiCondition": [
+   "IDS_PCQT540_1",
+   "isTotalCredits",
+   "IDS_TASKRESTRICTION_STANDART"
+  ],
+  "unlockMissions": []
+ },
+ {
   "backgroundIconID": 48,
   "conditions": [
    "<isMyShip shipLevel=\"9,10\" />",
@@ -8603,7 +8630,7 @@
   "costUnlock": 0,
   "id": 4210442160,
   "index": "PCQT080",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 3,
   "name": "PCQT080",
   "rewards": [
@@ -8682,7 +8709,6 @@
   "conditions": [
    "<isMyShip shipIds=\"PGSC106_Nurnberg\" />",
    "<isMyShip nation=\"Germany\" />",
-   "<isMyShip class=\"Cruiser\" />",
    "<isBattleType battleTypes=\"PVP,RANKED\" />",
    "<isKillShips count=\"5\"/>"
   ],
@@ -8769,7 +8795,6 @@
   "conditions": [
    "<isMyShip shipIds=\"PJSD206_Hatsuharu\" />",
    "<isMyShip nation=\"Japan\" />",
-   "<isMyShip class=\"Destroyer\" />",
    "<isBattleType battleTypes=\"PVP,RANKED\" />",
    "<isDamage count=\"60000\" /> "
   ],
@@ -8944,7 +8969,7 @@
   "costUnlock": 0,
   "id": 4177936304,
   "index": "PCQT111",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 3,
   "name": "PCQT111",
   "rewards": [
@@ -9771,7 +9796,7 @@
   "costUnlock": 0,
   "id": 3830857648,
   "index": "PCQT442",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 1,
   "name": "PCQT442",
   "rewards": [
@@ -10042,7 +10067,7 @@
   "costUnlock": 0,
   "id": 4245045168,
   "index": "PCQT047",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 1,
   "name": "PCQT047",
   "rewards": [
@@ -10070,7 +10095,7 @@
   "costUnlock": 0,
   "id": 4246093744,
   "index": "PCQT046",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 1,
   "name": "PCQT046",
   "rewards": [
@@ -10082,7 +10107,7 @@
    "type": "Campaign"
   },
   "uiCondition": [
-   "IDS_PCQT397_1",
+   "IDS_PCQT046_1",
    "isSpot",
    "IDS_TASKRESTRICTION_STANDART"
   ],
@@ -10154,7 +10179,7 @@
   "costUnlock": 6,
   "id": 4057350064,
   "index": "PCQT226",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 0,
   "name": "PCQT226_Key",
   "rewards": [
@@ -10526,7 +10551,7 @@
   "costUnlock": 0,
   "id": 4208345008,
   "index": "PCQT082",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 4,
   "name": "PCQT082",
   "rewards": [
@@ -10727,7 +10752,7 @@
   "costUnlock": 0,
   "id": 4230365104,
   "index": "PCQT061",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 1,
   "name": "PCQT061",
   "rewards": [
@@ -11086,6 +11111,34 @@
   "unlockMissions": []
  },
  {
+  "backgroundIconID": 59,
+  "conditions": [
+   "<isMyShip shipLevel=\"8,9,10\"/>",
+   "<isBattleType battleTypes=\"PVP,RANKED\"/>",
+   "<isModuleHits moduleTypes=\"steering\" count=\"5\"/>"
+  ],
+  "costUnlock": 0,
+  "id": 4102438832,
+  "index": "PCQT183",
+  "isSingleBattle": false,
+  "lootStars": 3,
+  "name": "PCQT183_CampaignSB_Mission04_Task03",
+  "rewards": [
+   "<Item idx=\"PCEF010_JC_SignalFlag\" count=\"15\"/>"
+  ],
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Task",
+   "type": "Campaign"
+  },
+  "uiCondition": [
+   "IDS_PCQT183_CampaignSB_Mission04_Task03_1",
+   "isModuleHits",
+   "IDS_TASKRESTRICTION_STANDART"
+  ],
+  "unlockMissions": []
+ },
+ {
   "backgroundIconID": 27,
   "conditions": [
    "<isMyShip shipLevel=\"8,9,10\"/>",
@@ -11219,7 +11272,7 @@
    "type": "Campaign"
   },
   "uiCondition": [
-   "IDS_PCQT560_1",
+   "IDS_PCQT184_CampaignSB_Mission04_Task04_1",
    "isSpotShips",
    "IDS_TASKRESTRICTION_STANDART"
   ],
@@ -11434,7 +11487,7 @@
   "costUnlock": 0,
   "id": 4292231088,
   "index": "PCQT002",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 1,
   "name": "PCQT002",
   "rewards": [
@@ -12029,7 +12082,7 @@
    "type": "Campaign"
   },
   "uiCondition": [
-   "IDS_PCQT458_1",
+   "IDS_PCQT492_1",
    "isTotalXP",
    "IDS_TASKRESTRICTION_FRBB_PVPCOOP"
   ],
@@ -12134,7 +12187,7 @@
   "costUnlock": 0,
   "id": 3813031856,
   "index": "PCQT459",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 4,
   "name": "PCQT459",
   "rewards": [
@@ -12149,6 +12202,34 @@
    "IDS_PCQT459_1",
    "isBattleResultCount",
    "IDS_TASKRESTRICTIONSPECIAL_COOPPVPRANKED_DUKEOFYORK"
+  ],
+  "unlockMissions": []
+ },
+ {
+  "backgroundIconID": 24,
+  "conditions": [
+   "<isMyShip shipIds=\"PJSD004_Minekadze_1920,PASD019_Clemson_1920,PRSD104_Izyaslav\"/>",
+   "<isBattleType battleTypes=\"PVP,COOPERATIVE\"/>",
+   "<isRibbons count=\"8\" ribbons=\"BASE_CAPTURE,BASE_CAPTURE_ASSIST\"/>"
+  ],
+  "costUnlock": 0,
+  "id": 3602268080,
+  "index": "PCQT660",
+  "isSingleBattle": false,
+  "lootStars": 2,
+  "name": "PCQT660_Ships",
+  "rewards": [
+   "<Item idx=\"PCEF018_IX_SignalFlag\" count=\"6\"/>"
+  ],
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Task",
+   "type": "Campaign"
+  },
+  "uiCondition": [
+   "IDS_PCQT660_1",
+   "isRibbons",
+   "IDS_TASKRESTRICTIONSPECIAL_2EPOCH_DD_1"
   ],
   "unlockMissions": []
  },
@@ -12179,34 +12260,6 @@
   "uiNumber": 8
  },
  {
-  "backgroundIconID": 3,
-  "conditions": [
-   "<isMyShip shipLevel=\"8,9,10\" class=\"Cruiser\" />",
-   "<isBattleType battleTypes=\"PVP,RANKED\"/>",
-   "<isModuleHits moduleTypes=\"atba\" count=\"100\"/>"
-  ],
-  "costUnlock": 0,
-  "id": 4123410352,
-  "index": "PCQT163",
-  "isSingleBattle": false,
-  "lootStars": 3,
-  "name": "PCQT163_CampaignSB_Mission02_Task03",
-  "rewards": [
-   "<Item idx=\"PCEF010_JC_SignalFlag\" count=\"15\"/>"
-  ],
-  "typeinfo": {
-   "nation": "Common",
-   "species": "Task",
-   "type": "Campaign"
-  },
-  "uiCondition": [
-   "IDS_PCQT163_CampaignSB_Mission02_Task03_1",
-   "isModuleHits",
-   "IDS_TASKRESTRICTION_STANDART"
-  ],
-  "unlockMissions": []
- },
- {
   "backgroundIconID": 0,
   "conditions": [
    "<isMyShip shipIds=\"PGSC506_Admiral_Graf_Spee\" />",
@@ -12216,7 +12269,7 @@
   "costUnlock": 6,
   "id": 3994435504,
   "index": "PCQT286",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 0,
   "name": "PCQT286_Key",
   "rewards": [
@@ -12246,7 +12299,7 @@
   "costUnlock": 8,
   "id": 3527819184,
   "index": "PCQT731",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 0,
   "name": "PCQT731_NYSantas_Key",
   "rewards": [
@@ -12542,7 +12595,7 @@
   "costUnlock": 0,
   "id": 3867557808,
   "index": "PCQT407",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 2,
   "name": "PCQT407",
   "rewards": [
@@ -13097,38 +13150,6 @@
  },
  {
   "allTasks": [
-   "PCQT045",
-   "PCQT046",
-   "PCQT047",
-   "PCQT048",
-   "PCQT049",
-   "PCQT050",
-   "PCQT051",
-   "PCQT052",
-   "PCQT053",
-   "PCQT054",
-   "PCQT055_Key"
-  ],
-  "custom": {},
-  "id": 4290363312,
-  "index": "PCQM004",
-  "isStart": false,
-  "mainTask": "PCQT055_Key",
-  "mapPosition": [
-   0.5,
-   0.26
-  ],
-  "name": "PCQM004",
-  "startTime": "",
-  "typeinfo": {
-   "nation": "Common",
-   "species": "Mission",
-   "type": "Campaign"
-  },
-  "uiNumber": "4"
- },
- {
-  "allTasks": [
    "PCQT075",
    "PCQT076",
    "PCQT077",
@@ -13274,7 +13295,7 @@
   "costUnlock": 0,
   "id": 4121313200,
   "index": "PCQT165",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 3,
   "name": "PCQT165_CampaignSB_Mission02_Task05",
   "rewards": [
@@ -13469,6 +13490,38 @@
   "unlockMissions": [
    "PCQM063"
   ]
+ },
+ {
+  "allTasks": [
+   "PCQT045",
+   "PCQT046",
+   "PCQT047",
+   "PCQT048",
+   "PCQT049",
+   "PCQT050",
+   "PCQT051",
+   "PCQT052",
+   "PCQT053",
+   "PCQT054",
+   "PCQT055_Key"
+  ],
+  "custom": {},
+  "id": 4290363312,
+  "index": "PCQM004",
+  "isStart": false,
+  "mainTask": "PCQT055_Key",
+  "mapPosition": [
+   0.5,
+   0.26
+  ],
+  "name": "PCQM004",
+  "startTime": "",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Mission",
+   "type": "Campaign"
+  },
+  "uiNumber": "4"
  },
  {
   "allTasks": [
@@ -14239,7 +14292,7 @@
   "costUnlock": 0,
   "id": 3823517616,
   "index": "PCQT449",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 2,
   "name": "PCQT449",
   "rewards": [
@@ -14323,7 +14376,7 @@
   "costUnlock": 0,
   "id": 3831906224,
   "index": "PCQT441",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 1,
   "name": "PCQT441",
   "rewards": [
@@ -15060,7 +15113,7 @@
   "costUnlock": 0,
   "id": 3802546096,
   "index": "PCQT469",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 1,
   "name": "PCQT469",
   "rewards": [
@@ -15425,7 +15478,7 @@
   "costUnlock": 0,
   "id": 4167450544,
   "index": "PCQT121",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 3,
   "name": "PCQT121",
   "rewards": [
@@ -16500,7 +16553,7 @@
   "costUnlock": 0,
   "id": 4180033456,
   "index": "PCQT109",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 2,
   "name": "PCQT109",
   "rewards": [
@@ -16556,7 +16609,7 @@
   "costUnlock": 0,
   "id": 4189470640,
   "index": "PCQT100",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 3,
   "name": "PCQT100",
   "rewards": [
@@ -16822,7 +16875,7 @@
    "type": "Campaign"
   },
   "uiCondition": [
-   "IDS_PCQT387_1",
+   "IDS_PCQT187_CampaignSB_Mission04_Task07_1",
    "isKillPlanes",
    "IDS_TASKRESTRICTION_STANDART"
   ],
@@ -17505,7 +17558,7 @@
   "costUnlock": 0,
   "id": 3844489136,
   "index": "PCQT429",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 1,
   "name": "PCQT429",
   "rewards": [
@@ -17520,6 +17573,34 @@
    "IDS_PCQT429_1",
    "isSpotShips",
    "IDS_TASKRESTRICTION_UKCA_PVPRANKED"
+  ],
+  "unlockMissions": []
+ },
+ {
+  "backgroundIconID": 29,
+  "conditions": [
+   "<isMyShip shipLevel=\"4,5,6,7,8,9,10\" />",
+   "<isBattleType battleTypes=\"PVP,COOPERATIVE,RANKED\" />",
+   "<isKillPlanes count=\"12\" />"
+  ],
+  "costUnlock": 0,
+  "id": 4240850864,
+  "index": "PCQT051",
+  "isSingleBattle": true,
+  "lootStars": 4,
+  "name": "PCQT051",
+  "rewards": [
+   "<Item idx=\"PCEF016_NE7_SignalFlag\" count=\"10\" />"
+  ],
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Task",
+   "type": "Campaign"
+  },
+  "uiCondition": [
+   "IDS_PCQT051_1",
+   "isKillPlanes",
+   "IDS_TASKRESTRICTION_STANDART"
   ],
   "unlockMissions": []
  },
@@ -18357,7 +18438,7 @@
   "costUnlock": 12,
   "id": 3502653360,
   "index": "PCQT755",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 0,
   "name": "PCQT755_NYSantas_Key",
   "rewards": [
@@ -19007,7 +19088,6 @@
   "conditions": [
    "<isMyShip shipIds=\"PFSB106_Normandie\" />",
    "<isMyShip nation=\"France\" />",
-   "<isMyShip class=\"Battleship\" />",
    "<isBattleType battleTypes=\"PVP,RANKED\" />",
    "<isBattleResultCount count=\"1\" battleResult=\"win\"/>",
    "<isTopXP rank=\"4\" topType=\"team\"/>"
@@ -19066,7 +19146,6 @@
   "conditions": [
    "<isMyShip shipIds=\"PBSD106_Icarus\" />",
    "<isMyShip nation=\"United_Kingdom\" />",
-   "<isMyShip class=\"Destroyer\" />",
    "<isBattleType battleTypes=\"PVP,RANKED\" />",
    "<isSpotShips count=\"6\" />"
   ],
@@ -19085,7 +19164,7 @@
    "type": "Campaign"
   },
   "uiCondition": [
-   "IDS_PCQT602_1_ICARUS",
+   "IDS_PCQT560_1",
    "isSpotShips",
    "IDS_TASKRESTRICTION_PVPRANKED_ICARUS"
   ],
@@ -19101,7 +19180,7 @@
   "costUnlock": 0,
   "id": 3706077104,
   "index": "PCQT561",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 1,
   "name": "PCQT561",
   "rewards": [
@@ -19549,7 +19628,7 @@
    "type": "Campaign"
   },
   "uiCondition": [
-   "IDS_PCQT387_1",
+   "IDS_PCQT175_CampaignSB_Mission03_Task05_1",
    "isKillPlanes",
    "IDS_TASKRESTRICTION_STANDART"
   ],
@@ -19681,7 +19760,7 @@
   "costUnlock": 0,
   "id": 4089855920,
   "index": "PCQT195",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 4,
   "name": "PCQT195_CampaignSB_Mission05_Task05",
   "rewards": [
@@ -19866,7 +19945,7 @@
   "costUnlock": 0,
   "id": 4191567792,
   "index": "PCQT098",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 1,
   "name": "PCQT098",
   "rewards": [
@@ -20110,34 +20189,6 @@
   "unlockMissions": []
  },
  {
-  "backgroundIconID": 34,
-  "conditions": [
-   "<isMyShip shipLevel=\"8,9,10\" />",
-   "<isBattleType battleTypes=\"PVP,COOPERATIVE,RANKED,CLAN\" />",
-   "<isTotalCredits count=\"5000000\" />"
-  ],
-  "costUnlock": 0,
-  "id": 3728097200,
-  "index": "PCQT540",
-  "isSingleBattle": false,
-  "lootStars": 1,
-  "name": "PCQT540",
-  "rewards": [
-   "<Add type=\"CREDITS\" count=\"2000000\"/>"
-  ],
-  "typeinfo": {
-   "nation": "Common",
-   "species": "Task",
-   "type": "Campaign"
-  },
-  "uiCondition": [
-   "IDS_PCQT540_1",
-   "isTotalCredits",
-   "IDS_TASKRESTRICTION_STANDART"
-  ],
-  "unlockMissions": []
- },
- {
   "backgroundIconID": 7,
   "conditions": [
    "<isMyShip shipLevel=\"8,9,10\" class=\"AirCarrier\"/>",
@@ -20159,7 +20210,7 @@
    "type": "Campaign"
   },
   "uiCondition": [
-   "IDS_PCQT065_1",
+   "IDS_PCQT541_1",
    "isWeaponHits",
    "IDS_TASKRESTRICTION_STANDART"
   ],
@@ -20791,6 +20842,34 @@
   "unlockMissions": []
  },
  {
+  "backgroundIconID": 3,
+  "conditions": [
+   "<isMyShip shipLevel=\"8,9,10\" class=\"Cruiser\" />",
+   "<isBattleType battleTypes=\"PVP,RANKED\"/>",
+   "<isModuleHits moduleTypes=\"atba\" count=\"100\"/>"
+  ],
+  "costUnlock": 0,
+  "id": 4123410352,
+  "index": "PCQT163",
+  "isSingleBattle": false,
+  "lootStars": 3,
+  "name": "PCQT163_CampaignSB_Mission02_Task03",
+  "rewards": [
+   "<Item idx=\"PCEF010_JC_SignalFlag\" count=\"15\"/>"
+  ],
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Task",
+   "type": "Campaign"
+  },
+  "uiCondition": [
+   "IDS_PCQT163_CampaignSB_Mission02_Task03_1",
+   "isModuleHits",
+   "IDS_TASKRESTRICTION_STANDART"
+  ],
+  "unlockMissions": []
+ },
+ {
   "backgroundIconID": 511,
   "conditions": [
    "<isMyShip shipLevel=\"8,9,10\" />",
@@ -21281,7 +21360,7 @@
   "costUnlock": 0,
   "id": 3922083760,
   "index": "PCQT355",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 3,
   "name": "PCQT355",
   "rewards": [
@@ -21556,34 +21635,6 @@
   "unlockMissions": []
  },
  {
-  "backgroundIconID": 0,
-  "conditions": [
-   "<isMyShip shipLevel=\"5,6,7,8,9,10\" />",
-   "<isBattleType battleTypes=\"PVP,COOPERATIVE,RANKED\"/>",
-   "<isXP count=\"10000\" />"
-  ],
-  "costUnlock": 0,
-  "id": 4050010032,
-  "index": "PCQT233",
-  "isSingleBattle": false,
-  "lootStars": 2,
-  "name": "PCQT233",
-  "rewards": [
-   "<Add type=\"CREDITS\" limit=\"500000\" count=\"500000\"/>"
-  ],
-  "typeinfo": {
-   "nation": "Common",
-   "species": "Task",
-   "type": "Campaign"
-  },
-  "uiCondition": [
-   "IDS_PCQT233_1",
-   "isXP",
-   "IDS_TASKRESTRICTION_PVPCOOPRANKED"
-  ],
-  "unlockMissions": []
- },
- {
   "backgroundIconID": 74,
   "conditions": [
    "<isMyShip shipLevel=\"5,6,7,8,9,10\" class=\"Battleship\"/>",
@@ -21735,7 +21786,7 @@
   "costUnlock": 0,
   "id": 4241899440,
   "index": "PCQT050",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 2,
   "name": "PCQT050",
   "rewards": [
@@ -21754,34 +21805,6 @@
   "unlockMissions": []
  },
  {
-  "backgroundIconID": 29,
-  "conditions": [
-   "<isMyShip shipLevel=\"4,5,6,7,8,9,10\" />",
-   "<isBattleType battleTypes=\"PVP,COOPERATIVE,RANKED\" />",
-   "<isKillPlanes count=\"12\" />"
-  ],
-  "costUnlock": 0,
-  "id": 4240850864,
-  "index": "PCQT051",
-  "isSingleBattle": true,
-  "lootStars": 4,
-  "name": "PCQT051",
-  "rewards": [
-   "<Item idx=\"PCEF016_NE7_SignalFlag\" count=\"10\" />"
-  ],
-  "typeinfo": {
-   "nation": "Common",
-   "species": "Task",
-   "type": "Campaign"
-  },
-  "uiCondition": [
-   "IDS_PCQT402_1",
-   "isKillPlanes",
-   "IDS_TASKRESTRICTION_STANDART"
-  ],
-  "unlockMissions": []
- },
- {
   "backgroundIconID": 4,
   "conditions": [
    "<isMyShip shipLevel=\"4,5,6,7,8,9,10\" />",
@@ -21791,7 +21814,7 @@
   "costUnlock": 0,
   "id": 4239802288,
   "index": "PCQT052",
-  "isSingleBattle": false,
+  "isSingleBattle": true,
   "lootStars": 3,
   "name": "PCQT052",
   "rewards": [
@@ -21974,34 +21997,6 @@
    "IDS_PCQT580_1",
    "isKillShips",
    "IDS_TASKRESTRICTION_PVPCOOPRANKED"
-  ],
-  "unlockMissions": []
- },
- {
-  "backgroundIconID": 59,
-  "conditions": [
-   "<isMyShip shipLevel=\"8,9,10\"/>",
-   "<isBattleType battleTypes=\"PVP,RANKED\"/>",
-   "<isModuleHits moduleTypes=\"steering\" count=\"5\"/>"
-  ],
-  "costUnlock": 0,
-  "id": 4102438832,
-  "index": "PCQT183",
-  "isSingleBattle": false,
-  "lootStars": 3,
-  "name": "PCQT183_CampaignSB_Mission04_Task03",
-  "rewards": [
-   "<Item idx=\"PCEF010_JC_SignalFlag\" count=\"15\"/>"
-  ],
-  "typeinfo": {
-   "nation": "Common",
-   "species": "Task",
-   "type": "Campaign"
-  },
-  "uiCondition": [
-   "IDS_PCQT183_CampaignSB_Mission04_Task03_1",
-   "isModuleHits",
-   "IDS_TASKRESTRICTION_STANDART"
   ],
   "unlockMissions": []
  },

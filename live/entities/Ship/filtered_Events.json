@@ -1186,7 +1186,6 @@
      "hull": [
       "HullDefault"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "RadarsDefault"
@@ -2497,7 +2496,6 @@
      "hull": [
       "HullDefault"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": []
@@ -3031,7 +3029,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": []
@@ -3795,7 +3792,6 @@
      "hull": [
       "HullDefault"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": []
@@ -3937,7 +3933,6 @@
      "hull": [
       "HullDefault"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": []
@@ -4842,7 +4837,6 @@
      "hull": [
       "HullDefault"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": []
@@ -4863,6 +4857,128 @@
   "index": "PXSX026",
   "level": 2,
   "name": "PXSX026_Canterbury",
+  "typeinfo": {
+   "nation": "Events",
+   "species": "Auxiliary",
+   "type": "Ship"
+  }
+ },
+ {
+  "ModulesArmaments": {
+   "EngineDefault": {
+    "backwardEngineUpTime": 10.0,
+    "forwardEngineUpTime": 20.0,
+    "speedCoef": 0.0
+   },
+   "HullDefault": {
+    "burnNodes": [
+     [
+      1.0,
+      0.3,
+      60.0
+     ]
+    ],
+    "floodNodes": [
+     [
+      0.333,
+      0.25,
+      40.0
+     ],
+     [
+      0.333,
+      0.25,
+      40.0
+     ]
+    ],
+    "health": 10000.0,
+    "maxSpeed": 25.0,
+    "rudderTime": 2.44,
+    "speedCoef": 1.0,
+    "turningRadius": 450.0,
+    "visibilityCoefGKInSmoke": 1e-06,
+    "visibilityFactor": 5.4,
+    "visibilityFactorByPlane": 1.87,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 0.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 0.0,
+     "SEMI_DEEP_WATER": 0.0,
+     "SURFACE": 0.0
+    }
+   }
+  },
+  "ShipAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY009_CrashCrewPremium",
+      "D_Gold"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "ShipUpgradeInfo": {
+   "PXUE901_ENG_BOTS": {
+    "canBuy": true,
+    "components": {
+     "engine": [
+      "EngineDefault"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Engine"
+   },
+   "PXUH901_HULL_BOTS": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [],
+     "airDefense": [],
+     "artillery": [],
+     "atba": [],
+     "depthCharges": [],
+     "directors": [],
+     "finders": [],
+     "hull": [
+      "HullDefault"
+     ],
+     "pinger": [],
+     "radars": [],
+     "torpedoes": []
+    },
+    "disabledAbilities": [],
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Hull"
+   },
+   "costCR": 0,
+   "costGold": 99999,
+   "costSaleGold": 0,
+   "costXP": 0,
+   "value": 1
+  },
+  "group": "disabled",
+  "id": 4255397136,
+  "index": "PXSX037",
+  "level": 2,
+  "name": "PXSX037_Daihatsu",
   "typeinfo": {
    "nation": "Events",
    "species": "Auxiliary",
@@ -5667,7 +5783,6 @@
      "hull": [
       "HullDefault"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": []
@@ -5691,6 +5806,222 @@
   "typeinfo": {
    "nation": "Events",
    "species": "Battleship",
+   "type": "Ship"
+  }
+ },
+ {
+  "ModulesArmaments": {
+   "ATBADefault": {
+    "AuraFar": {
+     "areaDamage": 1.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.1,
+     "innerBubbleCount": 0.0,
+     "maxDistance": 5200.0,
+     "minDistance": 100.0,
+     "type": "far"
+    },
+    "AuraFar_Bubbles": {
+     "areaDamage": 0.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 130.0,
+     "hitChance": 0.1,
+     "innerBubbleCount": 1.0,
+     "maxDistance": 5200.0,
+     "minDistance": 3500.0,
+     "type": "far"
+    },
+    "antiAirAndSecondaries": {
+     "HP_JGS_1": {
+      "ammoList": [
+       "PJPA010_Shell_120mm_HE_C_Type_0"
+      ],
+      "barrelDiameter": 0.12,
+      "id": 4215727824,
+      "index": "PJGS075",
+      "name": "PJGS075_120mm45_Type_HaGun",
+      "numBarrels": 1.0,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_JGS_2": {
+      "ammoList": [
+       "PJPA010_Shell_120mm_HE_C_Type_0"
+      ],
+      "barrelDiameter": 0.12,
+      "id": 4277593808,
+      "index": "PJGS016",
+      "name": "PJGS016_120mm45_Type_HaGun",
+      "numBarrels": 1.0,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Japan",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 3000.0,
+    "sigmaCount": 1.0
+   },
+   "AirDefenseDefault": {
+    "AuraMedium": {
+     "areaDamage": 4.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.1,
+     "innerBubbleCount": 0,
+     "maxDistance": 2500.0,
+     "minDistance": 100.0,
+     "type": "near"
+    },
+    "isAA": true
+   },
+   "EngineDefault": {
+    "backwardEngineUpTime": 10.0,
+    "forwardEngineUpTime": 20.0,
+    "speedCoef": 0.0
+   },
+   "HullDefault": {
+    "burnNodes": [
+     [
+      1.0,
+      0.3,
+      60.0
+     ],
+     [
+      1.0,
+      0.3,
+      60.0
+     ]
+    ],
+    "floodNodes": [
+     [
+      0.333,
+      0.25,
+      40.0
+     ],
+     [
+      0.333,
+      0.25,
+      40.0
+     ]
+    ],
+    "health": 10000.0,
+    "maxSpeed": 25.0,
+    "rudderTime": 2.44,
+    "speedCoef": 1.0,
+    "turningRadius": 450.0,
+    "visibilityCoefGKInSmoke": 1e-06,
+    "visibilityFactor": 5.4,
+    "visibilityFactorByPlane": 1.87,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 0.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 0.0,
+     "SEMI_DEEP_WATER": 0.0,
+     "SURFACE": 0.0
+    }
+   }
+  },
+  "ShipAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY009_CrashCrewPremium",
+      "D_Gold"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "ShipUpgradeInfo": {
+   "PXUE901_ENG_BOTS": {
+    "canBuy": true,
+    "components": {
+     "engine": [
+      "EngineDefault"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Engine"
+   },
+   "PXUH901_HULL_BOTS": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [],
+     "airDefense": [
+      "AirDefenseDefault"
+     ],
+     "artillery": [],
+     "atba": [
+      "ATBADefault"
+     ],
+     "depthCharges": [],
+     "directors": [],
+     "finders": [
+      "FindersDefault"
+     ],
+     "hull": [
+      "HullDefault"
+     ],
+     "pinger": [],
+     "radars": [
+      "RadarsDefault"
+     ],
+     "torpedoes": []
+    },
+    "disabledAbilities": [],
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Hull"
+   },
+   "costCR": 0,
+   "costGold": 99999,
+   "costSaleGold": 0,
+   "costXP": 0,
+   "value": 1
+  },
+  "group": "disabled",
+  "id": 4252251408,
+  "index": "PXSX040",
+  "level": 2,
+  "name": "PXSX040_Escort_8",
+  "typeinfo": {
+   "nation": "Events",
+   "species": "Auxiliary",
    "type": "Ship"
   }
  },
@@ -5999,7 +6330,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "A_Radars"
@@ -6656,7 +6986,6 @@
      "hull": [
       "B_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "RadarsDefault"
@@ -7547,7 +7876,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "A_Radars"
@@ -7967,7 +8295,6 @@
      "hull": [
       "HullDefault"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "RadarsDefault"
@@ -8394,7 +8721,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "A_Radars"
@@ -8860,7 +9186,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "A_Radars"
@@ -9537,7 +9862,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": [
@@ -11623,7 +11947,6 @@
      "hull": [
       "HullDefault"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": []
@@ -12213,7 +12536,6 @@
      "hull": [
       "HullDefault"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "RadarsDefault"
@@ -12524,7 +12846,6 @@
      "hull": [
       "HullDefault"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": []
@@ -12647,7 +12968,6 @@
      "hull": [
       "HullDefault"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": []
@@ -12987,7 +13307,6 @@
      "hull": [
       "HullDefault"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "RadarsDefault"
@@ -13347,7 +13666,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "A_Radars"
@@ -13606,7 +13924,6 @@
      "hull": [
       "A_Hull_1929"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": []
@@ -13631,7 +13948,6 @@
      "hull": [
       "B_Hull_1944"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": []
@@ -13787,7 +14103,6 @@
      "hull": [
       "HullDefault"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": []
@@ -13808,6 +14123,172 @@
   "index": "PXSX034",
   "level": 2,
   "name": "PXSX034_John_Cattling",
+  "typeinfo": {
+   "nation": "Events",
+   "species": "Auxiliary",
+   "type": "Ship"
+  }
+ },
+ {
+  "ModulesArmaments": {
+   "A_AirDefense": {
+    "AuraMedium": {
+     "areaDamage": 37.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.1,
+     "innerBubbleCount": 0,
+     "maxDistance": 3500.0,
+     "minDistance": 100.0,
+     "type": "medium"
+    },
+    "AuraNear": {
+     "areaDamage": 39.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.1,
+     "innerBubbleCount": 0,
+     "maxDistance": 2000.0,
+     "minDistance": 100.0,
+     "type": "near"
+    },
+    "isAA": true
+   },
+   "A_Hull": {
+    "burnNodes": [
+     [
+      1.0,
+      0.3,
+      60.0
+     ],
+     [
+      1.0,
+      0.3,
+      60.0
+     ],
+     [
+      1.0,
+      0.3,
+      60.0
+     ],
+     [
+      1.0,
+      0.3,
+      60.0
+     ]
+    ],
+    "floodNodes": [
+     [
+      0.333,
+      0.25,
+      40.0
+     ],
+     [
+      0.333,
+      0.25,
+      40.0
+     ]
+    ],
+    "health": 10000.0,
+    "maxSpeed": 25.0,
+    "rudderTime": 2.44,
+    "speedCoef": 1.0,
+    "turningRadius": 450.0,
+    "visibilityCoefGKInSmoke": 1e-06,
+    "visibilityFactor": 5.4,
+    "visibilityFactorByPlane": 1.87,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 0.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 0.0,
+     "SEMI_DEEP_WATER": 0.0,
+     "SURFACE": 0.0
+    }
+   },
+   "EngineDefault": {
+    "backwardEngineUpTime": 10.0,
+    "forwardEngineUpTime": 20.0,
+    "speedCoef": 0.0
+   }
+  },
+  "ShipAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY009_CrashCrewPremium",
+      "D_Gold"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "ShipUpgradeInfo": {
+   "PXUE901_ENG_BOTS": {
+    "canBuy": true,
+    "components": {
+     "engine": [
+      "EngineDefault"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Engine"
+   },
+   "PXUH901_HULL_BOTS": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [],
+     "airDefense": [
+      "A_AirDefense"
+     ],
+     "artillery": [],
+     "atba": [],
+     "depthCharges": [],
+     "directors": [
+      "A_Directors"
+     ],
+     "finders": [],
+     "hull": [
+      "A_Hull"
+     ],
+     "pinger": [],
+     "radars": [
+      "A_Radars"
+     ],
+     "torpedoes": []
+    },
+    "disabledAbilities": [],
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Hull"
+   },
+   "costCR": 0,
+   "costGold": 99999,
+   "costSaleGold": 0,
+   "costXP": 0,
+   "value": 1
+  },
+  "group": "disabled",
+  "id": 4253299984,
+  "index": "PXSX039",
+  "level": 2,
+  "name": "PXSX039_LST_325",
   "typeinfo": {
    "nation": "Events",
    "species": "Auxiliary",
@@ -14117,7 +14598,6 @@
      "hull": [
       "HullDefault"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "RadarsDefault"
@@ -14285,7 +14765,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": []
@@ -16212,7 +16691,6 @@
      "hull": [
       "B_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "RadarsDefault"
@@ -16566,7 +17044,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "A_Radars"
@@ -17425,7 +17902,6 @@
      "hull": [
       "HullDefault"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": []
@@ -17809,7 +18285,6 @@
      "hull": [
       "A_Hull_1943"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "AB_Radars"
@@ -18462,7 +18937,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "A_Radars"
@@ -18615,7 +19089,6 @@
      "hull": [
       "HullDefault"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": []
@@ -19338,7 +19811,6 @@
      "hull": [
       "HullDefault"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "RadarsDefault"
@@ -20285,7 +20757,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "A_Radars"
@@ -21888,7 +22359,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "A_Radars"
@@ -22850,7 +23320,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "A_Radars"
@@ -24594,12 +25063,6 @@
      "SEMI_DEEP_WATER": 0.0,
      "SURFACE": 0.0
     }
-   },
-   "Specials": {
-    "buffsShiftMaxLevel": 0,
-    "buffsShiftSpeed": 1.0,
-    "buffsStartPool": 0,
-    "modifiers": {}
    }
   },
   "ShipAbilities": {
@@ -24680,13 +25143,9 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "A_Radars"
-     ],
-     "specials": [
-      "Specials"
      ],
      "torpedoes": []
     },
@@ -25531,7 +25990,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": []
@@ -25899,7 +26357,6 @@
      "hull": [
       "B_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "RadarsDefault"
@@ -26470,7 +26927,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "A_Radars"
@@ -29622,7 +30078,7 @@
    "AbilitySlot2": {
     "abils": [
      [
-      "PXY413_TurnAround_H2020",
+      "PXY411_CircleWave_H2020",
       "H2020_MC"
      ]
     ],
@@ -29945,7 +30401,6 @@
      "hull": [
       "A_Hull_1929"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": []
@@ -29970,7 +30425,6 @@
      "hull": [
       "B_Hull_1944"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": []
@@ -30068,7 +30522,7 @@
       40.0
      ]
     ],
-    "health": 40000.0,
+    "health": 35000.0,
     "maxSpeed": 70.0,
     "rudderTime": 5.0,
     "speedCoef": 1.0,
@@ -30125,7 +30579,7 @@
       40.0
      ]
     ],
-    "health": 40000.0,
+    "health": 35000.0,
     "maxSpeed": 70.0,
     "rudderTime": 5.0,
     "speedCoef": 1.0,
@@ -30182,7 +30636,7 @@
       40.0
      ]
     ],
-    "health": 40000.0,
+    "health": 35000.0,
     "maxSpeed": 70.0,
     "rudderTime": 5.0,
     "speedCoef": 1.0,
@@ -30605,7 +31059,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "A_Radars"
@@ -31117,7 +31570,6 @@
      "hull": [
       "HullDefault"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "RadarsDefault"
@@ -31194,7 +31646,7 @@
       40.0
      ]
     ],
-    "health": 130000.0,
+    "health": 120000.0,
     "maxSpeed": 50.0,
     "rudderTime": 10.0,
     "speedCoef": 1.0,
@@ -31245,7 +31697,7 @@
       40.0
      ]
     ],
-    "health": 110000.0,
+    "health": 100000.0,
     "maxSpeed": 65.0,
     "rudderTime": 3.0,
     "speedCoef": 1.0,
@@ -31296,7 +31748,7 @@
       40.0
      ]
     ],
-    "health": 110000.0,
+    "health": 100000.0,
     "maxSpeed": 50.0,
     "rudderTime": 10.0,
     "speedCoef": 1.0,
@@ -31836,7 +32288,6 @@
      "hull": [
       "HullDefault"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "RadarsDefault"
@@ -31990,7 +32441,6 @@
      "hull": [
       "HullDefault"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": []
@@ -32391,7 +32841,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "A_Radars"
@@ -32887,7 +33336,6 @@
      "hull": [
       "A_Hull_1938"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": [
@@ -33302,7 +33750,6 @@
      "hull": [
       "A_Hull"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "A_Radars"
@@ -33456,7 +33903,6 @@
      "hull": [
       "HullDefault"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": []
@@ -34148,7 +34594,6 @@
      "hull": [
       "HullDefault"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "RadarsDefault"
@@ -34687,7 +35132,6 @@
      "hull": [
       "A_Hull_1941"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "A_Radars"
@@ -34722,7 +35166,6 @@
      "hull": [
       "B_Hull_1943"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "B_Radars"
@@ -35304,7 +35747,6 @@
      "hull": [
       "A_Hull_1942"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [
       "B_Radars"
@@ -38809,7 +39251,6 @@
      "hull": [
       "HullDefault"
      ],
-     "hydrophone": [],
      "pinger": [],
      "radars": [],
      "torpedoes": []
