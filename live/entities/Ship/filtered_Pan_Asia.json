@@ -386,7 +386,14 @@
     "turningRadius": 620.0,
     "visibilityCoefGKInSmoke": 2.77,
     "visibilityFactor": 7.42,
-    "visibilityFactorByPlane": 3.36
+    "visibilityFactorByPlane": 3.36,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 3.36,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -694,7 +701,14 @@
     "turningRadius": 240.0,
     "visibilityCoefGKInSmoke": 2.31,
     "visibilityFactor": 6.12,
-    "visibilityFactorByPlane": 6.44
+    "visibilityFactorByPlane": 6.44,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 6.44,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -892,7 +906,14 @@
     "turningRadius": 920.0,
     "visibilityCoefGKInSmoke": 1e-06,
     "visibilityFactor": 12.24,
-    "visibilityFactorByPlane": 10.18
+    "visibilityFactorByPlane": 10.18,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 10.18,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "A_TorpedoBomber": {
     "planeType": "PZAB701_SANZANG_STOCK"
@@ -1088,7 +1109,7 @@
        40.0,
        25.0
       ],
-      "shotDelay": 5.25,
+      "shotDelay": 5.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -1126,7 +1147,7 @@
        40.0,
        25.0
       ],
-      "shotDelay": 5.25,
+      "shotDelay": 5.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -1164,7 +1185,7 @@
        40.0,
        25.0
       ],
-      "shotDelay": 5.25,
+      "shotDelay": 5.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -1202,7 +1223,7 @@
        40.0,
        25.0
       ],
-      "shotDelay": 5.25,
+      "shotDelay": 5.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -1240,7 +1261,7 @@
        40.0,
        25.0
       ],
-      "shotDelay": 5.25,
+      "shotDelay": 5.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -1278,7 +1299,7 @@
        40.0,
        25.0
       ],
-      "shotDelay": 5.25,
+      "shotDelay": 5.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -1287,7 +1308,7 @@
       }
      }
     },
-    "maxDist": 12046.0,
+    "maxDist": 12746.0,
     "normalDistribution": true,
     "sigmaCount": 2.05,
     "taperDist": 4000.0
@@ -1323,7 +1344,7 @@
        25.0,
        25.0
       ],
-      "shotDelay": 145.0,
+      "shotDelay": 133.0,
       "torpedoAngles": [
        4.8,
        16.0
@@ -1358,7 +1379,7 @@
        25.0,
        25.0
       ],
-      "shotDelay": 145.0,
+      "shotDelay": 133.0,
       "torpedoAngles": [
        4.8,
        16.0
@@ -1393,7 +1414,7 @@
        25.0,
        25.0
       ],
-      "shotDelay": 145.0,
+      "shotDelay": 133.0,
       "torpedoAngles": [
        4.8,
        16.0
@@ -1428,7 +1449,7 @@
        25.0,
        25.0
       ],
-      "shotDelay": 145.0,
+      "shotDelay": 133.0,
       "torpedoAngles": [
        4.8,
        16.0
@@ -1578,6 +1599,50 @@
        "species": "DCharge",
        "type": "Gun"
       }
+     },
+     "HP_ZGB_7": {
+      "ammoList": [
+       "PZPD004_Depth_Charge_MK7"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4185875664,
+      "index": "PZGB104",
+      "name": "PZGB104_Depth_Charge_Roller_Track",
+      "numBombs": 3,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Pan_Asia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_ZGB_8": {
+      "ammoList": [
+       "PZPD004_Depth_Charge_MK7"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4185875664,
+      "index": "PZGB104",
+      "name": "PZGB104_Depth_Charge_Roller_Track",
+      "numBombs": 3,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Pan_Asia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
      }
     },
     "maxPacks": 2,
@@ -1653,7 +1718,14 @@
     "turningRadius": 670.0,
     "visibilityCoefGKInSmoke": 5.53,
     "visibilityFactor": 12.34,
-    "visibilityFactorByPlane": 7.41
+    "visibilityFactorByPlane": 7.41,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 7.41,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_AirDefense": {
     "Medium1": {
@@ -1720,7 +1792,14 @@
     "turningRadius": 670.0,
     "visibilityCoefGKInSmoke": 5.53,
     "visibilityFactor": 12.34,
-    "visibilityFactorByPlane": 7.41
+    "visibilityFactorByPlane": 7.41,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 7.41,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -2450,7 +2529,14 @@
     "turningRadius": 570.0,
     "visibilityCoefGKInSmoke": 2.75,
     "visibilityFactor": 7.38,
-    "visibilityFactorByPlane": 2.88
+    "visibilityFactorByPlane": 2.88,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.88,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "EngineDefault": {
     "backwardEngineUpTime": 10.0,
@@ -2678,7 +2764,7 @@
        40.0,
        25.0
       ],
-      "shotDelay": 3.8,
+      "shotDelay": 3.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -2716,7 +2802,7 @@
        40.0,
        25.0
       ],
-      "shotDelay": 3.8,
+      "shotDelay": 3.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -2754,7 +2840,7 @@
        40.0,
        25.0
       ],
-      "shotDelay": 3.8,
+      "shotDelay": 3.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -2792,7 +2878,7 @@
        40.0,
        25.0
       ],
-      "shotDelay": 3.8,
+      "shotDelay": 3.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -2830,7 +2916,7 @@
        40.0,
        25.0
       ],
-      "shotDelay": 3.8,
+      "shotDelay": 3.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -2839,7 +2925,7 @@
       }
      }
     },
-    "maxDist": 13500.0,
+    "maxDist": 14500.0,
     "normalDistribution": true,
     "sigmaCount": 2.05,
     "taperDist": 4000.0
@@ -3077,14 +3163,21 @@
     "turningRadius": 670.0,
     "visibilityCoefGKInSmoke": 5.65,
     "visibilityFactor": 12.5,
-    "visibilityFactorByPlane": 7.42
+    "visibilityFactorByPlane": 7.42,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 7.42,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "A_Torpedoes": {
     "timeToChangeAmmo": 10.0,
     "torpedoArray": {
      "HP_ZGT_1": {
       "ammoList": [
-       "PZPT023_MK17_D"
+       "PZPT037_MK17_E"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -3106,7 +3199,7 @@
        25.0,
        25.0
       ],
-      "shotDelay": 133.0,
+      "shotDelay": 126.0,
       "torpedoAngles": [
        6.0,
        20.0
@@ -3119,7 +3212,7 @@
      },
      "HP_ZGT_2": {
       "ammoList": [
-       "PZPT023_MK17_D"
+       "PZPT037_MK17_E"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -3141,7 +3234,7 @@
        25.0,
        25.0
       ],
-      "shotDelay": 133.0,
+      "shotDelay": 126.0,
       "torpedoAngles": [
        6.0,
        20.0
@@ -3154,7 +3247,7 @@
      },
      "HP_ZGT_3": {
       "ammoList": [
-       "PZPT023_MK17_D"
+       "PZPT037_MK17_E"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -3176,7 +3269,7 @@
        25.0,
        25.0
       ],
-      "shotDelay": 133.0,
+      "shotDelay": 126.0,
       "torpedoAngles": [
        6.0,
        20.0
@@ -3189,7 +3282,7 @@
      },
      "HP_ZGT_4": {
       "ammoList": [
-       "PZPT023_MK17_D"
+       "PZPT037_MK17_E"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -3211,7 +3304,7 @@
        25.0,
        25.0
       ],
-      "shotDelay": 133.0,
+      "shotDelay": 126.0,
       "torpedoAngles": [
        6.0,
        20.0
@@ -3685,6 +3778,122 @@
     "maxDist": 4300.0,
     "sigmaCount": 1.0
    },
+   "AB_DepthChargeGuns": {
+    "depthCharges": {
+     "HP_ZGB_1": {
+      "ammoList": [
+       "PZPD007_Depth_Charge"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4217332944,
+      "index": "PZGB074",
+      "name": "PZGB074_Depth_Charge_Dumper",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Pan_Asia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_ZGB_2": {
+      "ammoList": [
+       "PZPD007_Depth_Charge"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4217332944,
+      "index": "PZGB074",
+      "name": "PZGB074_Depth_Charge_Dumper",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Pan_Asia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_ZGB_3": {
+      "ammoList": [
+       "PZPD007_Depth_Charge"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4217332944,
+      "index": "PZGB074",
+      "name": "PZGB074_Depth_Charge_Dumper",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Pan_Asia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_ZGB_4": {
+      "ammoList": [
+       "PZPD007_Depth_Charge"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4217332944,
+      "index": "PZGB074",
+      "name": "PZGB074_Depth_Charge_Dumper",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Pan_Asia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_ZGB_5": {
+      "ammoList": [
+       "PZPD005_Depth_Charge_MK6"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4209992912,
+      "index": "PZGB081",
+      "name": "PZGB081_Depth_Charge_Shelving",
+      "numBombs": 5,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Pan_Asia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxPacks": 2,
+    "reloadTime": 40.0
+   },
    "AB_Engine": {
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
@@ -3755,7 +3964,14 @@
     "turningRadius": 570.0,
     "visibilityCoefGKInSmoke": 4.6,
     "visibilityFactor": 10.26,
-    "visibilityFactorByPlane": 6.44
+    "visibilityFactorByPlane": 6.44,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 6.44,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B1_Artillery": {
     "guns": {
@@ -3944,7 +4160,14 @@
     "turningRadius": 570.0,
     "visibilityCoefGKInSmoke": 4.6,
     "visibilityFactor": 10.26,
-    "visibilityFactorByPlane": 6.44
+    "visibilityFactorByPlane": 6.44,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 6.44,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -4016,7 +4239,9 @@
      "atba": [
       "AB_ATBA"
      ],
-     "depthCharges": [],
+     "depthCharges": [
+      "AB_DepthChargeGuns"
+     ],
      "directors": [
       "AB_Directors"
      ],
@@ -4050,7 +4275,9 @@
      "atba": [
       "AB_ATBA"
      ],
-     "depthCharges": [],
+     "depthCharges": [
+      "AB_DepthChargeGuns"
+     ],
      "directors": [
       "AB_Directors"
      ],
@@ -4668,7 +4895,14 @@
     "turningRadius": 620.0,
     "visibilityCoefGKInSmoke": 2.68,
     "visibilityFactor": 7.2,
-    "visibilityFactorByPlane": 3.24
+    "visibilityFactorByPlane": 3.24,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 3.24,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_AirDefense": {
     "AuraMedium": {
@@ -4735,7 +4969,14 @@
     "turningRadius": 620.0,
     "visibilityCoefGKInSmoke": 2.68,
     "visibilityFactor": 7.2,
-    "visibilityFactorByPlane": 3.24
+    "visibilityFactorByPlane": 3.24,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 3.24,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -5437,7 +5678,14 @@
     "turningRadius": 570.0,
     "visibilityCoefGKInSmoke": 2.75,
     "visibilityFactor": 7.38,
-    "visibilityFactorByPlane": 2.9
+    "visibilityFactorByPlane": 2.9,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.9,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B1_Artillery": {
     "Far": {
@@ -5684,7 +5932,14 @@
     "turningRadius": 570.0,
     "visibilityCoefGKInSmoke": 2.75,
     "visibilityFactor": 7.38,
-    "visibilityFactorByPlane": 2.9
+    "visibilityFactorByPlane": 2.9,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.9,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -5899,6 +6154,94 @@
     "depthCharges": {
      "HP_ZGB_1": {
       "ammoList": [
+       "PZPD007_Depth_Charge"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4217332944,
+      "index": "PZGB074",
+      "name": "PZGB074_Depth_Charge_Dumper",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Pan_Asia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_ZGB_2": {
+      "ammoList": [
+       "PZPD007_Depth_Charge"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4217332944,
+      "index": "PZGB074",
+      "name": "PZGB074_Depth_Charge_Dumper",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Pan_Asia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_ZGB_3": {
+      "ammoList": [
+       "PZPD007_Depth_Charge"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4217332944,
+      "index": "PZGB074",
+      "name": "PZGB074_Depth_Charge_Dumper",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Pan_Asia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_ZGB_4": {
+      "ammoList": [
+       "PZPD007_Depth_Charge"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4217332944,
+      "index": "PZGB074",
+      "name": "PZGB074_Depth_Charge_Dumper",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Pan_Asia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_ZGB_5": {
+      "ammoList": [
        "PZPD005_Depth_Charge_MK6"
       ],
       "horizSector": [
@@ -6073,7 +6416,7 @@
        10.0,
        10.0
       ],
-      "shotDelay": 7.0,
+      "shotDelay": 6.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -6111,7 +6454,7 @@
        10.0,
        10.0
       ],
-      "shotDelay": 7.0,
+      "shotDelay": 6.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -6149,7 +6492,7 @@
        10.0,
        10.0
       ],
-      "shotDelay": 7.0,
+      "shotDelay": 6.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -6192,7 +6535,7 @@
        10.0,
        10.0
       ],
-      "shotDelay": 7.0,
+      "shotDelay": 6.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -6209,7 +6552,7 @@
       "deadZone": [
        [
         134.0,
-        -136.0
+        -134.0
        ]
       ],
       "delim": 0.5,
@@ -6235,7 +6578,7 @@
        10.0,
        10.0
       ],
-      "shotDelay": 7.0,
+      "shotDelay": 6.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -6296,7 +6639,14 @@
     "turningRadius": 580.0,
     "visibilityCoefGKInSmoke": 4.26,
     "visibilityFactor": 10.26,
-    "visibilityFactorByPlane": 6.44
+    "visibilityFactorByPlane": 6.44,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 6.44,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_AirDefense": {
     "AuraMedium": {
@@ -6370,10 +6720,10 @@
       "radiusOnMax": 0.6,
       "radiusOnZero": 0.2,
       "rotationSpeed": [
-       20.0,
+       10.0,
        20.0
       ],
-      "shotDelay": 5.25,
+      "shotDelay": 6.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -6408,10 +6758,10 @@
       "radiusOnMax": 0.6,
       "radiusOnZero": 0.2,
       "rotationSpeed": [
-       20.0,
+       10.0,
        20.0
       ],
-      "shotDelay": 5.25,
+      "shotDelay": 6.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -6446,10 +6796,10 @@
       "radiusOnMax": 0.6,
       "radiusOnZero": 0.2,
       "rotationSpeed": [
-       20.0,
+       10.0,
        20.0
       ],
-      "shotDelay": 5.25,
+      "shotDelay": 6.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -6489,10 +6839,10 @@
       "radiusOnMax": 0.6,
       "radiusOnZero": 0.2,
       "rotationSpeed": [
-       20.0,
+       10.0,
        20.0
       ],
-      "shotDelay": 5.25,
+      "shotDelay": 6.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -6509,7 +6859,7 @@
       "deadZone": [
        [
         140.0,
-        -142.0
+        -140.0
        ]
       ],
       "delim": 0.5,
@@ -6532,10 +6882,10 @@
       "radiusOnMax": 0.6,
       "radiusOnZero": 0.2,
       "rotationSpeed": [
-       20.0,
+       10.0,
        20.0
       ],
-      "shotDelay": 5.25,
+      "shotDelay": 6.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -6591,7 +6941,14 @@
     "turningRadius": 580.0,
     "visibilityCoefGKInSmoke": 4.26,
     "visibilityFactor": 10.26,
-    "visibilityFactorByPlane": 6.44
+    "visibilityFactorByPlane": 6.44,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 6.44,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -7113,7 +7470,14 @@
     "turningRadius": 690.0,
     "visibilityCoefGKInSmoke": 8.03,
     "visibilityFactor": 13.68,
-    "visibilityFactorByPlane": 7.16
+    "visibilityFactorByPlane": 7.16,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 7.16,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "A_Torpedoes": {
     "timeToChangeAmmo": 10.0,
@@ -7734,7 +8098,14 @@
     "turningRadius": 550.0,
     "visibilityCoefGKInSmoke": 2.42,
     "visibilityFactor": 6.48,
-    "visibilityFactorByPlane": 2.45
+    "visibilityFactorByPlane": 2.45,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.45,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_AirDefense": {
     "AuraNear": {
@@ -7791,7 +8162,14 @@
     "turningRadius": 550.0,
     "visibilityCoefGKInSmoke": 2.42,
     "visibilityFactor": 6.48,
-    "visibilityFactorByPlane": 2.45
+    "visibilityFactorByPlane": 2.45,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.45,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -8247,7 +8625,14 @@
     "turningRadius": 440.0,
     "visibilityCoefGKInSmoke": 2.0,
     "visibilityFactor": 5.4,
-    "visibilityFactorByPlane": 1.99
+    "visibilityFactorByPlane": 1.99,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 1.99,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_Hull": {
     "burnNodes": [
@@ -8291,7 +8676,14 @@
     "turningRadius": 440.0,
     "visibilityCoefGKInSmoke": 2.0,
     "visibilityFactor": 5.4,
-    "visibilityFactorByPlane": 1.99
+    "visibilityFactorByPlane": 1.99,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 1.99,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -8965,7 +9357,14 @@
     "turningRadius": 890.0,
     "visibilityCoefGKInSmoke": 16.8,
     "visibilityFactor": 17.19,
-    "visibilityFactorByPlane": 12.53
+    "visibilityFactorByPlane": 12.53,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 12.53,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -9649,7 +10048,14 @@
     "turningRadius": 910.0,
     "visibilityCoefGKInSmoke": 15.42,
     "visibilityFactor": 16.74,
-    "visibilityFactorByPlane": 12.07
+    "visibilityFactorByPlane": 12.07,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 12.07,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -10321,7 +10727,14 @@
     "turningRadius": 550.0,
     "visibilityCoefGKInSmoke": 2.43,
     "visibilityFactor": 6.84,
-    "visibilityFactorByPlane": 2.59
+    "visibilityFactorByPlane": 2.59,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.59,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_AirDefense": {
     "AuraMedium": {
@@ -10378,7 +10791,14 @@
     "turningRadius": 550.0,
     "visibilityCoefGKInSmoke": 2.43,
     "visibilityFactor": 6.84,
-    "visibilityFactorByPlane": 2.59
+    "visibilityFactorByPlane": 2.59,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.59,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -11002,7 +11422,14 @@
     "turningRadius": 730.0,
     "visibilityCoefGKInSmoke": 2.48,
     "visibilityFactor": 7.76,
-    "visibilityFactorByPlane": 3.55
+    "visibilityFactorByPlane": 3.55,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 3.55,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "A_Torpedoes": {
     "timeToChangeAmmo": 10.0,
@@ -11451,7 +11878,7 @@
       }
      }
     },
-    "maxDist": 11590.0,
+    "maxDist": 12000.0,
     "normalDistribution": true,
     "sigmaCount": 2.05,
     "taperDist": 4000.0
@@ -11466,7 +11893,7 @@
     "torpedoArray": {
      "HP_ZGT_1": {
       "ammoList": [
-       "PZPT019_MK_15_MOD3_D"
+       "PZPT038_MK_15_MOD3_D_2"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -11501,7 +11928,7 @@
      },
      "HP_ZGT_2": {
       "ammoList": [
-       "PZPT019_MK_15_MOD3_D"
+       "PZPT038_MK_15_MOD3_D_2"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -11773,7 +12200,14 @@
     "turningRadius": 610.0,
     "visibilityCoefGKInSmoke": 4.38,
     "visibilityFactor": 10.63,
-    "visibilityFactorByPlane": 6.44
+    "visibilityFactorByPlane": 6.44,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 6.44,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_AirDefense": {
     "AuraMedium": {
@@ -11830,7 +12264,14 @@
     "turningRadius": 610.0,
     "visibilityCoefGKInSmoke": 4.38,
     "visibilityFactor": 10.63,
-    "visibilityFactorByPlane": 6.45
+    "visibilityFactorByPlane": 6.45,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 6.45,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -11862,7 +12303,12 @@
     "slot": 2
    },
    "AbilitySlot3": {
-    "abils": [],
+    "abils": [
+     [
+      "PCY018_TorpedoReloaderPremium",
+      "PAZ_CA_midtier"
+     ]
+    ],
     "slot": 3
    },
    "AbilitySlot4": {
@@ -12449,7 +12895,14 @@
     "turningRadius": 590.0,
     "visibilityCoefGKInSmoke": 2.5,
     "visibilityFactor": 7.02,
-    "visibilityFactorByPlane": 2.9
+    "visibilityFactorByPlane": 2.9,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.9,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_AirDefense": {
     "Medium": {
@@ -12516,7 +12969,14 @@
     "turningRadius": 590.0,
     "visibilityCoefGKInSmoke": 2.5,
     "visibilityFactor": 7.02,
-    "visibilityFactorByPlane": 2.9
+    "visibilityFactorByPlane": 2.9,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.9,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -13181,7 +13641,14 @@
     "turningRadius": 610.0,
     "visibilityCoefGKInSmoke": 2.73,
     "visibilityFactor": 7.2,
-    "visibilityFactorByPlane": 2.88
+    "visibilityFactorByPlane": 2.88,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.88,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "EngineDefault": {
     "backwardEngineUpTime": 10.0,
@@ -13875,7 +14342,14 @@
     "turningRadius": 570.0,
     "visibilityCoefGKInSmoke": 2.75,
     "visibilityFactor": 7.38,
-    "visibilityFactorByPlane": 2.88
+    "visibilityFactorByPlane": 2.88,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.88,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "EngineDefault": {
     "backwardEngineUpTime": 10.0,
@@ -14410,7 +14884,7 @@
       }
      }
     },
-    "maxPacks": 1,
+    "maxPacks": 2,
     "reloadTime": 40.0
    },
    "A_Engine": {
@@ -14464,7 +14938,14 @@
     "turningRadius": 730.0,
     "visibilityCoefGKInSmoke": 2.48,
     "visibilityFactor": 7.76,
-    "visibilityFactorByPlane": 3.55
+    "visibilityFactorByPlane": 3.55,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 3.55,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "A_Torpedoes": {
     "timeToChangeAmmo": 10.0,
@@ -15116,7 +15597,14 @@
     "turningRadius": 760.0,
     "visibilityCoefGKInSmoke": 7.03,
     "visibilityFactor": 13.7,
-    "visibilityFactorByPlane": 7.44
+    "visibilityFactorByPlane": 7.44,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 7.44,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -15733,7 +16221,14 @@
     "turningRadius": 610.0,
     "visibilityCoefGKInSmoke": 2.67,
     "visibilityFactor": 7.02,
-    "visibilityFactorByPlane": 2.86
+    "visibilityFactorByPlane": 2.86,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.86,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_AirDefense": {
     "AuraMedium": {
@@ -15790,7 +16285,14 @@
     "turningRadius": 610.0,
     "visibilityCoefGKInSmoke": 2.67,
     "visibilityFactor": 7.02,
-    "visibilityFactorByPlane": 2.86
+    "visibilityFactorByPlane": 2.86,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.86,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -16279,7 +16781,14 @@
     "turningRadius": 450.0,
     "visibilityCoefGKInSmoke": 2.0,
     "visibilityFactor": 5.76,
-    "visibilityFactorByPlane": 2.04
+    "visibilityFactorByPlane": 2.04,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.04,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_AirDefense": {
     "Medium": {
@@ -16336,7 +16845,14 @@
     "turningRadius": 450.0,
     "visibilityCoefGKInSmoke": 2.0,
     "visibilityFactor": 5.76,
-    "visibilityFactorByPlane": 2.04
+    "visibilityFactorByPlane": 2.04,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.04,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -16922,7 +17438,14 @@
     "turningRadius": 570.0,
     "visibilityCoefGKInSmoke": 4.2,
     "visibilityFactor": 9.54,
-    "visibilityFactorByPlane": 6.44
+    "visibilityFactorByPlane": 6.44,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 6.44,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -17144,7 +17667,7 @@
        20.0,
        12.0
       ],
-      "shotDelay": 4.5,
+      "shotDelay": 5.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -17182,7 +17705,7 @@
        20.0,
        12.0
       ],
-      "shotDelay": 4.5,
+      "shotDelay": 5.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -17220,7 +17743,7 @@
        20.0,
        12.0
       ],
-      "shotDelay": 4.5,
+      "shotDelay": 5.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -17258,7 +17781,7 @@
        20.0,
        12.0
       ],
-      "shotDelay": 4.5,
+      "shotDelay": 5.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -17296,7 +17819,7 @@
        20.0,
        12.0
       ],
-      "shotDelay": 4.5,
+      "shotDelay": 5.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -17587,7 +18110,14 @@
     "turningRadius": 660.0,
     "visibilityCoefGKInSmoke": 4.88,
     "visibilityFactor": 11.34,
-    "visibilityFactorByPlane": 7.41
+    "visibilityFactorByPlane": 7.41,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 7.41,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "A_Torpedoes": {
     "timeToChangeAmmo": 10.0,
@@ -18085,7 +18615,14 @@
     "turningRadius": 660.0,
     "visibilityCoefGKInSmoke": 2.88,
     "visibilityFactor": 7.56,
-    "visibilityFactorByPlane": 3.41
+    "visibilityFactorByPlane": 3.41,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 3.41,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "A_Torpedoes": {
     "timeToChangeAmmo": 10.0,
@@ -18357,7 +18894,7 @@
       "radiusOnMax": 0.6,
       "radiusOnZero": 0.2,
       "rotationSpeed": [
-       9.7,
+       25.0,
        9.85
       ],
       "shotDelay": 5.25,
@@ -18395,7 +18932,7 @@
       "radiusOnMax": 0.6,
       "radiusOnZero": 0.2,
       "rotationSpeed": [
-       9.7,
+       25.0,
        9.85
       ],
       "shotDelay": 5.25,
@@ -18433,7 +18970,7 @@
       "radiusOnMax": 0.6,
       "radiusOnZero": 0.2,
       "rotationSpeed": [
-       9.7,
+       25.0,
        9.85
       ],
       "shotDelay": 5.25,
@@ -18471,7 +19008,7 @@
       "radiusOnMax": 0.6,
       "radiusOnZero": 0.2,
       "rotationSpeed": [
-       9.7,
+       25.0,
        9.85
       ],
       "shotDelay": 5.25,
@@ -18509,7 +19046,7 @@
       "radiusOnMax": 0.6,
       "radiusOnZero": 0.2,
       "rotationSpeed": [
-       9.7,
+       25.0,
        9.85
       ],
       "shotDelay": 5.25,
@@ -18521,7 +19058,7 @@
       }
      }
     },
-    "maxDist": 11820.0,
+    "maxDist": 12270.0,
     "normalDistribution": true,
     "sigmaCount": 2.05,
     "taperDist": 4000.0
@@ -18793,15 +19330,15 @@
      },
      "HP_ZGB_5": {
       "ammoList": [
-       "PZPD003_Depth_Charge_BM1"
+       "PZPD012_BB1_rpd007"
       ],
       "horizSector": [
        -150.0,
        150.0
       ],
-      "id": 4206847184,
-      "index": "PZGB084",
-      "name": "PZGB084_BM1_dumper",
+      "id": 4234110160,
+      "index": "PZGB058",
+      "name": "PZGB058_Depth_Charge_Thrower_BMB2",
       "numBombs": 1,
       "rotationSpeed": [
        0.0,
@@ -18815,59 +19352,15 @@
      },
      "HP_ZGB_6": {
       "ammoList": [
-       "PZPD003_Depth_Charge_BM1"
+       "PZPD012_BB1_rpd007"
       ],
       "horizSector": [
        -150.0,
        150.0
       ],
-      "id": 4206847184,
-      "index": "PZGB084",
-      "name": "PZGB084_BM1_dumper",
-      "numBombs": 1,
-      "rotationSpeed": [
-       0.0,
-       0.0
-      ],
-      "typeinfo": {
-       "nation": "Pan_Asia",
-       "species": "DCharge",
-       "type": "Gun"
-      }
-     },
-     "HP_ZGB_7": {
-      "ammoList": [
-       "PZPD003_Depth_Charge_BM1"
-      ],
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4206847184,
-      "index": "PZGB084",
-      "name": "PZGB084_BM1_dumper",
-      "numBombs": 1,
-      "rotationSpeed": [
-       0.0,
-       0.0
-      ],
-      "typeinfo": {
-       "nation": "Pan_Asia",
-       "species": "DCharge",
-       "type": "Gun"
-      }
-     },
-     "HP_ZGB_8": {
-      "ammoList": [
-       "PZPD003_Depth_Charge_BM1"
-      ],
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4206847184,
-      "index": "PZGB084",
-      "name": "PZGB084_BM1_dumper",
+      "id": 4234110160,
+      "index": "PZGB058",
+      "name": "PZGB058_Depth_Charge_Thrower_BMB2",
       "numBombs": 1,
       "rotationSpeed": [
        0.0,
@@ -18975,7 +19468,14 @@
     "turningRadius": 660.0,
     "visibilityCoefGKInSmoke": 5.36,
     "visibilityFactor": 12.04,
-    "visibilityFactorByPlane": 7.42
+    "visibilityFactorByPlane": 7.42,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 7.42,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_AirDefense": {
     "Medium1": {
@@ -19025,12 +19525,12 @@
     ],
     "floodNodes": [
      [
-      0.25,
+      0.32,
       0.25,
       40.0
      ],
      [
-      0.25,
+      0.32,
       0.25,
       40.0
      ]
@@ -19042,7 +19542,14 @@
     "turningRadius": 660.0,
     "visibilityCoefGKInSmoke": 5.36,
     "visibilityFactor": 12.04,
-    "visibilityFactorByPlane": 7.42
+    "visibilityFactorByPlane": 7.42,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 7.42,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
