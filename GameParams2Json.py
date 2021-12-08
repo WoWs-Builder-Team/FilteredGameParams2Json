@@ -1,5 +1,4 @@
 import os
-import struct
 import zlib
 import pickle
 import json
@@ -113,8 +112,8 @@ if __name__ == '__main__':
 
     with open(args.path, "rb") as f:
         gp_data: bytes = f.read()
-    gp_data: bytes = struct.pack('B' * len(gp_data), *gp_data[::-1])
-    gp_data: bytes = zlib.decompress(gp_data)
+    # gp_data: bytes = struct.pack('B' * len(gp_data), *gp_data[::-1])
+    gp_data: bytes = zlib.decompress(gp_data[::-1])
     gp_data: tuple = pickle.loads(gp_data, encoding='windows-1251')
 
     entity_types = {}
