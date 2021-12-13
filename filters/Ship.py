@@ -20,8 +20,8 @@ TORPEDO_SUBKEYS = ["ammoList", "barrelDiameter", "id", "index", "name", "numBarr
                    "torpedoAngles", "typeinfo", "deadZone", "horizSector", "canRotate", "useGroups", "useOneShot",
                    "groups", "torpAngles"]
 HULL_SUBKEYS = ["health", "maxSpeed", "rudderTime", "speedCoef", "visibilityCoefGKInSmoke", "visibilityFactor",
-                "visibilityFactorByPlane", "visibilityFactorsBySubmarine", "burnNodes", "floodNodes", "turningRadius"]
-ENGINE_KEYS = ["forwardEngineUpTime", "backwardEngineUpTime", "speedCoef"]
+                "visibilityFactorByPlane", "visibilityFactorsBySubmarine", "burnNodes", "floodNodes", "turningRadius", "SG", "size"]
+ENGINE_KEYS = ["forwardEngineUpTime", "backwardEngineUpTime", "speedCoef", "HitLocationEngine"]
 PINGERGUN_KEYS = ["rotationSpeed", "sectorParams", "waveDistance", "waveHitAlertTime", "waveHitLifeTime", "waveParams",
                   "waveReloadTime"]
 FLIGHTCONTROL_KEYS = ["squadrons"]
@@ -96,7 +96,14 @@ class Ship:
             for key in keys:
                 gp_object: object = self._data.__getattribute__(key)
                 self._delete_attributes(gp_object, children)
+                if uc_component == ("_Engine", "engine"):
+                    self._delete_attributes(gp_object.HitLocationEngine, ["armorCoeff"])
+                if uc_component == ("_Hull", "hull"):
+                    self._delete_attributes(gp_object.SG, ["armorCoeff"])
+                print(gp_object)
         except KeyError:
+            pass
+        except AttributeError:
             pass
 
     def _filter_upgrade_info(self):
