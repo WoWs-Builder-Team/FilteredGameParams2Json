@@ -3,7 +3,7 @@ ARTILLERY_KEYS = ["affectedByPTZ", "alphaDamage", "alphaPiercingCS", "alphaPierc
                   "bulletDiametr", "bulletKrupp", "bulletMass", "bulletRicochetAt", "bulletSpeed", "burnProb",
                   "distTile", "ignoreClasses", "isBomb", "splashCubeSize", "splashArmorCoeff"]
 TORPEDO_KEYS = ["alertDist", "alphaDamage", "ammoType", "bulletDiametr", "maxDist", "ignoreClasses",
-                "speed", "armingTime", "uwCritical", "visibilityFactor", "damage"]
+                "speed", "armingTime", "uwCritical", "visibilityFactor", "damage", "splashCubeSize", "splashArmorCoeff"]
 DEPTHCHARGE_KEYS = ["alertDist", "alphaDamage", "ammoType", "burnProb", "uwCritical", "timer", "splashCubeSize",
                     "speed"]
 COMMON_KEYS = ['id', 'typeinfo', 'name', 'index']

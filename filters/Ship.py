@@ -100,7 +100,6 @@ class Ship:
                     self._delete_attributes(gp_object.HitLocationEngine, ["armorCoeff"])
                 if uc_component == ("_Hull", "hull"):
                     self._delete_attributes(gp_object.SG, ["armorCoeff"])
-                print(gp_object)
         except KeyError:
             pass
         except AttributeError:
