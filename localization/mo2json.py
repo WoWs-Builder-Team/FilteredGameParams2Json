@@ -26,10 +26,13 @@ def process_single_mo(lang_name: str, mo_file_path: str, output_path: str, filte
 
     if matched:
         for i in matched:
-            if i.lower().startswith('ids_'):
-                filtered_strings[i[4:]] = game_strings[i]
-            else:
-                filtered_strings[i] = game_strings[i]
+            try:
+                if i.lower().startswith('ids_'):
+                    filtered_strings[i[4:]] = game_strings[i]
+                else:
+                    filtered_strings[i] = game_strings[i]
+            except KeyError:
+                logger.warning("Skipping localization key " + i)
 
     else:
         for filter_string in filter_strings:
