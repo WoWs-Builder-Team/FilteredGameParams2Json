@@ -229,7 +229,7 @@
     "barrelDiameter": 0.12,
     "clusterID": 0,
     "customMiscs": {},
-    "damagedEffect": "particles/guns/Gun_Broken_small.xml",
+    "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
     "deadMesh": "content/gameplay/spain/gun/secondary/SGS002_120mm45_Mark_F/SGS002_120mm45_Mark_F_dead.model",
     "deadZone": [
      [
@@ -338,7 +338,7 @@
     "barrelDiameter": 0.12,
     "clusterID": 0,
     "customMiscs": {},
-    "damagedEffect": "particles/guns/Gun_Broken_small.xml",
+    "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
     "deadMesh": "content/gameplay/spain/gun/secondary/SGS002_120mm45_Mark_F/SGS002_120mm45_Mark_F_dead.model",
     "deadZone": [
      [
@@ -447,7 +447,7 @@
     "barrelDiameter": 0.12,
     "clusterID": 0,
     "customMiscs": {},
-    "damagedEffect": "particles/guns/Gun_Broken_small.xml",
+    "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
     "deadMesh": "content/gameplay/spain/gun/secondary/SGS002_120mm45_Mark_F/SGS002_120mm45_Mark_F_dead.model",
     "deadZone": [
      [
@@ -556,7 +556,7 @@
     "barrelDiameter": 0.12,
     "clusterID": 0,
     "customMiscs": {},
-    "damagedEffect": "particles/guns/Gun_Broken_small.xml",
+    "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
     "deadMesh": "content/gameplay/spain/gun/secondary/SGS002_120mm45_Mark_F/SGS002_120mm45_Mark_F_dead.model",
     "deadZone": [
      [
@@ -665,7 +665,7 @@
     "barrelDiameter": 0.12,
     "clusterID": 0,
     "customMiscs": {},
-    "damagedEffect": "particles/guns/Gun_Broken_small.xml",
+    "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
     "deadMesh": "content/gameplay/spain/gun/secondary/SGS002_120mm45_Mark_F/SGS002_120mm45_Mark_F_dead.model",
     "deadZone": [
      [
@@ -774,7 +774,7 @@
     "barrelDiameter": 0.12,
     "clusterID": 0,
     "customMiscs": {},
-    "damagedEffect": "particles/guns/Gun_Broken_small.xml",
+    "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
     "deadMesh": "content/gameplay/spain/gun/secondary/SGS002_120mm45_Mark_F/SGS002_120mm45_Mark_F_dead.model",
     "deadZone": [
      [
@@ -883,7 +883,7 @@
     "barrelDiameter": 0.12,
     "clusterID": 0,
     "customMiscs": {},
-    "damagedEffect": "particles/guns/Gun_Broken_small.xml",
+    "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
     "deadMesh": "content/gameplay/spain/gun/secondary/SGS002_120mm45_Mark_F/SGS002_120mm45_Mark_F_dead.model",
     "deadZone": [
      [
@@ -992,7 +992,7 @@
     "barrelDiameter": 0.12,
     "clusterID": 0,
     "customMiscs": {},
-    "damagedEffect": "particles/guns/Gun_Broken_small.xml",
+    "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
     "deadMesh": "content/gameplay/spain/gun/secondary/SGS002_120mm45_Mark_F/SGS002_120mm45_Mark_F_dead.model",
     "deadZone": [
      [
@@ -1939,7 +1939,8 @@
     "minEllipseRanging": 1.001,
     "minRadius": 1.1,
     "miscFilter": [
-     "MP_SM002_Set1_for_SGM001"
+     "MP_SM002_Set1_for_SGM001",
+     "MP_SM005_Gerb_for_SGM001"
     ],
     "miscFilterMode": false,
     "model": "content/gameplay/spain/gun/main/SGM001_203mm50_BL_Model_1924_Mark_D/SGM001_203mm50_BL_Model_1924_Mark_D.model",
@@ -2547,16 +2548,16 @@
     "volumeCoeff": 1.0
    },
    "backwardEngineForsag": 2.5,
-   "backwardEngineForsagMaxSpeed": 5.0,
+   "backwardEngineForsagMaxSpeed": 2.5,
    "backwardEngineUpTime": 20.0,
    "backwardSpeedOnFlood": -0.6,
    "damagedEnginePowerMultiplier": -0.6,
    "damagedEnginePowerTimeMultiplier": 5.5,
    "engineType": "SteamTurbine",
-   "forwardEngineForsag": 1.75,
-   "forwardEngineForsagMaxSpeed": 30.225,
+   "forwardEngineForsag": 2.5,
+   "forwardEngineForsagMaxSpeed": 2.5,
    "forwardEngineUpTime": 40.0,
-   "forwardSpeedOnFlood": -0.47,
+   "forwardSpeedOnFlood": -0.3,
    "histEnginePower": 90000.0,
    "sound": "GameLogic.Engines.Battleship.Turbine.Type_1",
    "speedCoef": 0.0
@@ -3452,7 +3453,7 @@
    "deckHeight": 6.56,
    "deepwaterVisionCoeff": {},
    "deepwaterVisionToPlaneCoeff": {},
-   "defaultCamouflage": "",
+   "defaultCamouflage": "camo_permanent_flag",
    "dockYOffset": 0.0,
    "draft": 11,
    "effectCauldronExplosion": "particles/Empty_FX.xml",
@@ -3770,7 +3771,7 @@
    "regenerationHPSpeed": 0.0,
    "repairingCoeff": 0.0,
    "rollEffect": 21.0,
-   "rudderPower": 47200000.0,
+   "rudderPower": 38400000.0,
    "rudderTime": 12.48,
    "shipBodySunkDifferenceCoeff": 2.0,
    "shipBodySunkStartMassCoeff": 1.0,
@@ -3839,14 +3840,10 @@
    "visibilityCoefGKByPlane": 4.06,
    "visibilityCoefGKInSmoke": 5.95,
    "visibilityCoefPinger": {
-    "-22.0": 0.0,
-    "-6.0": 1.0,
-    "0.0": 1.0
+    "0.0": 0.0
    },
    "visibilityCoefPingerByPlane": {
-    "-22.0": 0.0,
-    "-6.0": 1.0,
-    "0.0": 1.0
+    "0.0": 0.0
    },
    "visibilityCoefPingerInSmoke": 1e-06,
    "visibilityCoeff": 20.68,
@@ -3860,10 +3857,10 @@
    "visibilityFactorByPlane": 6.48,
    "visibilityFactorInSmoke": 1e-06,
    "visibilityFactorsBySubmarine": {
-    "DEEP_WATER": 6.48,
+    "DEEP_WATER": 2.0,
     "DEEP_WATER_INVUL": 0.0,
     "PERISCOPE": 6.48,
-    "SEMI_DEEP_WATER": 6.48,
+    "SEMI_DEEP_WATER": 2.0,
     "SURFACE": 0.0
    }
   },

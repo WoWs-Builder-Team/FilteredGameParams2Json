@@ -3421,36 +3421,6 @@
   "unlockMissions": []
  },
  {
-  "backgroundIconID": 31,
-  "conditions": [
-   "<isMyShip shipLevel=\"5,6,7,8,9,10\" class = \"Cruiser\" />",
-   "<isBattleType battleTypes=\"PVP,RANKED\" />",
-   "<isPotentialDamage count=\"250000\" />",
-   "<isAlive isAlive=\"true\" />",
-   "<isBattleResult battleResult=\"win\" />"
-  ],
-  "costUnlock": 0,
-  "id": 3838197680,
-  "index": "PCQT435",
-  "isSingleBattle": true,
-  "lootStars": 1,
-  "name": "PCQT435",
-  "rewards": [
-   "<Item idx=\"PCEF007_ID_SignalFlag\" count=\"5\"/>"
-  ],
-  "typeinfo": {
-   "nation": "Common",
-   "species": "Task",
-   "type": "Campaign"
-  },
-  "uiCondition": [
-   "IDS_PCQT435_1",
-   "isPotentialDamage",
-   "IDS_TASKRESTRICTION_CA_PVPRANKED"
-  ],
-  "unlockMissions": []
- },
- {
   "backgroundIconID": 54,
   "conditions": [
    "<isMyShip shipLevel=\"5,6,7,8,9,10\" class = \"Battleship\"/>",
@@ -5811,34 +5781,6 @@
   "unlockMissions": []
  },
  {
-  "backgroundIconID": 71,
-  "conditions": [
-   "<isMyShip shipLevel=\"5,6,7,8,9,10\" />",
-   "<isBattleType battleTypes=\"PVP,COOPERATIVE,RANKED\" />",
-   "<isWeaponHits count=\"200\" weaponTypes=\"main atba\" />"
-  ],
-  "costUnlock": 0,
-  "id": 4176887728,
-  "index": "PCQT112",
-  "isSingleBattle": false,
-  "lootStars": 1,
-  "name": "PCQT112",
-  "rewards": [
-   "<Add type=\"CREDITS\" count=\"100000\"/>"
-  ],
-  "typeinfo": {
-   "nation": "Common",
-   "species": "Task",
-   "type": "Campaign"
-  },
-  "uiCondition": [
-   "IDS_PCQT112_1",
-   "isWeaponHits",
-   "IDS_TASKRESTRICTION_STANDART"
-  ],
-  "unlockMissions": []
- },
- {
   "backgroundIconID": 69,
   "conditions": [
    "<isMyShip shipIds=\"PGSB002_Tirpiz_1942,PGSB598_Black_Tirpitz,PGSB108_Bismarck,PFSB108_Richelieu\"/>",
@@ -6362,6 +6304,34 @@
   "unlockMissions": []
  },
  {
+  "backgroundIconID": 68,
+  "conditions": [
+   "<isMyShip shipLevel=\"8,9,10\" class=\"Cruiser\"/>",
+   "<isBattleType battleTypes=\"PVP,RANKED\" />",
+   "<isDamage count=\"1000000\" nation=\"Japan,Germany\"/>"
+  ],
+  "costUnlock": 0,
+  "id": 3735437232,
+  "index": "PCQT533",
+  "isSingleBattle": false,
+  "lootStars": 1,
+  "name": "PCQT533",
+  "rewards": [
+   "<Item idx=\"PCEF010_JC_SignalFlag\" count=\"20\" />"
+  ],
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Task",
+   "type": "Campaign"
+  },
+  "uiCondition": [
+   "IDS_PCQT533_1",
+   "isDamage",
+   "IDS_TASKRESTRICTION_STANDART"
+  ],
+  "unlockMissions": []
+ },
+ {
   "backgroundIconID": 41,
   "conditions": [
    "<isMyShip shipLevel=\"8,9,10\" nation=\"USA\" />",
@@ -6478,18 +6448,19 @@
   "unlockMissions": []
  },
  {
-  "backgroundIconID": 2,
+  "backgroundIconID": 16,
   "conditions": [
-   "<isMyShip shipLevel=\"6,7,8,9,10\" />",
-   "<isBattleType battleTypes=\"PVP,COOPERATIVE,RANKED,CLAN\" />",
-   "<isTotalXP count=\"15000\" />"
+   "<isMyShip shipIds=\"PGSC106_Nurnberg\" />",
+   "<isMyShip nation=\"Germany\" />",
+   "<isBattleType battleTypes=\"PVP,RANKED\" />",
+   "<isKillShips count=\"5\"/>"
   ],
   "costUnlock": 0,
-  "id": 3713417136,
-  "index": "PCQT554",
+  "id": 3711319984,
+  "index": "PCQT556",
   "isSingleBattle": false,
-  "lootStars": 2,
-  "name": "PCQT554",
+  "lootStars": 1,
+  "name": "PCQT556",
   "rewards": [
    "<Lootbox boxType=\"PCL051_BelleEpoque_Coll\" count=\"1\" ignoreEpic=\"1\"/> "
   ],
@@ -6499,57 +6470,11 @@
    "type": "Campaign"
   },
   "uiCondition": [
-   "IDS_PCQT554_1",
-   "isTotalXP",
-   "IDS_TASKRESTRICTION_PVPCOOPRANKEDCLAN"
+   "IDS_PCQT556_1",
+   "isKillShips",
+   "IDS_TASKRESTRICTION_PVPRANKED_NURNBERG"
   ],
   "unlockMissions": []
- },
- {
-  "allTasks": [
-   "PCQT626_Swirski",
-   "PCQT627_Swirski",
-   "PCQT628_Swirski",
-   "PCQT629_Swirski",
-   "PCQT630_Swirski",
-   "PCQT631_Swirski",
-   "PCQT632_Swirski",
-   "PCQT633_Swirski",
-   "PCQT634_Swirski_Key"
-  ],
-  "custom": {
-   "ASIA": {
-    "startTime": "29-04-2020 00:00:01"
-   },
-   "CN": {
-    "startTime": "11-01-2021 22:00:04"
-   },
-   "EU": {
-    "startTime": "30-04-2020 07:00:01"
-   },
-   "NA": {
-    "startTime": "29-04-2020 12:00:01"
-   },
-   "RU": {
-    "startTime": "29-04-2020 05:00:01"
-   }
-  },
-  "id": 4201234352,
-  "index": "PCQM089",
-  "isStart": false,
-  "mainTask": "PCQT634_Swirski_Key",
-  "mapPosition": [
-   0.55,
-   0.25
-  ],
-  "name": "PCQM089_Swirski",
-  "startTime": "",
-  "typeinfo": {
-   "nation": "Common",
-   "species": "Mission",
-   "type": "Campaign"
-  },
-  "uiNumber": "4"
  },
  {
   "backgroundIconID": 0,
@@ -8705,19 +8630,18 @@
   "unlockMissions": []
  },
  {
-  "backgroundIconID": 16,
+  "backgroundIconID": 2,
   "conditions": [
-   "<isMyShip shipIds=\"PGSC106_Nurnberg\" />",
-   "<isMyShip nation=\"Germany\" />",
-   "<isBattleType battleTypes=\"PVP,RANKED\" />",
-   "<isKillShips count=\"5\"/>"
+   "<isMyShip shipLevel=\"6,7,8,9,10\" />",
+   "<isBattleType battleTypes=\"PVP,COOPERATIVE,RANKED,CLAN\" />",
+   "<isTotalXP count=\"15000\" />"
   ],
   "costUnlock": 0,
-  "id": 3711319984,
-  "index": "PCQT556",
+  "id": 3713417136,
+  "index": "PCQT554",
   "isSingleBattle": false,
-  "lootStars": 1,
-  "name": "PCQT556",
+  "lootStars": 2,
+  "name": "PCQT554",
   "rewards": [
    "<Lootbox boxType=\"PCL051_BelleEpoque_Coll\" count=\"1\" ignoreEpic=\"1\"/> "
   ],
@@ -8727,11 +8651,57 @@
    "type": "Campaign"
   },
   "uiCondition": [
-   "IDS_PCQT556_1",
-   "isKillShips",
-   "IDS_TASKRESTRICTION_PVPRANKED_NURNBERG"
+   "IDS_PCQT554_1",
+   "isTotalXP",
+   "IDS_TASKRESTRICTION_PVPCOOPRANKEDCLAN"
   ],
   "unlockMissions": []
+ },
+ {
+  "allTasks": [
+   "PCQT626_Swirski",
+   "PCQT627_Swirski",
+   "PCQT628_Swirski",
+   "PCQT629_Swirski",
+   "PCQT630_Swirski",
+   "PCQT631_Swirski",
+   "PCQT632_Swirski",
+   "PCQT633_Swirski",
+   "PCQT634_Swirski_Key"
+  ],
+  "custom": {
+   "ASIA": {
+    "startTime": "29-04-2020 00:00:01"
+   },
+   "CN": {
+    "startTime": "11-01-2021 22:00:04"
+   },
+   "EU": {
+    "startTime": "30-04-2020 07:00:01"
+   },
+   "NA": {
+    "startTime": "29-04-2020 12:00:01"
+   },
+   "RU": {
+    "startTime": "29-04-2020 05:00:01"
+   }
+  },
+  "id": 4201234352,
+  "index": "PCQM089",
+  "isStart": false,
+  "mainTask": "PCQT634_Swirski_Key",
+  "mapPosition": [
+   0.55,
+   0.25
+  ],
+  "name": "PCQM089_Swirski",
+  "startTime": "",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Mission",
+   "type": "Campaign"
+  },
+  "uiNumber": "4"
  },
  {
   "backgroundIconID": 1081,
@@ -9011,6 +8981,34 @@
   "uiCondition": [
    "IDS_PCQT113_1",
    "isStartFire",
+   "IDS_TASKRESTRICTION_STANDART"
+  ],
+  "unlockMissions": []
+ },
+ {
+  "backgroundIconID": 71,
+  "conditions": [
+   "<isMyShip shipLevel=\"5,6,7,8,9,10\" />",
+   "<isBattleType battleTypes=\"PVP,COOPERATIVE,RANKED\" />",
+   "<isWeaponHits count=\"200\" weaponTypes=\"main atba\" />"
+  ],
+  "costUnlock": 0,
+  "id": 4176887728,
+  "index": "PCQT112",
+  "isSingleBattle": false,
+  "lootStars": 1,
+  "name": "PCQT112",
+  "rewards": [
+   "<Add type=\"CREDITS\" count=\"100000\"/>"
+  ],
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Task",
+   "type": "Campaign"
+  },
+  "uiCondition": [
+   "IDS_PCQT112_1",
+   "isWeaponHits",
    "IDS_TASKRESTRICTION_STANDART"
   ],
   "unlockMissions": []
@@ -10593,34 +10591,6 @@
   "uiCondition": [
    "IDS_PCQT162_CampaignSB_Mission02_Task02_1",
    "isRibbons",
-   "IDS_TASKRESTRICTION_STANDART"
-  ],
-  "unlockMissions": []
- },
- {
-  "backgroundIconID": 2,
-  "conditions": [
-   "<isMyShip shipLevel=\"5,6,7,8\"/>",
-   "<isBattleType battleTypes=\"PVP,COOPERATIVE,RANKED\"/>",
-   "<isTopXPCount rank=\"5\" count=\"14\" topType=\"team\"/>"
-  ],
-  "costUnlock": 0,
-  "id": 3597025200,
-  "index": "PCQT665",
-  "isSingleBattle": false,
-  "lootStars": 3,
-  "name": "PCQT665_Ships",
-  "rewards": [
-   "<Lootbox boxType=\"PCL109_FiveEpochs098_Coll\" count=\"1\"/>"
-  ],
-  "typeinfo": {
-   "nation": "Common",
-   "species": "Task",
-   "type": "Campaign"
-  },
-  "uiCondition": [
-   "IDS_PCQT665_1",
-   "isTopXPCount",
    "IDS_TASKRESTRICTION_STANDART"
   ],
   "unlockMissions": []
@@ -14081,34 +14051,6 @@
   "unlockMissions": [
    "PCQM071"
   ]
- },
- {
-  "backgroundIconID": 68,
-  "conditions": [
-   "<isMyShip shipLevel=\"8,9,10\" class=\"Cruiser\"/>",
-   "<isBattleType battleTypes=\"PVP,RANKED\" />",
-   "<isDamage count=\"1000000\" nation=\"Japan,Germany\"/>"
-  ],
-  "costUnlock": 0,
-  "id": 3735437232,
-  "index": "PCQT533",
-  "isSingleBattle": false,
-  "lootStars": 1,
-  "name": "PCQT533",
-  "rewards": [
-   "<Item idx=\"PCEF010_JC_SignalFlag\" count=\"20\" />"
-  ],
-  "typeinfo": {
-   "nation": "Common",
-   "species": "Task",
-   "type": "Campaign"
-  },
-  "uiCondition": [
-   "IDS_PCQT533_1",
-   "isDamage",
-   "IDS_TASKRESTRICTION_STANDART"
-  ],
-  "unlockMissions": []
  },
  {
   "backgroundIconID": 25,
@@ -20356,6 +20298,36 @@
   "uiNumber": "2"
  },
  {
+  "backgroundIconID": 31,
+  "conditions": [
+   "<isMyShip shipLevel=\"5,6,7,8,9,10\" class = \"Cruiser\" />",
+   "<isBattleType battleTypes=\"PVP,RANKED\" />",
+   "<isPotentialDamage count=\"250000\" />",
+   "<isAlive isAlive=\"true\" />",
+   "<isBattleResult battleResult=\"win\" />"
+  ],
+  "costUnlock": 0,
+  "id": 3838197680,
+  "index": "PCQT435",
+  "isSingleBattle": true,
+  "lootStars": 1,
+  "name": "PCQT435",
+  "rewards": [
+   "<Item idx=\"PCEF007_ID_SignalFlag\" count=\"5\"/>"
+  ],
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Task",
+   "type": "Campaign"
+  },
+  "uiCondition": [
+   "IDS_PCQT435_1",
+   "isPotentialDamage",
+   "IDS_TASKRESTRICTION_CA_PVPRANKED"
+  ],
+  "unlockMissions": []
+ },
+ {
   "backgroundIconID": 0,
   "conditions": [
    "<isMyShip shipLevel=\"5,6,7,8,9,10\" />",
@@ -20683,6 +20655,34 @@
    "type": "Campaign"
   },
   "uiNumber": "5"
+ },
+ {
+  "backgroundIconID": 2,
+  "conditions": [
+   "<isMyShip shipLevel=\"5,6,7,8\"/>",
+   "<isBattleType battleTypes=\"PVP,COOPERATIVE,RANKED\"/>",
+   "<isTopXPCount rank=\"5\" count=\"14\" topType=\"team\"/>"
+  ],
+  "costUnlock": 0,
+  "id": 3597025200,
+  "index": "PCQT665",
+  "isSingleBattle": false,
+  "lootStars": 3,
+  "name": "PCQT665_Ships",
+  "rewards": [
+   "<Lootbox boxType=\"PCL109_FiveEpochs098_Coll\" count=\"1\"/>"
+  ],
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Task",
+   "type": "Campaign"
+  },
+  "uiCondition": [
+   "IDS_PCQT665_1",
+   "isTopXPCount",
+   "IDS_TASKRESTRICTION_STANDART"
+  ],
+  "unlockMissions": []
  },
  {
   "backgroundIconID": 2,

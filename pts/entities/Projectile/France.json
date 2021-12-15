@@ -4,7 +4,7 @@
   "additionalShips": [],
   "affectedByPTZ": true,
   "alertDist": 100,
-  "alphaDamage": 4100.0,
+  "alphaDamage": 5700.0,
   "alphaPiercingHE": 0.0,
   "ammoType": "depthcharge",
   "applyPTZCoeff": true,
@@ -18,9 +18,11 @@
    "SURFACE": 1.0
   },
   "burnProb": 0.23,
-  "damage": 700.0,
+  "damage": 1000.0,
   "depthSplashRadius": 15,
   "directDamage": 0.0,
+  "enemyHitSurfaceEffect": "particles/submarines/Sub_explo_water.xml",
+  "enemyHitUnderwaterEffect": "particles/submarines/Sub_explo_underwater.xml",
   "fallDistance": 20.0,
   "fallTime": 20.0,
   "fallingTimeCoef": 1.0,
@@ -297,7 +299,7 @@
   "additionalShips": [],
   "affectedByPTZ": true,
   "alertDist": 100,
-  "alphaDamage": 3300.0,
+  "alphaDamage": 4600.0,
   "alphaPiercingHE": 0.0,
   "ammoType": "depthcharge",
   "applyPTZCoeff": true,
@@ -311,9 +313,11 @@
    "SURFACE": 1.0
   },
   "burnProb": 0.19,
-  "damage": 600.0,
+  "damage": 800.0,
   "depthSplashRadius": 15,
   "directDamage": 0.0,
+  "enemyHitSurfaceEffect": "particles/submarines/Sub_explo_water.xml",
+  "enemyHitUnderwaterEffect": "particles/submarines/Sub_explo_underwater.xml",
   "fallDistance": 20.0,
   "fallTime": 20.0,
   "fallingTimeCoef": 1.0,
@@ -399,7 +403,7 @@
   "additionalShips": [],
   "affectedByPTZ": true,
   "alertDist": 100,
-  "alphaDamage": 3000.0,
+  "alphaDamage": 6000.0,
   "alphaPiercingHE": 0.0,
   "ammoType": "depthcharge",
   "applyPTZCoeff": true,
@@ -413,9 +417,11 @@
    "SURFACE": 1.0
   },
   "burnProb": 0.17,
-  "damage": 500.0,
-  "depthSplashRadius": 8,
+  "damage": 1000.0,
+  "depthSplashRadius": 10.0,
   "directDamage": 0.0,
+  "enemyHitSurfaceEffect": "particles/submarines/Sub_explo_water.xml",
+  "enemyHitUnderwaterEffect": "particles/submarines/Sub_explo_underwater.xml",
   "fallDistance": 20.0,
   "fallTime": 20.0,
   "fallingTimeCoef": 1.5,
@@ -435,7 +441,20 @@
   "maxDepth": -80,
   "model": "content/gameplay/uk/projectile/depthcharge/BPD006_Depth_Charge_250lb_MkVIII/BPD006_Depth_Charge_250lb_MkVIII.model",
   "name": "PFPD100_depth_113kg",
-  "onHit": {},
+  "onHit": {
+   "CritModuleEffect": {
+    "critProb": 0.5,
+    "critTime": 30.0,
+    "damageTypes": [
+     "depthSplash"
+    ],
+    "hlTypes": [
+     "pinger_gun_hitlocation"
+    ],
+    "onlyRealHits": false,
+    "type": 2
+   }
+  },
   "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
   "parachuteHeightCoeff": 0.75,
   "parachuteTimeCoeff": 0.95,
@@ -443,19 +462,35 @@
   "pointsOfDamage": [
    [
     0,
-    1
+    1.0
    ],
    [
-    0.15,
-    1
+    0.32,
+    1.0
    ],
    [
-    0.151,
-    0.33
+    0.321,
+    0.35
    ],
    [
-    1,
-    0.33
+    0.56,
+    0.35
+   ],
+   [
+    0.561,
+    0.25
+   ],
+   [
+    0.8,
+    0.25
+   ],
+   [
+    0.801,
+    0.0
+   ],
+   [
+    1.0,
+    0.0
    ]
   ],
   "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
@@ -474,11 +509,11 @@
    ]
   ],
   "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
-  "speed": 4.0,
+  "speed": 3.5,
   "speedDeltaRelative": 0.2,
   "splashArmorCoeff": -0.18,
-  "splashCubeSize": 1.01,
-  "timer": 7.0,
+  "splashCubeSize": 20.0,
+  "timer": 4.0,
   "timerDeltaAbsolute": 0.5,
   "tracerAirEffect": "particles/guns/bomb_tracer.xml",
   "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
@@ -2804,7 +2839,7 @@
   "additionalShips": [],
   "affectedByPTZ": true,
   "alertDist": 100,
-  "alphaDamage": 2400.0,
+  "alphaDamage": 3400.0,
   "alphaPiercingHE": 0.0,
   "ammoType": "depthcharge",
   "applyPTZCoeff": true,
@@ -2818,9 +2853,11 @@
    "SURFACE": 1.0
   },
   "burnProb": 0.14,
-  "damage": 500.0,
+  "damage": 600.0,
   "depthSplashRadius": 15,
   "directDamage": 0.0,
+  "enemyHitSurfaceEffect": "particles/submarines/Sub_explo_water.xml",
+  "enemyHitUnderwaterEffect": "particles/submarines/Sub_explo_underwater.xml",
   "fallDistance": 20.0,
   "fallTime": 20.0,
   "fallingTimeCoef": 1.0,
@@ -2906,7 +2943,7 @@
   "additionalShips": [],
   "affectedByPTZ": true,
   "alertDist": 100,
-  "alphaDamage": 4100.0,
+  "alphaDamage": 5700.0,
   "alphaPiercingHE": 0.0,
   "ammoType": "depthcharge",
   "applyPTZCoeff": true,
@@ -2920,9 +2957,11 @@
    "SURFACE": 1.0
   },
   "burnProb": 0.23,
-  "damage": 700.0,
+  "damage": 1000.0,
   "depthSplashRadius": 15,
   "directDamage": 0.0,
+  "enemyHitSurfaceEffect": "particles/submarines/Sub_explo_water.xml",
+  "enemyHitUnderwaterEffect": "particles/submarines/Sub_explo_underwater.xml",
   "fallDistance": 20.0,
   "fallTime": 20.0,
   "fallingTimeCoef": 1.0,
@@ -7644,7 +7683,7 @@
   "additionalShips": [],
   "affectedByPTZ": true,
   "alertDist": 100,
-  "alphaDamage": 2400.0,
+  "alphaDamage": 3400.0,
   "alphaPiercingHE": 0.0,
   "ammoType": "depthcharge",
   "applyPTZCoeff": true,
@@ -7658,9 +7697,11 @@
    "SURFACE": 1.0
   },
   "burnProb": 0.14,
-  "damage": 500.0,
+  "damage": 600.0,
   "depthSplashRadius": 15,
   "directDamage": 0.0,
+  "enemyHitSurfaceEffect": "particles/submarines/Sub_explo_water.xml",
+  "enemyHitUnderwaterEffect": "particles/submarines/Sub_explo_underwater.xml",
   "fallDistance": 20.0,
   "fallTime": 20.0,
   "fallingTimeCoef": 1.0,
@@ -11474,7 +11515,7 @@
   "additionalShips": [],
   "affectedByPTZ": true,
   "alertDist": 100,
-  "alphaDamage": 3300.0,
+  "alphaDamage": 4600.0,
   "alphaPiercingHE": 0.0,
   "ammoType": "depthcharge",
   "applyPTZCoeff": true,
@@ -11488,9 +11529,11 @@
    "SURFACE": 1.0
   },
   "burnProb": 0.19,
-  "damage": 600.0,
+  "damage": 800.0,
   "depthSplashRadius": 15,
   "directDamage": 0.0,
+  "enemyHitSurfaceEffect": "particles/submarines/Sub_explo_water.xml",
+  "enemyHitUnderwaterEffect": "particles/submarines/Sub_explo_underwater.xml",
   "fallDistance": 20.0,
   "fallTime": 20.0,
   "fallingTimeCoef": 1.0,
@@ -12486,7 +12529,7 @@
   "additionalShips": [],
   "affectedByPTZ": true,
   "alertDist": 100,
-  "alphaDamage": 2400.0,
+  "alphaDamage": 3400.0,
   "alphaPiercingHE": 0.0,
   "ammoType": "depthcharge",
   "applyPTZCoeff": true,
@@ -12500,9 +12543,11 @@
    "SURFACE": 1.0
   },
   "burnProb": 0.14,
-  "damage": 500.0,
+  "damage": 600.0,
   "depthSplashRadius": 15,
   "directDamage": 0.0,
+  "enemyHitSurfaceEffect": "particles/submarines/Sub_explo_water.xml",
+  "enemyHitUnderwaterEffect": "particles/submarines/Sub_explo_underwater.xml",
   "fallDistance": 20.0,
   "fallTime": 20.0,
   "fallingTimeCoef": 1.0,
@@ -13041,7 +13086,7 @@
   "additionalShips": [],
   "affectedByPTZ": true,
   "alertDist": 100,
-  "alphaDamage": 2400.0,
+  "alphaDamage": 3400.0,
   "alphaPiercingHE": 0.0,
   "ammoType": "depthcharge",
   "applyPTZCoeff": true,
@@ -13055,9 +13100,11 @@
    "SURFACE": 1.0
   },
   "burnProb": 0.14,
-  "damage": 500.0,
+  "damage": 600.0,
   "depthSplashRadius": 15,
   "directDamage": 0.0,
+  "enemyHitSurfaceEffect": "particles/submarines/Sub_explo_water.xml",
+  "enemyHitUnderwaterEffect": "particles/submarines/Sub_explo_underwater.xml",
   "fallDistance": 20.0,
   "fallTime": 20.0,
   "fallingTimeCoef": 1.0,
@@ -13334,7 +13381,7 @@
   "additionalShips": [],
   "affectedByPTZ": true,
   "alertDist": 100,
-  "alphaDamage": 2400.0,
+  "alphaDamage": 3400.0,
   "alphaPiercingHE": 0.0,
   "ammoType": "depthcharge",
   "applyPTZCoeff": true,
@@ -13348,9 +13395,11 @@
    "SURFACE": 1.0
   },
   "burnProb": 0.14,
-  "damage": 500.0,
+  "damage": 600.0,
   "depthSplashRadius": 15,
   "directDamage": 0.0,
+  "enemyHitSurfaceEffect": "particles/submarines/Sub_explo_water.xml",
+  "enemyHitUnderwaterEffect": "particles/submarines/Sub_explo_underwater.xml",
   "fallDistance": 20.0,
   "fallTime": 20.0,
   "fallingTimeCoef": 1.0,
@@ -16592,7 +16641,7 @@
   "additionalShips": [],
   "affectedByPTZ": true,
   "alertDist": 100,
-  "alphaDamage": 3100.0,
+  "alphaDamage": 6200.0,
   "alphaPiercingHE": 0.0,
   "ammoType": "depthcharge",
   "applyPTZCoeff": true,
@@ -16606,9 +16655,11 @@
    "SURFACE": 1.0
   },
   "burnProb": 0.18,
-  "damage": 500.0,
-  "depthSplashRadius": 8,
+  "damage": 1100.0,
+  "depthSplashRadius": 10.0,
   "directDamage": 0.0,
+  "enemyHitSurfaceEffect": "particles/submarines/Sub_explo_water.xml",
+  "enemyHitUnderwaterEffect": "particles/submarines/Sub_explo_underwater.xml",
   "fallDistance": 20.0,
   "fallTime": 20.0,
   "fallingTimeCoef": 1.5,
@@ -16628,7 +16679,20 @@
   "maxDepth": -80,
   "model": "content/gameplay/usa/projectile/depthcharge/APD008_Depth_Bomb_Mk17_Mod1_325lb/APD008_Depth_Bomb_Mk17_Mod1_325lb.model",
   "name": "PFPD101_depth_147kg",
-  "onHit": {},
+  "onHit": {
+   "CritModuleEffect": {
+    "critProb": 0.5,
+    "critTime": 30.0,
+    "damageTypes": [
+     "depthSplash"
+    ],
+    "hlTypes": [
+     "pinger_gun_hitlocation"
+    ],
+    "onlyRealHits": false,
+    "type": 2
+   }
+  },
   "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
   "parachuteHeightCoeff": 0.75,
   "parachuteTimeCoeff": 0.95,
@@ -16636,19 +16700,35 @@
   "pointsOfDamage": [
    [
     0,
-    1
+    1.0
    ],
    [
-    0.15,
-    1
+    0.32,
+    1.0
    ],
    [
-    0.151,
-    0.33
+    0.321,
+    0.35
    ],
    [
-    1,
-    0.33
+    0.56,
+    0.35
+   ],
+   [
+    0.561,
+    0.25
+   ],
+   [
+    0.8,
+    0.25
+   ],
+   [
+    0.801,
+    0.0
+   ],
+   [
+    1.0,
+    0.0
    ]
   ],
   "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
@@ -16667,11 +16747,11 @@
    ]
   ],
   "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
-  "speed": 4.0,
+  "speed": 3.5,
   "speedDeltaRelative": 0.2,
   "splashArmorCoeff": -0.18,
-  "splashCubeSize": 1.09,
-  "timer": 7.0,
+  "splashCubeSize": 20.0,
+  "timer": 4.0,
   "timerDeltaAbsolute": 0.5,
   "tracerAirEffect": "particles/guns/bomb_tracer.xml",
   "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",

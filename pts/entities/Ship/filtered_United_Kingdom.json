@@ -365,6 +365,9 @@
     "reloadTime": 40.0
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
@@ -374,6 +377,9 @@
     "sigmaCountCoef": 1.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.2
+    },
     "burnNodes": [
      [
       0.6337,
@@ -411,11 +417,23 @@
     "health": 38400.0,
     "maxSpeed": 32.5,
     "rudderTime": 12.92,
+    "size": [
+     186.99,
+     20.22,
+     23.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 680.0,
     "visibilityCoefGKInSmoke": 5.28,
     "visibilityFactor": 11.34,
-    "visibilityFactorByPlane": 7.16
+    "visibilityFactorByPlane": 7.16,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 7.16,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "A_Torpedoes": {
     "timeToChangeAmmo": 10.0,
@@ -971,11 +989,17 @@
     "reloadTime": 40.0
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.8
+    },
     "backwardEngineUpTime": 10.0,
     "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       0.7669,
@@ -1013,11 +1037,23 @@
     "health": 12000.0,
     "maxSpeed": 36.0,
     "rudderTime": 3.92,
+    "size": [
+     98.45,
+     10.5,
+     14.26
+    ],
     "speedCoef": 1.0,
     "turningRadius": 540.0,
     "visibilityCoefGKInSmoke": 2.43,
     "visibilityFactor": 6.84,
-    "visibilityFactorByPlane": 2.69
+    "visibilityFactorByPlane": 2.69,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.69,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -1359,6 +1395,9 @@
     "taperDist": 3500.0
    },
    "AB1_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": -0.1
@@ -1368,6 +1407,9 @@
     "sigmaCountCoef": 1.0
    },
    "AB2_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": 0.0
@@ -1836,6 +1878,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.9334,
@@ -1873,11 +1918,23 @@
     "health": 38600.0,
     "maxSpeed": 22.0,
     "rudderTime": 22.9,
+    "size": [
+     177.1,
+     28.85,
+     33.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 610.0,
     "visibilityCoefGKInSmoke": 12.11,
     "visibilityFactor": 14.4,
-    "visibilityFactorByPlane": 7.97
+    "visibilityFactorByPlane": 7.97,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 7.97,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_ATBA": {
     "AuraFar": {
@@ -2349,6 +2406,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.9001,
@@ -2386,11 +2446,23 @@
     "health": 42700.0,
     "maxSpeed": 22.0,
     "rudderTime": 16.36,
+    "size": [
+     177.1,
+     28.85,
+     33.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 610.0,
     "visibilityCoefGKInSmoke": 12.11,
     "visibilityFactor": 14.4,
-    "visibilityFactorByPlane": 7.97
+    "visibilityFactorByPlane": 7.97,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 7.97,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -2703,11 +2775,17 @@
     "isAA": true
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.8
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       0.8,
@@ -2745,11 +2823,23 @@
     "health": 6450.0,
     "maxSpeed": 19.0,
     "rudderTime": 3.82,
+    "size": [
+     91.28,
+     11.73,
+     12.9
+    ],
     "speedCoef": 1.0,
     "turningRadius": 350.0,
     "visibilityCoefGKInSmoke": 2.21,
     "visibilityFactor": 7.02,
-    "visibilityFactorByPlane": 4.36
+    "visibilityFactorByPlane": 4.36,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 4.36,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -3167,11 +3257,17 @@
     "reloadTime": 40.0
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.8
+    },
     "backwardEngineUpTime": 10.0,
     "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       0.6337,
@@ -3209,11 +3305,23 @@
     "health": 15200.0,
     "maxSpeed": 36.0,
     "rudderTime": 4.7,
+    "size": [
+     114.91,
+     11.12,
+     13.1
+    ],
     "speedCoef": 1.0,
     "turningRadius": 610.0,
     "visibilityCoefGKInSmoke": 2.48,
     "visibilityFactor": 6.97,
-    "visibilityFactorByPlane": 3.12
+    "visibilityFactorByPlane": 3.12,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 3.12,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -3841,11 +3949,17 @@
     "reloadTime": 40.0
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.5005,
@@ -3883,11 +3997,23 @@
     "health": 43300.0,
     "maxSpeed": 33.5,
     "rudderTime": 13.6,
+    "size": [
+     189.5,
+     23.6,
+     23.35
+    ],
     "speedCoef": 1.0,
     "turningRadius": 750.0,
     "visibilityCoefGKInSmoke": 5.4,
     "visibilityFactor": 11.52,
-    "visibilityFactorByPlane": 8.52
+    "visibilityFactorByPlane": 8.52,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 8.52,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -4238,6 +4364,9 @@
     "taperDist": 3000.0
    },
    "AB1_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": -0.095
@@ -4247,6 +4376,9 @@
     "sigmaCountCoef": 1.0
    },
    "AB2_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": 0.0
@@ -4569,6 +4701,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       1.0,
@@ -4606,11 +4741,23 @@
     "health": 33400.0,
     "maxSpeed": 22.5,
     "rudderTime": 21.31,
+    "size": [
+     160.33,
+     25.15,
+     31.5
+    ],
     "speedCoef": 1.0,
     "turningRadius": 560.0,
     "visibilityCoefGKInSmoke": 10.47,
     "visibilityFactor": 13.68,
-    "visibilityFactorByPlane": 6.79
+    "visibilityFactorByPlane": 6.79,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 6.79,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B1_Artillery": {
     "guns": {
@@ -4839,6 +4986,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.9667,
@@ -4876,11 +5026,23 @@
     "health": 38100.0,
     "maxSpeed": 22.5,
     "rudderTime": 15.22,
+    "size": [
+     160.33,
+     25.15,
+     31.5
+    ],
     "speedCoef": 1.0,
     "turningRadius": 560.0,
     "visibilityCoefGKInSmoke": 10.47,
     "visibilityFactor": 13.68,
-    "visibilityFactorByPlane": 6.79
+    "visibilityFactorByPlane": 6.79,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 6.79,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -5408,11 +5570,17 @@
     "taperDist": 4000.0
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.5005,
@@ -5450,11 +5618,23 @@
     "health": 58600.0,
     "maxSpeed": 33.0,
     "rudderTime": 16.26,
+    "size": [
+     226.5,
+     25.71,
+     30.33
+    ],
     "speedCoef": 1.0,
     "turningRadius": 800.0,
     "visibilityCoefGKInSmoke": 9.02,
     "visibilityFactor": 14.04,
-    "visibilityFactorByPlane": 8.73
+    "visibilityFactorByPlane": 8.73,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 8.73,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "A_Torpedoes": {
     "timeToChangeAmmo": 10.0,
@@ -5682,6 +5862,9 @@
     "planeType": "PBAD106_Furious_stock"
    },
    "AB1_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": 0.0
@@ -5884,6 +6067,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       0.8002,
@@ -5921,11 +6107,23 @@
     "health": 42700.0,
     "maxSpeed": 31.5,
     "rudderTime": 22.9,
+    "size": [
+     239.81,
+     34.32,
+     26.01
+    ],
     "speedCoef": 1.0,
     "turningRadius": 1070.0,
     "visibilityCoefGKInSmoke": 1e-06,
     "visibilityFactor": 12.42,
-    "visibilityFactorByPlane": 11.04
+    "visibilityFactorByPlane": 11.04,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 11.04,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_AirDefense": {
     "Med_1": {
@@ -5951,6 +6149,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       0.8002,
@@ -5988,11 +6189,23 @@
     "health": 44100.0,
     "maxSpeed": 31.5,
     "rudderTime": 16.36,
+    "size": [
+     239.81,
+     34.32,
+     26.01
+    ],
     "speedCoef": 1.0,
     "turningRadius": 1070.0,
     "visibilityCoefGKInSmoke": 1e-06,
     "visibilityFactor": 12.42,
-    "visibilityFactorByPlane": 11.04
+    "visibilityFactorByPlane": 11.04,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 11.04,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -6546,11 +6759,17 @@
     "timeFromHeaven": 2.0
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.2
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.2
+    },
     "burnNodes": [
      [
       0.8335,
@@ -6588,11 +6807,23 @@
     "health": 29400.0,
     "maxSpeed": 32.0,
     "rudderTime": 10.98,
+    "size": [
+     174.0,
+     17.78,
+     22.34
+    ],
     "speedCoef": 1.0,
     "turningRadius": 650.0,
     "visibilityCoefGKInSmoke": 6.06,
     "visibilityFactor": 10.98,
-    "visibilityFactorByPlane": 6.44
+    "visibilityFactorByPlane": 6.44,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 6.44,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -7094,11 +7325,17 @@
     "reloadTime": 40.0
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.8
+    },
     "backwardEngineUpTime": 10.0,
     "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       0.5005,
@@ -7136,11 +7373,23 @@
     "health": 20800.0,
     "maxSpeed": 35.0,
     "rudderTime": 6,
+    "size": [
+     114.3,
+     13.1,
+     15.9
+    ],
     "speedCoef": 1.0,
     "turningRadius": 630.0,
     "visibilityCoefGKInSmoke": 2.61,
     "visibilityFactor": 7.6,
-    "visibilityFactorByPlane": 3.46
+    "visibilityFactorByPlane": 3.46,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 3.46,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -7278,739 +7527,6 @@
   "typeinfo": {
    "nation": "United_Kingdom",
    "species": "Destroyer",
-   "type": "Ship"
-  }
- },
- {
-  "ModulesArmaments": {
-   "A1_Artillery": {
-    "guns": {
-     "HP_BGM_1": {
-      "ammoList": [
-       "PBPA076_305MM_HE_DREAD",
-       "PBPA075_305MM_AP_DREAD"
-      ],
-      "barrelDiameter": 0.305,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -130.0,
-       130.0
-      ],
-      "id": 4185515984,
-      "idealDistance": 1000.0,
-      "idealRadius": 12.0,
-      "index": "PBGM104",
-      "minRadius": 2.0,
-      "name": "PBGM104_12in45_MkX",
-      "numBarrels": 2,
-      "position": [
-       1.0,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       3.0,
-       5.0
-      ],
-      "shotDelay": 30.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "United_Kingdom",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_BGM_2": {
-      "ammoList": [
-       "PBPA076_305MM_HE_DREAD",
-       "PBPA075_305MM_AP_DREAD"
-      ],
-      "barrelDiameter": 0.305,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -170.0,
-       0.0
-      ],
-      "id": 4185515984,
-      "idealDistance": 1000.0,
-      "idealRadius": 12.0,
-      "index": "PBGM104",
-      "minRadius": 2.0,
-      "name": "PBGM104_12in45_MkX",
-      "numBarrels": 2,
-      "position": [
-       2.0,
-       2.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       3.0,
-       5.0
-      ],
-      "shotDelay": 30.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "United_Kingdom",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_BGM_3": {
-      "ammoList": [
-       "PBPA076_305MM_HE_DREAD",
-       "PBPA075_305MM_AP_DREAD"
-      ],
-      "barrelDiameter": 0.305,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       0.0,
-       170.0
-      ],
-      "id": 4185515984,
-      "idealDistance": 1000.0,
-      "idealRadius": 12.0,
-      "index": "PBGM104",
-      "minRadius": 2.0,
-      "name": "PBGM104_12in45_MkX",
-      "numBarrels": 2,
-      "position": [
-       2.0,
-       0.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       3.0,
-       5.0
-      ],
-      "shotDelay": 30.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "United_Kingdom",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_BGM_4": {
-      "ammoList": [
-       "PBPA076_305MM_HE_DREAD",
-       "PBPA075_305MM_AP_DREAD"
-      ],
-      "barrelDiameter": 0.305,
-      "deadZone": [
-       [
-        -17.0,
-        17.0
-       ]
-      ],
-      "delim": 0.5,
-      "horizSector": [
-       -140.0,
-       140.0
-      ],
-      "id": 4185515984,
-      "idealDistance": 1000.0,
-      "idealRadius": 12.0,
-      "index": "PBGM104",
-      "minRadius": 2.0,
-      "name": "PBGM104_12in45_MkX",
-      "numBarrels": 2,
-      "position": [
-       4.0,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       3.0,
-       5.0
-      ],
-      "shotDelay": 30.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "United_Kingdom",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_BGM_5": {
-      "ammoList": [
-       "PBPA076_305MM_HE_DREAD",
-       "PBPA075_305MM_AP_DREAD"
-      ],
-      "barrelDiameter": 0.305,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4185515984,
-      "idealDistance": 1000.0,
-      "idealRadius": 12.0,
-      "index": "PBGM104",
-      "minRadius": 2.0,
-      "name": "PBGM104_12in45_MkX",
-      "numBarrels": 2,
-      "position": [
-       5.0,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       3.0,
-       5.0
-      ],
-      "shotDelay": 30.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "United_Kingdom",
-       "species": "Main",
-       "type": "Gun"
-      }
-     }
-    },
-    "maxDist": 13680.0,
-    "normalDistribution": true,
-    "sigmaCount": 1.8,
-    "taperDist": 3000.0
-   },
-   "A_ATBA": {
-    "antiAirAndSecondaries": {
-     "HP_BGS_1": {
-      "ammoList": [
-       "PBPA073_76MM_HE_MK27M1"
-      ],
-      "barrelDiameter": 0.076,
-      "id": 4186367952,
-      "index": "PBGS103",
-      "name": "PBGS103_3in50_QF_12pdr_18cwt",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "United_Kingdom",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_BGS_10": {
-      "ammoList": [
-       "PBPA073_76MM_HE_MK27M1"
-      ],
-      "barrelDiameter": 0.076,
-      "id": 4186367952,
-      "index": "PBGS103",
-      "name": "PBGS103_3in50_QF_12pdr_18cwt",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "United_Kingdom",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_BGS_11": {
-      "ammoList": [
-       "PBPA073_76MM_HE_MK27M1"
-      ],
-      "barrelDiameter": 0.076,
-      "id": 4186367952,
-      "index": "PBGS103",
-      "name": "PBGS103_3in50_QF_12pdr_18cwt",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "United_Kingdom",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_BGS_12": {
-      "ammoList": [
-       "PBPA073_76MM_HE_MK27M1"
-      ],
-      "barrelDiameter": 0.076,
-      "id": 4186367952,
-      "index": "PBGS103",
-      "name": "PBGS103_3in50_QF_12pdr_18cwt",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "United_Kingdom",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_BGS_13": {
-      "ammoList": [
-       "PBPA073_76MM_HE_MK27M1"
-      ],
-      "barrelDiameter": 0.076,
-      "id": 4186367952,
-      "index": "PBGS103",
-      "name": "PBGS103_3in50_QF_12pdr_18cwt",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "United_Kingdom",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_BGS_14": {
-      "ammoList": [
-       "PBPA073_76MM_HE_MK27M1"
-      ],
-      "barrelDiameter": 0.076,
-      "id": 4186367952,
-      "index": "PBGS103",
-      "name": "PBGS103_3in50_QF_12pdr_18cwt",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "United_Kingdom",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_BGS_15": {
-      "ammoList": [
-       "PBPA073_76MM_HE_MK27M1"
-      ],
-      "barrelDiameter": 0.076,
-      "id": 4186367952,
-      "index": "PBGS103",
-      "name": "PBGS103_3in50_QF_12pdr_18cwt",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "United_Kingdom",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_BGS_16": {
-      "ammoList": [
-       "PBPA073_76MM_HE_MK27M1"
-      ],
-      "barrelDiameter": 0.076,
-      "id": 4186367952,
-      "index": "PBGS103",
-      "name": "PBGS103_3in50_QF_12pdr_18cwt",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "United_Kingdom",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_BGS_17": {
-      "ammoList": [
-       "PBPA073_76MM_HE_MK27M1"
-      ],
-      "barrelDiameter": 0.076,
-      "id": 4186367952,
-      "index": "PBGS103",
-      "name": "PBGS103_3in50_QF_12pdr_18cwt",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "United_Kingdom",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_BGS_2": {
-      "ammoList": [
-       "PBPA073_76MM_HE_MK27M1"
-      ],
-      "barrelDiameter": 0.076,
-      "id": 4186367952,
-      "index": "PBGS103",
-      "name": "PBGS103_3in50_QF_12pdr_18cwt",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "United_Kingdom",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_BGS_3": {
-      "ammoList": [
-       "PBPA073_76MM_HE_MK27M1"
-      ],
-      "barrelDiameter": 0.076,
-      "id": 4186367952,
-      "index": "PBGS103",
-      "name": "PBGS103_3in50_QF_12pdr_18cwt",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "United_Kingdom",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_BGS_4": {
-      "ammoList": [
-       "PBPA073_76MM_HE_MK27M1"
-      ],
-      "barrelDiameter": 0.076,
-      "id": 4186367952,
-      "index": "PBGS103",
-      "name": "PBGS103_3in50_QF_12pdr_18cwt",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "United_Kingdom",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_BGS_5": {
-      "ammoList": [
-       "PBPA073_76MM_HE_MK27M1"
-      ],
-      "barrelDiameter": 0.076,
-      "id": 4186367952,
-      "index": "PBGS103",
-      "name": "PBGS103_3in50_QF_12pdr_18cwt",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "United_Kingdom",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_BGS_6": {
-      "ammoList": [
-       "PBPA073_76MM_HE_MK27M1"
-      ],
-      "barrelDiameter": 0.076,
-      "id": 4186367952,
-      "index": "PBGS103",
-      "name": "PBGS103_3in50_QF_12pdr_18cwt",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "United_Kingdom",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_BGS_7": {
-      "ammoList": [
-       "PBPA073_76MM_HE_MK27M1"
-      ],
-      "barrelDiameter": 0.076,
-      "id": 4186367952,
-      "index": "PBGS103",
-      "name": "PBGS103_3in50_QF_12pdr_18cwt",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "United_Kingdom",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_BGS_8": {
-      "ammoList": [
-       "PBPA073_76MM_HE_MK27M1"
-      ],
-      "barrelDiameter": 0.076,
-      "id": 4186367952,
-      "index": "PBGS103",
-      "name": "PBGS103_3in50_QF_12pdr_18cwt",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "United_Kingdom",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_BGS_9": {
-      "ammoList": [
-       "PBPA073_76MM_HE_MK27M1"
-      ],
-      "barrelDiameter": 0.076,
-      "id": 4186367952,
-      "index": "PBGS103",
-      "name": "PBGS103_3in50_QF_12pdr_18cwt",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "United_Kingdom",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     }
-    },
-    "maxDist": 3200.0,
-    "sigmaCount": 1.0
-   },
-   "A_Engine": {
-    "backwardEngineUpTime": 30.0,
-    "forwardEngineUpTime": 60.0,
-    "speedCoef": 0.0
-   },
-   "A_FireControl": {
-    "maxDistCoef": 1.0,
-    "sigmaCountCoef": 1.0
-   },
-   "A_Hull": {
-    "burnNodes": [
-     [
-      0.9667,
-      0.3,
-      60.0
-     ],
-     [
-      0.9667,
-      0.3,
-      60.0
-     ],
-     [
-      0.9667,
-      0.3,
-      60.0
-     ],
-     [
-      0.9667,
-      0.3,
-      60.0
-     ]
-    ],
-    "floodNodes": [
-     [
-      0.29,
-      0.5,
-      40.0
-     ],
-     [
-      0.29,
-      0.5,
-      40.0
-     ]
-    ],
-    "health": 37400.0,
-    "maxSpeed": 21.0,
-    "rudderTime": 15.08,
-    "speedCoef": 1.0,
-    "turningRadius": 520.0,
-    "visibilityCoefGKInSmoke": 9.37,
-    "visibilityFactor": 12.26,
-    "visibilityFactorByPlane": 6.96
-   }
-  },
-  "ShipAbilities": {
-   "AbilitySlot0": {
-    "abils": [
-     [
-      "PCY009_CrashCrewPremium",
-      "B_UK_Germany_Gold"
-     ]
-    ],
-    "slot": 0
-   },
-   "AbilitySlot1": {
-    "abils": [
-     [
-      "PCY010_RegenCrewPremium",
-      "B_Gold"
-     ]
-    ],
-    "slot": 1
-   },
-   "AbilitySlot2": {
-    "abils": [],
-    "slot": 2
-   },
-   "AbilitySlot3": {
-    "abils": [],
-    "slot": 3
-   },
-   "AbilitySlot4": {
-    "abils": [],
-    "slot": 4
-   }
-  },
-  "ShipUpgradeInfo": {
-   "PBUA203_ART_DRED": {
-    "canBuy": true,
-    "components": {
-     "artillery": [
-      "A1_Artillery"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Artillery"
-   },
-   "PBUE203_ENG_DRED": {
-    "canBuy": true,
-    "components": {
-     "engine": [
-      "A_Engine"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Engine"
-   },
-   "PBUH204_DRED": {
-    "canBuy": true,
-    "components": {
-     "airArmament": [],
-     "airDefense": [],
-     "artillery": [
-      "A1_Artillery"
-     ],
-     "atba": [
-      "A_ATBA"
-     ],
-     "depthCharges": [],
-     "directors": [],
-     "finders": [
-      "A_Finders"
-     ],
-     "hull": [
-      "A_Hull"
-     ],
-     "pinger": [],
-     "radars": [],
-     "torpedoes": []
-    },
-    "disabledAbilities": [],
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Hull"
-   },
-   "PBUS204_SUO_DRED": {
-    "canBuy": true,
-    "components": {
-     "fireControl": [
-      "A_FireControl"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Suo"
-   },
-   "costCR": 0,
-   "costGold": 3500,
-   "costSaleGold": 0,
-   "costXP": 0,
-   "value": 1
-  },
-  "group": "special",
-  "id": 3767482320,
-  "index": "PBSB503",
-  "level": 3,
-  "name": "PBSB503_Dreadnought",
-  "typeinfo": {
-   "nation": "United_Kingdom",
-   "species": "Battleship",
    "type": "Ship"
   }
  },
@@ -8321,6 +7837,9 @@
     "reloadTime": 40.0
    },
    "AB_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.8
+    },
     "backwardEngineUpTime": 10.0,
     "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
@@ -8349,6 +7868,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       0.7336,
@@ -8386,11 +7908,23 @@
     "health": 11800.0,
     "maxSpeed": 36.0,
     "rudderTime": 6.36,
+    "size": [
+     108.91,
+     10.87,
+     14.32
+    ],
     "speedCoef": 1.0,
     "turningRadius": 590.0,
     "visibilityCoefGKInSmoke": 2.61,
     "visibilityFactor": 7.3,
-    "visibilityFactorByPlane": 2.98
+    "visibilityFactorByPlane": 2.98,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.98,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_AirDefense": {
     "Medium_1": {
@@ -8416,6 +7950,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       0.7003,
@@ -8453,11 +7990,23 @@
     "health": 14300.0,
     "maxSpeed": 36.0,
     "rudderTime": 4.54,
+    "size": [
+     108.91,
+     10.87,
+     14.32
+    ],
     "speedCoef": 1.0,
     "turningRadius": 590.0,
     "visibilityCoefGKInSmoke": 2.61,
     "visibilityFactor": 7.3,
-    "visibilityFactorByPlane": 2.98
+    "visibilityFactorByPlane": 2.98,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.98,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -8906,6 +8455,9 @@
     "reloadTime": 40.0
    },
    "AB_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.8
+    },
     "backwardEngineUpTime": 10.0,
     "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
@@ -8944,6 +8496,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       0.667,
@@ -8981,11 +8536,23 @@
     "health": 13000.0,
     "maxSpeed": 36,
     "rudderTime": 6.86,
+    "size": [
+     110.6,
+     11.2,
+     14.22
+    ],
     "speedCoef": 1.0,
     "turningRadius": 590.0,
     "visibilityCoefGKInSmoke": 2.5,
     "visibilityFactor": 7.02,
-    "visibilityFactorByPlane": 3.05
+    "visibilityFactorByPlane": 3.05,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 3.05,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "A_Torpedoes": {
     "timeToChangeAmmo": 10.0,
@@ -9094,6 +8661,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       0.6337,
@@ -9131,11 +8701,23 @@
     "health": 15900.0,
     "maxSpeed": 36,
     "rudderTime": 4.9,
+    "size": [
+     110.6,
+     11.2,
+     14.22
+    ],
     "speedCoef": 1.0,
     "turningRadius": 590.0,
     "visibilityCoefGKInSmoke": 2.5,
     "visibilityFactor": 7.02,
-    "visibilityFactorByPlane": 3.05
+    "visibilityFactorByPlane": 3.05,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 3.05,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_Torpedoes": {
     "timeToChangeAmmo": 10.0,
@@ -9625,6 +9207,9 @@
     "planeType": "PBAD506_ARKR_SWORDF"
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": 0.0
@@ -9640,6 +9225,9 @@
     ]
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       0.8002,
@@ -9677,11 +9265,23 @@
     "health": 44500.0,
     "maxSpeed": 31.0,
     "rudderTime": 16.66,
+    "size": [
+     245.54,
+     37.01,
+     33.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 990.0,
     "visibilityCoefGKInSmoke": 1e-06,
     "visibilityFactor": 14.4,
-    "visibilityFactorByPlane": 11.79
+    "visibilityFactorByPlane": 11.79,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 11.79,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "A_TorpedoBomber": {
     "planeType": "PBAB506_ARKR_ALBCORE"
@@ -10209,6 +9809,9 @@
     "taperDist": 4000.0
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": 0.0
@@ -10218,6 +9821,9 @@
     "sigmaCountCoef": 1.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.7669,
@@ -10255,11 +9861,23 @@
     "health": 56100.0,
     "maxSpeed": 31.7,
     "rudderTime": 18.84,
+    "size": [
+     241.35,
+     27.93,
+     29.76
+    ],
     "speedCoef": 1.0,
     "turningRadius": 860.0,
     "visibilityCoefGKInSmoke": 13.19,
     "visibilityFactor": 14.4,
-    "visibilityFactorByPlane": 9.62
+    "visibilityFactorByPlane": 9.62,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 9.62,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -10381,7 +9999,7 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "special",
   "id": 3743365072,
   "index": "PBSB526",
   "level": 6,
@@ -10933,6 +10551,9 @@
     }
    },
    "AB_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.2
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
@@ -10971,6 +10592,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.6
+    },
     "burnNodes": [
      [
       0.9334,
@@ -11008,11 +10632,23 @@
     "health": 18400.0,
     "maxSpeed": 30.0,
     "rudderTime": 11.06,
+    "size": [
+     144.01,
+     14.24,
+     21.7
+    ],
     "speedCoef": 1.0,
     "turningRadius": 590.0,
     "visibilityCoefGKInSmoke": 4.71,
     "visibilityFactor": 10.44,
-    "visibilityFactorByPlane": 4.3
+    "visibilityFactorByPlane": 4.3,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 4.3,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_AirDefense": {
     "AuraMedium": {
@@ -11038,6 +10674,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.6
+    },
     "burnNodes": [
      [
       0.9001,
@@ -11075,11 +10714,23 @@
     "health": 20900.0,
     "maxSpeed": 30.0,
     "rudderTime": 7.9,
+    "size": [
+     144.01,
+     14.24,
+     21.7
+    ],
     "speedCoef": 1.0,
     "turningRadius": 590.0,
     "visibilityCoefGKInSmoke": 4.71,
     "visibilityFactor": 10.44,
-    "visibilityFactorByPlane": 4.3
+    "visibilityFactorByPlane": 4.3,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 4.3,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -11682,6 +11333,9 @@
     "timeFromHeaven": 2.0
    },
    "AB_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
@@ -11710,6 +11364,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.7336,
@@ -11747,11 +11404,23 @@
     "health": 30700.0,
     "maxSpeed": 30.0,
     "rudderTime": 17.11,
+    "size": [
+     182.6,
+     19.65,
+     22.41
+    ],
     "speedCoef": 1.0,
     "turningRadius": 660.0,
     "visibilityCoefGKInSmoke": 6.18,
     "visibilityFactor": 11.16,
-    "visibilityFactorByPlane": 6.26
+    "visibilityFactorByPlane": 6.26,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 6.26,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B1_Artillery": {
     "guns": {
@@ -11937,6 +11606,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.7003,
@@ -11974,11 +11646,23 @@
     "health": 35300.0,
     "maxSpeed": 30.0,
     "rudderTime": 12.22,
+    "size": [
+     182.6,
+     19.65,
+     22.41
+    ],
     "speedCoef": 1.0,
     "turningRadius": 660.0,
     "visibilityCoefGKInSmoke": 6.18,
     "visibilityFactor": 11.16,
-    "visibilityFactorByPlane": 6.26
+    "visibilityFactorByPlane": 6.26,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 6.26,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -12339,6 +12023,9 @@
     "reloadTime": 40
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.8
+    },
     "backwardEngineUpTime": 10.0,
     "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
@@ -12348,6 +12035,9 @@
     "sigmaCountCoef": 1.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       0.5005,
@@ -12385,11 +12075,23 @@
     "health": 25300.0,
     "maxSpeed": 35.0,
     "rudderTime": 7.06,
+    "size": [
+     130.47,
+     14.63,
+     17.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 690.0,
     "visibilityCoefGKInSmoke": 3.19,
     "visibilityFactor": 8.4,
-    "visibilityFactorByPlane": 4.08
+    "visibilityFactorByPlane": 4.08,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 4.08,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -12549,7 +12251,7 @@
       "radiusOnZero": 0.2,
       "rotationSpeed": [
        4.0,
-       10.0
+       10.00001
       ],
       "shotDelay": 30.0,
       "smokePenalty": 0.0001,
@@ -12663,7 +12365,7 @@
       "radiusOnZero": 0.2,
       "rotationSpeed": [
        4.0,
-       10.0
+       10.00001
       ],
       "shotDelay": 30.0,
       "smokePenalty": 0.0001,
@@ -12898,6 +12600,9 @@
     "timeFromHeaven": 2.0
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": 0.0
@@ -12907,6 +12612,9 @@
     "sigmaCountCoef": 1.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.5005,
@@ -12944,11 +12652,23 @@
     "health": 82900.0,
     "maxSpeed": 29.5,
     "rudderTime": 22.64,
+    "size": [
+     268.4,
+     37.0,
+     31.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 940.0,
     "visibilityCoefGKInSmoke": 15.5,
     "visibilityFactor": 15.66,
-    "visibilityFactorByPlane": 12.53
+    "visibilityFactorByPlane": 12.53,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 12.53,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -13196,6 +12916,9 @@
     "taperDist": 4000.0
    },
    "AB1_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": -0.05
@@ -13205,6 +12928,9 @@
     "sigmaCountCoef": 1.0
    },
    "AB2_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": 0.0
@@ -13442,6 +13168,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.7336,
@@ -13479,11 +13208,23 @@
     "health": 53900.0,
     "maxSpeed": 28.0,
     "rudderTime": 27.38,
+    "size": [
+     227.07,
+     31.39,
+     31.2
+    ],
     "speedCoef": 1.0,
     "turningRadius": 790.0,
     "visibilityCoefGKInSmoke": 12.63,
     "visibilityFactor": 14.58,
-    "visibilityFactorByPlane": 10.01
+    "visibilityFactorByPlane": 10.01,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 10.01,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B1_Artillery": {
     "guns": {
@@ -13631,6 +13372,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.7003,
@@ -13668,11 +13412,23 @@
     "health": 60500.0,
     "maxSpeed": 28.0,
     "rudderTime": 19.56,
+    "size": [
+     227.07,
+     31.39,
+     31.2
+    ],
     "speedCoef": 1.0,
     "turningRadius": 790.0,
     "visibilityCoefGKInSmoke": 12.63,
     "visibilityFactor": 14.58,
-    "visibilityFactorByPlane": 10.01
+    "visibilityFactorByPlane": 10.01,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 10.01,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -14238,6 +13994,9 @@
     "sigmaCountCoef": 1.0
    },
    "AB_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.2
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
@@ -14266,6 +14025,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.6
+    },
     "burnNodes": [
      [
       1.0,
@@ -14303,11 +14065,23 @@
     "health": 17500.0,
     "maxSpeed": 29.0,
     "rudderTime": 10.16,
+    "size": [
+     137.26,
+     12.92,
+     21.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 580.0,
     "visibilityCoefGKInSmoke": 4.5,
     "visibilityFactor": 10.08,
-    "visibilityFactorByPlane": 3.89
+    "visibilityFactorByPlane": 3.89,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 3.89,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_AirDefense": {
     "AuraFar": {
@@ -14343,6 +14117,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.6
+    },
     "burnNodes": [
      [
       0.9667,
@@ -14380,11 +14157,23 @@
     "health": 19000.0,
     "maxSpeed": 29.0,
     "rudderTime": 7.26,
+    "size": [
+     137.26,
+     12.92,
+     21.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 580.0,
     "visibilityCoefGKInSmoke": 4.5,
     "visibilityFactor": 10.08,
-    "visibilityFactorByPlane": 3.89
+    "visibilityFactorByPlane": 3.89,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 3.89,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -14861,11 +14650,17 @@
     "timeFromHeaven": 2.0
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.2
+    },
     "burnNodes": [
      [
       0.7003,
@@ -14903,11 +14698,23 @@
     "health": 35700.0,
     "maxSpeed": 32.5,
     "rudderTime": 12.5,
+    "size": [
+     186.99,
+     20.22,
+     23.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 730.0,
     "visibilityCoefGKInSmoke": 5.28,
     "visibilityFactor": 11.34,
-    "visibilityFactorByPlane": 7.16
+    "visibilityFactorByPlane": 7.16,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 7.16,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -15477,6 +15284,9 @@
     "reloadTime": 40.0
    },
    "AB_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.8
+    },
     "backwardEngineUpTime": 10.0,
     "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
@@ -15505,6 +15315,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       0.8002,
@@ -15542,11 +15355,23 @@
     "health": 10000.0,
     "maxSpeed": 35.5,
     "rudderTime": 5.54,
+    "size": [
+     100.1,
+     10.1,
+     13.92
+    ],
     "speedCoef": 1.0,
     "turningRadius": 540.0,
     "visibilityCoefGKInSmoke": 2.43,
     "visibilityFactor": 6.84,
-    "visibilityFactorByPlane": 2.64
+    "visibilityFactorByPlane": 2.64,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.64,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_AirDefense": {
     "Medium_1": {
@@ -15562,6 +15387,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       0.7669,
@@ -15599,11 +15427,23 @@
     "health": 12100.0,
     "maxSpeed": 35.5,
     "rudderTime": 3.96,
+    "size": [
+     100.1,
+     10.1,
+     13.92
+    ],
     "speedCoef": 1.0,
     "turningRadius": 540.0,
     "visibilityCoefGKInSmoke": 2.43,
     "visibilityFactor": 6.84,
-    "visibilityFactorByPlane": 2.64
+    "visibilityFactorByPlane": 2.64,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.64,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -16035,11 +15875,17 @@
     "isAA": true
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.8
+    },
     "backwardEngineUpTime": 10.0,
     "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       0.9667,
@@ -16077,11 +15923,23 @@
     "health": 8900.0,
     "maxSpeed": 35.0,
     "rudderTime": 3.5,
+    "size": [
+     95.8,
+     9.4,
+     14.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 520.0,
     "visibilityCoefGKInSmoke": 2.09,
     "visibilityFactor": 6.66,
-    "visibilityFactorByPlane": 2.45
+    "visibilityFactorByPlane": 2.45,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.45,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -16380,6 +16238,9 @@
     "taperDist": 4000.0
    },
    "AB1_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
@@ -16612,6 +16473,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.4
+    },
     "burnNodes": [
      [
       0.8002,
@@ -16649,11 +16513,23 @@
     "health": 28600.0,
     "maxSpeed": 31.25,
     "rudderTime": 14.31,
+    "size": [
+     191.3,
+     20.25,
+     23.65
+    ],
     "speedCoef": 1.0,
     "turningRadius": 710.0,
     "visibilityCoefGKInSmoke": 6.41,
     "visibilityFactor": 11.52,
-    "visibilityFactorByPlane": 6.6
+    "visibilityFactorByPlane": 6.6,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 6.6,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_AirDefense": {
     "AuraMedium": {
@@ -16679,6 +16555,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.4
+    },
     "burnNodes": [
      [
       0.7669,
@@ -16716,11 +16595,23 @@
     "health": 34400.0,
     "maxSpeed": 31.25,
     "rudderTime": 10.22,
+    "size": [
+     191.3,
+     20.25,
+     23.65
+    ],
     "speedCoef": 1.0,
     "turningRadius": 710.0,
     "visibilityCoefGKInSmoke": 6.41,
     "visibilityFactor": 11.52,
-    "visibilityFactorByPlane": 6.6
+    "visibilityFactorByPlane": 6.6,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 6.6,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -17150,6 +17041,9 @@
     "planeType": "PBAD508_Indomitable_stock"
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": 0.0
@@ -17164,6 +17058,9 @@
     ]
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.8002,
@@ -17201,11 +17098,23 @@
     "health": 51400.0,
     "maxSpeed": 30.5,
     "rudderTime": 17.02,
+    "size": [
+     228.53,
+     35.0,
+     29.96
+    ],
     "speedCoef": 1.0,
     "turningRadius": 970.0,
     "visibilityCoefGKInSmoke": 1e-06,
     "visibilityFactor": 13.5,
-    "visibilityFactorByPlane": 10.58
+    "visibilityFactorByPlane": 10.58,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 10.58,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -17680,6 +17589,9 @@
     "reloadTime": 40.0
    },
    "AB_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
@@ -17860,6 +17772,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.2
+    },
     "burnNodes": [
      [
       0.667,
@@ -17897,11 +17812,23 @@
     "health": 31800.0,
     "maxSpeed": 32.5,
     "rudderTime": 17.5,
+    "size": [
+     186.99,
+     20.22,
+     24.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 730.0,
     "visibilityCoefGKInSmoke": 5.52,
     "visibilityFactor": 11.7,
-    "visibilityFactorByPlane": 7.16
+    "visibilityFactorByPlane": 7.16,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 7.16,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B1_Artillery": {
     "guns": {
@@ -18235,6 +18162,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.2
+    },
     "burnNodes": [
      [
       0.6337,
@@ -18272,11 +18202,23 @@
     "health": 36400.0,
     "maxSpeed": 32.5,
     "rudderTime": 12.5,
+    "size": [
+     186.99,
+     20.22,
+     24.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 730.0,
     "visibilityCoefGKInSmoke": 5.52,
     "visibilityFactor": 11.7,
-    "visibilityFactorByPlane": 7.16
+    "visibilityFactorByPlane": 7.16,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 7.16,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -18661,6 +18603,9 @@
     "taperDist": 4000.0
    },
    "A1_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": 0.0
@@ -18888,6 +18833,9 @@
     "timeFromHeaven": 2.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.6337,
@@ -18925,11 +18873,23 @@
     "health": 71700.0,
     "maxSpeed": 30.0,
     "rudderTime": 12.72,
+    "size": [
+     248.6,
+     32.87,
+     31.2
+    ],
     "speedCoef": 1.0,
     "turningRadius": 850.0,
     "visibilityCoefGKInSmoke": 14.73,
     "visibilityFactor": 16.04,
-    "visibilityFactorByPlane": 10.97
+    "visibilityFactorByPlane": 10.97,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 10.97,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -19478,6 +19438,9 @@
     "taperDist": 4000.0
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
@@ -19487,6 +19450,9 @@
     "sigmaCountCoef": 1.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.5005,
@@ -19524,11 +19490,23 @@
     "health": 70000.0,
     "maxSpeed": 33.0,
     "rudderTime": 20.94,
+    "size": [
+     301.86,
+     31.85,
+     25.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 1160.0,
     "visibilityCoefGKInSmoke": 16.44,
     "visibilityFactor": 13.5,
-    "visibilityFactorByPlane": 12.27
+    "visibilityFactorByPlane": 12.27,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 12.27,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "A_Torpedoes": {
     "timeToChangeAmmo": 10.0,
@@ -19747,7 +19725,7 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "ultimate",
   "id": 3655284688,
   "index": "PBSB610",
   "level": 10,
@@ -20374,6 +20352,9 @@
     "reloadTime": 40.0
    },
    "AB_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.2
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
@@ -20491,6 +20472,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.6
+    },
     "burnNodes": [
      [
       0.8668,
@@ -20528,11 +20512,23 @@
     "health": 24000.0,
     "maxSpeed": 33.0,
     "rudderTime": 14.22,
+    "size": [
+     173.73,
+     16.6,
+     24.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 730.0,
     "visibilityCoefGKInSmoke": 4.56,
     "visibilityFactor": 10.18,
-    "visibilityFactorByPlane": 5.4
+    "visibilityFactorByPlane": 5.4,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 5.4,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B1_Torpedoes": {
     "timeToChangeAmmo": 10.0,
@@ -20937,6 +20933,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.6
+    },
     "burnNodes": [
      [
       0.8335,
@@ -20974,11 +20973,23 @@
     "health": 27100.0,
     "maxSpeed": 33.0,
     "rudderTime": 10.16,
+    "size": [
+     173.73,
+     16.6,
+     24.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 730.0,
     "visibilityCoefGKInSmoke": 4.56,
     "visibilityFactor": 10.18,
-    "visibilityFactorByPlane": 5.4
+    "visibilityFactorByPlane": 5.4,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 5.4,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -21676,6 +21687,9 @@
     "taperDist": 4000.0
    },
    "EngineDefault": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": 0.0
@@ -21685,6 +21699,9 @@
     "sigmaCountCoef": 1.0
    },
    "HullDefault": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.7669,
@@ -21722,11 +21739,23 @@
     "health": 53800.0,
     "maxSpeed": 23.5,
     "rudderTime": 18.48,
+    "size": [
+     196.42,
+     31.72,
+     32.2
+    ],
     "speedCoef": 1.0,
     "turningRadius": 550.0,
     "visibilityCoefGKInSmoke": 13.03,
     "visibilityFactor": 14.22,
-    "visibilityFactorByPlane": 9.12
+    "visibilityFactorByPlane": 9.12,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 9.12,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -21862,6 +21891,9 @@
     "planeType": "PBAD108_Implacable_stock"
    },
    "AB1_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": 0.0
@@ -22116,6 +22148,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.8002,
@@ -22153,11 +22188,23 @@
     "health": 49300.0,
     "maxSpeed": 32.0,
     "rudderTime": 24.58,
+    "size": [
+     277.2,
+     39.99,
+     41.64
+    ],
     "speedCoef": 1.0,
     "turningRadius": 950.0,
     "visibilityCoefGKInSmoke": 1e-06,
     "visibilityFactor": 14.96,
-    "visibilityFactorByPlane": 11.51
+    "visibilityFactorByPlane": 11.51,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 11.51,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_AirDefense": {
     "Med_1": {
@@ -22183,6 +22230,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.8002,
@@ -22220,11 +22270,23 @@
     "health": 52200.0,
     "maxSpeed": 32.0,
     "rudderTime": 17.56,
+    "size": [
+     277.2,
+     39.99,
+     41.64
+    ],
     "speedCoef": 1.0,
     "turningRadius": 950.0,
     "visibilityCoefGKInSmoke": 1e-06,
     "visibilityFactor": 14.96,
-    "visibilityFactorByPlane": 11.51
+    "visibilityFactorByPlane": 11.51,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 11.51,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -22777,6 +22839,9 @@
     "reloadTime": 40.0
    },
    "AB_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
@@ -22925,6 +22990,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.4
+    },
     "burnNodes": [
      [
       0.8002,
@@ -22962,11 +23030,23 @@
     "health": 24500.0,
     "maxSpeed": 32.5,
     "rudderTime": 14.31,
+    "size": [
+     168.93,
+     16.81,
+     19.9
+    ],
     "speedCoef": 1.0,
     "turningRadius": 710.0,
     "visibilityCoefGKInSmoke": 4.6,
     "visibilityFactor": 10.26,
-    "visibilityFactorByPlane": 6.44
+    "visibilityFactorByPlane": 6.44,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 6.44,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B1_Artillery": {
     "guns": {
@@ -23258,6 +23338,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.4
+    },
     "burnNodes": [
      [
       0.7669,
@@ -23295,11 +23378,23 @@
     "health": 28700.0,
     "maxSpeed": 32.5,
     "rudderTime": 10.22,
+    "size": [
+     168.93,
+     16.81,
+     19.9
+    ],
     "speedCoef": 1.0,
     "turningRadius": 710.0,
     "visibilityCoefGKInSmoke": 4.6,
     "visibilityFactor": 10.26,
-    "visibilityFactorByPlane": 6.44
+    "visibilityFactorByPlane": 6.44,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 6.44,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -24465,6 +24560,9 @@
     "taperDist": 4000.0
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": 0.0
@@ -24474,6 +24572,9 @@
     "sigmaCountCoef": 1.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.8335,
@@ -24511,11 +24612,23 @@
     "health": 48400.0,
     "maxSpeed": 22.0,
     "rudderTime": 17.5,
+    "size": [
+     203.28,
+     28.53,
+     24.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 670.0,
     "visibilityCoefGKInSmoke": 9.35,
     "visibilityFactor": 12.24,
-    "visibilityFactorByPlane": 8.7
+    "visibilityFactorByPlane": 8.7,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 8.7,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -24971,6 +25084,9 @@
     "sigmaCountCoef": 1.0
    },
    "AB_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.2
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
@@ -24989,6 +25105,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.4
+    },
     "burnNodes": [
      [
       1.0,
@@ -25026,11 +25145,23 @@
     "health": 19100.0,
     "maxSpeed": 26.0,
     "rudderTime": 10.75,
+    "size": [
+     138.1,
+     14.78,
+     21.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 560.0,
     "visibilityCoefGKInSmoke": 4.6,
     "visibilityFactor": 10.26,
-    "visibilityFactorByPlane": 4.27
+    "visibilityFactorByPlane": 4.27,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 4.27,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_AirDefense": {
     "AuraFar": {
@@ -25056,6 +25187,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.4
+    },
     "burnNodes": [
      [
       1.0,
@@ -25093,11 +25227,23 @@
     "health": 20300.0,
     "maxSpeed": 26.0,
     "rudderTime": 7.68,
+    "size": [
+     138.1,
+     14.78,
+     21.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 560.0,
     "visibilityCoefGKInSmoke": 4.6,
     "visibilityFactor": 10.26,
-    "visibilityFactorByPlane": 4.27
+    "visibilityFactorByPlane": 4.27,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 4.27,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -25264,6 +25410,9 @@
     "planeType": "PBAD110_Audacious_stock"
    },
    "A1_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 30.0,
     "speedCoef": 0.0
@@ -25498,6 +25647,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.8002,
@@ -25535,11 +25687,23 @@
     "health": 63400.0,
     "maxSpeed": 32.0,
     "rudderTime": 20.44,
+    "size": [
+     232.83,
+     41.35,
+     29.02
+    ],
     "speedCoef": 1.0,
     "turningRadius": 1040.0,
     "visibilityCoefGKInSmoke": 1e-06,
     "visibilityFactor": 14.76,
-    "visibilityFactorByPlane": 11.22
+    "visibilityFactorByPlane": 11.22,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 11.22,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -25843,6 +26007,9 @@
     "taperDist": 4000.0
    },
    "A1_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": 0.0
@@ -26164,6 +26331,9 @@
     "timeFromHeaven": 2.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.7003,
@@ -26201,11 +26371,23 @@
     "health": 59400.0,
     "maxSpeed": 24.0,
     "rudderTime": 19.4,
+    "size": [
+     216.55,
+     32.33,
+     34.3
+    ],
     "speedCoef": 1.0,
     "turningRadius": 750.0,
     "visibilityCoefGKInSmoke": 14.76,
     "visibilityFactor": 15.3,
-    "visibilityFactorByPlane": 9.89
+    "visibilityFactorByPlane": 9.89,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 9.89,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -26322,6 +26504,757 @@
   "index": "PBSB517",
   "level": 7,
   "name": "PBSB517_Nelson",
+  "typeinfo": {
+   "nation": "United_Kingdom",
+   "species": "Battleship",
+   "type": "Ship"
+  }
+ },
+ {
+  "ModulesArmaments": {
+   "A1_Artillery": {
+    "guns": {
+     "HP_BGM_1": {
+      "ammoList": [
+       "PBPA076_305MM_HE_DREAD",
+       "PBPA075_305MM_AP_DREAD"
+      ],
+      "barrelDiameter": 0.305,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -130.0,
+       130.0
+      ],
+      "id": 4185515984,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PBGM104",
+      "minRadius": 2.0,
+      "name": "PBGM104_12in45_MkX",
+      "numBarrels": 2,
+      "position": [
+       1.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       3.0,
+       5.0
+      ],
+      "shotDelay": 30.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "United_Kingdom",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_BGM_2": {
+      "ammoList": [
+       "PBPA076_305MM_HE_DREAD",
+       "PBPA075_305MM_AP_DREAD"
+      ],
+      "barrelDiameter": 0.305,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -170.0,
+       0.0
+      ],
+      "id": 4185515984,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PBGM104",
+      "minRadius": 2.0,
+      "name": "PBGM104_12in45_MkX",
+      "numBarrels": 2,
+      "position": [
+       2.0,
+       2.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       3.0,
+       5.0
+      ],
+      "shotDelay": 30.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "United_Kingdom",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_BGM_3": {
+      "ammoList": [
+       "PBPA076_305MM_HE_DREAD",
+       "PBPA075_305MM_AP_DREAD"
+      ],
+      "barrelDiameter": 0.305,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       0.0,
+       170.0
+      ],
+      "id": 4185515984,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PBGM104",
+      "minRadius": 2.0,
+      "name": "PBGM104_12in45_MkX",
+      "numBarrels": 2,
+      "position": [
+       2.0,
+       0.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       3.0,
+       5.0
+      ],
+      "shotDelay": 30.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "United_Kingdom",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_BGM_4": {
+      "ammoList": [
+       "PBPA076_305MM_HE_DREAD",
+       "PBPA075_305MM_AP_DREAD"
+      ],
+      "barrelDiameter": 0.305,
+      "deadZone": [
+       [
+        -17.0,
+        17.0
+       ]
+      ],
+      "delim": 0.5,
+      "horizSector": [
+       -140.0,
+       140.0
+      ],
+      "id": 4185515984,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PBGM104",
+      "minRadius": 2.0,
+      "name": "PBGM104_12in45_MkX",
+      "numBarrels": 2,
+      "position": [
+       4.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       3.0,
+       5.0
+      ],
+      "shotDelay": 30.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "United_Kingdom",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_BGM_5": {
+      "ammoList": [
+       "PBPA076_305MM_HE_DREAD",
+       "PBPA075_305MM_AP_DREAD"
+      ],
+      "barrelDiameter": 0.305,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4185515984,
+      "idealDistance": 1000.0,
+      "idealRadius": 12.0,
+      "index": "PBGM104",
+      "minRadius": 2.0,
+      "name": "PBGM104_12in45_MkX",
+      "numBarrels": 2,
+      "position": [
+       5.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       3.0,
+       5.0
+      ],
+      "shotDelay": 30.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "United_Kingdom",
+       "species": "Main",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 13680.0,
+    "normalDistribution": true,
+    "sigmaCount": 1.8,
+    "taperDist": 3000.0
+   },
+   "A_ATBA": {
+    "antiAirAndSecondaries": {
+     "HP_BGS_1": {
+      "ammoList": [
+       "PBPA073_76MM_HE_MK27M1"
+      ],
+      "barrelDiameter": 0.076,
+      "id": 4186367952,
+      "index": "PBGS103",
+      "name": "PBGS103_3in50_QF_12pdr_18cwt",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "United_Kingdom",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_BGS_10": {
+      "ammoList": [
+       "PBPA073_76MM_HE_MK27M1"
+      ],
+      "barrelDiameter": 0.076,
+      "id": 4186367952,
+      "index": "PBGS103",
+      "name": "PBGS103_3in50_QF_12pdr_18cwt",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "United_Kingdom",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_BGS_11": {
+      "ammoList": [
+       "PBPA073_76MM_HE_MK27M1"
+      ],
+      "barrelDiameter": 0.076,
+      "id": 4186367952,
+      "index": "PBGS103",
+      "name": "PBGS103_3in50_QF_12pdr_18cwt",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "United_Kingdom",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_BGS_12": {
+      "ammoList": [
+       "PBPA073_76MM_HE_MK27M1"
+      ],
+      "barrelDiameter": 0.076,
+      "id": 4186367952,
+      "index": "PBGS103",
+      "name": "PBGS103_3in50_QF_12pdr_18cwt",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "United_Kingdom",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_BGS_13": {
+      "ammoList": [
+       "PBPA073_76MM_HE_MK27M1"
+      ],
+      "barrelDiameter": 0.076,
+      "id": 4186367952,
+      "index": "PBGS103",
+      "name": "PBGS103_3in50_QF_12pdr_18cwt",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "United_Kingdom",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_BGS_14": {
+      "ammoList": [
+       "PBPA073_76MM_HE_MK27M1"
+      ],
+      "barrelDiameter": 0.076,
+      "id": 4186367952,
+      "index": "PBGS103",
+      "name": "PBGS103_3in50_QF_12pdr_18cwt",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "United_Kingdom",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_BGS_15": {
+      "ammoList": [
+       "PBPA073_76MM_HE_MK27M1"
+      ],
+      "barrelDiameter": 0.076,
+      "id": 4186367952,
+      "index": "PBGS103",
+      "name": "PBGS103_3in50_QF_12pdr_18cwt",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "United_Kingdom",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_BGS_16": {
+      "ammoList": [
+       "PBPA073_76MM_HE_MK27M1"
+      ],
+      "barrelDiameter": 0.076,
+      "id": 4186367952,
+      "index": "PBGS103",
+      "name": "PBGS103_3in50_QF_12pdr_18cwt",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "United_Kingdom",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_BGS_17": {
+      "ammoList": [
+       "PBPA073_76MM_HE_MK27M1"
+      ],
+      "barrelDiameter": 0.076,
+      "id": 4186367952,
+      "index": "PBGS103",
+      "name": "PBGS103_3in50_QF_12pdr_18cwt",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "United_Kingdom",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_BGS_2": {
+      "ammoList": [
+       "PBPA073_76MM_HE_MK27M1"
+      ],
+      "barrelDiameter": 0.076,
+      "id": 4186367952,
+      "index": "PBGS103",
+      "name": "PBGS103_3in50_QF_12pdr_18cwt",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "United_Kingdom",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_BGS_3": {
+      "ammoList": [
+       "PBPA073_76MM_HE_MK27M1"
+      ],
+      "barrelDiameter": 0.076,
+      "id": 4186367952,
+      "index": "PBGS103",
+      "name": "PBGS103_3in50_QF_12pdr_18cwt",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "United_Kingdom",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_BGS_4": {
+      "ammoList": [
+       "PBPA073_76MM_HE_MK27M1"
+      ],
+      "barrelDiameter": 0.076,
+      "id": 4186367952,
+      "index": "PBGS103",
+      "name": "PBGS103_3in50_QF_12pdr_18cwt",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "United_Kingdom",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_BGS_5": {
+      "ammoList": [
+       "PBPA073_76MM_HE_MK27M1"
+      ],
+      "barrelDiameter": 0.076,
+      "id": 4186367952,
+      "index": "PBGS103",
+      "name": "PBGS103_3in50_QF_12pdr_18cwt",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "United_Kingdom",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_BGS_6": {
+      "ammoList": [
+       "PBPA073_76MM_HE_MK27M1"
+      ],
+      "barrelDiameter": 0.076,
+      "id": 4186367952,
+      "index": "PBGS103",
+      "name": "PBGS103_3in50_QF_12pdr_18cwt",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "United_Kingdom",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_BGS_7": {
+      "ammoList": [
+       "PBPA073_76MM_HE_MK27M1"
+      ],
+      "barrelDiameter": 0.076,
+      "id": 4186367952,
+      "index": "PBGS103",
+      "name": "PBGS103_3in50_QF_12pdr_18cwt",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "United_Kingdom",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_BGS_8": {
+      "ammoList": [
+       "PBPA073_76MM_HE_MK27M1"
+      ],
+      "barrelDiameter": 0.076,
+      "id": 4186367952,
+      "index": "PBGS103",
+      "name": "PBGS103_3in50_QF_12pdr_18cwt",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "United_Kingdom",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_BGS_9": {
+      "ammoList": [
+       "PBPA073_76MM_HE_MK27M1"
+      ],
+      "barrelDiameter": 0.076,
+      "id": 4186367952,
+      "index": "PBGS103",
+      "name": "PBGS103_3in50_QF_12pdr_18cwt",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "United_Kingdom",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 3200.0,
+    "sigmaCount": 1.0
+   },
+   "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
+    "backwardEngineUpTime": 30.0,
+    "forwardEngineUpTime": 60.0,
+    "speedCoef": 0.0
+   },
+   "A_FireControl": {
+    "maxDistCoef": 1.0,
+    "sigmaCountCoef": 1.0
+   },
+   "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
+    "burnNodes": [
+     [
+      0.9667,
+      0.3,
+      60.0
+     ],
+     [
+      0.9667,
+      0.3,
+      60.0
+     ],
+     [
+      0.9667,
+      0.3,
+      60.0
+     ],
+     [
+      0.9667,
+      0.3,
+      60.0
+     ]
+    ],
+    "floodNodes": [
+     [
+      0.29,
+      0.5,
+      40.0
+     ],
+     [
+      0.29,
+      0.5,
+      40.0
+     ]
+    ],
+    "health": 37400.0,
+    "maxSpeed": 21.0,
+    "rudderTime": 15.08,
+    "size": [
+     158.93,
+     26.34,
+     19.78
+    ],
+    "speedCoef": 1.0,
+    "turningRadius": 520.0,
+    "visibilityCoefGKInSmoke": 9.37,
+    "visibilityFactor": 12.26,
+    "visibilityFactorByPlane": 6.96,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 6.96,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
+   }
+  },
+  "ShipAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY009_CrashCrewPremium",
+      "B_UK_Germany_Gold"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY010_RegenCrewPremium",
+      "B_Gold"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "ShipUpgradeInfo": {
+   "PBUA203_ART_DRED": {
+    "canBuy": true,
+    "components": {
+     "artillery": [
+      "A1_Artillery"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Artillery"
+   },
+   "PBUE203_ENG_DRED": {
+    "canBuy": true,
+    "components": {
+     "engine": [
+      "A_Engine"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Engine"
+   },
+   "PBUH204_DRED": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [],
+     "airDefense": [],
+     "artillery": [
+      "A1_Artillery"
+     ],
+     "atba": [
+      "A_ATBA"
+     ],
+     "depthCharges": [],
+     "directors": [],
+     "finders": [
+      "A_Finders"
+     ],
+     "hull": [
+      "A_Hull"
+     ],
+     "pinger": [],
+     "radars": [],
+     "torpedoes": []
+    },
+    "disabledAbilities": [],
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Hull"
+   },
+   "PBUS204_SUO_DRED": {
+    "canBuy": true,
+    "components": {
+     "fireControl": [
+      "A_FireControl"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Suo"
+   },
+   "costCR": 0,
+   "costGold": 3500,
+   "costSaleGold": 0,
+   "costXP": 0,
+   "value": 1
+  },
+  "group": "special",
+  "id": 3767482320,
+  "index": "PBSB503",
+  "level": 3,
+  "name": "PBSB503_Dreadnought",
   "typeinfo": {
    "nation": "United_Kingdom",
    "species": "Battleship",
@@ -26541,7 +27474,7 @@
       "deadZone": [
        [
         134.0,
-        -136.0
+        -134.0
        ]
       ],
       "delim": 0.5,
@@ -26698,6 +27631,9 @@
     "reloadTime": 40.0
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
@@ -26707,6 +27643,9 @@
     "sigmaCountCoef": 1.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.2
+    },
     "burnNodes": [
      [
       0.7669,
@@ -26744,11 +27683,23 @@
     "health": 23600.0,
     "maxSpeed": 32.3,
     "rudderTime": 8.5,
+    "size": [
+     156.01,
+     15.51,
+     17.87
+    ],
     "speedCoef": 1.0,
     "turningRadius": 580.0,
     "visibilityCoefGKInSmoke": 3.86,
     "visibilityFactor": 9.54,
-    "visibilityFactorByPlane": 5.78
+    "visibilityFactorByPlane": 5.78,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 5.78,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "A_Torpedoes": {
     "timeToChangeAmmo": 10.0,
@@ -26965,6 +27916,9 @@
     "planeType": "PBAD104_Hermes_stock"
    },
    "AB1_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.6
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": 0.0
@@ -27201,6 +28155,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       0.8002,
@@ -27238,13 +28195,28 @@
     "health": 32200.0,
     "maxSpeed": 25.0,
     "rudderTime": 17.47,
+    "size": [
+     183.1,
+     29.24,
+     26.13
+    ],
     "speedCoef": 1.0,
     "turningRadius": 750.0,
     "visibilityCoefGKInSmoke": 1e-06,
     "visibilityFactor": 12.06,
-    "visibilityFactorByPlane": 8.23
+    "visibilityFactorByPlane": 8.23,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 8.23,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       0.8002,
@@ -27282,11 +28254,23 @@
     "health": 33200.0,
     "maxSpeed": 25.0,
     "rudderTime": 12.48,
+    "size": [
+     183.1,
+     29.24,
+     26.13
+    ],
     "speedCoef": 1.0,
     "turningRadius": 750.0,
     "visibilityCoefGKInSmoke": 1e-06,
     "visibilityFactor": 12.06,
-    "visibilityFactorByPlane": 8.23
+    "visibilityFactorByPlane": 8.23,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 8.23,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -28184,6 +29168,9 @@
     "reloadTime": 40
    },
    "AB_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
@@ -28212,6 +29199,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.6004,
@@ -28249,11 +29239,23 @@
     "health": 39900.0,
     "maxSpeed": 33.5,
     "rudderTime": 19.71,
+    "size": [
+     201.18,
+     22.26,
+     27.9
+    ],
     "speedCoef": 1.0,
     "turningRadius": 790.0,
     "visibilityCoefGKInSmoke": 6.58,
     "visibilityFactor": 13.14,
-    "visibilityFactorByPlane": 8.52
+    "visibilityFactorByPlane": 8.52,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 8.52,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_AirDefense": {
     "AuraMedium": {
@@ -28279,6 +29281,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.5671,
@@ -28316,11 +29321,23 @@
     "health": 44900.0,
     "maxSpeed": 33.5,
     "rudderTime": 14.08,
+    "size": [
+     201.18,
+     22.26,
+     27.9
+    ],
     "speedCoef": 1.0,
     "turningRadius": 790.0,
     "visibilityCoefGKInSmoke": 6.58,
     "visibilityFactor": 13.14,
-    "visibilityFactorByPlane": 8.52
+    "visibilityFactorByPlane": 8.52,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 8.52,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -28794,11 +29811,17 @@
     "isAA": true
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.8
+    },
     "backwardEngineUpTime": 10.0,
     "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       0.8335,
@@ -28836,11 +29859,23 @@
     "health": 11200.0,
     "maxSpeed": 31.0,
     "rudderTime": 3.78,
+    "size": [
+     10.0,
+     2.0,
+     1.5
+    ],
     "speedCoef": 1.0,
     "turningRadius": 540.0,
     "visibilityCoefGKInSmoke": 1e-06,
     "visibilityFactor": 6.66,
-    "visibilityFactorByPlane": 2.57
+    "visibilityFactorByPlane": 2.57,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.57,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -29362,9 +30397,12 @@
     "maxDist": 20860.0,
     "normalDistribution": true,
     "sigmaCount": 1.4,
-    "taperDist": 4000.0
+    "taperDist": 5000.0
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": 0.0
@@ -29374,6 +30412,9 @@
     "sigmaCountCoef": 1.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.5671,
@@ -29411,11 +30452,23 @@
     "health": 76800.0,
     "maxSpeed": 31.5,
     "rudderTime": 21.88,
+    "size": [
+     248.52,
+     31.95,
+     29.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 860.0,
     "visibilityCoefGKInSmoke": 13.35,
     "visibilityFactor": 15.36,
-    "visibilityFactorByPlane": 11.94
+    "visibilityFactorByPlane": 11.94,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 11.94,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -29527,7 +30580,7 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "special",
   "id": 3761190864,
   "index": "PBSB509",
   "level": 9,
@@ -29541,6 +30594,9 @@
  {
   "ModulesArmaments": {
    "AB1_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
@@ -29937,6 +30993,9 @@
     "taperDist": 4000.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.667,
@@ -29974,11 +31033,23 @@
     "health": 39400.0,
     "maxSpeed": 33.0,
     "rudderTime": 19.6,
+    "size": [
+     201.0,
+     24.16,
+     26.06
+    ],
     "speedCoef": 1.0,
     "turningRadius": 720.0,
     "visibilityCoefGKInSmoke": 7.05,
     "visibilityFactor": 12.42,
-    "visibilityFactorByPlane": 7.7
+    "visibilityFactorByPlane": 7.7,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 7.7,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_AirDefense": {
     "AuraMedium": {
@@ -30126,6 +31197,9 @@
     "taperDist": 4000.0
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.6337,
@@ -30163,11 +31237,23 @@
     "health": 43800.0,
     "maxSpeed": 33.0,
     "rudderTime": 14,
+    "size": [
+     201.0,
+     24.16,
+     26.06
+    ],
     "speedCoef": 1.0,
     "turningRadius": 720.0,
     "visibilityCoefGKInSmoke": 7.05,
     "visibilityFactor": 12.42,
-    "visibilityFactorByPlane": 7.7
+    "visibilityFactorByPlane": 7.7,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 7.7,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -30601,11 +31687,17 @@
     "sigmaCountCoef": 1.0
    },
    "AB_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.8
+    },
     "backwardEngineUpTime": 10.0,
     "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       1.0,
@@ -30643,11 +31735,23 @@
     "health": 8000.0,
     "maxSpeed": 32.0,
     "rudderTime": 4.2,
+    "size": [
+     80,
+     8,
+     9.3
+    ],
     "speedCoef": 1.0,
     "turningRadius": 460.0,
     "visibilityCoefGKInSmoke": 2.0,
     "visibilityFactor": 5.4,
-    "visibilityFactorByPlane": 1.94
+    "visibilityFactorByPlane": 1.94,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 1.94,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B1_Artillery": {
     "guns": {
@@ -30800,6 +31904,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       1.0,
@@ -30837,11 +31944,23 @@
     "health": 8700.0,
     "maxSpeed": 32.0,
     "rudderTime": 3,
+    "size": [
+     80.0,
+     8.0,
+     9.3
+    ],
     "speedCoef": 1.0,
     "turningRadius": 460.0,
     "visibilityCoefGKInSmoke": 2.0,
     "visibilityFactor": 5.4,
-    "visibilityFactorByPlane": 1.94
+    "visibilityFactorByPlane": 1.94,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 1.94,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -31317,11 +32436,17 @@
     "reloadTime": 40.0
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.8
+    },
     "backwardEngineUpTime": 10.0,
     "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       0.6337,
@@ -31359,11 +32484,23 @@
     "health": 15200.0,
     "maxSpeed": 36.0,
     "rudderTime": 4.7,
+    "size": [
+     114.91,
+     11.12,
+     13.1
+    ],
     "speedCoef": 1.0,
     "turningRadius": 610.0,
     "visibilityCoefGKInSmoke": 2.48,
     "visibilityFactor": 6.97,
-    "visibilityFactorByPlane": 3.12
+    "visibilityFactorByPlane": 3.12,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 3.12,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -31667,6 +32804,9 @@
     "taperDist": 4000.0
    },
    "AB1_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.8
+    },
     "backwardEngineUpTime": 10.0,
     "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
@@ -31928,6 +33068,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       0.8668,
@@ -31965,11 +33108,23 @@
     "health": 9500.0,
     "maxSpeed": 35.0,
     "rudderTime": 5.29,
+    "size": [
+     98.45,
+     9.82,
+     13.83
+    ],
     "speedCoef": 1.0,
     "turningRadius": 540.0,
     "visibilityCoefGKInSmoke": 2.43,
     "visibilityFactor": 6.84,
-    "visibilityFactorByPlane": 2.57
+    "visibilityFactorByPlane": 2.57,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.57,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_AirDefense": {
     "Medium_1": {
@@ -31995,6 +33150,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       0.8335,
@@ -32032,11 +33190,23 @@
     "health": 11200.0,
     "maxSpeed": 35.0,
     "rudderTime": 3.78,
+    "size": [
+     98.45,
+     9.82,
+     13.83
+    ],
     "speedCoef": 1.0,
     "turningRadius": 540.0,
     "visibilityCoefGKInSmoke": 2.43,
     "visibilityFactor": 6.84,
-    "visibilityFactorByPlane": 2.57
+    "visibilityFactorByPlane": 2.57,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.57,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -32600,6 +33770,9 @@
     "timeFromHeaven": 2.0
    },
    "AB_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
@@ -32738,6 +33911,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.2
+    },
     "burnNodes": [
      [
       0.8668,
@@ -32775,11 +33951,23 @@
     "health": 27800.0,
     "maxSpeed": 30.0,
     "rudderTime": 16.72,
+    "size": [
+     184.4,
+     19.8,
+     27.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 640.0,
     "visibilityCoefGKInSmoke": 6.91,
     "visibilityFactor": 12.6,
-    "visibilityFactorByPlane": 6.44
+    "visibilityFactorByPlane": 6.44,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 6.44,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_ATBA": {
     "Far1": {
@@ -32915,6 +34103,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.2
+    },
     "burnNodes": [
      [
       0.8335,
@@ -32952,11 +34143,23 @@
     "health": 32200.0,
     "maxSpeed": 30.0,
     "rudderTime": 11.94,
+    "size": [
+     184.4,
+     19.8,
+     27.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 640.0,
     "visibilityCoefGKInSmoke": 6.91,
     "visibilityFactor": 12.6,
-    "visibilityFactorByPlane": 6.44
+    "visibilityFactorByPlane": 6.44,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 6.44,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -33316,6 +34519,9 @@
     "taperDist": 4000.0
    },
    "AB1_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.8
+    },
     "backwardEngineUpTime": 10.0,
     "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
@@ -33425,6 +34631,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       1.0,
@@ -33462,11 +34671,23 @@
     "health": 8600.0,
     "maxSpeed": 34.0,
     "rudderTime": 4.65,
+    "size": [
+     95.09,
+     8.92,
+     11.64
+    ],
     "speedCoef": 1.0,
     "turningRadius": 500.0,
     "visibilityCoefGKInSmoke": 2.0,
     "visibilityFactor": 6.3,
-    "visibilityFactorByPlane": 2.35
+    "visibilityFactorByPlane": 2.35,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.35,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_AirDefense": {
     "Medium_1": {
@@ -33482,6 +34703,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       0.9667,
@@ -33519,11 +34743,23 @@
     "health": 9500.0,
     "maxSpeed": 34.0,
     "rudderTime": 3.32,
+    "size": [
+     95.09,
+     8.92,
+     11.64
+    ],
     "speedCoef": 1.0,
     "turningRadius": 500.0,
     "visibilityCoefGKInSmoke": 2.0,
     "visibilityFactor": 6.3,
-    "visibilityFactorByPlane": 2.35
+    "visibilityFactorByPlane": 2.35,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.35,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -34050,11 +35286,17 @@
     "taperDist": 4000.0
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.5005,
@@ -34092,11 +35334,23 @@
     "health": 58600.0,
     "maxSpeed": 33.0,
     "rudderTime": 16.26,
+    "size": [
+     226.5,
+     25.71,
+     30.33
+    ],
     "speedCoef": 1.0,
     "turningRadius": 800.0,
     "visibilityCoefGKInSmoke": 9.02,
     "visibilityFactor": 14.04,
-    "visibilityFactorByPlane": 8.73
+    "visibilityFactorByPlane": 8.73,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 8.73,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "A_Torpedoes": {
     "timeToChangeAmmo": 10.0,
@@ -34663,6 +35917,9 @@
     "reloadTime": 40.0
    },
    "AB_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
@@ -34801,6 +36058,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.4
+    },
     "burnNodes": [
      [
       0.7336,
@@ -34838,11 +36098,23 @@
     "health": 27500.0,
     "maxSpeed": 32.5,
     "rudderTime": 15.74,
+    "size": [
+     169.31,
+     18.89,
+     23.9
+    ],
     "speedCoef": 1.0,
     "turningRadius": 670.0,
     "visibilityCoefGKInSmoke": 5.4,
     "visibilityFactor": 11.52,
-    "visibilityFactorByPlane": 6.44
+    "visibilityFactorByPlane": 6.44,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 6.44,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_ATBA": {
     "AuraFar": {
@@ -34978,6 +36250,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.4
+    },
     "burnNodes": [
      [
       0.7003,
@@ -35015,11 +36290,23 @@
     "health": 31400.0,
     "maxSpeed": 32.5,
     "rudderTime": 11.24,
+    "size": [
+     169.31,
+     18.89,
+     23.9
+    ],
     "speedCoef": 1.0,
     "turningRadius": 670.0,
     "visibilityCoefGKInSmoke": 5.4,
     "visibilityFactor": 11.52,
-    "visibilityFactorByPlane": 6.44
+    "visibilityFactorByPlane": 6.44,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 6.44,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -35482,6 +36769,9 @@
     "sigmaCountCoef": 1.0
    },
    "AB_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.8
+    },
     "backwardEngineUpTime": 10.0,
     "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
@@ -35500,6 +36790,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       0.9334,
@@ -35537,11 +36830,23 @@
     "health": 8400.0,
     "maxSpeed": 35.0,
     "rudderTime": 4.65,
+    "size": [
+     95.09,
+     8.92,
+     12.97
+    ],
     "speedCoef": 1.0,
     "turningRadius": 500.0,
     "visibilityCoefGKInSmoke": 2.31,
     "visibilityFactor": 6.48,
-    "visibilityFactorByPlane": 2.35
+    "visibilityFactorByPlane": 2.35,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.35,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B1_Artillery": {
     "guns": {
@@ -35717,6 +37022,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
     "burnNodes": [
      [
       0.9001,
@@ -35754,11 +37062,23 @@
     "health": 10000.0,
     "maxSpeed": 35.0,
     "rudderTime": 3.32,
+    "size": [
+     95.09,
+     8.92,
+     12.97
+    ],
     "speedCoef": 1.0,
     "turningRadius": 500.0,
     "visibilityCoefGKInSmoke": 2.31,
     "visibilityFactor": 6.48,
-    "visibilityFactorByPlane": 2.35
+    "visibilityFactorByPlane": 2.35,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.35,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -35967,7 +37287,7 @@
       "radiusOnZero": 0.2,
       "rotationSpeed": [
        4.0,
-       10.0
+       10.00001
       ],
       "shotDelay": 30.0,
       "smokePenalty": 0.0001,
@@ -36081,7 +37401,7 @@
       "radiusOnZero": 0.2,
       "rotationSpeed": [
        4.0,
-       10.0
+       10.00001
       ],
       "shotDelay": 30.0,
       "smokePenalty": 0.0001,
@@ -36316,6 +37636,9 @@
     "timeFromHeaven": 2.0
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": 0.0
@@ -36325,6 +37648,9 @@
     "sigmaCountCoef": 1.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.5005,
@@ -36362,11 +37688,23 @@
     "health": 82900.0,
     "maxSpeed": 29.5,
     "rudderTime": 22.64,
+    "size": [
+     268.4,
+     37.0,
+     31.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 940.0,
     "visibilityCoefGKInSmoke": 15.5,
     "visibilityFactor": 15.66,
-    "visibilityFactorByPlane": 12.53
+    "visibilityFactorByPlane": 12.53,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 12.53,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -36927,6 +38265,9 @@
     "reloadTime": 40.0
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
@@ -36936,6 +38277,9 @@
     "sigmaCountCoef": 1.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.5005,
@@ -36973,11 +38317,23 @@
     "health": 41000.0,
     "maxSpeed": 31.5,
     "rudderTime": 13.14,
+    "size": [
+     190.59,
+     20.73,
+     23.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 680.0,
     "visibilityCoefGKInSmoke": 5.52,
     "visibilityFactor": 11.7,
-    "visibilityFactorByPlane": 7.16
+    "visibilityFactorByPlane": 7.16,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 7.16,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "A_Torpedoes": {
     "timeToChangeAmmo": 10.0,
@@ -37507,6 +38863,9 @@
     "taperDist": 4000.0
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
@@ -37516,6 +38875,9 @@
     "sigmaCountCoef": 1.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.4
+    },
     "burnNodes": [
      [
       0.7669,
@@ -37553,11 +38915,23 @@
     "health": 34600.0,
     "maxSpeed": 32.25,
     "rudderTime": 10.22,
+    "size": [
+     191.3,
+     20.12,
+     25.72
+    ],
     "speedCoef": 1.0,
     "turningRadius": 710.0,
     "visibilityCoefGKInSmoke": 6.79,
     "visibilityFactor": 12.06,
-    "visibilityFactorByPlane": 6.58
+    "visibilityFactorByPlane": 6.58,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 6.58,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "A_Torpedoes": {
     "timeToChangeAmmo": 10.0,
@@ -38151,6 +39525,9 @@
     "timeFromHeaven": 2.0
    },
    "AB_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
@@ -38179,6 +39556,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.6004,
@@ -38216,11 +39596,23 @@
     "health": 40100.0,
     "maxSpeed": 33.3,
     "rudderTime": 20.19,
+    "size": [
+     215.11,
+     24.38,
+     25.08
+    ],
     "speedCoef": 1.0,
     "turningRadius": 760.0,
     "visibilityCoefGKInSmoke": 8.33,
     "visibilityFactor": 13.2,
-    "visibilityFactorByPlane": 8.74
+    "visibilityFactorByPlane": 8.74,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 8.74,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_AirDefense": {
     "Medium1": {
@@ -38246,6 +39638,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.5671,
@@ -38283,11 +39678,23 @@
     "health": 46800.0,
     "maxSpeed": 33.3,
     "rudderTime": 14.42,
+    "size": [
+     215.11,
+     24.38,
+     25.08
+    ],
     "speedCoef": 1.0,
     "turningRadius": 760.0,
     "visibilityCoefGKInSmoke": 8.33,
     "visibilityFactor": 13.2,
-    "visibilityFactorByPlane": 8.74
+    "visibilityFactorByPlane": 8.74,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 8.74,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -38884,6 +40291,9 @@
     "taperDist": 5000.0
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": 0.0
@@ -38893,6 +40303,9 @@
     "sigmaCountCoef": 1.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.5005,
@@ -38930,11 +40343,23 @@
     "health": 82900.0,
     "maxSpeed": 29.5,
     "rudderTime": 13.58,
+    "size": [
+     273.0,
+     35.87,
+     33.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 940.0,
     "visibilityCoefGKInSmoke": 16.69,
     "visibilityFactor": 15.66,
-    "visibilityFactorByPlane": 12.53
+    "visibilityFactorByPlane": 12.53,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 12.53,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -39225,6 +40650,9 @@
     "taperDist": 4000.0
    },
    "AB1_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": -0.05
@@ -39234,6 +40662,9 @@
     "sigmaCountCoef": 1.0
    },
    "AB2_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": 0.0
@@ -39523,6 +40954,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.8002,
@@ -39560,11 +40994,23 @@
     "health": 53100.0,
     "maxSpeed": 23.5,
     "rudderTime": 26.21,
+    "size": [
+     196.9,
+     31.66,
+     32.3
+    ],
     "speedCoef": 1.0,
     "turningRadius": 680.0,
     "visibilityCoefGKInSmoke": 13.19,
     "visibilityFactor": 14.4,
-    "visibilityFactorByPlane": 9.14
+    "visibilityFactorByPlane": 9.14,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 9.14,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B1_Artillery": {
     "guns": {
@@ -39750,6 +41196,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.7669,
@@ -39787,11 +41236,23 @@
     "health": 55300.0,
     "maxSpeed": 23.5,
     "rudderTime": 18.72,
+    "size": [
+     196.9,
+     31.66,
+     32.3
+    ],
     "speedCoef": 1.0,
     "turningRadius": 680.0,
     "visibilityCoefGKInSmoke": 13.19,
     "visibilityFactor": 14.4,
-    "visibilityFactorByPlane": 9.14
+    "visibilityFactorByPlane": 9.14,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 9.14,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -40124,6 +41585,9 @@
     "taperDist": 4000.0
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
@@ -40133,6 +41597,9 @@
     "sigmaCountCoef": 1.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.2
+    },
     "burnNodes": [
      [
       0.6337,
@@ -40170,11 +41637,23 @@
     "health": 33100.0,
     "maxSpeed": 30.25,
     "rudderTime": 11.6,
+    "size": [
+     168.56,
+     20.0,
+     24.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 590.0,
     "visibilityCoefGKInSmoke": 5.52,
     "visibilityFactor": 11.7,
-    "visibilityFactorByPlane": 8.52
+    "visibilityFactorByPlane": 8.52,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 8.52,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -40530,6 +42009,9 @@
     "planeType": "PBAD110_Audacious_stock"
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 30.0,
     "speedCoef": 0.0
@@ -40538,6 +42020,9 @@
     "planeType": "PBAF110_Audacious_stock"
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.8002,
@@ -40575,11 +42060,23 @@
     "health": 63400.0,
     "maxSpeed": 32.0,
     "rudderTime": 20.44,
+    "size": [
+     232.83,
+     41.35,
+     29.02
+    ],
     "speedCoef": 1.0,
     "turningRadius": 1040.0,
     "visibilityCoefGKInSmoke": 1e-06,
     "visibilityFactor": 14.76,
-    "visibilityFactorByPlane": 11.22
+    "visibilityFactorByPlane": 11.22,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 11.22,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "A_TorpedoBomber": {
     "planeType": "PBAB110_Audacious_stock"
@@ -40890,6 +42387,9 @@
     "taperDist": 4000.0
    },
    "A1_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": 0.0
@@ -41137,6 +42637,9 @@
     "timeFromHeaven": 2.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.7003,
@@ -41174,11 +42677,23 @@
     "health": 60500.0,
     "maxSpeed": 28.0,
     "rudderTime": 22.79,
+    "size": [
+     227.07,
+     31.39,
+     31.2
+    ],
     "speedCoef": 1.0,
     "turningRadius": 790.0,
     "visibilityCoefGKInSmoke": 12.63,
     "visibilityFactor": 14.58,
-    "visibilityFactorByPlane": 10.01
+    "visibilityFactorByPlane": 10.01,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 10.01,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -41431,6 +42946,9 @@
     "taperDist": 4000.0
    },
    "AB1_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": -0.05
@@ -41440,6 +42958,9 @@
     "sigmaCountCoef": 1.0
    },
    "AB2_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": 0.0
@@ -41677,6 +43198,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.667,
@@ -41714,11 +43238,23 @@
     "health": 53900.0,
     "maxSpeed": 28.0,
     "rudderTime": 27.38,
+    "size": [
+     227.07,
+     31.39,
+     31.2
+    ],
     "speedCoef": 1.0,
     "turningRadius": 790.0,
     "visibilityCoefGKInSmoke": 13.35,
     "visibilityFactor": 14.58,
-    "visibilityFactorByPlane": 10.01
+    "visibilityFactorByPlane": 10.01,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 10.01,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B1_Artillery": {
     "guns": {
@@ -42060,6 +43596,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.6337,
@@ -42097,11 +43636,23 @@
     "health": 60500.0,
     "maxSpeed": 28.0,
     "rudderTime": 19.56,
+    "size": [
+     227.07,
+     31.39,
+     31.2
+    ],
     "speedCoef": 1.0,
     "turningRadius": 790.0,
     "visibilityCoefGKInSmoke": 13.35,
     "visibilityFactor": 14.58,
-    "visibilityFactorByPlane": 10.01
+    "visibilityFactorByPlane": 10.01,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 10.01,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -42607,6 +44158,9 @@
     "taperDist": 4000.0
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
@@ -42616,6 +44170,9 @@
     "sigmaCountCoef": 1.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.5005,
@@ -42653,11 +44210,23 @@
     "health": 59400.0,
     "maxSpeed": 32.0,
     "rudderTime": 16.38,
+    "size": [
+     220.4,
+     28.84,
+     31.84
+    ],
     "speedCoef": 1.0,
     "turningRadius": 840.0,
     "visibilityCoefGKInSmoke": 9.49,
     "visibilityFactor": 14.58,
-    "visibilityFactorByPlane": 9.26
+    "visibilityFactorByPlane": 9.26,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 9.26,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -43186,11 +44755,17 @@
     "timeFromHeaven": 2.0
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": 0.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.7003,
@@ -43228,11 +44803,23 @@
     "health": 67700.0,
     "maxSpeed": 32,
     "rudderTime": 17.5,
+    "size": [
+     262.12,
+     31.59,
+     35.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 910.0,
     "visibilityCoefGKInSmoke": 14.89,
     "visibilityFactor": 16.2,
-    "visibilityFactorByPlane": 11.09
+    "visibilityFactorByPlane": 11.09,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 11.09,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -43751,6 +45338,9 @@
     "reloadTime": 40.0
    },
    "AB_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.8
+    },
     "backwardEngineUpTime": 10.0,
     "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
@@ -43769,6 +45359,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.6
+    },
     "burnNodes": [
      [
       0.6004,
@@ -43806,11 +45399,23 @@
     "health": 14800.0,
     "maxSpeed": 34.0,
     "rudderTime": 7.7,
+    "size": [
+     114.0,
+     12.1,
+     14.2
+    ],
     "speedCoef": 1.0,
     "turningRadius": 610.0,
     "visibilityCoefGKInSmoke": 2.47,
     "visibilityFactor": 7.25,
-    "visibilityFactorByPlane": 3.26
+    "visibilityFactorByPlane": 3.26,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 3.26,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B1_Artillery": {
     "Far_1": {
@@ -43983,6 +45588,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.6
+    },
     "burnNodes": [
      [
       0.5671,
@@ -44020,11 +45628,23 @@
     "health": 18400.0,
     "maxSpeed": 34.0,
     "rudderTime": 5.5,
+    "size": [
+     114.0,
+     12.1,
+     14.2
+    ],
     "speedCoef": 1.0,
     "turningRadius": 610.0,
     "visibilityCoefGKInSmoke": 2.47,
     "visibilityFactor": 7.25,
-    "visibilityFactorByPlane": 3.26
+    "visibilityFactorByPlane": 3.26,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 3.26,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -44245,7 +45865,7 @@
       "radiusOnZero": 0.2,
       "rotationSpeed": [
        4.0,
-       10.0
+       10.00001
       ],
       "shotDelay": 30.0,
       "smokePenalty": 0.0001,
@@ -44338,6 +45958,9 @@
     "taperDist": 5000.0
    },
    "AB1_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": -0.05
@@ -44376,7 +45999,7 @@
       "radiusOnZero": 0.2,
       "rotationSpeed": [
        4.0,
-       10.0
+       10.00001
       ],
       "shotDelay": 30.0,
       "smokePenalty": 0.0001,
@@ -44469,6 +46092,9 @@
     "taperDist": 5000.0
    },
    "AB2_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": 0.0
@@ -44716,6 +46342,9 @@
     "isAA": true
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.6004,
@@ -44753,11 +46382,23 @@
     "health": 58600.0,
     "maxSpeed": 29.5,
     "rudderTime": 28.95,
+    "size": [
+     239.26,
+     32.02,
+     33.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 830.0,
     "visibilityCoefGKInSmoke": 15.15,
     "visibilityFactor": 15.3,
-    "visibilityFactorByPlane": 10.51
+    "visibilityFactorByPlane": 10.51,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 10.51,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_AirDefense": {
     "AuraMedium": {
@@ -44773,6 +46414,9 @@
     "isAA": true
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.5671,
@@ -44810,11 +46454,23 @@
     "health": 67900.0,
     "maxSpeed": 29.5,
     "rudderTime": 20.68,
+    "size": [
+     239.26,
+     32.02,
+     33.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 830.0,
     "visibilityCoefGKInSmoke": 15.15,
     "visibilityFactor": 15.3,
-    "visibilityFactorByPlane": 10.51
+    "visibilityFactorByPlane": 10.51,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 10.51,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {
@@ -45377,6 +47033,9 @@
     "taperDist": 4000.0
    },
    "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 20.0,
     "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
@@ -45386,6 +47045,9 @@
     "sigmaCountCoef": 1.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.2
+    },
     "burnNodes": [
      [
       0.6337,
@@ -45423,11 +47085,23 @@
     "health": 42500.0,
     "maxSpeed": 34.0,
     "rudderTime": 13.76,
+    "size": [
+     201.4,
+     24.16,
+     26.06
+    ],
     "speedCoef": 1.0,
     "turningRadius": 720.0,
     "visibilityCoefGKInSmoke": 7.5,
     "visibilityFactor": 12.1,
-    "visibilityFactorByPlane": 7.51
+    "visibilityFactorByPlane": 7.51,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 7.51,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "A_Torpedoes": {
     "timeToChangeAmmo": 10.0,
@@ -45650,6 +47324,9 @@
  {
   "ModulesArmaments": {
    "AB1_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": -0.067
@@ -45659,6 +47336,9 @@
     "sigmaCountCoef": 1.0
    },
    "AB2_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
     "backwardEngineUpTime": 30.0,
     "forwardEngineUpTime": 60.0,
     "speedCoef": 0.0
@@ -46225,6 +47905,9 @@
     "taperDist": 4000.0
    },
    "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.8668,
@@ -46262,11 +47945,23 @@
     "health": 41200.0,
     "maxSpeed": 22.5,
     "rudderTime": 24.19,
+    "size": [
+     187.13,
+     27.51,
+     34.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 650.0,
     "visibilityCoefGKInSmoke": 12.59,
     "visibilityFactor": 14.94,
-    "visibilityFactorByPlane": 8.02
+    "visibilityFactorByPlane": 8.02,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 8.02,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    },
    "B_ATBA": {
     "AuraFar": {
@@ -46857,6 +48552,9 @@
     "taperDist": 4000.0
    },
    "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
     "burnNodes": [
      [
       0.8335,
@@ -46894,11 +48592,23 @@
     "health": 47100.0,
     "maxSpeed": 22.5,
     "rudderTime": 17.28,
+    "size": [
+     187.13,
+     27.51,
+     34.0
+    ],
     "speedCoef": 1.0,
     "turningRadius": 650.0,
     "visibilityCoefGKInSmoke": 12.59,
     "visibilityFactor": 14.94,
-    "visibilityFactorByPlane": 8.02
+    "visibilityFactorByPlane": 8.02,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 8.02,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
    }
   },
   "ShipAbilities": {

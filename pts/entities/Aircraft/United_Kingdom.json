@@ -10969,14 +10969,14 @@
   "attackAngle": null,
   "attackCameraSlowdownTime": 0.0,
   "attackCooldown": 7.5,
-  "attackCount": 5,
+  "attackCount": 1,
   "attackEndDelay": 0.0,
-  "attackInterval": 0.85,
+  "attackInterval": 0.5,
   "attackShakeMultiplier": 1,
   "attackSpeedMultiplier": 1.0,
   "attackSpeedMultiplierApplyTime": 0.0,
   "attackerDamageTakenMultiplier": 0.7,
-  "attackerSize": 2,
+  "attackerSize": 1,
   "bombFallingTime": 0.3,
   "bombName": "PCPD011_Small",
   "bombingDropPointTime": 0.1,
@@ -11204,6 +11204,11 @@
     0.05,
     [
      [
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
       3.0,
       0.5,
       3.0
@@ -11239,6 +11244,11 @@
     0.05,
     [
      [
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
       3.0,
       0.5,
       3.0
@@ -11273,6 +11283,11 @@
    "flight": [
     0.05,
     [
+     [
+      0.0,
+      0.0,
+      0.0
+     ],
      [
       3.0,
       0.5,
@@ -11389,6 +11404,11 @@
     0.05,
     [
      [
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
       3.0,
       0.5,
       3.0
@@ -11481,7 +11501,7 @@
   "index": "PBAD900",
   "innerBombsPercentage": 100.0,
   "innerSalvoSize": [
-   4.0,
+   2.0,
    0.5
   ],
   "isAirSupportPlane": true,
@@ -11696,8 +11716,8 @@
   "numFloats": 1,
   "numPlanesInSquadron": 6,
   "outerSalvoSize": [
-   6.0,
-   6.0
+   8.0,
+   8.0
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
@@ -15022,6 +15042,1024 @@
     "abils": [
      [
       "PCY035_CallFighters",
+      "BR_8"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [
+     [
+      "PCY036_RegenerateHealth",
+      "AllPlanes"
+     ]
+    ],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "acceleratedFlightShake": {
+   "pitch": [
+    0.001,
+    0.005,
+    1.5,
+    1.75
+   ],
+   "roll": [
+    0.0025,
+    0.0075,
+    2,
+    2.25
+   ],
+   "x": [
+    0.01,
+    0.02,
+    0.1,
+    0.2
+   ],
+   "y": [
+    0.01,
+    0.02,
+    0.1,
+    0.2
+   ],
+   "yaw": [
+    0.001,
+    0.005,
+    1.5,
+    1.75
+   ],
+   "z": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "accelerationMaxFov": 1.225,
+  "aimingAccelerationModifier": 1.0,
+  "aimingAccuracyDecreaseRate": -0.1,
+  "aimingAccuracyIncreaseRate": 0.15,
+  "aimingCameraDistance": [
+   -3,
+   3
+  ],
+  "aimingCameraFovSettings": [
+   1,
+   4.0
+  ],
+  "aimingCameraHeight": [
+   0.7,
+   3
+  ],
+  "aimingCameraOffset": [
+   0,
+   1
+  ],
+  "aimingCameraPitchSettings": [
+   0.05,
+   -10,
+   10,
+   0.5
+  ],
+  "aimingCameraSensitivity": [
+   1,
+   1
+  ],
+  "aimingCameraYawSettings": [
+   0.0,
+   10,
+   0.5
+  ],
+  "aimingHeight": 3,
+  "aimingShakeMultiplier": 0.25,
+  "aimingSpeedLimits": [
+   0.7933,
+   1.2756
+  ],
+  "aimingTime": 10,
+  "aimingTurnAccelerationModifier": 0.5,
+  "aimingTurnSpeedLimit": 0.5,
+  "airBrakesDeploymentTime": 1.0,
+  "airBreakEffect": "particles/airplanes/Air_break.xml",
+  "airBrokenPartsEffect": "particles/airplanes/Air_brokenParts.xml",
+  "airDeathEffects": [
+   "particles/airplanes/Air_death_1.xml",
+   "particles/airplanes/Air_death_2.xml",
+   "particles/Empty_FX.xml"
+  ],
+  "airDestroyEffects": [
+   "particles/airplanes/Air_explosion_1.xml",
+   "particles/airplanes/Air_explosion_2.xml"
+  ],
+  "airExplosionEffects": [
+   "particles/airplanes/Air_explosion_1.xml",
+   "particles/airplanes/Air_explosion_3.xml"
+  ],
+  "airFireEffect": "particles/airplanes/Air_state_3_fire.xml",
+  "airGunfireEffect": "particles/airplanes/Air_gunfire.xml",
+  "airHitEffect": "particles/airplanes/Air_hit_1.xml",
+  "airSmokeEffects": [
+   "particles/airplanes/Air_state_1_smoke.xml",
+   "particles/airplanes/Air_state_2_smoke.xml",
+   "particles/airplanes/Air_state_3_smoke.xml"
+  ],
+  "angleOfClimb": 60.0,
+  "angleOfDive": -75.0,
+  "attackAngle": null,
+  "attackCameraSlowdownTime": 0.0,
+  "attackCooldown": 5,
+  "attackCount": 1,
+  "attackEndDelay": 0.0,
+  "attackInterval": 1,
+  "attackShakeMultiplier": 1,
+  "attackSpeedMultiplier": 1.0,
+  "attackSpeedMultiplierApplyTime": 0.0,
+  "attackerDamageTakenMultiplier": 0.5,
+  "attackerSize": 2,
+  "bombFallingTime": 0.3,
+  "bombName": "PBPT108_Implacable_stock",
+  "bombingDropPointTime": 0.1,
+  "climbSpeedCoef": 0.8,
+  "climbSpeedCoefAiming": 1,
+  "climbSpeedCoefPreparation": 1,
+  "costCR": 700,
+  "customProjRenderSets": [
+   [
+    "stub",
+    "pylon_bomb_custom_BlendBone"
+   ],
+   [
+    "stub1",
+    "pylon_torpedo_custom_BlendBone"
+   ],
+   [
+    "stub2",
+    "pylon_rocket_custom_BlendBone"
+   ]
+  ],
+  "damageTakenMultiplier": 1.0,
+  "deathCameraJumpDelay": 120.0,
+  "deathCameraSlowdownTime": 3.0,
+  "deceleratedFlightShake": {
+   "pitch": [
+    0.001,
+    0.005,
+    1.0,
+    1.25
+   ],
+   "roll": [
+    0.0025,
+    0.0075,
+    1.5,
+    1.75
+   ],
+   "x": [
+    0.01,
+    0.03,
+    0.1,
+    0.2
+   ],
+   "y": [
+    0.01,
+    0.03,
+    0.1,
+    0.2
+   ],
+   "yaw": [
+    0.001,
+    0.005,
+    1.0,
+    1.25
+   ],
+   "z": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "decelerationMinFov": 0.8,
+  "defaultCameraDistance": [
+   0.5,
+   3
+  ],
+  "defaultCameraFovSettings": [
+   1,
+   4.0
+  ],
+  "defaultCameraHeight": [
+   1,
+   1
+  ],
+  "defaultCameraOffset": [
+   2,
+   1
+  ],
+  "defaultCameraPitchSettings": [
+   0.0,
+   -10,
+   10,
+   0.5
+  ],
+  "defaultCameraSensitivity": [
+   1,
+   1
+  ],
+  "defaultCameraYawSettings": [
+   0.0,
+   3.5,
+   0.5
+  ],
+  "depletedForsageThreshold": 0.25,
+  "diveBomberBrakesStrength": 0.75,
+  "diveCameraDistance": [
+   -10,
+   2.5
+  ],
+  "diveCameraFovSettings": [
+   1.25,
+   2.5
+  ],
+  "diveCameraHeight": [
+   -2,
+   2.5
+  ],
+  "diveCameraOffset": [
+   0,
+   1
+  ],
+  "diveCameraPitchSettings": [
+   0.0,
+   -10,
+   10,
+   0.5
+  ],
+  "diveCameraSensitivity": [
+   1,
+   1
+  ],
+  "diveCameraYawSettings": [
+   0.0,
+   3.5,
+   0.5
+  ],
+  "diveHeightDecrease": 1,
+  "diveSpeedCoef": 1.2,
+  "diveSpeedCoefAiming": 0.66,
+  "diveSpeedCoefPreparation": 0.66,
+  "doesCameraTrackAttackers": false,
+  "emptyReturnSpeedMultiplier": 1,
+  "engineFireEffect": "particles/airplanes/Air_state_4_fire.xml",
+  "engineLightEffect": "particles/airplanes/Air_enginelight.xml",
+  "escapeHeightAttack": 40.0,
+  "escapeHeightLanding": 85.0,
+  "fighterTracerName": "PCPP001_Default_Storming",
+  "finalAttackCameraJumpDelay": 120.0,
+  "flightHeight": 20.0,
+  "flightRadius": 33.0,
+  "flyScreenEffect": "particles/airplanes/Air_screen_fly.xml",
+  "formations": {
+   "aerialAttack": [
+    0.1,
+    [
+     [
+      0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
+      0
+     ],
+     [
+      -0.5,
+      1.5,
+      0
+     ],
+     [
+      -1.5,
+      0,
+      1
+     ],
+     [
+      -2,
+      -1.5,
+      1
+     ],
+     [
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
+     ]
+    ]
+   ],
+   "aiming": [
+    2.0,
+    [
+     [
+      0.75,
+      0.0,
+      0
+     ],
+     [
+      -0.75,
+      0,
+      0
+     ],
+     [
+      0.75,
+      6,
+      -12
+     ],
+     [
+      -0.75,
+      6,
+      -12
+     ],
+     [
+      0.75,
+      7,
+      -11
+     ],
+     [
+      -0.75,
+      7,
+      -11
+     ],
+     [
+      0.75,
+      6,
+      -10
+     ],
+     [
+      -0.75,
+      6,
+      -10
+     ]
+    ]
+   ],
+   "attack": [
+    0.1,
+    [
+     [
+      2.5,
+      0,
+      0
+     ],
+     [
+      -2.5,
+      0,
+      0
+     ]
+    ]
+   ],
+   "flight": [
+    0.1,
+    [
+     [
+      0.75,
+      0,
+      0
+     ],
+     [
+      -0.75,
+      0,
+      0
+     ],
+     [
+      1.5,
+      0,
+      1.25
+     ],
+     [
+      -1.5,
+      0.0,
+      1.25
+     ],
+     [
+      1.25,
+      0,
+      2.5
+     ],
+     [
+      -1.25,
+      0.0,
+      2.5
+     ],
+     [
+      0.85,
+      0,
+      3.75
+     ],
+     [
+      -0.85,
+      0.0,
+      3.75
+     ]
+    ]
+   ],
+   "landing": [
+    0.1,
+    [
+     [
+      6,
+      0,
+      0
+     ],
+     [
+      4.75,
+      0,
+      0
+     ],
+     [
+      3.5,
+      0,
+      0
+     ],
+     [
+      2.25,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0
+     ],
+     [
+      -0.25,
+      0,
+      0
+     ],
+     [
+      -1.5,
+      0,
+      0
+     ],
+     [
+      -2.75,
+      0,
+      0
+     ],
+     [
+      -4,
+      0,
+      0
+     ],
+     [
+      -5.25,
+      0,
+      0
+     ],
+     [
+      -6.5,
+      0,
+      0
+     ],
+     [
+      -7.75,
+      0,
+      0
+     ],
+     [
+      -9,
+      0,
+      0
+     ],
+     [
+      -10.25,
+      0,
+      0
+     ],
+     [
+      -11.5,
+      0,
+      0
+     ]
+    ]
+   ],
+   "preparation": [
+    2.0,
+    [
+     [
+      0.75,
+      0.0,
+      0
+     ],
+     [
+      -0.75,
+      0,
+      0
+     ],
+     [
+      0.75,
+      3,
+      -6
+     ],
+     [
+      -0.75,
+      3,
+      -6
+     ],
+     [
+      0.75,
+      4,
+      -4.5
+     ],
+     [
+      -0.75,
+      4,
+      -4.5
+     ],
+     [
+      0.75,
+      3,
+      -3
+     ],
+     [
+      -0.75,
+      3,
+      -3
+     ]
+    ]
+   ]
+  },
+  "forsageAcceleration": 1,
+  "forsageDeceleration": 0.75,
+  "forsageEffect": "particles/airplanes/Air_forsage.xml",
+  "forsageRegeneration": 0.5,
+  "forsageRegenerationDelay": 0.5,
+  "forsageScreenEffect": "particles/airplanes/Air_forsage_screen.xml",
+  "fuelTime": 180.0,
+  "groundDestroyEffects": [
+   "particles/airplanes/Air_ground_explosion_1.xml",
+   "particles/airplanes/Air_ground_explosion_2.xml"
+  ],
+  "hangarSettings": {
+   "maxValue": 12,
+   "restoreAmount": 1,
+   "startValue": 12,
+   "timeToRestore": 86.0
+  },
+  "heavyDamageShake": {
+   "duration": 1,
+   "pitch": [
+    0.02,
+    0.04,
+    0.1,
+    0.2
+   ],
+   "roll": [
+    0.1,
+    0.125,
+    1,
+    1.05
+   ],
+   "x": [
+    0.025,
+    0.03,
+    0.1,
+    0.15
+   ],
+   "y": [
+    0.025,
+    0.03,
+    0.1,
+    0.15
+   ],
+   "yaw": [
+    0.02,
+    0.04,
+    0.1,
+    0.2
+   ],
+   "z": [
+    0.025,
+    0.03,
+    0.1,
+    0.15
+   ]
+  },
+  "id": 4181688272,
+  "index": "PBAB108",
+  "isAirSupportPlane": false,
+  "isConsumablePlane": false,
+  "isJatoBoosterDetachable": true,
+  "jatoBoosterModel": "",
+  "jatoDuration": 0.0,
+  "jatoEffect": "particles/airplanes/Air_jato_smoke.xml",
+  "jatoFadeDuration": 0.0,
+  "jatoFallingEffect": "particles/airplanes/Air_jato_falling.xml",
+  "jatoGroundEffect": "particles/airplanes/Air_torpedo_ground_1.xml",
+  "jatoSpeedMultiplier": 2.0,
+  "jatoVehicleEffect": "particles/airplanes/Air_torpedo_ground_1.xml",
+  "jatoWaterEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "keyboardTurnStrength": 0.5,
+  "launchCameraDistance": [
+   -4.0,
+   1
+  ],
+  "launchCameraFovSettings": [
+   1,
+   0.5
+  ],
+  "launchCameraHeight": [
+   0.3,
+   1
+  ],
+  "launchCameraOffset": [
+   0,
+   1
+  ],
+  "launchCameraPitchSettings": [
+   -0.2,
+   -0.5,
+   0.0,
+   1
+  ],
+  "launchCameraSensitivity": [
+   1,
+   1
+  ],
+  "launchCameraYawSettings": [
+   0.0,
+   3.5,
+   0.5
+  ],
+  "launchDelayStep": -0.4,
+  "launchPrepareTime": 0.1,
+  "level": 7,
+  "lightDamageShake": {
+   "duration": 0.75,
+   "pitch": [
+    0.02,
+    0.04,
+    0.1,
+    0.2
+   ],
+   "roll": [
+    0.1,
+    0.125,
+    1,
+    1.05
+   ],
+   "x": [
+    0.025,
+    0.03,
+    0.1,
+    0.15
+   ],
+   "y": [
+    0.025,
+    0.03,
+    0.1,
+    0.15
+   ],
+   "yaw": [
+    0.02,
+    0.04,
+    0.1,
+    0.2
+   ],
+   "z": [
+    0.025,
+    0.03,
+    0.1,
+    0.15
+   ]
+  },
+  "lowLodDist": 210,
+  "maxAirBrakesPitch": 1.4,
+  "maxAttackAngle": null,
+  "maxAttackDistanceMultiplier": 9999,
+  "maxForsageAmount": 20,
+  "maxHealth": 2060,
+  "maxLaunchDelay": 2,
+  "maxRotateSpeed": 0.58,
+  "maxRudderYaw": 1.0,
+  "maxSpread": 200,
+  "minLaunchDelay": 0.1,
+  "minSpread": 3,
+  "model": "content/gameplay/uk/aircraft/bomber/BAB707_Barracuda_MkV_proto/BAB707_Barracuda_MkV_proto.model",
+  "mouseTurnStrength": [
+   [
+    1,
+    0.2
+   ],
+   [
+    2,
+    0.225
+   ],
+   [
+    3,
+    0.25
+   ],
+   [
+    4,
+    0.275
+   ],
+   [
+    5,
+    0.3
+   ],
+   [
+    6,
+    0.35
+   ],
+   [
+    7,
+    0.4
+   ],
+   [
+    8,
+    0.45
+   ],
+   [
+    9,
+    0.5
+   ],
+   [
+    15,
+    0.5
+   ],
+   [
+    16,
+    0.4
+   ],
+   [
+    17,
+    0.3
+   ],
+   [
+    18,
+    0.2
+   ],
+   [
+    19,
+    0.1
+   ],
+   [
+    20,
+    0
+   ]
+  ],
+  "name": "PBAB108_Implacable_stock",
+  "naturalAcceleration": 0.032,
+  "naturalDeceleration": 0.032,
+  "normalFlightShake": {
+   "pitch": [
+    0.005,
+    0.01,
+    0.25,
+    0.5
+   ],
+   "roll": [
+    0.005,
+    0.01,
+    0.25,
+    0.5
+   ],
+   "x": [
+    0.03,
+    0.05,
+    0.1,
+    0.2
+   ],
+   "y": [
+    0.04,
+    0.06,
+    0.1,
+    0.2
+   ],
+   "yaw": [
+    0.005,
+    0.01,
+    0.25,
+    0.5
+   ],
+   "z": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "normalLodDist": 190,
+  "numFloats": 0,
+  "numPlanesInSquadron": 8,
+  "overMaxThrottleMultiplier": 5.0,
+  "parentAttackDuration": 0.0,
+  "pitchChangeRate": 200,
+  "planePitchAccelerationTime": 0.5,
+  "planeSpeedupCoef": 2,
+  "planeToPlaneAnimationEasing": null,
+  "planeYawAccelerationTime": 1.0,
+  "postAttackInvulnerabilityDuration": 3.5,
+  "preparationAccelerationModifier": 1.0,
+  "preparationAccuracyDecreaseRate": -0.06,
+  "preparationAccuracyIncreaseRate": 0.2,
+  "preparationCameraDistance": [
+   -2.5,
+   3
+  ],
+  "preparationCameraFovSettings": [
+   1,
+   4.0
+  ],
+  "preparationCameraHeight": [
+   1,
+   3
+  ],
+  "preparationCameraOffset": [
+   0,
+   1
+  ],
+  "preparationCameraPitchSettings": [
+   0.05,
+   -10,
+   10,
+   0.5
+  ],
+  "preparationCameraSensitivity": [
+   1,
+   1
+  ],
+  "preparationCameraYawSettings": [
+   0.0,
+   10,
+   0.5
+  ],
+  "preparationHeight": 3,
+  "preparationShakeMultiplier": 1.25,
+  "preparationSpeedLimits": [
+   0.7933,
+   1.2756
+  ],
+  "preparationTime": 4,
+  "preparationTurnAccelerationModifier": 0.5,
+  "preparationTurnSpeedLimit": 0.5,
+  "projectilesPerAttack": 1,
+  "propellerRPM": 9999999,
+  "resetAttackerThrottle": false,
+  "resetAttackerThrottleDuration": 0.0,
+  "returnHeight": 100.0,
+  "rotateAcceleration": 9999,
+  "rotateDeceleration": 9999,
+  "rudderTurnTime": 1.5,
+  "shootdownAirFrictionRelativeDeceleration": 0.25,
+  "shootdownFallAcceleration": 2.0,
+  "shootdownFallAccelerationDelta": 1.0,
+  "shootdownMaxRollSpeed": 550.0,
+  "shootdownMinHorizontalSpeed": 0.1,
+  "shootdownRollAcceleration": 360.0,
+  "shootdownSideRelativeAcceleration": 0.5,
+  "speedMax": 1.2756,
+  "speedMin": 0.7933,
+  "speedMoveWithBomb": 127.0,
+  "splitSpeedBoostDuration": 4,
+  "splitSpeedMultiplier": 2.0,
+  "squadronTurnRadius": 1,
+  "startAngle": -10.7,
+  "throttleAcceleration": 0.081,
+  "throttleBrakesStrength": 0.5,
+  "throttleDeceleration": 0.081,
+  "torpedoAimDist": 100,
+  "turnSettings": [
+   [
+    0.01,
+    0.0,
+    1.45
+   ],
+   [
+    0.02,
+    0.2,
+    1.35
+   ],
+   [
+    0.03,
+    0.4,
+    1.25
+   ],
+   [
+    0.04,
+    0.6,
+    1.15
+   ],
+   [
+    0.05,
+    0.8,
+    1.05
+   ],
+   [
+    0.06,
+    1.0,
+    0.95
+   ],
+   [
+    0.07,
+    1.2,
+    0.9
+   ],
+   [
+    0.08,
+    1.4,
+    0.85
+   ],
+   [
+    0.09,
+    1.6,
+    0.8
+   ]
+  ],
+  "typeinfo": {
+   "nation": "United_Kingdom",
+   "species": "Bomber",
+   "type": "Aircraft"
+  },
+  "underMinThrottleMultiplier": 5.0,
+  "visibilityFactor": 10.0,
+  "visibilityFactorByPlane": 10.0,
+  "visionToPlane": 15.0,
+  "visionToShip": 15.0,
+  "visionToTorpedo": 0,
+  "waterDestroyEffects": [
+   "particles/airplanes/Air_water_explosion_1.xml",
+   "particles/airplanes/Air_water_explosion_2.xml",
+   "particles/airplanes/Air_water_explosion_3.xml"
+  ],
+  "waterEffect": "particles/airplane_water_effect.xml",
+  "waterstepEffect": "particles/airplanes/Air_waterstep.xml"
+ },
+ {
+  "CautiousBehaviour": {},
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY034_ForsageBooster",
+      "Allplanes"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY035_CallFighters",
       "BR_6"
      ]
     ],
@@ -16134,14 +17172,14 @@
   "attackAngle": null,
   "attackCameraSlowdownTime": 0.0,
   "attackCooldown": 7.5,
-  "attackCount": 4,
+  "attackCount": 2,
   "attackEndDelay": 0.0,
-  "attackInterval": 0.85,
+  "attackInterval": 0.437,
   "attackShakeMultiplier": 1,
   "attackSpeedMultiplier": 1.0,
   "attackSpeedMultiplierApplyTime": 0.0,
   "attackerDamageTakenMultiplier": 0.7,
-  "attackerSize": 2,
+  "attackerSize": 1,
   "bombFallingTime": 0.3,
   "bombName": "PBPD101_depth_113kg",
   "bombingDropPointTime": 0.1,
@@ -16369,6 +17407,11 @@
     0.05,
     [
      [
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
       3.0,
       0.5,
       3.0
@@ -16404,6 +17447,11 @@
     0.05,
     [
      [
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
       3.0,
       0.5,
       3.0
@@ -16438,6 +17486,11 @@
    "flight": [
     0.05,
     [
+     [
+      0.0,
+      0.0,
+      0.0
+     ],
      [
       3.0,
       0.5,
@@ -16554,6 +17607,11 @@
     0.05,
     [
      [
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
       3.0,
       0.5,
       3.0
@@ -16646,7 +17704,7 @@
   "index": "PBAD902",
   "innerBombsPercentage": 100.0,
   "innerSalvoSize": [
-   4.0,
+   2.0,
    0.5
   ],
   "isAirSupportPlane": true,
@@ -16861,8 +17919,8 @@
   "numFloats": 1,
   "numPlanesInSquadron": 6,
   "outerSalvoSize": [
-   6.0,
-   6.0
+   8.0,
+   8.0
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
@@ -17069,31 +18127,31 @@
     0.0
    ]
   },
-  "accelerationMaxFov": 1.05,
+  "accelerationMaxFov": 1.4,
   "aimingAccelerationModifier": 1.0,
-  "aimingAccuracyDecreaseRate": -0.25,
+  "aimingAccuracyDecreaseRate": -0.2,
   "aimingAccuracyIncreaseRate": 0.1,
   "aimingCameraDistance": [
-   -3,
-   3
+   2,
+   0.5
   ],
   "aimingCameraFovSettings": [
    1,
-   4.0
+   0.5
   ],
   "aimingCameraHeight": [
-   0.7,
-   3
+   2,
+   0.5
   ],
   "aimingCameraOffset": [
    0,
    1
   ],
   "aimingCameraPitchSettings": [
-   -0.5,
-   -10,
-   10,
-   0.5
+   0.0,
+   -1.5,
+   0,
+   1
   ],
   "aimingCameraSensitivity": [
    0.5,
@@ -17101,18 +18159,18 @@
   ],
   "aimingCameraYawSettings": [
    0.0,
-   10,
-   0.5
+   2.0,
+   1
   ],
-  "aimingHeight": 16,
+  "aimingHeight": 5.0,
   "aimingShakeMultiplier": 3,
   "aimingSpeedLimits": [
-   0.8039,
-   1.2614
+   0.5,
+   1.5
   ],
-  "aimingTime": 5,
-  "aimingTurnAccelerationModifier": 0.4,
-  "aimingTurnSpeedLimit": 0.4,
+  "aimingTime": 15.0,
+  "aimingTurnAccelerationModifier": 1.0,
+  "aimingTurnSpeedLimit": 0.3,
   "airBrakesDeploymentTime": 1.0,
   "airBreakEffect": "particles/airplanes/Air_break.xml",
   "airBrokenPartsEffect": "particles/airplanes/Air_brokenParts.xml",
@@ -17142,16 +18200,16 @@
   "attackAngle": 17.5,
   "attackCameraSlowdownTime": 0.0,
   "attackCooldown": 5,
-  "attackCount": 6,
+  "attackCount": 1,
   "attackEndDelay": 0.5,
-  "attackInterval": 0.03,
+  "attackInterval": 1,
   "attackShakeMultiplier": 4,
   "attackSpeedMultiplier": 0.5,
   "attackSpeedMultiplierApplyTime": 0.75,
   "attackerDamageTakenMultiplier": 1,
-  "attackerSize": 2,
+  "attackerSize": 1,
   "bombFallingTime": 0.3,
-  "bombName": "PAPR206_Ranger_top",
+  "bombName": "PAPR104_Langley_stock",
   "bombingDropPointTime": 0.1,
   "climbSpeedCoef": 0.8,
   "climbSpeedCoefAiming": 1,
@@ -17212,28 +18270,28 @@
     0.0
    ]
   },
-  "decelerationMinFov": 0.65,
+  "decelerationMinFov": 0.8,
   "defaultCameraDistance": [
-   -1.5,
-   3
+   0.3,
+   1
   ],
   "defaultCameraFovSettings": [
    1,
-   4.0
+   0.5
   ],
   "defaultCameraHeight": [
-   0.7,
+   0.3,
    1
   ],
   "defaultCameraOffset": [
-   1,
+   0,
    1
   ],
   "defaultCameraPitchSettings": [
    0.0,
-   -10,
-   10,
-   0.5
+   -0.5,
+   0,
+   1
   ],
   "defaultCameraSensitivity": [
    1,
@@ -17289,7 +18347,7 @@
   "escapeHeightLanding": 85.0,
   "fighterTracerName": "PCPP001_Default_Storming",
   "finalAttackCameraJumpDelay": 120.0,
-  "flightHeight": 17.0,
+  "flightHeight": 33.0,
   "flightRadius": 33.0,
   "flyScreenEffect": "particles/airplanes/Air_screen_fly.xml",
   "formations": {
@@ -17374,47 +18432,82 @@
     ]
    ],
    "aiming": [
-    2.0,
+    0.1,
     [
      [
-      0.75,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.75,
-      0,
+      -0.5,
+      1.5,
       0
      ],
      [
-      0.75,
-      8,
-      -11
+      -1.5,
+      0,
+      1
      ],
      [
-      -0.75,
-      8,
-      -11
+      -2,
+      -1.5,
+      1
      ],
      [
-      0.75,
-      9,
-      -10
+      -2,
+      1.5,
+      1
      ],
      [
-      -0.75,
-      9,
-      -10
+      -3,
+      0,
+      -1
      ],
      [
-      0.75,
-      8,
-      -9
+      -3.5,
+      -1.5,
+      -1
      ],
      [
-      -0.75,
-      8,
-      -9
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -17422,14 +18515,79 @@
     0.1,
     [
      [
-      0.75,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.75,
-      0,
+      -0.5,
+      1.5,
       0
+     ],
+     [
+      -1.5,
+      0,
+      1
+     ],
+     [
+      -2,
+      -1.5,
+      1
+     ],
+     [
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -17437,44 +18595,79 @@
     0.1,
     [
      [
-      0.75,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.75,
-      0,
-      0
-     ],
-     [
+      -0.5,
       1.5,
-      0,
-      1.25
+      0
      ],
      [
       -1.5,
-      0.0,
-      1.25
-     ],
-     [
-      1.25,
       0,
-      2.5
+      1
      ],
      [
-      -1.25,
-      0.0,
-      2.5
+      -2,
+      -1.5,
+      1
      ],
      [
-      0.85,
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
       0,
-      3.75
+      -1
      ],
      [
-      -0.85,
-      0.0,
-      3.75
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -17559,47 +18752,82 @@
     ]
    ],
    "preparation": [
-    2.0,
+    0.1,
     [
      [
-      0.75,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.75,
-      0,
+      -0.5,
+      1.5,
       0
      ],
      [
-      0.75,
-      4,
-      -7
+      -1.5,
+      0,
+      1
      ],
      [
-      -0.75,
-      4,
-      -7
+      -2,
+      -1.5,
+      1
      ],
      [
-      0.75,
-      5,
-      -6
+      -2,
+      1.5,
+      1
      ],
      [
-      -0.75,
-      5,
-      -6
+      -3,
+      0,
+      -1
      ],
      [
-      0.75,
-      4,
-      -5
+      -3.5,
+      -1.5,
+      -1
      ],
      [
-      -0.75,
-      4,
-      -5
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ]
@@ -17616,10 +18844,10 @@
    "particles/airplanes/Air_ground_explosion_2.xml"
   ],
   "hangarSettings": {
-   "maxValue": 12,
+   "maxValue": 0,
    "restoreAmount": 1,
-   "startValue": 12,
-   "timeToRestore": 58.0
+   "startValue": 0,
+   "timeToRestore": 0.1
   },
   "heavyDamageShake": {
    "duration": 1,
@@ -17662,10 +18890,10 @@
   },
   "id": 4276977616,
   "index": "PBAF017",
-  "innerBombsPercentage": 75.0,
+  "innerBombsPercentage": 33.33,
   "innerSalvoSize": [
-   1.7,
-   1.02
+   1.5,
+   2.5
   ],
   "isAirSupportPlane": false,
   "isConsumablePlane": true,
@@ -17711,7 +18939,7 @@
    3.5,
    0.5
   ],
-  "launchDelayStep": 0,
+  "launchDelayStep": -0.4,
   "launchPrepareTime": 2,
   "level": 6,
   "lightDamageShake": {
@@ -17759,18 +18987,22 @@
   "maxAttackDistanceMultiplier": 9999,
   "maxForsageAmount": 5,
   "maxHealth": 125,
-  "maxLaunchDelay": 0.6,
+  "maxLaunchDelay": 2,
   "maxRotateSpeed": 0.42,
   "maxRudderYaw": 1.0,
   "maxSpread": [
    3,
    3
   ],
-  "minLaunchDelay": 0.6,
+  "maxVisibilityFactor": 7.5,
+  "maxVisibilityFactorByPlane": 7.5,
+  "minLaunchDelay": 0.1,
   "minSpread": [
    1,
    1
   ],
+  "minVisibilityFactor": 7.5,
+  "minVisibilityFactorByPlane": 7.5,
   "model": "content/gameplay/uk/aircraft/fighter/BAF017_Hawker_Osprey_float/BAF017_Hawker_Osprey_float.model",
   "mouseTurnStrength": [
    [
@@ -17877,10 +19109,10 @@
   },
   "normalLodDist": 190,
   "numFloats": 2,
-  "numPlanesInSquadron": 8,
+  "numPlanesInSquadron": 1,
   "outerSalvoSize": [
-   2.93,
-   1.76
+   6.0,
+   15.0
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
@@ -17891,29 +19123,29 @@
   "planeYawAccelerationTime": 1.0,
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccelerationModifier": 1.0,
-  "preparationAccuracyDecreaseRate": -0.14,
-  "preparationAccuracyIncreaseRate": 0.32,
+  "preparationAccuracyDecreaseRate": -0.2,
+  "preparationAccuracyIncreaseRate": 0.1,
   "preparationCameraDistance": [
-   -2.5,
-   3
+   3,
+   1
   ],
   "preparationCameraFovSettings": [
    1,
-   4.0
+   0.5
   ],
   "preparationCameraHeight": [
-   1,
-   3
+   3,
+   1
   ],
   "preparationCameraOffset": [
    0,
    1
   ],
   "preparationCameraPitchSettings": [
-   -0.5,
-   -10,
-   10,
-   0.5
+   0.0,
+   -1.0,
+   0,
+   1
   ],
   "preparationCameraSensitivity": [
    0.75,
@@ -17921,18 +19153,18 @@
   ],
   "preparationCameraYawSettings": [
    0.0,
-   10,
-   0.5
+   1.0,
+   1
   ],
-  "preparationHeight": 16.0,
+  "preparationHeight": 30.0,
   "preparationShakeMultiplier": 2,
   "preparationSpeedLimits": [
-   0.8039,
-   1.2614
+   0.5,
+   1.5
   ],
-  "preparationTime": 3.0,
-  "preparationTurnAccelerationModifier": 0.75,
-  "preparationTurnSpeedLimit": 0.75,
+  "preparationTime": 1.0,
+  "preparationTurnAccelerationModifier": 1.0,
+  "preparationTurnSpeedLimit": 0.3,
   "projectilesPerAttack": 1,
   "propellerRPM": 9999999,
   "resetAttackerThrottle": true,
@@ -18012,8 +19244,8 @@
    "type": "Aircraft"
   },
   "underMinThrottleMultiplier": 5.0,
-  "visibilityFactor": 7.5,
-  "visibilityFactorByPlane": 7.5,
+  "visibilityFactor": 10.0,
+  "visibilityFactorByPlane": 10.0,
   "visionToPlane": 15.0,
   "visionToShip": 15.0,
   "visionToTorpedo": 0,
@@ -19168,14 +20400,14 @@
   "attackAngle": null,
   "attackCameraSlowdownTime": 0.0,
   "attackCooldown": 7.5,
-  "attackCount": 4,
+  "attackCount": 2,
   "attackEndDelay": 0.0,
-  "attackInterval": 0.85,
+  "attackInterval": 0.437,
   "attackShakeMultiplier": 1,
   "attackSpeedMultiplier": 1.0,
   "attackSpeedMultiplierApplyTime": 0.0,
   "attackerDamageTakenMultiplier": 0.7,
-  "attackerSize": 2,
+  "attackerSize": 1,
   "bombFallingTime": 0.3,
   "bombName": "PBPD102_depth_200kg",
   "bombingDropPointTime": 0.1,
@@ -19403,6 +20635,11 @@
     0.05,
     [
      [
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
       3.0,
       0.5,
       3.0
@@ -19438,6 +20675,11 @@
     0.05,
     [
      [
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
       3.0,
       0.5,
       3.0
@@ -19472,6 +20714,11 @@
    "flight": [
     0.05,
     [
+     [
+      0.0,
+      0.0,
+      0.0
+     ],
      [
       3.0,
       0.5,
@@ -19588,6 +20835,11 @@
     0.05,
     [
      [
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
       3.0,
       0.5,
       3.0
@@ -19680,7 +20932,7 @@
   "index": "PBAD903",
   "innerBombsPercentage": 100.0,
   "innerSalvoSize": [
-   4.0,
+   2.0,
    0.5
   ],
   "isAirSupportPlane": true,
@@ -19895,8 +21147,8 @@
   "numFloats": 1,
   "numPlanesInSquadron": 6,
   "outerSalvoSize": [
-   6.0,
-   6.0
+   8.0,
+   8.0
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
@@ -26510,1024 +27762,6 @@
     "abils": [
      [
       "PCY035_CallFighters",
-      "BR_8"
-     ]
-    ],
-    "slot": 1
-   },
-   "AbilitySlot2": {
-    "abils": [
-     [
-      "PCY036_RegenerateHealth",
-      "AllPlanes"
-     ]
-    ],
-    "slot": 2
-   },
-   "AbilitySlot3": {
-    "abils": [],
-    "slot": 3
-   },
-   "AbilitySlot4": {
-    "abils": [],
-    "slot": 4
-   }
-  },
-  "acceleratedFlightShake": {
-   "pitch": [
-    0.001,
-    0.005,
-    1.5,
-    1.75
-   ],
-   "roll": [
-    0.0025,
-    0.0075,
-    2,
-    2.25
-   ],
-   "x": [
-    0.01,
-    0.02,
-    0.1,
-    0.2
-   ],
-   "y": [
-    0.01,
-    0.02,
-    0.1,
-    0.2
-   ],
-   "yaw": [
-    0.001,
-    0.005,
-    1.5,
-    1.75
-   ],
-   "z": [
-    0.0,
-    0.0,
-    0.0,
-    0.0
-   ]
-  },
-  "accelerationMaxFov": 1.225,
-  "aimingAccelerationModifier": 1.0,
-  "aimingAccuracyDecreaseRate": -0.1,
-  "aimingAccuracyIncreaseRate": 0.15,
-  "aimingCameraDistance": [
-   -3,
-   3
-  ],
-  "aimingCameraFovSettings": [
-   1,
-   4.0
-  ],
-  "aimingCameraHeight": [
-   0.7,
-   3
-  ],
-  "aimingCameraOffset": [
-   0,
-   1
-  ],
-  "aimingCameraPitchSettings": [
-   0.05,
-   -10,
-   10,
-   0.5
-  ],
-  "aimingCameraSensitivity": [
-   1,
-   1
-  ],
-  "aimingCameraYawSettings": [
-   0.0,
-   10,
-   0.5
-  ],
-  "aimingHeight": 3,
-  "aimingShakeMultiplier": 0.25,
-  "aimingSpeedLimits": [
-   0.7933,
-   1.2756
-  ],
-  "aimingTime": 10,
-  "aimingTurnAccelerationModifier": 0.5,
-  "aimingTurnSpeedLimit": 0.5,
-  "airBrakesDeploymentTime": 1.0,
-  "airBreakEffect": "particles/airplanes/Air_break.xml",
-  "airBrokenPartsEffect": "particles/airplanes/Air_brokenParts.xml",
-  "airDeathEffects": [
-   "particles/airplanes/Air_death_1.xml",
-   "particles/airplanes/Air_death_2.xml",
-   "particles/Empty_FX.xml"
-  ],
-  "airDestroyEffects": [
-   "particles/airplanes/Air_explosion_1.xml",
-   "particles/airplanes/Air_explosion_2.xml"
-  ],
-  "airExplosionEffects": [
-   "particles/airplanes/Air_explosion_1.xml",
-   "particles/airplanes/Air_explosion_3.xml"
-  ],
-  "airFireEffect": "particles/airplanes/Air_state_3_fire.xml",
-  "airGunfireEffect": "particles/airplanes/Air_gunfire.xml",
-  "airHitEffect": "particles/airplanes/Air_hit_1.xml",
-  "airSmokeEffects": [
-   "particles/airplanes/Air_state_1_smoke.xml",
-   "particles/airplanes/Air_state_2_smoke.xml",
-   "particles/airplanes/Air_state_3_smoke.xml"
-  ],
-  "angleOfClimb": 60.0,
-  "angleOfDive": -75.0,
-  "attackAngle": null,
-  "attackCameraSlowdownTime": 0.0,
-  "attackCooldown": 5,
-  "attackCount": 1,
-  "attackEndDelay": 0.0,
-  "attackInterval": 1,
-  "attackShakeMultiplier": 1,
-  "attackSpeedMultiplier": 1.0,
-  "attackSpeedMultiplierApplyTime": 0.0,
-  "attackerDamageTakenMultiplier": 0.5,
-  "attackerSize": 2,
-  "bombFallingTime": 0.3,
-  "bombName": "PBPT108_Implacable_stock",
-  "bombingDropPointTime": 0.1,
-  "climbSpeedCoef": 0.8,
-  "climbSpeedCoefAiming": 1,
-  "climbSpeedCoefPreparation": 1,
-  "costCR": 700,
-  "customProjRenderSets": [
-   [
-    "stub",
-    "pylon_bomb_custom_BlendBone"
-   ],
-   [
-    "stub1",
-    "pylon_torpedo_custom_BlendBone"
-   ],
-   [
-    "stub2",
-    "pylon_rocket_custom_BlendBone"
-   ]
-  ],
-  "damageTakenMultiplier": 1.0,
-  "deathCameraJumpDelay": 120.0,
-  "deathCameraSlowdownTime": 3.0,
-  "deceleratedFlightShake": {
-   "pitch": [
-    0.001,
-    0.005,
-    1.0,
-    1.25
-   ],
-   "roll": [
-    0.0025,
-    0.0075,
-    1.5,
-    1.75
-   ],
-   "x": [
-    0.01,
-    0.03,
-    0.1,
-    0.2
-   ],
-   "y": [
-    0.01,
-    0.03,
-    0.1,
-    0.2
-   ],
-   "yaw": [
-    0.001,
-    0.005,
-    1.0,
-    1.25
-   ],
-   "z": [
-    0.0,
-    0.0,
-    0.0,
-    0.0
-   ]
-  },
-  "decelerationMinFov": 0.8,
-  "defaultCameraDistance": [
-   0.5,
-   3
-  ],
-  "defaultCameraFovSettings": [
-   1,
-   4.0
-  ],
-  "defaultCameraHeight": [
-   1,
-   1
-  ],
-  "defaultCameraOffset": [
-   2,
-   1
-  ],
-  "defaultCameraPitchSettings": [
-   0.0,
-   -10,
-   10,
-   0.5
-  ],
-  "defaultCameraSensitivity": [
-   1,
-   1
-  ],
-  "defaultCameraYawSettings": [
-   0.0,
-   3.5,
-   0.5
-  ],
-  "depletedForsageThreshold": 0.25,
-  "diveBomberBrakesStrength": 0.75,
-  "diveCameraDistance": [
-   -10,
-   2.5
-  ],
-  "diveCameraFovSettings": [
-   1.25,
-   2.5
-  ],
-  "diveCameraHeight": [
-   -2,
-   2.5
-  ],
-  "diveCameraOffset": [
-   0,
-   1
-  ],
-  "diveCameraPitchSettings": [
-   0.0,
-   -10,
-   10,
-   0.5
-  ],
-  "diveCameraSensitivity": [
-   1,
-   1
-  ],
-  "diveCameraYawSettings": [
-   0.0,
-   3.5,
-   0.5
-  ],
-  "diveHeightDecrease": 1,
-  "diveSpeedCoef": 1.2,
-  "diveSpeedCoefAiming": 0.66,
-  "diveSpeedCoefPreparation": 0.66,
-  "doesCameraTrackAttackers": false,
-  "emptyReturnSpeedMultiplier": 1,
-  "engineFireEffect": "particles/airplanes/Air_state_4_fire.xml",
-  "engineLightEffect": "particles/airplanes/Air_enginelight.xml",
-  "escapeHeightAttack": 40.0,
-  "escapeHeightLanding": 85.0,
-  "fighterTracerName": "PCPP001_Default_Storming",
-  "finalAttackCameraJumpDelay": 120.0,
-  "flightHeight": 20.0,
-  "flightRadius": 33.0,
-  "flyScreenEffect": "particles/airplanes/Air_screen_fly.xml",
-  "formations": {
-   "aerialAttack": [
-    0.1,
-    [
-     [
-      0,
-      0,
-      0.0
-     ],
-     [
-      -0.5,
-      -1.5,
-      0
-     ],
-     [
-      -0.5,
-      1.5,
-      0
-     ],
-     [
-      -1.5,
-      0,
-      1
-     ],
-     [
-      -2,
-      -1.5,
-      1
-     ],
-     [
-      -2,
-      1.5,
-      1
-     ],
-     [
-      -3,
-      0,
-      -1
-     ],
-     [
-      -3.5,
-      -1.5,
-      -1
-     ],
-     [
-      -3.5,
-      1.5,
-      -1
-     ],
-     [
-      -4.5,
-      0,
-      2
-     ],
-     [
-      -5,
-      -1.5,
-      2
-     ],
-     [
-      -5,
-      1.5,
-      2
-     ],
-     [
-      -6,
-      0,
-      -2
-     ],
-     [
-      -6.5,
-      -1.5,
-      -2
-     ],
-     [
-      -6.5,
-      1.5,
-      -2
-     ]
-    ]
-   ],
-   "aiming": [
-    2.0,
-    [
-     [
-      0.75,
-      0.0,
-      0
-     ],
-     [
-      -0.75,
-      0,
-      0
-     ],
-     [
-      0.75,
-      6,
-      -12
-     ],
-     [
-      -0.75,
-      6,
-      -12
-     ],
-     [
-      0.75,
-      7,
-      -11
-     ],
-     [
-      -0.75,
-      7,
-      -11
-     ],
-     [
-      0.75,
-      6,
-      -10
-     ],
-     [
-      -0.75,
-      6,
-      -10
-     ]
-    ]
-   ],
-   "attack": [
-    0.1,
-    [
-     [
-      2.5,
-      0,
-      0
-     ],
-     [
-      -2.5,
-      0,
-      0
-     ]
-    ]
-   ],
-   "flight": [
-    0.1,
-    [
-     [
-      0.75,
-      0,
-      0
-     ],
-     [
-      -0.75,
-      0,
-      0
-     ],
-     [
-      1.5,
-      0,
-      1.25
-     ],
-     [
-      -1.5,
-      0.0,
-      1.25
-     ],
-     [
-      1.25,
-      0,
-      2.5
-     ],
-     [
-      -1.25,
-      0.0,
-      2.5
-     ],
-     [
-      0.85,
-      0,
-      3.75
-     ],
-     [
-      -0.85,
-      0.0,
-      3.75
-     ]
-    ]
-   ],
-   "landing": [
-    0.1,
-    [
-     [
-      6,
-      0,
-      0
-     ],
-     [
-      4.75,
-      0,
-      0
-     ],
-     [
-      3.5,
-      0,
-      0
-     ],
-     [
-      2.25,
-      0,
-      0
-     ],
-     [
-      1,
-      0,
-      0
-     ],
-     [
-      -0.25,
-      0,
-      0
-     ],
-     [
-      -1.5,
-      0,
-      0
-     ],
-     [
-      -2.75,
-      0,
-      0
-     ],
-     [
-      -4,
-      0,
-      0
-     ],
-     [
-      -5.25,
-      0,
-      0
-     ],
-     [
-      -6.5,
-      0,
-      0
-     ],
-     [
-      -7.75,
-      0,
-      0
-     ],
-     [
-      -9,
-      0,
-      0
-     ],
-     [
-      -10.25,
-      0,
-      0
-     ],
-     [
-      -11.5,
-      0,
-      0
-     ]
-    ]
-   ],
-   "preparation": [
-    2.0,
-    [
-     [
-      0.75,
-      0.0,
-      0
-     ],
-     [
-      -0.75,
-      0,
-      0
-     ],
-     [
-      0.75,
-      3,
-      -6
-     ],
-     [
-      -0.75,
-      3,
-      -6
-     ],
-     [
-      0.75,
-      4,
-      -4.5
-     ],
-     [
-      -0.75,
-      4,
-      -4.5
-     ],
-     [
-      0.75,
-      3,
-      -3
-     ],
-     [
-      -0.75,
-      3,
-      -3
-     ]
-    ]
-   ]
-  },
-  "forsageAcceleration": 1,
-  "forsageDeceleration": 0.75,
-  "forsageEffect": "particles/airplanes/Air_forsage.xml",
-  "forsageRegeneration": 0.5,
-  "forsageRegenerationDelay": 0.5,
-  "forsageScreenEffect": "particles/airplanes/Air_forsage_screen.xml",
-  "fuelTime": 180.0,
-  "groundDestroyEffects": [
-   "particles/airplanes/Air_ground_explosion_1.xml",
-   "particles/airplanes/Air_ground_explosion_2.xml"
-  ],
-  "hangarSettings": {
-   "maxValue": 12,
-   "restoreAmount": 1,
-   "startValue": 12,
-   "timeToRestore": 86.0
-  },
-  "heavyDamageShake": {
-   "duration": 1,
-   "pitch": [
-    0.02,
-    0.04,
-    0.1,
-    0.2
-   ],
-   "roll": [
-    0.1,
-    0.125,
-    1,
-    1.05
-   ],
-   "x": [
-    0.025,
-    0.03,
-    0.1,
-    0.15
-   ],
-   "y": [
-    0.025,
-    0.03,
-    0.1,
-    0.15
-   ],
-   "yaw": [
-    0.02,
-    0.04,
-    0.1,
-    0.2
-   ],
-   "z": [
-    0.025,
-    0.03,
-    0.1,
-    0.15
-   ]
-  },
-  "id": 4181688272,
-  "index": "PBAB108",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
-  "isJatoBoosterDetachable": true,
-  "jatoBoosterModel": "",
-  "jatoDuration": 0.0,
-  "jatoEffect": "particles/airplanes/Air_jato_smoke.xml",
-  "jatoFadeDuration": 0.0,
-  "jatoFallingEffect": "particles/airplanes/Air_jato_falling.xml",
-  "jatoGroundEffect": "particles/airplanes/Air_torpedo_ground_1.xml",
-  "jatoSpeedMultiplier": 2.0,
-  "jatoVehicleEffect": "particles/airplanes/Air_torpedo_ground_1.xml",
-  "jatoWaterEffect": "particles/airplanes/Air_torpedo_drop.xml",
-  "keyboardTurnStrength": 0.5,
-  "launchCameraDistance": [
-   -4.0,
-   1
-  ],
-  "launchCameraFovSettings": [
-   1,
-   0.5
-  ],
-  "launchCameraHeight": [
-   0.3,
-   1
-  ],
-  "launchCameraOffset": [
-   0,
-   1
-  ],
-  "launchCameraPitchSettings": [
-   -0.2,
-   -0.5,
-   0.0,
-   1
-  ],
-  "launchCameraSensitivity": [
-   1,
-   1
-  ],
-  "launchCameraYawSettings": [
-   0.0,
-   3.5,
-   0.5
-  ],
-  "launchDelayStep": -0.4,
-  "launchPrepareTime": 0.1,
-  "level": 7,
-  "lightDamageShake": {
-   "duration": 0.75,
-   "pitch": [
-    0.02,
-    0.04,
-    0.1,
-    0.2
-   ],
-   "roll": [
-    0.1,
-    0.125,
-    1,
-    1.05
-   ],
-   "x": [
-    0.025,
-    0.03,
-    0.1,
-    0.15
-   ],
-   "y": [
-    0.025,
-    0.03,
-    0.1,
-    0.15
-   ],
-   "yaw": [
-    0.02,
-    0.04,
-    0.1,
-    0.2
-   ],
-   "z": [
-    0.025,
-    0.03,
-    0.1,
-    0.15
-   ]
-  },
-  "lowLodDist": 210,
-  "maxAirBrakesPitch": 1.4,
-  "maxAttackAngle": null,
-  "maxAttackDistanceMultiplier": 9999,
-  "maxForsageAmount": 20,
-  "maxHealth": 2060,
-  "maxLaunchDelay": 2,
-  "maxRotateSpeed": 0.58,
-  "maxRudderYaw": 1.0,
-  "maxSpread": 200,
-  "minLaunchDelay": 0.1,
-  "minSpread": 3,
-  "model": "content/gameplay/uk/aircraft/bomber/BAB707_Barracuda_MkV_proto/BAB707_Barracuda_MkV_proto.model",
-  "mouseTurnStrength": [
-   [
-    1,
-    0.2
-   ],
-   [
-    2,
-    0.225
-   ],
-   [
-    3,
-    0.25
-   ],
-   [
-    4,
-    0.275
-   ],
-   [
-    5,
-    0.3
-   ],
-   [
-    6,
-    0.35
-   ],
-   [
-    7,
-    0.4
-   ],
-   [
-    8,
-    0.45
-   ],
-   [
-    9,
-    0.5
-   ],
-   [
-    15,
-    0.5
-   ],
-   [
-    16,
-    0.4
-   ],
-   [
-    17,
-    0.3
-   ],
-   [
-    18,
-    0.2
-   ],
-   [
-    19,
-    0.1
-   ],
-   [
-    20,
-    0
-   ]
-  ],
-  "name": "PBAB108_Implacable_stock",
-  "naturalAcceleration": 0.032,
-  "naturalDeceleration": 0.032,
-  "normalFlightShake": {
-   "pitch": [
-    0.005,
-    0.01,
-    0.25,
-    0.5
-   ],
-   "roll": [
-    0.005,
-    0.01,
-    0.25,
-    0.5
-   ],
-   "x": [
-    0.03,
-    0.05,
-    0.1,
-    0.2
-   ],
-   "y": [
-    0.04,
-    0.06,
-    0.1,
-    0.2
-   ],
-   "yaw": [
-    0.005,
-    0.01,
-    0.25,
-    0.5
-   ],
-   "z": [
-    0.0,
-    0.0,
-    0.0,
-    0.0
-   ]
-  },
-  "normalLodDist": 190,
-  "numFloats": 0,
-  "numPlanesInSquadron": 8,
-  "overMaxThrottleMultiplier": 5.0,
-  "parentAttackDuration": 0.0,
-  "pitchChangeRate": 200,
-  "planePitchAccelerationTime": 0.5,
-  "planeSpeedupCoef": 2,
-  "planeToPlaneAnimationEasing": null,
-  "planeYawAccelerationTime": 1.0,
-  "postAttackInvulnerabilityDuration": 3.5,
-  "preparationAccelerationModifier": 1.0,
-  "preparationAccuracyDecreaseRate": -0.06,
-  "preparationAccuracyIncreaseRate": 0.2,
-  "preparationCameraDistance": [
-   -2.5,
-   3
-  ],
-  "preparationCameraFovSettings": [
-   1,
-   4.0
-  ],
-  "preparationCameraHeight": [
-   1,
-   3
-  ],
-  "preparationCameraOffset": [
-   0,
-   1
-  ],
-  "preparationCameraPitchSettings": [
-   0.05,
-   -10,
-   10,
-   0.5
-  ],
-  "preparationCameraSensitivity": [
-   1,
-   1
-  ],
-  "preparationCameraYawSettings": [
-   0.0,
-   10,
-   0.5
-  ],
-  "preparationHeight": 3,
-  "preparationShakeMultiplier": 1.25,
-  "preparationSpeedLimits": [
-   0.7933,
-   1.2756
-  ],
-  "preparationTime": 4,
-  "preparationTurnAccelerationModifier": 0.5,
-  "preparationTurnSpeedLimit": 0.5,
-  "projectilesPerAttack": 1,
-  "propellerRPM": 9999999,
-  "resetAttackerThrottle": false,
-  "resetAttackerThrottleDuration": 0.0,
-  "returnHeight": 100.0,
-  "rotateAcceleration": 9999,
-  "rotateDeceleration": 9999,
-  "rudderTurnTime": 1.5,
-  "shootdownAirFrictionRelativeDeceleration": 0.25,
-  "shootdownFallAcceleration": 2.0,
-  "shootdownFallAccelerationDelta": 1.0,
-  "shootdownMaxRollSpeed": 550.0,
-  "shootdownMinHorizontalSpeed": 0.1,
-  "shootdownRollAcceleration": 360.0,
-  "shootdownSideRelativeAcceleration": 0.5,
-  "speedMax": 1.2756,
-  "speedMin": 0.7933,
-  "speedMoveWithBomb": 127.0,
-  "splitSpeedBoostDuration": 4,
-  "splitSpeedMultiplier": 2.0,
-  "squadronTurnRadius": 1,
-  "startAngle": -10.7,
-  "throttleAcceleration": 0.081,
-  "throttleBrakesStrength": 0.5,
-  "throttleDeceleration": 0.081,
-  "torpedoAimDist": 100,
-  "turnSettings": [
-   [
-    0.01,
-    0.0,
-    1.45
-   ],
-   [
-    0.02,
-    0.2,
-    1.35
-   ],
-   [
-    0.03,
-    0.4,
-    1.25
-   ],
-   [
-    0.04,
-    0.6,
-    1.15
-   ],
-   [
-    0.05,
-    0.8,
-    1.05
-   ],
-   [
-    0.06,
-    1.0,
-    0.95
-   ],
-   [
-    0.07,
-    1.2,
-    0.9
-   ],
-   [
-    0.08,
-    1.4,
-    0.85
-   ],
-   [
-    0.09,
-    1.6,
-    0.8
-   ]
-  ],
-  "typeinfo": {
-   "nation": "United_Kingdom",
-   "species": "Bomber",
-   "type": "Aircraft"
-  },
-  "underMinThrottleMultiplier": 5.0,
-  "visibilityFactor": 10.0,
-  "visibilityFactorByPlane": 10.0,
-  "visionToPlane": 15.0,
-  "visionToShip": 15.0,
-  "visionToTorpedo": 0,
-  "waterDestroyEffects": [
-   "particles/airplanes/Air_water_explosion_1.xml",
-   "particles/airplanes/Air_water_explosion_2.xml",
-   "particles/airplanes/Air_water_explosion_3.xml"
-  ],
-  "waterEffect": "particles/airplane_water_effect.xml",
-  "waterstepEffect": "particles/airplanes/Air_waterstep.xml"
- },
- {
-  "CautiousBehaviour": {},
-  "PlaneAbilities": {
-   "AbilitySlot0": {
-    "abils": [
-     [
-      "PCY034_ForsageBooster",
-      "Allplanes"
-     ]
-    ],
-    "slot": 0
-   },
-   "AbilitySlot1": {
-    "abils": [
-     [
-      "PCY035_CallFighters",
       "BR_6"
      ]
     ],
@@ -29610,31 +29844,31 @@
     0.0
    ]
   },
-  "accelerationMaxFov": 1.05,
+  "accelerationMaxFov": 1.4,
   "aimingAccelerationModifier": 1.0,
-  "aimingAccuracyDecreaseRate": -0.25,
+  "aimingAccuracyDecreaseRate": -0.2,
   "aimingAccuracyIncreaseRate": 0.1,
   "aimingCameraDistance": [
-   -2.5,
-   3
+   2,
+   0.5
   ],
   "aimingCameraFovSettings": [
-   0.65,
-   4.0
+   1,
+   0.5
   ],
   "aimingCameraHeight": [
-   0.5,
-   3
+   2,
+   0.5
   ],
   "aimingCameraOffset": [
    0,
    1
   ],
   "aimingCameraPitchSettings": [
-   -0.5,
-   -10,
-   10,
-   0.5
+   0.0,
+   -1.5,
+   0,
+   1
   ],
   "aimingCameraSensitivity": [
    0.5,
@@ -29642,18 +29876,18 @@
   ],
   "aimingCameraYawSettings": [
    0.0,
-   10,
-   0.5
+   2.0,
+   1
   ],
-  "aimingHeight": 16,
+  "aimingHeight": 5.0,
   "aimingShakeMultiplier": 3,
   "aimingSpeedLimits": [
-   0.76,
-   1.32
+   0.5,
+   1.5
   ],
-  "aimingTime": 5,
-  "aimingTurnAccelerationModifier": 0.35,
-  "aimingTurnSpeedLimit": 0.35,
+  "aimingTime": 15.0,
+  "aimingTurnAccelerationModifier": 1.0,
+  "aimingTurnSpeedLimit": 0.3,
   "airBrakesDeploymentTime": 1.0,
   "airBreakEffect": "particles/airplanes/Air_break.xml",
   "airBrokenPartsEffect": "particles/airplanes/Air_brokenParts.xml",
@@ -29680,19 +29914,19 @@
   ],
   "angleOfClimb": 60.0,
   "angleOfDive": -75.0,
-  "attackAngle": 20,
+  "attackAngle": 17.5,
   "attackCameraSlowdownTime": 0.0,
   "attackCooldown": 5,
-  "attackCount": 6,
+  "attackCount": 1,
   "attackEndDelay": 0.5,
-  "attackInterval": 0.033,
+  "attackInterval": 1,
   "attackShakeMultiplier": 4,
   "attackSpeedMultiplier": 0.5,
   "attackSpeedMultiplierApplyTime": 0.75,
   "attackerDamageTakenMultiplier": 1,
-  "attackerSize": 2,
+  "attackerSize": 1,
   "bombFallingTime": 0.3,
-  "bombName": "PBPR206_Furious_top",
+  "bombName": "PAPR104_Langley_stock",
   "bombingDropPointTime": 0.1,
   "climbSpeedCoef": 0.8,
   "climbSpeedCoefAiming": 1,
@@ -29753,28 +29987,28 @@
     0.0
    ]
   },
-  "decelerationMinFov": 0.65,
+  "decelerationMinFov": 0.8,
   "defaultCameraDistance": [
-   -0.5,
-   3
+   0.3,
+   1
   ],
   "defaultCameraFovSettings": [
-   0.75,
-   4.0
+   1,
+   0.5
   ],
   "defaultCameraHeight": [
-   0.7,
+   0.3,
    1
   ],
   "defaultCameraOffset": [
-   1,
+   0,
    1
   ],
   "defaultCameraPitchSettings": [
    0.0,
-   -10,
-   10,
-   0.5
+   -0.5,
+   0,
+   1
   ],
   "defaultCameraSensitivity": [
    1,
@@ -29830,7 +30064,7 @@
   "escapeHeightLanding": 85.0,
   "fighterTracerName": "PCPP001_Default_Storming",
   "finalAttackCameraJumpDelay": 120.0,
-  "flightHeight": 17.0,
+  "flightHeight": 33.0,
   "flightRadius": 33.0,
   "flyScreenEffect": "particles/airplanes/Air_screen_fly.xml",
   "formations": {
@@ -29915,37 +30149,82 @@
     ]
    ],
    "aiming": [
-    2.0,
+    0.1,
     [
      [
-      0.6,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.6,
-      0,
+      -0.5,
+      1.5,
       0
      ],
      [
-      0.6,
-      8,
-      -10.5
+      -1.5,
+      0,
+      1
      ],
      [
-      -0.6,
-      8,
-      -10.5
+      -2,
+      -1.5,
+      1
      ],
      [
-      0.6,
-      9,
-      -9
+      -2,
+      1.5,
+      1
      ],
      [
-      -0.6,
-      9,
-      -9
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -29953,14 +30232,79 @@
     0.1,
     [
      [
-      0.6,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.6,
-      0,
+      -0.5,
+      1.5,
       0
+     ],
+     [
+      -1.5,
+      0,
+      1
+     ],
+     [
+      -2,
+      -1.5,
+      1
+     ],
+     [
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -29968,34 +30312,79 @@
     0.1,
     [
      [
-      0.6,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.6,
-      0,
-      0
-     ],
-     [
+      -0.5,
       1.5,
-      0,
-      1.25
+      0
      ],
      [
       -1.5,
-      0.0,
-      1.25
-     ],
-     [
-      0.8,
       0,
-      2.5
+      1
      ],
      [
-      -0.8,
-      0.0,
-      2.5
+      -2,
+      -1.5,
+      1
+     ],
+     [
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -30080,37 +30469,82 @@
     ]
    ],
    "preparation": [
-    2.0,
+    0.1,
     [
      [
-      0.6,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.6,
-      0,
+      -0.5,
+      1.5,
       0
      ],
      [
-      0.6,
-      4,
-      -8
+      -1.5,
+      0,
+      1
      ],
      [
-      -0.6,
-      4,
-      -8
+      -2,
+      -1.5,
+      1
      ],
      [
-      0.6,
-      5,
-      -7
+      -2,
+      1.5,
+      1
      ],
      [
-      -0.6,
-      5,
-      -7
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ]
@@ -30127,10 +30561,10 @@
    "particles/airplanes/Air_ground_explosion_2.xml"
   ],
   "hangarSettings": {
-   "maxValue": 9,
+   "maxValue": 0,
    "restoreAmount": 1,
-   "startValue": 9,
-   "timeToRestore": 72.0
+   "startValue": 0,
+   "timeToRestore": 0.1
   },
   "heavyDamageShake": {
    "duration": 1,
@@ -30173,10 +30607,10 @@
   },
   "id": 3763175376,
   "index": "PBAF507",
-  "innerBombsPercentage": 75.0,
+  "innerBombsPercentage": 33.33,
   "innerSalvoSize": [
-   1.7,
-   1.02
+   1.5,
+   2.5
   ],
   "isAirSupportPlane": false,
   "isConsumablePlane": true,
@@ -30269,19 +30703,23 @@
   "maxAttackAngle": 45,
   "maxAttackDistanceMultiplier": 9999,
   "maxForsageAmount": 5,
-  "maxHealth": 164,
+  "maxHealth": 125,
   "maxLaunchDelay": 0.6,
   "maxRotateSpeed": 0.42,
   "maxRudderYaw": 1.0,
   "maxSpread": [
-   3.0,
-   3.0
+   3,
+   3
   ],
+  "maxVisibilityFactor": 7.5,
+  "maxVisibilityFactorByPlane": 7.5,
   "minLaunchDelay": 0.6,
   "minSpread": [
    1,
    1
   ],
+  "minVisibilityFactor": 7.5,
+  "minVisibilityFactorByPlane": 7.5,
   "model": "content/gameplay/uk/aircraft/fighter/BAF704_Sea_Hurricane_MkIIC_proto/BAF704_Sea_Hurricane_MkIIC_proto.model",
   "mouseTurnStrength": [
    [
@@ -30346,8 +30784,8 @@
    ]
   ],
   "name": "PBAF507_ARKR_WARD",
-  "naturalAcceleration": 0.196,
-  "naturalDeceleration": 0.196,
+  "naturalAcceleration": 0.199,
+  "naturalDeceleration": 0.199,
   "normalFlightShake": {
    "pitch": [
     0.005,
@@ -30387,11 +30825,11 @@
    ]
   },
   "normalLodDist": 190,
-  "numFloats": 0,
-  "numPlanesInSquadron": 6,
+  "numFloats": 1,
+  "numPlanesInSquadron": 1,
   "outerSalvoSize": [
-   2.93,
-   1.76
+   6.0,
+   15.0
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
@@ -30402,29 +30840,29 @@
   "planeYawAccelerationTime": 1.0,
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccelerationModifier": 1.0,
-  "preparationAccuracyDecreaseRate": -0.14,
-  "preparationAccuracyIncreaseRate": 0.32,
+  "preparationAccuracyDecreaseRate": -0.2,
+  "preparationAccuracyIncreaseRate": 0.1,
   "preparationCameraDistance": [
-   -1.5,
-   3
+   3,
+   1
   ],
   "preparationCameraFovSettings": [
-   0.7,
-   4.0
+   1,
+   0.5
   ],
   "preparationCameraHeight": [
-   1,
-   3
+   3,
+   1
   ],
   "preparationCameraOffset": [
    0,
    1
   ],
   "preparationCameraPitchSettings": [
-   -0.5,
-   -10,
-   10,
-   0.5
+   0.0,
+   -1.0,
+   0,
+   1
   ],
   "preparationCameraSensitivity": [
    0.75,
@@ -30432,18 +30870,18 @@
   ],
   "preparationCameraYawSettings": [
    0.0,
-   10,
-   0.5
+   1.0,
+   1
   ],
-  "preparationHeight": 16,
+  "preparationHeight": 30.0,
   "preparationShakeMultiplier": 2,
   "preparationSpeedLimits": [
-   0.76,
-   1.32
+   0.5,
+   1.5
   ],
-  "preparationTime": 3.0,
-  "preparationTurnAccelerationModifier": 1,
-  "preparationTurnSpeedLimit": 1,
+  "preparationTime": 1.0,
+  "preparationTurnAccelerationModifier": 1.0,
+  "preparationTurnSpeedLimit": 0.3,
   "projectilesPerAttack": 1,
   "propellerRPM": 9999999,
   "resetAttackerThrottle": true,
@@ -30459,16 +30897,16 @@
   "shootdownMinHorizontalSpeed": 0.1,
   "shootdownRollAcceleration": 360.0,
   "shootdownSideRelativeAcceleration": 0.5,
-  "speedMax": 1.32,
-  "speedMin": 0.76,
-  "speedMoveWithBomb": 221.0,
+  "speedMax": 1.2614,
+  "speedMin": 0.8039,
+  "speedMoveWithBomb": 194.0,
   "splitSpeedBoostDuration": 4,
   "splitSpeedMultiplier": 1.5,
   "squadronTurnRadius": 1,
   "startAngle": -10.6,
-  "throttleAcceleration": 0.491,
+  "throttleAcceleration": 0.499,
   "throttleBrakesStrength": 0.5,
-  "throttleDeceleration": 0.491,
+  "throttleDeceleration": 0.499,
   "torpedoAimDist": 100,
   "turnSettings": [
    [
@@ -30523,8 +30961,8 @@
    "type": "Aircraft"
   },
   "underMinThrottleMultiplier": 5.0,
-  "visibilityFactor": 7.5,
-  "visibilityFactorByPlane": 7.5,
+  "visibilityFactor": 10.0,
+  "visibilityFactorByPlane": 10.0,
   "visionToPlane": 15.0,
   "visionToShip": 15.0,
   "visionToTorpedo": 0,
@@ -36959,31 +37397,31 @@
     0.0
    ]
   },
-  "accelerationMaxFov": 1.1,
+  "accelerationMaxFov": 1.4,
   "aimingAccelerationModifier": 1.0,
   "aimingAccuracyDecreaseRate": -0.2,
   "aimingAccuracyIncreaseRate": 0.1,
   "aimingCameraDistance": [
-   -2.5,
-   3
+   2,
+   0.5
   ],
   "aimingCameraFovSettings": [
    1,
-   4.0
+   0.5
   ],
   "aimingCameraHeight": [
-   0.7,
-   3
+   2,
+   0.5
   ],
   "aimingCameraOffset": [
-   0.5,
-   3
+   0,
+   1
   ],
   "aimingCameraPitchSettings": [
-   -0.5,
-   -10,
-   10,
-   0.5
+   0.0,
+   -1.5,
+   0,
+   1
   ],
   "aimingCameraSensitivity": [
    0.5,
@@ -36991,18 +37429,18 @@
   ],
   "aimingCameraYawSettings": [
    0.0,
-   10,
-   0.5
+   2.0,
+   1
   ],
-  "aimingHeight": 17,
+  "aimingHeight": 5.0,
   "aimingShakeMultiplier": 3,
   "aimingSpeedLimits": [
-   0.8225,
-   1.2367
+   0.5,
+   1.5
   ],
-  "aimingTime": 5,
-  "aimingTurnAccelerationModifier": 0.4,
-  "aimingTurnSpeedLimit": 0.4,
+  "aimingTime": 15.0,
+  "aimingTurnAccelerationModifier": 1.0,
+  "aimingTurnSpeedLimit": 0.3,
   "airBrakesDeploymentTime": 1.0,
   "airBreakEffect": "particles/airplanes/Air_break.xml",
   "airBrokenPartsEffect": "particles/airplanes/Air_brokenParts.xml",
@@ -37032,16 +37470,16 @@
   "attackAngle": 17.5,
   "attackCameraSlowdownTime": 0.0,
   "attackCooldown": 5,
-  "attackCount": 8,
+  "attackCount": 1,
   "attackEndDelay": 0.5,
-  "attackInterval": 0.025,
+  "attackInterval": 1,
   "attackShakeMultiplier": 4,
   "attackSpeedMultiplier": 0.5,
   "attackSpeedMultiplierApplyTime": 0.75,
   "attackerDamageTakenMultiplier": 1,
-  "attackerSize": 3,
+  "attackerSize": 1,
   "bombFallingTime": 0.3,
-  "bombName": "PAPR208_Lexington_top",
+  "bombName": "PAPR104_Langley_stock",
   "bombingDropPointTime": 0.1,
   "climbSpeedCoef": 0.8,
   "climbSpeedCoefAiming": 1,
@@ -37102,28 +37540,28 @@
     0.0
    ]
   },
-  "decelerationMinFov": 0.65,
+  "decelerationMinFov": 0.8,
   "defaultCameraDistance": [
-   -0.5,
-   3
+   0.3,
+   1
   ],
   "defaultCameraFovSettings": [
    1,
-   4.0
+   0.5
   ],
   "defaultCameraHeight": [
-   1,
+   0.3,
    1
   ],
   "defaultCameraOffset": [
-   1,
+   0,
    1
   ],
   "defaultCameraPitchSettings": [
    0.0,
-   -10,
-   10,
-   0.5
+   -0.5,
+   0,
+   1
   ],
   "defaultCameraSensitivity": [
    1,
@@ -37179,7 +37617,7 @@
   "escapeHeightLanding": 85.0,
   "fighterTracerName": "PCPP001_Default_Storming",
   "finalAttackCameraJumpDelay": 120.0,
-  "flightHeight": 18.0,
+  "flightHeight": 33.0,
   "flightRadius": 33.0,
   "flyScreenEffect": "particles/airplanes/Air_screen_fly.xml",
   "formations": {
@@ -37264,51 +37702,81 @@
     ]
    ],
    "aiming": [
-    2.0,
+    0.1,
     [
      [
-      0.0,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -1.25,
-      0,
-      1.25
-     ],
-     [
-      1.25,
-      0,
-      1.25
+      -0.5,
+      1.5,
+      0
      ],
      [
       -1.5,
-      15,
-      -3
-     ],
-     [
-      1.5,
-      15,
-      -3
-     ],
-     [
       0,
-      15,
-      -3
+      1
      ],
      [
+      -2,
       -1.5,
-      16,
-      -2
+      1
      ],
      [
+      -2,
       1.5,
-      16,
+      1
+     ],
+     [
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
       -2
      ],
      [
-      0,
-      16,
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
       -2
      ]
     ]
@@ -37317,19 +37785,79 @@
     0.1,
     [
      [
-      0.0,
-      0.0,
-      -2.5
+      0,
+      0,
+      0.0
      ],
      [
-      -2.5,
-      0,
+      -0.5,
+      -1.5,
       0
      ],
      [
-      2.5,
-      0,
+      -0.5,
+      1.5,
       0
+     ],
+     [
+      -1.5,
+      0,
+      1
+     ],
+     [
+      -2,
+      -1.5,
+      1
+     ],
+     [
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -37337,49 +37865,79 @@
     0.1,
     [
      [
-      0.0,
-      0.0,
+      0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -1.25,
+      -0.5,
+      1.5,
+      0
+     ],
+     [
+      -1.5,
       0,
-      1.25
+      1
      ],
      [
-      1.25,
+      -2,
+      -1.5,
+      1
+     ],
+     [
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
       0,
-      1.25
+      -1
      ],
      [
-      -2.75,
-      0.0,
-      2.5
+      -3.5,
+      -1.5,
+      -1
      ],
      [
-      2.75,
-      0.0,
-      2.5
+      -3.5,
+      1.5,
+      -1
      ],
      [
+      -4.5,
       0,
-      0.0,
-      2.75
+      2
      ],
      [
-      -1.75,
-      0.0,
-      3.5
+      -5,
+      -1.5,
+      2
      ],
      [
-      1.75,
-      0.0,
-      3.5
+      -5,
+      1.5,
+      2
      ],
      [
+      -6,
       0,
-      0.0,
-      4.5
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -37464,52 +38022,82 @@
     ]
    ],
    "preparation": [
-    2.0,
+    0.1,
     [
      [
-      0.0,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -1.25,
-      0,
-      1.25
-     ],
-     [
-      1.25,
-      0,
-      1.25
+      -0.5,
+      1.5,
+      0
      ],
      [
       -1.5,
-      10,
-      1
-     ],
-     [
-      1.5,
-      10,
-      1
-     ],
-     [
       0,
-      10,
       1
      ],
      [
+      -2,
       -1.5,
-      11,
-      2
+      1
      ],
      [
+      -2,
       1.5,
-      11,
+      1
+     ],
+     [
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
       2
      ],
      [
-      0,
-      11,
+      -5,
+      -1.5,
       2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ]
@@ -37526,10 +38114,10 @@
    "particles/airplanes/Air_ground_explosion_2.xml"
   ],
   "hangarSettings": {
-   "maxValue": 14,
+   "maxValue": 0,
    "restoreAmount": 1,
-   "startValue": 14,
-   "timeToRestore": 66.0
+   "startValue": 0,
+   "timeToRestore": 0.1
   },
   "heavyDamageShake": {
    "duration": 1,
@@ -37572,10 +38160,10 @@
   },
   "id": 4275929040,
   "index": "PBAF018",
-  "innerBombsPercentage": 75.0,
+  "innerBombsPercentage": 33.33,
   "innerSalvoSize": [
-   2.37,
-   1.42
+   1.5,
+   2.5
   ],
   "isAirSupportPlane": false,
   "isConsumablePlane": true,
@@ -37621,7 +38209,7 @@
    3.5,
    0.5
   ],
-  "launchDelayStep": 0,
+  "launchDelayStep": -0.4,
   "launchPrepareTime": 2,
   "level": 8,
   "lightDamageShake": {
@@ -37669,18 +38257,22 @@
   "maxAttackDistanceMultiplier": 9999,
   "maxForsageAmount": 5,
   "maxHealth": 163,
-  "maxLaunchDelay": 0.6,
+  "maxLaunchDelay": 2,
   "maxRotateSpeed": 0.44,
   "maxRudderYaw": 1.0,
   "maxSpread": [
    3,
    3
   ],
-  "minLaunchDelay": 0.6,
+  "maxVisibilityFactor": 7.5,
+  "maxVisibilityFactorByPlane": 7.5,
+  "minLaunchDelay": 0.1,
   "minSpread": [
    1,
    1
   ],
+  "minVisibilityFactor": 7.5,
+  "minVisibilityFactorByPlane": 7.5,
   "model": "content/gameplay/uk/aircraft/fighter/BAF018_Sea_Gladiator_float/BAF018_Sea_Gladiator_float.model",
   "mouseTurnStrength": [
    [
@@ -37787,10 +38379,10 @@
   },
   "normalLodDist": 190,
   "numFloats": 2,
-  "numPlanesInSquadron": 9,
+  "numPlanesInSquadron": 1,
   "outerSalvoSize": [
-   3.53,
-   2.12
+   6.0,
+   15.0
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
@@ -37801,29 +38393,29 @@
   "planeYawAccelerationTime": 1.0,
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccelerationModifier": 1.0,
-  "preparationAccuracyDecreaseRate": -0.13,
-  "preparationAccuracyIncreaseRate": 0.33,
+  "preparationAccuracyDecreaseRate": -0.2,
+  "preparationAccuracyIncreaseRate": 0.1,
   "preparationCameraDistance": [
-   -2.5,
-   3
+   3,
+   1
   ],
   "preparationCameraFovSettings": [
    1,
-   4.0
+   0.5
   ],
   "preparationCameraHeight": [
-   1,
-   3
+   3,
+   1
   ],
   "preparationCameraOffset": [
    0,
    1
   ],
   "preparationCameraPitchSettings": [
-   -0.5,
-   -10,
-   10,
-   0.5
+   0.0,
+   -1.0,
+   0,
+   1
   ],
   "preparationCameraSensitivity": [
    0.75,
@@ -37831,18 +38423,18 @@
   ],
   "preparationCameraYawSettings": [
    0.0,
-   10,
-   0.5
+   1.0,
+   1
   ],
-  "preparationHeight": 17.0,
+  "preparationHeight": 30.0,
   "preparationShakeMultiplier": 2,
   "preparationSpeedLimits": [
-   0.8225,
-   1.2367
+   0.5,
+   1.5
   ],
-  "preparationTime": 3,
-  "preparationTurnAccelerationModifier": 0.75,
-  "preparationTurnSpeedLimit": 0.75,
+  "preparationTime": 1.0,
+  "preparationTurnAccelerationModifier": 1.0,
+  "preparationTurnSpeedLimit": 0.3,
   "projectilesPerAttack": 1,
   "propellerRPM": 9999999,
   "resetAttackerThrottle": true,
@@ -37922,8 +38514,8 @@
    "type": "Aircraft"
   },
   "underMinThrottleMultiplier": 5.0,
-  "visibilityFactor": 7.5,
-  "visibilityFactorByPlane": 7.5,
+  "visibilityFactor": 10.0,
+  "visibilityFactorByPlane": 10.0,
   "visionToPlane": 15.0,
   "visionToShip": 15.0,
   "visionToTorpedo": 0,
@@ -40243,31 +40835,31 @@
     0.0
    ]
   },
-  "accelerationMaxFov": 1.05,
+  "accelerationMaxFov": 1.4,
   "aimingAccelerationModifier": 1.0,
-  "aimingAccuracyDecreaseRate": -0.25,
+  "aimingAccuracyDecreaseRate": -0.2,
   "aimingAccuracyIncreaseRate": 0.1,
   "aimingCameraDistance": [
-   -2.5,
-   3
+   2,
+   0.5
   ],
   "aimingCameraFovSettings": [
-   0.65,
-   4.0
+   1,
+   0.5
   ],
   "aimingCameraHeight": [
-   0.5,
-   3
+   2,
+   0.5
   ],
   "aimingCameraOffset": [
    0,
    1
   ],
   "aimingCameraPitchSettings": [
-   -0.5,
-   -10,
-   10,
-   0.5
+   0.0,
+   -1.5,
+   0,
+   1
   ],
   "aimingCameraSensitivity": [
    0.5,
@@ -40275,18 +40867,18 @@
   ],
   "aimingCameraYawSettings": [
    0.0,
-   10,
-   0.5
+   2.0,
+   1
   ],
-  "aimingHeight": 16,
+  "aimingHeight": 5.0,
   "aimingShakeMultiplier": 3,
   "aimingSpeedLimits": [
-   0.76,
-   1.32
+   0.5,
+   1.5
   ],
-  "aimingTime": 5,
-  "aimingTurnAccelerationModifier": 0.35,
-  "aimingTurnSpeedLimit": 0.35,
+  "aimingTime": 15.0,
+  "aimingTurnAccelerationModifier": 1.0,
+  "aimingTurnSpeedLimit": 0.3,
   "airBrakesDeploymentTime": 1.0,
   "airBreakEffect": "particles/airplanes/Air_break.xml",
   "airBrokenPartsEffect": "particles/airplanes/Air_brokenParts.xml",
@@ -40313,19 +40905,19 @@
   ],
   "angleOfClimb": 60.0,
   "angleOfDive": -75.0,
-  "attackAngle": 20,
+  "attackAngle": 17.5,
   "attackCameraSlowdownTime": 0.0,
   "attackCooldown": 5,
-  "attackCount": 6,
+  "attackCount": 1,
   "attackEndDelay": 0.5,
-  "attackInterval": 0.033,
+  "attackInterval": 1,
   "attackShakeMultiplier": 4,
   "attackSpeedMultiplier": 0.5,
   "attackSpeedMultiplierApplyTime": 0.75,
   "attackerDamageTakenMultiplier": 1,
-  "attackerSize": 2,
+  "attackerSize": 1,
   "bombFallingTime": 0.3,
-  "bombName": "PBPR206_Furious_top",
+  "bombName": "PAPR104_Langley_stock",
   "bombingDropPointTime": 0.1,
   "climbSpeedCoef": 0.8,
   "climbSpeedCoefAiming": 1,
@@ -40386,28 +40978,28 @@
     0.0
    ]
   },
-  "decelerationMinFov": 0.65,
+  "decelerationMinFov": 0.8,
   "defaultCameraDistance": [
-   -0.5,
-   3
+   0.3,
+   1
   ],
   "defaultCameraFovSettings": [
-   0.75,
-   4.0
+   1,
+   0.5
   ],
   "defaultCameraHeight": [
-   0.7,
+   0.3,
    1
   ],
   "defaultCameraOffset": [
-   1,
+   0,
    1
   ],
   "defaultCameraPitchSettings": [
    0.0,
-   -10,
-   10,
-   0.5
+   -0.5,
+   0,
+   1
   ],
   "defaultCameraSensitivity": [
    1,
@@ -40463,7 +41055,7 @@
   "escapeHeightLanding": 85.0,
   "fighterTracerName": "PCPP001_Default_Storming",
   "finalAttackCameraJumpDelay": 120.0,
-  "flightHeight": 17.0,
+  "flightHeight": 33.0,
   "flightRadius": 33.0,
   "flyScreenEffect": "particles/airplanes/Air_screen_fly.xml",
   "formations": {
@@ -40548,37 +41140,82 @@
     ]
    ],
    "aiming": [
-    2.0,
+    0.1,
     [
      [
-      0.6,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.6,
-      0,
+      -0.5,
+      1.5,
       0
      ],
      [
-      0.6,
-      8,
-      -10.5
+      -1.5,
+      0,
+      1
      ],
      [
-      -0.6,
-      8,
-      -10.5
+      -2,
+      -1.5,
+      1
      ],
      [
-      0.6,
-      9,
-      -9
+      -2,
+      1.5,
+      1
      ],
      [
-      -0.6,
-      9,
-      -9
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -40586,14 +41223,79 @@
     0.1,
     [
      [
-      0.6,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.6,
-      0,
+      -0.5,
+      1.5,
       0
+     ],
+     [
+      -1.5,
+      0,
+      1
+     ],
+     [
+      -2,
+      -1.5,
+      1
+     ],
+     [
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -40601,34 +41303,79 @@
     0.1,
     [
      [
-      0.6,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.6,
-      0,
-      0
-     ],
-     [
+      -0.5,
       1.5,
-      0,
-      1.25
+      0
      ],
      [
       -1.5,
-      0.0,
-      1.25
-     ],
-     [
-      0.8,
       0,
-      2.5
+      1
      ],
      [
-      -0.8,
-      0.0,
-      2.5
+      -2,
+      -1.5,
+      1
+     ],
+     [
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -40713,37 +41460,82 @@
     ]
    ],
    "preparation": [
-    2.0,
+    0.1,
     [
      [
-      0.6,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.6,
-      0,
+      -0.5,
+      1.5,
       0
      ],
      [
-      0.6,
-      4,
-      -8
+      -1.5,
+      0,
+      1
      ],
      [
-      -0.6,
-      4,
-      -8
+      -2,
+      -1.5,
+      1
      ],
      [
-      0.6,
-      5,
-      -7
+      -2,
+      1.5,
+      1
      ],
      [
-      -0.6,
-      5,
-      -7
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ]
@@ -40760,10 +41552,10 @@
    "particles/airplanes/Air_ground_explosion_2.xml"
   ],
   "hangarSettings": {
-   "maxValue": 9,
+   "maxValue": 0,
    "restoreAmount": 1,
-   "startValue": 9,
-   "timeToRestore": 72.0
+   "startValue": 0,
+   "timeToRestore": 0.1
   },
   "heavyDamageShake": {
    "duration": 1,
@@ -40806,10 +41598,10 @@
   },
   "id": 3869081552,
   "index": "PBAF406",
-  "innerBombsPercentage": 75.0,
+  "innerBombsPercentage": 33.33,
   "innerSalvoSize": [
-   1.7,
-   1.02
+   1.5,
+   2.5
   ],
   "isAirSupportPlane": false,
   "isConsumablePlane": true,
@@ -40902,19 +41694,23 @@
   "maxAttackAngle": 45,
   "maxAttackDistanceMultiplier": 9999,
   "maxForsageAmount": 5,
-  "maxHealth": 164,
+  "maxHealth": 125,
   "maxLaunchDelay": 0.6,
   "maxRotateSpeed": 0.42,
   "maxRudderYaw": 1.0,
   "maxSpread": [
-   3.0,
-   3.0
+   3,
+   3
   ],
+  "maxVisibilityFactor": 7.5,
+  "maxVisibilityFactorByPlane": 7.5,
   "minLaunchDelay": 0.6,
   "minSpread": [
    1,
    1
   ],
+  "minVisibilityFactor": 7.5,
+  "minVisibilityFactorByPlane": 7.5,
   "model": "content/gameplay/uk/aircraft/fighter/BAF704_Sea_Hurricane_MkIIC_proto/BAF704_Sea_Hurricane_MkIIC_proto.model",
   "mouseTurnStrength": [
    [
@@ -40979,8 +41775,8 @@
    ]
   ],
   "name": "PBAF406_Blackburn_stock_WARD",
-  "naturalAcceleration": 0.196,
-  "naturalDeceleration": 0.196,
+  "naturalAcceleration": 0.199,
+  "naturalDeceleration": 0.199,
   "normalFlightShake": {
    "pitch": [
     0.005,
@@ -41020,11 +41816,11 @@
    ]
   },
   "normalLodDist": 190,
-  "numFloats": 0,
-  "numPlanesInSquadron": 6,
+  "numFloats": 1,
+  "numPlanesInSquadron": 1,
   "outerSalvoSize": [
-   2.93,
-   1.76
+   6.0,
+   15.0
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
@@ -41035,29 +41831,29 @@
   "planeYawAccelerationTime": 1.0,
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccelerationModifier": 1.0,
-  "preparationAccuracyDecreaseRate": -0.14,
-  "preparationAccuracyIncreaseRate": 0.32,
+  "preparationAccuracyDecreaseRate": -0.2,
+  "preparationAccuracyIncreaseRate": 0.1,
   "preparationCameraDistance": [
-   -1.5,
-   3
+   3,
+   1
   ],
   "preparationCameraFovSettings": [
-   0.7,
-   4.0
+   1,
+   0.5
   ],
   "preparationCameraHeight": [
-   1,
-   3
+   3,
+   1
   ],
   "preparationCameraOffset": [
    0,
    1
   ],
   "preparationCameraPitchSettings": [
-   -0.5,
-   -10,
-   10,
-   0.5
+   0.0,
+   -1.0,
+   0,
+   1
   ],
   "preparationCameraSensitivity": [
    0.75,
@@ -41065,18 +41861,18 @@
   ],
   "preparationCameraYawSettings": [
    0.0,
-   10,
-   0.5
+   1.0,
+   1
   ],
-  "preparationHeight": 16,
+  "preparationHeight": 30.0,
   "preparationShakeMultiplier": 2,
   "preparationSpeedLimits": [
-   0.76,
-   1.32
+   0.5,
+   1.5
   ],
-  "preparationTime": 3.0,
-  "preparationTurnAccelerationModifier": 1,
-  "preparationTurnSpeedLimit": 1,
+  "preparationTime": 1.0,
+  "preparationTurnAccelerationModifier": 1.0,
+  "preparationTurnSpeedLimit": 0.3,
   "projectilesPerAttack": 1,
   "propellerRPM": 9999999,
   "resetAttackerThrottle": true,
@@ -41092,16 +41888,16 @@
   "shootdownMinHorizontalSpeed": 0.1,
   "shootdownRollAcceleration": 360.0,
   "shootdownSideRelativeAcceleration": 0.5,
-  "speedMax": 1.32,
-  "speedMin": 0.76,
+  "speedMax": 1.2614,
+  "speedMin": 0.8039,
   "speedMoveWithBomb": 221.0,
   "splitSpeedBoostDuration": 4,
   "splitSpeedMultiplier": 1.5,
   "squadronTurnRadius": 1,
   "startAngle": -10.6,
-  "throttleAcceleration": 0.491,
+  "throttleAcceleration": 0.499,
   "throttleBrakesStrength": 0.5,
-  "throttleDeceleration": 0.491,
+  "throttleDeceleration": 0.499,
   "torpedoAimDist": 100,
   "turnSettings": [
    [
@@ -41156,8 +41952,8 @@
    "type": "Aircraft"
   },
   "underMinThrottleMultiplier": 5.0,
-  "visibilityFactor": 7.5,
-  "visibilityFactorByPlane": 7.5,
+  "visibilityFactor": 10.0,
+  "visibilityFactorByPlane": 10.0,
   "visionToPlane": 15.0,
   "visionToShip": 15.0,
   "visionToTorpedo": 0,
@@ -42229,31 +43025,31 @@
     0.0
    ]
   },
-  "accelerationMaxFov": 1.15,
+  "accelerationMaxFov": 1.4,
   "aimingAccelerationModifier": 1.0,
-  "aimingAccuracyDecreaseRate": -0.15,
+  "aimingAccuracyDecreaseRate": -0.2,
   "aimingAccuracyIncreaseRate": 0.1,
   "aimingCameraDistance": [
-   -2.65,
-   3
+   2,
+   0.5
   ],
   "aimingCameraFovSettings": [
    1,
-   4.0
+   0.5
   ],
   "aimingCameraHeight": [
-   0.5,
-   3
+   2,
+   0.5
   ],
   "aimingCameraOffset": [
    0,
    1
   ],
   "aimingCameraPitchSettings": [
-   -0.5,
-   -10,
-   10,
-   0.5
+   0.0,
+   -1.5,
+   0,
+   1
   ],
   "aimingCameraSensitivity": [
    0.5,
@@ -42261,18 +43057,18 @@
   ],
   "aimingCameraYawSettings": [
    0.0,
-   10,
-   0.5
+   2.0,
+   1
   ],
-  "aimingHeight": 18,
+  "aimingHeight": 5.0,
   "aimingShakeMultiplier": 3,
   "aimingSpeedLimits": [
-   0.8295,
-   1.2273
+   0.5,
+   1.5
   ],
-  "aimingTime": 5,
-  "aimingTurnAccelerationModifier": 0.4,
-  "aimingTurnSpeedLimit": 0.4,
+  "aimingTime": 15.0,
+  "aimingTurnAccelerationModifier": 1.0,
+  "aimingTurnSpeedLimit": 0.3,
   "airBrakesDeploymentTime": 1.0,
   "airBreakEffect": "particles/airplanes/Air_break.xml",
   "airBrokenPartsEffect": "particles/airplanes/Air_brokenParts.xml",
@@ -42302,16 +43098,16 @@
   "attackAngle": 17.5,
   "attackCameraSlowdownTime": 0.0,
   "attackCooldown": 5,
-  "attackCount": 10,
+  "attackCount": 1,
   "attackEndDelay": 0.5,
-  "attackInterval": 0.04,
+  "attackInterval": 1,
   "attackShakeMultiplier": 4,
   "attackSpeedMultiplier": 0.5,
   "attackSpeedMultiplierApplyTime": 0.75,
   "attackerDamageTakenMultiplier": 1,
-  "attackerSize": 3,
+  "attackerSize": 1,
   "bombFallingTime": 0.3,
-  "bombName": "PAPR210_Midway_top",
+  "bombName": "PAPR104_Langley_stock",
   "bombingDropPointTime": 0.1,
   "climbSpeedCoef": 0.8,
   "climbSpeedCoefAiming": 1,
@@ -42372,28 +43168,28 @@
     0.0
    ]
   },
-  "decelerationMinFov": 0.65,
+  "decelerationMinFov": 0.8,
   "defaultCameraDistance": [
-   0.5,
-   3
+   0.3,
+   1
   ],
   "defaultCameraFovSettings": [
    1,
-   4.0
+   0.5
   ],
   "defaultCameraHeight": [
-   1,
+   0.3,
    1
   ],
   "defaultCameraOffset": [
-   2,
+   0,
    1
   ],
   "defaultCameraPitchSettings": [
    0.0,
-   -1.4,
-   1.4,
-   0.5
+   -0.5,
+   0,
+   1
   ],
   "defaultCameraSensitivity": [
    1,
@@ -42449,7 +43245,7 @@
   "escapeHeightLanding": 85.0,
   "fighterTracerName": "PCPP001_Default_Storming",
   "finalAttackCameraJumpDelay": 120.0,
-  "flightHeight": 19.0,
+  "flightHeight": 33.0,
   "flightRadius": 33.0,
   "flyScreenEffect": "particles/airplanes/Air_screen_fly.xml",
   "formations": {
@@ -42534,52 +43330,82 @@
     ]
    ],
    "aiming": [
-    2.0,
+    0.1,
     [
      [
-      0.0,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -1.25,
-      0,
-      1.25
-     ],
-     [
-      1.25,
-      0,
-      1.25
+      -0.5,
+      1.5,
+      0
      ],
      [
       -1.5,
-      8,
-      -10.5
-     ],
-     [
-      1.5,
-      8,
-      -10.5
-     ],
-     [
       0,
-      9,
-      -10.5
+      1
      ],
      [
+      -2,
       -1.5,
-      9,
-      -9
+      1
      ],
      [
+      -2,
       1.5,
-      9,
-      -9
+      1
      ],
      [
+      -3,
       0,
-      8,
-      -9
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -42587,19 +43413,79 @@
     0.1,
     [
      [
-      0.0,
-      0.0,
-      -2.5
+      0,
+      0,
+      0.0
      ],
      [
-      -2.5,
-      0,
+      -0.5,
+      -1.5,
       0
      ],
      [
-      2.5,
-      0,
+      -0.5,
+      1.5,
       0
+     ],
+     [
+      -1.5,
+      0,
+      1
+     ],
+     [
+      -2,
+      -1.5,
+      1
+     ],
+     [
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -42607,49 +43493,79 @@
     0.1,
     [
      [
-      0.0,
-      0.0,
+      0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -1.25,
+      -0.5,
+      1.5,
+      0
+     ],
+     [
+      -1.5,
       0,
-      1.25
+      1
      ],
      [
-      1.25,
+      -2,
+      -1.5,
+      1
+     ],
+     [
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
       0,
-      1.25
+      -1
      ],
      [
-      -2.75,
-      0.0,
-      2.5
+      -3.5,
+      -1.5,
+      -1
      ],
      [
-      2.75,
-      0.0,
-      2.5
+      -3.5,
+      1.5,
+      -1
      ],
      [
+      -4.5,
       0,
-      0.0,
-      2.75
+      2
      ],
      [
-      -1.75,
-      0.0,
-      3.5
+      -5,
+      -1.5,
+      2
      ],
      [
-      1.75,
-      0.0,
-      3.5
+      -5,
+      1.5,
+      2
      ],
      [
+      -6,
       0,
-      0.0,
-      4.5
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -42734,52 +43650,82 @@
     ]
    ],
    "preparation": [
-    2.0,
+    0.1,
     [
      [
-      0.0,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -1.25,
-      0,
-      1.25
-     ],
-     [
-      1.25,
-      0,
-      1.25
+      -0.5,
+      1.5,
+      0
      ],
      [
       -1.5,
-      4,
-      -5.5
-     ],
-     [
-      1.5,
-      4,
-      -5.5
-     ],
-     [
       0,
-      5,
-      -5.5
+      1
      ],
      [
+      -2,
       -1.5,
-      5,
-      -4
+      1
      ],
      [
+      -2,
       1.5,
-      5,
-      -4
+      1
      ],
      [
+      -3,
       0,
-      4,
-      -4
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ]
@@ -42796,10 +43742,10 @@
    "particles/airplanes/Air_ground_explosion_2.xml"
   ],
   "hangarSettings": {
-   "maxValue": 14,
+   "maxValue": 0,
    "restoreAmount": 1,
-   "startValue": 14,
-   "timeToRestore": 82.0
+   "startValue": 0,
+   "timeToRestore": 0.1
   },
   "heavyDamageShake": {
    "duration": 1,
@@ -42842,10 +43788,10 @@
   },
   "id": 4273831888,
   "index": "PBAF020",
-  "innerBombsPercentage": 75.0,
+  "innerBombsPercentage": 33.33,
   "innerSalvoSize": [
-   2.67,
-   1.6
+   1.5,
+   2.5
   ],
   "isAirSupportPlane": false,
   "isConsumablePlane": true,
@@ -42891,7 +43837,7 @@
    3.5,
    0.5
   ],
-  "launchDelayStep": 0,
+  "launchDelayStep": -0.4,
   "launchPrepareTime": 2,
   "level": 10,
   "lightDamageShake": {
@@ -42939,18 +43885,22 @@
   "maxAttackDistanceMultiplier": 9999,
   "maxForsageAmount": 5,
   "maxHealth": 203,
-  "maxLaunchDelay": 0.6,
+  "maxLaunchDelay": 2,
   "maxRotateSpeed": 0.48,
   "maxRudderYaw": 1.0,
   "maxSpread": [
-   3.0,
-   3.0
+   3,
+   3
   ],
-  "minLaunchDelay": 0.6,
+  "maxVisibilityFactor": 7.5,
+  "maxVisibilityFactorByPlane": 7.5,
+  "minLaunchDelay": 0.1,
   "minSpread": [
    1,
    1
   ],
+  "minVisibilityFactor": 7.5,
+  "minVisibilityFactorByPlane": 7.5,
   "model": "content/gameplay/uk/aircraft/fighter/BAF020_Seafire_MkIII_float/BAF020_Seafire_MkIII_float.model",
   "mouseTurnStrength": [
    [
@@ -43057,10 +44007,10 @@
   },
   "normalLodDist": 190,
   "numFloats": 2,
-  "numPlanesInSquadron": 9,
+  "numPlanesInSquadron": 1,
   "outerSalvoSize": [
-   3.83,
-   2.3
+   6.0,
+   15.0
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
@@ -43071,29 +44021,29 @@
   "planeYawAccelerationTime": 1.0,
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccelerationModifier": 1.0,
-  "preparationAccuracyDecreaseRate": -0.12,
-  "preparationAccuracyIncreaseRate": 0.33,
+  "preparationAccuracyDecreaseRate": -0.2,
+  "preparationAccuracyIncreaseRate": 0.1,
   "preparationCameraDistance": [
-   -2.5,
-   3
+   3,
+   1
   ],
   "preparationCameraFovSettings": [
    1,
-   4.0
+   0.5
   ],
   "preparationCameraHeight": [
-   1,
-   3
+   3,
+   1
   ],
   "preparationCameraOffset": [
    0,
    1
   ],
   "preparationCameraPitchSettings": [
-   -0.5,
-   -10,
-   10,
-   0.5
+   0.0,
+   -1.0,
+   0,
+   1
   ],
   "preparationCameraSensitivity": [
    0.75,
@@ -43101,18 +44051,18 @@
   ],
   "preparationCameraYawSettings": [
    0.0,
-   10,
-   0.5
+   1.0,
+   1
   ],
-  "preparationHeight": 18,
+  "preparationHeight": 30.0,
   "preparationShakeMultiplier": 2,
   "preparationSpeedLimits": [
-   0.8295,
-   1.2273
+   0.5,
+   1.5
   ],
-  "preparationTime": 3,
-  "preparationTurnAccelerationModifier": 0.75,
-  "preparationTurnSpeedLimit": 0.75,
+  "preparationTime": 1.0,
+  "preparationTurnAccelerationModifier": 1.0,
+  "preparationTurnSpeedLimit": 0.3,
   "projectilesPerAttack": 1,
   "propellerRPM": 9999999,
   "resetAttackerThrottle": true,
@@ -43192,8 +44142,8 @@
    "type": "Aircraft"
   },
   "underMinThrottleMultiplier": 5.0,
-  "visibilityFactor": 7.5,
-  "visibilityFactorByPlane": 7.5,
+  "visibilityFactor": 10.0,
+  "visibilityFactorByPlane": 10.0,
   "visionToPlane": 15.0,
   "visionToShip": 15.0,
   "visionToTorpedo": 0,
@@ -43267,31 +44217,31 @@
     0.0
    ]
   },
-  "accelerationMaxFov": 1.05,
+  "accelerationMaxFov": 1.4,
   "aimingAccelerationModifier": 1.0,
-  "aimingAccuracyDecreaseRate": -0.25,
+  "aimingAccuracyDecreaseRate": -0.2,
   "aimingAccuracyIncreaseRate": 0.1,
   "aimingCameraDistance": [
-   -3,
-   3
+   2,
+   0.5
   ],
   "aimingCameraFovSettings": [
    1,
-   4.0
+   0.5
   ],
   "aimingCameraHeight": [
-   0.7,
-   3
+   2,
+   0.5
   ],
   "aimingCameraOffset": [
    0,
    1
   ],
   "aimingCameraPitchSettings": [
-   -0.5,
-   -10,
-   10,
-   0.5
+   0.0,
+   -1.5,
+   0,
+   1
   ],
   "aimingCameraSensitivity": [
    0.5,
@@ -43299,18 +44249,18 @@
   ],
   "aimingCameraYawSettings": [
    0.0,
-   10,
-   0.5
+   2.0,
+   1
   ],
-  "aimingHeight": 16,
+  "aimingHeight": 5.0,
   "aimingShakeMultiplier": 3,
   "aimingSpeedLimits": [
-   0.8039,
-   1.2614
+   0.5,
+   1.5
   ],
-  "aimingTime": 5,
-  "aimingTurnAccelerationModifier": 0.4,
-  "aimingTurnSpeedLimit": 0.4,
+  "aimingTime": 15.0,
+  "aimingTurnAccelerationModifier": 1.0,
+  "aimingTurnSpeedLimit": 0.3,
   "airBrakesDeploymentTime": 1.0,
   "airBreakEffect": "particles/airplanes/Air_break.xml",
   "airBrokenPartsEffect": "particles/airplanes/Air_brokenParts.xml",
@@ -43340,16 +44290,16 @@
   "attackAngle": 17.5,
   "attackCameraSlowdownTime": 0.0,
   "attackCooldown": 5,
-  "attackCount": 6,
+  "attackCount": 1,
   "attackEndDelay": 0.5,
-  "attackInterval": 0.03,
+  "attackInterval": 1,
   "attackShakeMultiplier": 4,
   "attackSpeedMultiplier": 0.5,
   "attackSpeedMultiplierApplyTime": 0.75,
   "attackerDamageTakenMultiplier": 1,
-  "attackerSize": 2,
+  "attackerSize": 1,
   "bombFallingTime": 0.3,
-  "bombName": "PAPR206_Ranger_top",
+  "bombName": "PAPR104_Langley_stock",
   "bombingDropPointTime": 0.1,
   "climbSpeedCoef": 0.8,
   "climbSpeedCoefAiming": 1,
@@ -43410,28 +44360,28 @@
     0.0
    ]
   },
-  "decelerationMinFov": 0.65,
+  "decelerationMinFov": 0.8,
   "defaultCameraDistance": [
-   -1.5,
-   3
+   0.3,
+   1
   ],
   "defaultCameraFovSettings": [
    1,
-   4.0
+   0.5
   ],
   "defaultCameraHeight": [
-   0.7,
+   0.3,
    1
   ],
   "defaultCameraOffset": [
-   1,
+   0,
    1
   ],
   "defaultCameraPitchSettings": [
    0.0,
-   -10,
-   10,
-   0.5
+   -0.5,
+   0,
+   1
   ],
   "defaultCameraSensitivity": [
    1,
@@ -43487,7 +44437,7 @@
   "escapeHeightLanding": 85.0,
   "fighterTracerName": "PCPP001_Default_Storming",
   "finalAttackCameraJumpDelay": 120.0,
-  "flightHeight": 17.0,
+  "flightHeight": 33.0,
   "flightRadius": 33.0,
   "flyScreenEffect": "particles/airplanes/Air_screen_fly.xml",
   "formations": {
@@ -43572,47 +44522,82 @@
     ]
    ],
    "aiming": [
-    2.0,
+    0.1,
     [
      [
-      0.75,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.75,
-      0,
+      -0.5,
+      1.5,
       0
      ],
      [
-      0.75,
-      8,
-      -11
+      -1.5,
+      0,
+      1
      ],
      [
-      -0.75,
-      8,
-      -11
+      -2,
+      -1.5,
+      1
      ],
      [
-      0.75,
-      9,
-      -10
+      -2,
+      1.5,
+      1
      ],
      [
-      -0.75,
-      9,
-      -10
+      -3,
+      0,
+      -1
      ],
      [
-      0.75,
-      8,
-      -9
+      -3.5,
+      -1.5,
+      -1
      ],
      [
-      -0.75,
-      8,
-      -9
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -43620,14 +44605,79 @@
     0.1,
     [
      [
-      0.75,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.75,
-      0,
+      -0.5,
+      1.5,
       0
+     ],
+     [
+      -1.5,
+      0,
+      1
+     ],
+     [
+      -2,
+      -1.5,
+      1
+     ],
+     [
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -43635,44 +44685,79 @@
     0.1,
     [
      [
-      0.75,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.75,
-      0,
-      0
-     ],
-     [
+      -0.5,
       1.5,
-      0,
-      1.25
+      0
      ],
      [
       -1.5,
-      0.0,
-      1.25
-     ],
-     [
-      1.25,
       0,
-      2.5
+      1
      ],
      [
-      -1.25,
-      0.0,
-      2.5
+      -2,
+      -1.5,
+      1
      ],
      [
-      0.85,
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
       0,
-      3.75
+      -1
      ],
      [
-      -0.85,
-      0.0,
-      3.75
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -43757,47 +44842,82 @@
     ]
    ],
    "preparation": [
-    2.0,
+    0.1,
     [
      [
-      0.75,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.75,
-      0,
+      -0.5,
+      1.5,
       0
      ],
      [
-      0.75,
-      4,
-      -7
+      -1.5,
+      0,
+      1
      ],
      [
-      -0.75,
-      4,
-      -7
+      -2,
+      -1.5,
+      1
      ],
      [
-      0.75,
-      5,
-      -6
+      -2,
+      1.5,
+      1
      ],
      [
-      -0.75,
-      5,
-      -6
+      -3,
+      0,
+      -1
      ],
      [
-      0.75,
-      4,
-      -5
+      -3.5,
+      -1.5,
+      -1
      ],
      [
-      -0.75,
-      4,
-      -5
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ]
@@ -43814,10 +44934,10 @@
    "particles/airplanes/Air_ground_explosion_2.xml"
   ],
   "hangarSettings": {
-   "maxValue": 12,
+   "maxValue": 0,
    "restoreAmount": 1,
-   "startValue": 12,
-   "timeToRestore": 58.0
+   "startValue": 0,
+   "timeToRestore": 0.1
   },
   "heavyDamageShake": {
    "duration": 1,
@@ -43860,10 +44980,10 @@
   },
   "id": 4272783312,
   "index": "PBAF021",
-  "innerBombsPercentage": 75.0,
+  "innerBombsPercentage": 33.33,
   "innerSalvoSize": [
-   1.7,
-   1.02
+   1.5,
+   2.5
   ],
   "isAirSupportPlane": false,
   "isConsumablePlane": true,
@@ -43909,7 +45029,7 @@
    3.5,
    0.5
   ],
-  "launchDelayStep": 0,
+  "launchDelayStep": -0.4,
   "launchPrepareTime": 2,
   "level": 6,
   "lightDamageShake": {
@@ -43957,18 +45077,22 @@
   "maxAttackDistanceMultiplier": 9999,
   "maxForsageAmount": 5,
   "maxHealth": 125,
-  "maxLaunchDelay": 0.6,
+  "maxLaunchDelay": 2,
   "maxRotateSpeed": 0.42,
   "maxRudderYaw": 1.0,
   "maxSpread": [
    3,
    3
   ],
-  "minLaunchDelay": 0.6,
+  "maxVisibilityFactor": 7.5,
+  "maxVisibilityFactorByPlane": 7.5,
+  "minLaunchDelay": 0.1,
   "minSpread": [
    1,
    1
   ],
+  "minVisibilityFactor": 7.5,
+  "minVisibilityFactorByPlane": 7.5,
   "model": "content/gameplay/uk/aircraft/fighter/BAF014_Fairey_Flycatcher_float_Exeter/BAF014_Fairey_Flycatcher_float_Exeter.model",
   "mouseTurnStrength": [
    [
@@ -44075,10 +45199,10 @@
   },
   "normalLodDist": 190,
   "numFloats": 2,
-  "numPlanesInSquadron": 8,
+  "numPlanesInSquadron": 1,
   "outerSalvoSize": [
-   2.93,
-   1.76
+   6.0,
+   15.0
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
@@ -44089,29 +45213,29 @@
   "planeYawAccelerationTime": 1.0,
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccelerationModifier": 1.0,
-  "preparationAccuracyDecreaseRate": -0.14,
-  "preparationAccuracyIncreaseRate": 0.32,
+  "preparationAccuracyDecreaseRate": -0.2,
+  "preparationAccuracyIncreaseRate": 0.1,
   "preparationCameraDistance": [
-   -2.5,
-   3
+   3,
+   1
   ],
   "preparationCameraFovSettings": [
    1,
-   4.0
+   0.5
   ],
   "preparationCameraHeight": [
-   1,
-   3
+   3,
+   1
   ],
   "preparationCameraOffset": [
    0,
    1
   ],
   "preparationCameraPitchSettings": [
-   -0.5,
-   -10,
-   10,
-   0.5
+   0.0,
+   -1.0,
+   0,
+   1
   ],
   "preparationCameraSensitivity": [
    0.75,
@@ -44119,18 +45243,18 @@
   ],
   "preparationCameraYawSettings": [
    0.0,
-   10,
-   0.5
+   1.0,
+   1
   ],
-  "preparationHeight": 16.0,
+  "preparationHeight": 30.0,
   "preparationShakeMultiplier": 2,
   "preparationSpeedLimits": [
-   0.8039,
-   1.2614
+   0.5,
+   1.5
   ],
-  "preparationTime": 3.0,
-  "preparationTurnAccelerationModifier": 0.75,
-  "preparationTurnSpeedLimit": 0.75,
+  "preparationTime": 1.0,
+  "preparationTurnAccelerationModifier": 1.0,
+  "preparationTurnSpeedLimit": 0.3,
   "projectilesPerAttack": 1,
   "propellerRPM": 9999999,
   "resetAttackerThrottle": true,
@@ -44210,8 +45334,8 @@
    "type": "Aircraft"
   },
   "underMinThrottleMultiplier": 5.0,
-  "visibilityFactor": 7.5,
-  "visibilityFactorByPlane": 7.5,
+  "visibilityFactor": 10.0,
+  "visibilityFactorByPlane": 10.0,
   "visionToPlane": 15.0,
   "visionToShip": 15.0,
   "visionToTorpedo": 0,
@@ -44285,31 +45409,31 @@
     0.0
    ]
   },
-  "accelerationMaxFov": 1.05,
+  "accelerationMaxFov": 1.4,
   "aimingAccelerationModifier": 1.0,
-  "aimingAccuracyDecreaseRate": -0.25,
+  "aimingAccuracyDecreaseRate": -0.2,
   "aimingAccuracyIncreaseRate": 0.1,
   "aimingCameraDistance": [
-   -3,
-   3
+   2,
+   0.5
   ],
   "aimingCameraFovSettings": [
    1,
-   4.0
+   0.5
   ],
   "aimingCameraHeight": [
-   0.7,
-   3
+   2,
+   0.5
   ],
   "aimingCameraOffset": [
    0,
    1
   ],
   "aimingCameraPitchSettings": [
-   -0.5,
-   -10,
-   10,
-   0.5
+   0.0,
+   -1.5,
+   0,
+   1
   ],
   "aimingCameraSensitivity": [
    0.5,
@@ -44317,18 +45441,18 @@
   ],
   "aimingCameraYawSettings": [
    0.0,
-   10,
-   0.5
+   2.0,
+   1
   ],
-  "aimingHeight": 16,
+  "aimingHeight": 5.0,
   "aimingShakeMultiplier": 3,
   "aimingSpeedLimits": [
-   0.8039,
-   1.2614
+   0.5,
+   1.5
   ],
-  "aimingTime": 5,
-  "aimingTurnAccelerationModifier": 0.4,
-  "aimingTurnSpeedLimit": 0.4,
+  "aimingTime": 15.0,
+  "aimingTurnAccelerationModifier": 1.0,
+  "aimingTurnSpeedLimit": 0.3,
   "airBrakesDeploymentTime": 1.0,
   "airBreakEffect": "particles/airplanes/Air_break.xml",
   "airBrokenPartsEffect": "particles/airplanes/Air_brokenParts.xml",
@@ -44358,16 +45482,16 @@
   "attackAngle": 17.5,
   "attackCameraSlowdownTime": 0.0,
   "attackCooldown": 5,
-  "attackCount": 6,
+  "attackCount": 1,
   "attackEndDelay": 0.5,
-  "attackInterval": 0.03,
+  "attackInterval": 1,
   "attackShakeMultiplier": 4,
   "attackSpeedMultiplier": 0.5,
   "attackSpeedMultiplierApplyTime": 0.75,
   "attackerDamageTakenMultiplier": 1,
-  "attackerSize": 2,
+  "attackerSize": 1,
   "bombFallingTime": 0.3,
-  "bombName": "PAPR206_Ranger_top",
+  "bombName": "PAPR104_Langley_stock",
   "bombingDropPointTime": 0.1,
   "climbSpeedCoef": 0.8,
   "climbSpeedCoefAiming": 1,
@@ -44428,28 +45552,28 @@
     0.0
    ]
   },
-  "decelerationMinFov": 0.65,
+  "decelerationMinFov": 0.8,
   "defaultCameraDistance": [
-   -1.5,
-   3
+   0.3,
+   1
   ],
   "defaultCameraFovSettings": [
    1,
-   4.0
+   0.5
   ],
   "defaultCameraHeight": [
-   0.7,
+   0.3,
    1
   ],
   "defaultCameraOffset": [
-   1,
+   0,
    1
   ],
   "defaultCameraPitchSettings": [
    0.0,
-   -10,
-   10,
-   0.5
+   -0.5,
+   0,
+   1
   ],
   "defaultCameraSensitivity": [
    1,
@@ -44505,7 +45629,7 @@
   "escapeHeightLanding": 85.0,
   "fighterTracerName": "PCPP001_Default_Storming",
   "finalAttackCameraJumpDelay": 120.0,
-  "flightHeight": 17.0,
+  "flightHeight": 33.0,
   "flightRadius": 33.0,
   "flyScreenEffect": "particles/airplanes/Air_screen_fly.xml",
   "formations": {
@@ -44590,47 +45714,82 @@
     ]
    ],
    "aiming": [
-    2.0,
+    0.1,
     [
      [
-      0.75,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.75,
-      0,
+      -0.5,
+      1.5,
       0
      ],
      [
-      0.75,
-      8,
-      -11
+      -1.5,
+      0,
+      1
      ],
      [
-      -0.75,
-      8,
-      -11
+      -2,
+      -1.5,
+      1
      ],
      [
-      0.75,
-      9,
-      -10
+      -2,
+      1.5,
+      1
      ],
      [
-      -0.75,
-      9,
-      -10
+      -3,
+      0,
+      -1
      ],
      [
-      0.75,
-      8,
-      -9
+      -3.5,
+      -1.5,
+      -1
      ],
      [
-      -0.75,
-      8,
-      -9
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -44638,14 +45797,79 @@
     0.1,
     [
      [
-      0.75,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.75,
-      0,
+      -0.5,
+      1.5,
       0
+     ],
+     [
+      -1.5,
+      0,
+      1
+     ],
+     [
+      -2,
+      -1.5,
+      1
+     ],
+     [
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -44653,44 +45877,79 @@
     0.1,
     [
      [
-      0.75,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.75,
-      0,
-      0
-     ],
-     [
+      -0.5,
       1.5,
-      0,
-      1.25
+      0
      ],
      [
       -1.5,
-      0.0,
-      1.25
-     ],
-     [
-      1.25,
       0,
-      2.5
+      1
      ],
      [
-      -1.25,
-      0.0,
-      2.5
+      -2,
+      -1.5,
+      1
      ],
      [
-      0.85,
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
       0,
-      3.75
+      -1
      ],
      [
-      -0.85,
-      0.0,
-      3.75
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -44775,47 +46034,82 @@
     ]
    ],
    "preparation": [
-    2.0,
+    0.1,
     [
      [
-      0.75,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.75,
-      0,
+      -0.5,
+      1.5,
       0
      ],
      [
-      0.75,
-      4,
-      -7
+      -1.5,
+      0,
+      1
      ],
      [
-      -0.75,
-      4,
-      -7
+      -2,
+      -1.5,
+      1
      ],
      [
-      0.75,
-      5,
-      -6
+      -2,
+      1.5,
+      1
      ],
      [
-      -0.75,
-      5,
-      -6
+      -3,
+      0,
+      -1
      ],
      [
-      0.75,
-      4,
-      -5
+      -3.5,
+      -1.5,
+      -1
      ],
      [
-      -0.75,
-      4,
-      -5
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ]
@@ -44832,10 +46126,10 @@
    "particles/airplanes/Air_ground_explosion_2.xml"
   ],
   "hangarSettings": {
-   "maxValue": 12,
+   "maxValue": 0,
    "restoreAmount": 1,
-   "startValue": 12,
-   "timeToRestore": 58.0
+   "startValue": 0,
+   "timeToRestore": 0.1
   },
   "heavyDamageShake": {
    "duration": 1,
@@ -44878,10 +46172,10 @@
   },
   "id": 4278026192,
   "index": "PBAF016",
-  "innerBombsPercentage": 75.0,
+  "innerBombsPercentage": 33.33,
   "innerSalvoSize": [
-   1.7,
-   1.02
+   1.5,
+   2.5
   ],
   "isAirSupportPlane": false,
   "isConsumablePlane": true,
@@ -44927,7 +46221,7 @@
    3.5,
    0.5
   ],
-  "launchDelayStep": 0,
+  "launchDelayStep": -0.4,
   "launchPrepareTime": 2,
   "level": 6,
   "lightDamageShake": {
@@ -44975,18 +46269,22 @@
   "maxAttackDistanceMultiplier": 9999,
   "maxForsageAmount": 5,
   "maxHealth": 125,
-  "maxLaunchDelay": 0.6,
+  "maxLaunchDelay": 2,
   "maxRotateSpeed": 0.42,
   "maxRudderYaw": 1.0,
   "maxSpread": [
    3,
    3
   ],
-  "minLaunchDelay": 0.6,
+  "maxVisibilityFactor": 7.5,
+  "maxVisibilityFactorByPlane": 7.5,
+  "minLaunchDelay": 0.1,
   "minSpread": [
    1,
    1
   ],
+  "minVisibilityFactor": 7.5,
+  "minVisibilityFactorByPlane": 7.5,
   "model": "content/gameplay/uk/aircraft/fighter/BAF016_Fairey_Flycatcher_float/BAF016_Fairey_Flycatcher_float.model",
   "mouseTurnStrength": [
    [
@@ -45093,10 +46391,10 @@
   },
   "normalLodDist": 190,
   "numFloats": 2,
-  "numPlanesInSquadron": 8,
+  "numPlanesInSquadron": 1,
   "outerSalvoSize": [
-   2.93,
-   1.76
+   6.0,
+   15.0
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
@@ -45107,29 +46405,29 @@
   "planeYawAccelerationTime": 1.0,
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccelerationModifier": 1.0,
-  "preparationAccuracyDecreaseRate": -0.14,
-  "preparationAccuracyIncreaseRate": 0.32,
+  "preparationAccuracyDecreaseRate": -0.2,
+  "preparationAccuracyIncreaseRate": 0.1,
   "preparationCameraDistance": [
-   -2.5,
-   3
+   3,
+   1
   ],
   "preparationCameraFovSettings": [
    1,
-   4.0
+   0.5
   ],
   "preparationCameraHeight": [
-   1,
-   3
+   3,
+   1
   ],
   "preparationCameraOffset": [
    0,
    1
   ],
   "preparationCameraPitchSettings": [
-   -0.5,
-   -10,
-   10,
-   0.5
+   0.0,
+   -1.0,
+   0,
+   1
   ],
   "preparationCameraSensitivity": [
    0.75,
@@ -45137,18 +46435,18 @@
   ],
   "preparationCameraYawSettings": [
    0.0,
-   10,
-   0.5
+   1.0,
+   1
   ],
-  "preparationHeight": 16.0,
+  "preparationHeight": 30.0,
   "preparationShakeMultiplier": 2,
   "preparationSpeedLimits": [
-   0.8039,
-   1.2614
+   0.5,
+   1.5
   ],
-  "preparationTime": 3.0,
-  "preparationTurnAccelerationModifier": 0.75,
-  "preparationTurnSpeedLimit": 0.75,
+  "preparationTime": 1.0,
+  "preparationTurnAccelerationModifier": 1.0,
+  "preparationTurnSpeedLimit": 0.3,
   "projectilesPerAttack": 1,
   "propellerRPM": 9999999,
   "resetAttackerThrottle": true,
@@ -45228,8 +46526,8 @@
    "type": "Aircraft"
   },
   "underMinThrottleMultiplier": 5.0,
-  "visibilityFactor": 7.5,
-  "visibilityFactorByPlane": 7.5,
+  "visibilityFactor": 10.0,
+  "visibilityFactorByPlane": 10.0,
   "visionToPlane": 15.0,
   "visionToShip": 15.0,
   "visionToTorpedo": 0,
@@ -47632,14 +48930,14 @@
   "attackAngle": null,
   "attackCameraSlowdownTime": 0.0,
   "attackCooldown": 7.5,
-  "attackCount": 2,
+  "attackCount": 1,
   "attackEndDelay": 0.0,
-  "attackInterval": 0.85,
+  "attackInterval": 0.594,
   "attackShakeMultiplier": 1,
   "attackSpeedMultiplier": 1.0,
   "attackSpeedMultiplierApplyTime": 0.0,
   "attackerDamageTakenMultiplier": 0.7,
-  "attackerSize": 2,
+  "attackerSize": 1,
   "bombFallingTime": 0.3,
   "bombName": "PBPD101_depth_113kg",
   "bombingDropPointTime": 0.1,
@@ -47867,6 +49165,11 @@
     0.05,
     [
      [
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
       3.0,
       0.5,
       3.0
@@ -47902,6 +49205,11 @@
     0.05,
     [
      [
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
       3.0,
       0.5,
       3.0
@@ -47936,6 +49244,11 @@
    "flight": [
     0.05,
     [
+     [
+      0.0,
+      0.0,
+      0.0
+     ],
      [
       3.0,
       0.5,
@@ -48052,6 +49365,11 @@
     0.05,
     [
      [
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
       3.0,
       0.5,
       3.0
@@ -48144,7 +49462,7 @@
   "index": "PBAD904",
   "innerBombsPercentage": 100.0,
   "innerSalvoSize": [
-   4.0,
+   2.0,
    0.5
   ],
   "isAirSupportPlane": true,
@@ -48359,8 +49677,8 @@
   "numFloats": 1,
   "numPlanesInSquadron": 6,
   "outerSalvoSize": [
-   6.0,
-   6.0
+   8.0,
+   8.0
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
@@ -49615,31 +50933,31 @@
     0.0
    ]
   },
-  "accelerationMaxFov": 1.1,
+  "accelerationMaxFov": 1.4,
   "aimingAccelerationModifier": 1.0,
   "aimingAccuracyDecreaseRate": -0.2,
   "aimingAccuracyIncreaseRate": 0.1,
   "aimingCameraDistance": [
-   -2.5,
-   3
+   2,
+   0.5
   ],
   "aimingCameraFovSettings": [
    1,
-   4.0
+   0.5
   ],
   "aimingCameraHeight": [
-   0.7,
-   3
+   2,
+   0.5
   ],
   "aimingCameraOffset": [
-   0.5,
-   3
+   0,
+   1
   ],
   "aimingCameraPitchSettings": [
-   -0.5,
-   -10,
-   10,
-   0.5
+   0.0,
+   -1.5,
+   0,
+   1
   ],
   "aimingCameraSensitivity": [
    0.5,
@@ -49647,18 +50965,18 @@
   ],
   "aimingCameraYawSettings": [
    0.0,
-   10,
-   0.5
+   2.0,
+   1
   ],
-  "aimingHeight": 17,
+  "aimingHeight": 5.0,
   "aimingShakeMultiplier": 3,
   "aimingSpeedLimits": [
-   0.8225,
-   1.2367
+   0.5,
+   1.5
   ],
-  "aimingTime": 5,
-  "aimingTurnAccelerationModifier": 0.4,
-  "aimingTurnSpeedLimit": 0.4,
+  "aimingTime": 15.0,
+  "aimingTurnAccelerationModifier": 1.0,
+  "aimingTurnSpeedLimit": 0.3,
   "airBrakesDeploymentTime": 1.0,
   "airBreakEffect": "particles/airplanes/Air_break.xml",
   "airBrokenPartsEffect": "particles/airplanes/Air_brokenParts.xml",
@@ -49688,16 +51006,16 @@
   "attackAngle": 17.5,
   "attackCameraSlowdownTime": 0.0,
   "attackCooldown": 5,
-  "attackCount": 8,
+  "attackCount": 1,
   "attackEndDelay": 0.5,
-  "attackInterval": 0.025,
+  "attackInterval": 1,
   "attackShakeMultiplier": 4,
   "attackSpeedMultiplier": 0.5,
   "attackSpeedMultiplierApplyTime": 0.75,
   "attackerDamageTakenMultiplier": 1,
-  "attackerSize": 3,
+  "attackerSize": 1,
   "bombFallingTime": 0.3,
-  "bombName": "PAPR208_Lexington_top",
+  "bombName": "PAPR104_Langley_stock",
   "bombingDropPointTime": 0.1,
   "climbSpeedCoef": 0.8,
   "climbSpeedCoefAiming": 1,
@@ -49758,28 +51076,28 @@
     0.0
    ]
   },
-  "decelerationMinFov": 0.65,
+  "decelerationMinFov": 0.8,
   "defaultCameraDistance": [
-   -0.5,
-   3
+   0.3,
+   1
   ],
   "defaultCameraFovSettings": [
    1,
-   4.0
+   0.5
   ],
   "defaultCameraHeight": [
-   1,
+   0.3,
    1
   ],
   "defaultCameraOffset": [
-   1,
+   0,
    1
   ],
   "defaultCameraPitchSettings": [
    0.0,
-   -10,
-   10,
-   0.5
+   -0.5,
+   0,
+   1
   ],
   "defaultCameraSensitivity": [
    1,
@@ -49835,7 +51153,7 @@
   "escapeHeightLanding": 85.0,
   "fighterTracerName": "PCPP001_Default_Storming",
   "finalAttackCameraJumpDelay": 120.0,
-  "flightHeight": 18.0,
+  "flightHeight": 33.0,
   "flightRadius": 33.0,
   "flyScreenEffect": "particles/airplanes/Air_screen_fly.xml",
   "formations": {
@@ -49920,51 +51238,81 @@
     ]
    ],
    "aiming": [
-    2.0,
+    0.1,
     [
      [
-      0.0,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -1.25,
-      0,
-      1.25
-     ],
-     [
-      1.25,
-      0,
-      1.25
+      -0.5,
+      1.5,
+      0
      ],
      [
       -1.5,
-      15,
-      -3
-     ],
-     [
-      1.5,
-      15,
-      -3
-     ],
-     [
       0,
-      15,
-      -3
+      1
      ],
      [
+      -2,
       -1.5,
-      16,
-      -2
+      1
      ],
      [
+      -2,
       1.5,
-      16,
+      1
+     ],
+     [
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
       -2
      ],
      [
-      0,
-      16,
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
       -2
      ]
     ]
@@ -49973,19 +51321,79 @@
     0.1,
     [
      [
-      0.0,
-      0.0,
-      -2.5
+      0,
+      0,
+      0.0
      ],
      [
-      -2.5,
-      0,
+      -0.5,
+      -1.5,
       0
      ],
      [
-      2.5,
-      0,
+      -0.5,
+      1.5,
       0
+     ],
+     [
+      -1.5,
+      0,
+      1
+     ],
+     [
+      -2,
+      -1.5,
+      1
+     ],
+     [
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -49993,49 +51401,79 @@
     0.1,
     [
      [
-      0.0,
-      0.0,
+      0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -1.25,
+      -0.5,
+      1.5,
+      0
+     ],
+     [
+      -1.5,
       0,
-      1.25
+      1
      ],
      [
-      1.25,
+      -2,
+      -1.5,
+      1
+     ],
+     [
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
       0,
-      1.25
+      -1
      ],
      [
-      -2.75,
-      0.0,
-      2.5
+      -3.5,
+      -1.5,
+      -1
      ],
      [
-      2.75,
-      0.0,
-      2.5
+      -3.5,
+      1.5,
+      -1
      ],
      [
+      -4.5,
       0,
-      0.0,
-      2.75
+      2
      ],
      [
-      -1.75,
-      0.0,
-      3.5
+      -5,
+      -1.5,
+      2
      ],
      [
-      1.75,
-      0.0,
-      3.5
+      -5,
+      1.5,
+      2
      ],
      [
+      -6,
       0,
-      0.0,
-      4.5
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -50120,52 +51558,82 @@
     ]
    ],
    "preparation": [
-    2.0,
+    0.1,
     [
      [
-      0.0,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -1.25,
-      0,
-      1.25
-     ],
-     [
-      1.25,
-      0,
-      1.25
+      -0.5,
+      1.5,
+      0
      ],
      [
       -1.5,
-      10,
-      1
-     ],
-     [
-      1.5,
-      10,
-      1
-     ],
-     [
       0,
-      10,
       1
      ],
      [
+      -2,
       -1.5,
-      11,
-      2
+      1
      ],
      [
+      -2,
       1.5,
-      11,
+      1
+     ],
+     [
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
       2
      ],
      [
-      0,
-      11,
+      -5,
+      -1.5,
       2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ]
@@ -50182,10 +51650,10 @@
    "particles/airplanes/Air_ground_explosion_2.xml"
   ],
   "hangarSettings": {
-   "maxValue": 14,
+   "maxValue": 0,
    "restoreAmount": 1,
-   "startValue": 14,
-   "timeToRestore": 66.0
+   "startValue": 0,
+   "timeToRestore": 0.1
   },
   "heavyDamageShake": {
    "duration": 1,
@@ -50228,10 +51696,10 @@
   },
   "id": 4274880464,
   "index": "PBAF019",
-  "innerBombsPercentage": 75.0,
+  "innerBombsPercentage": 33.33,
   "innerSalvoSize": [
-   2.37,
-   1.42
+   1.5,
+   2.5
   ],
   "isAirSupportPlane": false,
   "isConsumablePlane": true,
@@ -50277,7 +51745,7 @@
    3.5,
    0.5
   ],
-  "launchDelayStep": 0,
+  "launchDelayStep": -0.4,
   "launchPrepareTime": 2,
   "level": 8,
   "lightDamageShake": {
@@ -50325,18 +51793,22 @@
   "maxAttackDistanceMultiplier": 9999,
   "maxForsageAmount": 5,
   "maxHealth": 163,
-  "maxLaunchDelay": 0.6,
+  "maxLaunchDelay": 2,
   "maxRotateSpeed": 0.44,
   "maxRudderYaw": 1.0,
   "maxSpread": [
    3,
    3
   ],
-  "minLaunchDelay": 0.6,
+  "maxVisibilityFactor": 7.5,
+  "maxVisibilityFactorByPlane": 7.5,
+  "minLaunchDelay": 0.1,
   "minSpread": [
    1,
    1
   ],
+  "minVisibilityFactor": 7.5,
+  "minVisibilityFactorByPlane": 7.5,
   "model": "content/gameplay/uk/aircraft/fighter/BAF019_Sea_Hurricane_MkIIC_float/BAF019_Sea_Hurricane_MkIIC_float.model",
   "mouseTurnStrength": [
    [
@@ -50443,10 +51915,10 @@
   },
   "normalLodDist": 190,
   "numFloats": 2,
-  "numPlanesInSquadron": 9,
+  "numPlanesInSquadron": 1,
   "outerSalvoSize": [
-   3.53,
-   2.12
+   6.0,
+   15.0
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
@@ -50457,29 +51929,29 @@
   "planeYawAccelerationTime": 1.0,
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccelerationModifier": 1.0,
-  "preparationAccuracyDecreaseRate": -0.13,
-  "preparationAccuracyIncreaseRate": 0.33,
+  "preparationAccuracyDecreaseRate": -0.2,
+  "preparationAccuracyIncreaseRate": 0.1,
   "preparationCameraDistance": [
-   -2.5,
-   3
+   3,
+   1
   ],
   "preparationCameraFovSettings": [
    1,
-   4.0
+   0.5
   ],
   "preparationCameraHeight": [
-   1,
-   3
+   3,
+   1
   ],
   "preparationCameraOffset": [
    0,
    1
   ],
   "preparationCameraPitchSettings": [
-   -0.5,
-   -10,
-   10,
-   0.5
+   0.0,
+   -1.0,
+   0,
+   1
   ],
   "preparationCameraSensitivity": [
    0.75,
@@ -50487,18 +51959,18 @@
   ],
   "preparationCameraYawSettings": [
    0.0,
-   10,
-   0.5
+   1.0,
+   1
   ],
-  "preparationHeight": 17.0,
+  "preparationHeight": 30.0,
   "preparationShakeMultiplier": 2,
   "preparationSpeedLimits": [
-   0.8225,
-   1.2367
+   0.5,
+   1.5
   ],
-  "preparationTime": 3,
-  "preparationTurnAccelerationModifier": 0.75,
-  "preparationTurnSpeedLimit": 0.75,
+  "preparationTime": 1.0,
+  "preparationTurnAccelerationModifier": 1.0,
+  "preparationTurnSpeedLimit": 0.3,
   "projectilesPerAttack": 1,
   "propellerRPM": 9999999,
   "resetAttackerThrottle": true,
@@ -50578,8 +52050,8 @@
    "type": "Aircraft"
   },
   "underMinThrottleMultiplier": 5.0,
-  "visibilityFactor": 7.5,
-  "visibilityFactorByPlane": 7.5,
+  "visibilityFactor": 10.0,
+  "visibilityFactorByPlane": 10.0,
   "visionToPlane": 15.0,
   "visionToShip": 15.0,
   "visionToTorpedo": 0,
@@ -59112,31 +60584,31 @@
     0.0
    ]
   },
-  "accelerationMaxFov": 1.15,
+  "accelerationMaxFov": 1.4,
   "aimingAccelerationModifier": 1.0,
-  "aimingAccuracyDecreaseRate": -0.15,
+  "aimingAccuracyDecreaseRate": -0.2,
   "aimingAccuracyIncreaseRate": 0.1,
   "aimingCameraDistance": [
-   -2.5,
-   3
+   2,
+   0.5
   ],
   "aimingCameraFovSettings": [
-   0.65,
-   4.0
+   1,
+   0.5
   ],
   "aimingCameraHeight": [
-   0.5,
-   3
+   2,
+   0.5
   ],
   "aimingCameraOffset": [
    0,
    1
   ],
   "aimingCameraPitchSettings": [
-   -0.5,
-   -10,
-   10,
-   0.5
+   0.0,
+   -1.5,
+   0,
+   1
   ],
   "aimingCameraSensitivity": [
    0.5,
@@ -59144,18 +60616,18 @@
   ],
   "aimingCameraYawSettings": [
    0.0,
-   10,
-   0.5
+   2.0,
+   1
   ],
-  "aimingHeight": 17,
+  "aimingHeight": 5.0,
   "aimingShakeMultiplier": 3,
   "aimingSpeedLimits": [
-   0.7857,
-   1.2857
+   0.5,
+   1.5
   ],
-  "aimingTime": 5,
-  "aimingTurnAccelerationModifier": 0.35,
-  "aimingTurnSpeedLimit": 0.35,
+  "aimingTime": 15.0,
+  "aimingTurnAccelerationModifier": 1.0,
+  "aimingTurnSpeedLimit": 0.3,
   "airBrakesDeploymentTime": 1.0,
   "airBreakEffect": "particles/airplanes/Air_break.xml",
   "airBrokenPartsEffect": "particles/airplanes/Air_brokenParts.xml",
@@ -59182,19 +60654,19 @@
   ],
   "angleOfClimb": 60.0,
   "angleOfDive": -75.0,
-  "attackAngle": 20,
+  "attackAngle": 17.5,
   "attackCameraSlowdownTime": 0.0,
   "attackCooldown": 5,
-  "attackCount": 12,
+  "attackCount": 1,
   "attackEndDelay": 0.5,
-  "attackInterval": 0.04,
+  "attackInterval": 1,
   "attackShakeMultiplier": 4,
   "attackSpeedMultiplier": 0.5,
   "attackSpeedMultiplierApplyTime": 0.75,
   "attackerDamageTakenMultiplier": 1,
-  "attackerSize": 3,
+  "attackerSize": 1,
   "bombFallingTime": 0.3,
-  "bombName": "PBPR210_Audacious_top",
+  "bombName": "PAPR104_Langley_stock",
   "bombingDropPointTime": 0.1,
   "climbSpeedCoef": 0.8,
   "climbSpeedCoefAiming": 1,
@@ -59255,28 +60727,28 @@
     0.0
    ]
   },
-  "decelerationMinFov": 0.65,
+  "decelerationMinFov": 0.8,
   "defaultCameraDistance": [
-   1,
-   3
+   0.3,
+   1
   ],
   "defaultCameraFovSettings": [
-   0.75,
-   4.0
+   1,
+   0.5
   ],
   "defaultCameraHeight": [
-   1,
+   0.3,
    1
   ],
   "defaultCameraOffset": [
-   2,
+   0,
    1
   ],
   "defaultCameraPitchSettings": [
    0.0,
-   -1.4,
-   1.4,
-   0.5
+   -0.5,
+   0,
+   1
   ],
   "defaultCameraSensitivity": [
    1,
@@ -59332,7 +60804,7 @@
   "escapeHeightLanding": 85.0,
   "fighterTracerName": "PCPP001_Default_Storming",
   "finalAttackCameraJumpDelay": 120.0,
-  "flightHeight": 18.0,
+  "flightHeight": 33.0,
   "flightRadius": 33.0,
   "flyScreenEffect": "particles/airplanes/Air_screen_fly.xml",
   "formations": {
@@ -59417,52 +60889,82 @@
     ]
    ],
    "aiming": [
-    2.0,
+    0.1,
     [
      [
-      0.0,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -1.25,
-      0,
-      1.25
-     ],
-     [
-      1.25,
-      0,
-      1.25
+      -0.5,
+      1.5,
+      0
      ],
      [
       -1.5,
-      8,
-      -10.5
-     ],
-     [
-      1.5,
-      8,
-      -10.5
-     ],
-     [
       0,
-      9,
-      -10.5
+      1
      ],
      [
+      -2,
       -1.5,
-      9,
-      -9
+      1
      ],
      [
+      -2,
       1.5,
-      9,
-      -9
+      1
      ],
      [
+      -3,
       0,
-      8,
-      -9
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -59470,19 +60972,79 @@
     0.1,
     [
      [
-      0.0,
-      0.0,
-      -2.5
+      0,
+      0,
+      0.0
      ],
      [
-      -2.5,
-      0,
+      -0.5,
+      -1.5,
       0
      ],
      [
-      2.5,
-      0,
+      -0.5,
+      1.5,
       0
+     ],
+     [
+      -1.5,
+      0,
+      1
+     ],
+     [
+      -2,
+      -1.5,
+      1
+     ],
+     [
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -59490,49 +61052,79 @@
     0.1,
     [
      [
-      0.0,
-      0.0,
+      0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -1.25,
+      -0.5,
+      1.5,
+      0
+     ],
+     [
+      -1.5,
       0,
-      1.25
+      1
      ],
      [
-      1.25,
+      -2,
+      -1.5,
+      1
+     ],
+     [
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
       0,
-      1.25
+      -1
      ],
      [
-      -2.75,
-      0.0,
-      2.5
+      -3.5,
+      -1.5,
+      -1
      ],
      [
-      2.75,
-      0.0,
-      2.5
+      -3.5,
+      1.5,
+      -1
      ],
      [
+      -4.5,
       0,
-      0.0,
-      2.75
+      2
      ],
      [
-      -1.75,
-      0.0,
-      3.5
+      -5,
+      -1.5,
+      2
      ],
      [
-      1.75,
-      0.0,
-      3.5
+      -5,
+      1.5,
+      2
      ],
      [
+      -6,
       0,
-      0.0,
-      4.5
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -59617,52 +61209,82 @@
     ]
    ],
    "preparation": [
-    2.0,
+    0.1,
     [
      [
-      0.0,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -1.25,
-      0,
-      1.25
-     ],
-     [
-      1.25,
-      0,
-      1.25
+      -0.5,
+      1.5,
+      0
      ],
      [
       -1.5,
-      4,
-      -5.5
-     ],
-     [
-      1.5,
-      4,
-      -5.5
-     ],
-     [
       0,
-      5,
-      -5.5
+      1
      ],
      [
+      -2,
       -1.5,
-      5,
-      -4
+      1
      ],
      [
+      -2,
       1.5,
-      5,
-      -4
+      1
      ],
      [
+      -3,
       0,
-      4,
-      -4
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ]
@@ -59679,10 +61301,10 @@
    "particles/airplanes/Air_ground_explosion_2.xml"
   ],
   "hangarSettings": {
-   "maxValue": 14,
+   "maxValue": 0,
    "restoreAmount": 1,
-   "startValue": 14,
-   "timeToRestore": 82.0
+   "startValue": 0,
+   "timeToRestore": 0.1
   },
   "heavyDamageShake": {
    "duration": 1,
@@ -59725,10 +61347,10 @@
   },
   "id": 3864887248,
   "index": "PBAF410",
-  "innerBombsPercentage": 75.0,
+  "innerBombsPercentage": 33.33,
   "innerSalvoSize": [
-   3.23,
-   1.94
+   1.5,
+   2.5
   ],
   "isAirSupportPlane": false,
   "isConsumablePlane": true,
@@ -59821,19 +61443,23 @@
   "maxAttackAngle": 45,
   "maxAttackDistanceMultiplier": 9999,
   "maxForsageAmount": 5,
-  "maxHealth": 289,
+  "maxHealth": 203,
   "maxLaunchDelay": 0.6,
-  "maxRotateSpeed": 0.5,
+  "maxRotateSpeed": 0.48,
   "maxRudderYaw": 1.0,
   "maxSpread": [
-   3.0,
-   3.0
+   3,
+   3
   ],
+  "maxVisibilityFactor": 7.5,
+  "maxVisibilityFactorByPlane": 7.5,
   "minLaunchDelay": 0.6,
   "minSpread": [
    1,
    1
   ],
+  "minVisibilityFactor": 7.5,
+  "minVisibilityFactorByPlane": 7.5,
   "model": "content/gameplay/uk/aircraft/bomber/BAB711_Westland_Wyvern_TFI_proto/BAB711_Westland_Wyvern_TFI_proto.model",
   "mouseTurnStrength": [
    [
@@ -59898,8 +61524,8 @@
    ]
   ],
   "name": "PBAF410_Audacious_stock_WARD",
-  "naturalAcceleration": 0.249,
-  "naturalDeceleration": 0.249,
+  "naturalAcceleration": 0.363,
+  "naturalDeceleration": 0.363,
   "normalFlightShake": {
    "pitch": [
     0.005,
@@ -59939,11 +61565,11 @@
    ]
   },
   "normalLodDist": 190,
-  "numFloats": 0,
-  "numPlanesInSquadron": 9,
+  "numFloats": 1,
+  "numPlanesInSquadron": 1,
   "outerSalvoSize": [
-   4.43,
-   2.66
+   6.0,
+   15.0
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
@@ -59954,29 +61580,29 @@
   "planeYawAccelerationTime": 1.0,
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccelerationModifier": 1.0,
-  "preparationAccuracyDecreaseRate": -0.12,
-  "preparationAccuracyIncreaseRate": 0.33,
+  "preparationAccuracyDecreaseRate": -0.2,
+  "preparationAccuracyIncreaseRate": 0.1,
   "preparationCameraDistance": [
-   -1.5,
-   3
+   3,
+   1
   ],
   "preparationCameraFovSettings": [
-   0.7,
-   4.0
+   1,
+   0.5
   ],
   "preparationCameraHeight": [
-   1,
-   3
+   3,
+   1
   ],
   "preparationCameraOffset": [
    0,
    1
   ],
   "preparationCameraPitchSettings": [
-   -0.5,
-   -10,
-   10,
-   0.5
+   0.0,
+   -1.0,
+   0,
+   1
   ],
   "preparationCameraSensitivity": [
    0.75,
@@ -59984,18 +61610,18 @@
   ],
   "preparationCameraYawSettings": [
    0.0,
-   10,
-   0.5
+   1.0,
+   1
   ],
-  "preparationHeight": 17,
+  "preparationHeight": 30.0,
   "preparationShakeMultiplier": 2,
   "preparationSpeedLimits": [
-   0.7857,
-   1.2857
+   0.5,
+   1.5
   ],
-  "preparationTime": 3,
-  "preparationTurnAccelerationModifier": 1,
-  "preparationTurnSpeedLimit": 1,
+  "preparationTime": 1.0,
+  "preparationTurnAccelerationModifier": 1.0,
+  "preparationTurnSpeedLimit": 0.3,
   "projectilesPerAttack": 1,
   "propellerRPM": 9999999,
   "resetAttackerThrottle": true,
@@ -60011,16 +61637,16 @@
   "shootdownMinHorizontalSpeed": 0.1,
   "shootdownRollAcceleration": 360.0,
   "shootdownSideRelativeAcceleration": 0.5,
-  "speedMax": 1.2857,
-  "speedMin": 0.7857,
+  "speedMax": 1.2273,
+  "speedMin": 0.8295,
   "speedMoveWithBomb": 266.0,
   "splitSpeedBoostDuration": 4,
   "splitSpeedMultiplier": 1.5,
   "squadronTurnRadius": 1,
-  "startAngle": -8.0,
-  "throttleAcceleration": 0.622,
+  "startAngle": -10.9,
+  "throttleAcceleration": 0.908,
   "throttleBrakesStrength": 0.5,
-  "throttleDeceleration": 0.622,
+  "throttleDeceleration": 0.908,
   "torpedoAimDist": 100,
   "turnSettings": [
    [
@@ -60075,8 +61701,8 @@
    "type": "Aircraft"
   },
   "underMinThrottleMultiplier": 5.0,
-  "visibilityFactor": 7.5,
-  "visibilityFactorByPlane": 7.5,
+  "visibilityFactor": 10.0,
+  "visibilityFactorByPlane": 10.0,
   "visionToPlane": 15.0,
   "visionToShip": 15.0,
   "visionToTorpedo": 0,
@@ -61253,31 +62879,31 @@
     0.0
    ]
   },
-  "accelerationMaxFov": 1.0,
+  "accelerationMaxFov": 1.4,
   "aimingAccelerationModifier": 1.0,
-  "aimingAccuracyDecreaseRate": -0.25,
+  "aimingAccuracyDecreaseRate": -0.2,
   "aimingAccuracyIncreaseRate": 0.1,
   "aimingCameraDistance": [
-   -2.5,
-   3
+   2,
+   0.5
   ],
   "aimingCameraFovSettings": [
-   0.65,
-   4.0
+   1,
+   0.5
   ],
   "aimingCameraHeight": [
-   0.5,
-   3
+   2,
+   0.5
   ],
   "aimingCameraOffset": [
    0,
    1
   ],
   "aimingCameraPitchSettings": [
-   -0.5,
-   -10,
-   10,
-   0.5
+   0.0,
+   -1.5,
+   0,
+   1
   ],
   "aimingCameraSensitivity": [
    0.5,
@@ -61285,18 +62911,18 @@
   ],
   "aimingCameraYawSettings": [
    0.0,
-   10,
-   0.5
+   2.0,
+   1
   ],
-  "aimingHeight": 14.0,
+  "aimingHeight": 5.0,
   "aimingShakeMultiplier": 3,
   "aimingSpeedLimits": [
-   0.7197,
-   1.3738
+   0.5,
+   1.5
   ],
-  "aimingTime": 5,
-  "aimingTurnAccelerationModifier": 0.35,
-  "aimingTurnSpeedLimit": 0.35,
+  "aimingTime": 15.0,
+  "aimingTurnAccelerationModifier": 1.0,
+  "aimingTurnSpeedLimit": 0.3,
   "airBrakesDeploymentTime": 1.0,
   "airBreakEffect": "particles/airplanes/Air_break.xml",
   "airBrokenPartsEffect": "particles/airplanes/Air_brokenParts.xml",
@@ -61323,19 +62949,19 @@
   ],
   "angleOfClimb": 60.0,
   "angleOfDive": -75.0,
-  "attackAngle": 20,
+  "attackAngle": 17.5,
   "attackCameraSlowdownTime": 0.0,
   "attackCooldown": 5,
-  "attackCount": 4,
+  "attackCount": 1,
   "attackEndDelay": 0.5,
-  "attackInterval": 0.033,
+  "attackInterval": 1,
   "attackShakeMultiplier": 4,
   "attackSpeedMultiplier": 0.5,
   "attackSpeedMultiplierApplyTime": 0.75,
   "attackerDamageTakenMultiplier": 1,
-  "attackerSize": 3,
+  "attackerSize": 1,
   "bombFallingTime": 0.3,
-  "bombName": "PBPR104_Hermes_stock",
+  "bombName": "PAPR104_Langley_stock",
   "bombingDropPointTime": 0.1,
   "climbSpeedCoef": 0.8,
   "climbSpeedCoefAiming": 1,
@@ -61396,28 +63022,28 @@
     0.0
    ]
   },
-  "decelerationMinFov": 0.65,
+  "decelerationMinFov": 0.8,
   "defaultCameraDistance": [
-   -0.5,
-   3
+   0.3,
+   1
   ],
   "defaultCameraFovSettings": [
-   0.75,
-   4.0
+   1,
+   0.5
   ],
   "defaultCameraHeight": [
-   0.7,
+   0.3,
    1
   ],
   "defaultCameraOffset": [
-   1,
+   0,
    1
   ],
   "defaultCameraPitchSettings": [
    0.0,
-   -10,
-   10,
-   0.5
+   -0.5,
+   0,
+   1
   ],
   "defaultCameraSensitivity": [
    1,
@@ -61558,37 +63184,82 @@
     ]
    ],
    "aiming": [
-    2.0,
+    0.1,
     [
      [
       0,
       0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      1,
+      -0.5,
+      1.5,
+      0
+     ],
+     [
+      -1.5,
       0,
       1
      ],
      [
-      -1,
-      0,
+      -2,
+      -1.5,
       1
      ],
      [
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
       0,
-      8,
-      -10
+      -1
      ],
      [
-      0.6,
-      9,
-      -9
+      -3.5,
+      -1.5,
+      -1
      ],
      [
-      -0.6,
-      9,
-      -9
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -61598,17 +63269,77 @@
      [
       0,
       0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      1,
+      -0.5,
+      1.5,
+      0
+     ],
+     [
+      -1.5,
       0,
       1
      ],
      [
-      -1,
-      0,
+      -2,
+      -1.5,
       1
+     ],
+     [
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -61618,32 +63349,77 @@
      [
       0,
       0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      1,
+      -0.5,
+      1.5,
+      0
+     ],
+     [
+      -1.5,
       0,
       1
      ],
      [
-      -1,
-      0,
+      -2,
+      -1.5,
       1
      ],
      [
-      0,
-      0.0,
-      1.5
+      -2,
+      1.5,
+      1
      ],
      [
-      0.8,
+      -3,
       0,
-      2.5
+      -1
      ],
      [
-      -0.8,
-      0.0,
-      2.5
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -61728,37 +63504,82 @@
     ]
    ],
    "preparation": [
-    2.0,
+    0.1,
     [
      [
       0,
       0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      1,
+      -0.5,
+      1.5,
+      0
+     ],
+     [
+      -1.5,
       0,
       1
      ],
      [
-      -1,
-      0,
+      -2,
+      -1.5,
       1
      ],
      [
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
       0,
-      4,
-      -5
+      -1
      ],
      [
-      0.8,
-      5,
-      -4
+      -3.5,
+      -1.5,
+      -1
      ],
      [
-      -0.8,
-      5,
-      -4
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ]
@@ -61775,10 +63596,10 @@
    "particles/airplanes/Air_ground_explosion_2.xml"
   ],
   "hangarSettings": {
-   "maxValue": 9,
+   "maxValue": 0,
    "restoreAmount": 1,
-   "startValue": 9,
-   "timeToRestore": 55.0
+   "startValue": 0,
+   "timeToRestore": 0.1
   },
   "heavyDamageShake": {
    "duration": 1,
@@ -61821,10 +63642,10 @@
   },
   "id": 3871178704,
   "index": "PBAF404",
-  "innerBombsPercentage": 50.0,
+  "innerBombsPercentage": 33.33,
   "innerSalvoSize": [
-   1.7,
-   1.02
+   1.5,
+   2.5
   ],
   "isAirSupportPlane": false,
   "isConsumablePlane": true,
@@ -61917,19 +63738,23 @@
   "maxAttackAngle": 45,
   "maxAttackDistanceMultiplier": 9999,
   "maxForsageAmount": 5,
-  "maxHealth": 395,
+  "maxHealth": 100,
   "maxLaunchDelay": 0.6,
-  "maxRotateSpeed": 0.57,
+  "maxRotateSpeed": 0.47,
   "maxRudderYaw": 1.0,
   "maxSpread": [
-   3.0,
-   3.0
+   3,
+   3
   ],
+  "maxVisibilityFactor": 5,
+  "maxVisibilityFactorByPlane": 5,
   "minLaunchDelay": 0.6,
   "minSpread": [
    1,
    1
   ],
+  "minVisibilityFactor": 5,
+  "minVisibilityFactorByPlane": 5,
   "model": "content/gameplay/uk/aircraft/fighter/BAF702_Sea_Gladiator_proto/BAF702_Sea_Gladiator_proto.model",
   "mouseTurnStrength": [
    [
@@ -61994,8 +63819,8 @@
    ]
   ],
   "name": "PBAF404_Hermes_stock_WARD",
-  "naturalAcceleration": 0.174,
-  "naturalDeceleration": 0.174,
+  "naturalAcceleration": 0.157,
+  "naturalDeceleration": 0.157,
   "normalFlightShake": {
    "pitch": [
     0.005,
@@ -62035,11 +63860,11 @@
    ]
   },
   "normalLodDist": 190,
-  "numFloats": 0,
-  "numPlanesInSquadron": 6,
+  "numFloats": 1,
+  "numPlanesInSquadron": 1,
   "outerSalvoSize": [
-   2.93,
-   1.76
+   6.0,
+   15.0
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
@@ -62050,29 +63875,29 @@
   "planeYawAccelerationTime": 1.0,
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccelerationModifier": 1.0,
-  "preparationAccuracyDecreaseRate": -0.15,
-  "preparationAccuracyIncreaseRate": 0.32,
+  "preparationAccuracyDecreaseRate": -0.2,
+  "preparationAccuracyIncreaseRate": 0.1,
   "preparationCameraDistance": [
-   -1.5,
-   3
+   3,
+   1
   ],
   "preparationCameraFovSettings": [
-   0.7,
-   4.0
+   1,
+   0.5
   ],
   "preparationCameraHeight": [
-   1,
-   3
+   3,
+   1
   ],
   "preparationCameraOffset": [
    0,
    1
   ],
   "preparationCameraPitchSettings": [
-   -0.5,
-   -10,
-   10,
-   0.5
+   0.0,
+   -1.0,
+   0,
+   1
   ],
   "preparationCameraSensitivity": [
    0.75,
@@ -62080,18 +63905,18 @@
   ],
   "preparationCameraYawSettings": [
    0.0,
-   10,
-   0.5
+   1.0,
+   1
   ],
-  "preparationHeight": 14.0,
+  "preparationHeight": 30.0,
   "preparationShakeMultiplier": 2,
   "preparationSpeedLimits": [
-   0.7197,
-   1.3738
+   0.5,
+   1.5
   ],
-  "preparationTime": 3.0,
-  "preparationTurnAccelerationModifier": 1,
-  "preparationTurnSpeedLimit": 1,
+  "preparationTime": 1.0,
+  "preparationTurnAccelerationModifier": 1.0,
+  "preparationTurnSpeedLimit": 0.3,
   "projectilesPerAttack": 1,
   "propellerRPM": 9999999,
   "resetAttackerThrottle": true,
@@ -62107,16 +63932,16 @@
   "shootdownMinHorizontalSpeed": 0.1,
   "shootdownRollAcceleration": 360.0,
   "shootdownSideRelativeAcceleration": 0.5,
-  "speedMax": 1.3738,
-  "speedMin": 0.7197,
+  "speedMax": 1.3306,
+  "speedMin": 0.752,
   "speedMoveWithBomb": 187.0,
   "splitSpeedBoostDuration": 4,
   "splitSpeedMultiplier": 1.5,
   "squadronTurnRadius": 1,
-  "startAngle": -13.5,
-  "throttleAcceleration": 0.435,
+  "startAngle": -14.9,
+  "throttleAcceleration": 0.392,
   "throttleBrakesStrength": 0.5,
-  "throttleDeceleration": 0.435,
+  "throttleDeceleration": 0.392,
   "torpedoAimDist": 100,
   "turnSettings": [
    [
@@ -62171,8 +63996,8 @@
    "type": "Aircraft"
   },
   "underMinThrottleMultiplier": 5.0,
-  "visibilityFactor": 5,
-  "visibilityFactorByPlane": 5,
+  "visibilityFactor": 10.0,
+  "visibilityFactorByPlane": 10.0,
   "visionToPlane": 15.0,
   "visionToShip": 15.0,
   "visionToTorpedo": 0,
@@ -73274,14 +75099,14 @@
   "attackAngle": null,
   "attackCameraSlowdownTime": 0.0,
   "attackCooldown": 7.5,
-  "attackCount": 4,
+  "attackCount": 2,
   "attackEndDelay": 0.0,
-  "attackInterval": 0.85,
+  "attackInterval": 0.594,
   "attackShakeMultiplier": 1,
   "attackSpeedMultiplier": 1.0,
   "attackSpeedMultiplierApplyTime": 0.0,
   "attackerDamageTakenMultiplier": 0.7,
-  "attackerSize": 2,
+  "attackerSize": 1,
   "bombFallingTime": 0.3,
   "bombName": "PBPD101_depth_113kg",
   "bombingDropPointTime": 0.1,
@@ -73509,6 +75334,11 @@
     0.05,
     [
      [
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
       3.0,
       0.5,
       3.0
@@ -73544,6 +75374,11 @@
     0.05,
     [
      [
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
       3.0,
       0.5,
       3.0
@@ -73578,6 +75413,11 @@
    "flight": [
     0.05,
     [
+     [
+      0.0,
+      0.0,
+      0.0
+     ],
      [
       3.0,
       0.5,
@@ -73694,6 +75534,11 @@
     0.05,
     [
      [
+      0.0,
+      0.0,
+      0.0
+     ],
+     [
       3.0,
       0.5,
       3.0
@@ -73786,7 +75631,7 @@
   "index": "PBAD901",
   "innerBombsPercentage": 100.0,
   "innerSalvoSize": [
-   4.0,
+   2.0,
    0.5
   ],
   "isAirSupportPlane": true,
@@ -74001,8 +75846,8 @@
   "numFloats": 1,
   "numPlanesInSquadron": 6,
   "outerSalvoSize": [
-   6.0,
-   6.0
+   8.0,
+   8.0
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
@@ -75257,31 +77102,31 @@
     0.0
    ]
   },
-  "accelerationMaxFov": 1.1,
+  "accelerationMaxFov": 1.4,
   "aimingAccelerationModifier": 1.0,
   "aimingAccuracyDecreaseRate": -0.2,
   "aimingAccuracyIncreaseRate": 0.1,
   "aimingCameraDistance": [
-   -2.5,
-   3
+   2,
+   0.5
   ],
   "aimingCameraFovSettings": [
-   0.65,
-   4.0
+   1,
+   0.5
   ],
   "aimingCameraHeight": [
-   0.5,
-   3
+   2,
+   0.5
   ],
   "aimingCameraOffset": [
    0,
    1
   ],
   "aimingCameraPitchSettings": [
-   -0.5,
-   -10,
-   10,
-   0.5
+   0.0,
+   -1.5,
+   0,
+   1
   ],
   "aimingCameraSensitivity": [
    0.5,
@@ -75289,18 +77134,18 @@
   ],
   "aimingCameraYawSettings": [
    0.0,
-   10,
-   0.5
+   2.0,
+   1
   ],
-  "aimingHeight": 16,
+  "aimingHeight": 5.0,
   "aimingShakeMultiplier": 3,
   "aimingSpeedLimits": [
-   0.7794,
-   1.2941
+   0.5,
+   1.5
   ],
-  "aimingTime": 5,
-  "aimingTurnAccelerationModifier": 0.35,
-  "aimingTurnSpeedLimit": 0.35,
+  "aimingTime": 15.0,
+  "aimingTurnAccelerationModifier": 1.0,
+  "aimingTurnSpeedLimit": 0.3,
   "airBrakesDeploymentTime": 1.0,
   "airBreakEffect": "particles/airplanes/Air_break.xml",
   "airBrokenPartsEffect": "particles/airplanes/Air_brokenParts.xml",
@@ -75327,19 +77172,19 @@
   ],
   "angleOfClimb": 60.0,
   "angleOfDive": -75.0,
-  "attackAngle": 20,
+  "attackAngle": 17.5,
   "attackCameraSlowdownTime": 0.0,
   "attackCooldown": 5,
-  "attackCount": 10,
+  "attackCount": 1,
   "attackEndDelay": 0.5,
-  "attackInterval": 0.033,
+  "attackInterval": 1,
   "attackShakeMultiplier": 4,
   "attackSpeedMultiplier": 0.5,
   "attackSpeedMultiplierApplyTime": 0.75,
   "attackerDamageTakenMultiplier": 1,
-  "attackerSize": 2,
+  "attackerSize": 1,
   "bombFallingTime": 0.3,
-  "bombName": "PBPR208_Implacable_top",
+  "bombName": "PAPR104_Langley_stock",
   "bombingDropPointTime": 0.1,
   "climbSpeedCoef": 0.8,
   "climbSpeedCoefAiming": 1,
@@ -75400,28 +77245,28 @@
     0.0
    ]
   },
-  "decelerationMinFov": 0.65,
+  "decelerationMinFov": 0.8,
   "defaultCameraDistance": [
-   -0.5,
-   3
+   0.3,
+   1
   ],
   "defaultCameraFovSettings": [
-   0.75,
-   4.0
+   1,
+   0.5
   ],
   "defaultCameraHeight": [
-   0.7,
+   0.3,
    1
   ],
   "defaultCameraOffset": [
-   1,
+   0,
    1
   ],
   "defaultCameraPitchSettings": [
    0.0,
-   -10,
-   10,
-   0.5
+   -0.5,
+   0,
+   1
   ],
   "defaultCameraSensitivity": [
    1,
@@ -75477,7 +77322,7 @@
   "escapeHeightLanding": 85.0,
   "fighterTracerName": "PCPP001_Default_Storming",
   "finalAttackCameraJumpDelay": 120.0,
-  "flightHeight": 17.0,
+  "flightHeight": 33.0,
   "flightRadius": 33.0,
   "flyScreenEffect": "particles/airplanes/Air_screen_fly.xml",
   "formations": {
@@ -75562,37 +77407,82 @@
     ]
    ],
    "aiming": [
-    2.0,
+    0.1,
     [
      [
-      0.6,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.6,
-      0,
+      -0.5,
+      1.5,
       0
      ],
      [
-      0.6,
-      8,
-      -10.5
+      -1.5,
+      0,
+      1
      ],
      [
-      -0.6,
-      8,
-      -10.5
+      -2,
+      -1.5,
+      1
      ],
      [
-      0.6,
-      9,
-      -9
+      -2,
+      1.5,
+      1
      ],
      [
-      -0.6,
-      9,
-      -9
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -75600,14 +77490,79 @@
     0.1,
     [
      [
-      0.6,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.6,
-      0,
+      -0.5,
+      1.5,
       0
+     ],
+     [
+      -1.5,
+      0,
+      1
+     ],
+     [
+      -2,
+      -1.5,
+      1
+     ],
+     [
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -75615,34 +77570,79 @@
     0.1,
     [
      [
-      0.6,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.6,
-      0,
-      0
-     ],
-     [
+      -0.5,
       1.5,
-      0,
-      1.25
+      0
      ],
      [
       -1.5,
-      0.0,
-      1.25
-     ],
-     [
-      0.8,
       0,
-      2.5
+      1
      ],
      [
-      -0.8,
-      0.0,
-      2.5
+      -2,
+      -1.5,
+      1
+     ],
+     [
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -75727,37 +77727,82 @@
     ]
    ],
    "preparation": [
-    2.0,
+    0.1,
     [
      [
-      0.6,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.6,
-      0,
+      -0.5,
+      1.5,
       0
      ],
      [
-      0.6,
-      4,
-      -8
+      -1.5,
+      0,
+      1
      ],
      [
-      -0.6,
-      4,
-      -8
+      -2,
+      -1.5,
+      1
      ],
      [
-      0.6,
-      5,
-      -7
+      -2,
+      1.5,
+      1
      ],
      [
-      -0.6,
-      5,
-      -7
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ]
@@ -75774,10 +77819,10 @@
    "particles/airplanes/Air_ground_explosion_2.xml"
   ],
   "hangarSettings": {
-   "maxValue": 9,
+   "maxValue": 0,
    "restoreAmount": 1,
-   "startValue": 9,
-   "timeToRestore": 99.0
+   "startValue": 0,
+   "timeToRestore": 0.1
   },
   "heavyDamageShake": {
    "duration": 1,
@@ -75820,10 +77865,10 @@
   },
   "id": 3866984400,
   "index": "PBAF408",
-  "innerBombsPercentage": 50.0,
+  "innerBombsPercentage": 33.33,
   "innerSalvoSize": [
-   2.17,
-   1.3
+   1.5,
+   2.5
   ],
   "isAirSupportPlane": false,
   "isConsumablePlane": true,
@@ -75916,19 +77961,23 @@
   "maxAttackAngle": 45,
   "maxAttackDistanceMultiplier": 9999,
   "maxForsageAmount": 5,
-  "maxHealth": 215,
+  "maxHealth": 163,
   "maxLaunchDelay": 0.6,
-  "maxRotateSpeed": 0.51,
+  "maxRotateSpeed": 0.44,
   "maxRudderYaw": 1.0,
   "maxSpread": [
-   3.0,
-   3.0
+   3,
+   3
   ],
+  "maxVisibilityFactor": 7.5,
+  "maxVisibilityFactorByPlane": 7.5,
   "minLaunchDelay": 0.6,
   "minSpread": [
    1,
    1
   ],
+  "minVisibilityFactor": 7.5,
+  "minVisibilityFactorByPlane": 7.5,
   "model": "content/gameplay/uk/aircraft/fighter/BAF707_Seafire_MkXV_proto/BAF707_Seafire_MkXV_proto.model",
   "mouseTurnStrength": [
    [
@@ -75993,8 +78042,8 @@
    ]
   ],
   "name": "PBAF408_Implacable_stock_WARD",
-  "naturalAcceleration": 0.221,
-  "naturalDeceleration": 0.221,
+  "naturalAcceleration": 0.239,
+  "naturalDeceleration": 0.239,
   "normalFlightShake": {
    "pitch": [
     0.005,
@@ -76034,11 +78083,11 @@
    ]
   },
   "normalLodDist": 190,
-  "numFloats": 0,
-  "numPlanesInSquadron": 6,
+  "numFloats": 1,
+  "numPlanesInSquadron": 1,
   "outerSalvoSize": [
-   3.33,
-   2.0
+   6.0,
+   15.0
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
@@ -76049,29 +78098,29 @@
   "planeYawAccelerationTime": 1.0,
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccelerationModifier": 1.0,
-  "preparationAccuracyDecreaseRate": -0.13,
-  "preparationAccuracyIncreaseRate": 0.33,
+  "preparationAccuracyDecreaseRate": -0.2,
+  "preparationAccuracyIncreaseRate": 0.1,
   "preparationCameraDistance": [
-   -1.5,
-   3
+   3,
+   1
   ],
   "preparationCameraFovSettings": [
-   0.7,
-   4.0
+   1,
+   0.5
   ],
   "preparationCameraHeight": [
-   1,
-   3
+   3,
+   1
   ],
   "preparationCameraOffset": [
    0,
    1
   ],
   "preparationCameraPitchSettings": [
-   -0.5,
-   -10,
-   10,
-   0.5
+   0.0,
+   -1.0,
+   0,
+   1
   ],
   "preparationCameraSensitivity": [
    0.75,
@@ -76079,18 +78128,18 @@
   ],
   "preparationCameraYawSettings": [
    0.0,
-   10,
-   0.5
+   1.0,
+   1
   ],
-  "preparationHeight": 16,
+  "preparationHeight": 30.0,
   "preparationShakeMultiplier": 2,
   "preparationSpeedLimits": [
-   0.7794,
-   1.2941
+   0.5,
+   1.5
   ],
-  "preparationTime": 3,
-  "preparationTurnAccelerationModifier": 1,
-  "preparationTurnSpeedLimit": 1,
+  "preparationTime": 1.0,
+  "preparationTurnAccelerationModifier": 1.0,
+  "preparationTurnSpeedLimit": 0.3,
   "projectilesPerAttack": 1,
   "propellerRPM": 9999999,
   "resetAttackerThrottle": true,
@@ -76106,16 +78155,16 @@
   "shootdownMinHorizontalSpeed": 0.1,
   "shootdownRollAcceleration": 360.0,
   "shootdownSideRelativeAcceleration": 0.5,
-  "speedMax": 1.2941,
-  "speedMin": 0.7794,
+  "speedMax": 1.2367,
+  "speedMin": 0.8225,
   "speedMoveWithBomb": 235.0,
   "splitSpeedBoostDuration": 4,
   "splitSpeedMultiplier": 1.5,
   "squadronTurnRadius": 1,
-  "startAngle": -12.0,
-  "throttleAcceleration": 0.554,
+  "startAngle": -12.8,
+  "throttleAcceleration": 0.597,
   "throttleBrakesStrength": 0.5,
-  "throttleDeceleration": 0.554,
+  "throttleDeceleration": 0.597,
   "torpedoAimDist": 100,
   "turnSettings": [
    [
@@ -76170,8 +78219,8 @@
    "type": "Aircraft"
   },
   "underMinThrottleMultiplier": 5.0,
-  "visibilityFactor": 7.5,
-  "visibilityFactorByPlane": 7.5,
+  "visibilityFactor": 10.0,
+  "visibilityFactorByPlane": 10.0,
   "visionToPlane": 15.0,
   "visionToShip": 15.0,
   "visionToTorpedo": 0,
@@ -76187,21 +78236,11 @@
   "CautiousBehaviour": {},
   "PlaneAbilities": {
    "AbilitySlot0": {
-    "abils": [
-     [
-      "PCY034_ForsageBooster",
-      "Allplanes"
-     ]
-    ],
+    "abils": [],
     "slot": 0
    },
    "AbilitySlot1": {
-    "abils": [
-     [
-      "PCY035_CallFighters",
-      "BR_Indomitable"
-     ]
-    ],
+    "abils": [],
     "slot": 1
    },
    "AbilitySlot2": {
@@ -76255,31 +78294,31 @@
     0.0
    ]
   },
-  "accelerationMaxFov": 1.15,
+  "accelerationMaxFov": 1.4,
   "aimingAccelerationModifier": 1.0,
-  "aimingAccuracyDecreaseRate": -0.3,
+  "aimingAccuracyDecreaseRate": -0.2,
   "aimingAccuracyIncreaseRate": 0.1,
   "aimingCameraDistance": [
-   -2.5,
-   3
+   2,
+   0.5
   ],
   "aimingCameraFovSettings": [
-   0.65,
-   4.0
+   1,
+   0.5
   ],
   "aimingCameraHeight": [
-   0.5,
-   3
+   2,
+   0.5
   ],
   "aimingCameraOffset": [
    0,
    1
   ],
   "aimingCameraPitchSettings": [
-   -0.5,
-   -10,
-   10,
-   0.5
+   0.0,
+   -1.5,
+   0,
+   1
   ],
   "aimingCameraSensitivity": [
    0.5,
@@ -76287,18 +78326,18 @@
   ],
   "aimingCameraYawSettings": [
    0.0,
-   10,
-   0.5
+   2.0,
+   1
   ],
-  "aimingHeight": 22,
+  "aimingHeight": 5.0,
   "aimingShakeMultiplier": 3,
   "aimingSpeedLimits": [
-   0.8404,
-   1.2128
+   0.5,
+   1.5
   ],
-  "aimingTime": 5,
-  "aimingTurnAccelerationModifier": 0.35,
-  "aimingTurnSpeedLimit": 0.35,
+  "aimingTime": 15.0,
+  "aimingTurnAccelerationModifier": 1.0,
+  "aimingTurnSpeedLimit": 0.3,
   "airBrakesDeploymentTime": 1.0,
   "airBreakEffect": "particles/airplanes/Air_break.xml",
   "airBrokenPartsEffect": "particles/airplanes/Air_brokenParts.xml",
@@ -76327,17 +78366,17 @@
   "angleOfDive": -75.0,
   "attackAngle": 17.5,
   "attackCameraSlowdownTime": 0.0,
-  "attackCooldown": 1.5,
-  "attackCount": 8,
+  "attackCooldown": 5,
+  "attackCount": 1,
   "attackEndDelay": 0.5,
-  "attackInterval": 0.01,
+  "attackInterval": 1,
   "attackShakeMultiplier": 4,
   "attackSpeedMultiplier": 0.5,
   "attackSpeedMultiplierApplyTime": 0.75,
   "attackerDamageTakenMultiplier": 1,
-  "attackerSize": 2,
+  "attackerSize": 1,
   "bombFallingTime": 0.3,
-  "bombName": "PBPR508_Indomitable_stock",
+  "bombName": "PAPR104_Langley_stock",
   "bombingDropPointTime": 0.1,
   "climbSpeedCoef": 0.8,
   "climbSpeedCoefAiming": 1,
@@ -76398,28 +78437,28 @@
     0.0
    ]
   },
-  "decelerationMinFov": 0.65,
+  "decelerationMinFov": 0.8,
   "defaultCameraDistance": [
-   -0.5,
-   3
+   0.3,
+   1
   ],
   "defaultCameraFovSettings": [
-   0.75,
-   4.0
+   1,
+   0.5
   ],
   "defaultCameraHeight": [
-   0.7,
+   0.3,
    1
   ],
   "defaultCameraOffset": [
-   1,
+   0,
    1
   ],
   "defaultCameraPitchSettings": [
    0.0,
-   -10,
-   10,
-   0.5
+   -0.5,
+   0,
+   1
   ],
   "defaultCameraSensitivity": [
    1,
@@ -76475,7 +78514,7 @@
   "escapeHeightLanding": 85.0,
   "fighterTracerName": "PCPP001_Default_Storming",
   "finalAttackCameraJumpDelay": 120.0,
-  "flightHeight": 23.0,
+  "flightHeight": 33.0,
   "flightRadius": 33.0,
   "flyScreenEffect": "particles/airplanes/Air_screen_fly.xml",
   "formations": {
@@ -76560,37 +78599,82 @@
     ]
    ],
    "aiming": [
-    2.0,
+    0.1,
     [
      [
-      0.6,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.6,
-      0,
+      -0.5,
+      1.5,
       0
      ],
      [
-      0.6,
-      15,
-      -6
+      -1.5,
+      0,
+      1
      ],
      [
-      -0.6,
-      15,
-      -6
+      -2,
+      -1.5,
+      1
      ],
      [
-      0.6,
-      16,
-      -5
+      -2,
+      1.5,
+      1
      ],
      [
-      -0.6,
-      16,
-      -5
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -76598,14 +78682,79 @@
     0.1,
     [
      [
-      0.6,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.6,
-      0,
+      -0.5,
+      1.5,
       0
+     ],
+     [
+      -1.5,
+      0,
+      1
+     ],
+     [
+      -2,
+      -1.5,
+      1
+     ],
+     [
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -76613,34 +78762,79 @@
     0.1,
     [
      [
-      0.6,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.6,
-      0,
-      0
-     ],
-     [
+      -0.5,
       1.5,
-      0,
-      1.25
+      0
      ],
      [
       -1.5,
-      0.0,
-      1.25
-     ],
-     [
-      0.8,
       0,
-      2.5
+      1
      ],
      [
-      -0.8,
-      0.0,
-      2.5
+      -2,
+      -1.5,
+      1
+     ],
+     [
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
+      2
+     ],
+     [
+      -5,
+      -1.5,
+      2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ],
@@ -76725,37 +78919,82 @@
     ]
    ],
    "preparation": [
-    2.0,
+    0.1,
     [
      [
-      0.6,
       0,
+      0,
+      0.0
+     ],
+     [
+      -0.5,
+      -1.5,
       0
      ],
      [
-      -0.6,
-      0,
+      -0.5,
+      1.5,
       0
      ],
      [
-      0.6,
-      10,
+      -1.5,
+      0,
       1
      ],
      [
-      -0.6,
-      10,
+      -2,
+      -1.5,
       1
      ],
      [
-      0.6,
-      11,
+      -2,
+      1.5,
+      1
+     ],
+     [
+      -3,
+      0,
+      -1
+     ],
+     [
+      -3.5,
+      -1.5,
+      -1
+     ],
+     [
+      -3.5,
+      1.5,
+      -1
+     ],
+     [
+      -4.5,
+      0,
       2
      ],
      [
-      -0.6,
-      11,
+      -5,
+      -1.5,
       2
+     ],
+     [
+      -5,
+      1.5,
+      2
+     ],
+     [
+      -6,
+      0,
+      -2
+     ],
+     [
+      -6.5,
+      -1.5,
+      -2
+     ],
+     [
+      -6.5,
+      1.5,
+      -2
      ]
     ]
    ]
@@ -76772,10 +79011,10 @@
    "particles/airplanes/Air_ground_explosion_2.xml"
   ],
   "hangarSettings": {
-   "maxValue": 12,
+   "maxValue": 0,
    "restoreAmount": 1,
-   "startValue": 12,
-   "timeToRestore": 115.0
+   "startValue": 0,
+   "timeToRestore": 0.1
   },
   "heavyDamageShake": {
    "duration": 1,
@@ -76818,10 +79057,10 @@
   },
   "id": 3447554000,
   "index": "PBAF808",
-  "innerBombsPercentage": 50.0,
+  "innerBombsPercentage": 33.33,
   "innerSalvoSize": [
-   2.17,
-   1.3
+   1.5,
+   2.5
   ],
   "isAirSupportPlane": false,
   "isConsumablePlane": true,
@@ -76914,19 +79153,23 @@
   "maxAttackAngle": 45,
   "maxAttackDistanceMultiplier": 9999,
   "maxForsageAmount": 5,
-  "maxHealth": 238,
+  "maxHealth": 163,
   "maxLaunchDelay": 0.6,
-  "maxRotateSpeed": 0.45,
+  "maxRotateSpeed": 0.44,
   "maxRudderYaw": 1.0,
   "maxSpread": [
-   3.0,
-   3.0
+   3,
+   3
   ],
+  "maxVisibilityFactor": 7.5,
+  "maxVisibilityFactorByPlane": 7.5,
   "minLaunchDelay": 0.6,
   "minSpread": [
    1,
    1
   ],
+  "minVisibilityFactor": 7.5,
+  "minVisibilityFactorByPlane": 7.5,
   "model": "content/gameplay/uk/aircraft/dive/BAD700_DeHavilland_SeaHornet_proto/BAD700_DeHavilland_SeaHornet_proto.model",
   "mouseTurnStrength": [
    [
@@ -76991,8 +79234,8 @@
    ]
   ],
   "name": "PBAF808_Indomitable_stock_WARD",
-  "naturalAcceleration": 0.164,
-  "naturalDeceleration": 0.164,
+  "naturalAcceleration": 0.239,
+  "naturalDeceleration": 0.239,
   "normalFlightShake": {
    "pitch": [
     0.005,
@@ -77032,11 +79275,11 @@
    ]
   },
   "normalLodDist": 190,
-  "numFloats": 0,
-  "numPlanesInSquadron": 6,
+  "numFloats": 1,
+  "numPlanesInSquadron": 1,
   "outerSalvoSize": [
-   3.73,
-   2.24
+   6.0,
+   15.0
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
@@ -77047,29 +79290,29 @@
   "planeYawAccelerationTime": 1.0,
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccelerationModifier": 1.0,
-  "preparationAccuracyDecreaseRate": -0.45,
-  "preparationAccuracyIncreaseRate": 0.45,
+  "preparationAccuracyDecreaseRate": -0.2,
+  "preparationAccuracyIncreaseRate": 0.1,
   "preparationCameraDistance": [
-   -1.5,
-   3
+   3,
+   1
   ],
   "preparationCameraFovSettings": [
-   0.7,
-   4.0
+   1,
+   0.5
   ],
   "preparationCameraHeight": [
-   1,
-   3
+   3,
+   1
   ],
   "preparationCameraOffset": [
    0,
    1
   ],
   "preparationCameraPitchSettings": [
-   -0.5,
-   -10,
-   10,
-   0.5
+   0.0,
+   -1.0,
+   0,
+   1
   ],
   "preparationCameraSensitivity": [
    0.75,
@@ -77077,18 +79320,18 @@
   ],
   "preparationCameraYawSettings": [
    0.0,
-   10,
-   0.5
+   1.0,
+   1
   ],
-  "preparationHeight": 22,
+  "preparationHeight": 30.0,
   "preparationShakeMultiplier": 2,
   "preparationSpeedLimits": [
-   0.8404,
-   1.2128
+   0.5,
+   1.5
   ],
-  "preparationTime": 2.0,
-  "preparationTurnAccelerationModifier": 1,
-  "preparationTurnSpeedLimit": 1,
+  "preparationTime": 1.0,
+  "preparationTurnAccelerationModifier": 1.0,
+  "preparationTurnSpeedLimit": 0.3,
   "projectilesPerAttack": 1,
   "propellerRPM": 9999999,
   "resetAttackerThrottle": true,
@@ -77104,16 +79347,16 @@
   "shootdownMinHorizontalSpeed": 0.1,
   "shootdownRollAcceleration": 360.0,
   "shootdownSideRelativeAcceleration": 0.5,
-  "speedMax": 1.2128,
-  "speedMin": 0.8404,
+  "speedMax": 1.2367,
+  "speedMin": 0.8225,
   "speedMoveWithBomb": 254.0,
   "splitSpeedBoostDuration": 4,
-  "splitSpeedMultiplier": 1,
+  "splitSpeedMultiplier": 1.5,
   "squadronTurnRadius": 1,
-  "startAngle": -13.95,
-  "throttleAcceleration": 0.411,
+  "startAngle": -12.8,
+  "throttleAcceleration": 0.597,
   "throttleBrakesStrength": 0.5,
-  "throttleDeceleration": 0.411,
+  "throttleDeceleration": 0.597,
   "torpedoAimDist": 100,
   "turnSettings": [
    [
@@ -77168,8 +79411,8 @@
    "type": "Aircraft"
   },
   "underMinThrottleMultiplier": 5.0,
-  "visibilityFactor": 7.5,
-  "visibilityFactorByPlane": 7.5,
+  "visibilityFactor": 10.0,
+  "visibilityFactorByPlane": 10.0,
   "visionToPlane": 15.0,
   "visionToShip": 15.0,
   "visionToTorpedo": 0,

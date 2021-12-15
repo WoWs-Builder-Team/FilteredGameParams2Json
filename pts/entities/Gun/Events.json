@@ -558,6 +558,73 @@
   ]
  },
  {
+  "HitLocationAirDefense": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 0.75,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "airdefense_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 600.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.8,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "antiAirAuraDistance": 117.0,
+  "antiAirAuraStrength": 0.159,
+  "barrelDiameter": 0.04,
+  "deadMesh": "content/gameplay/usa/gun/aaircraft/AGA056_40mm_Bofors/AGA056_40mm_Bofors_dead.model",
+  "id": 4218414352,
+  "index": "PXGA073",
+  "model": "content/gameplay/usa/gun/aaircraft/AGA056_40mm_Bofors/AGA056_40mm_Bofors.model",
+  "name": "PXGA073_40mm_Bofors",
+  "numBarrels": 4.0,
+  "shotDelay": 5.0,
+  "shotEffect": "particles/guns/AA_shot.xml",
+  "smallGun": null,
+  "typeinfo": {
+   "nation": "Events",
+   "species": "AAircraft",
+   "type": "Gun"
+  }
+ },
+ {
   "HitLocationArtillery": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 0.0,
@@ -1638,73 +1705,6 @@
   "model": "content/gameplay/japan/gun/aaircraft/JGA179_25mm_Type96_Triple_closed/JGA179_25mm_Type96_Triple_closed.model",
   "name": "PXGA067_25mm_Type96_Triple_closed",
   "numBarrels": 3.0,
-  "shotDelay": 5.0,
-  "shotEffect": "particles/guns/AA_shot.xml",
-  "smallGun": null,
-  "typeinfo": {
-   "nation": "Events",
-   "species": "AAircraft",
-   "type": "Gun"
-  }
- },
- {
-  "HitLocationAirDefense": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 0.75,
-   "autoRepairTime": 10,
-   "autoRepairTimeMin": 5,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.0,
-    0.0
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "airdefense_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 600.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.8,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
-  "antiAirAuraDistance": 117.0,
-  "antiAirAuraStrength": 0.159,
-  "barrelDiameter": 0.04,
-  "deadMesh": "content/gameplay/usa/gun/aaircraft/AGA056_40mm_Bofors/AGA056_40mm_Bofors_dead.model",
-  "id": 4218414352,
-  "index": "PXGA073",
-  "model": "content/gameplay/usa/gun/aaircraft/AGA056_40mm_Bofors/AGA056_40mm_Bofors.model",
-  "name": "PXGA073_40mm_Bofors",
-  "numBarrels": 4.0,
   "shotDelay": 5.0,
   "shotEffect": "particles/guns/AA_shot.xml",
   "smallGun": null,
@@ -4255,6 +4255,110 @@
   ],
   "shotDelay": 2.5,
   "shotEffect": "particles/guns/GK_100_B_APR.xml",
+  "smallGun": true,
+  "smokePenalty": 0.0001,
+  "typeinfo": {
+   "nation": "Events",
+   "species": "Secondary",
+   "type": "Gun"
+  },
+  "vertSector": [
+   -1.0,
+   80.0
+  ]
+ },
+ {
+  "HitLocationATBA": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 0.6,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "atba_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 1000000.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.75,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "aiATBAmultiplier": 3,
+  "ammoList": [
+   "PXPA106_ATBA_BOMB_Hindenburg_H2020"
+  ],
+  "antiAirAuraDistance": 150.0,
+  "antiAirAuraStrength": 0.166,
+  "armor": {
+   "65580": 20.0
+  },
+  "barrelDiameter": 0.105,
+  "clusterID": 0,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
+  "deadMesh": "content/gameplay/events/gun/secondary/XGS215_Raider_bomb_yellow/XGS215_Raider_bomb_yellow_dead.model",
+  "deadZone": [],
+  "delim": 0.6,
+  "effectIntensityModifier": 1.0,
+  "horizSector": [
+   0.0,
+   0.0
+  ],
+  "id": 4063683856,
+  "idealDistance": 333.333,
+  "idealRadius": 20,
+  "index": "PXGS220",
+  "lensEffect": "particles/Empty_FX.xml",
+  "minRadius": 1.0,
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/events/gun/secondary/XGS215_Raider_bomb_yellow/XGS215_Raider_bomb_yellow.model",
+  "name": "PXGS220_RAIDER_BOMB_BASE",
+  "numBarrels": 4,
+  "pitchDeadZones": [],
+  "purgingEffect": "particles/Empty_FX.xml",
+  "radiusOnDelim": 0.8,
+  "radiusOnMax": 1.0,
+  "radiusOnZero": 0.1,
+  "rotationSpeed": [
+   60.0,
+   1.0
+  ],
+  "shotDelay": 5.35,
+  "shotEffect": "particles/guns/PMK_Bomb_Shot_H2020.xml",
   "smallGun": true,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -17454,110 +17558,6 @@
   ]
  },
  {
-  "HitLocationATBA": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 0.6,
-   "autoRepairTime": 10,
-   "autoRepairTimeMin": 5,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.0,
-    0.0
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "atba_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 1000000.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.75,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
-  "aiATBAmultiplier": 3,
-  "ammoList": [
-   "PXPA106_ATBA_BOMB_Hindenburg_H2020"
-  ],
-  "antiAirAuraDistance": 150.0,
-  "antiAirAuraStrength": 0.166,
-  "armor": {
-   "65580": 20.0
-  },
-  "barrelDiameter": 0.105,
-  "clusterID": 0,
-  "customMiscs": {},
-  "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
-  "deadMesh": "content/gameplay/events/gun/secondary/XGS215_Raider_bomb_yellow/XGS215_Raider_bomb_yellow_dead.model",
-  "deadZone": [],
-  "delim": 0.6,
-  "effectIntensityModifier": 1.0,
-  "horizSector": [
-   0.0,
-   0.0
-  ],
-  "id": 4063683856,
-  "idealDistance": 333.333,
-  "idealRadius": 20,
-  "index": "PXGS220",
-  "lensEffect": "particles/Empty_FX.xml",
-  "minRadius": 1.0,
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/events/gun/secondary/XGS215_Raider_bomb_yellow/XGS215_Raider_bomb_yellow.model",
-  "name": "PXGS220_RAIDER_BOMB_BASE",
-  "numBarrels": 4,
-  "pitchDeadZones": [],
-  "purgingEffect": "particles/Empty_FX.xml",
-  "radiusOnDelim": 0.8,
-  "radiusOnMax": 1.0,
-  "radiusOnZero": 0.1,
-  "rotationSpeed": [
-   60.0,
-   1.0
-  ],
-  "shotDelay": 5.35,
-  "shotEffect": "particles/guns/PMK_Bomb_Shot_H2020.xml",
-  "smallGun": true,
-  "smokePenalty": 0.0001,
-  "typeinfo": {
-   "nation": "Events",
-   "species": "Secondary",
-   "type": "Gun"
-  },
-  "vertSector": [
-   -1.0,
-   80.0
-  ]
- },
- {
   "HitLocationAirDefense": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 1.0,
@@ -18830,6 +18830,137 @@
   "vertSector": [
    0.0,
    90.0
+  ]
+ },
+ {
+  "HitLocationArtillery": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 0.0,
+   "autoRepairTime": 30,
+   "autoRepairTimeMin": 25,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.05,
+    0.75
+   ],
+   "critProbHP": [
+    1.0,
+    0.02
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "artillery_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 1000000.0,
+   "moduleCritCoeffCR": 1.0,
+   "moduleCritCoeffXP": 1.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 1.0,
+   "rndPartHP": 0.0,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 0.1
+  },
+  "aiMGmaxEllipseRanging": 4.0,
+  "aiMGmedEllipseRanging": 3.7,
+  "aiMGminEllipseRanging": 3.5,
+  "ammoList": [
+   "PXPA101_MG_AP_Hindenburg_H2020"
+  ],
+  "antiAirAuraDistance": 0.0,
+  "antiAirAuraStrength": 0.0,
+  "armor": {
+   "1": 0.0,
+   "65568": 80.0,
+   "65569": 70.0,
+   "65571": 90.0,
+   "65635": 30.0,
+   "65636": 150.0,
+   "131105": 105.0,
+   "131171": 0.0,
+   "196641": 80.0,
+   "196707": 30.0,
+   "262177": 80.0
+  },
+  "barrelDiameter": 0.203,
+  "coeffPerSecondMin": 0.3,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_medium.xml",
+  "deadMesh": "content/gameplay/events/gun/main/XGM223_203mm_SK_L56_Armor_blue/XGM223_203mm_SK_L56_Armor_blue_dead.model",
+  "deadZone": [],
+  "delim": 0.5,
+  "effectIntensityModifier": 1.0,
+  "ellipseRangeMax": 250.0,
+  "ellipseRangeMin": 50.0,
+  "horizSector": [
+   -145.0,
+   145.0
+  ],
+  "id": 4146717968,
+  "idealDistance": 1000.0,
+  "idealRadius": 8,
+  "index": "PXGM141",
+  "lensEffect": "particles/Empty_FX.xml",
+  "maxEllipseRanging": 1.003,
+  "medEllipseRanging": 1.002,
+  "minEllipseRanging": 1.001,
+  "minRadius": 1.1,
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/events/gun/main/XGM223_203mm_SK_L56_Armor_blue/XGM223_203mm_SK_L56_Armor_blue.model",
+  "name": "PXGM141_203MM_SK_L56_ARMOR_BLUE",
+  "numBarrels": 2,
+  "onMoveTarPosCoeffDelim": 1.001,
+  "onMoveTarPosCoeffMaxDist": 1.002,
+  "onMoveTarPosCoeffZero": 1.0,
+  "onMoveTarPosDelim": 0.1,
+  "pitchDeadZones": [],
+  "position": [
+   0,
+   0
+  ],
+  "purgingEffect": "particles/Empty_FX.xml",
+  "radiusOnDelim": 0.5,
+  "radiusOnMax": 0.6,
+  "radiusOnZero": 0.2,
+  "reduceTime": 0.1,
+  "reloadBoostEffect": "particles/guns/GK_Reload_250to350.xml",
+  "rotationSpeed": [
+   8.0,
+   8.0
+  ],
+  "shotDelay": 10.5,
+  "shotEffect": "particles/guns/GK_200_triple_shot_B_APR.xml",
+  "smallGun": null,
+  "smokePenalty": 0.0001,
+  "typeinfo": {
+   "nation": "Events",
+   "species": "Main",
+   "type": "Gun"
+  },
+  "vertSector": [
+   -2.0,
+   37.0
   ]
  },
  {
@@ -20116,137 +20247,6 @@
   "vertSector": [
    -1.0,
    40.0
-  ]
- },
- {
-  "HitLocationArtillery": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 0.0,
-   "autoRepairTime": 30,
-   "autoRepairTimeMin": 25,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.05,
-    0.75
-   ],
-   "critProbHP": [
-    1.0,
-    0.02
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "artillery_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 1000000.0,
-   "moduleCritCoeffCR": 1.0,
-   "moduleCritCoeffXP": 1.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 1.0,
-   "rndPartHP": 0.0,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 0.1
-  },
-  "aiMGmaxEllipseRanging": 4.0,
-  "aiMGmedEllipseRanging": 3.7,
-  "aiMGminEllipseRanging": 3.5,
-  "ammoList": [
-   "PXPA101_MG_AP_Hindenburg_H2020"
-  ],
-  "antiAirAuraDistance": 0.0,
-  "antiAirAuraStrength": 0.0,
-  "armor": {
-   "1": 0.0,
-   "65568": 80.0,
-   "65569": 70.0,
-   "65571": 90.0,
-   "65635": 30.0,
-   "65636": 150.0,
-   "131105": 105.0,
-   "131171": 0.0,
-   "196641": 80.0,
-   "196707": 30.0,
-   "262177": 80.0
-  },
-  "barrelDiameter": 0.203,
-  "coeffPerSecondMin": 0.3,
-  "customMiscs": {},
-  "damagedEffect": "particles/guns/Gun_Broken_medium.xml",
-  "deadMesh": "content/gameplay/events/gun/main/XGM223_203mm_SK_L56_Armor_blue/XGM223_203mm_SK_L56_Armor_blue_dead.model",
-  "deadZone": [],
-  "delim": 0.5,
-  "effectIntensityModifier": 1.0,
-  "ellipseRangeMax": 250.0,
-  "ellipseRangeMin": 50.0,
-  "horizSector": [
-   -145.0,
-   145.0
-  ],
-  "id": 4146717968,
-  "idealDistance": 1000.0,
-  "idealRadius": 8,
-  "index": "PXGM141",
-  "lensEffect": "particles/Empty_FX.xml",
-  "maxEllipseRanging": 1.003,
-  "medEllipseRanging": 1.002,
-  "minEllipseRanging": 1.001,
-  "minRadius": 1.1,
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/events/gun/main/XGM223_203mm_SK_L56_Armor_blue/XGM223_203mm_SK_L56_Armor_blue.model",
-  "name": "PXGM141_203MM_SK_L56_ARMOR_BLUE",
-  "numBarrels": 2,
-  "onMoveTarPosCoeffDelim": 1.001,
-  "onMoveTarPosCoeffMaxDist": 1.002,
-  "onMoveTarPosCoeffZero": 1.0,
-  "onMoveTarPosDelim": 0.1,
-  "pitchDeadZones": [],
-  "position": [
-   0,
-   0
-  ],
-  "purgingEffect": "particles/Empty_FX.xml",
-  "radiusOnDelim": 0.5,
-  "radiusOnMax": 0.6,
-  "radiusOnZero": 0.2,
-  "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_250to350.xml",
-  "rotationSpeed": [
-   8.0,
-   8.0
-  ],
-  "shotDelay": 10.5,
-  "shotEffect": "particles/guns/GK_200_triple_shot_B_APR.xml",
-  "smallGun": null,
-  "smokePenalty": 0.0001,
-  "typeinfo": {
-   "nation": "Events",
-   "species": "Main",
-   "type": "Gun"
-  },
-  "vertSector": [
-   -2.0,
-   37.0
   ]
  },
  {
