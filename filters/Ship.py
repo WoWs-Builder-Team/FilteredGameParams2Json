@@ -13,7 +13,7 @@ ATBA_KEYS = ["AuraFar", "AuraFar_Bubbles", "AuraMedium", "AuraMedium_Bubbles", "
 ATBA_SUBKEYS = ["maxDist", "sigmaCount", "ammoList", "id", "index", "name", "numBarrels", "rotationSpeed", "shotDelay",
                 "smallGun", "typeinfo", "barrelDiameter"]
 AA_KEYS = ["AuraFar", "AuraFar_Bubbles", "AuraMedium", "AuraMedium_Bubbles", "AuraNear", "AuraNear_Bubbles"]
-DEPTHCHARGE_KEYS = ["reloadTime", "maxPacks"]
+DEPTHCHARGE_KEYS = ["reloadTime", "maxPacks", "numShots"]
 DEPTHCHARGE_SUBKEYS = ["ammoList", "horizSector", "id", "index", "name", "numBombs", "rotationSpeed", "typeinfo"]
 TORPEDO_KEYS = ["timeToChangeAmmo"]
 TORPEDO_SUBKEYS = ["ammoList", "barrelDiameter", "id", "index", "name", "numBarrels", "rotationSpeed", "shotDelay",
