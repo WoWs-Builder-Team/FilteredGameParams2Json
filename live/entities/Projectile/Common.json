@@ -5096,6 +5096,11 @@
   "name": "PCPL002_impulse_laser_shot",
   "onHit": {
    "HeatEffect": {
+    "damageTypes": [
+     "direct",
+     "splash",
+     "depthSplash"
+    ],
     "heat": 1,
     "heatColliderRadius": 0.75,
     "heatZoneRadius": 3.0,
@@ -6171,6 +6176,8 @@
   "damage": 7700.0,
   "depthSplashRadius": 6,
   "directDamage": 0.0,
+  "enemyHitSurfaceEffect": "particles/submarines/Sub_explo_water.xml",
+  "enemyHitUnderwaterEffect": "particles/submarines/Sub_explo_underwater.xml",
   "fallDistance": 20.0,
   "fallTime": 20.0,
   "fallingTimeCoef": 1.0,
@@ -10903,6 +10910,8 @@
   "damage": 300.0,
   "depthSplashRadius": 15,
   "directDamage": 0.0,
+  "enemyHitSurfaceEffect": "particles/submarines/Sub_explo_water.xml",
+  "enemyHitUnderwaterEffect": "particles/submarines/Sub_explo_underwater.xml",
   "fallDistance": 20.0,
   "fallTime": 20.0,
   "fallingTimeCoef": 1.0,
@@ -11192,8 +11201,10 @@
   },
   "burnProb": 0.06,
   "damage": 500.0,
-  "depthSplashRadius": 8,
+  "depthSplashRadius": 10.0,
   "directDamage": 0.0,
+  "enemyHitSurfaceEffect": "particles/submarines/Sub_explo_water.xml",
+  "enemyHitUnderwaterEffect": "particles/submarines/Sub_explo_underwater.xml",
   "fallDistance": 20.0,
   "fallTime": 20.0,
   "fallingTimeCoef": 1.5,
@@ -11213,7 +11224,20 @@
   "maxDepth": -80,
   "model": "content/gameplay/russia/projectile/depthcharge/RPD002_Depth_Charge_BB1/RPD002_Depth_Charge_BB1.model",
   "name": "PCPD011_Small",
-  "onHit": {},
+  "onHit": {
+   "CritModuleEffect": {
+    "critProb": 0.5,
+    "critTime": 30.0,
+    "damageTypes": [
+     "depthSplash"
+    ],
+    "hlTypes": [
+     "pinger_gun_hitlocation"
+    ],
+    "onlyRealHits": false,
+    "type": 2
+   }
+  },
   "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
   "parachuteHeightCoeff": 0.75,
   "parachuteTimeCoeff": 0.95,
@@ -11221,19 +11245,35 @@
   "pointsOfDamage": [
    [
     0,
-    1
+    1.0
    ],
    [
-    0.15,
-    1
+    0.32,
+    1.0
    ],
    [
-    0.151,
-    0.33
+    0.321,
+    0.35
    ],
    [
-    1,
-    0.33
+    0.56,
+    0.35
+   ],
+   [
+    0.561,
+    0.25
+   ],
+   [
+    0.8,
+    0.25
+   ],
+   [
+    0.801,
+    0.0
+   ],
+   [
+    1.0,
+    0.0
    ]
   ],
   "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
@@ -11252,11 +11292,11 @@
    ]
   ],
   "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
-  "speed": 4.0,
+  "speed": 3.5,
   "speedDeltaRelative": 0.2,
   "splashArmorCoeff": -0.18,
-  "splashCubeSize": 0.28,
-  "timer": 7.0,
+  "splashCubeSize": 20.0,
+  "timer": 4.0,
   "timerDeltaAbsolute": 0.5,
   "tracerAirEffect": "particles/guns/bomb_tracer.xml",
   "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",

@@ -1,16 +1,5 @@
 [
  {
-  "BurstArtilleryModule": {
-   "burstReloadTime": 1.0,
-   "fullReloadTime": 40.0,
-   "modifiers": {
-    "GMAPDamageCoeff": 1.15,
-    "GMIdealRadius": 0.75,
-    "artilleryKruppMultiplier": 2.0
-   },
-   "shotIntensity": 1.4,
-   "shotsCount": 2
-  },
   "ModulesArmaments": {
    "A_ATBA": {
     "AuraFar": {
@@ -271,7 +260,7 @@
        8.0,
        6.0
       ],
-      "shotDelay": 15.0,
+      "shotDelay": 10.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Spain",
@@ -308,7 +297,7 @@
        8.0,
        6.0
       ],
-      "shotDelay": 15.0,
+      "shotDelay": 10.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Spain",
@@ -345,7 +334,7 @@
        8.0,
        6.0
       ],
-      "shotDelay": 15.0,
+      "shotDelay": 10.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Spain",
@@ -382,7 +371,7 @@
        8.0,
        6.0
       ],
-      "shotDelay": 15.0,
+      "shotDelay": 10.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Spain",
@@ -391,7 +380,7 @@
       }
      }
     },
-    "maxDist": 14550.0,
+    "maxDist": 16550.0,
     "normalDistribution": true,
     "sigmaCount": 2.0,
     "taperDist": 4000.0
@@ -488,7 +477,12 @@
     "slot": 1
    },
    "AbilitySlot2": {
-    "abils": [],
+    "abils": [
+     [
+      "PCY015_SpeedBoosterPremium",
+      "FR_CR_6_7_PREM"
+     ]
+    ],
     "slot": 2
    },
    "AbilitySlot3": {

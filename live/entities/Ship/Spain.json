@@ -1836,17 +1836,6 @@
    "timeFromHeaven": 2.0
   },
   "A_Artillery": {
-   "BurstArtilleryModule": {
-    "burstReloadTime": 1.0,
-    "fullReloadTime": 40.0,
-    "modifiers": {
-     "GMAPDamageCoeff": 1.15,
-     "GMIdealRadius": 0.75,
-     "artilleryKruppMultiplier": 2.0
-    },
-    "shotIntensity": 1.4,
-    "shotsCount": 2
-   },
    "HP_SGM_1": {
     "HitLocationArtillery": {
      "antiRamCoeff": 1.0,
@@ -1939,7 +1928,8 @@
     "minEllipseRanging": 1.001,
     "minRadius": 1.1,
     "miscFilter": [
-     "MP_SM002_Set1_for_SGM001"
+     "MP_SM002_Set1_for_SGM001",
+     "MP_SM005_Gerb_for_SGM001"
     ],
     "miscFilterMode": false,
     "model": "content/gameplay/spain/gun/main/SGM001_203mm50_BL_Model_1924_Mark_D/SGM001_203mm50_BL_Model_1924_Mark_D.model",
@@ -1964,7 +1954,7 @@
      8.0,
      6.0
     ],
-    "shotDelay": 15.0,
+    "shotDelay": 10.0,
     "shotEffect": "particles/guns/GK_Shot_170to250.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -2095,7 +2085,7 @@
      8.0,
      6.0
     ],
-    "shotDelay": 15.0,
+    "shotDelay": 10.0,
     "shotEffect": "particles/guns/GK_Shot_170to250.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -2226,7 +2216,7 @@
      8.0,
      6.0
     ],
-    "shotDelay": 15.0,
+    "shotDelay": 10.0,
     "shotEffect": "particles/guns/GK_Shot_170to250.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -2357,7 +2347,7 @@
      8.0,
      6.0
     ],
-    "shotDelay": 15.0,
+    "shotDelay": 10.0,
     "shotEffect": "particles/guns/GK_Shot_170to250.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -2380,7 +2370,7 @@
     "impulseLaser": 99999
    },
    "artificialOffset": 0,
-   "maxDist": 14550.0,
+   "maxDist": 16550.0,
    "minDistH": 50.0,
    "minDistV": 110.0,
    "normalDistribution": true,
@@ -3770,14 +3760,14 @@
    "regenerationHPSpeed": 0.0,
    "repairingCoeff": 0.0,
    "rollEffect": 21.0,
-   "rudderPower": 38400000.0,
+   "rudderPower": 49300000.0,
    "rudderTime": 12.48,
    "shipBodySunkDifferenceCoeff": 2.0,
    "shipBodySunkStartMassCoeff": 1.0,
    "shipPartSunkDifferenceCoeff": 2.2,
    "shipPartSunkStartMassCoeff": 2.2,
    "shipWheelsPresent": false,
-   "sideDragCoef": 680000.0,
+   "sideDragCoef": 330000.0,
    "sinkStartTime": [
     [
      4.0,
@@ -3839,14 +3829,10 @@
    "visibilityCoefGKByPlane": 4.06,
    "visibilityCoefGKInSmoke": 5.95,
    "visibilityCoefPinger": {
-    "-22.0": 0.0,
-    "-6.0": 1.0,
-    "0.0": 1.0
+    "0.0": 0.0
    },
    "visibilityCoefPingerByPlane": {
-    "-22.0": 0.0,
-    "-6.0": 1.0,
-    "0.0": 1.0
+    "0.0": 0.0
    },
    "visibilityCoefPingerInSmoke": 1e-06,
    "visibilityCoeff": 20.68,
@@ -3888,7 +3874,12 @@
     "slot": 1
    },
    "AbilitySlot2": {
-    "abils": [],
+    "abils": [
+     [
+      "PCY015_SpeedBoosterPremium",
+      "FR_CR_6_7_PREM"
+     ]
+    ],
     "slot": 2
    },
    "AbilitySlot3": {

@@ -134,6 +134,20 @@
   ]
  },
  {
+  "antiAirAuraDistance": 117.0,
+  "antiAirAuraStrength": 0.159,
+  "id": 4218414352,
+  "index": "PXGA073",
+  "name": "PXGA073_40mm_Bofors",
+  "numBarrels": 4.0,
+  "shotDelay": 5.0,
+  "typeinfo": {
+   "nation": "Events",
+   "species": "AAircraft",
+   "type": "Gun"
+  }
+ },
+ {
   "deadZone": [],
   "id": 4124697872,
   "index": "PXGM162",
@@ -329,20 +343,6 @@
   "index": "PXGA067",
   "name": "PXGA067_25mm_Type96_Triple_closed",
   "numBarrels": 3.0,
-  "shotDelay": 5.0,
-  "typeinfo": {
-   "nation": "Events",
-   "species": "AAircraft",
-   "type": "Gun"
-  }
- },
- {
-  "antiAirAuraDistance": 117.0,
-  "antiAirAuraStrength": 0.159,
-  "id": 4218414352,
-  "index": "PXGA073",
-  "name": "PXGA073_40mm_Bofors",
-  "numBarrels": 4.0,
   "shotDelay": 5.0,
   "typeinfo": {
    "nation": "Events",
@@ -787,6 +787,39 @@
    1.0
   ],
   "shotDelay": 2.5,
+  "smokePenalty": 0.0001,
+  "typeinfo": {
+   "nation": "Events",
+   "species": "Secondary",
+   "type": "Gun"
+  },
+  "vertSector": [
+   -1.0,
+   80.0
+  ]
+ },
+ {
+  "ammoList": [
+   "PXPA106_ATBA_BOMB_Hindenburg_H2020"
+  ],
+  "antiAirAuraDistance": 150.0,
+  "antiAirAuraStrength": 0.166,
+  "barrelDiameter": 0.105,
+  "delim": 0.6,
+  "id": 4063683856,
+  "idealDistance": 333.333,
+  "idealRadius": 20,
+  "index": "PXGS220",
+  "minRadius": 1.0,
+  "name": "PXGS220_RAIDER_BOMB_BASE",
+  "radiusOnDelim": 0.8,
+  "radiusOnMax": 1.0,
+  "radiusOnZero": 0.1,
+  "rotationSpeed": [
+   60.0,
+   1.0
+  ],
+  "shotDelay": 5.35,
   "smokePenalty": 0.0001,
   "typeinfo": {
    "nation": "Events",
@@ -3299,39 +3332,6 @@
   }
  },
  {
-  "ammoList": [
-   "PXPA106_ATBA_BOMB_Hindenburg_H2020"
-  ],
-  "antiAirAuraDistance": 150.0,
-  "antiAirAuraStrength": 0.166,
-  "barrelDiameter": 0.105,
-  "delim": 0.6,
-  "id": 4063683856,
-  "idealDistance": 333.333,
-  "idealRadius": 20,
-  "index": "PXGS220",
-  "minRadius": 1.0,
-  "name": "PXGS220_RAIDER_BOMB_BASE",
-  "radiusOnDelim": 0.8,
-  "radiusOnMax": 1.0,
-  "radiusOnZero": 0.1,
-  "rotationSpeed": [
-   60.0,
-   1.0
-  ],
-  "shotDelay": 5.35,
-  "smokePenalty": 0.0001,
-  "typeinfo": {
-   "nation": "Events",
-   "species": "Secondary",
-   "type": "Gun"
-  },
-  "vertSector": [
-   -1.0,
-   80.0
-  ]
- },
- {
   "antiAirAuraDistance": 103.0,
   "antiAirAuraStrength": 0.084,
   "id": 4287620368,
@@ -3557,6 +3557,17 @@
  },
  {
   "deadZone": [],
+  "id": 4146717968,
+  "index": "PXGM141",
+  "name": "PXGM141_203MM_SK_L56_ARMOR_BLUE",
+  "typeinfo": {
+   "nation": "Events",
+   "species": "Main",
+   "type": "Gun"
+  }
+ },
+ {
+  "deadZone": [],
   "id": 4246332688,
   "index": "PXGM046",
   "name": "PXGM046_Hurray_Main_Gun",
@@ -3749,17 +3760,6 @@
    -1.0,
    40.0
   ]
- },
- {
-  "deadZone": [],
-  "id": 4146717968,
-  "index": "PXGM141",
-  "name": "PXGM141_203MM_SK_L56_ARMOR_BLUE",
-  "typeinfo": {
-   "nation": "Events",
-   "species": "Main",
-   "type": "Gun"
-  }
  },
  {
   "antiAirAuraDistance": 83.0,
