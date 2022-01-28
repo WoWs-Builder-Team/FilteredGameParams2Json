@@ -337,6 +337,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 2,
     "reloadTime": 40.0
    },
    "A_Engine": {
@@ -869,7 +870,9 @@
     "isAA": true
    },
    "A_DiveBomber": {
-    "planeType": "PZAD701_SANZANG_STOCK"
+    "planes": [
+     "PZAD701_SANZANG_STOCK"
+    ]
    },
    "A_Engine": {
     "HitLocationEngine": {
@@ -880,7 +883,9 @@
     "speedCoef": 0.0
    },
    "A_Fighter": {
-    "planeType": "PZAF701_SANZANG_STOCK"
+    "planes": [
+     "PZAF701_SANZANG_STOCK"
+    ]
    },
    "A_FlightControl": {
     "squadrons": [
@@ -949,7 +954,9 @@
     }
    },
    "A_TorpedoBomber": {
-    "planeType": "PZAB701_SANZANG_STOCK"
+    "planes": [
+     "PZAB701_SANZANG_STOCK"
+    ]
    }
   },
   "ShipAbilities": {
@@ -1142,7 +1149,7 @@
        40.0,
        25.0
       ],
-      "shotDelay": 5.0,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -1180,7 +1187,7 @@
        40.0,
        25.0
       ],
-      "shotDelay": 5.0,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -1218,7 +1225,7 @@
        40.0,
        25.0
       ],
-      "shotDelay": 5.0,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -1256,7 +1263,7 @@
        40.0,
        25.0
       ],
-      "shotDelay": 5.0,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -1294,7 +1301,7 @@
        40.0,
        25.0
       ],
-      "shotDelay": 5.0,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -1332,7 +1339,7 @@
        40.0,
        25.0
       ],
-      "shotDelay": 5.0,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -1679,6 +1686,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40
    },
    "AB_Engine": {
@@ -2539,6 +2547,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "A_Hull": {
@@ -3175,6 +3184,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "A_Engine": {
@@ -3571,7 +3581,7 @@
        7.0,
        10.0
       ],
-      "shotDelay": 7.5,
+      "shotDelay": 10.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -3609,7 +3619,7 @@
        7.0,
        10.0
       ],
-      "shotDelay": 7.5,
+      "shotDelay": 10.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -3647,7 +3657,7 @@
        7.0,
        10.0
       ],
-      "shotDelay": 7.5,
+      "shotDelay": 10.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -3658,7 +3668,7 @@
     },
     "maxDist": 10910.0,
     "normalDistribution": true,
-    "sigmaCount": 2.05,
+    "sigmaCount": 2.0,
     "taperDist": 4000.0
    },
    "AB1_FireControl": {
@@ -3692,7 +3702,7 @@
        25.0,
        25.0
       ],
-      "shotDelay": 85.0,
+      "shotDelay": 115.0,
       "torpedoAngles": [
        3.6,
        12.0
@@ -3727,7 +3737,7 @@
        25.0,
        25.0
       ],
-      "shotDelay": 85.0,
+      "shotDelay": 115.0,
       "torpedoAngles": [
        3.6,
        12.0
@@ -3968,6 +3978,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "AB_Engine": {
@@ -4092,7 +4103,7 @@
        7.0,
        10.0
       ],
-      "shotDelay": 7.5,
+      "shotDelay": 9.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -4130,7 +4141,7 @@
        7.0,
        10.0
       ],
-      "shotDelay": 7.5,
+      "shotDelay": 9.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -4168,7 +4179,7 @@
        7.0,
        10.0
       ],
-      "shotDelay": 7.5,
+      "shotDelay": 9.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -4179,7 +4190,7 @@
     },
     "maxDist": 10910.0,
     "normalDistribution": true,
-    "sigmaCount": 2.05,
+    "sigmaCount": 2.0,
     "taperDist": 4000.0
    },
    "B_AirDefense": {
@@ -4920,6 +4931,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 2,
     "reloadTime": 40.0
    },
    "AB_Engine": {
@@ -5732,6 +5744,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "AB_Engine": {
@@ -6329,7 +6342,7 @@
        10.0,
        20.0
       ],
-      "shotDelay": 6.0,
+      "shotDelay": 7.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -6367,7 +6380,7 @@
        10.0,
        20.0
       ],
-      "shotDelay": 6.0,
+      "shotDelay": 7.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -6405,7 +6418,7 @@
        10.0,
        20.0
       ],
-      "shotDelay": 6.0,
+      "shotDelay": 7.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -6448,7 +6461,7 @@
        10.0,
        20.0
       ],
-      "shotDelay": 6.0,
+      "shotDelay": 7.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -6491,7 +6504,7 @@
        10.0,
        20.0
       ],
-      "shotDelay": 6.0,
+      "shotDelay": 7.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -6502,7 +6515,7 @@
     },
     "maxDist": 11360.0,
     "normalDistribution": true,
-    "sigmaCount": 2.05,
+    "sigmaCount": 2.0,
     "taperDist": 4000.0
    },
    "AB1_FireControl": {
@@ -6561,7 +6574,7 @@
        10.0,
        10.0
       ],
-      "shotDelay": 6.5,
+      "shotDelay": 7.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -6599,7 +6612,7 @@
        10.0,
        10.0
       ],
-      "shotDelay": 6.5,
+      "shotDelay": 7.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -6637,7 +6650,7 @@
        10.0,
        10.0
       ],
-      "shotDelay": 6.5,
+      "shotDelay": 7.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -6680,7 +6693,7 @@
        10.0,
        10.0
       ],
-      "shotDelay": 6.5,
+      "shotDelay": 7.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -6723,7 +6736,7 @@
        10.0,
        10.0
       ],
-      "shotDelay": 6.5,
+      "shotDelay": 7.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -6734,7 +6747,7 @@
     },
     "maxDist": 11360.0,
     "normalDistribution": true,
-    "sigmaCount": 2.05,
+    "sigmaCount": 2.0,
     "taperDist": 4000.0
    },
    "AB2_FireControl": {
@@ -6855,6 +6868,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "AB_Torpedoes": {
@@ -10914,6 +10928,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "A_AirDefense": {
@@ -11629,6 +11644,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "A_Engine": {
@@ -11950,7 +11966,7 @@
        25.0,
        15.0
       ],
-      "shotDelay": 6.25,
+      "shotDelay": 6.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -11988,7 +12004,7 @@
        25.0,
        15.0
       ],
-      "shotDelay": 6.25,
+      "shotDelay": 6.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -12026,7 +12042,7 @@
        25.0,
        15.0
       ],
-      "shotDelay": 6.25,
+      "shotDelay": 6.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -12064,7 +12080,7 @@
        25.0,
        15.0
       ],
-      "shotDelay": 6.25,
+      "shotDelay": 6.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -12102,7 +12118,7 @@
        25.0,
        15.0
       ],
-      "shotDelay": 6.25,
+      "shotDelay": 6.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -12140,7 +12156,7 @@
        25.0,
        15.0
       ],
-      "shotDelay": 6.25,
+      "shotDelay": 6.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -12151,7 +12167,7 @@
     },
     "maxDist": 12000.0,
     "normalDistribution": true,
-    "sigmaCount": 2.05,
+    "sigmaCount": 2.0,
     "taperDist": 4000.0
    },
    "AB_Engine": {
@@ -12430,6 +12446,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40
    },
    "A_Hull": {
@@ -13115,6 +13132,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 2,
     "reloadTime": 40.0
    },
    "AB_Engine": {
@@ -13908,6 +13926,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "A_Hull": {
@@ -14620,6 +14639,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "A_Hull": {
@@ -15218,6 +15238,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "A_Engine": {
@@ -16514,6 +16535,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "AB_Engine": {
@@ -17782,6 +17804,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40
    },
    "A_Engine": {
@@ -18071,7 +18094,7 @@
        20.0,
        12.0
       ],
-      "shotDelay": 5.0,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -18109,7 +18132,7 @@
        20.0,
        12.0
       ],
-      "shotDelay": 5.0,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -18147,7 +18170,7 @@
        20.0,
        12.0
       ],
-      "shotDelay": 5.0,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -18185,7 +18208,7 @@
        20.0,
        12.0
       ],
-      "shotDelay": 5.0,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -18223,7 +18246,7 @@
        20.0,
        12.0
       ],
-      "shotDelay": 5.0,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -18461,14 +18484,15 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40
    },
    "A_Engine": {
     "HitLocationEngine": {
      "armorCoeff": 0.4
     },
-    "backwardEngineUpTime": 10.0,
-    "forwardEngineUpTime": 20.0,
+    "backwardEngineUpTime": 20.0,
+    "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
    },
    "A_FireControl": {
@@ -18694,7 +18718,7 @@
     "abils": [
      [
       "PCY010_RegenCrewPremium",
-      "C_Gold"
+      "C_DALIAN"
      ]
     ],
     "slot": 1
@@ -18702,19 +18726,14 @@
    "AbilitySlot2": {
     "abils": [
      [
-      "PCY016_SonarSearchPremium",
-      "C_8_10"
+      "PCY014_SmokeGeneratorPremium",
+      "PAZ_DALIAN"
      ]
     ],
     "slot": 2
    },
    "AbilitySlot3": {
-    "abils": [
-     [
-      "PCY014_SmokeGeneratorPremium",
-      "PAZ_CL"
-     ]
-    ],
+    "abils": [],
     "slot": 3
    },
    "AbilitySlot4": {
@@ -18977,6 +18996,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "A_Engine": {
@@ -19323,7 +19343,7 @@
        25.0,
        9.85
       ],
-      "shotDelay": 5.25,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -19361,7 +19381,7 @@
        25.0,
        9.85
       ],
-      "shotDelay": 5.25,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -19399,7 +19419,7 @@
        25.0,
        9.85
       ],
-      "shotDelay": 5.25,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -19437,7 +19457,7 @@
        25.0,
        9.85
       ],
-      "shotDelay": 5.25,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -19475,7 +19495,7 @@
        25.0,
        9.85
       ],
-      "shotDelay": 5.25,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Pan_Asia",
@@ -19822,14 +19842,15 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40
    },
    "AB_Engine": {
     "HitLocationEngine": {
      "armorCoeff": 0.4
     },
-    "backwardEngineUpTime": 10.0,
-    "forwardEngineUpTime": 20.0,
+    "backwardEngineUpTime": 20.0,
+    "forwardEngineUpTime": 40.0,
     "speedCoef": 0.0
    },
    "A_AirDefense": {

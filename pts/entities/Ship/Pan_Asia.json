@@ -546,7 +546,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -3516,19 +3515,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small.xml"
      ]
     ]
    },
@@ -4559,7 +4558,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -8474,7 +8472,9 @@
    }
   },
   "A_DiveBomber": {
-   "planeType": "PZAD701_SANZANG_STOCK"
+   "planes": [
+    "PZAD701_SANZANG_STOCK"
+   ]
   },
   "A_Engine": {
    "HitLocationEngine": {
@@ -8557,7 +8557,9 @@
    "speedCoef": 0.0
   },
   "A_Fighter": {
-   "planeType": "PZAF701_SANZANG_STOCK"
+   "planes": [
+    "PZAF701_SANZANG_STOCK"
+   ]
   },
   "A_FlightControl": {
    "airSupportPlanesReserve": {
@@ -8567,6 +8569,7 @@
     "Skip": 0
    },
    "airSupportSquadrons": [],
+   "airships": [],
    "consumablePlanesReserve": {
     "Fighter": 1,
     "Scout": 0
@@ -9581,14 +9584,10 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_medium.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_center.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
@@ -9596,7 +9595,7 @@
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_3",
+      "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
@@ -9604,12 +9603,16 @@
       "particles/vehicles/WakeTraceForward_screw_right_center.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_4",
+      "HP_FX_WakeTrace_screw_3",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_4",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_4",
+      "particles/vehicles/WakeTrace_screw_medium.xml"
      ]
     ]
    },
@@ -9796,7 +9799,9 @@
    }
   },
   "A_TorpedoBomber": {
-   "planeType": "PZAB701_SANZANG_STOCK"
+   "planes": [
+    "PZAB701_SANZANG_STOCK"
+   ]
   },
   "BattleUpgradeInfo": {},
   "ShipAbilities": {
@@ -10264,7 +10269,7 @@
      40.0,
      25.0
     ],
-    "shotDelay": 5.0,
+    "shotDelay": 5.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -10395,7 +10400,7 @@
      40.0,
      25.0
     ],
-    "shotDelay": 5.0,
+    "shotDelay": 5.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -10526,7 +10531,7 @@
      40.0,
      25.0
     ],
-    "shotDelay": 5.0,
+    "shotDelay": 5.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -10657,7 +10662,7 @@
      40.0,
      25.0
     ],
-    "shotDelay": 5.0,
+    "shotDelay": 5.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -10788,7 +10793,7 @@
      40.0,
      25.0
     ],
-    "shotDelay": 5.0,
+    "shotDelay": 5.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -10919,7 +10924,7 @@
      40.0,
      25.0
     ],
-    "shotDelay": 5.0,
+    "shotDelay": 5.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -10948,7 +10953,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.05,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -14651,12 +14655,12 @@
    "HP_ZD_2": {
     "customMiscs": {},
     "gunNode": "",
-    "id": 4279431376,
-    "index": "PZD014",
+    "id": 4210225360,
+    "index": "PZD080",
     "miscFilter": [],
     "miscFilterMode": false,
-    "model": "content/gameplay/panasia/director/ZD014_Director_Mk51/ZD014_Director_Mk51.model",
-    "name": "PZD014_Director_Mk51",
+    "model": "content/gameplay/panasia/director/ZD080_TDT_Mk23_Mod/ZD080_TDT_Mk23_Mod.model",
+    "name": "PZD080_TDT_Mk23_Mod",
     "typeinfo": {
      "nation": "Pan_Asia",
      "species": null,
@@ -14666,12 +14670,12 @@
    "HP_ZD_3": {
     "customMiscs": {},
     "gunNode": "",
-    "id": 4279431376,
-    "index": "PZD014",
+    "id": 4210225360,
+    "index": "PZD080",
     "miscFilter": [],
     "miscFilterMode": false,
-    "model": "content/gameplay/panasia/director/ZD014_Director_Mk51/ZD014_Director_Mk51.model",
-    "name": "PZD014_Director_Mk51",
+    "model": "content/gameplay/panasia/director/ZD080_TDT_Mk23_Mod/ZD080_TDT_Mk23_Mod.model",
+    "name": "PZD080_TDT_Mk23_Mod",
     "typeinfo": {
      "nation": "Pan_Asia",
      "species": null,
@@ -15573,7 +15577,14 @@
     0.0,
     -0.25
    ],
-   "customMiscs": {},
+   "customMiscs": {
+    "battle": [
+     "base_all_A"
+    ],
+    "dock": [
+     "base_all_A"
+    ]
+   },
    "deathBubblesEffect": "particles/NF_CC_seething_bubbles_post_death.xml",
    "deathDetonateEffect": "particles/Empty_FX.xml",
    "deathFaultEffect": "particles/Empty_FX.xml",
@@ -18104,12 +18115,12 @@
    "HP_ZD_11": {
     "customMiscs": {},
     "gunNode": "",
-    "id": 4275237072,
-    "index": "PZD018",
+    "id": 4208128208,
+    "index": "PZD082",
     "miscFilter": [],
     "miscFilterMode": false,
-    "model": "content/gameplay/panasia/director/ZD018_Director_Mk57/ZD018_Director_Mk57.model",
-    "name": "PZD018_Director_Mk57",
+    "model": "content/gameplay/panasia/director/ZD082_Director_Mk56/ZD082_Director_Mk56.model",
+    "name": "PZD082_Director_Mk56",
     "typeinfo": {
      "nation": "Pan_Asia",
      "species": null,
@@ -18119,12 +18130,12 @@
    "HP_ZD_12": {
     "customMiscs": {},
     "gunNode": "",
-    "id": 4275237072,
-    "index": "PZD018",
+    "id": 4208128208,
+    "index": "PZD082",
     "miscFilter": [],
     "miscFilterMode": false,
-    "model": "content/gameplay/panasia/director/ZD018_Director_Mk57/ZD018_Director_Mk57.model",
-    "name": "PZD018_Director_Mk57",
+    "model": "content/gameplay/panasia/director/ZD082_Director_Mk56/ZD082_Director_Mk56.model",
+    "name": "PZD082_Director_Mk56",
     "typeinfo": {
      "nation": "Pan_Asia",
      "species": null,
@@ -18226,12 +18237,12 @@
    "HP_ZD_2": {
     "customMiscs": {},
     "gunNode": "",
-    "id": 4279431376,
-    "index": "PZD014",
+    "id": 4210225360,
+    "index": "PZD080",
     "miscFilter": [],
     "miscFilterMode": false,
-    "model": "content/gameplay/panasia/director/ZD014_Director_Mk51/ZD014_Director_Mk51.model",
-    "name": "PZD014_Director_Mk51",
+    "model": "content/gameplay/panasia/director/ZD080_TDT_Mk23_Mod/ZD080_TDT_Mk23_Mod.model",
+    "name": "PZD080_TDT_Mk23_Mod",
     "typeinfo": {
      "nation": "Pan_Asia",
      "species": null,
@@ -18241,12 +18252,12 @@
    "HP_ZD_3": {
     "customMiscs": {},
     "gunNode": "",
-    "id": 4279431376,
-    "index": "PZD014",
+    "id": 4210225360,
+    "index": "PZD080",
     "miscFilter": [],
     "miscFilterMode": false,
-    "model": "content/gameplay/panasia/director/ZD014_Director_Mk51/ZD014_Director_Mk51.model",
-    "name": "PZD014_Director_Mk51",
+    "model": "content/gameplay/panasia/director/ZD080_TDT_Mk23_Mod/ZD080_TDT_Mk23_Mod.model",
+    "name": "PZD080_TDT_Mk23_Mod",
     "typeinfo": {
      "nation": "Pan_Asia",
      "species": null,
@@ -19119,7 +19130,14 @@
     0.0,
     -0.25
    ],
-   "customMiscs": {},
+   "customMiscs": {
+    "battle": [
+     "base_all_B"
+    ],
+    "dock": [
+     "base_all_B"
+    ]
+   },
    "deathBubblesEffect": "particles/NF_CC_seething_bubbles_post_death.xml",
    "deathDetonateEffect": "particles/Empty_FX.xml",
    "deathFaultEffect": "particles/Empty_FX.xml",
@@ -19753,11 +19771,7 @@
   "battleSignalsModifiersOrder": [],
   "battleSignalsOrder": [],
   "canEquipCamouflage": true,
-  "custom": {
-   "PT": {
-    "group": "demoWithoutStats"
-   }
-  },
+  "custom": {},
   "defaultCrew": null,
   "effects": {},
   "flagsScale": 0.5,
@@ -20477,7 +20491,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -25002,7 +25015,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.05,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -28001,11 +28013,7 @@
   "battleSignalsModifiersOrder": [],
   "battleSignalsOrder": [],
   "canEquipCamouflage": true,
-  "custom": {
-   "PT": {
-    "group": "demoWithoutStats"
-   }
-  },
+  "custom": {},
   "defaultCrew": null,
   "effects": {},
   "flagsScale": 0.7,
@@ -28161,7 +28169,7 @@
      7.0,
      10.0
     ],
-    "shotDelay": 7.5,
+    "shotDelay": 10.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -28293,7 +28301,7 @@
      7.0,
      10.0
     ],
-    "shotDelay": 7.5,
+    "shotDelay": 10.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -28421,7 +28429,7 @@
      7.0,
      10.0
     ],
-    "shotDelay": 7.5,
+    "shotDelay": 10.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -28448,9 +28456,8 @@
    "minDistH": 50.0,
    "minDistV": 110.0,
    "normalDistribution": true,
-   "sigmaCount": 2.05,
+   "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -28597,7 +28604,7 @@
      0.0,
      0.0
     ],
-    "shotDelay": 85.0,
+    "shotDelay": 115.0,
     "shotEffect": "particles/guns/torpedo.xml",
     "shotEffectCap": "particles/Empty_FX.xml",
     "smallGun": null,
@@ -28714,7 +28721,7 @@
      0.0,
      0.0
     ],
-    "shotDelay": 85.0,
+    "shotDelay": 115.0,
     "shotEffect": "particles/guns/torpedo.xml",
     "shotEffectCap": "particles/Empty_FX.xml",
     "smallGun": null,
@@ -32098,7 +32105,7 @@
      7.0,
      10.0
     ],
-    "shotDelay": 7.5,
+    "shotDelay": 9.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -32230,7 +32237,7 @@
      7.0,
      10.0
     ],
-    "shotDelay": 7.5,
+    "shotDelay": 9.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -32362,7 +32369,7 @@
      7.0,
      10.0
     ],
-    "shotDelay": 7.5,
+    "shotDelay": 9.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -32389,9 +32396,8 @@
    "minDistH": 50.0,
    "minDistV": 110.0,
    "normalDistribution": true,
-   "sigmaCount": 2.05,
+   "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -34517,11 +34523,7 @@
   "battleSignalsModifiersOrder": [],
   "battleSignalsOrder": [],
   "canEquipCamouflage": true,
-  "custom": {
-   "PT": {
-    "group": "demoWithoutStats"
-   }
-  },
+  "custom": {},
   "defaultCrew": null,
   "effects": {},
   "flagsScale": 0.4,
@@ -35368,7 +35370,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -38178,19 +38179,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small.xml"
      ]
     ]
    },
@@ -40002,19 +40003,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small.xml"
      ]
     ]
    },
@@ -41084,7 +41085,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -43701,19 +43701,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small.xml"
      ]
     ]
    },
@@ -44562,7 +44562,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -46301,19 +46300,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small.xml"
      ]
     ]
    },
@@ -47013,7 +47012,7 @@
      10.0,
      20.0
     ],
-    "shotDelay": 6.0,
+    "shotDelay": 7.5,
     "shotEffect": "particles/guns/PMK_Shot_110to140.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -47145,7 +47144,7 @@
      10.0,
      20.0
     ],
-    "shotDelay": 6.0,
+    "shotDelay": 7.5,
     "shotEffect": "particles/guns/PMK_Shot_110to140.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -47277,7 +47276,7 @@
      10.0,
      20.0
     ],
-    "shotDelay": 6.0,
+    "shotDelay": 7.5,
     "shotEffect": "particles/guns/PMK_Shot_110to140.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -47414,7 +47413,7 @@
      10.0,
      20.0
     ],
-    "shotDelay": 6.0,
+    "shotDelay": 7.5,
     "shotEffect": "particles/guns/PMK_Shot_110to140.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -47558,7 +47557,7 @@
      10.0,
      20.0
     ],
-    "shotDelay": 6.0,
+    "shotDelay": 7.5,
     "shotEffect": "particles/guns/PMK_Shot_110to140.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -47585,9 +47584,8 @@
    "minDistH": 50.0,
    "minDistV": 110.0,
    "normalDistribution": true,
-   "sigmaCount": 2.05,
+   "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -47910,7 +47908,7 @@
      10.0,
      10.0
     ],
-    "shotDelay": 6.5,
+    "shotDelay": 7.5,
     "shotEffect": "particles/guns/PMK_Shot_110to140.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -48039,7 +48037,7 @@
      10.0,
      10.0
     ],
-    "shotDelay": 6.5,
+    "shotDelay": 7.5,
     "shotEffect": "particles/guns/PMK_Shot_110to140.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -48168,7 +48166,7 @@
      10.0,
      10.0
     ],
-    "shotDelay": 6.5,
+    "shotDelay": 7.5,
     "shotEffect": "particles/guns/PMK_Shot_110to140.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -48303,7 +48301,7 @@
      10.0,
      10.0
     ],
-    "shotDelay": 6.5,
+    "shotDelay": 7.5,
     "shotEffect": "particles/guns/PMK_Shot_110to140.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -48444,7 +48442,7 @@
      10.0,
      10.0
     ],
-    "shotDelay": 6.5,
+    "shotDelay": 7.5,
     "shotEffect": "particles/guns/PMK_Shot_110to140.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -48471,9 +48469,8 @@
    "minDistH": 50.0,
    "minDistV": 110.0,
    "normalDistribution": true,
-   "sigmaCount": 2.05,
+   "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -49032,14 +49029,14 @@
    "HP_ZRS_1": {
     "customMiscs": {},
     "gunNode": "",
-    "id": 4194744528,
-    "index": "PZRS095",
+    "id": 4197890256,
+    "index": "PZRS092",
     "miscFilter": [
      "MP_ZM435_Type_243_Outfit_ASC"
     ],
     "miscFilterMode": false,
-    "model": "content/gameplay/panasia/radar/search/ZRS095_RDF_Type_281_stern/ZRS095_RDF_Type_281_stern.model",
-    "name": "PZRS095_RDF_Type_281_stern",
+    "model": "content/gameplay/panasia/radar/search/ZRS092_RDF_Type_281_bow/ZRS092_RDF_Type_281_bow.model",
+    "name": "PZRS092_RDF_Type_281_bow",
     "typeinfo": {
      "nation": "Pan_Asia",
      "species": "Search",
@@ -49049,12 +49046,12 @@
    "HP_ZRS_2": {
     "customMiscs": {},
     "gunNode": "",
-    "id": 4197890256,
-    "index": "PZRS092",
+    "id": 4194744528,
+    "index": "PZRS095",
     "miscFilter": [],
     "miscFilterMode": false,
-    "model": "content/gameplay/panasia/radar/search/ZRS092_RDF_Type_281_bow/ZRS092_RDF_Type_281_bow.model",
-    "name": "PZRS092_RDF_Type_281_bow",
+    "model": "content/gameplay/panasia/radar/search/ZRS095_RDF_Type_281_stern/ZRS095_RDF_Type_281_stern.model",
+    "name": "PZRS095_RDF_Type_281_stern",
     "typeinfo": {
      "nation": "Pan_Asia",
      "species": "Search",
@@ -53936,14 +53933,10 @@
   "battleSignalsModifiersOrder": [],
   "battleSignalsOrder": [],
   "canEquipCamouflage": true,
-  "custom": {
-   "PT": {
-    "group": "demoWithoutStats"
-   }
-  },
+  "custom": {},
   "defaultCrew": null,
   "effects": {},
-  "flagsScale": 0.6,
+  "flagsScale": 0.55,
   "group": "earlyAccess",
   "id": 4183733456,
   "index": "PZSC106",
@@ -53951,7 +53944,7 @@
   "level": 6,
   "maxEquippedFlags": 8,
   "name": "PZSC106_Rahmat",
-  "nationFlagScale": 1.4,
+  "nationFlagScale": 1.0,
   "nativePermoflage": "",
   "navalFlag": "pan_asia",
   "needShowProjectYear": true,
@@ -54728,12 +54721,16 @@
     "hidePlane": false,
     "id": 4293063888,
     "index": "PZC001",
+    "isInvisible": false,
+    "launchEffectName": "particles/Empty_FX.xml",
     "linkedGunAngles": [],
     "linkedGunName": null,
     "linkedRotationSpeedCoeff": 1.0,
     "model": "content/gameplay/panasia/catapult/ZC001_Catapult/ZC001_Catapult.model",
     "name": "PZC001_Catapult",
+    "planeOffsets": {},
     "rotateTime": 1.25,
+    "translateDelay": 0.0,
     "typeinfo": {
      "nation": "Pan_Asia",
      "species": null,
@@ -54746,12 +54743,16 @@
     "hidePlane": false,
     "id": 4293063888,
     "index": "PZC001",
+    "isInvisible": false,
+    "launchEffectName": "particles/Empty_FX.xml",
     "linkedGunAngles": [],
     "linkedGunName": null,
     "linkedRotationSpeedCoeff": 1.0,
     "model": "content/gameplay/panasia/catapult/ZC001_Catapult/ZC001_Catapult.model",
     "name": "PZC001_Catapult",
+    "planeOffsets": {},
     "rotateTime": 1.25,
+    "translateDelay": 0.0,
     "typeinfo": {
      "nation": "Pan_Asia",
      "species": null,
@@ -57043,7 +57044,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -58398,14 +58398,10 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_medium.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
@@ -58413,7 +58409,7 @@
       "particles/vehicles/WakeTraceForward_screw_left_center.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_3",
+      "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
@@ -58421,12 +58417,16 @@
       "particles/vehicles/WakeTraceForward_screw_right_center.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_4",
+      "HP_FX_WakeTrace_screw_3",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_4",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_4",
+      "particles/vehicles/WakeTrace_screw_medium.xml"
      ]
     ]
    },
@@ -59570,7 +59570,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -61499,19 +61498,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small.xml"
      ]
     ]
    },
@@ -62922,19 +62921,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small.xml"
      ]
     ]
    },
@@ -63707,7 +63706,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -65014,19 +65012,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small_2.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small_2.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small_2.xml"
      ]
     ]
    },
@@ -66061,19 +66059,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small_2.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small_2.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small_2.xml"
      ]
     ]
    },
@@ -68026,12 +68024,16 @@
     "hidePlane": false,
     "id": 4292015312,
     "index": "PZC002",
+    "isInvisible": false,
+    "launchEffectName": "particles/Empty_FX.xml",
     "linkedGunAngles": [],
     "linkedGunName": null,
     "linkedRotationSpeedCoeff": 1.0,
     "model": "content/gameplay/panasia/catapult/ZC002_Catapult/ZC002_Catapult.model",
     "name": "PZC002_Catapult",
+    "planeOffsets": {},
     "rotateTime": 1.25,
+    "translateDelay": 0.0,
     "typeinfo": {
      "nation": "Pan_Asia",
      "species": null,
@@ -68044,12 +68046,16 @@
     "hidePlane": false,
     "id": 4292015312,
     "index": "PZC002",
+    "isInvisible": false,
+    "launchEffectName": "particles/Empty_FX.xml",
     "linkedGunAngles": [],
     "linkedGunName": null,
     "linkedRotationSpeedCoeff": 1.0,
     "model": "content/gameplay/panasia/catapult/ZC002_Catapult/ZC002_Catapult.model",
     "name": "PZC002_Catapult",
+    "planeOffsets": {},
     "rotateTime": 1.25,
+    "translateDelay": 0.0,
     "typeinfo": {
      "nation": "Pan_Asia",
      "species": null,
@@ -72135,7 +72141,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.1,
    "taperDist": 5000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -73637,19 +73642,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_2",
-      "particles/vehicles/WakeTrace_screw_medium.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_3",
+      "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_3",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_3",
+      "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_4",
@@ -75918,12 +75923,16 @@
     "hidePlane": false,
     "id": 4290966736,
     "index": "PZC003",
+    "isInvisible": false,
+    "launchEffectName": "particles/Empty_FX.xml",
     "linkedGunAngles": [],
     "linkedGunName": null,
     "linkedRotationSpeedCoeff": 1.0,
     "model": "content/gameplay/panasia/catapult/ZC003_Catapult/ZC003_Catapult.model",
     "name": "PZC003_Catapult",
+    "planeOffsets": {},
     "rotateTime": 1.25,
+    "translateDelay": 0.0,
     "typeinfo": {
      "nation": "Pan_Asia",
      "species": null,
@@ -78022,7 +78031,6 @@
    "normalDistribution": true,
    "sigmaCount": 1.6,
    "taperDist": 5000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -79727,11 +79735,11 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_medium.xml"
+      "particles/vehicles/WakeTraceForward_screw_left_center.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTraceForward_screw_left_center.xml"
+      "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
@@ -79743,11 +79751,11 @@
      ],
      [
       "HP_FX_WakeTrace_screw_3",
-      "particles/vehicles/WakeTrace_screw_medium.xml"
+      "particles/vehicles/WakeTraceForward_screw_right_center.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_3",
-      "particles/vehicles/WakeTraceForward_screw_right_center.xml"
+      "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_4",
@@ -80798,7 +80806,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -83002,19 +83009,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small.xml"
      ]
     ]
    },
@@ -84232,19 +84239,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small.xml"
      ]
     ]
    },
@@ -85892,7 +85899,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -87749,19 +87755,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_medium.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_medium.xml"
      ]
     ]
    },
@@ -88553,7 +88559,7 @@
      25.0,
      15.0
     ],
-    "shotDelay": 6.25,
+    "shotDelay": 6.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -88683,7 +88689,7 @@
      25.0,
      15.0
     ],
-    "shotDelay": 6.25,
+    "shotDelay": 6.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -88813,7 +88819,7 @@
      25.0,
      15.0
     ],
-    "shotDelay": 6.25,
+    "shotDelay": 6.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -88943,7 +88949,7 @@
      25.0,
      15.0
     ],
-    "shotDelay": 6.25,
+    "shotDelay": 6.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -89073,7 +89079,7 @@
      25.0,
      15.0
     ],
-    "shotDelay": 6.25,
+    "shotDelay": 6.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -89203,7 +89209,7 @@
      25.0,
      15.0
     ],
-    "shotDelay": 6.25,
+    "shotDelay": 6.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -89230,9 +89236,8 @@
    "minDistH": 50.0,
    "minDistV": 110.0,
    "normalDistribution": true,
-   "sigmaCount": 2.05,
+   "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -94764,11 +94769,7 @@
   "battleSignalsModifiersOrder": [],
   "battleSignalsOrder": [],
   "canEquipCamouflage": true,
-  "custom": {
-   "PT": {
-    "group": "demoWithoutStats"
-   }
-  },
+  "custom": {},
   "defaultCrew": null,
   "effects": {},
   "flagsScale": 0.7,
@@ -95214,7 +95215,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -97602,19 +97602,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small.xml"
      ]
     ]
    },
@@ -99153,19 +99153,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small.xml"
      ]
     ]
    },
@@ -100083,7 +100083,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -102371,19 +102370,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small.xml"
      ]
     ]
    },
@@ -103544,7 +103543,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -106184,19 +106182,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small.xml"
      ]
     ]
    },
@@ -107937,7 +107935,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -110861,7 +110858,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.05,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -114638,19 +114634,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_big.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_big.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_big.xml"
      ]
     ]
    },
@@ -115590,7 +115586,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -117999,19 +117994,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small.xml"
      ]
     ]
    },
@@ -119422,19 +119417,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small.xml"
      ]
     ]
    },
@@ -120223,7 +120218,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -121679,19 +121673,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small_2.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small_2.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small_2.xml"
      ]
     ]
    },
@@ -123011,19 +123005,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small_2.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small_2.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small_2.xml"
      ]
     ]
    },
@@ -123800,7 +123794,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -127363,14 +127356,10 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
@@ -127378,7 +127367,7 @@
       "particles/vehicles/WakeTraceForward_screw_left_center.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_3",
+      "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
@@ -127386,12 +127375,16 @@
       "particles/vehicles/WakeTraceForward_screw_right_center.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_4",
+      "HP_FX_WakeTrace_screw_3",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_4",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_4",
+      "particles/vehicles/WakeTrace_screw_small.xml"
      ]
     ]
    },
@@ -129213,7 +129206,7 @@
      20.0,
      12.0
     ],
-    "shotDelay": 5.0,
+    "shotDelay": 5.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -129344,7 +129337,7 @@
      20.0,
      12.0
     ],
-    "shotDelay": 5.0,
+    "shotDelay": 5.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -129477,7 +129470,7 @@
      20.0,
      12.0
     ],
-    "shotDelay": 5.0,
+    "shotDelay": 5.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -129610,7 +129603,7 @@
      20.0,
      12.0
     ],
-    "shotDelay": 5.0,
+    "shotDelay": 5.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -129741,7 +129734,7 @@
      20.0,
      12.0
     ],
-    "shotDelay": 5.0,
+    "shotDelay": 5.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -129770,7 +129763,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.05,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -130975,14 +130967,14 @@
    },
    "backwardEngineForsag": 2.5,
    "backwardEngineForsagMaxSpeed": 2.5,
-   "backwardEngineUpTime": 10.0,
+   "backwardEngineUpTime": 20.0,
    "backwardSpeedOnFlood": -0.6,
    "damagedEnginePowerMultiplier": -0.6,
-   "damagedEnginePowerTimeMultiplier": 6.5,
+   "damagedEnginePowerTimeMultiplier": 5.5,
    "engineType": "SteamTurbine",
    "forwardEngineForsag": 2.5,
    "forwardEngineForsagMaxSpeed": 2.5,
-   "forwardEngineUpTime": 20.0,
+   "forwardEngineUpTime": 40.0,
    "forwardSpeedOnFlood": -0.3,
    "histEnginePower": 80000,
    "sound": "GameLogic.Engines.Battleship.Turbine.Type_1",
@@ -131664,11 +131656,11 @@
     "65712": 0.0,
     "65713": 0.0,
     "65714": 0.0,
-    "65750": 0.0,
-    "65751": 0.0,
-    "65752": 0.0,
-    "65753": 0.0,
-    "65754": 0.0,
+    "65750": 12.0,
+    "65751": 12.0,
+    "65752": 12.0,
+    "65753": 12.0,
+    "65754": 12.0,
     "131131": 16.0,
     "131137": 16.0,
     "131155": 50.0,
@@ -132783,7 +132775,7 @@
     "abils": [
      [
       "PCY010_RegenCrewPremium",
-      "C_Gold"
+      "C_DALIAN"
      ]
     ],
     "slot": 1
@@ -132791,19 +132783,14 @@
    "AbilitySlot2": {
     "abils": [
      [
-      "PCY016_SonarSearchPremium",
-      "C_8_10"
+      "PCY014_SmokeGeneratorPremium",
+      "PAZ_DALIAN"
      ]
     ],
     "slot": 2
    },
    "AbilitySlot3": {
-    "abils": [
-     [
-      "PCY014_SmokeGeneratorPremium",
-      "PAZ_CL"
-     ]
-    ],
+    "abils": [],
     "slot": 3
    },
    "AbilitySlot4": {
@@ -133759,7 +133746,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -135135,19 +135121,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small_2.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small_2.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small_2.xml"
      ]
     ]
    },
@@ -136045,7 +136031,7 @@
      25.0,
      9.85
     ],
-    "shotDelay": 5.25,
+    "shotDelay": 5.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -136176,7 +136162,7 @@
      25.0,
      9.85
     ],
-    "shotDelay": 5.25,
+    "shotDelay": 5.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -136307,7 +136293,7 @@
      25.0,
      9.85
     ],
-    "shotDelay": 5.25,
+    "shotDelay": 5.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -136438,7 +136424,7 @@
      25.0,
      9.85
     ],
-    "shotDelay": 5.25,
+    "shotDelay": 5.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -136569,7 +136555,7 @@
      25.0,
      9.85
     ],
-    "shotDelay": 5.25,
+    "shotDelay": 5.5,
     "shotEffect": "particles/guns/GK_Shot_110to170.xml",
     "smallGun": null,
     "smokePenalty": 0.0001,
@@ -136598,7 +136584,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.05,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -138062,14 +138047,14 @@
    },
    "backwardEngineForsag": 2.5,
    "backwardEngineForsagMaxSpeed": 2.5,
-   "backwardEngineUpTime": 10.0,
+   "backwardEngineUpTime": 20.0,
    "backwardSpeedOnFlood": -0.6,
    "damagedEnginePowerMultiplier": -0.6,
-   "damagedEnginePowerTimeMultiplier": 6.5,
+   "damagedEnginePowerTimeMultiplier": 5.5,
    "engineType": "SteamTurbine",
    "forwardEngineForsag": 2.5,
    "forwardEngineForsagMaxSpeed": 2.5,
-   "forwardEngineUpTime": 20.0,
+   "forwardEngineUpTime": 40.0,
    "forwardSpeedOnFlood": -0.3,
    "histEnginePower": 80000,
    "sound": "GameLogic.Engines.Battleship.Turbine.Type_1",
@@ -144028,11 +144013,7 @@
   "battleSignalsModifiersOrder": [],
   "battleSignalsOrder": [],
   "canEquipCamouflage": true,
-  "custom": {
-   "PT": {
-    "group": "demoWithoutStats"
-   }
-  },
+  "custom": {},
   "defaultCrew": null,
   "effects": {},
   "flagsScale": 0.34,
@@ -144043,7 +144024,7 @@
   "level": 8,
   "maxEquippedFlags": 8,
   "name": "PZSC108_Harbin",
-  "nationFlagScale": 1.3,
+  "nationFlagScale": 1.2,
   "nativePermoflage": "",
   "navalFlag": "pan_asia",
   "needShowProjectYear": true,

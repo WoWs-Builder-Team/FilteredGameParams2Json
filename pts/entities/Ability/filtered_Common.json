@@ -266,14 +266,6 @@
     "numConsumables": -1,
     "reloadTime": 40.0,
     "workTime": 5.0
-   },
-   "USSR_C_Sevastopol": {
-    "descIDs": "PCY009_CrashCrew_Limited_Premium",
-    "group": "ship",
-    "iconIDs": "PCY009_CrashCrew_Limited_Premium",
-    "numConsumables": 3,
-    "reloadTime": 40.0,
-    "workTime": 10.0
    }
   }
  },
@@ -447,6 +439,15 @@
     "workTime": 15.0
    },
    "IJN_BB_HYUGA": {
+    "boostCoeff": 0.5,
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "reloadTime": 60.0,
+    "workTime": 15.0
+   },
+   "IJN_CA_MAYA2": {
     "boostCoeff": 0.5,
     "descIDs": "",
     "group": "ship",
@@ -1413,7 +1414,18 @@
     "lifeTime": 70.0,
     "numConsumables": 3,
     "radius": 15.0,
-    "reloadTime": 100.0,
+    "reloadTime": 110.0,
+    "speedLimit": 12.5,
+    "workTime": 30.0
+   },
+   "PAZ_DALIAN": {
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "lifeTime": 70.0,
+    "numConsumables": 4,
+    "radius": 15.0,
+    "reloadTime": 110.0,
     "speedLimit": 12.5,
     "workTime": 30.0
    },
@@ -1686,6 +1698,17 @@
     "group": "ship",
     "iconIDs": "",
     "lifeTime": 104.0,
+    "numConsumables": 2,
+    "radius": 15.0,
+    "reloadTime": 160.0,
+    "speedLimit": 12.5,
+    "workTime": 30.0
+   },
+   "US_SHERMAN": {
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "lifeTime": 130.0,
     "numConsumables": 2,
     "radius": 15.0,
     "reloadTime": 160.0,
@@ -1992,408 +2015,6 @@
     "numConsumables": 3,
     "reloadTime": 120.0,
     "workTime": 120.0
-   },
-   "USSR_C_Sevastopol": {
-    "backwardEngineForsag": 4.0,
-    "backwardEngineForsagMaxSpeed": 12.0,
-    "boostCoeff": 0.2,
-    "descIDs": "",
-    "forwardEngineForsag": 2.5,
-    "forwardEngineForsagMaxSpeed": 10.0,
-    "group": "ship",
-    "iconIDs": "",
-    "numConsumables": 6,
-    "reloadTime": 60.0,
-    "workTime": 45.0
-   }
-  }
- },
- {
-  "id": 4257390512,
-  "index": "PCY035",
-  "name": "PCY035_CallFighters",
-  "typeinfo": {
-   "nation": "Common",
-   "species": null,
-   "type": "Ability"
-  },
-  "variants": {
-   "AntiSubs_Test": {
-    "descIDs": "",
-    "fightersNum": 1,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 116.667,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 3.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "BR_10": {
-    "descIDs": "",
-    "fightersNum": 7,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 116.667,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "BR_6": {
-    "descIDs": "",
-    "fightersNum": 3,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 83.334,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "BR_8": {
-    "descIDs": "",
-    "fightersNum": 5,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 100.0,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "BR_ARKR": {
-    "descIDs": "",
-    "fightersNum": 3,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 83.334,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "BR_Indomitable": {
-    "descIDs": "",
-    "fightersNum": 5,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 4,
-    "radius": 100.0,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "China_Saipan_Sanzang": {
-    "descIDs": "",
-    "fightersNum": 5,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 100.0,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "FR_6_Bearn": {
-    "descIDs": "",
-    "fightersNum": 8,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 8,
-    "radius": 100.0,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 100.0
-   },
-   "GER_10": {
-    "descIDs": "",
-    "fightersNum": 7,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 116.667,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "GER_6": {
-    "descIDs": "",
-    "fightersNum": 3,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 83.334,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "GER_8": {
-    "descIDs": "",
-    "fightersNum": 5,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 100.0,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "GER_Graf_Zeppelin_8": {
-    "descIDs": "",
-    "fightersNum": 5,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 100.0,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "GER_Loewenhardt_6": {
-    "descIDs": "",
-    "fightersNum": 3,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 83.334,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "ISE_1": {
-    "descIDs": "",
-    "fightersNum": 3,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 83.334,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "ISE_2": {
-    "descIDs": "",
-    "fightersNum": 3,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 83.334,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "ISE_3": {
-    "descIDs": "",
-    "fightersNum": 3,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 83.334,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "JAP_10": {
-    "descIDs": "",
-    "fightersNum": 7,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 116.667,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "JAP_6": {
-    "descIDs": "",
-    "fightersNum": 3,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 83.334,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "JAP_8": {
-    "descIDs": "",
-    "fightersNum": 5,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 100.0,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "JAP_Kaga": {
-    "descIDs": "",
-    "fightersNum": 5,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 100.0,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "USA_10": {
-    "descIDs": "",
-    "fightersNum": 7,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 116.667,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "USA_6": {
-    "descIDs": "",
-    "fightersNum": 3,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 83.334,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "USA_8": {
-    "descIDs": "",
-    "fightersNum": 5,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 100.0,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "USA_Enterprise": {
-    "descIDs": "",
-    "fightersNum": 10,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 120.0,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "USA_Roosevelt": {
-    "descIDs": "",
-    "fightersNum": 7,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 116.667,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "USA_Saipan": {
-    "descIDs": "",
-    "fightersNum": 5,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 100.0,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "USSR_10": {
-    "descIDs": "",
-    "fightersNum": 7,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 116.667,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "USSR_6": {
-    "descIDs": "",
-    "fightersNum": 3,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 83.334,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
-   },
-   "USSR_8": {
-    "descIDs": "",
-    "fightersNum": 5,
-    "group": "squadron",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "radius": 100.0,
-    "reloadTime": 10.0,
-    "timeDelayAttack": 5.0,
-    "timeFromHeaven": 6.0,
-    "timeWaitDelayAttack": 10.0,
-    "workTime": 60.0
    }
   }
  },
@@ -3201,6 +2822,66 @@
   }
  },
  {
+  "id": 4261584816,
+  "index": "PCY031",
+  "name": "PCY031_TorpedoReloaderSuper",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Ability"
+  },
+  "variants": {
+   "Default": {
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": -1,
+    "reloadTime": 270.0,
+    "workTime": 1.0
+   },
+   "Jap_DD": {
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "reloadTime": 240.0,
+    "workTime": 1.0
+   },
+   "Jap_DD_alt": {
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "reloadTime": 160.0,
+    "workTime": 1.0
+   },
+   "Jap_DD_tst": {
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "reloadTime": 240.0,
+    "workTime": 1.0
+   },
+   "Monaghan_style": {
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "reloadTime": 240.0,
+    "workTime": 1.0
+   },
+   "PAZ": {
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "reloadTime": 240.0,
+    "workTime": 1.0
+   }
+  }
+ },
+ {
   "id": 4260536240,
   "index": "PCY032",
   "name": "PCY032_RLSSearchSuper",
@@ -3530,6 +3211,117 @@
     "numConsumables": 4,
     "reloadTime": 240.0,
     "workTime": 180.0
+   }
+  }
+ },
+ {
+  "id": 4282556336,
+  "index": "PCY011",
+  "name": "PCY011_AirDefenseDispPremium",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Ability"
+  },
+  "variants": {
+   "Anthony_event_Gold": {
+    "areaDamageMultiplier": 2.0,
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 4,
+    "reloadTime": 120.0,
+    "workTime": 15.0
+   },
+   "Default_Gold": {
+    "areaDamageMultiplier": 1.5,
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "reloadTime": 80.0,
+    "workTime": 40.0
+   },
+   "Play_test_Gold": {
+    "areaDamageMultiplier": 1.5,
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "reloadTime": 180.0,
+    "workTime": 40.0
+   },
+   "SU_DD_Gold": {
+    "areaDamageMultiplier": 1.5,
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 4,
+    "reloadTime": 80.0,
+    "workTime": 40.0
+   },
+   "Stalingrad": {
+    "areaDamageMultiplier": 1.25,
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "reloadTime": 180.0,
+    "workTime": 60.0
+   },
+   "UK_UPs_Gold": {
+    "areaDamageMultiplier": 1.5,
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 4,
+    "reloadTime": 80.0,
+    "workTime": 40.0
+   },
+   "US_Cruisers_Atlanta": {
+    "areaDamageMultiplier": 1.5,
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": -1,
+    "reloadTime": 80.0,
+    "workTime": 40.0
+   },
+   "US_Cruisers_Gold": {
+    "areaDamageMultiplier": 1.5,
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 4,
+    "reloadTime": 80.0,
+    "workTime": 40.0
+   },
+   "US_DD_Branch": {
+    "areaDamageMultiplier": 2.0,
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 4,
+    "reloadTime": 80.0,
+    "workTime": 40.0
+   },
+   "US_DD_Gold": {
+    "areaDamageMultiplier": 1.5,
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 4,
+    "reloadTime": 80.0,
+    "workTime": 40.0
+   },
+   "Yubari_Gold": {
+    "areaDamageMultiplier": 1.5,
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 2,
+    "reloadTime": 80.0,
+    "workTime": 40.0
    }
   }
  },
@@ -5670,117 +5462,6 @@
   }
  },
  {
-  "id": 4282556336,
-  "index": "PCY011",
-  "name": "PCY011_AirDefenseDispPremium",
-  "typeinfo": {
-   "nation": "Common",
-   "species": null,
-   "type": "Ability"
-  },
-  "variants": {
-   "Anthony_event_Gold": {
-    "areaDamageMultiplier": 2.0,
-    "descIDs": "",
-    "group": "ship",
-    "iconIDs": "",
-    "numConsumables": 4,
-    "reloadTime": 120.0,
-    "workTime": 15.0
-   },
-   "Default_Gold": {
-    "areaDamageMultiplier": 1.5,
-    "descIDs": "",
-    "group": "ship",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "reloadTime": 80.0,
-    "workTime": 40.0
-   },
-   "Play_test_Gold": {
-    "areaDamageMultiplier": 1.5,
-    "descIDs": "",
-    "group": "ship",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "reloadTime": 180.0,
-    "workTime": 40.0
-   },
-   "SU_DD_Gold": {
-    "areaDamageMultiplier": 1.5,
-    "descIDs": "",
-    "group": "ship",
-    "iconIDs": "",
-    "numConsumables": 4,
-    "reloadTime": 80.0,
-    "workTime": 40.0
-   },
-   "Stalingrad": {
-    "areaDamageMultiplier": 1.25,
-    "descIDs": "",
-    "group": "ship",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "reloadTime": 180.0,
-    "workTime": 60.0
-   },
-   "UK_UPs_Gold": {
-    "areaDamageMultiplier": 1.5,
-    "descIDs": "",
-    "group": "ship",
-    "iconIDs": "",
-    "numConsumables": 4,
-    "reloadTime": 80.0,
-    "workTime": 40.0
-   },
-   "US_Cruisers_Atlanta": {
-    "areaDamageMultiplier": 1.5,
-    "descIDs": "",
-    "group": "ship",
-    "iconIDs": "",
-    "numConsumables": -1,
-    "reloadTime": 80.0,
-    "workTime": 40.0
-   },
-   "US_Cruisers_Gold": {
-    "areaDamageMultiplier": 1.5,
-    "descIDs": "",
-    "group": "ship",
-    "iconIDs": "",
-    "numConsumables": 4,
-    "reloadTime": 80.0,
-    "workTime": 40.0
-   },
-   "US_DD_Branch": {
-    "areaDamageMultiplier": 2.0,
-    "descIDs": "",
-    "group": "ship",
-    "iconIDs": "",
-    "numConsumables": 4,
-    "reloadTime": 80.0,
-    "workTime": 40.0
-   },
-   "US_DD_Gold": {
-    "areaDamageMultiplier": 1.5,
-    "descIDs": "",
-    "group": "ship",
-    "iconIDs": "",
-    "numConsumables": 4,
-    "reloadTime": 80.0,
-    "workTime": 40.0
-   },
-   "Yubari_Gold": {
-    "areaDamageMultiplier": 1.5,
-    "descIDs": "",
-    "group": "ship",
-    "iconIDs": "",
-    "numConsumables": 2,
-    "reloadTime": 80.0,
-    "workTime": 40.0
-   }
-  }
- },
- {
   "id": 4269973424,
   "index": "PCY023",
   "name": "PCY023_CrashCrewSuper",
@@ -6513,6 +6194,15 @@
     "reloadTime": 80.0,
     "workTime": 28.0
    },
+   "C_DALIAN": {
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": 4,
+    "regenerationHPSpeed": 0.005,
+    "reloadTime": 80.0,
+    "workTime": 28.0
+   },
    "C_Gold": {
     "descIDs": "",
     "group": "ship",
@@ -6652,9 +6342,437 @@
     "descIDs": "",
     "group": "ship",
     "iconIDs": "",
-    "numConsumables": 6,
-    "regenerationHPSpeed": 0.003,
-    "reloadTime": 80.0,
+    "numConsumables": 3,
+    "regenerationHPSpeed": 0.005,
+    "reloadTime": 200.0,
+    "workTime": 90.0
+   }
+  }
+ },
+ {
+  "id": 4257390512,
+  "index": "PCY035",
+  "name": "PCY035_CallFighters",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Ability"
+  },
+  "variants": {
+   "AntiSubs_Test": {
+    "descIDs": "",
+    "fightersNum": 1,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 116.667,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 3.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "BR_10": {
+    "descIDs": "",
+    "fightersNum": 7,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 116.667,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "BR_11": {
+    "descIDs": "",
+    "fightersNum": 7,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 133.334,
+    "reloadTime": 5.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 3.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 20.0
+   },
+   "BR_6": {
+    "descIDs": "",
+    "fightersNum": 3,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 83.334,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "BR_8": {
+    "descIDs": "",
+    "fightersNum": 5,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 100.0,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "BR_ARKR": {
+    "descIDs": "",
+    "fightersNum": 3,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 83.334,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "BR_Indomitable": {
+    "descIDs": "",
+    "fightersNum": 5,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 4,
+    "radius": 100.0,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "China_Saipan_Sanzang": {
+    "descIDs": "",
+    "fightersNum": 5,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 100.0,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "FR_6_Bearn": {
+    "descIDs": "",
+    "fightersNum": 8,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 8,
+    "radius": 100.0,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 100.0
+   },
+   "GER_10": {
+    "descIDs": "",
+    "fightersNum": 7,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 116.667,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "GER_6": {
+    "descIDs": "",
+    "fightersNum": 3,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 83.334,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "GER_8": {
+    "descIDs": "",
+    "fightersNum": 5,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 100.0,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "GER_Graf_Zeppelin_8": {
+    "descIDs": "",
+    "fightersNum": 5,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 100.0,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "GER_Loewenhardt_6": {
+    "descIDs": "",
+    "fightersNum": 3,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 83.334,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "ISE_1": {
+    "descIDs": "",
+    "fightersNum": 3,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 83.334,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "ISE_2": {
+    "descIDs": "",
+    "fightersNum": 3,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 83.334,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "ISE_3": {
+    "descIDs": "",
+    "fightersNum": 3,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 83.334,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "JAP_10": {
+    "descIDs": "",
+    "fightersNum": 7,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 116.667,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "JAP_6": {
+    "descIDs": "",
+    "fightersNum": 3,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 83.334,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "JAP_8": {
+    "descIDs": "",
+    "fightersNum": 5,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 100.0,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "JAP_Kaga": {
+    "descIDs": "",
+    "fightersNum": 5,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 100.0,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "USA_10": {
+    "descIDs": "",
+    "fightersNum": 7,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 116.667,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "USA_11": {
+    "descIDs": "",
+    "fightersNum": 7,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 133.334,
+    "reloadTime": 5.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 3.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 20.0
+   },
+   "USA_6": {
+    "descIDs": "",
+    "fightersNum": 3,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 83.334,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "USA_8": {
+    "descIDs": "",
+    "fightersNum": 5,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 100.0,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "USA_Enterprise": {
+    "descIDs": "",
+    "fightersNum": 10,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 120.0,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "USA_Hornet": {
+    "descIDs": "",
+    "fightersNum": 5,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 100.0,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "USA_Roosevelt": {
+    "descIDs": "",
+    "fightersNum": 7,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 116.667,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "USA_Saipan": {
+    "descIDs": "",
+    "fightersNum": 5,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 100.0,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "USSR_10": {
+    "descIDs": "",
+    "fightersNum": 7,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 116.667,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "USSR_6": {
+    "descIDs": "",
+    "fightersNum": 3,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 83.334,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
+    "workTime": 60.0
+   },
+   "USSR_8": {
+    "descIDs": "",
+    "fightersNum": 5,
+    "group": "squadron",
+    "iconIDs": "",
+    "numConsumables": 3,
+    "radius": 100.0,
+    "reloadTime": 10.0,
+    "timeDelayAttack": 5.0,
+    "timeFromHeaven": 6.0,
+    "timeWaitDelayAttack": 10.0,
     "workTime": 60.0
    }
   }
@@ -6923,66 +7041,6 @@
     "regenerationHPSpeed": 0.005,
     "reloadTime": 120.0,
     "workTime": 28.0
-   }
-  }
- },
- {
-  "id": 4261584816,
-  "index": "PCY031",
-  "name": "PCY031_TorpedoReloaderSuper",
-  "typeinfo": {
-   "nation": "Common",
-   "species": null,
-   "type": "Ability"
-  },
-  "variants": {
-   "Default": {
-    "descIDs": "",
-    "group": "ship",
-    "iconIDs": "",
-    "numConsumables": -1,
-    "reloadTime": 270.0,
-    "workTime": 1.0
-   },
-   "Jap_DD": {
-    "descIDs": "",
-    "group": "ship",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "reloadTime": 240.0,
-    "workTime": 1.0
-   },
-   "Jap_DD_alt": {
-    "descIDs": "",
-    "group": "ship",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "reloadTime": 160.0,
-    "workTime": 1.0
-   },
-   "Jap_DD_tst": {
-    "descIDs": "",
-    "group": "ship",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "reloadTime": 240.0,
-    "workTime": 1.0
-   },
-   "Monaghan_style": {
-    "descIDs": "",
-    "group": "ship",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "reloadTime": 240.0,
-    "workTime": 1.0
-   },
-   "PAZ": {
-    "descIDs": "",
-    "group": "ship",
-    "iconIDs": "",
-    "numConsumables": 3,
-    "reloadTime": 240.0,
-    "workTime": 1.0
    }
   }
  }

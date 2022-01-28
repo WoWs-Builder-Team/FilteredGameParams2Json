@@ -175,6 +175,73 @@
    "volume": 0.5,
    "volumeCoeff": 1.0
   },
+  "antiAirAuraDistance": 80.0,
+  "antiAirAuraStrength": 0.023,
+  "barrelDiameter": 0.028,
+  "deadMesh": "content/gameplay/usa/gun/aaircraft/AGA013_1in_Mk2_Mod2/AGA013_1in_Mk2_Mod2_dead.model",
+  "id": 4281329648,
+  "index": "PAGA013",
+  "model": "content/gameplay/usa/gun/aaircraft/AGA013_1in_Mk2_Mod2/AGA013_1in_Mk2_Mod2.model",
+  "name": "PAGA013_1in_Mk2_Mod2",
+  "numBarrels": 4.0,
+  "shotDelay": 5.0,
+  "shotEffect": "particles/guns/AA_shot.xml",
+  "smallGun": null,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "AAircraft",
+   "type": "Gun"
+  }
+ },
+ {
+  "HitLocationAirDefense": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "airdefense_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 600.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.8,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
   "antiAirAuraDistance": 33.0,
   "antiAirAuraStrength": 0.013,
   "barrelDiameter": 0.00762,
@@ -783,73 +850,6 @@
    90.0
   ],
   "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
- },
- {
-  "HitLocationAirDefense": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 1.0,
-   "autoRepairTime": 10,
-   "autoRepairTimeMin": 5,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.0,
-    0.0
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "airdefense_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 600.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.8,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
-  "antiAirAuraDistance": 133.0,
-  "antiAirAuraStrength": 0.208,
-  "barrelDiameter": 0.0762,
-  "deadMesh": "content/gameplay/usa/gun/aaircraft/AGA026_3in50_Twin_Mark_33/AGA026_3in50_Twin_Mark_33_dead.model",
-  "id": 4267698160,
-  "index": "PAGA026",
-  "model": "content/gameplay/usa/gun/aaircraft/AGA026_3in50_Twin_Mark_33/AGA026_3in50_Twin_Mark_33.model",
-  "name": "PAGA026_3in50_Twin_Mark_33",
-  "numBarrels": 2,
-  "shotDelay": 5.0,
-  "shotEffect": "particles/guns/AA_shot.xml",
-  "smallGun": null,
-  "typeinfo": {
-   "nation": "USA",
-   "species": "AAircraft",
-   "type": "Gun"
-  }
  },
  {
   "HitLocationDepthCharge": {
@@ -3453,73 +3453,6 @@
   ]
  },
  {
-  "HitLocationAirDefense": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 1.0,
-   "autoRepairTime": 10,
-   "autoRepairTimeMin": 5,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.0,
-    0.0
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "airdefense_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 600.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.8,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
-  "antiAirAuraDistance": 80.0,
-  "antiAirAuraStrength": 0.023,
-  "barrelDiameter": 0.028,
-  "deadMesh": "content/gameplay/usa/gun/aaircraft/AGA013_1in_Mk2_Mod2/AGA013_1in_Mk2_Mod2_dead.model",
-  "id": 4281329648,
-  "index": "PAGA013",
-  "model": "content/gameplay/usa/gun/aaircraft/AGA013_1in_Mk2_Mod2/AGA013_1in_Mk2_Mod2.model",
-  "name": "PAGA013_1in_Mk2_Mod2",
-  "numBarrels": 4.0,
-  "shotDelay": 5.0,
-  "shotEffect": "particles/guns/AA_shot.xml",
-  "smallGun": null,
-  "typeinfo": {
-   "nation": "USA",
-   "species": "AAircraft",
-   "type": "Gun"
-  }
- },
- {
   "HitLocationTorpedo": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 1.0,
@@ -4677,6 +4610,73 @@
   "index": "PAGA505",
   "model": "content/gameplay/usa/gun/aaircraft/AGA505_20mm_Oerlikon_MK4_Space/AGA505_20mm_Oerlikon_MK4_Space.model",
   "name": "PAGA505_20mm_Oerlikon_MK4_Space",
+  "numBarrels": 2,
+  "shotDelay": 5.0,
+  "shotEffect": "particles/guns/AA_shot.xml",
+  "smallGun": null,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "AAircraft",
+   "type": "Gun"
+  }
+ },
+ {
+  "HitLocationAirDefense": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "airdefense_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 600.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.8,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "antiAirAuraDistance": -1.0,
+  "antiAirAuraStrength": -1.0,
+  "barrelDiameter": 20,
+  "deadMesh": "content/gameplay/usa/gun/aaircraft/AGA641_40mm_Bofors_Mk1_Space_LOGH/AGA641_40mm_Bofors_Mk1_Space_LOGH_dead.model",
+  "id": 3622823920,
+  "index": "PAGA641",
+  "model": "content/gameplay/usa/gun/aaircraft/AGA641_40mm_Bofors_Mk1_Space_LOGH/AGA641_40mm_Bofors_Mk1_Space_LOGH.model",
+  "name": "PAGA641_40mm_Bofors_Mk1_Space_LOGH",
   "numBarrels": 2,
   "shotDelay": 5.0,
   "shotEffect": "particles/guns/AA_shot.xml",
@@ -8203,7 +8203,7 @@
    40.0,
    25.0
   ],
-  "shotDelay": 2.0,
+  "shotDelay": 1.5,
   "shotEffect": "particles/guns/GK_Shot_110to170.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
@@ -8215,6 +8215,135 @@
   "vertSector": [
    -3.0,
    85.0
+  ]
+ },
+ {
+  "HitLocationArtillery": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 0.0,
+   "autoRepairTime": 30,
+   "autoRepairTimeMin": 25,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.05,
+    0.75
+   ],
+   "critProbHP": [
+    1.0,
+    0.02
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "artillery_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 7500.0,
+   "moduleCritCoeffCR": 1.0,
+   "moduleCritCoeffXP": 1.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 1.0,
+   "rndPartHP": 0.0,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 0.1
+  },
+  "aiMGmaxEllipseRanging": 4.0,
+  "aiMGmedEllipseRanging": 3.7,
+  "aiMGminEllipseRanging": 3.5,
+  "ammoList": [
+   "PAPA087_305MM_HE_ALASKA_MK17M1",
+   "PAPA088_305MM_AP_ALASKA_MK18M1"
+  ],
+  "antiAirAuraDistance": 0.0,
+  "antiAirAuraStrength": 0.0,
+  "armor": {
+   "1": 0.0,
+   "65568": 152.0,
+   "65569": 127.0,
+   "65571": 133.0,
+   "65635": 48.0,
+   "65636": 325.0,
+   "131104": 133.0,
+   "131171": 48.0
+  },
+  "barrelDiameter": 0.305,
+  "coeffPerSecondMin": 0.3,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_big.xml",
+  "deadMesh": "content/gameplay/usa/gun/main/AGM207_12in50_Mk8_Twin/AGM207_12in50_Mk8_Twin_dead.model",
+  "deadZone": [],
+  "delim": 0.5,
+  "effectIntensityModifier": 1.0,
+  "ellipseRangeMax": 250.0,
+  "ellipseRangeMin": 50.0,
+  "horizSector": [
+   -150.0,
+   150.0
+  ],
+  "id": 4077512688,
+  "idealDistance": 1000.0,
+  "idealRadius": 12.0,
+  "index": "PAGM207",
+  "lensEffect": "particles/guns/GK_Lens_250to440.xml",
+  "maxEllipseRanging": 1.003,
+  "medEllipseRanging": 1.002,
+  "minEllipseRanging": 1.001,
+  "minRadius": 2.0,
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/usa/gun/main/AGM207_12in50_Mk8_Twin/AGM207_12in50_Mk8_Twin.model",
+  "name": "PAGM207_12in50_Mk8_Twin",
+  "numBarrels": 2,
+  "onMoveTarPosCoeffDelim": 1.001,
+  "onMoveTarPosCoeffMaxDist": 1.002,
+  "onMoveTarPosCoeffZero": 1.0,
+  "onMoveTarPosDelim": 0.1,
+  "pitchDeadZones": [],
+  "position": [
+   0,
+   0
+  ],
+  "purgingEffect": "particles/guns/GK_Purging_170to350.xml",
+  "radiusOnDelim": 0.5,
+  "radiusOnMax": 0.6,
+  "radiusOnZero": 0.2,
+  "reduceTime": 0.1,
+  "reloadBoostEffect": "particles/guns/GK_Reload_350to440.xml",
+  "rotationSpeed": [
+   6.0,
+   12.0
+  ],
+  "shotDelay": 20.0,
+  "shotEffect": "particles/guns/GK_Shot_350to440.xml",
+  "smallGun": null,
+  "smokePenalty": 0.0001,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Main",
+   "type": "Gun"
+  },
+  "vertSector": [
+   -3.0,
+   45.0
   ]
  },
  {
@@ -10367,14 +10496,14 @@
    "volumeCoeff": 1.0
   },
   "antiAirAuraDistance": 67.0,
-  "antiAirAuraStrength": 0.036,
+  "antiAirAuraStrength": 0.054,
   "barrelDiameter": 0.02,
-  "deadMesh": "content/gameplay/usa/gun/aaircraft/AGA003_20mm_Oerlikon_MK4/AGA003_20mm_Oerlikon_MK4_dead.model",
-  "id": 4291815408,
-  "index": "PAGA003",
-  "model": "content/gameplay/usa/gun/aaircraft/AGA003_20mm_Oerlikon_MK4/AGA003_20mm_Oerlikon_MK4.model",
-  "name": "PAGA003_20mm_Oerlikon_MK4",
-  "numBarrels": 1.0,
+  "deadMesh": "content/gameplay/usa/gun/aaircraft/AGA214_20mm_Oerlikon_Mark14_Twin/AGA214_20mm_Oerlikon_Mark14_Twin_dead.model",
+  "id": 4070565872,
+  "index": "PAGA214",
+  "model": "content/gameplay/usa/gun/aaircraft/AGA214_20mm_Oerlikon_Mark14_Twin/AGA214_20mm_Oerlikon_Mark14_Twin.model",
+  "name": "PAGA214_20mm_Oerlikon_Mark14_Twin",
+  "numBarrels": 2,
   "shotDelay": 5.0,
   "shotEffect": "particles/guns/AA_shot.xml",
   "smallGun": null,
@@ -13857,7 +13986,7 @@
    0.0,
    0.0
   ],
-  "shotDelay": 81.0,
+  "shotDelay": 73.0,
   "shotEffect": "particles/guns/torpedo.xml",
   "shotEffectCap": "particles/Empty_FX.xml",
   "smallGun": null,
@@ -14917,6 +15046,73 @@
   ]
  },
  {
+  "HitLocationAirDefense": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "airdefense_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 600.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.8,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "antiAirAuraDistance": 133.0,
+  "antiAirAuraStrength": 0.208,
+  "barrelDiameter": 0.0762,
+  "deadMesh": "content/gameplay/usa/gun/aaircraft/AGA026_3in50_Twin_Mark_33/AGA026_3in50_Twin_Mark_33_dead.model",
+  "id": 4267698160,
+  "index": "PAGA026",
+  "model": "content/gameplay/usa/gun/aaircraft/AGA026_3in50_Twin_Mark_33/AGA026_3in50_Twin_Mark_33.model",
+  "name": "PAGA026_3in50_Twin_Mark_33",
+  "numBarrels": 2,
+  "shotDelay": 5.0,
+  "shotEffect": "particles/guns/AA_shot.xml",
+  "smallGun": null,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "AAircraft",
+   "type": "Gun"
+  }
+ },
+ {
   "HitLocationArtillery": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 1.0,
@@ -15636,73 +15832,6 @@
    -1.0,
    15.0
   ]
- },
- {
-  "HitLocationAirDefense": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 1.0,
-   "autoRepairTime": 10,
-   "autoRepairTimeMin": 5,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.0,
-    0.0
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "airdefense_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 600.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.8,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
-  "antiAirAuraDistance": -1.0,
-  "antiAirAuraStrength": -1.0,
-  "barrelDiameter": 20,
-  "deadMesh": "content/gameplay/usa/gun/aaircraft/AGA641_40mm_Bofors_Mk1_Space_LOGH/AGA641_40mm_Bofors_Mk1_Space_LOGH_dead.model",
-  "id": 3622823920,
-  "index": "PAGA641",
-  "model": "content/gameplay/usa/gun/aaircraft/AGA641_40mm_Bofors_Mk1_Space_LOGH/AGA641_40mm_Bofors_Mk1_Space_LOGH.model",
-  "name": "PAGA641_40mm_Bofors_Mk1_Space_LOGH",
-  "numBarrels": 2,
-  "shotDelay": 5.0,
-  "shotEffect": "particles/guns/AA_shot.xml",
-  "smallGun": null,
-  "typeinfo": {
-   "nation": "USA",
-   "species": "AAircraft",
-   "type": "Gun"
-  }
  },
  {
   "HitLocationTorpedo": {
@@ -16746,6 +16875,134 @@
   }
  },
  {
+  "HitLocationArtillery": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 0.0,
+   "autoRepairTime": 30,
+   "autoRepairTimeMin": 25,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.05,
+    0.75
+   ],
+   "critProbHP": [
+    1.0,
+    0.02
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "artillery_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 10000.0,
+   "moduleCritCoeffCR": 1.0,
+   "moduleCritCoeffXP": 1.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 1.0,
+   "rndPartHP": 0.0,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 0.1
+  },
+  "aiMGmaxEllipseRanging": 4.0,
+  "aiMGmedEllipseRanging": 3.7,
+  "aiMGminEllipseRanging": 3.5,
+  "ammoList": [
+   "PAPA084_Shell_406mm_HE_HC_Mk_13E",
+   "PAPA011_Shell_406mm_AP_AP_Mk_8"
+  ],
+  "antiAirAuraDistance": 0.0,
+  "antiAirAuraStrength": 0.0,
+  "armor": {
+   "1": 0.0,
+   "65568": 254.0,
+   "65569": 190.0,
+   "65571": 254.0,
+   "65635": 102.0,
+   "65636": 406.0,
+   "131171": 0.0
+  },
+  "barrelDiameter": 0.406,
+  "coeffPerSecondMin": 0.3,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_vbig.xml",
+  "deadMesh": "content/gameplay/usa/gun/main/AGM012_16in45_Mk6/AGM012_16in45_Mk6_dead.model",
+  "deadZone": [],
+  "delim": 0.5,
+  "effectIntensityModifier": 1.0,
+  "ellipseRangeMax": 250.0,
+  "ellipseRangeMin": 50.0,
+  "horizSector": [
+   -150.0,
+   150.0
+  ],
+  "id": 4281985008,
+  "idealDistance": 1000.0,
+  "idealRadius": 12.0,
+  "index": "PAGM012",
+  "lensEffect": "particles/guns/GK_Lens_440to550.xml",
+  "maxEllipseRanging": 1.003,
+  "medEllipseRanging": 1.002,
+  "minEllipseRanging": 1.001,
+  "minRadius": 2.0,
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/usa/gun/main/AGM012_16in45_Mk6/AGM012_16in45_Mk6.model",
+  "name": "PAGM012_16in45_Mk6",
+  "numBarrels": 3.0,
+  "onMoveTarPosCoeffDelim": 1.001,
+  "onMoveTarPosCoeffMaxDist": 1.002,
+  "onMoveTarPosCoeffZero": 1.0,
+  "onMoveTarPosDelim": 0.1,
+  "pitchDeadZones": [],
+  "position": [
+   0,
+   0
+  ],
+  "purgingEffect": "particles/guns/GK_Purging_350to550.xml",
+  "radiusOnDelim": 0.5,
+  "radiusOnMax": 0.6,
+  "radiusOnZero": 0.2,
+  "reduceTime": 0.1,
+  "reloadBoostEffect": "particles/guns/GK_Reload_440to550.xml",
+  "rotationSpeed": [
+   4.0,
+   12.0
+  ],
+  "shotDelay": 30.0,
+  "shotEffect": "particles/guns/GK_Shot_440to550.xml",
+  "smallGun": null,
+  "smokePenalty": 0.0001,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Main",
+   "type": "Gun"
+  },
+  "vertSector": [
+   -1.0,
+   45.0
+  ]
+ },
+ {
   "HitLocationTorpedo": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 1.0,
@@ -17074,135 +17331,6 @@
    90.0
   ],
   "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
- },
- {
-  "HitLocationArtillery": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 0.0,
-   "autoRepairTime": 30,
-   "autoRepairTimeMin": 25,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.05,
-    0.75
-   ],
-   "critProbHP": [
-    1.0,
-    0.02
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "artillery_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 7500.0,
-   "moduleCritCoeffCR": 1.0,
-   "moduleCritCoeffXP": 1.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 1.0,
-   "rndPartHP": 0.0,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 0.1
-  },
-  "aiMGmaxEllipseRanging": 4.0,
-  "aiMGmedEllipseRanging": 3.7,
-  "aiMGminEllipseRanging": 3.5,
-  "ammoList": [
-   "PAPA087_305MM_HE_ALASKA_MK17M1",
-   "PAPA088_305MM_AP_ALASKA_MK18M1"
-  ],
-  "antiAirAuraDistance": 0.0,
-  "antiAirAuraStrength": 0.0,
-  "armor": {
-   "1": 0.0,
-   "65568": 152.0,
-   "65569": 127.0,
-   "65571": 133.0,
-   "65635": 48.0,
-   "65636": 325.0,
-   "131104": 133.0,
-   "131171": 48.0
-  },
-  "barrelDiameter": 0.305,
-  "coeffPerSecondMin": 0.3,
-  "customMiscs": {},
-  "damagedEffect": "particles/guns/Gun_Broken_big.xml",
-  "deadMesh": "content/gameplay/usa/gun/main/AGM207_12in50_Mk8_Twin/AGM207_12in50_Mk8_Twin_dead.model",
-  "deadZone": [],
-  "delim": 0.5,
-  "effectIntensityModifier": 1.0,
-  "ellipseRangeMax": 250.0,
-  "ellipseRangeMin": 50.0,
-  "horizSector": [
-   -150.0,
-   150.0
-  ],
-  "id": 4077512688,
-  "idealDistance": 1000.0,
-  "idealRadius": 12.0,
-  "index": "PAGM207",
-  "lensEffect": "particles/guns/GK_Lens_250to440.xml",
-  "maxEllipseRanging": 1.003,
-  "medEllipseRanging": 1.002,
-  "minEllipseRanging": 1.001,
-  "minRadius": 2.0,
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/usa/gun/main/AGM207_12in50_Mk8_Twin/AGM207_12in50_Mk8_Twin.model",
-  "name": "PAGM207_12in50_Mk8_Twin",
-  "numBarrels": 2,
-  "onMoveTarPosCoeffDelim": 1.001,
-  "onMoveTarPosCoeffMaxDist": 1.002,
-  "onMoveTarPosCoeffZero": 1.0,
-  "onMoveTarPosDelim": 0.1,
-  "pitchDeadZones": [],
-  "position": [
-   0,
-   0
-  ],
-  "purgingEffect": "particles/guns/GK_Purging_170to350.xml",
-  "radiusOnDelim": 0.5,
-  "radiusOnMax": 0.6,
-  "radiusOnZero": 0.2,
-  "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_350to440.xml",
-  "rotationSpeed": [
-   6.0,
-   12.0
-  ],
-  "shotDelay": 20.0,
-  "shotEffect": "particles/guns/GK_Shot_350to440.xml",
-  "smallGun": null,
-  "smokePenalty": 0.0001,
-  "typeinfo": {
-   "nation": "USA",
-   "species": "Main",
-   "type": "Gun"
-  },
-  "vertSector": [
-   -3.0,
-   45.0
-  ]
  },
  {
   "HitLocationATBA": {
@@ -18694,6 +18822,73 @@
   "index": "PAGA529",
   "model": "content/gameplay/usa/gun/aaircraft/AGA529_Oerlikon_MK4/AGA529_Oerlikon_MK4.model",
   "name": "PAGA529_Oerlikon_MK4",
+  "numBarrels": 1.0,
+  "shotDelay": 5.0,
+  "shotEffect": "particles/guns/AA_shot.xml",
+  "smallGun": null,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "AAircraft",
+   "type": "Gun"
+  }
+ },
+ {
+  "HitLocationAirDefense": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "airdefense_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 600.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.8,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "antiAirAuraDistance": 67.0,
+  "antiAirAuraStrength": 0.036,
+  "barrelDiameter": 0.02,
+  "deadMesh": "content/gameplay/usa/gun/aaircraft/AGA003_20mm_Oerlikon_MK4/AGA003_20mm_Oerlikon_MK4_dead.model",
+  "id": 4291815408,
+  "index": "PAGA003",
+  "model": "content/gameplay/usa/gun/aaircraft/AGA003_20mm_Oerlikon_MK4/AGA003_20mm_Oerlikon_MK4.model",
+  "name": "PAGA003_20mm_Oerlikon_MK4",
   "numBarrels": 1.0,
   "shotDelay": 5.0,
   "shotEffect": "particles/guns/AA_shot.xml",
@@ -22061,134 +22256,6 @@
   "vertSector": [
    -2.0,
    60.0
-  ]
- },
- {
-  "HitLocationArtillery": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 0.0,
-   "autoRepairTime": 30,
-   "autoRepairTimeMin": 25,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.05,
-    0.75
-   ],
-   "critProbHP": [
-    1.0,
-    0.02
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "artillery_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 10000.0,
-   "moduleCritCoeffCR": 1.0,
-   "moduleCritCoeffXP": 1.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 1.0,
-   "rndPartHP": 0.0,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 0.1
-  },
-  "aiMGmaxEllipseRanging": 4.0,
-  "aiMGmedEllipseRanging": 3.7,
-  "aiMGminEllipseRanging": 3.5,
-  "ammoList": [
-   "PAPA084_Shell_406mm_HE_HC_Mk_13E",
-   "PAPA011_Shell_406mm_AP_AP_Mk_8"
-  ],
-  "antiAirAuraDistance": 0.0,
-  "antiAirAuraStrength": 0.0,
-  "armor": {
-   "1": 0.0,
-   "65568": 254.0,
-   "65569": 190.0,
-   "65571": 254.0,
-   "65635": 102.0,
-   "65636": 406.0,
-   "131171": 0.0
-  },
-  "barrelDiameter": 0.406,
-  "coeffPerSecondMin": 0.3,
-  "customMiscs": {},
-  "damagedEffect": "particles/guns/Gun_Broken_vbig.xml",
-  "deadMesh": "content/gameplay/usa/gun/main/AGM012_16in45_Mk6/AGM012_16in45_Mk6_dead.model",
-  "deadZone": [],
-  "delim": 0.5,
-  "effectIntensityModifier": 1.0,
-  "ellipseRangeMax": 250.0,
-  "ellipseRangeMin": 50.0,
-  "horizSector": [
-   -150.0,
-   150.0
-  ],
-  "id": 4281985008,
-  "idealDistance": 1000.0,
-  "idealRadius": 12.0,
-  "index": "PAGM012",
-  "lensEffect": "particles/guns/GK_Lens_440to550.xml",
-  "maxEllipseRanging": 1.003,
-  "medEllipseRanging": 1.002,
-  "minEllipseRanging": 1.001,
-  "minRadius": 2.0,
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/usa/gun/main/AGM012_16in45_Mk6/AGM012_16in45_Mk6.model",
-  "name": "PAGM012_16in45_Mk6",
-  "numBarrels": 3.0,
-  "onMoveTarPosCoeffDelim": 1.001,
-  "onMoveTarPosCoeffMaxDist": 1.002,
-  "onMoveTarPosCoeffZero": 1.0,
-  "onMoveTarPosDelim": 0.1,
-  "pitchDeadZones": [],
-  "position": [
-   0,
-   0
-  ],
-  "purgingEffect": "particles/guns/GK_Purging_350to550.xml",
-  "radiusOnDelim": 0.5,
-  "radiusOnMax": 0.6,
-  "radiusOnZero": 0.2,
-  "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_440to550.xml",
-  "rotationSpeed": [
-   4.0,
-   12.0
-  ],
-  "shotDelay": 30.0,
-  "shotEffect": "particles/guns/GK_Shot_440to550.xml",
-  "smallGun": null,
-  "smokePenalty": 0.0001,
-  "typeinfo": {
-   "nation": "USA",
-   "species": "Main",
-   "type": "Gun"
-  },
-  "vertSector": [
-   -1.0,
-   45.0
   ]
  }
 ]

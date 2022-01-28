@@ -136,8 +136,7 @@
   "airHitEffect": "particles/airplanes/Air_hit_1.xml",
   "airSmokeEffects": [
    "particles/airplanes/Air_state_1_smoke.xml",
-   "particles/airplanes/Air_state_2_smoke.xml",
-   "particles/airplanes/Air_state_3_smoke.xml"
+   "particles/airplanes/Air_state_2_smoke.xml"
   ],
   "angleOfClimb": 60.0,
   "angleOfDive": -75.0,
@@ -155,6 +154,8 @@
   "bombFallingTime": 0.3,
   "bombName": "PZPR001_SANZANG_STOCK",
   "bombingDropPointTime": 0.1,
+  "canDestroy": true,
+  "canStop": false,
   "climbSpeedCoef": 0.8,
   "climbSpeedCoefAiming": 1,
   "climbSpeedCoefPreparation": 1,
@@ -639,8 +640,7 @@
    2.52,
    1.01
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
+  "isAirShip": false,
   "isJatoBoosterDetachable": true,
   "jatoBoosterModel": "",
   "jatoDuration": 0.0,
@@ -651,6 +651,7 @@
   "jatoSpeedMultiplier": 2.0,
   "jatoVehicleEffect": "particles/airplanes/Air_torpedo_ground_1.xml",
   "jatoWaterEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "jetEngineEffect": "particles/airplanes/Air_jet.xml",
   "keyboardTurnStrength": 0.5,
   "launchCameraDistance": [
    -4.0,
@@ -856,9 +857,12 @@
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
+  "permanentlyVisibleByEnemies": false,
+  "permanentlyVisibleByTeammates": false,
   "pitchChangeRate": 1000,
   "planePitchAccelerationTime": 0.5,
   "planeSpeedupCoef": 2,
+  "planeSubtype": [],
   "planeToPlaneAnimationEasing": "CubicInOut",
   "planeYawAccelerationTime": 1.0,
   "postAttackInvulnerabilityDuration": 3.5,
@@ -1124,8 +1128,7 @@
   "airHitEffect": "particles/airplanes/Air_hit_1.xml",
   "airSmokeEffects": [
    "particles/airplanes/Air_state_1_smoke.xml",
-   "particles/airplanes/Air_state_2_smoke.xml",
-   "particles/airplanes/Air_state_3_smoke.xml"
+   "particles/airplanes/Air_state_2_smoke.xml"
   ],
   "angleOfClimb": 60.0,
   "angleOfDive": -75.0,
@@ -1143,6 +1146,8 @@
   "bombFallingTime": 0.3,
   "bombName": "PAPR104_Langley_stock",
   "bombingDropPointTime": 0.1,
+  "canDestroy": true,
+  "canStop": false,
   "climbSpeedCoef": 0.8,
   "climbSpeedCoefAiming": 1,
   "climbSpeedCoefPreparation": 1,
@@ -1827,8 +1832,7 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
+  "isAirShip": false,
   "isJatoBoosterDetachable": true,
   "jatoBoosterModel": "",
   "jatoDuration": 0.0,
@@ -1839,6 +1843,7 @@
   "jatoSpeedMultiplier": 2.0,
   "jatoVehicleEffect": "particles/airplanes/Air_torpedo_ground_1.xml",
   "jatoWaterEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "jetEngineEffect": "particles/airplanes/Air_jet.xml",
   "keyboardTurnStrength": 0.5,
   "launchCameraDistance": [
    -4.0,
@@ -2048,9 +2053,14 @@
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
+  "permanentlyVisibleByEnemies": false,
+  "permanentlyVisibleByTeammates": false,
   "pitchChangeRate": 1000,
   "planePitchAccelerationTime": 0.5,
   "planeSpeedupCoef": 2,
+  "planeSubtype": [
+   "consumable"
+  ],
   "planeToPlaneAnimationEasing": "CubicInOut",
   "planeYawAccelerationTime": 1.0,
   "postAttackInvulnerabilityDuration": 3.5,
@@ -2331,8 +2341,7 @@
   "airHitEffect": "particles/airplanes/Air_hit_1.xml",
   "airSmokeEffects": [
    "particles/airplanes/Air_state_1_smoke.xml",
-   "particles/airplanes/Air_state_2_smoke.xml",
-   "particles/airplanes/Air_state_3_smoke.xml"
+   "particles/airplanes/Air_state_2_smoke.xml"
   ],
   "angleOfClimb": 60.0,
   "angleOfDive": -75.0,
@@ -2350,6 +2359,8 @@
   "bombFallingTime": 0.3,
   "bombName": "PZPT029_SANZANG_STOCK",
   "bombingDropPointTime": 0.1,
+  "canDestroy": true,
+  "canStop": false,
   "climbSpeedCoef": 0.8,
   "climbSpeedCoefAiming": 1,
   "climbSpeedCoefPreparation": 1,
@@ -2829,8 +2840,7 @@
   },
   "id": 3559881936,
   "index": "PZAB701",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
+  "isAirShip": false,
   "isJatoBoosterDetachable": true,
   "jatoBoosterModel": "",
   "jatoDuration": 0.0,
@@ -2841,6 +2851,7 @@
   "jatoSpeedMultiplier": 2.0,
   "jatoVehicleEffect": "particles/airplanes/Air_torpedo_ground_1.xml",
   "jatoWaterEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "jetEngineEffect": "particles/airplanes/Air_jet.xml",
   "keyboardTurnStrength": 0.5,
   "launchCameraDistance": [
    -4.0,
@@ -3036,9 +3047,12 @@
   "numPlanesInSquadron": 6,
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
+  "permanentlyVisibleByEnemies": false,
+  "permanentlyVisibleByTeammates": false,
   "pitchChangeRate": 200,
   "planePitchAccelerationTime": 0.5,
   "planeSpeedupCoef": 2,
+  "planeSubtype": [],
   "planeToPlaneAnimationEasing": null,
   "planeYawAccelerationTime": 1.0,
   "postAttackInvulnerabilityDuration": 3.5,
@@ -3304,8 +3318,7 @@
   "airHitEffect": "particles/airplanes/Air_hit_1.xml",
   "airSmokeEffects": [
    "particles/airplanes/Air_state_1_smoke.xml",
-   "particles/airplanes/Air_state_2_smoke.xml",
-   "particles/airplanes/Air_state_3_smoke.xml"
+   "particles/airplanes/Air_state_2_smoke.xml"
   ],
   "angleOfClimb": 60.0,
   "angleOfDive": -75.0,
@@ -3323,6 +3336,8 @@
   "bombFallingTime": 0.3,
   "bombName": "PAPR104_Langley_stock",
   "bombingDropPointTime": 0.1,
+  "canDestroy": true,
+  "canStop": false,
   "climbSpeedCoef": 0.8,
   "climbSpeedCoefAiming": 1,
   "climbSpeedCoefPreparation": 1,
@@ -4007,8 +4022,7 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
+  "isAirShip": false,
   "isJatoBoosterDetachable": true,
   "jatoBoosterModel": "",
   "jatoDuration": 0.0,
@@ -4019,6 +4033,7 @@
   "jatoSpeedMultiplier": 2.0,
   "jatoVehicleEffect": "particles/airplanes/Air_torpedo_ground_1.xml",
   "jatoWaterEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "jetEngineEffect": "particles/airplanes/Air_jet.xml",
   "keyboardTurnStrength": 0.5,
   "launchCameraDistance": [
    -4.0,
@@ -4228,9 +4243,14 @@
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
+  "permanentlyVisibleByEnemies": false,
+  "permanentlyVisibleByTeammates": false,
   "pitchChangeRate": 1000,
   "planePitchAccelerationTime": 0.5,
   "planeSpeedupCoef": 2,
+  "planeSubtype": [
+   "consumable"
+  ],
   "planeToPlaneAnimationEasing": "CubicInOut",
   "planeYawAccelerationTime": 1.0,
   "postAttackInvulnerabilityDuration": 3.5,
@@ -4506,8 +4526,7 @@
   "airHitEffect": "particles/airplanes/Air_hit_1.xml",
   "airSmokeEffects": [
    "particles/airplanes/Air_state_1_smoke.xml",
-   "particles/airplanes/Air_state_2_smoke.xml",
-   "particles/airplanes/Air_state_3_smoke.xml"
+   "particles/airplanes/Air_state_2_smoke.xml"
   ],
   "angleOfClimb": 60.0,
   "angleOfDive": -75.0,
@@ -4525,6 +4544,8 @@
   "bombFallingTime": 0.3,
   "bombName": "PCPD011_Small",
   "bombingDropPointTime": 0.1,
+  "canDestroy": true,
+  "canStop": false,
   "climbSpeedCoef": 0.8,
   "climbSpeedCoefAiming": 1,
   "climbSpeedCoefPreparation": 1,
@@ -5029,8 +5050,7 @@
    4.0,
    0.5
   ],
-  "isAirSupportPlane": true,
-  "isConsumablePlane": true,
+  "isAirShip": false,
   "isJatoBoosterDetachable": true,
   "jatoBoosterModel": "",
   "jatoDuration": 0.0,
@@ -5041,6 +5061,7 @@
   "jatoSpeedMultiplier": 2.0,
   "jatoVehicleEffect": "particles/airplanes/Air_torpedo_ground_1.xml",
   "jatoWaterEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "jetEngineEffect": "particles/airplanes/Air_jet.xml",
   "keyboardTurnStrength": 0.5,
   "launchCameraDistance": [
    -4.0,
@@ -5246,9 +5267,15 @@
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
+  "permanentlyVisibleByEnemies": false,
+  "permanentlyVisibleByTeammates": false,
   "pitchChangeRate": 300,
   "planePitchAccelerationTime": 0.5,
   "planeSpeedupCoef": 2,
+  "planeSubtype": [
+   "consumable",
+   "airsupport"
+  ],
   "planeToPlaneAnimationEasing": null,
   "planeYawAccelerationTime": 1.0,
   "postAttackInvulnerabilityDuration": 3.5,
@@ -5514,8 +5541,7 @@
   "airHitEffect": "particles/airplanes/Air_hit_1.xml",
   "airSmokeEffects": [
    "particles/airplanes/Air_state_1_smoke.xml",
-   "particles/airplanes/Air_state_2_smoke.xml",
-   "particles/airplanes/Air_state_3_smoke.xml"
+   "particles/airplanes/Air_state_2_smoke.xml"
   ],
   "angleOfClimb": 35.0,
   "angleOfDive": -75.0,
@@ -5533,6 +5559,8 @@
   "bombFallingTime": 0.3,
   "bombName": "",
   "bombingDropPointTime": 0.1,
+  "canDestroy": true,
+  "canStop": false,
   "climbSpeedCoef": 0.7,
   "climbSpeedCoefAiming": 1,
   "climbSpeedCoefPreparation": 1,
@@ -6142,8 +6170,7 @@
   },
   "id": 4289133776,
   "index": "PZAS005",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
+  "isAirShip": false,
   "isJatoBoosterDetachable": true,
   "jatoBoosterModel": "",
   "jatoDuration": 0.0,
@@ -6154,6 +6181,7 @@
   "jatoSpeedMultiplier": 2.0,
   "jatoVehicleEffect": "particles/airplanes/Air_torpedo_ground_1.xml",
   "jatoWaterEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "jetEngineEffect": "particles/airplanes/Air_jet.xml",
   "keyboardTurnStrength": 0.5,
   "launchCameraDistance": [
    -4.0,
@@ -6349,9 +6377,14 @@
   "numPlanesInSquadron": 1,
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
+  "permanentlyVisibleByEnemies": false,
+  "permanentlyVisibleByTeammates": false,
   "pitchChangeRate": 100,
   "planePitchAccelerationTime": 0.5,
   "planeSpeedupCoef": 2,
+  "planeSubtype": [
+   "consumable"
+  ],
   "planeToPlaneAnimationEasing": null,
   "planeYawAccelerationTime": 1.0,
   "postAttackInvulnerabilityDuration": 3.5,
@@ -6620,8 +6653,7 @@
   "airHitEffect": "particles/airplanes/Air_hit_1.xml",
   "airSmokeEffects": [
    "particles/airplanes/Air_state_1_smoke.xml",
-   "particles/airplanes/Air_state_2_smoke.xml",
-   "particles/airplanes/Air_state_3_smoke.xml"
+   "particles/airplanes/Air_state_2_smoke.xml"
   ],
   "angleOfClimb": 60.0,
   "angleOfDive": -75.0,
@@ -6639,6 +6671,8 @@
   "bombFallingTime": 0.3,
   "bombName": "PAPR104_Langley_stock",
   "bombingDropPointTime": 0.1,
+  "canDestroy": true,
+  "canStop": false,
   "climbSpeedCoef": 0.8,
   "climbSpeedCoefAiming": 1,
   "climbSpeedCoefPreparation": 1,
@@ -7323,8 +7357,7 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
+  "isAirShip": false,
   "isJatoBoosterDetachable": true,
   "jatoBoosterModel": "",
   "jatoDuration": 0.0,
@@ -7335,6 +7368,7 @@
   "jatoSpeedMultiplier": 2.0,
   "jatoVehicleEffect": "particles/airplanes/Air_torpedo_ground_1.xml",
   "jatoWaterEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "jetEngineEffect": "particles/airplanes/Air_jet.xml",
   "keyboardTurnStrength": 0.5,
   "launchCameraDistance": [
    -4.0,
@@ -7544,9 +7578,14 @@
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
+  "permanentlyVisibleByEnemies": false,
+  "permanentlyVisibleByTeammates": false,
   "pitchChangeRate": 1000,
   "planePitchAccelerationTime": 0.5,
   "planeSpeedupCoef": 2,
+  "planeSubtype": [
+   "consumable"
+  ],
   "planeToPlaneAnimationEasing": "CubicInOut",
   "planeYawAccelerationTime": 1.0,
   "postAttackInvulnerabilityDuration": 3.5,
@@ -7812,8 +7851,7 @@
   "airHitEffect": "particles/airplanes/Air_hit_1.xml",
   "airSmokeEffects": [
    "particles/airplanes/Air_state_1_smoke.xml",
-   "particles/airplanes/Air_state_2_smoke.xml",
-   "particles/airplanes/Air_state_3_smoke.xml"
+   "particles/airplanes/Air_state_2_smoke.xml"
   ],
   "angleOfClimb": 60.0,
   "angleOfDive": -75.0,
@@ -7831,6 +7869,8 @@
   "bombFallingTime": 0.3,
   "bombName": "PAPR104_Langley_stock",
   "bombingDropPointTime": 0.1,
+  "canDestroy": true,
+  "canStop": false,
   "climbSpeedCoef": 0.8,
   "climbSpeedCoefAiming": 1,
   "climbSpeedCoefPreparation": 1,
@@ -8515,8 +8555,7 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
+  "isAirShip": false,
   "isJatoBoosterDetachable": true,
   "jatoBoosterModel": "",
   "jatoDuration": 0.0,
@@ -8527,6 +8566,7 @@
   "jatoSpeedMultiplier": 2.0,
   "jatoVehicleEffect": "particles/airplanes/Air_torpedo_ground_1.xml",
   "jatoWaterEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "jetEngineEffect": "particles/airplanes/Air_jet.xml",
   "keyboardTurnStrength": 0.5,
   "launchCameraDistance": [
    -4.0,
@@ -8736,9 +8776,14 @@
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
+  "permanentlyVisibleByEnemies": false,
+  "permanentlyVisibleByTeammates": false,
   "pitchChangeRate": 1000,
   "planePitchAccelerationTime": 0.5,
   "planeSpeedupCoef": 2,
+  "planeSubtype": [
+   "consumable"
+  ],
   "planeToPlaneAnimationEasing": "CubicInOut",
   "planeYawAccelerationTime": 1.0,
   "postAttackInvulnerabilityDuration": 3.5,
@@ -9014,8 +9059,7 @@
   "airHitEffect": "particles/airplanes/Air_hit_1.xml",
   "airSmokeEffects": [
    "particles/airplanes/Air_state_1_smoke.xml",
-   "particles/airplanes/Air_state_2_smoke.xml",
-   "particles/airplanes/Air_state_3_smoke.xml"
+   "particles/airplanes/Air_state_2_smoke.xml"
   ],
   "angleOfClimb": 60.0,
   "angleOfDive": -75.0,
@@ -9033,6 +9077,8 @@
   "bombFallingTime": 0.3,
   "bombName": "PZPB001_SANZANG_STOCK",
   "bombingDropPointTime": 0.1,
+  "canDestroy": true,
+  "canStop": false,
   "climbSpeedCoef": 0.8,
   "climbSpeedCoefAiming": 1,
   "climbSpeedCoefPreparation": 1,
@@ -9517,8 +9563,7 @@
    0.71,
    1.68
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
+  "isAirShip": false,
   "isJatoBoosterDetachable": true,
   "jatoBoosterModel": "",
   "jatoDuration": 0.0,
@@ -9529,6 +9574,7 @@
   "jatoSpeedMultiplier": 2.0,
   "jatoVehicleEffect": "particles/airplanes/Air_torpedo_ground_1.xml",
   "jatoWaterEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "jetEngineEffect": "particles/airplanes/Air_jet.xml",
   "keyboardTurnStrength": 0.5,
   "launchCameraDistance": [
    -4.0,
@@ -9734,9 +9780,12 @@
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
+  "permanentlyVisibleByEnemies": false,
+  "permanentlyVisibleByTeammates": false,
   "pitchChangeRate": 300,
   "planePitchAccelerationTime": 0.5,
   "planeSpeedupCoef": 2,
+  "planeSubtype": [],
   "planeToPlaneAnimationEasing": null,
   "planeYawAccelerationTime": 1.0,
   "postAttackInvulnerabilityDuration": 3.5,
@@ -10002,8 +10051,7 @@
   "airHitEffect": "particles/airplanes/Air_hit_1.xml",
   "airSmokeEffects": [
    "particles/airplanes/Air_state_1_smoke.xml",
-   "particles/airplanes/Air_state_2_smoke.xml",
-   "particles/airplanes/Air_state_3_smoke.xml"
+   "particles/airplanes/Air_state_2_smoke.xml"
   ],
   "angleOfClimb": 60.0,
   "angleOfDive": -75.0,
@@ -10021,6 +10069,8 @@
   "bombFallingTime": 0.3,
   "bombName": "PAPR104_Langley_stock",
   "bombingDropPointTime": 0.1,
+  "canDestroy": true,
+  "canStop": false,
   "climbSpeedCoef": 0.8,
   "climbSpeedCoefAiming": 1,
   "climbSpeedCoefPreparation": 1,
@@ -10705,8 +10755,7 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
+  "isAirShip": false,
   "isJatoBoosterDetachable": true,
   "jatoBoosterModel": "",
   "jatoDuration": 0.0,
@@ -10717,6 +10766,7 @@
   "jatoSpeedMultiplier": 2.0,
   "jatoVehicleEffect": "particles/airplanes/Air_torpedo_ground_1.xml",
   "jatoWaterEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "jetEngineEffect": "particles/airplanes/Air_jet.xml",
   "keyboardTurnStrength": 0.5,
   "launchCameraDistance": [
    -4.0,
@@ -10926,9 +10976,12 @@
   ],
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
+  "permanentlyVisibleByEnemies": false,
+  "permanentlyVisibleByTeammates": false,
   "pitchChangeRate": 1000,
   "planePitchAccelerationTime": 0.5,
   "planeSpeedupCoef": 2,
+  "planeSubtype": 1,
   "planeToPlaneAnimationEasing": "CubicInOut",
   "planeYawAccelerationTime": 1.0,
   "postAttackInvulnerabilityDuration": 3.5,
@@ -11194,8 +11247,7 @@
   "airHitEffect": "particles/airplanes/Air_hit_1.xml",
   "airSmokeEffects": [
    "particles/airplanes/Air_state_1_smoke.xml",
-   "particles/airplanes/Air_state_2_smoke.xml",
-   "particles/airplanes/Air_state_3_smoke.xml"
+   "particles/airplanes/Air_state_2_smoke.xml"
   ],
   "angleOfClimb": 60.0,
   "angleOfDive": -75.0,
@@ -11213,6 +11265,8 @@
   "bombFallingTime": 0.3,
   "bombName": "",
   "bombingDropPointTime": 0.1,
+  "canDestroy": true,
+  "canStop": false,
   "climbSpeedCoef": 0.8,
   "climbSpeedCoefAiming": 1,
   "climbSpeedCoefPreparation": 1,
@@ -11822,8 +11876,7 @@
   },
   "id": 4288085200,
   "index": "PZAS006",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
+  "isAirShip": false,
   "isJatoBoosterDetachable": true,
   "jatoBoosterModel": "",
   "jatoDuration": 0.0,
@@ -11834,6 +11887,7 @@
   "jatoSpeedMultiplier": 2.0,
   "jatoVehicleEffect": "particles/airplanes/Air_torpedo_ground_1.xml",
   "jatoWaterEffect": "particles/airplanes/Air_torpedo_drop.xml",
+  "jetEngineEffect": "particles/airplanes/Air_jet.xml",
   "keyboardTurnStrength": 0.5,
   "launchCameraDistance": [
    -4.0,
@@ -12029,9 +12083,14 @@
   "numPlanesInSquadron": 1,
   "overMaxThrottleMultiplier": 5.0,
   "parentAttackDuration": 0.0,
+  "permanentlyVisibleByEnemies": false,
+  "permanentlyVisibleByTeammates": false,
   "pitchChangeRate": 100,
   "planePitchAccelerationTime": 0.5,
   "planeSpeedupCoef": 2,
+  "planeSubtype": [
+   "consumable"
+  ],
   "planeToPlaneAnimationEasing": null,
   "planeYawAccelerationTime": 1.0,
   "postAttackInvulnerabilityDuration": 3.5,

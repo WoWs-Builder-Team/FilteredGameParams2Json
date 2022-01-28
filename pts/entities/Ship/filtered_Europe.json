@@ -1,545 +1,6 @@
 [
  {
   "ModulesArmaments": {
-   "AB1_FireControl": {
-    "maxDistCoef": 1.0,
-    "sigmaCountCoef": 1.0
-   },
-   "AB2_FireControl": {
-    "maxDistCoef": 1.1,
-    "sigmaCountCoef": 1.0
-   },
-   "AB_Engine": {
-    "HitLocationEngine": {
-     "armorCoeff": 0.8
-    },
-    "backwardEngineUpTime": 10.0,
-    "forwardEngineUpTime": 20.0,
-    "speedCoef": 0.0
-   },
-   "A_Artillery": {
-    "guns": {
-     "HP_WGM_1": {
-      "ammoList": [
-       "PWPA014_100MM_HE_50_K11",
-       "PWPA015_100MM_AP_50_K11"
-      ],
-      "barrelDiameter": 0.1,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -145.0,
-       145.0
-      ],
-      "id": 4285130032,
-      "idealDistance": 1000.0,
-      "idealRadius": 8,
-      "index": "PWGM009",
-      "minRadius": 0.5,
-      "name": "PWGM009_100mm50_K10_Skoda",
-      "numBarrels": 1,
-      "position": [
-       0.0,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       10.0,
-       10.0
-      ],
-      "shotDelay": 4.5,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Europe",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_WGM_2": {
-      "ammoList": [
-       "PWPA014_100MM_HE_50_K11",
-       "PWPA015_100MM_AP_50_K11"
-      ],
-      "barrelDiameter": 0.1,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4285130032,
-      "idealDistance": 1000.0,
-      "idealRadius": 8,
-      "index": "PWGM009",
-      "minRadius": 0.5,
-      "name": "PWGM009_100mm50_K10_Skoda",
-      "numBarrels": 1,
-      "position": [
-       6.0,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       10.0,
-       10.0
-      ],
-      "shotDelay": 4.5,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Europe",
-       "species": "Main",
-       "type": "Gun"
-      }
-     }
-    },
-    "maxDist": 8300.0,
-    "normalDistribution": true,
-    "sigmaCount": 2.0,
-    "taperDist": 4000.0
-   },
-   "A_Hull": {
-    "SG": {
-     "armorCoeff": 0.8
-    },
-    "burnNodes": [
-     [
-      1.0,
-      0.3,
-      30.0
-     ],
-     [
-      1.0,
-      0.3,
-      30.0
-     ],
-     [
-      1.0,
-      0.3,
-      30.0
-     ],
-     [
-      1.0,
-      0.3,
-      30.0
-     ]
-    ],
-    "floodNodes": [
-     [
-      0.333,
-      0.25,
-      40.0
-     ],
-     [
-      0.333,
-      0.25,
-      40.0
-     ]
-    ],
-    "health": 7100.0,
-    "maxSpeed": 32.5,
-    "rudderTime": 3.92,
-    "size": [
-     83.44,
-     8.16,
-     7.92
-    ],
-    "speedCoef": 1.0,
-    "turningRadius": 460.0,
-    "visibilityCoefGKInSmoke": 2.0,
-    "visibilityFactor": 6.22,
-    "visibilityFactorByPlane": 2.43,
-    "visibilityFactorsBySubmarine": {
-     "DEEP_WATER": 2.0,
-     "DEEP_WATER_INVUL": 0.0,
-     "PERISCOPE": 2.43,
-     "SEMI_DEEP_WATER": 2.0,
-     "SURFACE": 0.0
-    }
-   },
-   "A_Torpedoes": {
-    "timeToChangeAmmo": 10.0,
-    "torpedoArray": {
-     "HP_WGT_1": {
-      "ammoList": [
-       "PWPT002_Torped_M1913"
-      ],
-      "barrelDiameter": 0.45,
-      "canRotate": true,
-      "deadZone": [
-       [
-        -58.0,
-        58.0
-       ],
-       [
-        140.0,
-        -140.0
-       ]
-      ],
-      "horizSector": [
-       0.0,
-       0.0
-      ],
-      "id": 4275463472,
-      "index": "PWGT018",
-      "name": "PWGT018_450mm_twin_AW",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       25.0,
-       25.0
-      ],
-      "shotDelay": 30.0,
-      "torpedoAngles": [
-       2.4,
-       4.8
-      ],
-      "typeinfo": {
-       "nation": "Europe",
-       "species": "Torpedo",
-       "type": "Gun"
-      }
-     },
-     "HP_WGT_2": {
-      "ammoList": [
-       "PWPT002_Torped_M1913"
-      ],
-      "barrelDiameter": 0.45,
-      "canRotate": true,
-      "deadZone": [
-       [
-        -59.0,
-        59.0
-       ]
-      ],
-      "horizSector": [
-       -131.0,
-       131.0
-      ],
-      "id": 4275463472,
-      "index": "PWGT018",
-      "name": "PWGT018_450mm_twin_AW",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       25.0,
-       25.0
-      ],
-      "shotDelay": 30.0,
-      "torpedoAngles": [
-       2.4,
-       4.8
-      ],
-      "typeinfo": {
-       "nation": "Europe",
-       "species": "Torpedo",
-       "type": "Gun"
-      }
-     }
-    }
-   },
-   "B_Hull": {
-    "SG": {
-     "armorCoeff": 0.8
-    },
-    "burnNodes": [
-     [
-      1.0,
-      0.3,
-      30.0
-     ],
-     [
-      1.0,
-      0.3,
-      30.0
-     ],
-     [
-      1.0,
-      0.3,
-      30.0
-     ],
-     [
-      1.0,
-      0.3,
-      30.0
-     ]
-    ],
-    "floodNodes": [
-     [
-      0.333,
-      0.25,
-      40.0
-     ],
-     [
-      0.333,
-      0.25,
-      40.0
-     ]
-    ],
-    "health": 8100.0,
-    "maxSpeed": 32.5,
-    "rudderTime": 2.8,
-    "size": [
-     83.44,
-     8.16,
-     7.92
-    ],
-    "speedCoef": 1.0,
-    "turningRadius": 460.0,
-    "visibilityCoefGKInSmoke": 2.0,
-    "visibilityFactor": 6.22,
-    "visibilityFactorByPlane": 2.43,
-    "visibilityFactorsBySubmarine": {
-     "DEEP_WATER": 2.0,
-     "DEEP_WATER_INVUL": 0.0,
-     "PERISCOPE": 2.43,
-     "SEMI_DEEP_WATER": 2.0,
-     "SURFACE": 0.0
-    }
-   },
-   "B_Torpedoes": {
-    "timeToChangeAmmo": 10.0,
-    "torpedoArray": {
-     "HP_WGT_1": {
-      "ammoList": [
-       "PWPT002_Torped_M1913"
-      ],
-      "barrelDiameter": 0.45,
-      "canRotate": true,
-      "deadZone": [
-       [
-        -64.0,
-        64.0
-       ],
-       [
-        137.0,
-        -137.0
-       ]
-      ],
-      "horizSector": [
-       0.0,
-       0.0
-      ],
-      "id": 4259734832,
-      "index": "PWGT033",
-      "name": "PWGT033_450mm_triple_AW",
-      "numBarrels": 3,
-      "rotationSpeed": [
-       25.0,
-       25.0
-      ],
-      "shotDelay": 40.0,
-      "torpedoAngles": [
-       2.6,
-       5.2
-      ],
-      "typeinfo": {
-       "nation": "Europe",
-       "species": "Torpedo",
-       "type": "Gun"
-      }
-     },
-     "HP_WGT_2": {
-      "ammoList": [
-       "PWPT002_Torped_M1913"
-      ],
-      "barrelDiameter": 0.45,
-      "canRotate": true,
-      "deadZone": [
-       [
-        -63.0,
-        63.0
-       ]
-      ],
-      "horizSector": [
-       -128.0,
-       128.0
-      ],
-      "id": 4259734832,
-      "index": "PWGT033",
-      "name": "PWGT033_450mm_triple_AW",
-      "numBarrels": 3,
-      "rotationSpeed": [
-       25.0,
-       25.0
-      ],
-      "shotDelay": 40.0,
-      "torpedoAngles": [
-       2.6,
-       5.2
-      ],
-      "typeinfo": {
-       "nation": "Europe",
-       "species": "Torpedo",
-       "type": "Gun"
-      }
-     }
-    }
-   }
-  },
-  "ShipAbilities": {
-   "AbilitySlot0": {
-    "abils": [
-     [
-      "PCY009_CrashCrewPremium",
-      "D_Gold"
-     ]
-    ],
-    "slot": 0
-   },
-   "AbilitySlot1": {
-    "abils": [
-     [
-      "PCY015_SpeedBoosterPremium",
-      "Default"
-     ]
-    ],
-    "slot": 1
-   },
-   "AbilitySlot2": {
-    "abils": [],
-    "slot": 2
-   },
-   "AbilitySlot3": {
-    "abils": [],
-    "slot": 3
-   },
-   "AbilitySlot4": {
-    "abils": [],
-    "slot": 4
-   }
-  },
-  "ShipUpgradeInfo": {
-   "PWUA101_DD2_ART_STOCK": {
-    "canBuy": true,
-    "components": {
-     "artillery": [
-      "A_Artillery"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Artillery"
-   },
-   "PWUE101_DD2_ENG_STOCK": {
-    "canBuy": true,
-    "components": {
-     "engine": [
-      "AB_Engine"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Engine"
-   },
-   "PWUH101_DD2_HULL_STOCK": {
-    "canBuy": true,
-    "components": {
-     "airArmament": [],
-     "airDefense": [],
-     "artillery": [
-      "A_Artillery"
-     ],
-     "atba": [],
-     "depthCharges": [],
-     "directors": [],
-     "finders": [],
-     "hull": [
-      "A_Hull"
-     ],
-     "pinger": [],
-     "radars": [],
-     "torpedoes": [
-      "A_Torpedoes"
-     ]
-    },
-    "disabledAbilities": [],
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Hull"
-   },
-   "PWUH102_DD2_HULL_TOP": {
-    "canBuy": true,
-    "components": {
-     "airArmament": [],
-     "airDefense": [],
-     "artillery": [
-      "A_Artillery"
-     ],
-     "atba": [],
-     "depthCharges": [],
-     "directors": [],
-     "finders": [],
-     "hull": [
-      "B_Hull"
-     ],
-     "pinger": [],
-     "radars": [],
-     "torpedoes": [
-      "B_Torpedoes"
-     ]
-    },
-    "disabledAbilities": [],
-    "nextShips": [
-     "PWSD103_Romulus"
-    ],
-    "prev": "PWUH101_DD2_HULL_STOCK",
-    "ucType": "_Hull"
-   },
-   "PWUS101_DD2_SUO_STOCK": {
-    "canBuy": true,
-    "components": {
-     "fireControl": [
-      "AB1_FireControl"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Suo"
-   },
-   "PWUS102_DD2_SUO_TOP": {
-    "canBuy": true,
-    "components": {
-     "fireControl": [
-      "AB2_FireControl"
-     ]
-    },
-    "nextShips": [],
-    "prev": "PWUS101_DD2_SUO_STOCK",
-    "ucType": "_Suo"
-   },
-   "PWUT101_DD2_TORP_STOCK": {
-    "canBuy": true,
-    "components": {
-     "torpedoes": [
-      "A_Torpedoes",
-      "B_Torpedoes"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Torpedoes"
-   },
-   "costCR": 72000,
-   "costGold": 0,
-   "costSaleGold": 0,
-   "costXP": 350,
-   "value": 1
-  },
-  "group": "upgradeable",
-  "id": 4187895088,
-  "index": "PWSD102",
-  "level": 2,
-  "name": "PWSD102_Tatra",
-  "typeinfo": {
-   "nation": "Europe",
-   "species": "Destroyer",
-   "type": "Ship"
-  }
- },
- {
-  "ModulesArmaments": {
    "A_AirDefense": {
     "Medium1": {
      "areaDamage": 81.0,
@@ -759,6 +220,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "A_Engine": {
@@ -1179,6 +641,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "A_Engine": {
@@ -2148,522 +1611,6 @@
  },
  {
   "ModulesArmaments": {
-   "A1_Artillery": {
-    "Far1": {
-     "areaDamage": 41.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 1.0,
-     "innerBubbleCount": 0.0,
-     "maxDistance": 6000.0,
-     "minDistance": 100.0,
-     "type": "far"
-    },
-    "Far1_Bubbles": {
-     "areaDamage": 0.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 270.0,
-     "hitChance": 1.0,
-     "innerBubbleCount": 5.0,
-     "maxDistance": 6000.0,
-     "minDistance": 3500.0,
-     "type": "far"
-    },
-    "guns": {
-     "HP_WGM_1": {
-      "ammoList": [
-       "PWPA016_120_HE_50_M50",
-       "PWPA017_120_AP_50_M50"
-      ],
-      "barrelDiameter": 0.12,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -152.0,
-       152.0
-      ],
-      "id": 4279887152,
-      "idealDistance": 1000.0,
-      "idealRadius": 8,
-      "index": "PWGM014",
-      "minRadius": 0.5,
-      "name": "PWGM014_120mm_50_Bofors_M50",
-      "numBarrels": 2,
-      "position": [
-       1.0,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       25.0,
-       40.0
-      ],
-      "shotDelay": 2.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Europe",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_WGM_2": {
-      "ammoList": [
-       "PWPA016_120_HE_50_M50",
-       "PWPA017_120_AP_50_M50"
-      ],
-      "barrelDiameter": 0.12,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -149.0,
-       149.0
-      ],
-      "id": 4279887152,
-      "idealDistance": 1000.0,
-      "idealRadius": 8,
-      "index": "PWGM014",
-      "minRadius": 0.5,
-      "name": "PWGM014_120mm_50_Bofors_M50",
-      "numBarrels": 2,
-      "position": [
-       5.0,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       25.0,
-       40.0
-      ],
-      "shotDelay": 2.0,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Europe",
-       "species": "Main",
-       "type": "Gun"
-      }
-     }
-    },
-    "maxDist": 10450.0,
-    "normalDistribution": true,
-    "sigmaCount": 2.0,
-    "taperDist": 4000.0
-   },
-   "A1_FireControl": {
-    "maxDistCoef": 1.0,
-    "sigmaCountCoef": 1.0
-   },
-   "A1_Torpedoes": {
-    "timeToChangeAmmo": 10.0,
-    "torpedoArray": {
-     "HP_WGT_1": {
-      "ammoList": [
-       "PWPT010_Torped_M1947_mod1"
-      ],
-      "barrelDiameter": 0.533,
-      "canRotate": true,
-      "deadZone": [
-       [
-        -63.0,
-        63.0
-       ],
-       [
-        118.0,
-        -118.0
-       ]
-      ],
-      "horizSector": [
-       0.0,
-       0.0
-      ],
-      "id": 4260783408,
-      "index": "PWGT032",
-      "name": "PWGT032_533mm_5tube_SW",
-      "numBarrels": 5,
-      "rotationSpeed": [
-       25.0,
-       25.0
-      ],
-      "shotDelay": 100.0,
-      "torpedoAngles": [
-       3.0,
-       6.0
-      ],
-      "typeinfo": {
-       "nation": "Europe",
-       "species": "Torpedo",
-       "type": "Gun"
-      }
-     },
-     "HP_WGT_2": {
-      "ammoList": [
-       "PWPT010_Torped_M1947_mod1"
-      ],
-      "barrelDiameter": 0.533,
-      "canRotate": true,
-      "deadZone": [
-       [
-        -64.0,
-        64.0
-       ],
-       [
-        119.0,
-        -119.0
-       ]
-      ],
-      "horizSector": [
-       0.0,
-       0.0
-      ],
-      "id": 4260783408,
-      "index": "PWGT032",
-      "name": "PWGT032_533mm_5tube_SW",
-      "numBarrels": 5,
-      "rotationSpeed": [
-       25.0,
-       25.0
-      ],
-      "shotDelay": 100.0,
-      "torpedoAngles": [
-       3.0,
-       6.0
-      ],
-      "typeinfo": {
-       "nation": "Europe",
-       "species": "Torpedo",
-       "type": "Gun"
-      }
-     }
-    }
-   },
-   "A_AirDefense": {
-    "Medium1": {
-     "areaDamage": 75.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 1.0,
-     "innerBubbleCount": 0,
-     "maxDistance": 4000.0,
-     "minDistance": 100.0,
-     "type": "medium"
-    },
-    "Medium2": {
-     "areaDamage": 24.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 1.0,
-     "innerBubbleCount": 0,
-     "maxDistance": 4000.0,
-     "minDistance": 100.0,
-     "type": "medium"
-    },
-    "isAA": true
-   },
-   "A_DepthChargeGuns": {
-    "depthCharges": {
-     "HP_WGB_1": {
-      "ammoList": [
-       "PHPD004_375MM"
-      ],
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4254033200,
-      "index": "PWGB039",
-      "name": "PWGB039_Bofors_375mm_model_1950",
-      "numBombs": 4,
-      "rotationSpeed": [
-       0.0,
-       0.0
-      ],
-      "typeinfo": {
-       "nation": "Europe",
-       "species": "DCharge",
-       "type": "Gun"
-      }
-     },
-     "HP_WGB_2": {
-      "ammoList": [
-       "PHPD004_375MM"
-      ],
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4254033200,
-      "index": "PWGB039",
-      "name": "PWGB039_Bofors_375mm_model_1950",
-      "numBombs": 4,
-      "rotationSpeed": [
-       0.0,
-       0.0
-      ],
-      "typeinfo": {
-       "nation": "Europe",
-       "species": "DCharge",
-       "type": "Gun"
-      }
-     },
-     "HP_WGB_3": {
-      "ammoList": [
-       "PWPD004_375"
-      ],
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4239353136,
-      "index": "PWGB053",
-      "name": "PWGB053_Smaland_Depth_Charge_fake",
-      "numBombs": 0,
-      "rotationSpeed": [
-       0.0,
-       0.0
-      ],
-      "typeinfo": {
-       "nation": "Europe",
-       "species": "DCharge",
-       "type": "Gun"
-      }
-     },
-     "HP_WGB_4": {
-      "ammoList": [
-       "PWPD004_375"
-      ],
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4239353136,
-      "index": "PWGB053",
-      "name": "PWGB053_Smaland_Depth_Charge_fake",
-      "numBombs": 0,
-      "rotationSpeed": [
-       0.0,
-       0.0
-      ],
-      "typeinfo": {
-       "nation": "Europe",
-       "species": "DCharge",
-       "type": "Gun"
-      }
-     }
-    },
-    "maxPacks": 2,
-    "reloadTime": 40.0
-   },
-   "A_Engine": {
-    "HitLocationEngine": {
-     "armorCoeff": 0.8
-    },
-    "backwardEngineUpTime": 10.0,
-    "forwardEngineUpTime": 20.0,
-    "speedCoef": 0.0
-   },
-   "A_Hull": {
-    "SG": {
-     "armorCoeff": 0.6
-    },
-    "burnNodes": [
-     [
-      0.5005,
-      0.3,
-      30.0
-     ],
-     [
-      0.5005,
-      0.3,
-      30.0
-     ],
-     [
-      0.5005,
-      0.3,
-      30.0
-     ],
-     [
-      0.5005,
-      0.3,
-      30.0
-     ]
-    ],
-    "floodNodes": [
-     [
-      0.333,
-      0.25,
-      40.0
-     ],
-     [
-      0.333,
-      0.25,
-      40.0
-     ]
-    ],
-    "health": 19200.0,
-    "maxSpeed": 35.0,
-    "rudderTime": 5.6,
-    "size": [
-     120.52,
-     12.61,
-     16.83
-    ],
-    "speedCoef": 1.0,
-    "turningRadius": 660.0,
-    "visibilityCoefGKInSmoke": 2.73,
-    "visibilityFactor": 7.62,
-    "visibilityFactorByPlane": 3.38,
-    "visibilityFactorsBySubmarine": {
-     "DEEP_WATER": 2.0,
-     "DEEP_WATER_INVUL": 0.0,
-     "PERISCOPE": 3.38,
-     "SEMI_DEEP_WATER": 2.0,
-     "SURFACE": 0.0
-    }
-   }
-  },
-  "ShipAbilities": {
-   "AbilitySlot0": {
-    "abils": [
-     [
-      "PCY009_CrashCrewPremium",
-      "D_Gold"
-     ]
-    ],
-    "slot": 0
-   },
-   "AbilitySlot1": {
-    "abils": [
-     [
-      "PCY015_SpeedBoosterPremium",
-      "Default"
-     ]
-    ],
-    "slot": 1
-   },
-   "AbilitySlot2": {
-    "abils": [
-     [
-      "PCY010_RegenCrewPremium",
-      "EU_DD_High"
-     ]
-    ],
-    "slot": 2
-   },
-   "AbilitySlot3": {
-    "abils": [
-     [
-      "PCY011_AirDefenseDispPremium",
-      "Default_Gold"
-     ]
-    ],
-    "slot": 3
-   },
-   "AbilitySlot4": {
-    "abils": [],
-    "slot": 4
-   }
-  },
-  "ShipUpgradeInfo": {
-   "PWUA904_DD10_ART_TST_LAPPLAND": {
-    "canBuy": true,
-    "components": {
-     "artillery": [
-      "A1_Artillery"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Artillery"
-   },
-   "PWUE904_DD10_ENG_TST_LAPPLAND": {
-    "canBuy": true,
-    "components": {
-     "engine": [
-      "A_Engine"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Engine"
-   },
-   "PWUH904_DD10_HULL_TST_LAPPLAND": {
-    "canBuy": true,
-    "components": {
-     "airArmament": [],
-     "airDefense": [
-      "A_AirDefense"
-     ],
-     "artillery": [
-      "A1_Artillery"
-     ],
-     "atba": [],
-     "depthCharges": [
-      "A_DepthChargeGuns"
-     ],
-     "directors": [
-      "A_Directors"
-     ],
-     "finders": [],
-     "hull": [
-      "A_Hull"
-     ],
-     "pinger": [],
-     "radars": [
-      "A_Radars"
-     ],
-     "torpedoes": [
-      "A1_Torpedoes"
-     ]
-    },
-    "disabledAbilities": [],
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Hull"
-   },
-   "PWUS905_DD10_SUO_TST_LAPPLAND": {
-    "canBuy": true,
-    "components": {
-     "fireControl": [
-      "A1_FireControl"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Suo"
-   },
-   "PWUT904_DD10_TORP_TST_LAPPLAND": {
-    "canBuy": true,
-    "components": {
-     "torpedoes": [
-      "A1_Torpedoes"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Torpedoes"
-   },
-   "costCR": 0,
-   "costGold": 0,
-   "costSaleGold": 0,
-   "costXP": 0,
-   "value": 1
-  },
-  "group": "demoWithoutStats",
-  "id": 3340645680,
-  "index": "PWSD910",
-  "level": 10,
-  "name": "PWSD910_Lappland",
-  "typeinfo": {
-   "nation": "Europe",
-   "species": "Destroyer",
-   "type": "Ship"
-  }
- },
- {
-  "ModulesArmaments": {
    "A_ATBA": {
     "AuraFar": {
      "areaDamage": 2.0,
@@ -2983,6 +1930,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40
    },
    "A_Engine": {
@@ -3877,6 +2825,523 @@
  },
  {
   "ModulesArmaments": {
+   "A1_Artillery": {
+    "Far1": {
+     "areaDamage": 41.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 1.0,
+     "innerBubbleCount": 0.0,
+     "maxDistance": 6000.0,
+     "minDistance": 100.0,
+     "type": "far"
+    },
+    "Far1_Bubbles": {
+     "areaDamage": 0.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 270.0,
+     "hitChance": 1.0,
+     "innerBubbleCount": 5.0,
+     "maxDistance": 6000.0,
+     "minDistance": 3500.0,
+     "type": "far"
+    },
+    "guns": {
+     "HP_WGM_1": {
+      "ammoList": [
+       "PWPA016_120_HE_50_M50",
+       "PWPA017_120_AP_50_M50"
+      ],
+      "barrelDiameter": 0.12,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -152.0,
+       152.0
+      ],
+      "id": 4279887152,
+      "idealDistance": 1000.0,
+      "idealRadius": 8,
+      "index": "PWGM014",
+      "minRadius": 0.5,
+      "name": "PWGM014_120mm_50_Bofors_M50",
+      "numBarrels": 2,
+      "position": [
+       1.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       25.0,
+       40.0
+      ],
+      "shotDelay": 2.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Europe",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_WGM_2": {
+      "ammoList": [
+       "PWPA016_120_HE_50_M50",
+       "PWPA017_120_AP_50_M50"
+      ],
+      "barrelDiameter": 0.12,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -149.0,
+       149.0
+      ],
+      "id": 4279887152,
+      "idealDistance": 1000.0,
+      "idealRadius": 8,
+      "index": "PWGM014",
+      "minRadius": 0.5,
+      "name": "PWGM014_120mm_50_Bofors_M50",
+      "numBarrels": 2,
+      "position": [
+       5.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       25.0,
+       40.0
+      ],
+      "shotDelay": 2.0,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Europe",
+       "species": "Main",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 10450.0,
+    "normalDistribution": true,
+    "sigmaCount": 2.0,
+    "taperDist": 4000.0
+   },
+   "A1_FireControl": {
+    "maxDistCoef": 1.0,
+    "sigmaCountCoef": 1.0
+   },
+   "A1_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
+    "torpedoArray": {
+     "HP_WGT_1": {
+      "ammoList": [
+       "PWPT010_Torped_M1947_mod1"
+      ],
+      "barrelDiameter": 0.533,
+      "canRotate": true,
+      "deadZone": [
+       [
+        -63.0,
+        63.0
+       ],
+       [
+        118.0,
+        -118.0
+       ]
+      ],
+      "horizSector": [
+       0.0,
+       0.0
+      ],
+      "id": 4260783408,
+      "index": "PWGT032",
+      "name": "PWGT032_533mm_5tube_SW",
+      "numBarrels": 5,
+      "rotationSpeed": [
+       25.0,
+       25.0
+      ],
+      "shotDelay": 100.0,
+      "torpedoAngles": [
+       3.0,
+       6.0
+      ],
+      "typeinfo": {
+       "nation": "Europe",
+       "species": "Torpedo",
+       "type": "Gun"
+      }
+     },
+     "HP_WGT_2": {
+      "ammoList": [
+       "PWPT010_Torped_M1947_mod1"
+      ],
+      "barrelDiameter": 0.533,
+      "canRotate": true,
+      "deadZone": [
+       [
+        -64.0,
+        64.0
+       ],
+       [
+        119.0,
+        -119.0
+       ]
+      ],
+      "horizSector": [
+       0.0,
+       0.0
+      ],
+      "id": 4260783408,
+      "index": "PWGT032",
+      "name": "PWGT032_533mm_5tube_SW",
+      "numBarrels": 5,
+      "rotationSpeed": [
+       25.0,
+       25.0
+      ],
+      "shotDelay": 100.0,
+      "torpedoAngles": [
+       3.0,
+       6.0
+      ],
+      "typeinfo": {
+       "nation": "Europe",
+       "species": "Torpedo",
+       "type": "Gun"
+      }
+     }
+    }
+   },
+   "A_AirDefense": {
+    "Medium1": {
+     "areaDamage": 75.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 1.0,
+     "innerBubbleCount": 0,
+     "maxDistance": 4000.0,
+     "minDistance": 100.0,
+     "type": "medium"
+    },
+    "Medium2": {
+     "areaDamage": 24.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 1.0,
+     "innerBubbleCount": 0,
+     "maxDistance": 4000.0,
+     "minDistance": 100.0,
+     "type": "medium"
+    },
+    "isAA": true
+   },
+   "A_DepthChargeGuns": {
+    "depthCharges": {
+     "HP_WGB_1": {
+      "ammoList": [
+       "PHPD004_375MM"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4254033200,
+      "index": "PWGB039",
+      "name": "PWGB039_Bofors_375mm_model_1950",
+      "numBombs": 4,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Europe",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_WGB_2": {
+      "ammoList": [
+       "PHPD004_375MM"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4254033200,
+      "index": "PWGB039",
+      "name": "PWGB039_Bofors_375mm_model_1950",
+      "numBombs": 4,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Europe",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_WGB_3": {
+      "ammoList": [
+       "PWPD004_375"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4239353136,
+      "index": "PWGB053",
+      "name": "PWGB053_Smaland_Depth_Charge_fake",
+      "numBombs": 0,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Europe",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_WGB_4": {
+      "ammoList": [
+       "PWPD004_375"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4239353136,
+      "index": "PWGB053",
+      "name": "PWGB053_Smaland_Depth_Charge_fake",
+      "numBombs": 0,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Europe",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxPacks": 2,
+    "numShots": 1,
+    "reloadTime": 40.0
+   },
+   "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.8
+    },
+    "backwardEngineUpTime": 10.0,
+    "forwardEngineUpTime": 20.0,
+    "speedCoef": 0.0
+   },
+   "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.6
+    },
+    "burnNodes": [
+     [
+      0.5005,
+      0.3,
+      30.0
+     ],
+     [
+      0.5005,
+      0.3,
+      30.0
+     ],
+     [
+      0.5005,
+      0.3,
+      30.0
+     ],
+     [
+      0.5005,
+      0.3,
+      30.0
+     ]
+    ],
+    "floodNodes": [
+     [
+      0.333,
+      0.25,
+      40.0
+     ],
+     [
+      0.333,
+      0.25,
+      40.0
+     ]
+    ],
+    "health": 19200.0,
+    "maxSpeed": 35.0,
+    "rudderTime": 5.6,
+    "size": [
+     120.52,
+     12.61,
+     16.83
+    ],
+    "speedCoef": 1.0,
+    "turningRadius": 660.0,
+    "visibilityCoefGKInSmoke": 2.73,
+    "visibilityFactor": 7.62,
+    "visibilityFactorByPlane": 3.38,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 3.38,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
+   }
+  },
+  "ShipAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY009_CrashCrewPremium",
+      "D_Gold"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY015_SpeedBoosterPremium",
+      "Default"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [
+     [
+      "PCY010_RegenCrewPremium",
+      "EU_DD_High"
+     ]
+    ],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [
+     [
+      "PCY011_AirDefenseDispPremium",
+      "Default_Gold"
+     ]
+    ],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "ShipUpgradeInfo": {
+   "PWUA904_DD10_ART_TST_LAPPLAND": {
+    "canBuy": true,
+    "components": {
+     "artillery": [
+      "A1_Artillery"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Artillery"
+   },
+   "PWUE904_DD10_ENG_TST_LAPPLAND": {
+    "canBuy": true,
+    "components": {
+     "engine": [
+      "A_Engine"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Engine"
+   },
+   "PWUH904_DD10_HULL_TST_LAPPLAND": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [],
+     "airDefense": [
+      "A_AirDefense"
+     ],
+     "artillery": [
+      "A1_Artillery"
+     ],
+     "atba": [],
+     "depthCharges": [
+      "A_DepthChargeGuns"
+     ],
+     "directors": [
+      "A_Directors"
+     ],
+     "finders": [],
+     "hull": [
+      "A_Hull"
+     ],
+     "pinger": [],
+     "radars": [
+      "A_Radars"
+     ],
+     "torpedoes": [
+      "A1_Torpedoes"
+     ]
+    },
+    "disabledAbilities": [],
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Hull"
+   },
+   "PWUS905_DD10_SUO_TST_LAPPLAND": {
+    "canBuy": true,
+    "components": {
+     "fireControl": [
+      "A1_FireControl"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Suo"
+   },
+   "PWUT904_DD10_TORP_TST_LAPPLAND": {
+    "canBuy": true,
+    "components": {
+     "torpedoes": [
+      "A1_Torpedoes"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Torpedoes"
+   },
+   "costCR": 0,
+   "costGold": 0,
+   "costSaleGold": 0,
+   "costXP": 0,
+   "value": 1
+  },
+  "group": "demoWithoutStats",
+  "id": 3340645680,
+  "index": "PWSD910",
+  "level": 10,
+  "name": "PWSD910_Lappland",
+  "typeinfo": {
+   "nation": "Europe",
+   "species": "Destroyer",
+   "type": "Ship"
+  }
+ },
+ {
+  "ModulesArmaments": {
    "A1_FireControl": {
     "maxDistCoef": 1.0,
     "sigmaCountCoef": 1.0
@@ -4597,6 +4062,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 3,
     "reloadTime": 40.0
    },
    "AB_Engine": {
@@ -5020,6 +4486,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40
    },
    "AirDefenseDefault": {
@@ -5648,6 +5115,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "A_Engine": {
@@ -5841,6 +5309,545 @@
   "index": "PWSD710",
   "level": 10,
   "name": "PWSD710_Ragnar",
+  "typeinfo": {
+   "nation": "Europe",
+   "species": "Destroyer",
+   "type": "Ship"
+  }
+ },
+ {
+  "ModulesArmaments": {
+   "AB1_FireControl": {
+    "maxDistCoef": 1.0,
+    "sigmaCountCoef": 1.0
+   },
+   "AB2_FireControl": {
+    "maxDistCoef": 1.1,
+    "sigmaCountCoef": 1.0
+   },
+   "AB_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.8
+    },
+    "backwardEngineUpTime": 10.0,
+    "forwardEngineUpTime": 20.0,
+    "speedCoef": 0.0
+   },
+   "A_Artillery": {
+    "guns": {
+     "HP_WGM_1": {
+      "ammoList": [
+       "PWPA014_100MM_HE_50_K11",
+       "PWPA015_100MM_AP_50_K11"
+      ],
+      "barrelDiameter": 0.1,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -145.0,
+       145.0
+      ],
+      "id": 4285130032,
+      "idealDistance": 1000.0,
+      "idealRadius": 8,
+      "index": "PWGM009",
+      "minRadius": 0.5,
+      "name": "PWGM009_100mm50_K10_Skoda",
+      "numBarrels": 1,
+      "position": [
+       0.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       10.0,
+       10.0
+      ],
+      "shotDelay": 4.5,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Europe",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_WGM_2": {
+      "ammoList": [
+       "PWPA014_100MM_HE_50_K11",
+       "PWPA015_100MM_AP_50_K11"
+      ],
+      "barrelDiameter": 0.1,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4285130032,
+      "idealDistance": 1000.0,
+      "idealRadius": 8,
+      "index": "PWGM009",
+      "minRadius": 0.5,
+      "name": "PWGM009_100mm50_K10_Skoda",
+      "numBarrels": 1,
+      "position": [
+       6.0,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       10.0,
+       10.0
+      ],
+      "shotDelay": 4.5,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Europe",
+       "species": "Main",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 8300.0,
+    "normalDistribution": true,
+    "sigmaCount": 2.0,
+    "taperDist": 4000.0
+   },
+   "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
+    "burnNodes": [
+     [
+      1.0,
+      0.3,
+      30.0
+     ],
+     [
+      1.0,
+      0.3,
+      30.0
+     ],
+     [
+      1.0,
+      0.3,
+      30.0
+     ],
+     [
+      1.0,
+      0.3,
+      30.0
+     ]
+    ],
+    "floodNodes": [
+     [
+      0.333,
+      0.25,
+      40.0
+     ],
+     [
+      0.333,
+      0.25,
+      40.0
+     ]
+    ],
+    "health": 7100.0,
+    "maxSpeed": 32.5,
+    "rudderTime": 3.92,
+    "size": [
+     83.44,
+     8.16,
+     7.92
+    ],
+    "speedCoef": 1.0,
+    "turningRadius": 460.0,
+    "visibilityCoefGKInSmoke": 2.0,
+    "visibilityFactor": 6.22,
+    "visibilityFactorByPlane": 2.43,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.43,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
+   },
+   "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
+    "torpedoArray": {
+     "HP_WGT_1": {
+      "ammoList": [
+       "PWPT002_Torped_M1913"
+      ],
+      "barrelDiameter": 0.45,
+      "canRotate": true,
+      "deadZone": [
+       [
+        -58.0,
+        58.0
+       ],
+       [
+        140.0,
+        -140.0
+       ]
+      ],
+      "horizSector": [
+       0.0,
+       0.0
+      ],
+      "id": 4275463472,
+      "index": "PWGT018",
+      "name": "PWGT018_450mm_twin_AW",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       25.0,
+       25.0
+      ],
+      "shotDelay": 30.0,
+      "torpedoAngles": [
+       2.4,
+       4.8
+      ],
+      "typeinfo": {
+       "nation": "Europe",
+       "species": "Torpedo",
+       "type": "Gun"
+      }
+     },
+     "HP_WGT_2": {
+      "ammoList": [
+       "PWPT002_Torped_M1913"
+      ],
+      "barrelDiameter": 0.45,
+      "canRotate": true,
+      "deadZone": [
+       [
+        -59.0,
+        59.0
+       ]
+      ],
+      "horizSector": [
+       -131.0,
+       131.0
+      ],
+      "id": 4275463472,
+      "index": "PWGT018",
+      "name": "PWGT018_450mm_twin_AW",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       25.0,
+       25.0
+      ],
+      "shotDelay": 30.0,
+      "torpedoAngles": [
+       2.4,
+       4.8
+      ],
+      "typeinfo": {
+       "nation": "Europe",
+       "species": "Torpedo",
+       "type": "Gun"
+      }
+     }
+    }
+   },
+   "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.8
+    },
+    "burnNodes": [
+     [
+      1.0,
+      0.3,
+      30.0
+     ],
+     [
+      1.0,
+      0.3,
+      30.0
+     ],
+     [
+      1.0,
+      0.3,
+      30.0
+     ],
+     [
+      1.0,
+      0.3,
+      30.0
+     ]
+    ],
+    "floodNodes": [
+     [
+      0.333,
+      0.25,
+      40.0
+     ],
+     [
+      0.333,
+      0.25,
+      40.0
+     ]
+    ],
+    "health": 8100.0,
+    "maxSpeed": 32.5,
+    "rudderTime": 2.8,
+    "size": [
+     83.44,
+     8.16,
+     7.92
+    ],
+    "speedCoef": 1.0,
+    "turningRadius": 460.0,
+    "visibilityCoefGKInSmoke": 2.0,
+    "visibilityFactor": 6.22,
+    "visibilityFactorByPlane": 2.43,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 2.43,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
+   },
+   "B_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
+    "torpedoArray": {
+     "HP_WGT_1": {
+      "ammoList": [
+       "PWPT002_Torped_M1913"
+      ],
+      "barrelDiameter": 0.45,
+      "canRotate": true,
+      "deadZone": [
+       [
+        -64.0,
+        64.0
+       ],
+       [
+        137.0,
+        -137.0
+       ]
+      ],
+      "horizSector": [
+       0.0,
+       0.0
+      ],
+      "id": 4259734832,
+      "index": "PWGT033",
+      "name": "PWGT033_450mm_triple_AW",
+      "numBarrels": 3,
+      "rotationSpeed": [
+       25.0,
+       25.0
+      ],
+      "shotDelay": 40.0,
+      "torpedoAngles": [
+       2.6,
+       5.2
+      ],
+      "typeinfo": {
+       "nation": "Europe",
+       "species": "Torpedo",
+       "type": "Gun"
+      }
+     },
+     "HP_WGT_2": {
+      "ammoList": [
+       "PWPT002_Torped_M1913"
+      ],
+      "barrelDiameter": 0.45,
+      "canRotate": true,
+      "deadZone": [
+       [
+        -63.0,
+        63.0
+       ]
+      ],
+      "horizSector": [
+       -128.0,
+       128.0
+      ],
+      "id": 4259734832,
+      "index": "PWGT033",
+      "name": "PWGT033_450mm_triple_AW",
+      "numBarrels": 3,
+      "rotationSpeed": [
+       25.0,
+       25.0
+      ],
+      "shotDelay": 40.0,
+      "torpedoAngles": [
+       2.6,
+       5.2
+      ],
+      "typeinfo": {
+       "nation": "Europe",
+       "species": "Torpedo",
+       "type": "Gun"
+      }
+     }
+    }
+   }
+  },
+  "ShipAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY009_CrashCrewPremium",
+      "D_Gold"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY015_SpeedBoosterPremium",
+      "Default"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "ShipUpgradeInfo": {
+   "PWUA101_DD2_ART_STOCK": {
+    "canBuy": true,
+    "components": {
+     "artillery": [
+      "A_Artillery"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Artillery"
+   },
+   "PWUE101_DD2_ENG_STOCK": {
+    "canBuy": true,
+    "components": {
+     "engine": [
+      "AB_Engine"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Engine"
+   },
+   "PWUH101_DD2_HULL_STOCK": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [],
+     "airDefense": [],
+     "artillery": [
+      "A_Artillery"
+     ],
+     "atba": [],
+     "depthCharges": [],
+     "directors": [],
+     "finders": [],
+     "hull": [
+      "A_Hull"
+     ],
+     "pinger": [],
+     "radars": [],
+     "torpedoes": [
+      "A_Torpedoes"
+     ]
+    },
+    "disabledAbilities": [],
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Hull"
+   },
+   "PWUH102_DD2_HULL_TOP": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [],
+     "airDefense": [],
+     "artillery": [
+      "A_Artillery"
+     ],
+     "atba": [],
+     "depthCharges": [],
+     "directors": [],
+     "finders": [],
+     "hull": [
+      "B_Hull"
+     ],
+     "pinger": [],
+     "radars": [],
+     "torpedoes": [
+      "B_Torpedoes"
+     ]
+    },
+    "disabledAbilities": [],
+    "nextShips": [
+     "PWSD103_Romulus"
+    ],
+    "prev": "PWUH101_DD2_HULL_STOCK",
+    "ucType": "_Hull"
+   },
+   "PWUS101_DD2_SUO_STOCK": {
+    "canBuy": true,
+    "components": {
+     "fireControl": [
+      "AB1_FireControl"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Suo"
+   },
+   "PWUS102_DD2_SUO_TOP": {
+    "canBuy": true,
+    "components": {
+     "fireControl": [
+      "AB2_FireControl"
+     ]
+    },
+    "nextShips": [],
+    "prev": "PWUS101_DD2_SUO_STOCK",
+    "ucType": "_Suo"
+   },
+   "PWUT101_DD2_TORP_STOCK": {
+    "canBuy": true,
+    "components": {
+     "torpedoes": [
+      "A_Torpedoes",
+      "B_Torpedoes"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Torpedoes"
+   },
+   "costCR": 72000,
+   "costGold": 0,
+   "costSaleGold": 0,
+   "costXP": 350,
+   "value": 1
+  },
+  "group": "upgradeable",
+  "id": 4187895088,
+  "index": "PWSD102",
+  "level": 2,
+  "name": "PWSD102_Tatra",
   "typeinfo": {
    "nation": "Europe",
    "species": "Destroyer",
@@ -6155,6 +6162,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "A_Engine": {
@@ -6735,6 +6743,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 3,
     "reloadTime": 40.0
    },
    "A_AirDefense": {
@@ -7454,6 +7463,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40
    },
    "AB_Engine": {
@@ -8241,6 +8251,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "AB_Engine": {
@@ -9886,6 +9897,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40
    },
    "A_AirDefense": {

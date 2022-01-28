@@ -3902,6 +3902,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 3,
     "reloadTime": 40.0
    },
    "A_Engine": {
@@ -5305,6 +5306,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40
    },
    "A_Engine": {
@@ -5885,6 +5887,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "A_Engine": {
@@ -6276,6 +6279,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "AB_Engine": {
@@ -7520,6 +7524,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "A_AirDefense": {
@@ -8166,6 +8171,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 2,
     "reloadTime": 40.0
    },
    "AirDefenseDefault": {
@@ -9240,6 +9246,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "A_AirDefense": {
@@ -9800,7 +9807,9 @@
     "isAA": true
    },
    "A_DiveBomber": {
-    "planeType": "PRAD703_CHKALOV_STOCK"
+    "planes": [
+     "PRAD703_CHKALOV_STOCK"
+    ]
    },
    "A_Engine": {
     "HitLocationEngine": {
@@ -9877,10 +9886,14 @@
     }
    },
    "A_SkipBomber": {
-    "planeType": "PRAL703_CHKALOV_STOCK"
+    "planes": [
+     "PRAL703_CHKALOV_STOCK"
+    ]
    },
    "A_TorpedoBomber": {
-    "planeType": "PRAB703_CHKALOV_STOCK"
+    "planes": [
+     "PRAB703_CHKALOV_STOCK"
+    ]
    }
   },
   "ShipAbilities": {
@@ -11018,6 +11031,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 2,
     "reloadTime": 40.0
    },
    "A_Hull": {
@@ -12094,6 +12108,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "AB_Engine": {
@@ -12663,6 +12678,665 @@
   "typeinfo": {
    "nation": "Russia",
    "species": "Cruiser",
+   "type": "Ship"
+  }
+ },
+ {
+  "ModulesArmaments": {
+   "AB1_SkipBomber": {
+    "planes": [
+     "PRAL301_KOMSOMOLETS_STOCK"
+    ]
+   },
+   "AB_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.0
+    },
+    "backwardEngineUpTime": 30.0,
+    "forwardEngineUpTime": 60.0,
+    "speedCoef": 0.0
+   },
+   "AB_Fighter": {
+    "planes": [
+     "PRAF301_KOMSOMOLETS_STOCK"
+    ]
+   },
+   "AB_FlightControl": {
+    "squadrons": [
+     "Fighter",
+     "Bomber",
+     "Skip"
+    ]
+   },
+   "AB_TorpedoBomber": {
+    "planes": [
+     "PRAB301_KOMSOMOLETS_STOCK"
+    ]
+   },
+   "A_ATBA": {
+    "AuraFar": {
+     "areaDamage": 3.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 1.0,
+     "innerBubbleCount": 0.0,
+     "maxDistance": 4000.0,
+     "minDistance": 100.0,
+     "type": "far"
+    },
+    "AuraFar_Bubbles": {
+     "areaDamage": 0.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 120.0,
+     "hitChance": 1.0,
+     "innerBubbleCount": 1.0,
+     "maxDistance": 4000.0,
+     "minDistance": 3500.0,
+     "type": "far"
+    },
+    "antiAirAndSecondaries": {
+     "HP_RGS_12": {
+      "ammoList": [
+       "PRPA133_102MM_HE_B_2"
+      ],
+      "barrelDiameter": 0.102,
+      "id": 4112967120,
+      "index": "PRGS173",
+      "name": "PRGS173_102mm_45_B_2",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_RGS_14": {
+      "ammoList": [
+       "PRPA133_102MM_HE_B_2"
+      ],
+      "barrelDiameter": 0.102,
+      "id": 4112967120,
+      "index": "PRGS173",
+      "name": "PRGS173_102mm_45_B_2",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_RGS_2": {
+      "ammoList": [
+       "PRPA133_102MM_HE_B_2"
+      ],
+      "barrelDiameter": 0.102,
+      "id": 4112967120,
+      "index": "PRGS173",
+      "name": "PRGS173_102mm_45_B_2",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_RGS_3": {
+      "ammoList": [
+       "PRPA134_130MM_HE_1911"
+      ],
+      "barrelDiameter": 0.13,
+      "id": 4109821392,
+      "index": "PRGS176",
+      "name": "PRGS176_130mm_55",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 10.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_RGS_5": {
+      "ammoList": [
+       "PRPA134_130MM_HE_1911"
+      ],
+      "barrelDiameter": 0.13,
+      "id": 4109821392,
+      "index": "PRGS176",
+      "name": "PRGS176_130mm_55",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 10.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_RGS_7": {
+      "ammoList": [
+       "PRPA134_130MM_HE_1911"
+      ],
+      "barrelDiameter": 0.13,
+      "id": 4109821392,
+      "index": "PRGS176",
+      "name": "PRGS176_130mm_55",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 10.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_RGS_9": {
+      "ammoList": [
+       "PRPA134_130MM_HE_1911"
+      ],
+      "barrelDiameter": 0.13,
+      "id": 4109821392,
+      "index": "PRGS176",
+      "name": "PRGS176_130mm_55",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 10.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 4000.0,
+    "sigmaCount": 1.0
+   },
+   "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
+    "burnNodes": [
+     [
+      0.8002,
+      1.0,
+      5.0
+     ],
+     [
+      0.8002,
+      1.0,
+      5.0
+     ],
+     [
+      0.8002,
+      1.0,
+      5.0
+     ],
+     [
+      0.8002,
+      1.0,
+      5.0
+     ]
+    ],
+    "floodNodes": [
+     [
+      0.31,
+      0.25,
+      30.0
+     ],
+     [
+      0.31,
+      0.25,
+      30.0
+     ]
+    ],
+    "health": 31000.0,
+    "maxSpeed": 17.0,
+    "rudderTime": 14.28,
+    "size": [
+     150.1,
+     20.03,
+     13.0
+    ],
+    "speedCoef": 1.0,
+    "turningRadius": 640.0,
+    "visibilityCoefGKInSmoke": 1e-06,
+    "visibilityFactor": 8.82,
+    "visibilityFactorByPlane": 5.57,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 5.57,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
+   },
+   "B_ATBA": {
+    "AuraFar": {
+     "areaDamage": 7.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 1.0,
+     "innerBubbleCount": 0.0,
+     "maxDistance": 4600.0,
+     "minDistance": 100.0,
+     "type": "far"
+    },
+    "AuraFar_Bubbles": {
+     "areaDamage": 0.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 130.0,
+     "hitChance": 1.0,
+     "innerBubbleCount": 1.0,
+     "maxDistance": 4600.0,
+     "minDistance": 3500.0,
+     "type": "far"
+    },
+    "antiAirAndSecondaries": {
+     "HP_RGS_1": {
+      "ammoList": [
+       "PRPA026_100MM_HE_P_28"
+      ],
+      "barrelDiameter": 0.1,
+      "id": 4218873296,
+      "index": "PRGS072",
+      "name": "PRGS072_100mm_50_Minizini",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_RGS_10": {
+      "ammoList": [
+       "PRPA135_130MM_HE_B_13"
+      ],
+      "barrelDiameter": 0.13,
+      "id": 4110869968,
+      "index": "PRGS175",
+      "name": "PRGS175_130mm_B_13",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_RGS_11": {
+      "ammoList": [
+       "PRPA026_100MM_HE_P_28"
+      ],
+      "barrelDiameter": 0.1,
+      "id": 4218873296,
+      "index": "PRGS072",
+      "name": "PRGS072_100mm_50_Minizini",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_RGS_13": {
+      "ammoList": [
+       "PRPA026_100MM_HE_P_28"
+      ],
+      "barrelDiameter": 0.1,
+      "id": 4218873296,
+      "index": "PRGS072",
+      "name": "PRGS072_100mm_50_Minizini",
+      "numBarrels": 2,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_RGS_4": {
+      "ammoList": [
+       "PRPA135_130MM_HE_B_13"
+      ],
+      "barrelDiameter": 0.13,
+      "id": 4110869968,
+      "index": "PRGS175",
+      "name": "PRGS175_130mm_B_13",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_RGS_6": {
+      "ammoList": [
+       "PRPA135_130MM_HE_B_13"
+      ],
+      "barrelDiameter": 0.13,
+      "id": 4110869968,
+      "index": "PRGS175",
+      "name": "PRGS175_130mm_B_13",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     },
+     "HP_RGS_8": {
+      "ammoList": [
+       "PRPA135_130MM_HE_B_13"
+      ],
+      "barrelDiameter": 0.13,
+      "id": 4110869968,
+      "index": "PRGS175",
+      "name": "PRGS175_130mm_B_13",
+      "numBarrels": 1,
+      "rotationSpeed": [
+       60.0,
+       1.0
+      ],
+      "shotDelay": 5.0,
+      "smallGun": true,
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "Secondary",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 4000.0,
+    "sigmaCount": 1.0
+   },
+   "B_Hull": {
+    "SG": {
+     "armorCoeff": 0.0
+    },
+    "burnNodes": [
+     [
+      0.8002,
+      1.0,
+      5.0
+     ],
+     [
+      0.8002,
+      1.0,
+      5.0
+     ],
+     [
+      0.8002,
+      1.0,
+      5.0
+     ],
+     [
+      0.8002,
+      1.0,
+      5.0
+     ]
+    ],
+    "floodNodes": [
+     [
+      0.31,
+      0.25,
+      30.0
+     ],
+     [
+      0.31,
+      0.25,
+      30.0
+     ]
+    ],
+    "health": 31700.0,
+    "maxSpeed": 17.0,
+    "rudderTime": 10.2,
+    "size": [
+     150.1,
+     20.03,
+     13.0
+    ],
+    "speedCoef": 1.0,
+    "turningRadius": 640.0,
+    "visibilityCoefGKInSmoke": 1e-06,
+    "visibilityFactor": 8.82,
+    "visibilityFactorByPlane": 5.57,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 5.57,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
+   }
+  },
+  "ShipAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY037_CrashCrewAuto",
+      "CV"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY038_FighterAuto",
+      "CV_Default"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "ShipUpgradeInfo": {
+   "PRUB301_CV4_TB_STOCK": {
+    "canBuy": true,
+    "components": {
+     "torpedoBomber": [
+      "AB_TorpedoBomber"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_TorpedoBomber"
+   },
+   "PRUE303_CV4_ENG": {
+    "canBuy": true,
+    "components": {
+     "engine": [
+      "AB_Engine"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Engine"
+   },
+   "PRUF301_CV4_FC": {
+    "canBuy": true,
+    "components": {
+     "flightControl": [
+      "AB_FlightControl"
+     ]
+    },
+    "nextShips": [],
+    "prepareTimeFactor": 0.5,
+    "prev": "",
+    "ucType": "_FlightControl"
+   },
+   "PRUH305_CV4_HULL_STOCK": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [
+      "AB_AirArmament"
+     ],
+     "airDefense": [],
+     "airSupport": [],
+     "artillery": [],
+     "atba": [
+      "A_ATBA"
+     ],
+     "depthCharges": [],
+     "directors": [],
+     "finders": [],
+     "hull": [
+      "A_Hull"
+     ],
+     "pinger": [],
+     "radars": [],
+     "torpedoes": []
+    },
+    "disabledAbilities": [],
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Hull"
+   },
+   "PRUH306_CV4_HULL_TOP": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [
+      "AB_AirArmament"
+     ],
+     "airDefense": [],
+     "airSupport": [],
+     "artillery": [],
+     "atba": [
+      "B_ATBA"
+     ],
+     "depthCharges": [],
+     "directors": [],
+     "finders": [],
+     "hull": [
+      "B_Hull"
+     ],
+     "pinger": [],
+     "radars": [],
+     "torpedoes": []
+    },
+    "disabledAbilities": [],
+    "nextShips": [
+     "PRSA106_Serov"
+    ],
+    "prev": "PRUH305_CV4_HULL_STOCK",
+    "ucType": "_Hull"
+   },
+   "PRUI301_CV4_F_STOCK": {
+    "canBuy": true,
+    "components": {
+     "fighter": [
+      "AB_Fighter"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Fighter"
+   },
+   "PRUL301_CV4_SB_STOCK": {
+    "canBuy": true,
+    "components": {
+     "skipBomber": [
+      "AB1_SkipBomber"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_SkipBomber"
+   },
+   "costCR": 1000000,
+   "costGold": 0,
+   "costSaleGold": 0,
+   "costXP": 11000,
+   "value": 1
+  },
+  "group": "upgradeable",
+  "id": 4185896400,
+  "index": "PRSA104",
+  "level": 4,
+  "name": "PRSA104_Komsomolets",
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "AirCarrier",
    "type": "Ship"
   }
  },
@@ -13568,659 +14242,6 @@
  },
  {
   "ModulesArmaments": {
-   "AB1_SkipBomber": {
-    "planeType": "PRAL301_KOMSOMOLETS_STOCK"
-   },
-   "AB_Engine": {
-    "HitLocationEngine": {
-     "armorCoeff": 0.0
-    },
-    "backwardEngineUpTime": 30.0,
-    "forwardEngineUpTime": 60.0,
-    "speedCoef": 0.0
-   },
-   "AB_Fighter": {
-    "planeType": "PRAF301_KOMSOMOLETS_STOCK"
-   },
-   "AB_FlightControl": {
-    "squadrons": [
-     "Fighter",
-     "Bomber",
-     "Skip"
-    ]
-   },
-   "AB_TorpedoBomber": {
-    "planeType": "PRAB301_KOMSOMOLETS_STOCK"
-   },
-   "A_ATBA": {
-    "AuraFar": {
-     "areaDamage": 3.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 1.0,
-     "innerBubbleCount": 0.0,
-     "maxDistance": 4000.0,
-     "minDistance": 100.0,
-     "type": "far"
-    },
-    "AuraFar_Bubbles": {
-     "areaDamage": 0.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 120.0,
-     "hitChance": 1.0,
-     "innerBubbleCount": 1.0,
-     "maxDistance": 4000.0,
-     "minDistance": 3500.0,
-     "type": "far"
-    },
-    "antiAirAndSecondaries": {
-     "HP_RGS_12": {
-      "ammoList": [
-       "PRPA133_102MM_HE_B_2"
-      ],
-      "barrelDiameter": 0.102,
-      "id": 4112967120,
-      "index": "PRGS173",
-      "name": "PRGS173_102mm_45_B_2",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_RGS_14": {
-      "ammoList": [
-       "PRPA133_102MM_HE_B_2"
-      ],
-      "barrelDiameter": 0.102,
-      "id": 4112967120,
-      "index": "PRGS173",
-      "name": "PRGS173_102mm_45_B_2",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_RGS_2": {
-      "ammoList": [
-       "PRPA133_102MM_HE_B_2"
-      ],
-      "barrelDiameter": 0.102,
-      "id": 4112967120,
-      "index": "PRGS173",
-      "name": "PRGS173_102mm_45_B_2",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_RGS_3": {
-      "ammoList": [
-       "PRPA134_130MM_HE_1911"
-      ],
-      "barrelDiameter": 0.13,
-      "id": 4109821392,
-      "index": "PRGS176",
-      "name": "PRGS176_130mm_55",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 10.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_RGS_5": {
-      "ammoList": [
-       "PRPA134_130MM_HE_1911"
-      ],
-      "barrelDiameter": 0.13,
-      "id": 4109821392,
-      "index": "PRGS176",
-      "name": "PRGS176_130mm_55",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 10.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_RGS_7": {
-      "ammoList": [
-       "PRPA134_130MM_HE_1911"
-      ],
-      "barrelDiameter": 0.13,
-      "id": 4109821392,
-      "index": "PRGS176",
-      "name": "PRGS176_130mm_55",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 10.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_RGS_9": {
-      "ammoList": [
-       "PRPA134_130MM_HE_1911"
-      ],
-      "barrelDiameter": 0.13,
-      "id": 4109821392,
-      "index": "PRGS176",
-      "name": "PRGS176_130mm_55",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 10.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     }
-    },
-    "maxDist": 4000.0,
-    "sigmaCount": 1.0
-   },
-   "A_Hull": {
-    "SG": {
-     "armorCoeff": 0.0
-    },
-    "burnNodes": [
-     [
-      0.8002,
-      1.0,
-      5.0
-     ],
-     [
-      0.8002,
-      1.0,
-      5.0
-     ],
-     [
-      0.8002,
-      1.0,
-      5.0
-     ],
-     [
-      0.8002,
-      1.0,
-      5.0
-     ]
-    ],
-    "floodNodes": [
-     [
-      0.31,
-      0.25,
-      30.0
-     ],
-     [
-      0.31,
-      0.25,
-      30.0
-     ]
-    ],
-    "health": 31000.0,
-    "maxSpeed": 17.0,
-    "rudderTime": 14.28,
-    "size": [
-     150.1,
-     20.03,
-     13.0
-    ],
-    "speedCoef": 1.0,
-    "turningRadius": 640.0,
-    "visibilityCoefGKInSmoke": 1e-06,
-    "visibilityFactor": 8.82,
-    "visibilityFactorByPlane": 5.57,
-    "visibilityFactorsBySubmarine": {
-     "DEEP_WATER": 2.0,
-     "DEEP_WATER_INVUL": 0.0,
-     "PERISCOPE": 5.57,
-     "SEMI_DEEP_WATER": 2.0,
-     "SURFACE": 0.0
-    }
-   },
-   "B_ATBA": {
-    "AuraFar": {
-     "areaDamage": 7.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 1.0,
-     "innerBubbleCount": 0.0,
-     "maxDistance": 4600.0,
-     "minDistance": 100.0,
-     "type": "far"
-    },
-    "AuraFar_Bubbles": {
-     "areaDamage": 0.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 130.0,
-     "hitChance": 1.0,
-     "innerBubbleCount": 1.0,
-     "maxDistance": 4600.0,
-     "minDistance": 3500.0,
-     "type": "far"
-    },
-    "antiAirAndSecondaries": {
-     "HP_RGS_1": {
-      "ammoList": [
-       "PRPA026_100MM_HE_P_28"
-      ],
-      "barrelDiameter": 0.1,
-      "id": 4218873296,
-      "index": "PRGS072",
-      "name": "PRGS072_100mm_50_Minizini",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_RGS_10": {
-      "ammoList": [
-       "PRPA135_130MM_HE_B_13"
-      ],
-      "barrelDiameter": 0.13,
-      "id": 4110869968,
-      "index": "PRGS175",
-      "name": "PRGS175_130mm_B_13",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_RGS_11": {
-      "ammoList": [
-       "PRPA026_100MM_HE_P_28"
-      ],
-      "barrelDiameter": 0.1,
-      "id": 4218873296,
-      "index": "PRGS072",
-      "name": "PRGS072_100mm_50_Minizini",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_RGS_13": {
-      "ammoList": [
-       "PRPA026_100MM_HE_P_28"
-      ],
-      "barrelDiameter": 0.1,
-      "id": 4218873296,
-      "index": "PRGS072",
-      "name": "PRGS072_100mm_50_Minizini",
-      "numBarrels": 2,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_RGS_4": {
-      "ammoList": [
-       "PRPA135_130MM_HE_B_13"
-      ],
-      "barrelDiameter": 0.13,
-      "id": 4110869968,
-      "index": "PRGS175",
-      "name": "PRGS175_130mm_B_13",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_RGS_6": {
-      "ammoList": [
-       "PRPA135_130MM_HE_B_13"
-      ],
-      "barrelDiameter": 0.13,
-      "id": 4110869968,
-      "index": "PRGS175",
-      "name": "PRGS175_130mm_B_13",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     },
-     "HP_RGS_8": {
-      "ammoList": [
-       "PRPA135_130MM_HE_B_13"
-      ],
-      "barrelDiameter": 0.13,
-      "id": 4110869968,
-      "index": "PRGS175",
-      "name": "PRGS175_130mm_B_13",
-      "numBarrels": 1,
-      "rotationSpeed": [
-       60.0,
-       1.0
-      ],
-      "shotDelay": 5.0,
-      "smallGun": true,
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "Secondary",
-       "type": "Gun"
-      }
-     }
-    },
-    "maxDist": 4000.0,
-    "sigmaCount": 1.0
-   },
-   "B_Hull": {
-    "SG": {
-     "armorCoeff": 0.0
-    },
-    "burnNodes": [
-     [
-      0.8002,
-      1.0,
-      5.0
-     ],
-     [
-      0.8002,
-      1.0,
-      5.0
-     ],
-     [
-      0.8002,
-      1.0,
-      5.0
-     ],
-     [
-      0.8002,
-      1.0,
-      5.0
-     ]
-    ],
-    "floodNodes": [
-     [
-      0.31,
-      0.25,
-      30.0
-     ],
-     [
-      0.31,
-      0.25,
-      30.0
-     ]
-    ],
-    "health": 31700.0,
-    "maxSpeed": 17.0,
-    "rudderTime": 10.2,
-    "size": [
-     150.1,
-     20.03,
-     13.0
-    ],
-    "speedCoef": 1.0,
-    "turningRadius": 640.0,
-    "visibilityCoefGKInSmoke": 1e-06,
-    "visibilityFactor": 8.82,
-    "visibilityFactorByPlane": 5.57,
-    "visibilityFactorsBySubmarine": {
-     "DEEP_WATER": 2.0,
-     "DEEP_WATER_INVUL": 0.0,
-     "PERISCOPE": 5.57,
-     "SEMI_DEEP_WATER": 2.0,
-     "SURFACE": 0.0
-    }
-   }
-  },
-  "ShipAbilities": {
-   "AbilitySlot0": {
-    "abils": [
-     [
-      "PCY037_CrashCrewAuto",
-      "CV"
-     ]
-    ],
-    "slot": 0
-   },
-   "AbilitySlot1": {
-    "abils": [
-     [
-      "PCY038_FighterAuto",
-      "CV_Default"
-     ]
-    ],
-    "slot": 1
-   },
-   "AbilitySlot2": {
-    "abils": [],
-    "slot": 2
-   },
-   "AbilitySlot3": {
-    "abils": [],
-    "slot": 3
-   },
-   "AbilitySlot4": {
-    "abils": [],
-    "slot": 4
-   }
-  },
-  "ShipUpgradeInfo": {
-   "PRUB301_CV4_TB_STOCK": {
-    "canBuy": true,
-    "components": {
-     "torpedoBomber": [
-      "AB_TorpedoBomber"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_TorpedoBomber"
-   },
-   "PRUE303_CV4_ENG": {
-    "canBuy": true,
-    "components": {
-     "engine": [
-      "AB_Engine"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Engine"
-   },
-   "PRUF301_CV4_FC": {
-    "canBuy": true,
-    "components": {
-     "flightControl": [
-      "AB_FlightControl"
-     ]
-    },
-    "nextShips": [],
-    "prepareTimeFactor": 0.5,
-    "prev": "",
-    "ucType": "_FlightControl"
-   },
-   "PRUH305_CV4_HULL_STOCK": {
-    "canBuy": true,
-    "components": {
-     "airArmament": [
-      "AB_AirArmament"
-     ],
-     "airDefense": [],
-     "airSupport": [],
-     "artillery": [],
-     "atba": [
-      "A_ATBA"
-     ],
-     "depthCharges": [],
-     "directors": [],
-     "finders": [],
-     "hull": [
-      "A_Hull"
-     ],
-     "pinger": [],
-     "radars": [],
-     "torpedoes": []
-    },
-    "disabledAbilities": [],
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Hull"
-   },
-   "PRUH306_CV4_HULL_TOP": {
-    "canBuy": true,
-    "components": {
-     "airArmament": [
-      "AB_AirArmament"
-     ],
-     "airDefense": [],
-     "airSupport": [],
-     "artillery": [],
-     "atba": [
-      "B_ATBA"
-     ],
-     "depthCharges": [],
-     "directors": [],
-     "finders": [],
-     "hull": [
-      "B_Hull"
-     ],
-     "pinger": [],
-     "radars": [],
-     "torpedoes": []
-    },
-    "disabledAbilities": [],
-    "nextShips": [
-     "PRSA106_Serov"
-    ],
-    "prev": "PRUH305_CV4_HULL_STOCK",
-    "ucType": "_Hull"
-   },
-   "PRUI301_CV4_F_STOCK": {
-    "canBuy": true,
-    "components": {
-     "fighter": [
-      "AB_Fighter"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Fighter"
-   },
-   "PRUL301_CV4_SB_STOCK": {
-    "canBuy": true,
-    "components": {
-     "skipBomber": [
-      "AB1_SkipBomber"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_SkipBomber"
-   },
-   "costCR": 1000000,
-   "costGold": 0,
-   "costSaleGold": 0,
-   "costXP": 11000,
-   "value": 1
-  },
-  "group": "upgradeable",
-  "id": 4185896400,
-  "index": "PRSA104",
-  "level": 4,
-  "name": "PRSA104_Komsomolets",
-  "typeinfo": {
-   "nation": "Russia",
-   "species": "AirCarrier",
-   "type": "Ship"
-  }
- },
- {
-  "ModulesArmaments": {
    "AB1_Artillery": {
     "guns": {
      "HP_RGM_1": {
@@ -14593,6 +14614,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "AB_Engine": {
@@ -15876,6 +15898,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "A_Engine": {
@@ -16555,6 +16578,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40
    },
    "AirDefenseDefault": {
@@ -17424,6 +17448,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40
    },
    "A_Hull": {
@@ -18177,684 +18202,6 @@
  },
  {
   "ModulesArmaments": {
-   "A_AirDefense": {
-    "AuraMedium1": {
-     "areaDamage": 60.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 0.9,
-     "innerBubbleCount": 0,
-     "maxDistance": 3500.0,
-     "minDistance": 100.0,
-     "type": "medium"
-    },
-    "AuraNear1": {
-     "areaDamage": 20.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 0.85,
-     "innerBubbleCount": 0,
-     "maxDistance": 3100.0,
-     "minDistance": 100.0,
-     "type": "near"
-    },
-    "isAA": true
-   },
-   "A_Artillery": {
-    "AuraFar1": {
-     "areaDamage": 54.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 0.0,
-     "hitChance": 0.9,
-     "innerBubbleCount": 0.0,
-     "maxDistance": 6000.0,
-     "minDistance": 100.0,
-     "type": "far"
-    },
-    "AuraFar1_Bubbles": {
-     "areaDamage": 0.0,
-     "areaDamagePeriod": 0.285714285714,
-     "bubbleDamage": 270.0,
-     "hitChance": 0.9,
-     "innerBubbleCount": 6.0,
-     "maxDistance": 6000.0,
-     "minDistance": 3500.0,
-     "type": "far"
-    },
-    "guns": {
-     "HP_RGM_1": {
-      "ammoList": [
-       "PRPA101_130MM_HE_SMOLENSK",
-       "PRPA102_130MM_AP_SMOLENSK"
-      ],
-      "barrelDiameter": 0.13,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4145669584,
-      "idealDistance": 1000.0,
-      "idealRadius": 8,
-      "index": "PRGM142",
-      "minRadius": 0.5,
-      "name": "PRGM142_130mm57_6_BL132",
-      "numBarrels": 4,
-      "position": [
-       0.5,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       30.0,
-       20.0
-      ],
-      "shotDelay": 4.5,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_RGM_2": {
-      "ammoList": [
-       "PRPA101_130MM_HE_SMOLENSK",
-       "PRPA102_130MM_AP_SMOLENSK"
-      ],
-      "barrelDiameter": 0.13,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4145669584,
-      "idealDistance": 1000.0,
-      "idealRadius": 8,
-      "index": "PRGM142",
-      "minRadius": 0.5,
-      "name": "PRGM142_130mm57_6_BL132",
-      "numBarrels": 4,
-      "position": [
-       1.5,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       30.0,
-       20.0
-      ],
-      "shotDelay": 4.5,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_RGM_3": {
-      "ammoList": [
-       "PRPA101_130MM_HE_SMOLENSK",
-       "PRPA102_130MM_AP_SMOLENSK"
-      ],
-      "barrelDiameter": 0.13,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -149.0,
-       149.0
-      ],
-      "id": 4145669584,
-      "idealDistance": 1000.0,
-      "idealRadius": 8,
-      "index": "PRGM142",
-      "minRadius": 0.5,
-      "name": "PRGM142_130mm57_6_BL132",
-      "numBarrels": 4,
-      "position": [
-       4.5,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       30.0,
-       20.0
-      ],
-      "shotDelay": 4.5,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "Main",
-       "type": "Gun"
-      }
-     },
-     "HP_RGM_4": {
-      "ammoList": [
-       "PRPA101_130MM_HE_SMOLENSK",
-       "PRPA102_130MM_AP_SMOLENSK"
-      ],
-      "barrelDiameter": 0.13,
-      "deadZone": [],
-      "delim": 0.5,
-      "horizSector": [
-       -149.0,
-       149.0
-      ],
-      "id": 4145669584,
-      "idealDistance": 1000.0,
-      "idealRadius": 8,
-      "index": "PRGM142",
-      "minRadius": 0.5,
-      "name": "PRGM142_130mm57_6_BL132",
-      "numBarrels": 4,
-      "position": [
-       5.5,
-       1.0
-      ],
-      "radiusOnDelim": 0.5,
-      "radiusOnMax": 0.6,
-      "radiusOnZero": 0.2,
-      "rotationSpeed": [
-       30.0,
-       20.0
-      ],
-      "shotDelay": 4.5,
-      "smokePenalty": 0.0001,
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "Main",
-       "type": "Gun"
-      }
-     }
-    },
-    "maxDist": 13800.0,
-    "normalDistribution": true,
-    "sigmaCount": 2.0,
-    "taperDist": 4000.0
-   },
-   "A_DepthChargeGuns": {
-    "depthCharges": {
-     "HP_RGB_1": {
-      "ammoList": [
-       "PRPD009_BM_1_rpd005"
-      ],
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4119815632,
-      "index": "PRGB167",
-      "name": "PRGB167_RBU_1200M",
-      "numBombs": 5,
-      "rotationSpeed": [
-       0.0,
-       0.0
-      ],
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "DCharge",
-       "type": "Gun"
-      }
-     },
-     "HP_RGB_2": {
-      "ammoList": [
-       "PRPD009_BM_1_rpd005"
-      ],
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4119815632,
-      "index": "PRGB167",
-      "name": "PRGB167_RBU_1200M",
-      "numBombs": 5,
-      "rotationSpeed": [
-       0.0,
-       0.0
-      ],
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "DCharge",
-       "type": "Gun"
-      }
-     },
-     "HP_RGB_3": {
-      "ammoList": [
-       "PRPD010_BM_1_rpd007"
-      ],
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4140787152,
-      "index": "PRGB147",
-      "name": "PRGB147_Depth_Charge_Thrower_BMB2",
-      "numBombs": 1,
-      "rotationSpeed": [
-       0.0,
-       0.0
-      ],
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "DCharge",
-       "type": "Gun"
-      }
-     },
-     "HP_RGB_4": {
-      "ammoList": [
-       "PRPD010_BM_1_rpd007"
-      ],
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4140787152,
-      "index": "PRGB147",
-      "name": "PRGB147_Depth_Charge_Thrower_BMB2",
-      "numBombs": 1,
-      "rotationSpeed": [
-       0.0,
-       0.0
-      ],
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "DCharge",
-       "type": "Gun"
-      }
-     },
-     "HP_RGB_5": {
-      "ammoList": [
-       "PRPD010_BM_1_rpd007"
-      ],
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4140787152,
-      "index": "PRGB147",
-      "name": "PRGB147_Depth_Charge_Thrower_BMB2",
-      "numBombs": 1,
-      "rotationSpeed": [
-       0.0,
-       0.0
-      ],
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "DCharge",
-       "type": "Gun"
-      }
-     },
-     "HP_RGB_6": {
-      "ammoList": [
-       "PRPD010_BM_1_rpd007"
-      ],
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4140787152,
-      "index": "PRGB147",
-      "name": "PRGB147_Depth_Charge_Thrower_BMB2",
-      "numBombs": 1,
-      "rotationSpeed": [
-       0.0,
-       0.0
-      ],
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "DCharge",
-       "type": "Gun"
-      }
-     },
-     "HP_RGB_7": {
-      "ammoList": [
-       "PRPD010_BM_1_rpd007"
-      ],
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4140787152,
-      "index": "PRGB147",
-      "name": "PRGB147_Depth_Charge_Thrower_BMB2",
-      "numBombs": 1,
-      "rotationSpeed": [
-       0.0,
-       0.0
-      ],
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "DCharge",
-       "type": "Gun"
-      }
-     },
-     "HP_RGB_8": {
-      "ammoList": [
-       "PRPD010_BM_1_rpd007"
-      ],
-      "horizSector": [
-       -150.0,
-       150.0
-      ],
-      "id": 4140787152,
-      "index": "PRGB147",
-      "name": "PRGB147_Depth_Charge_Thrower_BMB2",
-      "numBombs": 1,
-      "rotationSpeed": [
-       0.0,
-       0.0
-      ],
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "DCharge",
-       "type": "Gun"
-      }
-     }
-    },
-    "maxPacks": 2,
-    "reloadTime": 40.0
-   },
-   "A_Engine": {
-    "HitLocationEngine": {
-     "armorCoeff": 0.2
-    },
-    "backwardEngineUpTime": 20.0,
-    "forwardEngineUpTime": 40.0,
-    "speedCoef": 0.0
-   },
-   "A_FireControl": {
-    "maxDistCoef": 1.0,
-    "sigmaCountCoef": 1.0
-   },
-   "A_Hull": {
-    "SG": {
-     "armorCoeff": 0.6
-    },
-    "burnNodes": [
-     [
-      0.5005,
-      0.3,
-      30.0
-     ],
-     [
-      0.5005,
-      0.3,
-      30.0
-     ],
-     [
-      0.5005,
-      0.3,
-      30.0
-     ],
-     [
-      0.5005,
-      0.3,
-      30.0
-     ]
-    ],
-    "floodNodes": [
-     [
-      0.333,
-      0.25,
-      40.0
-     ],
-     [
-      0.333,
-      0.25,
-      40.0
-     ]
-    ],
-    "health": 32400.0,
-    "maxSpeed": 35.0,
-    "rudderTime": 10.72,
-    "size": [
-     179.0,
-     18.14,
-     24.22
-    ],
-    "speedCoef": 1.0,
-    "turningRadius": 750.0,
-    "visibilityCoefGKInSmoke": 5.91,
-    "visibilityFactor": 12.78,
-    "visibilityFactorByPlane": 7.41,
-    "visibilityFactorsBySubmarine": {
-     "DEEP_WATER": 2.0,
-     "DEEP_WATER_INVUL": 0.0,
-     "PERISCOPE": 7.41,
-     "SEMI_DEEP_WATER": 2.0,
-     "SURFACE": 0.0
-    }
-   },
-   "A_Torpedoes": {
-    "timeToChangeAmmo": 10.0,
-    "torpedoArray": {
-     "HP_RGT_1": {
-      "ammoList": [
-       "PRPT034_SMOLENSK"
-      ],
-      "barrelDiameter": 0.533,
-      "canRotate": true,
-      "deadZone": [
-       [
-        0.0,
-        30.0
-       ]
-      ],
-      "horizSector": [
-       0.0,
-       145.0
-      ],
-      "id": 4219889104,
-      "index": "PRGT071",
-      "name": "PRGT071_533mm_PTA_5tubes",
-      "numBarrels": 5,
-      "rotationSpeed": [
-       25.0,
-       25.0
-      ],
-      "shotDelay": 131.0,
-      "torpedoAngles": [
-       6.0,
-       20.0
-      ],
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "Torpedo",
-       "type": "Gun"
-      }
-     },
-     "HP_RGT_2": {
-      "ammoList": [
-       "PRPT034_SMOLENSK"
-      ],
-      "barrelDiameter": 0.533,
-      "canRotate": true,
-      "deadZone": [
-       [
-        -30.0,
-        0.0
-       ]
-      ],
-      "horizSector": [
-       -145.0,
-       0.0
-      ],
-      "id": 4219889104,
-      "index": "PRGT071",
-      "name": "PRGT071_533mm_PTA_5tubes",
-      "numBarrels": 5,
-      "rotationSpeed": [
-       25.0,
-       25.0
-      ],
-      "shotDelay": 131.0,
-      "torpedoAngles": [
-       6.0,
-       20.0
-      ],
-      "typeinfo": {
-       "nation": "Russia",
-       "species": "Torpedo",
-       "type": "Gun"
-      }
-     }
-    }
-   }
-  },
-  "ShipAbilities": {
-   "AbilitySlot0": {
-    "abils": [
-     [
-      "PCY009_CrashCrewPremium",
-      "CV_CA_CL_Gold"
-     ]
-    ],
-    "slot": 0
-   },
-   "AbilitySlot1": {
-    "abils": [
-     [
-      "PCY011_AirDefenseDispPremium",
-      "Default_Gold"
-     ],
-     [
-      "PCY016_SonarSearchPremium",
-      "C_8_10"
-     ]
-    ],
-    "slot": 1
-   },
-   "AbilitySlot2": {
-    "abils": [
-     [
-      "PCY014_SmokeGeneratorPremium",
-      "Lvl_8_Gold_Kutuzov"
-     ]
-    ],
-    "slot": 2
-   },
-   "AbilitySlot3": {
-    "abils": [
-     [
-      "PCY010_RegenCrewPremium",
-      "C_Gold"
-     ]
-    ],
-    "slot": 3
-   },
-   "AbilitySlot4": {
-    "abils": [],
-    "slot": 4
-   }
-  },
-  "ShipUpgradeInfo": {
-   "PRUA905_ART_SMOLENSK": {
-    "canBuy": true,
-    "components": {
-     "artillery": [
-      "A_Artillery"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Artillery"
-   },
-   "PRUE906_ENG_SMOLENSK": {
-    "canBuy": true,
-    "components": {
-     "engine": [
-      "A_Engine"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Engine"
-   },
-   "PRUH906_SMOLENSK": {
-    "canBuy": true,
-    "components": {
-     "airArmament": [],
-     "airDefense": [
-      "A_AirDefense"
-     ],
-     "artillery": [
-      "A_Artillery"
-     ],
-     "atba": [],
-     "depthCharges": [
-      "A_DepthChargeGuns"
-     ],
-     "directors": [
-      "A_Directors"
-     ],
-     "finders": [
-      "A_Finders"
-     ],
-     "hull": [
-      "A_Hull"
-     ],
-     "pinger": [],
-     "radars": [
-      "A_Radars"
-     ],
-     "torpedoes": [
-      "A_Torpedoes"
-     ]
-    },
-    "disabledAbilities": [],
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Hull"
-   },
-   "PRUS906_SUO_SMOLENSK": {
-    "canBuy": true,
-    "components": {
-     "fireControl": [
-      "A_FireControl"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Suo"
-   },
-   "PRUT907_TORP_SMOLENSK": {
-    "canBuy": true,
-    "components": {
-     "torpedoes": [
-      "A_Torpedoes"
-     ]
-    },
-    "nextShips": [],
-    "prev": "",
-    "ucType": "_Torpedoes"
-   },
-   "costCR": 0,
-   "costGold": 34650,
-   "costSaleGold": 0,
-   "costXP": 0,
-   "value": 1
-  },
-  "group": "ultimate",
-  "id": 3655251408,
-  "index": "PRSC610",
-  "level": 10,
-  "name": "PRSC610_Smolensk",
-  "typeinfo": {
-   "nation": "Russia",
-   "species": "Cruiser",
-   "type": "Ship"
-  }
- },
- {
-  "ModulesArmaments": {
    "A1_FireControl": {
     "maxDistCoef": 1.0,
     "sigmaCountCoef": 1.0
@@ -18916,8 +18263,8 @@
     "guns": {
      "HP_RGM_1": {
       "ammoList": [
-       "PRPA010_130MM_HE_OF_46_B2U",
-       "PRPA011_130MM_AP_PB_46_B2U"
+       "PRPA064_130MM_HE_KHABAROVSK",
+       "PRPA065_130MM_AP_KHABAROVSK"
       ],
       "barrelDiameter": 0.13,
       "deadZone": [],
@@ -18954,8 +18301,8 @@
      },
      "HP_RGM_2": {
       "ammoList": [
-       "PRPA010_130MM_HE_OF_46_B2U",
-       "PRPA011_130MM_AP_PB_46_B2U"
+       "PRPA064_130MM_HE_KHABAROVSK",
+       "PRPA065_130MM_AP_KHABAROVSK"
       ],
       "barrelDiameter": 0.13,
       "deadZone": [],
@@ -18992,8 +18339,8 @@
      },
      "HP_RGM_3": {
       "ammoList": [
-       "PRPA010_130MM_HE_OF_46_B2U",
-       "PRPA011_130MM_AP_PB_46_B2U"
+       "PRPA064_130MM_HE_KHABAROVSK",
+       "PRPA065_130MM_AP_KHABAROVSK"
       ],
       "barrelDiameter": 0.13,
       "deadZone": [],
@@ -19030,8 +18377,8 @@
      },
      "HP_RGM_4": {
       "ammoList": [
-       "PRPA010_130MM_HE_OF_46_B2U",
-       "PRPA011_130MM_AP_PB_46_B2U"
+       "PRPA064_130MM_HE_KHABAROVSK",
+       "PRPA065_130MM_AP_KHABAROVSK"
       ],
       "barrelDiameter": 0.13,
       "deadZone": [],
@@ -19208,6 +18555,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "A_Engine": {
@@ -19282,7 +18630,7 @@
     "torpedoArray": {
      "HP_RGT_1": {
       "ammoList": [
-       "PRPT019_ET_46"
+       "PRPT019_KHABAROVSK"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -19317,7 +18665,7 @@
      },
      "HP_RGT_2": {
       "ammoList": [
-       "PRPT019_ET_46"
+       "PRPT019_KHABAROVSK"
       ],
       "barrelDiameter": 0.533,
       "canRotate": true,
@@ -19475,13 +18823,13 @@
     "prev": "",
     "ucType": "_Torpedoes"
    },
-   "costCR": 18800000,
-   "costGold": 0,
+   "costCR": 0,
+   "costGold": 34650,
    "costSaleGold": 0,
-   "costXP": 226000,
+   "costXP": 0,
    "value": 1
   },
-  "group": "upgradeable",
+  "group": "ultimate",
   "id": 4179506640,
   "index": "PRSD110",
   "level": 10,
@@ -20044,22 +19392,34 @@
  {
   "ModulesArmaments": {
    "AB1_Fighter": {
-    "planeType": "PRAF701_POBEDA_STOCK"
+    "planes": [
+     "PRAF701_POBEDA_STOCK"
+    ]
    },
    "AB1_SkipBomber": {
-    "planeType": "PRAL701_POBEDA_STOCK"
+    "planes": [
+     "PRAL701_POBEDA_STOCK"
+    ]
    },
    "AB1_TorpedoBomber": {
-    "planeType": "PRAB701_POBEDA_STOCK"
+    "planes": [
+     "PRAB701_POBEDA_STOCK"
+    ]
    },
    "AB2_Fighter": {
-    "planeType": "PRAF702_POBEDA_TOP"
+    "planes": [
+     "PRAF702_POBEDA_TOP"
+    ]
    },
    "AB2_SkipBomber": {
-    "planeType": "PRAL702_POBEDA_TOP"
+    "planes": [
+     "PRAL702_POBEDA_TOP"
+    ]
    },
    "AB2_TorpedoBomber": {
-    "planeType": "PRAB702_POBEDA_TOP"
+    "planes": [
+     "PRAB702_POBEDA_TOP"
+    ]
    },
    "AB_FlightControl": {
     "squadrons": [
@@ -23229,6 +22589,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40
    },
    "A_Hull": {
@@ -24634,6 +23995,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "A_Hull": {
@@ -25701,22 +25063,34 @@
  {
   "ModulesArmaments": {
    "AB1_Fighter": {
-    "planeType": "PRAF501_SEROV_STOCK"
+    "planes": [
+     "PRAF501_SEROV_STOCK"
+    ]
    },
    "AB1_SkipBomber": {
-    "planeType": "PRAL501_SEROV_STOCK"
+    "planes": [
+     "PRAL501_SEROV_STOCK"
+    ]
    },
    "AB1_TorpedoBomber": {
-    "planeType": "PRAB501_SEROV_STOCK"
+    "planes": [
+     "PRAB501_SEROV_STOCK"
+    ]
    },
    "AB2_Fighter": {
-    "planeType": "PRAF502_SEROV_TOP"
+    "planes": [
+     "PRAF502_SEROV_TOP"
+    ]
    },
    "AB2_SkipBomber": {
-    "planeType": "PRAL502_SEROV_TOP"
+    "planes": [
+     "PRAL502_SEROV_TOP"
+    ]
    },
    "AB2_TorpedoBomber": {
-    "planeType": "PRAB502_SEROV_TOP"
+    "planes": [
+     "PRAB502_SEROV_TOP"
+    ]
    },
    "AB_Engine": {
     "HitLocationEngine": {
@@ -27095,6 +26469,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 2,
     "reloadTime": 40.0
    },
    "A_AirDefense": {
@@ -27420,7 +26795,7 @@
     },
     "disabledAbilities": [],
     "nextShips": [
-     "PRSD110_Pr_24_Khabarovsk"
+     "PRSD410_Delny"
     ],
     "prev": "PRUH807_D9_HULL_STOCK_4",
     "ucType": "_Hull"
@@ -32444,6 +31819,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "A_AirDefense": {
@@ -34271,7 +33647,7 @@
        5.0,
        6.0
       ],
-      "shotDelay": 26.0,
+      "shotDelay": 25.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Russia",
@@ -34309,7 +33685,7 @@
        5.0,
        6.0
       ],
-      "shotDelay": 26.0,
+      "shotDelay": 25.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Russia",
@@ -34347,7 +33723,7 @@
        5.0,
        6.0
       ],
-      "shotDelay": 26.0,
+      "shotDelay": 25.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Russia",
@@ -34438,7 +33814,7 @@
     "abils": [
      [
       "PCY009_CrashCrewPremium",
-      "USSR_C_Sevastopol"
+      "CV_CA_CL_Gold"
      ]
     ],
     "slot": 0
@@ -34459,19 +33835,14 @@
    "AbilitySlot2": {
     "abils": [
      [
-      "PCY015_SpeedBoosterPremium",
+      "PCY010_RegenCrewPremium",
       "USSR_C_Sevastopol"
      ]
     ],
     "slot": 2
    },
    "AbilitySlot3": {
-    "abils": [
-     [
-      "PCY010_RegenCrewPremium",
-      "USSR_C_Sevastopol"
-     ]
-    ],
+    "abils": [],
     "slot": 3
    },
    "AbilitySlot4": {
@@ -34950,6 +34321,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40
    },
    "AB_Engine": {
@@ -38070,6 +37442,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 2,
     "reloadTime": 40.0
    },
    "A_Hull": {
@@ -39336,6 +38709,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "A_Engine": {
@@ -41763,6 +41137,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "A_Engine": {
@@ -42847,6 +42222,685 @@
   "typeinfo": {
    "nation": "Russia",
    "species": "Destroyer",
+   "type": "Ship"
+  }
+ },
+ {
+  "ModulesArmaments": {
+   "A_AirDefense": {
+    "AuraMedium1": {
+     "areaDamage": 60.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.9,
+     "innerBubbleCount": 0,
+     "maxDistance": 3500.0,
+     "minDistance": 100.0,
+     "type": "medium"
+    },
+    "AuraNear1": {
+     "areaDamage": 20.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.85,
+     "innerBubbleCount": 0,
+     "maxDistance": 3100.0,
+     "minDistance": 100.0,
+     "type": "near"
+    },
+    "isAA": true
+   },
+   "A_Artillery": {
+    "AuraFar1": {
+     "areaDamage": 54.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 0.0,
+     "hitChance": 0.9,
+     "innerBubbleCount": 0.0,
+     "maxDistance": 6000.0,
+     "minDistance": 100.0,
+     "type": "far"
+    },
+    "AuraFar1_Bubbles": {
+     "areaDamage": 0.0,
+     "areaDamagePeriod": 0.285714285714,
+     "bubbleDamage": 270.0,
+     "hitChance": 0.9,
+     "innerBubbleCount": 6.0,
+     "maxDistance": 6000.0,
+     "minDistance": 3500.0,
+     "type": "far"
+    },
+    "guns": {
+     "HP_RGM_1": {
+      "ammoList": [
+       "PRPA101_130MM_HE_SMOLENSK",
+       "PRPA102_130MM_AP_SMOLENSK"
+      ],
+      "barrelDiameter": 0.13,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4145669584,
+      "idealDistance": 1000.0,
+      "idealRadius": 8,
+      "index": "PRGM142",
+      "minRadius": 0.5,
+      "name": "PRGM142_130mm57_6_BL132",
+      "numBarrels": 4,
+      "position": [
+       0.5,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       30.0,
+       20.0
+      ],
+      "shotDelay": 4.5,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_RGM_2": {
+      "ammoList": [
+       "PRPA101_130MM_HE_SMOLENSK",
+       "PRPA102_130MM_AP_SMOLENSK"
+      ],
+      "barrelDiameter": 0.13,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4145669584,
+      "idealDistance": 1000.0,
+      "idealRadius": 8,
+      "index": "PRGM142",
+      "minRadius": 0.5,
+      "name": "PRGM142_130mm57_6_BL132",
+      "numBarrels": 4,
+      "position": [
+       1.5,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       30.0,
+       20.0
+      ],
+      "shotDelay": 4.5,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_RGM_3": {
+      "ammoList": [
+       "PRPA101_130MM_HE_SMOLENSK",
+       "PRPA102_130MM_AP_SMOLENSK"
+      ],
+      "barrelDiameter": 0.13,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -149.0,
+       149.0
+      ],
+      "id": 4145669584,
+      "idealDistance": 1000.0,
+      "idealRadius": 8,
+      "index": "PRGM142",
+      "minRadius": 0.5,
+      "name": "PRGM142_130mm57_6_BL132",
+      "numBarrels": 4,
+      "position": [
+       4.5,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       30.0,
+       20.0
+      ],
+      "shotDelay": 4.5,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "Main",
+       "type": "Gun"
+      }
+     },
+     "HP_RGM_4": {
+      "ammoList": [
+       "PRPA101_130MM_HE_SMOLENSK",
+       "PRPA102_130MM_AP_SMOLENSK"
+      ],
+      "barrelDiameter": 0.13,
+      "deadZone": [],
+      "delim": 0.5,
+      "horizSector": [
+       -149.0,
+       149.0
+      ],
+      "id": 4145669584,
+      "idealDistance": 1000.0,
+      "idealRadius": 8,
+      "index": "PRGM142",
+      "minRadius": 0.5,
+      "name": "PRGM142_130mm57_6_BL132",
+      "numBarrels": 4,
+      "position": [
+       5.5,
+       1.0
+      ],
+      "radiusOnDelim": 0.5,
+      "radiusOnMax": 0.6,
+      "radiusOnZero": 0.2,
+      "rotationSpeed": [
+       30.0,
+       20.0
+      ],
+      "shotDelay": 4.5,
+      "smokePenalty": 0.0001,
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "Main",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxDist": 13800.0,
+    "normalDistribution": true,
+    "sigmaCount": 2.0,
+    "taperDist": 4000.0
+   },
+   "A_DepthChargeGuns": {
+    "depthCharges": {
+     "HP_RGB_1": {
+      "ammoList": [
+       "PRPD009_BM_1_rpd005"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4119815632,
+      "index": "PRGB167",
+      "name": "PRGB167_RBU_1200M",
+      "numBombs": 5,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_RGB_2": {
+      "ammoList": [
+       "PRPD009_BM_1_rpd005"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4119815632,
+      "index": "PRGB167",
+      "name": "PRGB167_RBU_1200M",
+      "numBombs": 5,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_RGB_3": {
+      "ammoList": [
+       "PRPD010_BM_1_rpd007"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4140787152,
+      "index": "PRGB147",
+      "name": "PRGB147_Depth_Charge_Thrower_BMB2",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_RGB_4": {
+      "ammoList": [
+       "PRPD010_BM_1_rpd007"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4140787152,
+      "index": "PRGB147",
+      "name": "PRGB147_Depth_Charge_Thrower_BMB2",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_RGB_5": {
+      "ammoList": [
+       "PRPD010_BM_1_rpd007"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4140787152,
+      "index": "PRGB147",
+      "name": "PRGB147_Depth_Charge_Thrower_BMB2",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_RGB_6": {
+      "ammoList": [
+       "PRPD010_BM_1_rpd007"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4140787152,
+      "index": "PRGB147",
+      "name": "PRGB147_Depth_Charge_Thrower_BMB2",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_RGB_7": {
+      "ammoList": [
+       "PRPD010_BM_1_rpd007"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4140787152,
+      "index": "PRGB147",
+      "name": "PRGB147_Depth_Charge_Thrower_BMB2",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     },
+     "HP_RGB_8": {
+      "ammoList": [
+       "PRPD010_BM_1_rpd007"
+      ],
+      "horizSector": [
+       -150.0,
+       150.0
+      ],
+      "id": 4140787152,
+      "index": "PRGB147",
+      "name": "PRGB147_Depth_Charge_Thrower_BMB2",
+      "numBombs": 1,
+      "rotationSpeed": [
+       0.0,
+       0.0
+      ],
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "DCharge",
+       "type": "Gun"
+      }
+     }
+    },
+    "maxPacks": 2,
+    "numShots": 1,
+    "reloadTime": 40.0
+   },
+   "A_Engine": {
+    "HitLocationEngine": {
+     "armorCoeff": 0.2
+    },
+    "backwardEngineUpTime": 20.0,
+    "forwardEngineUpTime": 40.0,
+    "speedCoef": 0.0
+   },
+   "A_FireControl": {
+    "maxDistCoef": 1.0,
+    "sigmaCountCoef": 1.0
+   },
+   "A_Hull": {
+    "SG": {
+     "armorCoeff": 0.6
+    },
+    "burnNodes": [
+     [
+      0.5005,
+      0.3,
+      30.0
+     ],
+     [
+      0.5005,
+      0.3,
+      30.0
+     ],
+     [
+      0.5005,
+      0.3,
+      30.0
+     ],
+     [
+      0.5005,
+      0.3,
+      30.0
+     ]
+    ],
+    "floodNodes": [
+     [
+      0.333,
+      0.25,
+      40.0
+     ],
+     [
+      0.333,
+      0.25,
+      40.0
+     ]
+    ],
+    "health": 32400.0,
+    "maxSpeed": 35.0,
+    "rudderTime": 10.72,
+    "size": [
+     179.0,
+     18.14,
+     24.22
+    ],
+    "speedCoef": 1.0,
+    "turningRadius": 750.0,
+    "visibilityCoefGKInSmoke": 5.91,
+    "visibilityFactor": 12.78,
+    "visibilityFactorByPlane": 7.41,
+    "visibilityFactorsBySubmarine": {
+     "DEEP_WATER": 2.0,
+     "DEEP_WATER_INVUL": 0.0,
+     "PERISCOPE": 7.41,
+     "SEMI_DEEP_WATER": 2.0,
+     "SURFACE": 0.0
+    }
+   },
+   "A_Torpedoes": {
+    "timeToChangeAmmo": 10.0,
+    "torpedoArray": {
+     "HP_RGT_1": {
+      "ammoList": [
+       "PRPT034_SMOLENSK"
+      ],
+      "barrelDiameter": 0.533,
+      "canRotate": true,
+      "deadZone": [
+       [
+        0.0,
+        30.0
+       ]
+      ],
+      "horizSector": [
+       0.0,
+       145.0
+      ],
+      "id": 4219889104,
+      "index": "PRGT071",
+      "name": "PRGT071_533mm_PTA_5tubes",
+      "numBarrels": 5,
+      "rotationSpeed": [
+       25.0,
+       25.0
+      ],
+      "shotDelay": 131.0,
+      "torpedoAngles": [
+       6.0,
+       20.0
+      ],
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "Torpedo",
+       "type": "Gun"
+      }
+     },
+     "HP_RGT_2": {
+      "ammoList": [
+       "PRPT034_SMOLENSK"
+      ],
+      "barrelDiameter": 0.533,
+      "canRotate": true,
+      "deadZone": [
+       [
+        -30.0,
+        0.0
+       ]
+      ],
+      "horizSector": [
+       -145.0,
+       0.0
+      ],
+      "id": 4219889104,
+      "index": "PRGT071",
+      "name": "PRGT071_533mm_PTA_5tubes",
+      "numBarrels": 5,
+      "rotationSpeed": [
+       25.0,
+       25.0
+      ],
+      "shotDelay": 131.0,
+      "torpedoAngles": [
+       6.0,
+       20.0
+      ],
+      "typeinfo": {
+       "nation": "Russia",
+       "species": "Torpedo",
+       "type": "Gun"
+      }
+     }
+    }
+   }
+  },
+  "ShipAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY009_CrashCrewPremium",
+      "CV_CA_CL_Gold"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY011_AirDefenseDispPremium",
+      "Default_Gold"
+     ],
+     [
+      "PCY016_SonarSearchPremium",
+      "C_8_10"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [
+     [
+      "PCY014_SmokeGeneratorPremium",
+      "Lvl_8_Gold_Kutuzov"
+     ]
+    ],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [
+     [
+      "PCY010_RegenCrewPremium",
+      "C_Gold"
+     ]
+    ],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "ShipUpgradeInfo": {
+   "PRUA905_ART_SMOLENSK": {
+    "canBuy": true,
+    "components": {
+     "artillery": [
+      "A_Artillery"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Artillery"
+   },
+   "PRUE906_ENG_SMOLENSK": {
+    "canBuy": true,
+    "components": {
+     "engine": [
+      "A_Engine"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Engine"
+   },
+   "PRUH906_SMOLENSK": {
+    "canBuy": true,
+    "components": {
+     "airArmament": [],
+     "airDefense": [
+      "A_AirDefense"
+     ],
+     "artillery": [
+      "A_Artillery"
+     ],
+     "atba": [],
+     "depthCharges": [
+      "A_DepthChargeGuns"
+     ],
+     "directors": [
+      "A_Directors"
+     ],
+     "finders": [
+      "A_Finders"
+     ],
+     "hull": [
+      "A_Hull"
+     ],
+     "pinger": [],
+     "radars": [
+      "A_Radars"
+     ],
+     "torpedoes": [
+      "A_Torpedoes"
+     ]
+    },
+    "disabledAbilities": [],
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Hull"
+   },
+   "PRUS906_SUO_SMOLENSK": {
+    "canBuy": true,
+    "components": {
+     "fireControl": [
+      "A_FireControl"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Suo"
+   },
+   "PRUT907_TORP_SMOLENSK": {
+    "canBuy": true,
+    "components": {
+     "torpedoes": [
+      "A_Torpedoes"
+     ]
+    },
+    "nextShips": [],
+    "prev": "",
+    "ucType": "_Torpedoes"
+   },
+   "costCR": 0,
+   "costGold": 34650,
+   "costSaleGold": 0,
+   "costXP": 0,
+   "value": 1
+  },
+  "group": "ultimate",
+  "id": 3655251408,
+  "index": "PRSC610",
+  "level": 10,
+  "name": "PRSC610_Smolensk",
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "Cruiser",
    "type": "Ship"
   }
  },
@@ -46570,7 +46624,7 @@
        20.0,
        12.0
       ],
-      "shotDelay": 4.5,
+      "shotDelay": 5.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Russia",
@@ -46608,7 +46662,7 @@
        20.0,
        12.0
       ],
-      "shotDelay": 4.5,
+      "shotDelay": 5.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Russia",
@@ -46646,7 +46700,7 @@
        20.0,
        12.0
       ],
-      "shotDelay": 4.5,
+      "shotDelay": 5.0,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Russia",
@@ -46950,6 +47004,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "A_Engine": {
@@ -47142,13 +47197,13 @@
     "prev": "",
     "ucType": "_Torpedoes"
    },
-   "costCR": 0,
+   "costCR": 18800000,
    "costGold": 0,
    "costSaleGold": 0,
-   "costXP": 0,
+   "costXP": 226000,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "upgradeable",
   "id": 3864933840,
   "index": "PRSD410",
   "level": 10,
@@ -47434,6 +47489,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 2,
     "reloadTime": 40.0
    },
    "A_Engine": {
@@ -49668,6 +49724,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40
    },
    "A_Engine": {
@@ -50216,6 +50273,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 2,
     "reloadTime": 40.0
    },
    "AB_Engine": {
@@ -52524,6 +52582,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "A_AirDefense": {
@@ -54436,6 +54495,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "AB_Engine": {
@@ -55655,6 +55715,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 2,
     "reloadTime": 40.0
    },
    "A_Engine": {
@@ -55956,7 +56017,9 @@
     "speedCoef": 0.0
    },
    "A1_Fighter": {
-    "planeType": "PRAF901_A_NAKHIMOV_STOCK"
+    "planes": [
+     "PRAF901_A_NAKHIMOV_STOCK"
+    ]
    },
    "A1_FlightControl": {
     "squadrons": [
@@ -55966,19 +56029,29 @@
     ]
    },
    "A1_SkipBomber": {
-    "planeType": "PRAL901_A_NAKHIMOV_STOCK"
+    "planes": [
+     "PRAL901_A_NAKHIMOV_STOCK"
+    ]
    },
    "A1_TorpedoBomber": {
-    "planeType": "PRAB901_A_NAKHIMOV_STOCK"
+    "planes": [
+     "PRAB901_A_NAKHIMOV_STOCK"
+    ]
    },
    "A2_Fighter": {
-    "planeType": "PRAF902_A_NAKHIMOV_TOP"
+    "planes": [
+     "PRAF902_A_NAKHIMOV_TOP"
+    ]
    },
    "A2_SkipBomber": {
-    "planeType": "PRAL902_A_NAKHIMOV_TOP"
+    "planes": [
+     "PRAL902_A_NAKHIMOV_TOP"
+    ]
    },
    "A2_TorpedoBomber": {
-    "planeType": "PRAB902_A_NAKHIMOV_TOP"
+    "planes": [
+     "PRAB902_A_NAKHIMOV_TOP"
+    ]
    },
    "A_ATBA": {
     "Far1": {
@@ -56768,6 +56841,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 2,
     "reloadTime": 40.0
    },
    "A_Engine": {
@@ -61617,6 +61691,7 @@
      }
     },
     "maxPacks": 2,
+    "numShots": 1,
     "reloadTime": 40.0
    },
    "A_Engine": {

@@ -48,8 +48,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -117,8 +115,6 @@
   },
   "id": 4241457136,
   "index": "PAAB051",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -186,8 +182,6 @@
   },
   "id": 4286545904,
   "index": "PAAB008",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -255,8 +249,6 @@
   },
   "id": 4282843120,
   "index": "PAAS011",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -334,8 +326,6 @@
    0.88,
    2.07
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -418,8 +408,6 @@
    2.67,
    1.6
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -502,8 +490,6 @@
    0.88,
    2.07
   ],
-  "isAirSupportPlane": true,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -586,8 +572,6 @@
   },
   "id": 3751772144,
   "index": "PAAB518",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -660,8 +644,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -729,8 +711,6 @@
   },
   "id": 4288086000,
   "index": "PAAS006",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -813,8 +793,6 @@
   },
   "id": 4181688304,
   "index": "PAAB108",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -832,6 +810,88 @@
   "speedMax": 1.2917,
   "speedMin": 0.7812,
   "speedMoveWithBomb": 120.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Bomber",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY034_ForsageBooster",
+      "Allplanes"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY035_CallFighters",
+      "USA_11"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [
+     [
+      "PCY036_RegenerateHealth",
+      "AllPlanes"
+     ]
+    ],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "aimingAccuracyDecreaseRate": -0.2,
+  "aimingAccuracyIncreaseRate": 0.1,
+  "aimingTime": 10,
+  "attackCooldown": 5,
+  "attackInterval": 0.01,
+  "attackSpeedMultiplier": 1.0,
+  "attackSpeedMultiplierApplyTime": 0.0,
+  "attackerDamageTakenMultiplier": 0.5,
+  "attackerSize": 3,
+  "bombFallingTime": 0.3,
+  "bombName": "PAPT120_UNITED_STATES_STOCK",
+  "flightHeight": 20.0,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 14,
+   "restoreAmount": 1,
+   "startValue": 14,
+   "timeToRestore": 99.0
+  },
+  "id": 4169105392,
+  "index": "PAAB120",
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 2040,
+  "name": "PAAB120_UNITED_STATES_STOCK",
+  "naturalAcceleration": 0.035,
+  "naturalDeceleration": 0.035,
+  "numPlanesInSquadron": 9,
+  "postAttackInvulnerabilityDuration": 3.5,
+  "preparationAccuracyDecreaseRate": -0.14,
+  "preparationAccuracyIncreaseRate": 0.2,
+  "preparationTime": 4,
+  "projectilesPerAttack": 2,
+  "returnHeight": 100.0,
+  "speedMax": 1.2672,
+  "speedMin": 0.7996,
+  "speedMoveWithBomb": 131.0,
   "typeinfo": {
    "nation": "USA",
    "species": "Bomber",
@@ -887,8 +947,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -971,8 +1029,6 @@
   },
   "id": 4179591152,
   "index": "PAAB110",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -1050,8 +1106,6 @@
   },
   "id": 4240408560,
   "index": "PAAB052",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -1124,8 +1178,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -1198,8 +1250,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -1277,8 +1327,6 @@
   },
   "id": 4183785456,
   "index": "PAAB106",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -1361,8 +1409,6 @@
    2.0,
    0.5
   ],
-  "isAirSupportPlane": true,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -1445,8 +1491,6 @@
    2.0,
    0.5
   ],
-  "isAirSupportPlane": true,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -1514,8 +1558,6 @@
   },
   "id": 4292280304,
   "index": "PAAS002",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -1588,8 +1630,6 @@
    3.04,
    1.21
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -1657,8 +1697,6 @@
   },
   "id": 4279697392,
   "index": "PAAS014",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -1741,8 +1779,6 @@
    2.67,
    1.6
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -1815,8 +1851,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -1889,8 +1923,6 @@
    1.0,
    2.0
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -1958,8 +1990,6 @@
   },
   "id": 4290740208,
   "index": "PAAB004",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -2032,8 +2062,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -2106,8 +2134,6 @@
    1.0,
    2.0
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -2128,6 +2154,406 @@
   "typeinfo": {
    "nation": "USA",
    "species": "Dive",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY034_ForsageBooster",
+      "Allplanes"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY035_CallFighters",
+      "USA_8"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [
+     [
+      "PCY036_RegenerateHealth",
+      "AllPlanes"
+     ]
+    ],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "aimingAccuracyDecreaseRate": -0.175,
+  "aimingAccuracyIncreaseRate": 0.1,
+  "aimingTime": 10,
+  "attackCooldown": 5,
+  "attackInterval": 1,
+  "attackSpeedMultiplier": 1.0,
+  "attackSpeedMultiplierApplyTime": 0.0,
+  "attackerDamageTakenMultiplier": 0.5,
+  "attackerSize": 3,
+  "bombFallingTime": 0.3,
+  "bombName": "PAPT218_YORKTOWN_TOP",
+  "flightHeight": 20.0,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 14,
+   "restoreAmount": 1,
+   "startValue": 14,
+   "timeToRestore": 80.0
+  },
+  "id": 4066344944,
+  "index": "PAAB218",
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 1880,
+  "name": "PAAB218_YORKTOWN_TOP",
+  "naturalAcceleration": 0.032,
+  "naturalDeceleration": 0.032,
+  "numPlanesInSquadron": 9,
+  "postAttackInvulnerabilityDuration": 3.5,
+  "preparationAccuracyDecreaseRate": -0.12,
+  "preparationAccuracyIncreaseRate": 0.2,
+  "preparationTime": 4,
+  "projectilesPerAttack": 1,
+  "returnHeight": 100.0,
+  "speedMax": 1.28,
+  "speedMin": 0.79,
+  "speedMoveWithBomb": 125.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Bomber",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY034_ForsageBooster",
+      "Allplanes"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY035_CallFighters",
+      "USA_11"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "aimingAccuracyDecreaseRate": -0.25,
+  "aimingAccuracyIncreaseRate": 0.3,
+  "aimingTime": 6,
+  "attackCooldown": 9,
+  "attackInterval": 0.05,
+  "attackSpeedMultiplier": 1.0,
+  "attackSpeedMultiplierApplyTime": 0.0,
+  "attackerDamageTakenMultiplier": 0.7,
+  "attackerSize": 3,
+  "bombFallingTime": 0.3,
+  "bombName": "PAPB120_UNITED_STATES_STOCK",
+  "flightHeight": 20.0,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 18,
+   "restoreAmount": 1,
+   "startValue": 18,
+   "timeToRestore": 76.0
+  },
+  "id": 4169039856,
+  "index": "PAAD120",
+  "innerBombsPercentage": 25.0,
+  "innerSalvoSize": [
+   0.88,
+   2.07
+  ],
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 10.0,
+  "jatoSpeedMultiplier": 1.3,
+  "maxHealth": 2150,
+  "name": "PAAD120_UNITED_STATES_STOCK",
+  "naturalAcceleration": 0.033,
+  "naturalDeceleration": 0.033,
+  "numPlanesInSquadron": 12,
+  "postAttackInvulnerabilityDuration": 3.5,
+  "preparationAccuracyDecreaseRate": -0.15,
+  "preparationAccuracyIncreaseRate": 0.15,
+  "preparationTime": 2.5,
+  "projectilesPerAttack": 1,
+  "returnHeight": 100.0,
+  "speedMax": 1.2672,
+  "speedMin": 0.7996,
+  "speedMoveWithBomb": 131.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Dive",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "aimingAccuracyDecreaseRate": -0.25,
+  "aimingAccuracyIncreaseRate": 0.3,
+  "aimingTime": 9,
+  "attackCooldown": 9,
+  "attackInterval": 0.1,
+  "attackSpeedMultiplier": 1.0,
+  "attackSpeedMultiplierApplyTime": 0.0,
+  "attackerDamageTakenMultiplier": 0.7,
+  "attackerSize": 1,
+  "bombFallingTime": 0.3,
+  "bombName": "PAPB121_UNITED_STATES_JET",
+  "flightHeight": 20.0,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 1,
+   "restoreAmount": 1,
+   "startValue": 0,
+   "timeToRestore": 360.0
+  },
+  "id": 4167991280,
+  "index": "PAAD121",
+  "innerBombsPercentage": 16.667,
+  "innerSalvoSize": [
+   0.88,
+   2.07
+  ],
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 5860,
+  "name": "PAAD121_UNITED_STATES_JET",
+  "naturalAcceleration": 0.032,
+  "naturalDeceleration": 0.032,
+  "numPlanesInSquadron": 1,
+  "postAttackInvulnerabilityDuration": 3.5,
+  "preparationAccuracyDecreaseRate": -0.15,
+  "preparationAccuracyIncreaseRate": 0.15,
+  "preparationTime": 0.0,
+  "projectilesPerAttack": 1,
+  "returnHeight": 100.0,
+  "speedMax": 2.0,
+  "speedMin": 1.0,
+  "speedMoveWithBomb": 132.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Dive",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY034_ForsageBooster",
+      "Allplanes"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY035_CallFighters",
+      "USA_8"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "aimingAccuracyDecreaseRate": -0.35,
+  "aimingAccuracyIncreaseRate": 0.1,
+  "aimingTime": 5,
+  "attackCooldown": 5,
+  "attackInterval": 0.1,
+  "attackSpeedMultiplier": 0.5,
+  "attackSpeedMultiplierApplyTime": 0.75,
+  "attackerDamageTakenMultiplier": 1,
+  "attackerSize": 3,
+  "bombFallingTime": 0.3,
+  "bombName": "PAPR318_YORKTOWN_TOP",
+  "flightHeight": 20.0,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 14,
+   "restoreAmount": 1,
+   "startValue": 14,
+   "timeToRestore": 66.0
+  },
+  "id": 3961356272,
+  "index": "PAAF318",
+  "innerBombsPercentage": 75.0,
+  "innerSalvoSize": [
+   2.52,
+   1.01
+  ],
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 1460,
+  "name": "PAAF318_YORKTOWN_TOP",
+  "naturalAcceleration": 0.21,
+  "naturalDeceleration": 0.21,
+  "numPlanesInSquadron": 9,
+  "postAttackInvulnerabilityDuration": 3.5,
+  "preparationAccuracyDecreaseRate": -0.4,
+  "preparationAccuracyIncreaseRate": 0.33,
+  "preparationTime": 3,
+  "projectilesPerAttack": 1,
+  "returnHeight": 100.0,
+  "speedMax": 1.2367,
+  "speedMin": 0.8225,
+  "speedMoveWithBomb": 169.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Fighter",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY034_ForsageBooster",
+      "Allplanes"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY035_CallFighters",
+      "USA_8"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "aimingAccuracyDecreaseRate": -0.23,
+  "aimingAccuracyIncreaseRate": 0.1,
+  "aimingTime": 5,
+  "attackCooldown": 5,
+  "attackInterval": 0.015,
+  "attackSpeedMultiplier": 0.5,
+  "attackSpeedMultiplierApplyTime": 0.75,
+  "attackerDamageTakenMultiplier": 1,
+  "attackerSize": 2,
+  "bombFallingTime": 0.3,
+  "bombName": "PAPR118_YORKTOWN_STOCK",
+  "flightHeight": 18.0,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 12,
+   "restoreAmount": 1,
+   "startValue": 12,
+   "timeToRestore": 69.0
+  },
+  "id": 4171071472,
+  "index": "PAAF118",
+  "innerBombsPercentage": 75.0,
+  "innerSalvoSize": [
+   1.7,
+   1.02
+  ],
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 1400,
+  "name": "PAAF118_YORKTOWN_STOCK",
+  "naturalAcceleration": 0.199,
+  "naturalDeceleration": 0.199,
+  "numPlanesInSquadron": 8,
+  "postAttackInvulnerabilityDuration": 3.5,
+  "preparationAccuracyDecreaseRate": -0.135,
+  "preparationAccuracyIncreaseRate": 0.32,
+  "preparationTime": 3,
+  "projectilesPerAttack": 1,
+  "returnHeight": 100.0,
+  "speedMax": 1.25,
+  "speedMin": 0.8125,
+  "speedMoveWithBomb": 160.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Fighter",
    "type": "Aircraft"
   }
  },
@@ -2175,8 +2601,6 @@
   },
   "id": 4282351600,
   "index": "PAAB012",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -2259,8 +2683,6 @@
    0.62,
    1.48
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -2328,8 +2750,6 @@
   },
   "id": 4278648816,
   "index": "PAAS015",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -2397,8 +2817,6 @@
   },
   "id": 4293885936,
   "index": "PAAB001",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -2466,8 +2884,6 @@
   },
   "id": 4285988848,
   "index": "PAAS008",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -2545,8 +2961,6 @@
   },
   "id": 3655303152,
   "index": "PAAB610",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -2619,8 +3033,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -2693,8 +3105,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -2767,8 +3177,6 @@
    1.0,
    4.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -2851,8 +3259,6 @@
    0.88,
    2.07
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -2935,8 +3341,6 @@
    2.0,
    0.5
   ],
-  "isAirSupportPlane": true,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -3009,8 +3413,6 @@
    1.0,
    4.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -3083,8 +3485,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -3157,8 +3557,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -3231,8 +3629,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -3249,7 +3645,7 @@
   "returnHeight": 100.0,
   "speedMax": 1.2273,
   "speedMin": 0.8295,
-  "speedMoveWithBomb": 238.0,
+  "speedMoveWithBomb": 266.0,
   "typeinfo": {
    "nation": "USA",
    "species": "Fighter",
@@ -3315,8 +3711,6 @@
    1.7,
    1.02
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -3399,8 +3793,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -3421,90 +3813,6 @@
   "typeinfo": {
    "nation": "USA",
    "species": "Fighter",
-   "type": "Aircraft"
-  }
- },
- {
-  "PlaneAbilities": {
-   "AbilitySlot0": {
-    "abils": [
-     [
-      "PCY034_ForsageBooster",
-      "Allplanes"
-     ]
-    ],
-    "slot": 0
-   },
-   "AbilitySlot1": {
-    "abils": [
-     [
-      "PCY035_CallFighters",
-      "USA_8"
-     ]
-    ],
-    "slot": 1
-   },
-   "AbilitySlot2": {
-    "abils": [],
-    "slot": 2
-   },
-   "AbilitySlot3": {
-    "abils": [],
-    "slot": 3
-   },
-   "AbilitySlot4": {
-    "abils": [],
-    "slot": 4
-   }
-  },
-  "aimingAccuracyDecreaseRate": -0.21,
-  "aimingAccuracyIncreaseRate": 0.3,
-  "aimingTime": 6,
-  "attackCooldown": 8.5,
-  "attackInterval": 0.05,
-  "attackSpeedMultiplier": 1.0,
-  "attackSpeedMultiplierApplyTime": 0.0,
-  "attackerDamageTakenMultiplier": 0.7,
-  "attackerSize": 3,
-  "bombFallingTime": 0.3,
-  "bombName": "PAPB208_Lexington_top",
-  "flightHeight": 20.0,
-  "flightRadius": 33.0,
-  "hangarSettings": {
-   "maxValue": 14,
-   "restoreAmount": 1,
-   "startValue": 14,
-   "timeToRestore": 76.0
-  },
-  "id": 4076765168,
-  "index": "PAAD208",
-  "innerBombsPercentage": 25.0,
-  "innerSalvoSize": [
-   0.88,
-   2.07
-  ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
-  "isJatoBoosterDetachable": true,
-  "jatoDuration": 0.0,
-  "jatoSpeedMultiplier": 2.0,
-  "maxHealth": 1980,
-  "name": "PAAD208_Lexington_top",
-  "naturalAcceleration": 0.031,
-  "naturalDeceleration": 0.031,
-  "numPlanesInSquadron": 9,
-  "postAttackInvulnerabilityDuration": 3.5,
-  "preparationAccuracyDecreaseRate": -0.13,
-  "preparationAccuracyIncreaseRate": 0.15,
-  "preparationTime": 2.25,
-  "projectilesPerAttack": 1,
-  "returnHeight": 100.0,
-  "speedMax": 1.28,
-  "speedMin": 0.79,
-  "speedMoveWithBomb": 125.0,
-  "typeinfo": {
-   "nation": "USA",
-   "species": "Dive",
    "type": "Aircraft"
   }
  },
@@ -3562,8 +3870,6 @@
    1.7,
    1.02
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -3636,8 +3942,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -3658,6 +3962,88 @@
   "typeinfo": {
    "nation": "USA",
    "species": "Fighter",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY034_ForsageBooster",
+      "Allplanes"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY035_CallFighters",
+      "USA_8"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "aimingAccuracyDecreaseRate": -0.21,
+  "aimingAccuracyIncreaseRate": 0.3,
+  "aimingTime": 6,
+  "attackCooldown": 8.5,
+  "attackInterval": 0.05,
+  "attackSpeedMultiplier": 1.0,
+  "attackSpeedMultiplierApplyTime": 0.0,
+  "attackerDamageTakenMultiplier": 0.7,
+  "attackerSize": 3,
+  "bombFallingTime": 0.3,
+  "bombName": "PAPB218_YORKTOWN_TOP",
+  "flightHeight": 20.0,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 14,
+   "restoreAmount": 1,
+   "startValue": 14,
+   "timeToRestore": 76.0
+  },
+  "id": 4066279408,
+  "index": "PAAD218",
+  "innerBombsPercentage": 25.0,
+  "innerSalvoSize": [
+   0.88,
+   2.07
+  ],
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 1980,
+  "name": "PAAD218_YORKTOWN_TOP",
+  "naturalAcceleration": 0.031,
+  "naturalDeceleration": 0.031,
+  "numPlanesInSquadron": 9,
+  "postAttackInvulnerabilityDuration": 3.5,
+  "preparationAccuracyDecreaseRate": -0.13,
+  "preparationAccuracyIncreaseRate": 0.15,
+  "preparationTime": 2.25,
+  "projectilesPerAttack": 1,
+  "returnHeight": 100.0,
+  "speedMax": 1.28,
+  "speedMin": 0.79,
+  "speedMoveWithBomb": 125.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Dive",
    "type": "Aircraft"
   }
  },
@@ -3720,8 +4106,6 @@
    2.0,
    0.5
   ],
-  "isAirSupportPlane": true,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -3789,8 +4173,6 @@
   },
   "id": 4291788784,
   "index": "PAAB003",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -3863,8 +4245,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -3947,8 +4327,6 @@
    2.0,
    0.5
   ],
-  "isAirSupportPlane": true,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -4031,8 +4409,6 @@
    2.37,
    1.42
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -4105,8 +4481,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -4174,8 +4548,6 @@
   },
   "id": 4281303024,
   "index": "PAAB013",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -4248,8 +4620,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -4322,8 +4692,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -4396,8 +4764,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -4442,6 +4808,88 @@
     "slot": 1
    },
    "AbilitySlot2": {
+    "abils": [
+     [
+      "PCY036_RegenerateHealth",
+      "AllPlanes"
+     ]
+    ],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "aimingAccuracyDecreaseRate": -0.15,
+  "aimingAccuracyIncreaseRate": 0.1,
+  "aimingTime": 10,
+  "attackCooldown": 5,
+  "attackInterval": 1,
+  "attackSpeedMultiplier": 1.0,
+  "attackSpeedMultiplierApplyTime": 0.0,
+  "attackerDamageTakenMultiplier": 0.5,
+  "attackerSize": 2,
+  "bombFallingTime": 0.3,
+  "bombName": "PAPT118_YORKTOWN_STOCK",
+  "flightHeight": 20.0,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 12,
+   "restoreAmount": 1,
+   "startValue": 12,
+   "timeToRestore": 86.0
+  },
+  "id": 4171202544,
+  "index": "PAAB118",
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 1800,
+  "name": "PAAB118_YORKTOWN_STOCK",
+  "naturalAcceleration": 0.029,
+  "naturalDeceleration": 0.029,
+  "numPlanesInSquadron": 8,
+  "postAttackInvulnerabilityDuration": 3.5,
+  "preparationAccuracyDecreaseRate": -0.1,
+  "preparationAccuracyIncreaseRate": 0.2,
+  "preparationTime": 4,
+  "projectilesPerAttack": 1,
+  "returnHeight": 100.0,
+  "speedMax": 1.2917,
+  "speedMin": 0.7812,
+  "speedMoveWithBomb": 120.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Bomber",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY034_ForsageBooster",
+      "Allplanes"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY035_CallFighters",
+      "USA_Hornet"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
     "abils": [],
     "slot": 2
    },
@@ -4454,54 +4902,52 @@
     "slot": 4
    }
   },
-  "aimingAccuracyDecreaseRate": -0.23,
-  "aimingAccuracyIncreaseRate": 0.1,
-  "aimingTime": 5,
-  "attackCooldown": 5,
-  "attackInterval": 0.015,
-  "attackSpeedMultiplier": 0.5,
-  "attackSpeedMultiplierApplyTime": 0.75,
-  "attackerDamageTakenMultiplier": 1,
-  "attackerSize": 2,
+  "aimingAccuracyDecreaseRate": 0.0,
+  "aimingAccuracyIncreaseRate": 0.33,
+  "aimingTime": 7,
+  "attackCooldown": 9.0,
+  "attackInterval": 0.15,
+  "attackSpeedMultiplier": 1.0,
+  "attackSpeedMultiplierApplyTime": 0.0,
+  "attackerDamageTakenMultiplier": 0.7,
+  "attackerSize": 5,
   "bombFallingTime": 0.3,
-  "bombName": "PAPR108_Lexington_stock",
-  "flightHeight": 18.0,
+  "bombName": "PAPB548_HORNET_STOCK",
+  "flightHeight": 25.0,
   "flightRadius": 33.0,
   "hangarSettings": {
-   "maxValue": 12,
+   "maxValue": 20,
    "restoreAmount": 1,
-   "startValue": 12,
-   "timeToRestore": 69.0
+   "startValue": 20,
+   "timeToRestore": 62.0
   },
-  "id": 4181557232,
-  "index": "PAAF108",
-  "innerBombsPercentage": 75.0,
+  "id": 3730735088,
+  "index": "PAAD538",
+  "innerBombsPercentage": 50.0,
   "innerSalvoSize": [
-   1.7,
-   1.02
+   1.26,
+   5.04
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
-  "maxHealth": 1400,
-  "name": "PAAF108_Lexington_stock",
-  "naturalAcceleration": 0.199,
-  "naturalDeceleration": 0.199,
-  "numPlanesInSquadron": 8,
+  "maxHealth": 1890,
+  "name": "PAAD538_HORNET_STOCK",
+  "naturalAcceleration": 0.042,
+  "naturalDeceleration": 0.042,
+  "numPlanesInSquadron": 10,
   "postAttackInvulnerabilityDuration": 3.5,
-  "preparationAccuracyDecreaseRate": -0.135,
-  "preparationAccuracyIncreaseRate": 0.32,
-  "preparationTime": 3,
+  "preparationAccuracyDecreaseRate": -0.0,
+  "preparationAccuracyIncreaseRate": 0.34,
+  "preparationTime": 3.5,
   "projectilesPerAttack": 1,
   "returnHeight": 100.0,
-  "speedMax": 1.25,
-  "speedMin": 0.8125,
-  "speedMoveWithBomb": 160.0,
+  "speedMax": 1.2858,
+  "speedMin": 0.7856,
+  "speedMoveWithBomb": 122.0,
   "typeinfo": {
    "nation": "USA",
-   "species": "Fighter",
+   "species": "Dive",
    "type": "Aircraft"
   }
  },
@@ -4564,8 +5010,6 @@
    2.52,
    1.01
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -4648,8 +5092,6 @@
    3.04,
    1.21
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -4722,8 +5164,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -4796,8 +5236,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -4880,8 +5318,6 @@
   },
   "id": 4076830704,
   "index": "PAAB208",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -4954,8 +5390,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -5023,8 +5457,6 @@
   },
   "id": 4290183152,
   "index": "PAAS004",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -5107,8 +5539,6 @@
    2.52,
    1.01
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -5181,8 +5611,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -5200,6 +5628,88 @@
   "speedMax": 1.5,
   "speedMin": 0.8,
   "speedMoveWithBomb": 70.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Fighter",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY034_ForsageBooster",
+      "Allplanes"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY035_CallFighters",
+      "USA_11"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "aimingAccuracyDecreaseRate": -0.15,
+  "aimingAccuracyIncreaseRate": 0.1,
+  "aimingTime": 5,
+  "attackCooldown": 5,
+  "attackInterval": 0.04,
+  "attackSpeedMultiplier": 0.5,
+  "attackSpeedMultiplierApplyTime": 0.75,
+  "attackerDamageTakenMultiplier": 1,
+  "attackerSize": 3,
+  "bombFallingTime": 0.3,
+  "bombName": "PAPR210_Midway_top",
+  "flightHeight": 22,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 14,
+   "restoreAmount": 1,
+   "startValue": 14,
+   "timeToRestore": 94.0
+  },
+  "id": 4168974320,
+  "index": "PAAF120",
+  "innerBombsPercentage": 75.0,
+  "innerSalvoSize": [
+   2.67,
+   1.6
+  ],
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 10.0,
+  "jatoSpeedMultiplier": 1.3,
+  "maxHealth": 1590,
+  "name": "PAAF120_UNITED_STATES_STOCK",
+  "naturalAcceleration": 0.295,
+  "naturalDeceleration": 0.295,
+  "numPlanesInSquadron": 9,
+  "postAttackInvulnerabilityDuration": 3.5,
+  "preparationAccuracyDecreaseRate": -0.12,
+  "preparationAccuracyIncreaseRate": 0.33,
+  "preparationTime": 3,
+  "projectilesPerAttack": 1,
+  "returnHeight": 100.0,
+  "speedMax": 1.2273,
+  "speedMin": 0.8295,
+  "speedMoveWithBomb": 176.0,
   "typeinfo": {
    "nation": "USA",
    "species": "Fighter",
@@ -5265,8 +5775,6 @@
    0.52,
    1.26
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -5334,8 +5842,6 @@
   },
   "id": 3760160752,
   "index": "PAAB510",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -5418,8 +5924,6 @@
    2.06,
    1.23
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -5487,8 +5991,6 @@
   },
   "id": 3348070384,
   "index": "PAAB903",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -5561,8 +6063,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -5630,8 +6130,6 @@
   },
   "id": 4284448752,
   "index": "PAAB010",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -5704,8 +6202,6 @@
    1.0,
    2.0
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -5783,8 +6279,6 @@
    0.52,
    1.26
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -5857,8 +6351,6 @@
    1.0,
    2.0
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -5931,8 +6423,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -6005,8 +6495,6 @@
    1.0,
    4.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -6079,8 +6567,6 @@
    1.0,
    2.0
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -6148,8 +6634,6 @@
   },
   "id": 4293328880,
   "index": "PAAS001",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -6222,8 +6706,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -6291,8 +6773,6 @@
   },
   "id": 4292837360,
   "index": "PAAB002",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -6375,8 +6855,6 @@
    2.0,
    0.5
   ],
-  "isAirSupportPlane": true,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -6444,8 +6922,6 @@
   },
   "id": 4288643056,
   "index": "PAAB006",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -6528,8 +7004,6 @@
    1.04,
    2.45
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -6602,8 +7076,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -6676,8 +7148,6 @@
    1.0,
    2.0
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -6750,8 +7220,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -6772,6 +7240,88 @@
   "typeinfo": {
    "nation": "USA",
    "species": "Dive",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY034_ForsageBooster",
+      "Allplanes"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY035_CallFighters",
+      "USA_Hornet"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "aimingAccuracyDecreaseRate": -0.23,
+  "aimingAccuracyIncreaseRate": 0.1,
+  "aimingTime": 5,
+  "attackCooldown": 5,
+  "attackInterval": 0.01,
+  "attackSpeedMultiplier": 0.5,
+  "attackSpeedMultiplierApplyTime": 0.75,
+  "attackerDamageTakenMultiplier": 1,
+  "attackerSize": 4,
+  "bombFallingTime": 0.3,
+  "bombName": "PAPR538_HORNET_STOCK",
+  "flightHeight": 17.0,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 18,
+   "restoreAmount": 1,
+   "startValue": 18,
+   "timeToRestore": 53.0
+  },
+  "id": 3730669552,
+  "index": "PAAF538",
+  "innerBombsPercentage": 50.0,
+  "innerSalvoSize": [
+   2.37,
+   1.42
+  ],
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 1340,
+  "name": "PAAF538_HORNET_STOCK",
+  "naturalAcceleration": 0.212,
+  "naturalDeceleration": 0.212,
+  "numPlanesInSquadron": 12,
+  "postAttackInvulnerabilityDuration": 3.5,
+  "preparationAccuracyDecreaseRate": -0.135,
+  "preparationAccuracyIncreaseRate": 0.32,
+  "preparationTime": 3,
+  "projectilesPerAttack": 1,
+  "returnHeight": 100.0,
+  "speedMax": 1.2607,
+  "speedMin": 0.8045,
+  "speedMoveWithBomb": 153.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Fighter",
    "type": "Aircraft"
   }
  },
@@ -6819,8 +7369,6 @@
   },
   "id": 4285497328,
   "index": "PAAB009",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -6898,8 +7446,6 @@
   },
   "id": 4078927856,
   "index": "PAAB206",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -6982,8 +7528,6 @@
    1.7,
    1.02
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -7056,8 +7600,6 @@
   },
   "id": 4185882608,
   "index": "PAAB104",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -7125,8 +7667,6 @@
   },
   "id": 3296690160,
   "index": "PAAB952",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -7199,8 +7739,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -7268,8 +7806,6 @@
   },
   "id": 4276551664,
   "index": "PAAS017",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -7337,8 +7873,6 @@
   },
   "id": 4283891696,
   "index": "PAAS010",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -7411,8 +7945,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -7485,8 +8017,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -7554,8 +8084,6 @@
   },
   "id": 3761209328,
   "index": "PAAB509",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -7633,8 +8161,6 @@
   },
   "id": 3350167536,
   "index": "PAAB901",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -7717,8 +8243,6 @@
   },
   "id": 3762257904,
   "index": "PAAB508",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -7801,8 +8325,6 @@
    0.88,
    2.07
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -7875,8 +8397,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -7949,8 +8469,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -7967,10 +8485,92 @@
   "returnHeight": 100.0,
   "speedMax": 1.2367,
   "speedMin": 0.8225,
-  "speedMoveWithBomb": 216.0,
+  "speedMoveWithBomb": 235.0,
   "typeinfo": {
    "nation": "USA",
    "species": "Fighter",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY034_ForsageBooster",
+      "Allplanes"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY035_CallFighters",
+      "USA_Hornet"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [
+     [
+      "PCY036_RegenerateHealth",
+      "AllPlanes"
+     ]
+    ],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "aimingAccuracyDecreaseRate": -0.15,
+  "aimingAccuracyIncreaseRate": 0.1,
+  "aimingTime": 10,
+  "attackCooldown": 5,
+  "attackInterval": 1,
+  "attackSpeedMultiplier": 1.0,
+  "attackSpeedMultiplierApplyTime": 0.0,
+  "attackerDamageTakenMultiplier": 0.5,
+  "attackerSize": 5,
+  "bombFallingTime": 0.3,
+  "bombName": "PAPT538_HORNET_STOCK",
+  "flightHeight": 20.0,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 20,
+   "restoreAmount": 1,
+   "startValue": 20,
+   "timeToRestore": 62.0
+  },
+  "id": 3730800624,
+  "index": "PAAB538",
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 1710,
+  "name": "PAAB538_HORNET_STOCK",
+  "naturalAcceleration": 0.028,
+  "naturalDeceleration": 0.028,
+  "numPlanesInSquadron": 10,
+  "postAttackInvulnerabilityDuration": 3.5,
+  "preparationAccuracyDecreaseRate": -0.1,
+  "preparationAccuracyIncreaseRate": 0.2,
+  "preparationTime": 4,
+  "projectilesPerAttack": 1,
+  "returnHeight": 100.0,
+  "speedMax": 1.3132,
+  "speedMin": 0.7651,
+  "speedMoveWithBomb": 112.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Bomber",
    "type": "Aircraft"
   }
  },
@@ -8033,8 +8633,6 @@
    2.0,
    0.5
   ],
-  "isAirSupportPlane": true,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -8117,8 +8715,6 @@
    2.0,
    0.5
   ],
-  "isAirSupportPlane": true,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -8196,8 +8792,6 @@
    5.42,
    3.25
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -8215,6 +8809,170 @@
   "speedMax": 1.3216,
   "speedMin": 0.7588,
   "speedMoveWithBomb": 124.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Fighter",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY034_ForsageBooster",
+      "Allplanes"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY035_CallFighters",
+      "USA_8"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "aimingAccuracyDecreaseRate": -0.19,
+  "aimingAccuracyIncreaseRate": 0.3,
+  "aimingTime": 6,
+  "attackCooldown": 8.5,
+  "attackInterval": 1,
+  "attackSpeedMultiplier": 1.0,
+  "attackSpeedMultiplierApplyTime": 0.0,
+  "attackerDamageTakenMultiplier": 0.7,
+  "attackerSize": 2,
+  "bombFallingTime": 0.3,
+  "bombName": "PAPB118_YORKTOWN_STOCK",
+  "flightHeight": 20.0,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 12,
+   "restoreAmount": 1,
+   "startValue": 12,
+   "timeToRestore": 81.0
+  },
+  "id": 4171137008,
+  "index": "PAAD118",
+  "innerBombsPercentage": 25.0,
+  "innerSalvoSize": [
+   0.52,
+   1.26
+  ],
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 1890,
+  "name": "PAAD118_YORKTOWN_STOCK",
+  "naturalAcceleration": 0.034,
+  "naturalDeceleration": 0.034,
+  "numPlanesInSquadron": 8,
+  "postAttackInvulnerabilityDuration": 3.5,
+  "preparationAccuracyDecreaseRate": -0.12,
+  "preparationAccuracyIncreaseRate": 0.15,
+  "preparationTime": 2,
+  "projectilesPerAttack": 1,
+  "returnHeight": 100.0,
+  "speedMax": 1.2869,
+  "speedMin": 0.7848,
+  "speedMoveWithBomb": 122.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Dive",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY034_ForsageBooster",
+      "Allplanes"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY035_CallFighters",
+      "USA_8"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "aimingAccuracyDecreaseRate": -0.23,
+  "aimingAccuracyIncreaseRate": 0.1,
+  "aimingTime": 5,
+  "attackCooldown": 5,
+  "attackInterval": 0.015,
+  "attackSpeedMultiplier": 0.5,
+  "attackSpeedMultiplierApplyTime": 0.75,
+  "attackerDamageTakenMultiplier": 1,
+  "attackerSize": 2,
+  "bombFallingTime": 0.3,
+  "bombName": "PAPR108_Lexington_stock",
+  "flightHeight": 18.0,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 12,
+   "restoreAmount": 1,
+   "startValue": 12,
+   "timeToRestore": 69.0
+  },
+  "id": 4181557232,
+  "index": "PAAF108",
+  "innerBombsPercentage": 75.0,
+  "innerSalvoSize": [
+   1.7,
+   1.02
+  ],
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 1400,
+  "name": "PAAF108_Lexington_stock",
+  "naturalAcceleration": 0.199,
+  "naturalDeceleration": 0.199,
+  "numPlanesInSquadron": 8,
+  "postAttackInvulnerabilityDuration": 3.5,
+  "preparationAccuracyDecreaseRate": -0.135,
+  "preparationAccuracyIncreaseRate": 0.32,
+  "preparationTime": 3,
+  "projectilesPerAttack": 1,
+  "returnHeight": 100.0,
+  "speedMax": 1.25,
+  "speedMin": 0.8125,
+  "speedMoveWithBomb": 160.0,
   "typeinfo": {
    "nation": "USA",
    "species": "Fighter",
@@ -8280,8 +9038,6 @@
    2.67,
    1.6
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -8354,8 +9110,6 @@
    1.0,
    2.0
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -8428,8 +9182,6 @@
    1.0,
    2.0
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -8497,8 +9249,6 @@
   },
   "id": 4280745968,
   "index": "PAAS013",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -8566,8 +9316,6 @@
   },
   "id": 4287594480,
   "index": "PAAB007",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -8640,8 +9388,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -8714,8 +9460,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -8788,8 +9532,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -8872,8 +9614,6 @@
    0.88,
    2.07
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -8946,8 +9686,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -9030,8 +9768,6 @@
   },
   "id": 4074733552,
   "index": "PAAB210",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -9099,8 +9835,6 @@
   },
   "id": 4239359984,
   "index": "PAAB053",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -9121,6 +9855,83 @@
   "typeinfo": {
    "nation": "USA",
    "species": "Bomber",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY035_CallFighters",
+      "USA_11"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "aimingAccuracyDecreaseRate": -0.5,
+  "aimingAccuracyIncreaseRate": 0.4,
+  "aimingTime": 7,
+  "attackCooldown": 5,
+  "attackInterval": 0.1,
+  "attackSpeedMultiplier": 1.0,
+  "attackSpeedMultiplierApplyTime": 0.75,
+  "attackerDamageTakenMultiplier": 0.5,
+  "attackerSize": 2,
+  "bombFallingTime": 0.3,
+  "bombName": "PAPR121_UNITED_STATES_JET",
+  "flightHeight": 15,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 2,
+   "restoreAmount": 2,
+   "startValue": 0,
+   "timeToRestore": 150.0
+  },
+  "id": 4167925744,
+  "index": "PAAF121",
+  "innerBombsPercentage": 50.0,
+  "innerSalvoSize": [
+   0.97,
+   0.58
+  ],
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 1610,
+  "name": "PAAF121_UNITED_STATES_JET",
+  "naturalAcceleration": 0.105,
+  "naturalDeceleration": 0.105,
+  "numPlanesInSquadron": 2,
+  "postAttackInvulnerabilityDuration": 3.5,
+  "preparationAccuracyDecreaseRate": -0.4,
+  "preparationAccuracyIncreaseRate": 0.33,
+  "preparationTime": 2,
+  "projectilesPerAttack": 1,
+  "returnHeight": 100.0,
+  "speedMax": 2.0,
+  "speedMin": 1.0,
+  "speedMoveWithBomb": 170.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Fighter",
    "type": "Aircraft"
   }
  },
@@ -9183,8 +9994,6 @@
    0.52,
    1.26
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -9267,8 +10076,6 @@
    2.67,
    1.6
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -9341,8 +10148,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -9410,8 +10215,6 @@
   },
   "id": 4281794544,
   "index": "PAAS012",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -9484,8 +10287,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -9512,21 +10313,11 @@
  {
   "PlaneAbilities": {
    "AbilitySlot0": {
-    "abils": [
-     [
-      "PCY034_ForsageBooster",
-      "Allplanes"
-     ]
-    ],
+    "abils": [],
     "slot": 0
    },
    "AbilitySlot1": {
-    "abils": [
-     [
-      "PCY035_CallFighters",
-      "USA_6"
-     ]
-    ],
+    "abils": [],
     "slot": 1
    },
    "AbilitySlot2": {
@@ -9542,54 +10333,52 @@
     "slot": 4
    }
   },
-  "aimingAccuracyDecreaseRate": -0.17,
-  "aimingAccuracyIncreaseRate": 0.3,
-  "aimingTime": 6,
-  "attackCooldown": 8,
-  "attackInterval": 0.85,
-  "attackSpeedMultiplier": 1.0,
-  "attackSpeedMultiplierApplyTime": 0.0,
-  "attackerDamageTakenMultiplier": 0.7,
-  "attackerSize": 2,
+  "aimingAccuracyDecreaseRate": -0.2,
+  "aimingAccuracyIncreaseRate": 0.1,
+  "aimingTime": 15.0,
+  "attackCooldown": 5,
+  "attackInterval": 1,
+  "attackSpeedMultiplier": 0.5,
+  "attackSpeedMultiplierApplyTime": 0.75,
+  "attackerDamageTakenMultiplier": 1,
+  "attackerSize": 1,
   "bombFallingTime": 0.3,
-  "bombName": "PAPD101_depth_147kg",
-  "flightHeight": 7.0,
+  "bombName": "PAPR104_Langley_stock",
+  "flightHeight": 33.0,
   "flightRadius": 33.0,
   "hangarSettings": {
-   "maxValue": 14,
+   "maxValue": 0,
    "restoreAmount": 1,
-   "startValue": 14,
-   "timeToRestore": 56.0
+   "startValue": 0,
+   "timeToRestore": 0.1
   },
-  "id": 3346956272,
-  "index": "PAAD904",
-  "innerBombsPercentage": 100.0,
+  "id": 3856498672,
+  "index": "PAAF418",
+  "innerBombsPercentage": 33.33,
   "innerSalvoSize": [
-   2.0,
-   0.5
+   1.5,
+   2.5
   ],
-  "isAirSupportPlane": true,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
-  "maxHealth": 2000,
-  "name": "PAAD904_ASW_T9_ALT",
-  "naturalAcceleration": 0.032,
-  "naturalDeceleration": 0.032,
-  "numPlanesInSquadron": 9,
+  "maxHealth": 163,
+  "name": "PAAF418_YORKTOWN_WARD",
+  "naturalAcceleration": 0.239,
+  "naturalDeceleration": 0.239,
+  "numPlanesInSquadron": 1,
   "postAttackInvulnerabilityDuration": 3.5,
-  "preparationAccuracyDecreaseRate": -0.11,
-  "preparationAccuracyIncreaseRate": 0.15,
-  "preparationTime": 2,
+  "preparationAccuracyDecreaseRate": -0.2,
+  "preparationAccuracyIncreaseRate": 0.1,
+  "preparationTime": 1.0,
   "projectilesPerAttack": 1,
   "returnHeight": 100.0,
-  "speedMax": 1.2991,
-  "speedMin": 0.7757,
-  "speedMoveWithBomb": 256.0,
+  "speedMax": 1.2367,
+  "speedMin": 0.8225,
+  "speedMoveWithBomb": 235.0,
   "typeinfo": {
    "nation": "USA",
-   "species": "Dive",
+   "species": "Fighter",
    "type": "Aircraft"
   }
  },
@@ -9637,8 +10426,6 @@
   },
   "id": 4277600240,
   "index": "PAAS016",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -9706,8 +10493,6 @@
   },
   "id": 4287037424,
   "index": "PAAS007",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -9790,8 +10575,6 @@
    0.71,
    1.68
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -9859,8 +10642,6 @@
   },
   "id": 4289691632,
   "index": "PAAB005",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -9933,8 +10714,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -10002,8 +10781,6 @@
   },
   "id": 4289134576,
   "index": "PAAS005",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -10024,6 +10801,88 @@
   "typeinfo": {
    "nation": "USA",
    "species": "Scout",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY034_ForsageBooster",
+      "Allplanes"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY035_CallFighters",
+      "USA_8"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "aimingAccuracyDecreaseRate": -0.21,
+  "aimingAccuracyIncreaseRate": 0.3,
+  "aimingTime": 6,
+  "attackCooldown": 8.5,
+  "attackInterval": 0.05,
+  "attackSpeedMultiplier": 1.0,
+  "attackSpeedMultiplierApplyTime": 0.0,
+  "attackerDamageTakenMultiplier": 0.7,
+  "attackerSize": 3,
+  "bombFallingTime": 0.3,
+  "bombName": "PAPB208_Lexington_top",
+  "flightHeight": 20.0,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 14,
+   "restoreAmount": 1,
+   "startValue": 14,
+   "timeToRestore": 76.0
+  },
+  "id": 4076765168,
+  "index": "PAAD208",
+  "innerBombsPercentage": 25.0,
+  "innerSalvoSize": [
+   0.88,
+   2.07
+  ],
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 1980,
+  "name": "PAAD208_Lexington_top",
+  "naturalAcceleration": 0.031,
+  "naturalDeceleration": 0.031,
+  "numPlanesInSquadron": 9,
+  "postAttackInvulnerabilityDuration": 3.5,
+  "preparationAccuracyDecreaseRate": -0.13,
+  "preparationAccuracyIncreaseRate": 0.15,
+  "preparationTime": 2.25,
+  "projectilesPerAttack": 1,
+  "returnHeight": 100.0,
+  "speedMax": 1.28,
+  "speedMin": 0.79,
+  "speedMoveWithBomb": 125.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Dive",
    "type": "Aircraft"
   }
  },
@@ -10076,8 +10935,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -10145,8 +11002,6 @@
   },
   "id": 4283400176,
   "index": "PAAB011",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -10229,8 +11084,6 @@
    1.26,
    5.04
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -10248,6 +11101,242 @@
   "speedMax": 1.28,
   "speedMin": 0.79,
   "speedMoveWithBomb": 125.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Dive",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "aimingAccuracyDecreaseRate": -0.2,
+  "aimingAccuracyIncreaseRate": 0.1,
+  "aimingTime": 15.0,
+  "attackCooldown": 5,
+  "attackInterval": 1,
+  "attackSpeedMultiplier": 0.5,
+  "attackSpeedMultiplierApplyTime": 0.75,
+  "attackerDamageTakenMultiplier": 1,
+  "attackerSize": 1,
+  "bombFallingTime": 0.3,
+  "bombName": "PAPR104_Langley_stock",
+  "flightHeight": 33.0,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 0,
+   "restoreAmount": 1,
+   "startValue": 0,
+   "timeToRestore": 0.1
+  },
+  "id": 3863838704,
+  "index": "PAAF411",
+  "innerBombsPercentage": 33.33,
+  "innerSalvoSize": [
+   1.5,
+   2.5
+  ],
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 245,
+  "name": "PAAF411_United_States_stock_WARD",
+  "naturalAcceleration": 0.05,
+  "naturalDeceleration": 0.1,
+  "numPlanesInSquadron": 1,
+  "postAttackInvulnerabilityDuration": 3.5,
+  "preparationAccuracyDecreaseRate": -0.2,
+  "preparationAccuracyIncreaseRate": 0.1,
+  "preparationTime": 1.0,
+  "projectilesPerAttack": 1,
+  "returnHeight": 100.0,
+  "speedMax": 1.2,
+  "speedMin": 0.8,
+  "speedMoveWithBomb": 306.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Fighter",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY034_ForsageBooster",
+      "Allplanes"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY035_CallFighters",
+      "USA_8"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "aimingAccuracyDecreaseRate": -0.2,
+  "aimingAccuracyIncreaseRate": 0.1,
+  "aimingTime": 5,
+  "attackCooldown": 5,
+  "attackInterval": 0.025,
+  "attackSpeedMultiplier": 0.5,
+  "attackSpeedMultiplierApplyTime": 0.75,
+  "attackerDamageTakenMultiplier": 1,
+  "attackerSize": 3,
+  "bombFallingTime": 0.3,
+  "bombName": "PAPR218_YORKTOWN_TOP",
+  "flightHeight": 18.0,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 14,
+   "restoreAmount": 1,
+   "startValue": 14,
+   "timeToRestore": 66.0
+  },
+  "id": 4066213872,
+  "index": "PAAF218",
+  "innerBombsPercentage": 75.0,
+  "innerSalvoSize": [
+   2.37,
+   1.42
+  ],
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 1460,
+  "name": "PAAF218_YORKTOWN_TOP",
+  "naturalAcceleration": 0.239,
+  "naturalDeceleration": 0.239,
+  "numPlanesInSquadron": 9,
+  "postAttackInvulnerabilityDuration": 3.5,
+  "preparationAccuracyDecreaseRate": -0.13,
+  "preparationAccuracyIncreaseRate": 0.33,
+  "preparationTime": 3,
+  "projectilesPerAttack": 1,
+  "returnHeight": 100.0,
+  "speedMax": 1.2367,
+  "speedMin": 0.8225,
+  "speedMoveWithBomb": 169.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Fighter",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY034_ForsageBooster",
+      "Allplanes"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [
+     [
+      "PCY035_CallFighters",
+      "USA_6"
+     ]
+    ],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "aimingAccuracyDecreaseRate": -0.17,
+  "aimingAccuracyIncreaseRate": 0.3,
+  "aimingTime": 6,
+  "attackCooldown": 8,
+  "attackInterval": 0.85,
+  "attackSpeedMultiplier": 1.0,
+  "attackSpeedMultiplierApplyTime": 0.0,
+  "attackerDamageTakenMultiplier": 0.7,
+  "attackerSize": 2,
+  "bombFallingTime": 0.3,
+  "bombName": "PAPD101_depth_147kg",
+  "flightHeight": 7.0,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 14,
+   "restoreAmount": 1,
+   "startValue": 14,
+   "timeToRestore": 56.0
+  },
+  "id": 3346956272,
+  "index": "PAAD904",
+  "innerBombsPercentage": 100.0,
+  "innerSalvoSize": [
+   2.0,
+   0.5
+  ],
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 2000,
+  "name": "PAAD904_ASW_T9_ALT",
+  "naturalAcceleration": 0.032,
+  "naturalDeceleration": 0.032,
+  "numPlanesInSquadron": 9,
+  "postAttackInvulnerabilityDuration": 3.5,
+  "preparationAccuracyDecreaseRate": -0.11,
+  "preparationAccuracyIncreaseRate": 0.15,
+  "preparationTime": 2,
+  "projectilesPerAttack": 1,
+  "returnHeight": 100.0,
+  "speedMax": 1.2991,
+  "speedMin": 0.7757,
+  "speedMoveWithBomb": 256.0,
   "typeinfo": {
    "nation": "USA",
    "species": "Dive",
@@ -10303,8 +11392,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -10325,6 +11412,218 @@
   "typeinfo": {
    "nation": "USA",
    "species": "Dive",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "aimingAccuracyDecreaseRate": -0.2,
+  "aimingAccuracyIncreaseRate": 0.1,
+  "aimingTime": 10,
+  "attackCooldown": 5,
+  "attackInterval": 0.01,
+  "attackSpeedMultiplier": 1.0,
+  "attackSpeedMultiplierApplyTime": 0.0,
+  "attackerDamageTakenMultiplier": 0.5,
+  "attackerSize": 1,
+  "bombFallingTime": 0.3,
+  "bombName": "PAPT120_UNITED_STATES_STOCK",
+  "flightHeight": 20.0,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 1,
+   "restoreAmount": 1,
+   "startValue": 0,
+   "timeToRestore": 240.0
+  },
+  "id": 4168056816,
+  "index": "PAAB121",
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 4430,
+  "name": "PAAB121_UNITED_STATES_JET",
+  "naturalAcceleration": 0.04,
+  "naturalDeceleration": 0.04,
+  "numPlanesInSquadron": 1,
+  "postAttackInvulnerabilityDuration": 3.5,
+  "preparationAccuracyDecreaseRate": -0.14,
+  "preparationAccuracyIncreaseRate": 0.2,
+  "preparationTime": 4,
+  "projectilesPerAttack": 2,
+  "returnHeight": 100.0,
+  "speedMax": 2.0,
+  "speedMin": 1.0,
+  "speedMoveWithBomb": 132.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Bomber",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "aimingAccuracyDecreaseRate": -0.2,
+  "aimingAccuracyIncreaseRate": 0.1,
+  "aimingTime": 15.0,
+  "attackCooldown": 5,
+  "attackInterval": 1,
+  "attackSpeedMultiplier": 0.5,
+  "attackSpeedMultiplierApplyTime": 0.75,
+  "attackerDamageTakenMultiplier": 1,
+  "attackerSize": 1,
+  "bombFallingTime": 0.3,
+  "bombName": "PAPR104_Langley_stock",
+  "flightHeight": 33.0,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 0,
+   "restoreAmount": 1,
+   "startValue": 0,
+   "timeToRestore": 0.1
+  },
+  "id": 3416096752,
+  "index": "PAAF838",
+  "innerBombsPercentage": 33.33,
+  "innerSalvoSize": [
+   1.5,
+   2.5
+  ],
+  "isConsumablePlane": true,
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 163,
+  "name": "PAAF838_Hornet_stock_WARD",
+  "naturalAcceleration": 0.239,
+  "naturalDeceleration": 0.239,
+  "numPlanesInSquadron": 1,
+  "postAttackInvulnerabilityDuration": 3.5,
+  "preparationAccuracyDecreaseRate": -0.2,
+  "preparationAccuracyIncreaseRate": 0.1,
+  "preparationTime": 1.0,
+  "projectilesPerAttack": 1,
+  "returnHeight": 100.0,
+  "speedMax": 1.2367,
+  "speedMin": 0.8225,
+  "speedMoveWithBomb": 235.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Fighter",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "aimingAccuracyDecreaseRate": -0.2,
+  "aimingAccuracyIncreaseRate": 0.1,
+  "aimingTime": 15.0,
+  "attackCooldown": 5,
+  "attackInterval": 1,
+  "attackSpeedMultiplier": 0.5,
+  "attackSpeedMultiplierApplyTime": 0.75,
+  "attackerDamageTakenMultiplier": 1,
+  "attackerSize": 1,
+  "bombFallingTime": 0.3,
+  "bombName": "PAPR104_Langley_stock",
+  "flightHeight": 33.0,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 0,
+   "restoreAmount": 1,
+   "startValue": 0,
+   "timeToRestore": 0.1
+  },
+  "id": 3835527152,
+  "index": "PAAF438",
+  "innerBombsPercentage": 33.33,
+  "innerSalvoSize": [
+   1.5,
+   2.5
+  ],
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 163,
+  "name": "PAAF438_HORNET_WARD",
+  "naturalAcceleration": 0.239,
+  "naturalDeceleration": 0.239,
+  "numPlanesInSquadron": 1,
+  "postAttackInvulnerabilityDuration": 3.5,
+  "preparationAccuracyDecreaseRate": -0.2,
+  "preparationAccuracyIncreaseRate": 0.1,
+  "preparationTime": 1.0,
+  "projectilesPerAttack": 1,
+  "returnHeight": 100.0,
+  "speedMax": 1.2367,
+  "speedMin": 0.8225,
+  "speedMoveWithBomb": 235.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Fighter",
    "type": "Aircraft"
   }
  },
@@ -10387,8 +11686,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -10406,6 +11703,78 @@
   "speedMax": 1.4,
   "speedMin": 0.8,
   "speedMoveWithBomb": 94.0,
+  "typeinfo": {
+   "nation": "USA",
+   "species": "Dive",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "aimingAccuracyDecreaseRate": -0.15,
+  "aimingAccuracyIncreaseRate": 0.15,
+  "aimingTime": 5,
+  "attackCooldown": 9.0,
+  "attackInterval": 0.15,
+  "attackSpeedMultiplier": 1.0,
+  "attackSpeedMultiplierApplyTime": 0.0,
+  "attackerDamageTakenMultiplier": 0.7,
+  "attackerSize": 6,
+  "bombFallingTime": 0.3,
+  "bombName": "PAPB538_HORNET_TACT",
+  "flightHeight": 30.0,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 6,
+   "restoreAmount": 6,
+   "startValue": 0,
+   "timeToRestore": 160.0
+  },
+  "id": 3720249328,
+  "index": "PAAD548",
+  "innerBombsPercentage": 50.0,
+  "innerSalvoSize": [
+   3.2,
+   1.36
+  ],
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 4890,
+  "name": "PAAD548_HORNET_TACT",
+  "naturalAcceleration": 0.031,
+  "naturalDeceleration": 0.031,
+  "numPlanesInSquadron": 6,
+  "postAttackInvulnerabilityDuration": 3.5,
+  "preparationAccuracyDecreaseRate": -0.0,
+  "preparationAccuracyIncreaseRate": 0.34,
+  "preparationTime": 2.5,
+  "projectilesPerAttack": 1,
+  "returnHeight": 100.0,
+  "speedMax": 1.33,
+  "speedMin": 0.75,
+  "speedMoveWithBomb": 105.0,
   "typeinfo": {
    "nation": "USA",
    "species": "Dive",

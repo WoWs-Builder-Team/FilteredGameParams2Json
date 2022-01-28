@@ -421,6 +421,89 @@
   }
  },
  {
+  "allowDivisions": true,
+  "battleProvider": "EventBattles",
+  "economics": {
+   "currencyType": "CREDITS",
+   "earningBySelf": 1.0,
+   "earningByTeamPool": 0.0,
+   "earningsByLevel": {},
+   "premFactor": 1.0
+  },
+  "gameLogicConfig": {},
+  "id": 4268600240,
+  "index": "PCVE025",
+  "matchmakerConfig": "event2Airships",
+  "name": "PCVE025_2Airships",
+  "restrictions": {
+   "classes": {
+    "AirCarrier": [
+     0,
+     1
+    ],
+    "Battleship": [
+     0,
+     7
+    ],
+    "Cruiser": [
+     0,
+     7
+    ],
+    "Destroyer": [
+     0,
+     7
+    ],
+    "Submarine": [
+     0,
+     -1
+    ]
+   },
+   "filters": [
+    {
+     "shipLevels": [
+      10
+     ],
+     "shipTypes": [
+      "Destroyer",
+      "Cruiser",
+      "Battleship",
+      "AirCarrier"
+     ]
+    }
+   ],
+   "totalShips": 24
+  },
+  "scenariosByMap": {
+   "spaces/16_OC_bees_to_honey": [
+    "2Wagons"
+   ],
+   "spaces/18_NE_ice_islands": [
+    "2Wagons"
+   ],
+   "spaces/23_Shards": [
+    "2Wagons"
+   ],
+   "spaces/25_sea_hope": [
+    "2Wagons"
+   ],
+   "spaces/41_Conquest": [
+    "2Wagons"
+   ],
+   "spaces/44_Path_warrior": [
+    "2Wagons",
+    "2Wagons_Reverced"
+   ],
+   "spaces/46_Estuary": [
+    "2Wagons"
+   ]
+  },
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Event",
+   "type": "BattleScript"
+  }
+ },
+ {
   "difficulty": {
    "hard": {
     "rewards": [

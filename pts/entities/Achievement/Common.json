@@ -297,6 +297,110 @@
  },
  {
   "battleTypes": [
+   "EVENT"
+  ],
+  "constants": {
+   "filterKeyShips": {
+    "roles": [
+     "EnemyTeamNearFinish"
+    ]
+   },
+   "filterKeyShipsAndAnotherOne": {
+    "roles": [
+     "insideZoneWagon0",
+     "insideZoneWagon1"
+    ]
+   },
+   "filterKeyShipsAnother": {
+    "roles": [
+     "notAlone"
+    ]
+   }
+  },
+  "custom": {},
+  "enabled": true,
+  "events": [
+   [
+    "battleEnd",
+    [
+     [
+      "battleEnd",
+      "winner",
+      "==",
+      "me",
+      "team"
+     ],
+     [
+      "me",
+      "appropriate",
+      ":",
+      "constant",
+      "filterKeyShips"
+     ],
+     [
+      "me",
+      "appropriate",
+      ":",
+      "constant",
+      "filterKeyShipsAnother"
+     ],
+     [
+      "me",
+      "appropriate",
+      ":",
+      "constant",
+      "filterKeyShipsAndAnotherOne"
+     ]
+    ],
+    [
+     [
+      "doAction",
+      "done"
+     ]
+    ]
+   ]
+  ],
+  "group": false,
+  "hidden": true,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 3894600624,
+  "index": "PCH381",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCH381_2AIRSHIPS_PHOTOFINISH",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": false,
+  "type": "festival",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": false,
+  "uiName": "2AIRSHIPS_PHOTOFINISH",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_EVENT_2AIRSHIPS",
+  "uiType": "service_medal"
+ },
+ {
+  "battleTypes": [
    "PVP",
    "RANKED"
   ],
@@ -685,6 +789,98 @@
   "uiOutOfDate": false,
   "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_OPERATIONS",
   "uiType": "honorable"
+ },
+ {
+  "battleTypes": [
+   "CLAN"
+  ],
+  "constants": {
+   "battleType": "CLAN",
+   "clanSeasonType": "regular"
+  },
+  "custom": {},
+  "enabled": true,
+  "events": [
+   [
+    "afterBattle",
+    [
+     [
+      "afterBattle",
+      "battleType",
+      "==",
+      "constant",
+      "battleType"
+     ],
+     [
+      "afterBattle",
+      "clanLeague",
+      "==",
+      "constant",
+      "0"
+     ],
+     [
+      "afterBattle",
+      "clanSeasonType",
+      "==",
+      "constant",
+      "clanSeasonType"
+     ],
+     [
+      "afterBattle",
+      "clanSeasonId",
+      "==",
+      "constant",
+      "16"
+     ]
+    ],
+    [
+     [
+      "doAction",
+      "done"
+     ]
+    ]
+   ]
+  ],
+  "group": false,
+  "hidden": true,
+  "hiddenCustom": {
+   "alwaysShowIfAchieved": true
+  },
+  "hint": "",
+  "id": 3959612336,
+  "index": "PCH319",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": false,
+  "name": "PCH319_TopLeagueClanSeason_16",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": false,
+  "type": "clan",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": true,
+  "uiName": "TOP_LEAGUE_CLAN_SEASON_16",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_CLAN",
+  "uiType": "heroic"
  },
  {
   "battleTypes": [
@@ -3028,7 +3224,7 @@
    "species": null,
    "type": "Achievement"
   },
-  "uiHideMultiplicity": true,
+  "uiHideMultiplicity": false,
   "uiName": "CLASSDESTROY_SQUAD",
   "uiOutOfDate": false,
   "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_PVP_RANKED_SQUAD",
@@ -4259,6 +4455,84 @@
   "uiOutOfDate": false,
   "uiRestrictionIDS": "",
   "uiType": "service_medal"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "constants": {
+   "task": "PCQT458_Key"
+  },
+  "custom": {},
+  "enabled": false,
+  "events": [
+   [
+    "campaignTask",
+    [
+     [
+      "campaignTask",
+      "name",
+      "==",
+      "constant",
+      "task"
+     ],
+     [
+      "campaignTask",
+      "hasReward",
+      "==",
+      "constant",
+      "True"
+     ]
+    ],
+    [
+     [
+      "doAction",
+      "done"
+     ]
+    ]
+   ]
+  ],
+  "group": false,
+  "hidden": true,
+  "hiddenCustom": {
+   "alwaysShowIfAchieved": true
+  },
+  "hint": "",
+  "id": 4132627376,
+  "index": "PCH154",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": false,
+  "name": "PCH154_NewYear2018BasicCompleted",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": false,
+  "type": "honorable",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": true,
+  "uiName": "CAMPAIGN_NEWYEAR2018BASIC_COMPLETED",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "",
+  "uiType": "common"
  },
  {
   "battleTypes": [
@@ -7454,18 +7728,14 @@
  },
  {
   "battleTypes": [
-   "PVP"
+   "EVENT"
   ],
   "constants": {
-   "killCount": 1,
-   "ships": [
-    "PGSD105_T_22",
-    "PGSD106_Ernst_Gaede",
-    "PGSD107_Leberecht_Maass",
-    "PGSD108_Z_23",
-    "PGSD109_Z_46",
-    "PGSD110_Z_52"
-   ]
+   "filterKeyShips": {
+    "roles": [
+     "PCH221_EV1APR19_TORPEDO3"
+    ]
+   }
   },
   "custom": {},
   "enabled": false,
@@ -7474,46 +7744,18 @@
     "meKill",
     [
      [
+      "dead",
+      "weaponType",
+      "==",
+      "weaponType",
+      "RAM"
+     ],
+     [
       "me",
-      "vehicleName",
-      "in",
+      "appropriate",
+      ":",
       "constant",
-      "ships"
-     ],
-     [
-      "target",
-      "entityType",
-      "==",
-      "entityType",
-      "Vehicle"
-     ],
-     [
-      "target",
-      "vehicleClass",
-      "==",
-      "string",
-      "Destroyer"
-     ]
-    ],
-    [
-     [
-      "counter",
-      "a",
-      "+=",
-      "constant",
-      "1"
-     ]
-    ]
-   ],
-   [
-    "meKill",
-    [
-     [
-      "counter",
-      "a",
-      ">=",
-      "constant",
-      "killCount"
+      "filterKeyShips"
      ]
     ],
     [
@@ -7530,27 +7772,16 @@
    "alwaysShowIfAchieved": true
   },
   "hint": "",
-  "id": 4147307440,
-  "index": "PCH140",
+  "id": 4062372784,
+  "index": "PCH221",
   "keepCounters": false,
   "maxShipLevel": 0,
   "minShipLevel": 0,
   "multiple": true,
-  "name": "PCH140_BD2_GE",
-  "onePerBattle": true,
+  "name": "PCH221_EV1APR19_TORPEDO3",
+  "onePerBattle": false,
   "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats",
-   "legendaryBattle"
+   "event"
   ],
   "showProgress": false,
   "type": "festival",
@@ -7560,9 +7791,9 @@
    "type": "Achievement"
   },
   "uiHideMultiplicity": false,
-  "uiName": "BD2_GE",
+  "uiName": "EV1APR19_TORPEDO3",
   "uiOutOfDate": false,
-  "uiRestrictionIDS": "",
+  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_SPACE_TORPEDOBEAT",
   "uiType": "service_medal"
  },
  {
@@ -8358,6 +8589,119 @@
  },
  {
   "battleTypes": [
+   "PVP"
+  ],
+  "constants": {
+   "killCount": 1,
+   "ships": [
+    "PGSD105_T_22",
+    "PGSD106_Ernst_Gaede",
+    "PGSD107_Leberecht_Maass",
+    "PGSD108_Z_23",
+    "PGSD109_Z_46",
+    "PGSD110_Z_52"
+   ]
+  },
+  "custom": {},
+  "enabled": false,
+  "events": [
+   [
+    "meKill",
+    [
+     [
+      "me",
+      "vehicleName",
+      "in",
+      "constant",
+      "ships"
+     ],
+     [
+      "target",
+      "entityType",
+      "==",
+      "entityType",
+      "Vehicle"
+     ],
+     [
+      "target",
+      "vehicleClass",
+      "==",
+      "string",
+      "Destroyer"
+     ]
+    ],
+    [
+     [
+      "counter",
+      "a",
+      "+=",
+      "constant",
+      "1"
+     ]
+    ]
+   ],
+   [
+    "meKill",
+    [
+     [
+      "counter",
+      "a",
+      ">=",
+      "constant",
+      "killCount"
+     ]
+    ],
+    [
+     [
+      "doAction",
+      "done"
+     ]
+    ]
+   ]
+  ],
+  "group": false,
+  "hidden": true,
+  "hiddenCustom": {
+   "alwaysShowIfAchieved": true
+  },
+  "hint": "",
+  "id": 4147307440,
+  "index": "PCH140",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCH140_BD2_GE",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": false,
+  "type": "festival",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": false,
+  "uiName": "BD2_GE",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "",
+  "uiType": "service_medal"
+ },
+ {
+  "battleTypes": [
    "PVP",
    "RANKED"
   ],
@@ -8622,77 +8966,6 @@
   "uiOutOfDate": false,
   "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_SPACE_TORPEDOBEAT",
   "uiType": "service_medal"
- },
- {
-  "battleTypes": [
-   "PVP",
-   "RANKED"
-  ],
-  "constants": {
-   "album": "PCZA009_AmericanArc"
-  },
-  "custom": {},
-  "enabled": true,
-  "events": [
-   [
-    "fillingAlbum",
-    [
-     [
-      "fillingAlbum",
-      "albumName",
-      "==",
-      "constant",
-      "album"
-     ]
-    ],
-    [
-     [
-      "doAction",
-      "done"
-     ]
-    ]
-   ]
-  ],
-  "group": false,
-  "hidden": true,
-  "hiddenCustom": {
-   "alwaysShowIfAchieved": true
-  },
-  "hint": "",
-  "id": 4102218672,
-  "index": "PCH183",
-  "keepCounters": false,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": false,
-  "name": "PCH183_FillAlbum_AmericanArc",
-  "onePerBattle": true,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats",
-   "legendaryBattle"
-  ],
-  "showProgress": false,
-  "type": "honorable",
-  "typeinfo": {
-   "nation": "Common",
-   "species": null,
-   "type": "Achievement"
-  },
-  "uiHideMultiplicity": true,
-  "uiName": "COLLECTION_AMERICANARC_COMPLETED",
-  "uiOutOfDate": false,
-  "uiRestrictionIDS": "",
-  "uiType": "common"
  },
  {
   "battleTypes": [
@@ -9674,6 +9947,56 @@
   "uiOutOfDate": false,
   "uiRestrictionIDS": "",
   "uiType": "common"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "constants": {},
+  "custom": {},
+  "enabled": true,
+  "events": [],
+  "group": false,
+  "hidden": true,
+  "hiddenCustom": {
+   "alwaysShowIfAchieved": true
+  },
+  "hint": "",
+  "id": 4020429744,
+  "index": "PCH261",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": false,
+  "name": "PCH261_WinnerClanSeason_10",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": false,
+  "type": "clan",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": true,
+  "uiName": "WINNER_CLAN_SEASON_10",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_CLAN",
+  "uiType": "heroic"
  },
  {
   "battleTypes": [
@@ -11101,6 +11424,77 @@
    "RANKED"
   ],
   "constants": {
+   "album": "PCZA009_AmericanArc"
+  },
+  "custom": {},
+  "enabled": true,
+  "events": [
+   [
+    "fillingAlbum",
+    [
+     [
+      "fillingAlbum",
+      "albumName",
+      "==",
+      "constant",
+      "album"
+     ]
+    ],
+    [
+     [
+      "doAction",
+      "done"
+     ]
+    ]
+   ]
+  ],
+  "group": false,
+  "hidden": true,
+  "hiddenCustom": {
+   "alwaysShowIfAchieved": true
+  },
+  "hint": "",
+  "id": 4102218672,
+  "index": "PCH183",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": false,
+  "name": "PCH183_FillAlbum_AmericanArc",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": false,
+  "type": "honorable",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": true,
+  "uiName": "COLLECTION_AMERICANARC_COMPLETED",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "",
+  "uiType": "common"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "constants": {
    "album": "PCZA003_Dunkirk"
   },
   "custom": {},
@@ -11688,76 +12082,6 @@
  },
  {
   "battleTypes": [
-   "EVENT"
-  ],
-  "constants": {
-   "filterKeyShips": {
-    "roles": [
-     "PCH221_EV1APR19_TORPEDO3"
-    ]
-   }
-  },
-  "custom": {},
-  "enabled": false,
-  "events": [
-   [
-    "meKill",
-    [
-     [
-      "dead",
-      "weaponType",
-      "==",
-      "weaponType",
-      "RAM"
-     ],
-     [
-      "me",
-      "appropriate",
-      ":",
-      "constant",
-      "filterKeyShips"
-     ]
-    ],
-    [
-     [
-      "doAction",
-      "done"
-     ]
-    ]
-   ]
-  ],
-  "group": false,
-  "hidden": true,
-  "hiddenCustom": {
-   "alwaysShowIfAchieved": true
-  },
-  "hint": "",
-  "id": 4062372784,
-  "index": "PCH221",
-  "keepCounters": false,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": true,
-  "name": "PCH221_EV1APR19_TORPEDO3",
-  "onePerBattle": false,
-  "shipCategories": [
-   "event"
-  ],
-  "showProgress": false,
-  "type": "festival",
-  "typeinfo": {
-   "nation": "Common",
-   "species": null,
-   "type": "Achievement"
-  },
-  "uiHideMultiplicity": false,
-  "uiName": "EV1APR19_TORPEDO3",
-  "uiOutOfDate": false,
-  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_SPACE_TORPEDOBEAT",
-  "uiType": "service_medal"
- },
- {
-  "battleTypes": [
    "PVP",
    "RANKED"
   ],
@@ -12027,6 +12351,131 @@
    "RANKED"
   ],
   "constants": {
+   "victimsCount": 2
+  },
+  "custom": {},
+  "enabled": true,
+  "events": [
+   [
+    "dead",
+    [
+     [
+      "attacker",
+      "inPrebattleDivision"
+     ],
+     [
+      "attacker",
+      "prebattleDivision",
+      "==",
+      "me",
+      "prebattleDivision"
+     ],
+     [
+      "target",
+      "entityType",
+      "==",
+      "entityType",
+      "Vehicle"
+     ]
+    ],
+    [
+     [
+      "counter",
+      "attackerA",
+      "+=",
+      "constant",
+      "1"
+     ]
+    ]
+   ],
+   [
+    "dead",
+    [
+     [
+      "attacker",
+      "inPrebattleDivision"
+     ],
+     [
+      "attacker",
+      "prebattleDivision",
+      "==",
+      "me",
+      "prebattleDivision"
+     ],
+     [
+      "target",
+      "entityType",
+      "==",
+      "entityType",
+      "Vehicle"
+     ],
+     [
+      "subInstruction",
+      [
+       "shipCountersA",
+       "moreThan",
+       ":",
+       "constant",
+       "victimsCount"
+      ],
+      "==",
+      "me",
+      "shipsInPrebattleDivision"
+     ]
+    ],
+    [
+     [
+      "doAction",
+      "done"
+     ]
+    ]
+   ]
+  ],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 3908232112,
+  "index": "PCH368",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCH368_Frag_Squad",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": false,
+  "type": "squad",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": true,
+  "uiName": "FRAG_SQUAD",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_PVP_RANKED_SQUAD",
+  "uiType": "squad"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "constants": {
    "task": "PCQT217_Key"
   },
   "custom": {},
@@ -12098,6 +12547,132 @@
   "uiOutOfDate": false,
   "uiRestrictionIDS": "",
   "uiType": "common"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "constants": {
+   "damageRatio": 0.5,
+   "victimsCount": 6
+  },
+  "custom": {},
+  "enabled": false,
+  "events": [
+   [
+    "damage",
+    [
+     [
+      "attacker",
+      "division"
+     ],
+     [
+      "attacker",
+      "division",
+      "==",
+      "me",
+      "division"
+     ]
+    ],
+    [
+     [
+      "counter",
+      "a",
+      "+=",
+      "damage",
+      "value"
+     ],
+     [
+      "counter",
+      "targetA",
+      "+=",
+      "damage",
+      "value"
+     ]
+    ]
+   ],
+   [
+    "damage",
+    [
+     [
+      "attacker",
+      "division"
+     ],
+     [
+      "attacker",
+      "division",
+      "==",
+      "me",
+      "division"
+     ],
+     [
+      "subInstruction",
+      [
+       "counter",
+       "a",
+       "/",
+       "attacker",
+       "enemyTeamHealth"
+      ],
+      ">=",
+      "contsant",
+      "damageRatio"
+     ],
+     [
+      "shipCountersA",
+      "nonZero",
+      ">=",
+      "constant",
+      "victimsCount"
+     ]
+    ],
+    [
+     [
+      "doAction",
+      "done"
+     ]
+    ]
+   ]
+  ],
+  "group": true,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 4285719472,
+  "index": "PCH008",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCH008_BrothersInArms",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": false,
+  "type": "heroic",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": false,
+  "uiName": "BROTHERS_IN_ARMS",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "",
+  "uiType": "heroic"
  },
  {
   "battleTypes": [
@@ -15293,6 +15868,125 @@
  },
  {
   "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "constants": {
+   "victimsCount": 7
+  },
+  "custom": {},
+  "enabled": true,
+  "events": [
+   [
+    "dead",
+    [
+     [
+      "attacker",
+      "inPrebattleDivision"
+     ],
+     [
+      "attacker",
+      "prebattleDivision",
+      "==",
+      "me",
+      "prebattleDivision"
+     ],
+     [
+      "target",
+      "entityType",
+      "==",
+      "entityType",
+      "Vehicle"
+     ]
+    ],
+    [
+     [
+      "counter",
+      "a",
+      "+=",
+      "constant",
+      "1"
+     ]
+    ]
+   ],
+   [
+    "dead",
+    [
+     [
+      "attacker",
+      "inPrebattleDivision"
+     ],
+     [
+      "attacker",
+      "prebattleDivision",
+      "==",
+      "me",
+      "prebattleDivision"
+     ],
+     [
+      "target",
+      "entityType",
+      "==",
+      "entityType",
+      "Vehicle"
+     ],
+     [
+      "counter",
+      "a",
+      ">=",
+      "constant",
+      "victimsCount"
+     ]
+    ],
+    [
+     [
+      "doAction",
+      "done"
+     ]
+    ]
+   ]
+  ],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 3910329264,
+  "index": "PCH366",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCH366_Warrior_Squad",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": false,
+  "type": "squad",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": true,
+  "uiName": "WARRIOR_SQUAD",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_PVP_RANKED_SQUAD",
+  "uiType": "squad"
+ },
+ {
+  "battleTypes": [
    "PVP"
   ],
   "constants": {
@@ -16327,6 +17021,56 @@
    "PVP",
    "RANKED"
   ],
+  "constants": {},
+  "custom": {},
+  "enabled": true,
+  "events": [],
+  "group": false,
+  "hidden": true,
+  "hiddenCustom": {
+   "alwaysShowIfAchieved": true
+  },
+  "hint": "",
+  "id": 3958563760,
+  "index": "PCH320",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": false,
+  "name": "PCH320_WinnerClanSeason_16",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": false,
+  "type": "clan",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": true,
+  "uiName": "WINNER_CLAN_SEASON_16",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_CLAN",
+  "uiType": "heroic"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
   "constants": {
    "shipsCount": 3
   },
@@ -16738,84 +17482,6 @@
    "PVP",
    "RANKED"
   ],
-  "constants": {
-   "task": "PCQT458_Key"
-  },
-  "custom": {},
-  "enabled": false,
-  "events": [
-   [
-    "campaignTask",
-    [
-     [
-      "campaignTask",
-      "name",
-      "==",
-      "constant",
-      "task"
-     ],
-     [
-      "campaignTask",
-      "hasReward",
-      "==",
-      "constant",
-      "True"
-     ]
-    ],
-    [
-     [
-      "doAction",
-      "done"
-     ]
-    ]
-   ]
-  ],
-  "group": false,
-  "hidden": true,
-  "hiddenCustom": {
-   "alwaysShowIfAchieved": true
-  },
-  "hint": "",
-  "id": 4132627376,
-  "index": "PCH154",
-  "keepCounters": false,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": false,
-  "name": "PCH154_NewYear2018BasicCompleted",
-  "onePerBattle": true,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats",
-   "legendaryBattle"
-  ],
-  "showProgress": false,
-  "type": "honorable",
-  "typeinfo": {
-   "nation": "Common",
-   "species": null,
-   "type": "Achievement"
-  },
-  "uiHideMultiplicity": true,
-  "uiName": "CAMPAIGN_NEWYEAR2018BASIC_COMPLETED",
-  "uiOutOfDate": false,
-  "uiRestrictionIDS": "",
-  "uiType": "common"
- },
- {
-  "battleTypes": [
-   "PVP",
-   "RANKED"
-  ],
   "constants": {},
   "custom": {},
   "enabled": true,
@@ -16860,6 +17526,96 @@
   "uiOutOfDate": false,
   "uiRestrictionIDS": "",
   "uiType": "service_medal"
+ },
+ {
+  "battleTypes": [
+   "PVP"
+  ],
+  "constants": {
+   "winCount": 50
+  },
+  "custom": {},
+  "enabled": true,
+  "events": [
+   [
+    "battleEnd",
+    [
+     [
+      "battleEnd",
+      "winner",
+      "==",
+      "me",
+      "team"
+     ]
+    ],
+    [
+     [
+      "counter",
+      "globalA",
+      "+=",
+      "constant",
+      "1"
+     ]
+    ]
+   ],
+   [
+    "battleEnd",
+    [
+     [
+      "counter",
+      "globalA",
+      ">=",
+      "constant",
+      "winCount"
+     ]
+    ],
+    [
+     [
+      "doAction",
+      "done"
+     ]
+    ]
+   ]
+  ],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 4263699376,
+  "index": "PCH029",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": false,
+  "name": "PCH029_Winning2",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": true,
+  "significance": 200,
+  "type": "honorable",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": false,
+  "uiName": "FIGHTER",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "",
+  "uiType": "common"
  },
  {
   "battleTypes": [
@@ -17744,72 +18500,6 @@
    "EVENT"
   ],
   "constants": {
-   "eventName": "PCH225_EV1APR19_EPICENTER1"
-  },
-  "custom": {},
-  "enabled": false,
-  "events": [
-   [
-    "battleEvent",
-    [
-     [
-      "event",
-      "name",
-      "==",
-      "constant",
-      "eventName"
-     ],
-     [
-      "receiver",
-      "id",
-      "==",
-      "me",
-      "id"
-     ]
-    ],
-    [
-     [
-      "doAction",
-      "done"
-     ]
-    ]
-   ]
-  ],
-  "group": false,
-  "hidden": true,
-  "hiddenCustom": {
-   "alwaysShowIfAchieved": true
-  },
-  "hint": "",
-  "id": 4058178480,
-  "index": "PCH225",
-  "keepCounters": false,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": true,
-  "name": "PCH225_EV1APR19_EPICENTER1",
-  "onePerBattle": true,
-  "shipCategories": [
-   "event"
-  ],
-  "showProgress": false,
-  "type": "festival",
-  "typeinfo": {
-   "nation": "Common",
-   "species": null,
-   "type": "Achievement"
-  },
-  "uiHideMultiplicity": false,
-  "uiName": "EV1APR19_EPICENTER1",
-  "uiOutOfDate": false,
-  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_SPACE_SATURN_TORPEDOBEAT",
-  "uiType": "service_medal"
- },
- {
-  "battleTypes": [
-   "EVENT"
-  ],
-  "constants": {
    "ships": [
     "Russia",
     "USA",
@@ -18636,131 +19326,6 @@
   "uiOutOfDate": false,
   "uiRestrictionIDS": "",
   "uiType": "heroic"
- },
- {
-  "battleTypes": [
-   "PVP",
-   "RANKED"
-  ],
-  "constants": {
-   "victimsCount": 2
-  },
-  "custom": {},
-  "enabled": true,
-  "events": [
-   [
-    "dead",
-    [
-     [
-      "attacker",
-      "inPrebattleDivision"
-     ],
-     [
-      "attacker",
-      "prebattleDivision",
-      "==",
-      "me",
-      "prebattleDivision"
-     ],
-     [
-      "target",
-      "entityType",
-      "==",
-      "entityType",
-      "Vehicle"
-     ]
-    ],
-    [
-     [
-      "counter",
-      "attackerA",
-      "+=",
-      "constant",
-      "1"
-     ]
-    ]
-   ],
-   [
-    "dead",
-    [
-     [
-      "attacker",
-      "inPrebattleDivision"
-     ],
-     [
-      "attacker",
-      "prebattleDivision",
-      "==",
-      "me",
-      "prebattleDivision"
-     ],
-     [
-      "target",
-      "entityType",
-      "==",
-      "entityType",
-      "Vehicle"
-     ],
-     [
-      "subInstruction",
-      [
-       "shipCountersA",
-       "moreThan",
-       ":",
-       "constant",
-       "victimsCount"
-      ],
-      "==",
-      "me",
-      "shipsInPrebattleDivision"
-     ]
-    ],
-    [
-     [
-      "doAction",
-      "done"
-     ]
-    ]
-   ]
-  ],
-  "group": false,
-  "hidden": false,
-  "hiddenCustom": {},
-  "hint": "",
-  "id": 3908232112,
-  "index": "PCH368",
-  "keepCounters": false,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": true,
-  "name": "PCH368_Frag_Squad",
-  "onePerBattle": true,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats",
-   "legendaryBattle"
-  ],
-  "showProgress": false,
-  "type": "squad",
-  "typeinfo": {
-   "nation": "Common",
-   "species": null,
-   "type": "Achievement"
-  },
-  "uiHideMultiplicity": true,
-  "uiName": "FRAG_SQUAD",
-  "uiOutOfDate": false,
-  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_PVP_RANKED_SQUAD",
-  "uiType": "squad"
  },
  {
   "battleTypes": [
@@ -20080,125 +20645,6 @@
  {
   "battleTypes": [
    "PVP",
-   "RANKED"
-  ],
-  "constants": {
-   "victimsCount": 7
-  },
-  "custom": {},
-  "enabled": true,
-  "events": [
-   [
-    "dead",
-    [
-     [
-      "attacker",
-      "inPrebattleDivision"
-     ],
-     [
-      "attacker",
-      "prebattleDivision",
-      "==",
-      "me",
-      "prebattleDivision"
-     ],
-     [
-      "target",
-      "entityType",
-      "==",
-      "entityType",
-      "Vehicle"
-     ]
-    ],
-    [
-     [
-      "counter",
-      "a",
-      "+=",
-      "constant",
-      "1"
-     ]
-    ]
-   ],
-   [
-    "dead",
-    [
-     [
-      "attacker",
-      "inPrebattleDivision"
-     ],
-     [
-      "attacker",
-      "prebattleDivision",
-      "==",
-      "me",
-      "prebattleDivision"
-     ],
-     [
-      "target",
-      "entityType",
-      "==",
-      "entityType",
-      "Vehicle"
-     ],
-     [
-      "counter",
-      "a",
-      ">=",
-      "constant",
-      "victimsCount"
-     ]
-    ],
-    [
-     [
-      "doAction",
-      "done"
-     ]
-    ]
-   ]
-  ],
-  "group": false,
-  "hidden": false,
-  "hiddenCustom": {},
-  "hint": "",
-  "id": 3910329264,
-  "index": "PCH366",
-  "keepCounters": false,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": true,
-  "name": "PCH366_Warrior_Squad",
-  "onePerBattle": true,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats",
-   "legendaryBattle"
-  ],
-  "showProgress": false,
-  "type": "squad",
-  "typeinfo": {
-   "nation": "Common",
-   "species": null,
-   "type": "Achievement"
-  },
-  "uiHideMultiplicity": true,
-  "uiName": "WARRIOR_SQUAD",
-  "uiOutOfDate": false,
-  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_PVP_RANKED_SQUAD",
-  "uiType": "squad"
- },
- {
-  "battleTypes": [
-   "PVP",
    "COOPERATIVE"
   ],
   "constants": {
@@ -20982,44 +21428,30 @@
  },
  {
   "battleTypes": [
-   "PVP"
+   "EVENT"
   ],
   "constants": {
-   "winCount": 50
+   "eventName": "PCH225_EV1APR19_EPICENTER1"
   },
   "custom": {},
-  "enabled": true,
+  "enabled": false,
   "events": [
    [
-    "battleEnd",
+    "battleEvent",
     [
      [
-      "battleEnd",
-      "winner",
+      "event",
+      "name",
+      "==",
+      "constant",
+      "eventName"
+     ],
+     [
+      "receiver",
+      "id",
       "==",
       "me",
-      "team"
-     ]
-    ],
-    [
-     [
-      "counter",
-      "globalA",
-      "+=",
-      "constant",
-      "1"
-     ]
-    ]
-   ],
-   [
-    "battleEnd",
-    [
-     [
-      "counter",
-      "globalA",
-      ">=",
-      "constant",
-      "winCount"
+      "id"
      ]
     ],
     [
@@ -21031,44 +21463,34 @@
    ]
   ],
   "group": false,
-  "hidden": false,
-  "hiddenCustom": {},
+  "hidden": true,
+  "hiddenCustom": {
+   "alwaysShowIfAchieved": true
+  },
   "hint": "",
-  "id": 4263699376,
-  "index": "PCH029",
+  "id": 4058178480,
+  "index": "PCH225",
   "keepCounters": false,
   "maxShipLevel": 0,
   "minShipLevel": 0,
-  "multiple": false,
-  "name": "PCH029_Winning2",
+  "multiple": true,
+  "name": "PCH225_EV1APR19_EPICENTER1",
   "onePerBattle": true,
   "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats",
-   "legendaryBattle"
+   "event"
   ],
-  "showProgress": true,
-  "significance": 200,
-  "type": "honorable",
+  "showProgress": false,
+  "type": "festival",
   "typeinfo": {
    "nation": "Common",
    "species": null,
    "type": "Achievement"
   },
   "uiHideMultiplicity": false,
-  "uiName": "FIGHTER",
+  "uiName": "EV1APR19_EPICENTER1",
   "uiOutOfDate": false,
-  "uiRestrictionIDS": "",
-  "uiType": "common"
+  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_SPACE_SATURN_TORPEDOBEAT",
+  "uiType": "service_medal"
  },
  {
   "battleTypes": [
@@ -21313,6 +21735,81 @@
  },
  {
   "battleTypes": [
+   "EVENT"
+  ],
+  "constants": {
+   "eventName": "PCH382_2AIRSHIPS_INCENTER"
+  },
+  "custom": {},
+  "enabled": true,
+  "events": [
+   [
+    "battleEvent",
+    [
+     [
+      "event",
+      "name",
+      "==",
+      "constant",
+      "eventName"
+     ],
+     [
+      "receiver",
+      "id",
+      "==",
+      "me",
+      "id"
+     ]
+    ],
+    [
+     [
+      "doAction",
+      "done"
+     ]
+    ]
+   ]
+  ],
+  "group": false,
+  "hidden": true,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 3893552048,
+  "index": "PCH382",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCH382_2AIRSHIPS_INCENTER",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": false,
+  "type": "festival",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": false,
+  "uiName": "2AIRSHIPS_INCENTER",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_EVENT_2AIRSHIPS",
+  "uiType": "service_medal"
+ },
+ {
+  "battleTypes": [
    "PVP",
    "RANKED"
   ],
@@ -21383,11 +21880,23 @@
       "Vehicle"
      ],
      [
-      "damage",
-      "weaponType",
-      "==",
-      "weaponType",
-      "TORPEDO"
+      "subInstruction",
+      [
+       "damage",
+       "weaponType",
+       "==",
+       "weaponType",
+       "TORPEDO"
+      ],
+      "or",
+      "subInstruction",
+      [
+       "damage",
+       "weaponType",
+       "==",
+       "weaponType",
+       "TORPEDO_DEEP"
+      ]
      ]
     ],
     [
@@ -22344,6 +22853,85 @@
   "uiName": "EV1APR19_ALLROUNDER",
   "uiOutOfDate": false,
   "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_SPACE",
+  "uiType": "service_medal"
+ },
+ {
+  "battleTypes": [
+   "EVENT"
+  ],
+  "constants": {
+   "filterKeyShips": {
+    "roles": [
+     "ReadyForAchievement"
+    ]
+   }
+  },
+  "custom": {},
+  "enabled": true,
+  "events": [
+   [
+    "battleEnd",
+    [
+     [
+      "battleEnd",
+      "winner",
+      "==",
+      "me",
+      "team"
+     ],
+     [
+      "me",
+      "appropriate",
+      ":",
+      "constant",
+      "filterKeyShips"
+     ]
+    ],
+    [
+     [
+      "doAction",
+      "done"
+     ]
+    ]
+   ]
+  ],
+  "group": false,
+  "hidden": true,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 3895649200,
+  "index": "PCH380",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCH380_2AIRSHIPS_5MINUTESWINNER",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": false,
+  "type": "festival",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": false,
+  "uiName": "2AIRSHIPS_5MINUTESWINNER",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_EVENT_2AIRSHIPS",
   "uiType": "service_medal"
  },
  {
@@ -24530,132 +25118,6 @@
  },
  {
   "battleTypes": [
-   "PVP",
-   "RANKED"
-  ],
-  "constants": {
-   "damageRatio": 0.5,
-   "victimsCount": 6
-  },
-  "custom": {},
-  "enabled": false,
-  "events": [
-   [
-    "damage",
-    [
-     [
-      "attacker",
-      "division"
-     ],
-     [
-      "attacker",
-      "division",
-      "==",
-      "me",
-      "division"
-     ]
-    ],
-    [
-     [
-      "counter",
-      "a",
-      "+=",
-      "damage",
-      "value"
-     ],
-     [
-      "counter",
-      "targetA",
-      "+=",
-      "damage",
-      "value"
-     ]
-    ]
-   ],
-   [
-    "damage",
-    [
-     [
-      "attacker",
-      "division"
-     ],
-     [
-      "attacker",
-      "division",
-      "==",
-      "me",
-      "division"
-     ],
-     [
-      "subInstruction",
-      [
-       "counter",
-       "a",
-       "/",
-       "attacker",
-       "enemyTeamHealth"
-      ],
-      ">=",
-      "contsant",
-      "damageRatio"
-     ],
-     [
-      "shipCountersA",
-      "nonZero",
-      ">=",
-      "constant",
-      "victimsCount"
-     ]
-    ],
-    [
-     [
-      "doAction",
-      "done"
-     ]
-    ]
-   ]
-  ],
-  "group": true,
-  "hidden": false,
-  "hiddenCustom": {},
-  "hint": "",
-  "id": 4285719472,
-  "index": "PCH008",
-  "keepCounters": false,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": true,
-  "name": "PCH008_BrothersInArms",
-  "onePerBattle": true,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats",
-   "legendaryBattle"
-  ],
-  "showProgress": false,
-  "type": "heroic",
-  "typeinfo": {
-   "nation": "Common",
-   "species": null,
-   "type": "Achievement"
-  },
-  "uiHideMultiplicity": false,
-  "uiName": "BROTHERS_IN_ARMS",
-  "uiOutOfDate": false,
-  "uiRestrictionIDS": "",
-  "uiType": "heroic"
- },
- {
-  "battleTypes": [
    "PVE",
    "PVE_PREMADE"
   ],
@@ -26465,6 +26927,81 @@
  },
  {
   "battleTypes": [
+   "EVENT"
+  ],
+  "constants": {
+   "eventName": "PCH379_2AIRSHIPS_STOPPER"
+  },
+  "custom": {},
+  "enabled": true,
+  "events": [
+   [
+    "battleEvent",
+    [
+     [
+      "event",
+      "name",
+      "==",
+      "constant",
+      "eventName"
+     ],
+     [
+      "receiver",
+      "id",
+      "==",
+      "me",
+      "id"
+     ]
+    ],
+    [
+     [
+      "doAction",
+      "done"
+     ]
+    ]
+   ]
+  ],
+  "group": false,
+  "hidden": true,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 3896697776,
+  "index": "PCH379",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCH379_2AIRSHIPS_STOPPER",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": false,
+  "type": "festival",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": false,
+  "uiName": "2AIRSHIPS_STOPPER",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_EVENT_2AIRSHIPS",
+  "uiType": "service_medal"
+ },
+ {
+  "battleTypes": [
    "PVP",
    "RANKED"
   ],
@@ -26971,56 +27508,6 @@
    "PVP",
    "RANKED"
   ],
-  "constants": {},
-  "custom": {},
-  "enabled": true,
-  "events": [],
-  "group": false,
-  "hidden": true,
-  "hiddenCustom": {
-   "alwaysShowIfAchieved": true
-  },
-  "hint": "",
-  "id": 4020429744,
-  "index": "PCH261",
-  "keepCounters": false,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": false,
-  "name": "PCH261_WinnerClanSeason_10",
-  "onePerBattle": true,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats",
-   "legendaryBattle"
-  ],
-  "showProgress": false,
-  "type": "clan",
-  "typeinfo": {
-   "nation": "Common",
-   "species": null,
-   "type": "Achievement"
-  },
-  "uiHideMultiplicity": true,
-  "uiName": "WINNER_CLAN_SEASON_10",
-  "uiOutOfDate": false,
-  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_CLAN",
-  "uiType": "heroic"
- },
- {
-  "battleTypes": [
-   "PVP",
-   "RANKED"
-  ],
   "constants": {
    "campaign": "PCQC010_Halsey"
   },
@@ -27475,5 +27962,96 @@
   "uiOutOfDate": false,
   "uiRestrictionIDS": "",
   "uiType": "common"
+ },
+ {
+  "battleTypes": [
+   "EVENT"
+  ],
+  "constants": {
+   "filterKeyShips": {
+    "roles": [
+     "EnemyTeamNearFinish"
+    ]
+   },
+   "filterKeyShipsAnother": {
+    "roles": [
+     "Alone"
+    ]
+   }
+  },
+  "custom": {},
+  "enabled": true,
+  "events": [
+   [
+    "battleEnd",
+    [
+     [
+      "battleEnd",
+      "winner",
+      "==",
+      "me",
+      "team"
+     ],
+     [
+      "me",
+      "appropriate",
+      ":",
+      "constant",
+      "filterKeyShips"
+     ],
+     [
+      "me",
+      "appropriate",
+      ":",
+      "constant",
+      "filterKeyShipsAnother"
+     ]
+    ],
+    [
+     [
+      "doAction",
+      "done"
+     ]
+    ]
+   ]
+  ],
+  "group": false,
+  "hidden": true,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 3898794928,
+  "index": "PCH377",
+  "keepCounters": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCH377_2AIRSHIPS_VICTORYCLAIMED",
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": false,
+  "type": "festival",
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Achievement"
+  },
+  "uiHideMultiplicity": false,
+  "uiName": "2AIRSHIPS_VICTORYCLAIMED",
+  "uiOutOfDate": false,
+  "uiRestrictionIDS": "IDS_ACHIEVEMENT_RESTRICTIONS_EVENT_2AIRSHIPS",
+  "uiType": "service_medal"
  }
 ]

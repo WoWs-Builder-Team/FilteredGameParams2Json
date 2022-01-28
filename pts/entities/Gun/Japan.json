@@ -2254,6 +2254,117 @@
   ]
  },
  {
+  "HitLocationTorpedo": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 15,
+   "autoRepairTimeMin": 15,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.25,
+    0.25
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "torpedo_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 1200.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.75,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "ammoList": [
+   ""
+  ],
+  "armor": {},
+  "barrelDiameter": 20,
+  "canRotate": true,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_small.xml",
+  "deadMesh": "content/gameplay/japan/gun/torpedo/JGT655_610mm5_Type_93_HW19/JGT655_610mm5_Type_93_HW19_dead.model",
+  "deadZone": [],
+  "horizSector": [
+   0.0,
+   0.0
+  ],
+  "id": 3607520976,
+  "index": "PJGT655",
+  "lensEffect": "",
+  "mainSector": [
+   -90.0,
+   90.0
+  ],
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/japan/gun/torpedo/JGT655_610mm5_Type_93_HW19/JGT655_610mm5_Type_93_HW19.model",
+  "name": "PJGT655_610mm5_Type_93_HW19",
+  "numAmmos": 1000,
+  "numBarrels": 4,
+  "position": [
+   0,
+   0
+  ],
+  "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
+  "rotationSpeed": [
+   25.0,
+   25.0
+  ],
+  "shootSector": [
+   0.0,
+   0.0
+  ],
+  "shotDelay": 50,
+  "shotEffect": "particles/guns/torpedo.xml",
+  "shotEffectCap": "particles/Empty_FX.xml",
+  "smallGun": null,
+  "timeBetweenShots": 0.2,
+  "timeToChangeAngle": 1,
+  "timeToChangeSpeed": 1,
+  "torpedoAngles": [
+   1.5,
+   2.4,
+   10
+  ],
+  "typeinfo": {
+   "nation": "Japan",
+   "species": "Torpedo",
+   "type": "Gun"
+  },
+  "vertSector": [
+   0.0,
+   1.0
+  ]
+ },
+ {
   "HitLocationArtillery": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 1.0,
@@ -3895,118 +4006,6 @@
   "vertSector": [
    -2.0,
    85.0
-  ]
- },
- {
-  "HitLocationTorpedo": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 1.0,
-   "autoRepairTime": 15,
-   "autoRepairTimeMin": 15,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.25,
-    0.25
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "torpedo_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 1200.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.75,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
-  "ammoList": [
-   "PJPT001_Sea_Torpedo_Type93"
-  ],
-  "armor": {
-   "65580": 6.0
-  },
-  "barrelDiameter": 0.61,
-  "canRotate": true,
-  "customMiscs": {},
-  "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
-  "deadMesh": "content/gameplay/japan/gun/torpedo/JGT089_610mm5_Type_93L/JGT089_610mm5_Type_93L_dead.model",
-  "deadZone": [],
-  "horizSector": [
-   0.0,
-   0.0
-  ],
-  "id": 4201014992,
-  "index": "PJGT089",
-  "lensEffect": "",
-  "mainSector": [
-   -90.0,
-   90.0
-  ],
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/japan/gun/torpedo/JGT089_610mm5_Type_93L/JGT089_610mm5_Type_93L.model",
-  "name": "PJGT089_610mm5_Type_93L",
-  "numAmmos": 1000,
-  "numBarrels": 5,
-  "position": [
-   0,
-   0
-  ],
-  "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
-  "rotationSpeed": [
-   25.0,
-   25.0
-  ],
-  "shootSector": [
-   0.0,
-   0.0
-  ],
-  "shotDelay": 150.0,
-  "shotEffect": "particles/guns/torpedo.xml",
-  "shotEffectCap": "particles/Empty_FX.xml",
-  "smallGun": null,
-  "timeBetweenShots": 0.2,
-  "timeToChangeAngle": 1,
-  "timeToChangeSpeed": 1,
-  "torpedoAngles": [
-   6.0,
-   20.0
-  ],
-  "typeinfo": {
-   "nation": "Japan",
-   "species": "Torpedo",
-   "type": "Gun"
-  },
-  "vertSector": [
-   0.0,
-   1.0
   ]
  },
  {
@@ -10051,6 +10050,136 @@
  {
   "HitLocationArtillery": {
    "antiRamCoeff": 1.0,
+   "armorCoeff": 0.0,
+   "autoRepairTime": 30,
+   "autoRepairTimeMin": 25,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.05,
+    0.75
+   ],
+   "critProbHP": [
+    1.0,
+    0.02
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "artillery_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 10000.0,
+   "moduleCritCoeffCR": 1.0,
+   "moduleCritCoeffXP": 1.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 1.0,
+   "rndPartHP": 0.0,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 0.1
+  },
+  "aiMGmaxEllipseRanging": 4.0,
+  "aiMGmedEllipseRanging": 3.7,
+  "aiMGminEllipseRanging": 3.5,
+  "ammoList": [
+   "PJPA099_510MM_HE_SHIKISHIMA",
+   "PJPA100_510MM_AP_SHIKISHIMA"
+  ],
+  "antiAirAuraDistance": 0.0,
+  "antiAirAuraStrength": 0.0,
+  "armor": {
+   "1": 0.0,
+   "65568": 250.0,
+   "65569": 290.0,
+   "65571": 250.0,
+   "65635": 120.0,
+   "65636": 650.0,
+   "131104": 225.0,
+   "131105": 270.0,
+   "131171": 0.0
+  },
+  "barrelDiameter": 0.51,
+  "coeffPerSecondMin": 0.3,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_vbig.xml",
+  "deadMesh": "content/gameplay/japan/gun/main/JGM187_510mm_45/JGM187_510mm_45_dead.model",
+  "deadZone": [],
+  "delim": 0.5,
+  "effectIntensityModifier": 1.0,
+  "ellipseRangeMax": 250.0,
+  "ellipseRangeMin": 50.0,
+  "horizSector": [
+   -150.0,
+   150.0
+  ],
+  "id": 4098483920,
+  "idealDistance": 1000.0,
+  "idealRadius": 9.0,
+  "index": "PJGM187",
+  "lensEffect": "particles/guns/GK_Lens_440to550.xml",
+  "maxEllipseRanging": 1.003,
+  "medEllipseRanging": 1.002,
+  "minEllipseRanging": 1.001,
+  "minRadius": 2.8,
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/japan/gun/main/JGM187_510mm_45/JGM187_510mm_45.model",
+  "name": "PJGM187_510mm_45",
+  "numBarrels": 2,
+  "onMoveTarPosCoeffDelim": 1.001,
+  "onMoveTarPosCoeffMaxDist": 1.002,
+  "onMoveTarPosCoeffZero": 1.0,
+  "onMoveTarPosDelim": 0.1,
+  "pitchDeadZones": [],
+  "position": [
+   0,
+   0
+  ],
+  "purgingEffect": "particles/guns/GK_Purging_350to550.xml",
+  "radiusOnDelim": 0.6,
+  "radiusOnMax": 0.8,
+  "radiusOnZero": 0.2,
+  "reduceTime": 0.1,
+  "reloadBoostEffect": "particles/guns/GK_Reload_440to550.xml",
+  "rotationSpeed": [
+   3.0,
+   10.0
+  ],
+  "shotDelay": 27.0,
+  "shotEffect": "particles/guns/GK_Shot_440to550.xml",
+  "smallGun": null,
+  "smokePenalty": 0.0001,
+  "typeinfo": {
+   "nation": "Japan",
+   "species": "Main",
+   "type": "Gun"
+  },
+  "vertSector": [
+   -2.0,
+   45.0
+  ]
+ },
+ {
+  "HitLocationArtillery": {
+   "antiRamCoeff": 1.0,
    "armorCoeff": 0.6,
    "autoRepairTime": 30,
    "autoRepairTimeMin": 25,
@@ -10478,6 +10607,73 @@
   ]
  },
  {
+  "HitLocationAirDefense": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "airdefense_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 600.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.8,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "antiAirAuraDistance": 83.0,
+  "antiAirAuraStrength": 0.033,
+  "barrelDiameter": 0.025,
+  "deadMesh": "content/gameplay/japan/gun/aaircraft/JGA201_25mm_Type96_Shielded/JGA201_25mm_Type96_Shielded_dead.model",
+  "id": 4084197072,
+  "index": "PJGA201",
+  "model": "content/gameplay/japan/gun/aaircraft/JGA201_25mm_Type96_Shielded/JGA201_25mm_Type96_Shielded.model",
+  "name": "PJGA201_25mm_Type96_Shielded",
+  "numBarrels": 3.0,
+  "shotDelay": 5.0,
+  "shotEffect": "particles/guns/AA_shot.xml",
+  "smallGun": null,
+  "typeinfo": {
+   "nation": "Japan",
+   "species": "AAircraft",
+   "type": "Gun"
+  }
+ },
+ {
   "HitLocationArtillery": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 0.0,
@@ -10709,117 +10905,6 @@
   "vertSector": [
    -2.0,
    75.0
-  ]
- },
- {
-  "HitLocationTorpedo": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 1.0,
-   "autoRepairTime": 15,
-   "autoRepairTimeMin": 15,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.25,
-    0.25
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "torpedo_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 1200.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.75,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
-  "ammoList": [
-   ""
-  ],
-  "armor": {},
-  "barrelDiameter": 20,
-  "canRotate": true,
-  "customMiscs": {},
-  "damagedEffect": "particles/guns/Gun_Broken_small.xml",
-  "deadMesh": "content/gameplay/japan/gun/torpedo/JGT655_610mm5_Type_93_HW19/JGT655_610mm5_Type_93_HW19_dead.model",
-  "deadZone": [],
-  "horizSector": [
-   0.0,
-   0.0
-  ],
-  "id": 3607520976,
-  "index": "PJGT655",
-  "lensEffect": "",
-  "mainSector": [
-   -90.0,
-   90.0
-  ],
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/japan/gun/torpedo/JGT655_610mm5_Type_93_HW19/JGT655_610mm5_Type_93_HW19.model",
-  "name": "PJGT655_610mm5_Type_93_HW19",
-  "numAmmos": 1000,
-  "numBarrels": 4,
-  "position": [
-   0,
-   0
-  ],
-  "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
-  "rotationSpeed": [
-   25.0,
-   25.0
-  ],
-  "shootSector": [
-   0.0,
-   0.0
-  ],
-  "shotDelay": 50,
-  "shotEffect": "particles/guns/torpedo.xml",
-  "shotEffectCap": "particles/Empty_FX.xml",
-  "smallGun": null,
-  "timeBetweenShots": 0.2,
-  "timeToChangeAngle": 1,
-  "timeToChangeSpeed": 1,
-  "torpedoAngles": [
-   1.5,
-   2.4,
-   10
-  ],
-  "typeinfo": {
-   "nation": "Japan",
-   "species": "Torpedo",
-   "type": "Gun"
-  },
-  "vertSector": [
-   0.0,
-   1.0
   ]
  },
  {
@@ -11503,115 +11588,6 @@
   "vertSector": [
    0.0,
    90.0
-  ]
- },
- {
-  "HitLocationATBA": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 0.6,
-   "autoRepairTime": 10,
-   "autoRepairTimeMin": 5,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.0,
-    0.0
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "atba_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 1200.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.75,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
-  "aiATBAmultiplier": 3,
-  "ammoList": [
-   "PCPA001_Shell"
-  ],
-  "antiAirAuraDistance": 167.0,
-  "antiAirAuraStrength": 0.101,
-  "armor": {
-   "1": 0.0,
-   "65568": 25.0,
-   "65569": 25.0,
-   "65571": 25.0,
-   "65635": 25.0,
-   "65636": 25.0
-  },
-  "barrelDiameter": 0.127,
-  "clusterID": 0,
-  "customMiscs": {},
-  "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
-  "deadMesh": "content/gameplay/japan/gun/secondary/JGS021_127mm50_Type_B/JGS021_127mm50_Type_B_dead.model",
-  "deadZone": [],
-  "delim": 0.6,
-  "effectIntensityModifier": 1.0,
-  "horizSector": [
-   0.0,
-   0.0
-  ],
-  "id": 4272350928,
-  "idealDistance": 333.333,
-  "idealRadius": 20,
-  "index": "PJGS021",
-  "lensEffect": "",
-  "minRadius": 1.0,
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/japan/gun/secondary/JGS021_127mm50_Type_B/JGS021_127mm50_Type_B.model",
-  "name": "PJGS021_127mm50_Type_B",
-  "numBarrels": 2,
-  "pitchDeadZones": [],
-  "purgingEffect": "particles/guns/PMK_Purging_110to140.xml",
-  "radiusOnDelim": 0.8,
-  "radiusOnMax": 1.0,
-  "radiusOnZero": 0.1,
-  "rotationSpeed": [
-   60.0,
-   1.0
-  ],
-  "shotDelay": 5.0,
-  "shotEffect": "particles/guns/PMK_Shot_110to140.xml",
-  "smallGun": true,
-  "smokePenalty": 0.0001,
-  "typeinfo": {
-   "nation": "Japan",
-   "species": "Secondary",
-   "type": "Gun"
-  },
-  "vertSector": [
-   355.0,
-   75.0
   ]
  },
  {
@@ -12412,6 +12388,118 @@
   "vertSector": [
    -2.0,
    42.0
+  ]
+ },
+ {
+  "HitLocationTorpedo": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 15,
+   "autoRepairTimeMin": 15,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.25,
+    0.25
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "torpedo_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 1200.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.75,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "ammoList": [
+   "PJPT001_Sea_Torpedo_Type93"
+  ],
+  "armor": {
+   "65580": 6.0
+  },
+  "barrelDiameter": 0.61,
+  "canRotate": true,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+  "deadMesh": "content/gameplay/japan/gun/torpedo/JGT017_610mm4_Type_93L/JGT017_610mm4_Type_93L_dead.model",
+  "deadZone": [],
+  "horizSector": [
+   0.0,
+   0.0
+  ],
+  "id": 4276512464,
+  "index": "PJGT017",
+  "lensEffect": "",
+  "mainSector": [
+   -90.0,
+   90.0
+  ],
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/japan/gun/torpedo/JGT017_610mm4_Type_93L/JGT017_610mm4_Type_93L.model",
+  "name": "PJGT017_610mm4_Type_93L",
+  "numAmmos": 1000,
+  "numBarrels": 4,
+  "position": [
+   0,
+   0
+  ],
+  "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
+  "rotationSpeed": [
+   25.0,
+   25.0
+  ],
+  "shootSector": [
+   0.0,
+   0.0
+  ],
+  "shotDelay": 120.0,
+  "shotEffect": "particles/guns/torpedo.xml",
+  "shotEffectCap": "particles/Empty_FX.xml",
+  "smallGun": null,
+  "timeBetweenShots": 0.2,
+  "timeToChangeAngle": 1,
+  "timeToChangeSpeed": 1,
+  "torpedoAngles": [
+   4.8,
+   16.0
+  ],
+  "typeinfo": {
+   "nation": "Japan",
+   "species": "Torpedo",
+   "type": "Gun"
+  },
+  "vertSector": [
+   0.0,
+   1.0
   ]
  },
  {
@@ -19563,7 +19651,7 @@
   "clusterID": 0,
   "customMiscs": {},
   "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
-  "deadMesh": "content/gameplay/japan/gun/secondary/JGS577_127mm40_Type89_Mod_A_1_HSF/JGS577_127mm40_Type89_Mod_A_1_HSF_dead.model",
+  "deadMesh": "content/gameplay/japan/gun/secondary/JGS769_200mm50_Type3_LanternFest20/JGS769_200mm50_Type3_LanternFest20_dead.model",
   "deadZone": [],
   "delim": 0.6,
   "effectIntensityModifier": 1.0,
@@ -19571,16 +19659,125 @@
    0.0,
    0.0
   ],
-  "id": 3689342672,
+  "id": 3488016080,
   "idealDistance": 333.333,
   "idealRadius": 20,
-  "index": "PJGS577",
+  "index": "PJGS769",
   "lensEffect": "",
   "minRadius": 1.0,
   "miscFilter": [],
   "miscFilterMode": false,
-  "model": "content/gameplay/japan/gun/secondary/JGS577_127mm40_Type89_Mod_A_1_HSF/JGS577_127mm40_Type89_Mod_A_1_HSF.model",
-  "name": "PJGS577_127mm40_Type89_Mod_A_1_HSF",
+  "model": "content/gameplay/japan/gun/secondary/JGS769_200mm50_Type3_LanternFest20/JGS769_200mm50_Type3_LanternFest20.model",
+  "name": "PJGS769_200mm50_Type3_LanternFest20",
+  "numBarrels": 2,
+  "pitchDeadZones": [],
+  "purgingEffect": "particles/guns/PMK_Purging_140to220.xml",
+  "radiusOnDelim": 0.8,
+  "radiusOnMax": 1.0,
+  "radiusOnZero": 0.1,
+  "rotationSpeed": [
+   60.0,
+   1.0
+  ],
+  "shotDelay": 5.0,
+  "shotEffect": "particles/guns/PMK_Shot_140to220.xml",
+  "smallGun": true,
+  "smokePenalty": 0.0001,
+  "typeinfo": {
+   "nation": "Japan",
+   "species": "Secondary",
+   "type": "Gun"
+  },
+  "vertSector": [
+   -1.0,
+   90.0
+  ]
+ },
+ {
+  "HitLocationATBA": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 0.6,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "atba_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 1200.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.75,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "aiATBAmultiplier": 3,
+  "ammoList": [
+   "PCPA001_Shell"
+  ],
+  "antiAirAuraDistance": 167.0,
+  "antiAirAuraStrength": 0.101,
+  "armor": {
+   "1": 0.0,
+   "65568": 25.0,
+   "65569": 25.0,
+   "65571": 25.0,
+   "65635": 25.0,
+   "65636": 25.0
+  },
+  "barrelDiameter": 0.127,
+  "clusterID": 0,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
+  "deadMesh": "content/gameplay/japan/gun/secondary/JGS021_127mm50_Type_B/JGS021_127mm50_Type_B_dead.model",
+  "deadZone": [],
+  "delim": 0.6,
+  "effectIntensityModifier": 1.0,
+  "horizSector": [
+   0.0,
+   0.0
+  ],
+  "id": 4272350928,
+  "idealDistance": 333.333,
+  "idealRadius": 20,
+  "index": "PJGS021",
+  "lensEffect": "",
+  "minRadius": 1.0,
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/japan/gun/secondary/JGS021_127mm50_Type_B/JGS021_127mm50_Type_B.model",
+  "name": "PJGS021_127mm50_Type_B",
   "numBarrels": 2,
   "pitchDeadZones": [],
   "purgingEffect": "particles/guns/PMK_Purging_110to140.xml",
@@ -19601,8 +19798,119 @@
    "type": "Gun"
   },
   "vertSector": [
-   -1.0,
+   355.0,
+   75.0
+  ]
+ },
+ {
+  "HitLocationTorpedo": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 15,
+   "autoRepairTimeMin": 15,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.25,
+    0.25
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "torpedo_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 1200.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.75,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "ammoList": [
+   ""
+  ],
+  "armor": {},
+  "barrelDiameter": 20,
+  "canRotate": true,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
+  "deadMesh": "content/gameplay/japan/gun/torpedo/JGT599_610mm5_Type_93L_Space/JGT599_610mm5_Type_93L_Space_dead.model",
+  "deadZone": [],
+  "horizSector": [
+   0.0,
+   0.0
+  ],
+  "id": 3666241232,
+  "index": "PJGT599",
+  "lensEffect": "",
+  "mainSector": [
+   -90.0,
    90.0
+  ],
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/japan/gun/torpedo/JGT599_610mm5_Type_93L_Space/JGT599_610mm5_Type_93L_Space.model",
+  "name": "PJGT599_610mm5_Type_93L_Space",
+  "numAmmos": 1000,
+  "numBarrels": 4,
+  "position": [
+   0,
+   0
+  ],
+  "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
+  "rotationSpeed": [
+   25.0,
+   25.0
+  ],
+  "shootSector": [
+   0.0,
+   0.0
+  ],
+  "shotDelay": 50,
+  "shotEffect": "particles/guns/torpedo.xml",
+  "shotEffectCap": "particles/Empty_FX.xml",
+  "smallGun": null,
+  "timeBetweenShots": 0.2,
+  "timeToChangeAngle": 1,
+  "timeToChangeSpeed": 1,
+  "torpedoAngles": [
+   1.5,
+   2.4,
+   10
+  ],
+  "typeinfo": {
+   "nation": "Japan",
+   "species": "Torpedo",
+   "type": "Gun"
+  },
+  "vertSector": [
+   0.0,
+   1.0
   ]
  },
  {
@@ -19665,7 +19973,7 @@
   "clusterID": 0,
   "customMiscs": {},
   "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
-  "deadMesh": "content/gameplay/japan/gun/secondary/JGS769_200mm50_Type3_LanternFest20/JGS769_200mm50_Type3_LanternFest20_dead.model",
+  "deadMesh": "content/gameplay/japan/gun/secondary/JGS577_127mm40_Type89_Mod_A_1_HSF/JGS577_127mm40_Type89_Mod_A_1_HSF_dead.model",
   "deadZone": [],
   "delim": 0.6,
   "effectIntensityModifier": 1.0,
@@ -19673,19 +19981,19 @@
    0.0,
    0.0
   ],
-  "id": 3488016080,
+  "id": 3689342672,
   "idealDistance": 333.333,
   "idealRadius": 20,
-  "index": "PJGS769",
+  "index": "PJGS577",
   "lensEffect": "",
   "minRadius": 1.0,
   "miscFilter": [],
   "miscFilterMode": false,
-  "model": "content/gameplay/japan/gun/secondary/JGS769_200mm50_Type3_LanternFest20/JGS769_200mm50_Type3_LanternFest20.model",
-  "name": "PJGS769_200mm50_Type3_LanternFest20",
+  "model": "content/gameplay/japan/gun/secondary/JGS577_127mm40_Type89_Mod_A_1_HSF/JGS577_127mm40_Type89_Mod_A_1_HSF.model",
+  "name": "PJGS577_127mm40_Type89_Mod_A_1_HSF",
   "numBarrels": 2,
   "pitchDeadZones": [],
-  "purgingEffect": "particles/guns/PMK_Purging_140to220.xml",
+  "purgingEffect": "particles/guns/PMK_Purging_110to140.xml",
   "radiusOnDelim": 0.8,
   "radiusOnMax": 1.0,
   "radiusOnZero": 0.1,
@@ -19694,7 +20002,7 @@
    1.0
   ],
   "shotDelay": 5.0,
-  "shotEffect": "particles/guns/PMK_Shot_140to220.xml",
+  "shotEffect": "particles/guns/PMK_Shot_110to140.xml",
   "smallGun": true,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -19951,244 +20259,6 @@
   "vertSector": [
    0.0,
    1.0
-  ]
- },
- {
-  "HitLocationTorpedo": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 1.0,
-   "autoRepairTime": 15,
-   "autoRepairTimeMin": 15,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.25,
-    0.25
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "torpedo_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 1200.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.75,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
-  "ammoList": [
-   ""
-  ],
-  "armor": {},
-  "barrelDiameter": 20,
-  "canRotate": true,
-  "customMiscs": {},
-  "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
-  "deadMesh": "content/gameplay/japan/gun/torpedo/JGT599_610mm5_Type_93L_Space/JGT599_610mm5_Type_93L_Space_dead.model",
-  "deadZone": [],
-  "horizSector": [
-   0.0,
-   0.0
-  ],
-  "id": 3666241232,
-  "index": "PJGT599",
-  "lensEffect": "",
-  "mainSector": [
-   -90.0,
-   90.0
-  ],
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/japan/gun/torpedo/JGT599_610mm5_Type_93L_Space/JGT599_610mm5_Type_93L_Space.model",
-  "name": "PJGT599_610mm5_Type_93L_Space",
-  "numAmmos": 1000,
-  "numBarrels": 4,
-  "position": [
-   0,
-   0
-  ],
-  "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
-  "rotationSpeed": [
-   25.0,
-   25.0
-  ],
-  "shootSector": [
-   0.0,
-   0.0
-  ],
-  "shotDelay": 50,
-  "shotEffect": "particles/guns/torpedo.xml",
-  "shotEffectCap": "particles/Empty_FX.xml",
-  "smallGun": null,
-  "timeBetweenShots": 0.2,
-  "timeToChangeAngle": 1,
-  "timeToChangeSpeed": 1,
-  "torpedoAngles": [
-   1.5,
-   2.4,
-   10
-  ],
-  "typeinfo": {
-   "nation": "Japan",
-   "species": "Torpedo",
-   "type": "Gun"
-  },
-  "vertSector": [
-   0.0,
-   1.0
-  ]
- },
- {
-  "HitLocationArtillery": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 0.5,
-   "autoRepairTime": 30,
-   "autoRepairTimeMin": 25,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.05,
-    0.75
-   ],
-   "critProbHP": [
-    1.0,
-    0.02
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "artillery_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 2000.0,
-   "moduleCritCoeffCR": 1.0,
-   "moduleCritCoeffXP": 1.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 1.0,
-   "rndPartHP": 0.0,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 0.1
-  },
-  "aiMGmaxEllipseRanging": 4.0,
-  "aiMGmedEllipseRanging": 3.7,
-  "aiMGminEllipseRanging": 3.5,
-  "ammoList": [
-   "PJPA012_Shell_127mm_HE_Type_1",
-   "PJPA011_Shell_127mm_AP_Type_0"
-  ],
-  "antiAirAuraDistance": 0.0,
-  "antiAirAuraStrength": 0.0,
-  "armor": {
-   "1": 0.0,
-   "65568": 20.0,
-   "65569": 20.0,
-   "65571": 20.0,
-   "65635": 20.0,
-   "65636": 20.0
-  },
-  "barrelDiameter": 0.127,
-  "coeffPerSecondMin": 0.3,
-  "customMiscs": {},
-  "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
-  "deadMesh": "content/gameplay/japan/gun/main/JGM151_127mm50_Type_C/JGM151_127mm50_Type_C_dead.model",
-  "deadZone": [],
-  "delim": 0.5,
-  "effectIntensityModifier": 1.0,
-  "ellipseRangeMax": 250.0,
-  "ellipseRangeMin": 50.0,
-  "horizSector": [
-   210.0,
-   150.0
-  ],
-  "id": 4283033296,
-  "idealDistance": 1000.0,
-  "idealRadius": 8,
-  "index": "PJGM011",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
-  "maxEllipseRanging": 1.003,
-  "medEllipseRanging": 1.002,
-  "minEllipseRanging": 1.001,
-  "minRadius": 0.5,
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/japan/gun/main/JGM151_127mm50_Type_C/JGM151_127mm50_Type_C.model",
-  "name": "PJGM011_127mm50_Type_C",
-  "numBarrels": 2,
-  "onMoveTarPosCoeffDelim": 1.001,
-  "onMoveTarPosCoeffMaxDist": 1.002,
-  "onMoveTarPosCoeffZero": 1.0,
-  "onMoveTarPosDelim": 0.1,
-  "pitchDeadZones": [],
-  "position": [
-   0,
-   0
-  ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
-  "radiusOnDelim": 0.5,
-  "radiusOnMax": 0.6,
-  "radiusOnZero": 0.2,
-  "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
-  "rotationSpeed": [
-   6.9,
-   12.0
-  ],
-  "shotDelay": 9.0,
-  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
-  "smallGun": null,
-  "smokePenalty": 0.0001,
-  "typeinfo": {
-   "nation": "Japan",
-   "species": "Main",
-   "type": "Gun"
-  },
-  "vertSector": [
-   -2.0,
-   55.0
   ]
  },
  {
@@ -21129,6 +21199,118 @@
   ]
  },
  {
+  "HitLocationTorpedo": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 15,
+   "autoRepairTimeMin": 15,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.25,
+    0.25
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "torpedo_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 1200.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.75,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "ammoList": [
+   "PJPT001_Sea_Torpedo_Type93"
+  ],
+  "armor": {
+   "65580": 6.0
+  },
+  "barrelDiameter": 0.61,
+  "canRotate": true,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
+  "deadMesh": "content/gameplay/japan/gun/torpedo/JGT089_610mm5_Type_93L/JGT089_610mm5_Type_93L_dead.model",
+  "deadZone": [],
+  "horizSector": [
+   0.0,
+   0.0
+  ],
+  "id": 4201014992,
+  "index": "PJGT089",
+  "lensEffect": "",
+  "mainSector": [
+   -90.0,
+   90.0
+  ],
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/japan/gun/torpedo/JGT089_610mm5_Type_93L/JGT089_610mm5_Type_93L.model",
+  "name": "PJGT089_610mm5_Type_93L",
+  "numAmmos": 1000,
+  "numBarrels": 5,
+  "position": [
+   0,
+   0
+  ],
+  "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
+  "rotationSpeed": [
+   25.0,
+   25.0
+  ],
+  "shootSector": [
+   0.0,
+   0.0
+  ],
+  "shotDelay": 150.0,
+  "shotEffect": "particles/guns/torpedo.xml",
+  "shotEffectCap": "particles/Empty_FX.xml",
+  "smallGun": null,
+  "timeBetweenShots": 0.2,
+  "timeToChangeAngle": 1,
+  "timeToChangeSpeed": 1,
+  "torpedoAngles": [
+   6.0,
+   20.0
+  ],
+  "typeinfo": {
+   "nation": "Japan",
+   "species": "Torpedo",
+   "type": "Gun"
+  },
+  "vertSector": [
+   0.0,
+   1.0
+  ]
+ },
+ {
   "HitLocationArtillery": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 0.5,
@@ -22041,118 +22223,6 @@
   "vertSector": [
    -5.0,
    75.0
-  ]
- },
- {
-  "HitLocationTorpedo": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 1.0,
-   "autoRepairTime": 15,
-   "autoRepairTimeMin": 15,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.25,
-    0.25
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "torpedo_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 1200.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.75,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
-  "ammoList": [
-   "PJPT001_Sea_Torpedo_Type93"
-  ],
-  "armor": {
-   "65580": 6.0
-  },
-  "barrelDiameter": 0.61,
-  "canRotate": true,
-  "customMiscs": {},
-  "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
-  "deadMesh": "content/gameplay/japan/gun/torpedo/JGT017_610mm4_Type_93L/JGT017_610mm4_Type_93L_dead.model",
-  "deadZone": [],
-  "horizSector": [
-   0.0,
-   0.0
-  ],
-  "id": 4276512464,
-  "index": "PJGT017",
-  "lensEffect": "",
-  "mainSector": [
-   -90.0,
-   90.0
-  ],
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/japan/gun/torpedo/JGT017_610mm4_Type_93L/JGT017_610mm4_Type_93L.model",
-  "name": "PJGT017_610mm4_Type_93L",
-  "numAmmos": 1000,
-  "numBarrels": 4,
-  "position": [
-   0,
-   0
-  ],
-  "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
-  "rotationSpeed": [
-   25.0,
-   25.0
-  ],
-  "shootSector": [
-   0.0,
-   0.0
-  ],
-  "shotDelay": 120.0,
-  "shotEffect": "particles/guns/torpedo.xml",
-  "shotEffectCap": "particles/Empty_FX.xml",
-  "smallGun": null,
-  "timeBetweenShots": 0.2,
-  "timeToChangeAngle": 1,
-  "timeToChangeSpeed": 1,
-  "torpedoAngles": [
-   4.8,
-   16.0
-  ],
-  "typeinfo": {
-   "nation": "Japan",
-   "species": "Torpedo",
-   "type": "Gun"
-  },
-  "vertSector": [
-   0.0,
-   1.0
   ]
  },
  {
@@ -23491,6 +23561,133 @@
  {
   "HitLocationArtillery": {
    "antiRamCoeff": 1.0,
+   "armorCoeff": 0.5,
+   "autoRepairTime": 30,
+   "autoRepairTimeMin": 25,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.05,
+    0.75
+   ],
+   "critProbHP": [
+    1.0,
+    0.02
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "artillery_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 2000.0,
+   "moduleCritCoeffCR": 1.0,
+   "moduleCritCoeffXP": 1.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 1.0,
+   "rndPartHP": 0.0,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 0.1
+  },
+  "aiMGmaxEllipseRanging": 4.0,
+  "aiMGmedEllipseRanging": 3.7,
+  "aiMGminEllipseRanging": 3.5,
+  "ammoList": [
+   "PJPA012_Shell_127mm_HE_Type_1",
+   "PJPA011_Shell_127mm_AP_Type_0"
+  ],
+  "antiAirAuraDistance": 0.0,
+  "antiAirAuraStrength": 0.0,
+  "armor": {
+   "1": 0.0,
+   "65568": 20.0,
+   "65569": 20.0,
+   "65571": 20.0,
+   "65635": 20.0,
+   "65636": 20.0
+  },
+  "barrelDiameter": 0.127,
+  "coeffPerSecondMin": 0.3,
+  "customMiscs": {},
+  "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
+  "deadMesh": "content/gameplay/japan/gun/main/JGM151_127mm50_Type_C/JGM151_127mm50_Type_C_dead.model",
+  "deadZone": [],
+  "delim": 0.5,
+  "effectIntensityModifier": 1.0,
+  "ellipseRangeMax": 250.0,
+  "ellipseRangeMin": 50.0,
+  "horizSector": [
+   210.0,
+   150.0
+  ],
+  "id": 4283033296,
+  "idealDistance": 1000.0,
+  "idealRadius": 8,
+  "index": "PJGM011",
+  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "maxEllipseRanging": 1.003,
+  "medEllipseRanging": 1.002,
+  "minEllipseRanging": 1.001,
+  "minRadius": 0.5,
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/japan/gun/main/JGM151_127mm50_Type_C/JGM151_127mm50_Type_C.model",
+  "name": "PJGM011_127mm50_Type_C",
+  "numBarrels": 2,
+  "onMoveTarPosCoeffDelim": 1.001,
+  "onMoveTarPosCoeffMaxDist": 1.002,
+  "onMoveTarPosCoeffZero": 1.0,
+  "onMoveTarPosDelim": 0.1,
+  "pitchDeadZones": [],
+  "position": [
+   0,
+   0
+  ],
+  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "radiusOnDelim": 0.5,
+  "radiusOnMax": 0.6,
+  "radiusOnZero": 0.2,
+  "reduceTime": 0.1,
+  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+  "rotationSpeed": [
+   6.9,
+   12.0
+  ],
+  "shotDelay": 9.0,
+  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+  "smallGun": null,
+  "smokePenalty": 0.0001,
+  "typeinfo": {
+   "nation": "Japan",
+   "species": "Main",
+   "type": "Gun"
+  },
+  "vertSector": [
+   -2.0,
+   55.0
+  ]
+ },
+ {
+  "HitLocationArtillery": {
+   "antiRamCoeff": 1.0,
    "armorCoeff": 0.75,
    "autoRepairTime": 30,
    "autoRepairTimeMin": 25,
@@ -24561,136 +24758,6 @@
   "vertSector": [
    -2.0,
    15.0
-  ]
- },
- {
-  "HitLocationArtillery": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 0.0,
-   "autoRepairTime": 30,
-   "autoRepairTimeMin": 25,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.05,
-    0.75
-   ],
-   "critProbHP": [
-    1.0,
-    0.02
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "artillery_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 10000.0,
-   "moduleCritCoeffCR": 1.0,
-   "moduleCritCoeffXP": 1.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 1.0,
-   "rndPartHP": 0.0,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 0.1
-  },
-  "aiMGmaxEllipseRanging": 4.0,
-  "aiMGmedEllipseRanging": 3.7,
-  "aiMGminEllipseRanging": 3.5,
-  "ammoList": [
-   "PJPA099_510MM_HE_SHIKISHIMA",
-   "PJPA100_510MM_AP_SHIKISHIMA"
-  ],
-  "antiAirAuraDistance": 0.0,
-  "antiAirAuraStrength": 0.0,
-  "armor": {
-   "1": 0.0,
-   "65568": 250.0,
-   "65569": 290.0,
-   "65571": 250.0,
-   "65635": 120.0,
-   "65636": 650.0,
-   "131104": 225.0,
-   "131105": 270.0,
-   "131171": 0.0
-  },
-  "barrelDiameter": 0.51,
-  "coeffPerSecondMin": 0.3,
-  "customMiscs": {},
-  "damagedEffect": "particles/guns/Gun_Broken_vbig.xml",
-  "deadMesh": "content/gameplay/japan/gun/main/JGM187_510mm_45/JGM187_510mm_45_dead.model",
-  "deadZone": [],
-  "delim": 0.5,
-  "effectIntensityModifier": 1.0,
-  "ellipseRangeMax": 250.0,
-  "ellipseRangeMin": 50.0,
-  "horizSector": [
-   -150.0,
-   150.0
-  ],
-  "id": 4098483920,
-  "idealDistance": 1000.0,
-  "idealRadius": 9.0,
-  "index": "PJGM187",
-  "lensEffect": "particles/guns/GK_Lens_440to550.xml",
-  "maxEllipseRanging": 1.003,
-  "medEllipseRanging": 1.002,
-  "minEllipseRanging": 1.001,
-  "minRadius": 2.8,
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/japan/gun/main/JGM187_510mm_45/JGM187_510mm_45.model",
-  "name": "PJGM187_510mm_45",
-  "numBarrels": 2,
-  "onMoveTarPosCoeffDelim": 1.001,
-  "onMoveTarPosCoeffMaxDist": 1.002,
-  "onMoveTarPosCoeffZero": 1.0,
-  "onMoveTarPosDelim": 0.1,
-  "pitchDeadZones": [],
-  "position": [
-   0,
-   0
-  ],
-  "purgingEffect": "particles/guns/GK_Purging_350to550.xml",
-  "radiusOnDelim": 0.6,
-  "radiusOnMax": 0.8,
-  "radiusOnZero": 0.2,
-  "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_440to550.xml",
-  "rotationSpeed": [
-   3.0,
-   10.0
-  ],
-  "shotDelay": 27.0,
-  "shotEffect": "particles/guns/GK_Shot_440to550.xml",
-  "smallGun": null,
-  "smokePenalty": 0.0001,
-  "typeinfo": {
-   "nation": "Japan",
-   "species": "Main",
-   "type": "Gun"
-  },
-  "vertSector": [
-   -2.0,
-   45.0
   ]
  },
  {

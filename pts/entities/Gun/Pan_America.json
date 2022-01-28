@@ -397,73 +397,6 @@
   ]
  },
  {
-  "HitLocationAirDefense": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 1.0,
-   "autoRepairTime": 10,
-   "autoRepairTimeMin": 5,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.0,
-    0.0
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "airdefense_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 600.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.8,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
-  "antiAirAuraDistance": 67.0,
-  "antiAirAuraStrength": 0.026,
-  "barrelDiameter": 0.037,
-  "deadMesh": "content/gameplay/panamerica/gun/aaircraft/VGA012_1pdr_Mk6_Maxim/VGA012_1pdr_Mk6_Maxim_dead.model",
-  "id": 4282377552,
-  "index": "PVGA012",
-  "model": "content/gameplay/panamerica/gun/aaircraft/VGA012_1pdr_Mk6_Maxim/VGA012_1pdr_Mk6_Maxim.model",
-  "name": "PVGA012_1pdr_Mk6_Maxim",
-  "numBarrels": 1,
-  "shotDelay": 0.33,
-  "shotEffect": "particles/guns/AA_shot.xml",
-  "smallGun": null,
-  "typeinfo": {
-   "nation": "Pan_America",
-   "species": "AAircraft",
-   "type": "Gun"
-  }
- },
- {
   "HitLocationATBA": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 1.0,
@@ -1551,6 +1484,73 @@
   "name": "PVGA005_40mm_Bofors_Mk1",
   "numBarrels": 2,
   "shotDelay": 5.0,
+  "shotEffect": "particles/guns/AA_shot.xml",
+  "smallGun": null,
+  "typeinfo": {
+   "nation": "Pan_America",
+   "species": "AAircraft",
+   "type": "Gun"
+  }
+ },
+ {
+  "HitLocationAirDefense": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "airdefense_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 600.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.8,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "antiAirAuraDistance": 67.0,
+  "antiAirAuraStrength": 0.026,
+  "barrelDiameter": 0.037,
+  "deadMesh": "content/gameplay/panamerica/gun/aaircraft/VGA012_1pdr_Mk6_Maxim/VGA012_1pdr_Mk6_Maxim_dead.model",
+  "id": 4282377552,
+  "index": "PVGA012",
+  "model": "content/gameplay/panamerica/gun/aaircraft/VGA012_1pdr_Mk6_Maxim/VGA012_1pdr_Mk6_Maxim.model",
+  "name": "PVGA012_1pdr_Mk6_Maxim",
+  "numBarrels": 1,
+  "shotDelay": 0.33,
   "shotEffect": "particles/guns/AA_shot.xml",
   "smallGun": null,
   "typeinfo": {
