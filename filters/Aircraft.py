@@ -1,3 +1,5 @@
+import logging
+
 AIRCRAFT_KEYS = ["hangarSettings", "maxHealth", "naturalAcceleration", "naturalDeceleration", "numPlanesInSquadron",
                  "returnHeight", "speedMax", "speedMin", "bombName", "attackCooldown", "attackInterval",
                  "attackerDamageTakenMultiplier", "attackSpeedMultiplier", "attackSpeedMultiplierApplyTime",
@@ -5,11 +7,13 @@ AIRCRAFT_KEYS = ["hangarSettings", "maxHealth", "naturalAcceleration", "naturalD
                  "innerBombsPercentage", "innerSalvoSize", "isAirSupportPlane", "isConsumablePlane",
                  "isJatoBoosterDetachable", "jatoDuration", "jatoSpeedMultiplier", "speedMoveWithBomb", "PlaneAbilities",
                  "aimingAccuracyDecreaseRate", "aimingAccuracyIncreaseRate", "aimingTime", "postAttackInvulnerabilityDuration", 
-                 "preparationAccuracyDecreaseRate", "preparationAccuracyIncreaseRate", "preparationTime"]
+                 "preparationAccuracyDecreaseRate", "preparationAccuracyIncreaseRate", "preparationTime", "planeSubtype"]
 COMMON_KEYS = ['id', 'typeinfo', 'name', 'index']
 
 
 class Aircraft:
+    logger = logging.getLogger(__name__)
+
     def __init__(self, data: object):
         self._data = data
 
@@ -22,3 +26,10 @@ class Aircraft:
         for _k in list(obj.__dict__.keys()):
             if _k not in keys_to_keep:
                 obj.__delattr__(_k)
+
+        if isinstance(obj.__getattribute__("planeSubtype"), int):
+            Aircraft.logger.warning("Replacing planeSubtype for plane " + obj.__getattribute__("index") + " due to it having the wrong type.")
+            if obj.__getattribute__("planeSubtype") == 1:
+                obj.__setattr__("planeSubtype", ["consumable"])
+            else:
+                obj.__setattr__("planeSubtype", [])
