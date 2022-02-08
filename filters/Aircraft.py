@@ -27,7 +27,7 @@ class Aircraft:
             if _k not in keys_to_keep:
                 obj.__delattr__(_k)
 
-        if isinstance(obj.__getattribute__("planeSubtype"), int):
+        if hasattr(obj, "planeSubtype") and isinstance(obj.__getattribute__("planeSubtype"), int):
             Aircraft.logger.warning("Replacing planeSubtype for plane " + obj.__getattribute__("index") + " due to it having the wrong type.")
             if obj.__getattribute__("planeSubtype") == 1:
                 obj.__setattr__("planeSubtype", ["consumable"])
