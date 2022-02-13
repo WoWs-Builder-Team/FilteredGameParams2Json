@@ -25,7 +25,7 @@ ENGINE_KEYS = ["forwardEngineUpTime", "backwardEngineUpTime", "speedCoef", "HitL
 PINGERGUN_KEYS = ["rotationSpeed", "sectorParams", "waveDistance", "waveHitAlertTime", "waveHitLifeTime", "waveParams",
                   "waveReloadTime"]
 FLIGHTCONTROL_KEYS = ["squadrons"]
-ROOT_KEYS = ["id", "index", "level", "name", "typeinfo", "ShipUpgradeInfo", "ShipAbilities", "group"]
+ROOT_KEYS = ["id", "index", "level", "name", "typeinfo", "ShipUpgradeInfo", "ShipAbilities", "group", "permoflages"]
 
 
 class Ship:
