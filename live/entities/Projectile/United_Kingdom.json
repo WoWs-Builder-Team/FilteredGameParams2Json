@@ -938,6 +938,7 @@
    "SURFACE": 1.0
   },
   "burnProb": 0.17,
+  "costCR": 60,
   "damage": 1000.0,
   "depthSplashRadius": 10.0,
   "directDamage": 0.0,
@@ -1050,197 +1051,6 @@
   "water": "particles/submarines/Sub_explo_underwater.xml",
   "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
   "withParachute": false
- },
- {
-  "acidProb": 0.0,
-  "additionalShips": [],
-  "affectedByPTZ": false,
-  "alphaDamage": 8200.0,
-  "alphaPiercingCS": 0,
-  "alphaPiercingHE": 114.0,
-  "ammoType": "HE",
-  "applyPTZCoeff": false,
-  "bonusOffset": 0,
-  "bulletAirDrag": 0.2897,
-  "bulletAlwaysRicochetAt": 60.0,
-  "bulletCap": true,
-  "bulletCapNormalizeMaxAngle": 8.0,
-  "bulletDetonator": 0.001,
-  "bulletDetonatorSpread": 0.0,
-  "bulletDetonatorThreshold": 2.0,
-  "bulletDiametr": 0.457,
-  "bulletKrupp": 1.0,
-  "bulletMass": 1814.0,
-  "bulletPenetrationSpread": 0,
-  "bulletRicochetAt": 91.0,
-  "bulletSpeed": 757.0,
-  "bulletUnderwaterDistFactor": 0.8,
-  "bulletUnderwaterPenetrationFactor": 0.9,
-  "bulletWaterDrag": 10.0,
-  "buoyancyToDamageCoeff": {
-   "DEEP_WATER": 1.0,
-   "DEEP_WATER_INVUL": 0.0,
-   "PERISCOPE": 1.0,
-   "SEMI_DEEP_WATER": 1.0,
-   "SURFACE": 1.0
-  },
-  "burnProb": 0.63,
-  "costCR": 400,
-  "customUIPostfix": "",
-  "damage": 7730.0,
-  "damageVulnerabilityForShipClasses": {
-   "AirCarrier": 1,
-   "Auxiliary": 1,
-   "Battleship": 1,
-   "Cruiser": 1,
-   "Destroyer": 1,
-   "Submarine": 1
-  },
-  "depthSplashRadius": 4.46,
-  "directDamage": 0.0,
-  "distParams": [
-   -0.12,
-   0.1,
-   0.12,
-   0.0
-  ],
-  "distTile": 3.0,
-  "explosionRadius": 200.0,
-  "floodGeneration": false,
-  "ground": [
-   "particles/onGroundExplosion360mm_HE.xml",
-   "particles/onGroundExplosion360mm_2_HE.xml"
-  ],
-  "groundHitDecalSize": 1.0,
-  "groundHorizontal": [
-   "particles/onGroundExplosion360mm_horizontal_HE.xml",
-   "particles/onGroundExplosion360mm_horizontal_HE_1.xml",
-   "particles/onGroundExplosion360mm_horizontal_HE_2.xml"
-  ],
-  "groundVertical": [
-   "particles/onGroundExplosion360mm_vertical_HE.xml",
-   "particles/onGroundExplosion360mm_vertical_HE_1.xml",
-   "particles/onGroundExplosion360mm_vertical_HE_2.xml",
-   "particles/onGroundExplosion360mm_vertical_HE_3.xml"
-  ],
-  "hatTracerTexture": "particles/trails/Trail_Shell_Hat.dds",
-  "hitDecalSize": 0.56,
-  "id": 4245668816,
-  "ignoreBuoyancyStates": [
-   "DEEP_WATER_INVUL"
-  ],
-  "ignoreClasses": [],
-  "index": "PBPA047",
-  "isBomb": false,
-  "maxDepth": -15,
-  "name": "PBPA047_457MM_MII_HE",
-  "onHit": {},
-  "ownHatTracerTexture": "particles/trails/Trail_Shell_Hat_Own.dds",
-  "ownTracerEffect": "",
-  "ownTracerTexture": "particles/trails/Trail_GK_Own.dds",
-  "pointsOfDamage": [
-   [
-    0,
-    0.165
-   ],
-   [
-    1,
-    0.165
-   ]
-  ],
-  "projDestroyedEffect": [
-   "particles/Explosion_360_HE.xml",
-   "particles/Explosion_360_2_HE.xml"
-  ],
-  "projDestroyedEffectHorizontal": [
-   "particles/Explosion_horizontal_360_HE_2.xml",
-   "particles/Explosion_horizontal_360_HE.xml"
-  ],
-  "projDestroyedEffectVertical": [
-   "particles/Explosion_vertical_360_HE_2.xml",
-   "particles/Explosion_vertical_360_HE.xml"
-  ],
-  "projHitCitadelEffectHorizontal": [
-   "particles/Explosion_Citadel_2.xml"
-  ],
-  "projHitCitadelEffectVertical": [
-   "particles/Explosion_Citadel_2.xml"
-  ],
-  "projHitNoPenetrationEffectHorizontal": [
-   "particles/Explosion_horizontal_360_HE_2.xml",
-   "particles/Explosion_horizontal_360_HE.xml"
-  ],
-  "projHitNoPenetrationEffectVertical": [
-   "particles/Explosion_vertical_360_HE_2.xml",
-   "particles/Explosion_vertical_360_HE.xml"
-  ],
-  "projOverPenetrationEffectHorizontal": [
-   "particles/Explosion_horizontal_360_HE_2.xml",
-   "particles/Explosion_horizontal_360_HE.xml"
-  ],
-  "projOverPenetrationEffectVertical": [
-   "particles/Explosion_vertical_360_HE_2.xml",
-   "particles/Explosion_vertical_360_HE.xml"
-  ],
-  "projRicochetEffectHorizontal": [
-   "particles/Ricochet_1.xml",
-   "particles/Ricochet_2.xml"
-  ],
-  "projRicochetEffectVertical": [
-   "particles/Ricochet_1.xml",
-   "particles/Ricochet_2.xml"
-  ],
-  "shellDistortTexture": "particles/trails/Trail_Distort_Neutral.dds",
-  "shellGlow": 10.0,
-  "shellLength": 3.0,
-  "shellModelScale": 0.12,
-  "shellTint": [
-   1.0,
-   0.25,
-   0.02
-  ],
-  "shipDestroyEffect": "particles/Empty_FX.xml",
-  "smokeAlphaFalloff": 70.0,
-  "smokeDistortTexture": "particles/trails/Trail_Distort_Smoke.dds",
-  "smokeOpacity": 0.8,
-  "smokeTexture": "particles/trails/Trail_Smoke_HE.dds",
-  "smokeThickness": 0.2,
-  "smokeTileLength": 2.0,
-  "smokeTint": [
-   1.0,
-   1.0,
-   1.0
-  ],
-  "splashArmorCoeff": 0.0,
-  "splashCubeSize": 3.25,
-  "timeFactor": 1.0,
-  "tracerEffect": "",
-  "tracerLength": 75.0,
-  "tracerOpacity": 1.0,
-  "tracerTexture": "particles/trails/Trail_GK.dds",
-  "tracerThickness": 0.097,
-  "typeinfo": {
-   "nation": "United_Kingdom",
-   "species": "Artillery",
-   "type": "Projectile"
-  },
-  "useSpecialShellModel": false,
-  "uvSpeed": -0.2,
-  "uwCritical": 0.0,
-  "volume": 9.94,
-  "water": [
-   "particles/onWaterExplosion360mm_HE.xml",
-   "particles/onWaterExplosion360mm_HE_1.xml",
-   "particles/onWaterExplosion360mm_HE_2.xml",
-   "particles/onWaterExplosion360mm_HE_3.xml",
-   "particles/onWaterExplosion360mm_HE_4.xml"
-  ],
-  "waterEffectMaxIntensity": 10.0,
-  "waterEffectMinIntensity": 0.1,
-  "waterRefractionReflectDeltaAngleInterval": [
-   2.0,
-   6.0
-  ]
  },
  {
   "acidProb": 0.0,
@@ -2423,6 +2233,197 @@
    "particles/onWaterExplosion200mm_HE_2.xml",
    "particles/onWaterExplosion200mm_HE_3.xml",
    "particles/onWaterExplosion200mm_HE_4.xml"
+  ],
+  "waterEffectMaxIntensity": 10.0,
+  "waterEffectMinIntensity": 0.1,
+  "waterRefractionReflectDeltaAngleInterval": [
+   2.0,
+   6.0
+  ]
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": false,
+  "alphaDamage": 2200.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 25.0,
+  "ammoType": "HE",
+  "applyPTZCoeff": false,
+  "bonusOffset": 0,
+  "bulletAirDrag": 0.3475,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletCap": true,
+  "bulletCapNormalizeMaxAngle": 8.0,
+  "bulletDetonator": 0.01,
+  "bulletDetonatorSpread": 0.0,
+  "bulletDetonatorThreshold": 2.0,
+  "bulletDiametr": 0.152,
+  "bulletKrupp": 1.0,
+  "bulletMass": 58.85,
+  "bulletPenetrationSpread": 0.0,
+  "bulletRicochetAt": 91.0,
+  "bulletSpeed": 805.0,
+  "bulletUnderwaterDistFactor": 0.8,
+  "bulletUnderwaterPenetrationFactor": 0.9,
+  "bulletWaterDrag": 10.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 0.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.11,
+  "costCR": 20,
+  "customUIPostfix": "",
+  "damage": 750.0,
+  "damageVulnerabilityForShipClasses": {
+   "AirCarrier": 1,
+   "Auxiliary": 1,
+   "Battleship": 1,
+   "Cruiser": 1,
+   "Destroyer": 1,
+   "Submarine": 1
+  },
+  "depthSplashRadius": 3.02,
+  "directDamage": 0.0,
+  "distParams": [
+   -0.12,
+   0.1,
+   0.12,
+   0.0
+  ],
+  "distTile": 3.0,
+  "explosionRadius": 200.0,
+  "floodGeneration": false,
+  "ground": [
+   "particles/onGroundExplosion127mm_HE.xml",
+   "particles/onGroundExplosion127mm_2_HE.xml"
+  ],
+  "groundHitDecalSize": 1.0,
+  "groundHorizontal": [
+   "particles/onGroundExplosion127mm_horizontal_HE.xml",
+   "particles/onGroundExplosion127mm_horizontal_HE_1.xml",
+   "particles/onGroundExplosion127mm_horizontal_HE_2.xml"
+  ],
+  "groundVertical": [
+   "particles/onGroundExplosion127mm_vertical_HE.xml",
+   "particles/onGroundExplosion127mm_vertical_HE_1.xml",
+   "particles/onGroundExplosion127mm_vertical_HE_2.xml",
+   "particles/onGroundExplosion127mm_vertical_HE_3.xml"
+  ],
+  "hatTracerTexture": "particles/trails/Trail_Shell_Hat.dds",
+  "hitDecalSize": 0.37,
+  "id": 4270834640,
+  "ignoreBuoyancyStates": [
+   "DEEP_WATER_INVUL"
+  ],
+  "ignoreClasses": [],
+  "index": "PBPA023",
+  "isBomb": false,
+  "maxDepth": -15,
+  "name": "PBPA023_152MM_HE_MK5_ALT_F",
+  "onHit": {},
+  "ownHatTracerTexture": "particles/trails/Trail_Shell_Hat_Own.dds",
+  "ownTracerEffect": "",
+  "ownTracerTexture": "particles/trails/Trail_GK_Own.dds",
+  "pointsOfDamage": [
+   [
+    0,
+    0.165
+   ],
+   [
+    1,
+    0.165
+   ]
+  ],
+  "projDestroyedEffect": [
+   "particles/Explosion_127_HE.xml",
+   "particles/Explosion_127_2_HE.xml"
+  ],
+  "projDestroyedEffectHorizontal": [
+   "particles/Explosion_horizontal_127_HE_2.xml",
+   "particles/Explosion_horizontal_127_HE.xml"
+  ],
+  "projDestroyedEffectVertical": [
+   "particles/Explosion_vertical_127_HE_2.xml",
+   "particles/Explosion_vertical_127_HE.xml"
+  ],
+  "projHitCitadelEffectHorizontal": [
+   "particles/Explosion_Citadel_2.xml"
+  ],
+  "projHitCitadelEffectVertical": [
+   "particles/Explosion_Citadel_2.xml"
+  ],
+  "projHitNoPenetrationEffectHorizontal": [
+   "particles/Explosion_horizontal_127_HE_2.xml",
+   "particles/Explosion_horizontal_127_HE.xml"
+  ],
+  "projHitNoPenetrationEffectVertical": [
+   "particles/Explosion_vertical_127_HE_2.xml",
+   "particles/Explosion_vertical_127_HE.xml"
+  ],
+  "projOverPenetrationEffectHorizontal": [
+   "particles/Explosion_horizontal_127_HE_2.xml",
+   "particles/Explosion_horizontal_127_HE.xml"
+  ],
+  "projOverPenetrationEffectVertical": [
+   "particles/Explosion_vertical_127_HE_2.xml",
+   "particles/Explosion_vertical_127_HE.xml"
+  ],
+  "projRicochetEffectHorizontal": [
+   "particles/Ricochet_1.xml",
+   "particles/Ricochet_2.xml"
+  ],
+  "projRicochetEffectVertical": [
+   "particles/Ricochet_1.xml",
+   "particles/Ricochet_2.xml"
+  ],
+  "shellDistortTexture": "particles/trails/Trail_Distort_Neutral.dds",
+  "shellGlow": 10.0,
+  "shellLength": 3.0,
+  "shellModelScale": 0.1,
+  "shellTint": [
+   1.0,
+   0.25,
+   0.02
+  ],
+  "shipDestroyEffect": "particles/Empty_FX.xml",
+  "smokeAlphaFalloff": 70.0,
+  "smokeDistortTexture": "particles/trails/Trail_Distort_Smoke.dds",
+  "smokeOpacity": 0.37,
+  "smokeTexture": "particles/trails/Trail_Smoke_HE.dds",
+  "smokeThickness": 0.2,
+  "smokeTileLength": 2.0,
+  "smokeTint": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "splashArmorCoeff": -0.23,
+  "splashCubeSize": 0.57,
+  "timeFactor": 1.0,
+  "tracerEffect": "",
+  "tracerLength": 75.0,
+  "tracerOpacity": 1.0,
+  "tracerTexture": "particles/trails/Trail_GK.dds",
+  "tracerThickness": 0.097,
+  "typeinfo": {
+   "nation": "United_Kingdom",
+   "species": "Artillery",
+   "type": "Projectile"
+  },
+  "useSpecialShellModel": false,
+  "uvSpeed": -0.2,
+  "uwCritical": 0.0,
+  "volume": 1.07,
+  "water": [
+   "particles/onWaterExplosion127mm_HE.xml",
+   "particles/onWaterExplosion127mm_HE_1.xml",
+   "particles/onWaterExplosion127mm_HE_2.xml",
+   "particles/onWaterExplosion127mm_HE_3.xml",
+   "particles/onWaterExplosion127mm_HE_4.xml"
   ],
   "waterEffectMaxIntensity": 10.0,
   "waterEffectMinIntensity": 0.1,
@@ -3670,197 +3671,6 @@
    "particles/onWaterExplosion200mm_AP_2.xml",
    "particles/onWaterExplosion200mm_AP_3.xml",
    "particles/onWaterExplosion200mm_AP_4.xml"
-  ],
-  "waterEffectMaxIntensity": 10.0,
-  "waterEffectMinIntensity": 0.1,
-  "waterRefractionReflectDeltaAngleInterval": [
-   2.0,
-   6.0
-  ]
- },
- {
-  "acidProb": 0.0,
-  "additionalShips": [],
-  "affectedByPTZ": false,
-  "alphaDamage": 2200.0,
-  "alphaPiercingCS": 0,
-  "alphaPiercingHE": 25.0,
-  "ammoType": "HE",
-  "applyPTZCoeff": false,
-  "bonusOffset": 0,
-  "bulletAirDrag": 0.3475,
-  "bulletAlwaysRicochetAt": 60.0,
-  "bulletCap": true,
-  "bulletCapNormalizeMaxAngle": 8.0,
-  "bulletDetonator": 0.01,
-  "bulletDetonatorSpread": 0.0,
-  "bulletDetonatorThreshold": 2.0,
-  "bulletDiametr": 0.152,
-  "bulletKrupp": 1.0,
-  "bulletMass": 58.85,
-  "bulletPenetrationSpread": 0.0,
-  "bulletRicochetAt": 91.0,
-  "bulletSpeed": 805.0,
-  "bulletUnderwaterDistFactor": 0.8,
-  "bulletUnderwaterPenetrationFactor": 0.9,
-  "bulletWaterDrag": 10.0,
-  "buoyancyToDamageCoeff": {
-   "DEEP_WATER": 1.0,
-   "DEEP_WATER_INVUL": 0.0,
-   "PERISCOPE": 1.0,
-   "SEMI_DEEP_WATER": 1.0,
-   "SURFACE": 1.0
-  },
-  "burnProb": 0.11,
-  "costCR": 20,
-  "customUIPostfix": "",
-  "damage": 750.0,
-  "damageVulnerabilityForShipClasses": {
-   "AirCarrier": 1,
-   "Auxiliary": 1,
-   "Battleship": 1,
-   "Cruiser": 1,
-   "Destroyer": 1,
-   "Submarine": 1
-  },
-  "depthSplashRadius": 3.02,
-  "directDamage": 0.0,
-  "distParams": [
-   -0.12,
-   0.1,
-   0.12,
-   0.0
-  ],
-  "distTile": 3.0,
-  "explosionRadius": 200.0,
-  "floodGeneration": false,
-  "ground": [
-   "particles/onGroundExplosion127mm_HE.xml",
-   "particles/onGroundExplosion127mm_2_HE.xml"
-  ],
-  "groundHitDecalSize": 1.0,
-  "groundHorizontal": [
-   "particles/onGroundExplosion127mm_horizontal_HE.xml",
-   "particles/onGroundExplosion127mm_horizontal_HE_1.xml",
-   "particles/onGroundExplosion127mm_horizontal_HE_2.xml"
-  ],
-  "groundVertical": [
-   "particles/onGroundExplosion127mm_vertical_HE.xml",
-   "particles/onGroundExplosion127mm_vertical_HE_1.xml",
-   "particles/onGroundExplosion127mm_vertical_HE_2.xml",
-   "particles/onGroundExplosion127mm_vertical_HE_3.xml"
-  ],
-  "hatTracerTexture": "particles/trails/Trail_Shell_Hat.dds",
-  "hitDecalSize": 0.37,
-  "id": 4270834640,
-  "ignoreBuoyancyStates": [
-   "DEEP_WATER_INVUL"
-  ],
-  "ignoreClasses": [],
-  "index": "PBPA023",
-  "isBomb": false,
-  "maxDepth": -15,
-  "name": "PBPA023_152MM_HE_MK5_ALT_F",
-  "onHit": {},
-  "ownHatTracerTexture": "particles/trails/Trail_Shell_Hat_Own.dds",
-  "ownTracerEffect": "",
-  "ownTracerTexture": "particles/trails/Trail_GK_Own.dds",
-  "pointsOfDamage": [
-   [
-    0,
-    0.165
-   ],
-   [
-    1,
-    0.165
-   ]
-  ],
-  "projDestroyedEffect": [
-   "particles/Explosion_127_HE.xml",
-   "particles/Explosion_127_2_HE.xml"
-  ],
-  "projDestroyedEffectHorizontal": [
-   "particles/Explosion_horizontal_127_HE_2.xml",
-   "particles/Explosion_horizontal_127_HE.xml"
-  ],
-  "projDestroyedEffectVertical": [
-   "particles/Explosion_vertical_127_HE_2.xml",
-   "particles/Explosion_vertical_127_HE.xml"
-  ],
-  "projHitCitadelEffectHorizontal": [
-   "particles/Explosion_Citadel_2.xml"
-  ],
-  "projHitCitadelEffectVertical": [
-   "particles/Explosion_Citadel_2.xml"
-  ],
-  "projHitNoPenetrationEffectHorizontal": [
-   "particles/Explosion_horizontal_127_HE_2.xml",
-   "particles/Explosion_horizontal_127_HE.xml"
-  ],
-  "projHitNoPenetrationEffectVertical": [
-   "particles/Explosion_vertical_127_HE_2.xml",
-   "particles/Explosion_vertical_127_HE.xml"
-  ],
-  "projOverPenetrationEffectHorizontal": [
-   "particles/Explosion_horizontal_127_HE_2.xml",
-   "particles/Explosion_horizontal_127_HE.xml"
-  ],
-  "projOverPenetrationEffectVertical": [
-   "particles/Explosion_vertical_127_HE_2.xml",
-   "particles/Explosion_vertical_127_HE.xml"
-  ],
-  "projRicochetEffectHorizontal": [
-   "particles/Ricochet_1.xml",
-   "particles/Ricochet_2.xml"
-  ],
-  "projRicochetEffectVertical": [
-   "particles/Ricochet_1.xml",
-   "particles/Ricochet_2.xml"
-  ],
-  "shellDistortTexture": "particles/trails/Trail_Distort_Neutral.dds",
-  "shellGlow": 10.0,
-  "shellLength": 3.0,
-  "shellModelScale": 0.1,
-  "shellTint": [
-   1.0,
-   0.25,
-   0.02
-  ],
-  "shipDestroyEffect": "particles/Empty_FX.xml",
-  "smokeAlphaFalloff": 70.0,
-  "smokeDistortTexture": "particles/trails/Trail_Distort_Smoke.dds",
-  "smokeOpacity": 0.37,
-  "smokeTexture": "particles/trails/Trail_Smoke_HE.dds",
-  "smokeThickness": 0.2,
-  "smokeTileLength": 2.0,
-  "smokeTint": [
-   1.0,
-   1.0,
-   1.0
-  ],
-  "splashArmorCoeff": -0.23,
-  "splashCubeSize": 0.57,
-  "timeFactor": 1.0,
-  "tracerEffect": "",
-  "tracerLength": 75.0,
-  "tracerOpacity": 1.0,
-  "tracerTexture": "particles/trails/Trail_GK.dds",
-  "tracerThickness": 0.097,
-  "typeinfo": {
-   "nation": "United_Kingdom",
-   "species": "Artillery",
-   "type": "Projectile"
-  },
-  "useSpecialShellModel": false,
-  "uvSpeed": -0.2,
-  "uwCritical": 0.0,
-  "volume": 1.07,
-  "water": [
-   "particles/onWaterExplosion127mm_HE.xml",
-   "particles/onWaterExplosion127mm_HE_1.xml",
-   "particles/onWaterExplosion127mm_HE_2.xml",
-   "particles/onWaterExplosion127mm_HE_3.xml",
-   "particles/onWaterExplosion127mm_HE_4.xml"
   ],
   "waterEffectMaxIntensity": 10.0,
   "waterEffectMinIntensity": 0.1,
@@ -6090,6 +5900,197 @@
   "acidProb": 0.0,
   "additionalShips": [],
   "affectedByPTZ": false,
+  "alphaDamage": 2200.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 25.0,
+  "ammoType": "HE",
+  "applyPTZCoeff": false,
+  "bonusOffset": 0,
+  "bulletAirDrag": 0.315,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletCap": true,
+  "bulletCapNormalizeMaxAngle": 68.0,
+  "bulletDetonator": 0.001,
+  "bulletDetonatorSpread": 0.0,
+  "bulletDetonatorThreshold": 2.0,
+  "bulletDiametr": 0.152,
+  "bulletKrupp": 320.0,
+  "bulletMass": 45.3,
+  "bulletPenetrationSpread": 0.0,
+  "bulletRicochetAt": 91.0,
+  "bulletSpeed": 914.0,
+  "bulletUnderwaterDistFactor": 0.8,
+  "bulletUnderwaterPenetrationFactor": 0.9,
+  "bulletWaterDrag": 10.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 0.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.12,
+  "costCR": 16,
+  "customUIPostfix": "",
+  "damage": 790.0,
+  "damageVulnerabilityForShipClasses": {
+   "AirCarrier": 1,
+   "Auxiliary": 1,
+   "Battleship": 1,
+   "Cruiser": 1,
+   "Destroyer": 1,
+   "Submarine": 1
+  },
+  "depthSplashRadius": 3.02,
+  "directDamage": 0.0,
+  "distParams": [
+   -0.12,
+   0.1,
+   0.12,
+   0.0
+  ],
+  "distTile": 3.0,
+  "explosionRadius": 200.0,
+  "floodGeneration": false,
+  "ground": [
+   "particles/onGroundExplosion127mm_HE.xml",
+   "particles/onGroundExplosion127mm_2_HE.xml"
+  ],
+  "groundHitDecalSize": 1.0,
+  "groundHorizontal": [
+   "particles/onGroundExplosion127mm_horizontal_HE.xml",
+   "particles/onGroundExplosion127mm_horizontal_HE_1.xml",
+   "particles/onGroundExplosion127mm_horizontal_HE_2.xml"
+  ],
+  "groundVertical": [
+   "particles/onGroundExplosion127mm_vertical_HE.xml",
+   "particles/onGroundExplosion127mm_vertical_HE_1.xml",
+   "particles/onGroundExplosion127mm_vertical_HE_2.xml",
+   "particles/onGroundExplosion127mm_vertical_HE_3.xml"
+  ],
+  "hatTracerTexture": "particles/trails/Trail_Shell_Hat.dds",
+  "hitDecalSize": 0.33,
+  "id": 4291806160,
+  "ignoreBuoyancyStates": [
+   "DEEP_WATER_INVUL"
+  ],
+  "ignoreClasses": [],
+  "index": "PBPA003",
+  "isBomb": false,
+  "maxDepth": -15,
+  "name": "PBPA003_152mm_HE_HE4crh",
+  "onHit": {},
+  "ownHatTracerTexture": "particles/trails/Trail_Shell_Hat_Own.dds",
+  "ownTracerEffect": "",
+  "ownTracerTexture": "particles/trails/Trail_PMK_Own.dds",
+  "pointsOfDamage": [
+   [
+    0,
+    0.165
+   ],
+   [
+    1,
+    0.165
+   ]
+  ],
+  "projDestroyedEffect": [
+   "particles/Explosion_127_HE.xml",
+   "particles/Explosion_127_2_HE.xml"
+  ],
+  "projDestroyedEffectHorizontal": [
+   "particles/Explosion_horizontal_127_HE_2.xml",
+   "particles/Explosion_horizontal_127_HE.xml"
+  ],
+  "projDestroyedEffectVertical": [
+   "particles/Explosion_vertical_127_HE_2.xml",
+   "particles/Explosion_vertical_127_HE.xml"
+  ],
+  "projHitCitadelEffectHorizontal": [
+   "particles/Explosion_Citadel_2.xml"
+  ],
+  "projHitCitadelEffectVertical": [
+   "particles/Explosion_Citadel_2.xml"
+  ],
+  "projHitNoPenetrationEffectHorizontal": [
+   "particles/Explosion_horizontal_127_HE_2.xml",
+   "particles/Explosion_horizontal_127_HE.xml"
+  ],
+  "projHitNoPenetrationEffectVertical": [
+   "particles/Explosion_vertical_127_HE_2.xml",
+   "particles/Explosion_vertical_127_HE.xml"
+  ],
+  "projOverPenetrationEffectHorizontal": [
+   "particles/Explosion_horizontal_127_HE_2.xml",
+   "particles/Explosion_horizontal_127_HE.xml"
+  ],
+  "projOverPenetrationEffectVertical": [
+   "particles/Explosion_vertical_127_HE_2.xml",
+   "particles/Explosion_vertical_127_HE.xml"
+  ],
+  "projRicochetEffectHorizontal": [
+   "particles/Ricochet_1.xml",
+   "particles/Ricochet_2.xml"
+  ],
+  "projRicochetEffectVertical": [
+   "particles/Ricochet_1.xml",
+   "particles/Ricochet_2.xml"
+  ],
+  "shellDistortTexture": "particles/trails/Trail_Distort_Neutral.dds",
+  "shellGlow": 10.0,
+  "shellLength": 2.05,
+  "shellModelScale": 0.06,
+  "shellTint": [
+   0.85,
+   0.6,
+   0.3
+  ],
+  "shipDestroyEffect": "particles/Empty_FX.xml",
+  "smokeAlphaFalloff": 70.0,
+  "smokeDistortTexture": "particles/trails/Trail_Distort_Smoke.dds",
+  "smokeOpacity": 0.8,
+  "smokeTexture": "particles/trails/Trail_Smoke_PMK_HE.dds",
+  "smokeThickness": 0.2,
+  "smokeTileLength": 2.0,
+  "smokeTint": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "splashArmorCoeff": -0.23,
+  "splashCubeSize": 0.58,
+  "timeFactor": 1.0,
+  "tracerEffect": "",
+  "tracerLength": 75.0,
+  "tracerOpacity": 1.0,
+  "tracerTexture": "particles/trails/Trail_PMK.dds",
+  "tracerThickness": 0.077,
+  "typeinfo": {
+   "nation": "United_Kingdom",
+   "species": "Artillery",
+   "type": "Projectile"
+  },
+  "useSpecialShellModel": false,
+  "uvSpeed": -0.2,
+  "uwCritical": 0.0,
+  "volume": 1.1,
+  "water": [
+   "particles/onWaterExplosion127mm_HE.xml",
+   "particles/onWaterExplosion127mm_HE_1.xml",
+   "particles/onWaterExplosion127mm_HE_2.xml",
+   "particles/onWaterExplosion127mm_HE_3.xml",
+   "particles/onWaterExplosion127mm_HE_4.xml"
+  ],
+  "waterEffectMaxIntensity": 10.0,
+  "waterEffectMinIntensity": 0.1,
+  "waterRefractionReflectDeltaAngleInterval": [
+   2.0,
+   6.0
+  ]
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": false,
   "alphaDamage": 1500.0,
   "alphaPiercingCS": 0,
   "alphaPiercingHE": 17.0,
@@ -6267,195 +6268,6 @@
    "particles/onWaterExplosion75mm_HE.xml",
    "particles/onWaterExplosion75mm_HE_1.xml",
    "particles/onWaterExplosion75mm_HE_2.xml"
-  ],
-  "waterEffectMaxIntensity": 10.0,
-  "waterEffectMinIntensity": 0.1,
-  "waterRefractionReflectDeltaAngleInterval": [
-   2.0,
-   6.0
-  ]
- },
- {
-  "acidProb": 0.0,
-  "additionalShips": [],
-  "affectedByPTZ": false,
-  "alphaDamage": 1700.0,
-  "alphaPiercingCS": 0,
-  "alphaPiercingHE": 0.0,
-  "ammoType": "AP",
-  "applyPTZCoeff": false,
-  "bonusOffset": 0,
-  "bulletAirDrag": 0.33,
-  "bulletAlwaysRicochetAt": 60.0,
-  "bulletCap": true,
-  "bulletCapNormalizeMaxAngle": 10.0,
-  "bulletDetonator": 0.01,
-  "bulletDetonatorSpread": 0.0,
-  "bulletDetonatorThreshold": 17.0,
-  "bulletDiametr": 0.102,
-  "bulletKrupp": 1451.0,
-  "bulletMass": 14.97,
-  "bulletPenetrationSpread": 0.0,
-  "bulletRicochetAt": 45.0,
-  "bulletSpeed": 884.0,
-  "bulletUnderwaterDistFactor": 0.8,
-  "bulletUnderwaterPenetrationFactor": 0.9,
-  "bulletWaterDrag": 10.0,
-  "buoyancyToDamageCoeff": {
-   "DEEP_WATER": 1.0,
-   "DEEP_WATER_INVUL": 0.0,
-   "PERISCOPE": 1.0,
-   "SEMI_DEEP_WATER": 1.0,
-   "SURFACE": 1.0
-  },
-  "burnProb": -0.5,
-  "costCR": 3,
-  "customUIPostfix": "",
-  "damage": 0.0,
-  "damageVulnerabilityForShipClasses": {
-   "AirCarrier": 1,
-   "Auxiliary": 1,
-   "Battleship": 1,
-   "Cruiser": 1,
-   "Destroyer": 1,
-   "Submarine": 1
-  },
-  "depthSplashRadius": 1.25,
-  "directDamage": 0.0,
-  "distParams": [
-   -0.12,
-   0.1,
-   0.12,
-   0.0
-  ],
-  "distTile": 3.0,
-  "explosionRadius": 200.0,
-  "floodGeneration": false,
-  "ground": [
-   "particles/onGroundExplosion127mm_AP.xml",
-   "particles/onGroundExplosion127mm_2_AP.xml"
-  ],
-  "groundHitDecalSize": 1.0,
-  "groundHorizontal": [
-   "particles/onGroundExplosion127mm_horizontal_AP.xml",
-   "particles/onGroundExplosion127mm_horizontal_AP_1.xml",
-   "particles/onGroundExplosion127mm_horizontal_AP_2.xml"
-  ],
-  "groundVertical": [
-   "particles/onGroundExplosion127mm_vertical_AP.xml",
-   "particles/onGroundExplosion127mm_vertical_AP_1.xml",
-   "particles/onGroundExplosion127mm_vertical_AP_2.xml",
-   "particles/onGroundExplosion127mm_vertical_AP_3.xml"
-  ],
-  "hatTracerTexture": "particles/trails/Trail_Shell_Hat.dds",
-  "hitDecalSize": 0.2,
-  "id": 4289709008,
-  "ignoreBuoyancyStates": [
-   "SEMI_DEEP_WATER",
-   "DEEP_WATER",
-   "DEEP_WATER_INVUL"
-  ],
-  "ignoreClasses": [],
-  "index": "PBPA005",
-  "isBomb": false,
-  "maxDepth": -15,
-  "name": "PBPA005_102MM_AP_CAMPBELTOWN",
-  "onHit": {},
-  "ownHatTracerTexture": "particles/trails/Trail_Shell_Hat_Own.dds",
-  "ownTracerEffect": "",
-  "ownTracerTexture": "particles/trails/Trail_GK_Own.dds",
-  "pointsOfDamage": [
-   [
-    0,
-    0.1
-   ],
-   [
-    1,
-    0.1
-   ]
-  ],
-  "projDestroyedEffect": [
-   "particles/Explosion_127_AP.xml",
-   "particles/Explosion_127_2_AP.xml"
-  ],
-  "projDestroyedEffectHorizontal": [
-   "particles/Explosion_horizontal_127_AP_2.xml",
-   "particles/Explosion_horizontal_127_AP.xml"
-  ],
-  "projDestroyedEffectVertical": [
-   "particles/Explosion_vertical_127_AP_2.xml",
-   "particles/Explosion_vertical_127_AP.xml"
-  ],
-  "projHitCitadelEffectHorizontal": [
-   "particles/Explosion_Citadel_2.xml"
-  ],
-  "projHitCitadelEffectVertical": [
-   "particles/Explosion_Citadel_2.xml"
-  ],
-  "projHitNoPenetrationEffectHorizontal": [
-   "particles/Explosion_notCutThrough_1.xml",
-   "particles/notCutThrough_horizontal.xml"
-  ],
-  "projHitNoPenetrationEffectVertical": [
-   "particles/Explosion_notCutThrough_1.xml",
-   "particles/notCutThrough_vertical.xml"
-  ],
-  "projOverPenetrationEffectHorizontal": [
-   "particles/Explosion_CutThrough.xml"
-  ],
-  "projOverPenetrationEffectVertical": [
-   "particles/Explosion_CutThrough.xml"
-  ],
-  "projRicochetEffectHorizontal": [
-   "particles/Ricochet_1.xml",
-   "particles/Ricochet_2.xml"
-  ],
-  "projRicochetEffectVertical": [
-   "particles/Ricochet_1.xml",
-   "particles/Ricochet_2.xml"
-  ],
-  "shellDistortTexture": "particles/trails/Trail_Distort_Neutral.dds",
-  "shellGlow": 10.0,
-  "shellLength": 3.0,
-  "shellModelScale": 0.1,
-  "shellTint": [
-   0.53,
-   0.855,
-   0.925
-  ],
-  "shipDestroyEffect": "particles/Empty_FX.xml",
-  "smokeAlphaFalloff": 70.0,
-  "smokeDistortTexture": "particles/trails/Trail_Distort_Smoke.dds",
-  "smokeOpacity": 0.37,
-  "smokeTexture": "particles/trails/Trail_Smoke_AP.dds",
-  "smokeThickness": 0.2,
-  "smokeTileLength": 2.0,
-  "smokeTint": [
-   1.0,
-   1.0,
-   1.0
-  ],
-  "splashArmorCoeff": 0.0,
-  "splashCubeSize": 0.0,
-  "timeFactor": 1.0,
-  "tracerEffect": "",
-  "tracerLength": 75.0,
-  "tracerOpacity": 1.0,
-  "tracerTexture": "particles/trails/Trail_GK.dds",
-  "tracerThickness": 0.097,
-  "typeinfo": {
-   "nation": "United_Kingdom",
-   "species": "Artillery",
-   "type": "Projectile"
-  },
-  "useSpecialShellModel": false,
-  "uvSpeed": -0.2,
-  "uwCritical": 0.0,
-  "volume": 0.0,
-  "water": [
-   "particles/onWaterExplosion75mm_AP.xml",
-   "particles/onWaterExplosion75mm_AP_1.xml",
-   "particles/onWaterExplosion75mm_AP_2.xml"
   ],
   "waterEffectMaxIntensity": 10.0,
   "waterEffectMinIntensity": 0.1,
@@ -8076,6 +7888,79 @@
  {
   "acidProb": 0.0,
   "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 15700.0,
+  "alphaPiercingHE": 1000.0,
+  "ammoType": "torpedo",
+  "applyPTZCoeff": true,
+  "armingTime": 5.25,
+  "blowUpEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "bulletDiametr": 0.569,
+  "buoyancyToDamageCoeff": {},
+  "burnProb": 0.0,
+  "costCR": 75,
+  "customUIPostfix": "",
+  "damage": 700.0,
+  "damageCoeffMaxPing": 2.0,
+  "depth": 0.14,
+  "directDamage": 0.0,
+  "dropToTheGroundEffect": "particles/airplanes/Air_torpedo_ground_1.xml",
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1,
+  "fallingTracerEffect": "particles/Empty_FX.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosionTorpedo.xml",
+  "hitDecalSize": 0.0,
+  "id": 4177937360,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [],
+  "index": "PBPT111",
+  "isDeepWater": false,
+  "maxDist": 80,
+  "model": "content/gameplay/uk/projectile/torpedo/BPT011_Air_Torpedo_18in_MkXVII/BPT011_Air_Torpedo_18in_MkXVII.model",
+  "name": "PBPT111_EAGLE_STOCK",
+  "onHit": {},
+  "ownTracerEffect": "particles/tracerTorpedo_avatar.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteModel": "content/location/misc/gameplay/LMY052_Parachute/LMY052_Parachute.model",
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "torpedo",
+  "projDestroyedEffect": [
+   "particles/onShipHitTorpedo.xml",
+   "particles/onShipHitTorpedo_1.xml",
+   "particles/onShipHitTorpedo_dirty.xml",
+   "particles/onShipHitTorpedo_dirty_1.xml"
+  ],
+  "shipDestroyEffect": "particles/Empty_FX.xml",
+  "speed": 35,
+  "splashArmorCoeff": 0.2,
+  "splashCubeSize": 0.9,
+  "torpedoProjDestroyedEffect": [
+   "particles/onShipHitTorpedo.xml",
+   "particles/onShipHitTorpedo_1.xml",
+   "particles/onShipHitTorpedo_dirty.xml",
+   "particles/onShipHitTorpedo_dirty_1.xml"
+  ],
+  "torpedoType": 0,
+  "tracerEffect": "particles/tracerTorpedo.xml",
+  "typeinfo": {
+   "nation": "United_Kingdom",
+   "species": "Torpedo",
+   "type": "Projectile"
+  },
+  "underwaterTracerEffect": "particles/tracerTorpedo_underwater.xml",
+  "useDefaultDepth": true,
+  "uwCritical": 0.51,
+  "visibilityFactor": 1.3,
+  "volume": 0.7,
+  "water": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
   "affectedByPTZ": false,
   "alphaDamage": 4050.0,
   "alphaPiercingCS": 0,
@@ -9105,6 +8990,197 @@
   "acidProb": 0.0,
   "additionalShips": [],
   "affectedByPTZ": false,
+  "alphaDamage": 8200.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 114.0,
+  "ammoType": "HE",
+  "applyPTZCoeff": false,
+  "bonusOffset": 0,
+  "bulletAirDrag": 0.2897,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletCap": true,
+  "bulletCapNormalizeMaxAngle": 8.0,
+  "bulletDetonator": 0.001,
+  "bulletDetonatorSpread": 0.0,
+  "bulletDetonatorThreshold": 2.0,
+  "bulletDiametr": 0.457,
+  "bulletKrupp": 1.0,
+  "bulletMass": 1814.0,
+  "bulletPenetrationSpread": 0,
+  "bulletRicochetAt": 91.0,
+  "bulletSpeed": 757.0,
+  "bulletUnderwaterDistFactor": 0.8,
+  "bulletUnderwaterPenetrationFactor": 0.9,
+  "bulletWaterDrag": 10.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 0.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.63,
+  "costCR": 400,
+  "customUIPostfix": "",
+  "damage": 7730.0,
+  "damageVulnerabilityForShipClasses": {
+   "AirCarrier": 1,
+   "Auxiliary": 1,
+   "Battleship": 1,
+   "Cruiser": 1,
+   "Destroyer": 1,
+   "Submarine": 1
+  },
+  "depthSplashRadius": 4.46,
+  "directDamage": 0.0,
+  "distParams": [
+   -0.12,
+   0.1,
+   0.12,
+   0.0
+  ],
+  "distTile": 3.0,
+  "explosionRadius": 200.0,
+  "floodGeneration": false,
+  "ground": [
+   "particles/onGroundExplosion360mm_HE.xml",
+   "particles/onGroundExplosion360mm_2_HE.xml"
+  ],
+  "groundHitDecalSize": 1.0,
+  "groundHorizontal": [
+   "particles/onGroundExplosion360mm_horizontal_HE.xml",
+   "particles/onGroundExplosion360mm_horizontal_HE_1.xml",
+   "particles/onGroundExplosion360mm_horizontal_HE_2.xml"
+  ],
+  "groundVertical": [
+   "particles/onGroundExplosion360mm_vertical_HE.xml",
+   "particles/onGroundExplosion360mm_vertical_HE_1.xml",
+   "particles/onGroundExplosion360mm_vertical_HE_2.xml",
+   "particles/onGroundExplosion360mm_vertical_HE_3.xml"
+  ],
+  "hatTracerTexture": "particles/trails/Trail_Shell_Hat.dds",
+  "hitDecalSize": 0.56,
+  "id": 4245668816,
+  "ignoreBuoyancyStates": [
+   "DEEP_WATER_INVUL"
+  ],
+  "ignoreClasses": [],
+  "index": "PBPA047",
+  "isBomb": false,
+  "maxDepth": -15,
+  "name": "PBPA047_457MM_MII_HE",
+  "onHit": {},
+  "ownHatTracerTexture": "particles/trails/Trail_Shell_Hat_Own.dds",
+  "ownTracerEffect": "",
+  "ownTracerTexture": "particles/trails/Trail_GK_Own.dds",
+  "pointsOfDamage": [
+   [
+    0,
+    0.165
+   ],
+   [
+    1,
+    0.165
+   ]
+  ],
+  "projDestroyedEffect": [
+   "particles/Explosion_360_HE.xml",
+   "particles/Explosion_360_2_HE.xml"
+  ],
+  "projDestroyedEffectHorizontal": [
+   "particles/Explosion_horizontal_360_HE_2.xml",
+   "particles/Explosion_horizontal_360_HE.xml"
+  ],
+  "projDestroyedEffectVertical": [
+   "particles/Explosion_vertical_360_HE_2.xml",
+   "particles/Explosion_vertical_360_HE.xml"
+  ],
+  "projHitCitadelEffectHorizontal": [
+   "particles/Explosion_Citadel_2.xml"
+  ],
+  "projHitCitadelEffectVertical": [
+   "particles/Explosion_Citadel_2.xml"
+  ],
+  "projHitNoPenetrationEffectHorizontal": [
+   "particles/Explosion_horizontal_360_HE_2.xml",
+   "particles/Explosion_horizontal_360_HE.xml"
+  ],
+  "projHitNoPenetrationEffectVertical": [
+   "particles/Explosion_vertical_360_HE_2.xml",
+   "particles/Explosion_vertical_360_HE.xml"
+  ],
+  "projOverPenetrationEffectHorizontal": [
+   "particles/Explosion_horizontal_360_HE_2.xml",
+   "particles/Explosion_horizontal_360_HE.xml"
+  ],
+  "projOverPenetrationEffectVertical": [
+   "particles/Explosion_vertical_360_HE_2.xml",
+   "particles/Explosion_vertical_360_HE.xml"
+  ],
+  "projRicochetEffectHorizontal": [
+   "particles/Ricochet_1.xml",
+   "particles/Ricochet_2.xml"
+  ],
+  "projRicochetEffectVertical": [
+   "particles/Ricochet_1.xml",
+   "particles/Ricochet_2.xml"
+  ],
+  "shellDistortTexture": "particles/trails/Trail_Distort_Neutral.dds",
+  "shellGlow": 10.0,
+  "shellLength": 3.0,
+  "shellModelScale": 0.12,
+  "shellTint": [
+   1.0,
+   0.25,
+   0.02
+  ],
+  "shipDestroyEffect": "particles/Empty_FX.xml",
+  "smokeAlphaFalloff": 70.0,
+  "smokeDistortTexture": "particles/trails/Trail_Distort_Smoke.dds",
+  "smokeOpacity": 0.8,
+  "smokeTexture": "particles/trails/Trail_Smoke_HE.dds",
+  "smokeThickness": 0.2,
+  "smokeTileLength": 2.0,
+  "smokeTint": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "splashArmorCoeff": 0.0,
+  "splashCubeSize": 3.25,
+  "timeFactor": 1.0,
+  "tracerEffect": "",
+  "tracerLength": 75.0,
+  "tracerOpacity": 1.0,
+  "tracerTexture": "particles/trails/Trail_GK.dds",
+  "tracerThickness": 0.097,
+  "typeinfo": {
+   "nation": "United_Kingdom",
+   "species": "Artillery",
+   "type": "Projectile"
+  },
+  "useSpecialShellModel": false,
+  "uvSpeed": -0.2,
+  "uwCritical": 0.0,
+  "volume": 9.94,
+  "water": [
+   "particles/onWaterExplosion360mm_HE.xml",
+   "particles/onWaterExplosion360mm_HE_1.xml",
+   "particles/onWaterExplosion360mm_HE_2.xml",
+   "particles/onWaterExplosion360mm_HE_3.xml",
+   "particles/onWaterExplosion360mm_HE_4.xml"
+  ],
+  "waterEffectMaxIntensity": 10.0,
+  "waterEffectMinIntensity": 0.1,
+  "waterRefractionReflectDeltaAngleInterval": [
+   2.0,
+   6.0
+  ]
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": false,
   "alphaDamage": 1700.0,
   "alphaPiercingCS": 0,
   "alphaPiercingHE": 20.0,
@@ -9982,6 +10058,195 @@
   "volume": 0.9,
   "water": "particles/torpedoSunk.xml",
   "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": false,
+  "alphaDamage": 1700.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "AP",
+  "applyPTZCoeff": false,
+  "bonusOffset": 0,
+  "bulletAirDrag": 0.33,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletCap": true,
+  "bulletCapNormalizeMaxAngle": 10.0,
+  "bulletDetonator": 0.01,
+  "bulletDetonatorSpread": 0.0,
+  "bulletDetonatorThreshold": 17.0,
+  "bulletDiametr": 0.102,
+  "bulletKrupp": 1451.0,
+  "bulletMass": 14.97,
+  "bulletPenetrationSpread": 0.0,
+  "bulletRicochetAt": 45.0,
+  "bulletSpeed": 884.0,
+  "bulletUnderwaterDistFactor": 0.8,
+  "bulletUnderwaterPenetrationFactor": 0.9,
+  "bulletWaterDrag": 10.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 0.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": -0.5,
+  "costCR": 3,
+  "customUIPostfix": "",
+  "damage": 0.0,
+  "damageVulnerabilityForShipClasses": {
+   "AirCarrier": 1,
+   "Auxiliary": 1,
+   "Battleship": 1,
+   "Cruiser": 1,
+   "Destroyer": 1,
+   "Submarine": 1
+  },
+  "depthSplashRadius": 1.25,
+  "directDamage": 0.0,
+  "distParams": [
+   -0.12,
+   0.1,
+   0.12,
+   0.0
+  ],
+  "distTile": 3.0,
+  "explosionRadius": 200.0,
+  "floodGeneration": false,
+  "ground": [
+   "particles/onGroundExplosion127mm_AP.xml",
+   "particles/onGroundExplosion127mm_2_AP.xml"
+  ],
+  "groundHitDecalSize": 1.0,
+  "groundHorizontal": [
+   "particles/onGroundExplosion127mm_horizontal_AP.xml",
+   "particles/onGroundExplosion127mm_horizontal_AP_1.xml",
+   "particles/onGroundExplosion127mm_horizontal_AP_2.xml"
+  ],
+  "groundVertical": [
+   "particles/onGroundExplosion127mm_vertical_AP.xml",
+   "particles/onGroundExplosion127mm_vertical_AP_1.xml",
+   "particles/onGroundExplosion127mm_vertical_AP_2.xml",
+   "particles/onGroundExplosion127mm_vertical_AP_3.xml"
+  ],
+  "hatTracerTexture": "particles/trails/Trail_Shell_Hat.dds",
+  "hitDecalSize": 0.2,
+  "id": 4289709008,
+  "ignoreBuoyancyStates": [
+   "SEMI_DEEP_WATER",
+   "DEEP_WATER",
+   "DEEP_WATER_INVUL"
+  ],
+  "ignoreClasses": [],
+  "index": "PBPA005",
+  "isBomb": false,
+  "maxDepth": -15,
+  "name": "PBPA005_102MM_AP_CAMPBELTOWN",
+  "onHit": {},
+  "ownHatTracerTexture": "particles/trails/Trail_Shell_Hat_Own.dds",
+  "ownTracerEffect": "",
+  "ownTracerTexture": "particles/trails/Trail_GK_Own.dds",
+  "pointsOfDamage": [
+   [
+    0,
+    0.1
+   ],
+   [
+    1,
+    0.1
+   ]
+  ],
+  "projDestroyedEffect": [
+   "particles/Explosion_127_AP.xml",
+   "particles/Explosion_127_2_AP.xml"
+  ],
+  "projDestroyedEffectHorizontal": [
+   "particles/Explosion_horizontal_127_AP_2.xml",
+   "particles/Explosion_horizontal_127_AP.xml"
+  ],
+  "projDestroyedEffectVertical": [
+   "particles/Explosion_vertical_127_AP_2.xml",
+   "particles/Explosion_vertical_127_AP.xml"
+  ],
+  "projHitCitadelEffectHorizontal": [
+   "particles/Explosion_Citadel_2.xml"
+  ],
+  "projHitCitadelEffectVertical": [
+   "particles/Explosion_Citadel_2.xml"
+  ],
+  "projHitNoPenetrationEffectHorizontal": [
+   "particles/Explosion_notCutThrough_1.xml",
+   "particles/notCutThrough_horizontal.xml"
+  ],
+  "projHitNoPenetrationEffectVertical": [
+   "particles/Explosion_notCutThrough_1.xml",
+   "particles/notCutThrough_vertical.xml"
+  ],
+  "projOverPenetrationEffectHorizontal": [
+   "particles/Explosion_CutThrough.xml"
+  ],
+  "projOverPenetrationEffectVertical": [
+   "particles/Explosion_CutThrough.xml"
+  ],
+  "projRicochetEffectHorizontal": [
+   "particles/Ricochet_1.xml",
+   "particles/Ricochet_2.xml"
+  ],
+  "projRicochetEffectVertical": [
+   "particles/Ricochet_1.xml",
+   "particles/Ricochet_2.xml"
+  ],
+  "shellDistortTexture": "particles/trails/Trail_Distort_Neutral.dds",
+  "shellGlow": 10.0,
+  "shellLength": 3.0,
+  "shellModelScale": 0.1,
+  "shellTint": [
+   0.53,
+   0.855,
+   0.925
+  ],
+  "shipDestroyEffect": "particles/Empty_FX.xml",
+  "smokeAlphaFalloff": 70.0,
+  "smokeDistortTexture": "particles/trails/Trail_Distort_Smoke.dds",
+  "smokeOpacity": 0.37,
+  "smokeTexture": "particles/trails/Trail_Smoke_AP.dds",
+  "smokeThickness": 0.2,
+  "smokeTileLength": 2.0,
+  "smokeTint": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "splashArmorCoeff": 0.0,
+  "splashCubeSize": 0.0,
+  "timeFactor": 1.0,
+  "tracerEffect": "",
+  "tracerLength": 75.0,
+  "tracerOpacity": 1.0,
+  "tracerTexture": "particles/trails/Trail_GK.dds",
+  "tracerThickness": 0.097,
+  "typeinfo": {
+   "nation": "United_Kingdom",
+   "species": "Artillery",
+   "type": "Projectile"
+  },
+  "useSpecialShellModel": false,
+  "uvSpeed": -0.2,
+  "uwCritical": 0.0,
+  "volume": 0.0,
+  "water": [
+   "particles/onWaterExplosion75mm_AP.xml",
+   "particles/onWaterExplosion75mm_AP_1.xml",
+   "particles/onWaterExplosion75mm_AP_2.xml"
+  ],
+  "waterEffectMaxIntensity": 10.0,
+  "waterEffectMinIntensity": 0.1,
+  "waterRefractionReflectDeltaAngleInterval": [
+   2.0,
+   6.0
+  ]
  },
  {
   "acidProb": 0.0,
@@ -13382,6 +13647,242 @@
    2.0,
    6.0
   ]
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": false,
+  "alphaDamage": 2350.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 28,
+  "ammoType": "HE",
+  "applyPTZCoeff": false,
+  "attackSequenceDurations": [
+   0.7,
+   0.7,
+   1.57
+  ],
+  "bonusOffset": 0,
+  "bulletAirDrag": 0.35,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletCap": true,
+  "bulletCapNormalizeMaxAngle": 45.0,
+  "bulletDetonator": 0.03,
+  "bulletDetonatorSpread": 0.0,
+  "bulletDetonatorThreshold": 25.0,
+  "bulletDiametr": 0.04,
+  "bulletKrupp": 3.0,
+  "bulletMass": 37.0,
+  "bulletPenetrationSpread": 0.0,
+  "bulletRicochetAt": 45.0,
+  "bulletSpeed": 300.0,
+  "bulletUnderwaterDistFactor": 0.8,
+  "bulletUnderwaterPenetrationFactor": 0.9,
+  "bulletWaterDrag": 10.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 0.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.09,
+  "chaseImpactEffects": {
+   "ground": [
+    "particles/airplanes/Air_Bullet_Ground.xml"
+   ],
+   "projDestroyedEffect": [
+    "particles/airplanes/Air_Bullet_Sparks.xml"
+   ],
+   "water": [
+    "particles/airplanes/Air_Bullet_Water.xml"
+   ]
+  },
+  "chaseStartLerpValue": 0.75,
+  "chaseTracerInterval": 0.25,
+  "chaseTracerParams": "PCPP004_Default_PreRockets",
+  "costCR": 5,
+  "customUIPostfix": "",
+  "damage": 1200.0,
+  "damageVulnerabilityForShipClasses": {
+   "AirCarrier": 1,
+   "Auxiliary": 1,
+   "Battleship": 1,
+   "Cruiser": 1,
+   "Destroyer": 1,
+   "Submarine": 1
+  },
+  "depthSplashRadius": 0.47,
+  "directDamage": 0.0,
+  "distParams": [
+   -0.12,
+   0.1,
+   0.12,
+   0.0
+  ],
+  "distTile": 3.0,
+  "explosionRadius": 200.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 0.1,
+  "fallingTracerEffect": "particles/airplanes/Air_rocket.xml",
+  "floodGeneration": false,
+  "ground": [
+   "particles/onGroundExplosion200mm_vertical_HE_1.xml",
+   "particles/onGroundExplosion200mm_vertical_HE_2.xml",
+   "particles/onGroundExplosion200mm_vertical_HE_3.xml"
+  ],
+  "groundHitDecalSize": 1.0,
+  "groundHorizontal": [
+   "particles/onGroundExplosion200mm_horizontal_HE.xml",
+   "particles/onGroundExplosion200mm_horizontal_HE_1.xml",
+   "particles/onGroundExplosion200mm_horizontal_HE_2.xml"
+  ],
+  "groundVertical": [
+   "particles/onGroundExplosion200mm_vertical_HE.xml",
+   "particles/onGroundExplosion200mm_vertical_HE_1.xml",
+   "particles/onGroundExplosion200mm_vertical_HE_2.xml",
+   "particles/onGroundExplosion200mm_vertical_HE_3.xml"
+  ],
+  "hatTracerTexture": "/",
+  "hitDecalSize": 0.2,
+  "id": 4178002896,
+  "ignoreBuoyancyStates": [
+   "DEEP_WATER_INVUL"
+  ],
+  "ignoreClasses": [],
+  "index": "PBPR111",
+  "isBomb": false,
+  "maxDepth": -13,
+  "model": "content/gameplay/uk/projectile/rocket/BPR004_RP3_60lb_SAP_No2_Mk1/BPR004_RP3_60lb_SAP_No2_Mk1.model",
+  "name": "PBPR111_EAGLE_STOCK",
+  "onHit": {},
+  "ownHatTracerTexture": "/",
+  "ownTracerEffect": "",
+  "ownTracerTexture": "/",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteModel": "content/location/misc/gameplay/LMY052_Parachute/LMY052_Parachute.model",
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "rocket",
+  "pointsOfDamage": [
+   [
+    0,
+    0.165
+   ],
+   [
+    1,
+    0.165
+   ]
+  ],
+  "projDestroyedEffect": [
+   "particles/airRocket_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projDestroyedEffectHorizontal": [
+   "particles/airRocket_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projDestroyedEffectVertical": [
+   "particles/airRocket_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projHitCitadelEffectHorizontal": [
+   "particles/airRocket_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projHitCitadelEffectVertical": [
+   "particles/airRocket_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projHitNoPenetrationEffectHorizontal": [
+   "particles/airRocket_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projHitNoPenetrationEffectVertical": [
+   "particles/airRocket_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projOverPenetrationEffectHorizontal": [
+   "particles/airRocket_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projOverPenetrationEffectVertical": [
+   "particles/airRocket_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projRicochetEffectHorizontal": [
+   "particles/airRocket_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projRicochetEffectVertical": [
+   "particles/airRocket_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "shellDistortTexture": "particles/trails/Trail_Distort_Neutral.dds",
+  "shellGlow": 1.0,
+  "shellLength": 1.5,
+  "shellModelScale": 0.1,
+  "shellTint": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "shipDestroyEffect": "particles/Empty_FX.xml",
+  "smokeAlphaFalloff": 28.0,
+  "smokeDistortTexture": "particles/trails/Trail_Distort_Smoke.dds",
+  "smokeOpacity": 0.65,
+  "smokeTexture": "",
+  "smokeThickness": 0.1,
+  "smokeTileLength": 2.0,
+  "smokeTint": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "splashArmorCoeff": -0.25,
+  "splashCubeSize": 0.51,
+  "timeFactor": 1.0,
+  "tracerEffect": "",
+  "tracerLength": 30.0,
+  "tracerOpacity": 0.8,
+  "tracerStopRemainingTime": 1.0,
+  "tracerTexture": "/",
+  "tracerThickness": 0.05,
+  "typeinfo": {
+   "nation": "United_Kingdom",
+   "species": "Rocket",
+   "type": "Projectile"
+  },
+  "useSpecialShellModel": false,
+  "uvSpeed": -0.2,
+  "uwCritical": 0.0,
+  "volume": 1.28,
+  "warningEffectInterval": 1.0,
+  "warningEffects": {
+   "ground": [
+    "particles/airplanes/Air_Bullet_Ground.xml"
+   ],
+   "projDestroyedEffect": [
+    "particles/airplanes/Air_Bullet_Sparks.xml"
+   ],
+   "water": [
+    "particles/airplanes/Air_Bullet_Water.xml"
+   ]
+  },
+  "warningTracerInterval": 0.5,
+  "warningTracerParams": "PCPP004_Default_PreRockets",
+  "water": [
+   "particles/airplanes/Air_water_rocket_explo_1.xml",
+   "particles/airplanes/Air_water_rocket_explo_2.xml",
+   "particles/airplanes/Air_water_rocket_explo_3.xml"
+  ],
+  "waterEffectMaxIntensity": 10.0,
+  "waterEffectMinIntensity": 0.1,
+  "waterRefractionReflectDeltaAngleInterval": [
+   2.0,
+   6.0
+  ],
+  "withParachute": false
  },
  {
   "acidProb": 0.0,
@@ -16908,6 +17409,7 @@
    "SURFACE": 1.0
   },
   "burnProb": 0.2,
+  "costCR": 100,
   "damage": 900.0,
   "depthSplashRadius": 15,
   "directDamage": 0.0,
@@ -17183,6 +17685,207 @@
    2.0,
    6.0
   ]
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": false,
+  "alphaDamage": 6400.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 41.4,
+  "ammoType": "HE",
+  "applyPTZCoeff": false,
+  "bonusOffset": 0,
+  "bulletAirDrag": 0.35,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletCap": true,
+  "bulletCapNormalizeMaxAngle": 45.0,
+  "bulletDetonator": 0.03,
+  "bulletDetonatorSpread": 0.0,
+  "bulletDetonatorThreshold": 25.0,
+  "bulletDiametr": 0.04,
+  "bulletKrupp": 3.0,
+  "bulletMass": 213.2,
+  "bulletPenetrationSpread": 0.0,
+  "bulletRicochetAt": 45.0,
+  "bulletSpeed": 300.0,
+  "bulletUnderwaterDistFactor": 0.8,
+  "bulletUnderwaterPenetrationFactor": 0.9,
+  "bulletWaterDrag": 10.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 0.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.36,
+  "costCR": 5,
+  "customUIPostfix": "",
+  "damage": 1100.0,
+  "damageVulnerabilityForShipClasses": {
+   "AirCarrier": 1,
+   "Auxiliary": 1,
+   "Battleship": 1,
+   "Cruiser": 1,
+   "Destroyer": 1,
+   "Submarine": 1
+  },
+  "depthSplashRadius": 0.32,
+  "directDamage": 0.0,
+  "distParams": [
+   -0.12,
+   0.1,
+   0.12,
+   0.0
+  ],
+  "distTile": 3.0,
+  "explosionRadius": 200.0,
+  "fallDistance": 10.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.75,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb_HE.xml",
+  "floodGeneration": false,
+  "ground": [
+   "particles/onGroundExplosion360mm_vertical_HE_1.xml",
+   "particles/onGroundExplosion360mm_vertical_HE_2.xml",
+   "particles/onGroundExplosion360mm_vertical_HE_3.xml"
+  ],
+  "groundHitDecalSize": 1.0,
+  "groundHorizontal": [
+   "particles/onGroundExplosion360mm_horizontal_HE.xml",
+   "particles/onGroundExplosion360mm_horizontal_HE_1.xml",
+   "particles/onGroundExplosion360mm_horizontal_HE_2.xml"
+  ],
+  "groundVertical": [
+   "particles/onGroundExplosion360mm_vertical_HE.xml",
+   "particles/onGroundExplosion360mm_vertical_HE_1.xml",
+   "particles/onGroundExplosion360mm_vertical_HE_2.xml",
+   "particles/onGroundExplosion360mm_vertical_HE_3.xml"
+  ],
+  "hatTracerTexture": "/",
+  "hitDecalSize": 0.2,
+  "id": 4178527184,
+  "ignoreBuoyancyStates": [
+   "DEEP_WATER_INVUL"
+  ],
+  "ignoreClasses": [],
+  "index": "PBPB111",
+  "isBomb": false,
+  "maxDepth": -13,
+  "model": "content/gameplay/uk/projectile/bomb/BPB003_GP_Bomb_500lb/BPB003_GP_Bomb_500lb.model",
+  "name": "PBPB111_EAGLE_STOCK",
+  "onHit": {},
+  "ownHatTracerTexture": "/",
+  "ownTracerEffect": "",
+  "ownTracerTexture": "/",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteModel": "content/location/misc/gameplay/LMY052_Parachute/LMY052_Parachute.model",
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "bomb",
+  "pointsOfDamage": [
+   [
+    0,
+    0.165
+   ],
+   [
+    1,
+    0.165
+   ]
+  ],
+  "projDestroyedEffect": [
+   "particles/airBomb_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projDestroyedEffectHorizontal": [
+   "particles/airBomb_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projDestroyedEffectVertical": [
+   "particles/airBomb_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projHitCitadelEffectHorizontal": [
+   "particles/airBomb_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projHitCitadelEffectVertical": [
+   "particles/airBomb_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projHitNoPenetrationEffectHorizontal": [
+   "particles/airBomb_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projHitNoPenetrationEffectVertical": [
+   "particles/airBomb_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projOverPenetrationEffectHorizontal": [
+   "particles/airBomb_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projOverPenetrationEffectVertical": [
+   "particles/airBomb_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projRicochetEffectHorizontal": [
+   "particles/airBomb_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projRicochetEffectVertical": [
+   "particles/airBomb_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "shellDistortTexture": "particles/trails/Trail_Distort_Neutral.dds",
+  "shellGlow": 1.0,
+  "shellLength": 1.5,
+  "shellModelScale": 0.1,
+  "shellTint": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "shipDestroyEffect": "particles/Empty_FX.xml",
+  "smokeAlphaFalloff": 28.0,
+  "smokeDistortTexture": "particles/trails/Trail_Distort_Smoke.dds",
+  "smokeOpacity": 0.65,
+  "smokeTexture": "",
+  "smokeThickness": 0.1,
+  "smokeTileLength": 2.0,
+  "smokeTint": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "splashArmorCoeff": -0.1,
+  "splashCubeSize": 1.42,
+  "timeFactor": 1.0,
+  "tracerEffect": "",
+  "tracerLength": 30.0,
+  "tracerOpacity": 0.8,
+  "tracerTexture": "/",
+  "tracerThickness": 0.05,
+  "typeinfo": {
+   "nation": "United_Kingdom",
+   "species": "Bomb",
+   "type": "Projectile"
+  },
+  "useSpecialShellModel": false,
+  "uvSpeed": -0.2,
+  "uwCritical": 0.0,
+  "volume": 6.06,
+  "water": [
+   "particles/airBomb_water.xml",
+   "particles/airBomb_water_1.xml"
+  ],
+  "waterEffectMaxIntensity": 10.0,
+  "waterEffectMinIntensity": 0.1,
+  "waterRefractionReflectDeltaAngleInterval": [
+   2.0,
+   6.0
+  ],
+  "withParachute": false
  },
  {
   "acidProb": 0.0,
@@ -17585,6 +18288,7 @@
    "SURFACE": 1.0
   },
   "burnProb": 0.15,
+  "costCR": 60,
   "damage": 900.0,
   "depthSplashRadius": 10.0,
   "directDamage": 0.0,
@@ -17769,6 +18473,111 @@
   "visibilityFactor": 1.3,
   "volume": 0.9,
   "water": "particles/torpedoSunk.xml",
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 5000.0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "depthcharge",
+  "applyPTZCoeff": true,
+  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
+  "bulletSpeed": 300.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 1.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.2,
+  "costCR": 100,
+  "damage": 900.0,
+  "depthSplashRadius": 15,
+  "directDamage": 0.0,
+  "enemyHitSurfaceEffect": "particles/submarines/Sub_explo_water.xml",
+  "enemyHitUnderwaterEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.0,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosion127mm.xml",
+  "hitDecalSize": 0.0,
+  "id": 4291707856,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [
+   "AirCarrier",
+   "Battleship",
+   "Cruiser",
+   "Destroyer"
+  ],
+  "index": "PBPD003",
+  "integralPower": 10,
+  "maxDepth": -80,
+  "model": "content/gameplay/uk/projectile/depthcharge/BPD003_Depth_Charge_Space/BPD003_Depth_Charge_Space.model",
+  "name": "PBPD003_Depth_Charge_Space",
+  "onHit": {},
+  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "depthcharge",
+  "pointsOfDamage": [
+   [
+    0,
+    1
+   ],
+   [
+    0.15,
+    1
+   ],
+   [
+    0.151,
+    0.33
+   ],
+   [
+    1,
+    0.33
+   ]
+  ],
+  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "secondsToEffects": [
+   [
+    2.0,
+    "particles/submarines/Sub_bomb_trace_deep1.xml"
+   ],
+   [
+    5.0,
+    "particles/submarines/Sub_bomb_trace_deep2.xml"
+   ],
+   [
+    8.0,
+    "particles/submarines/Sub_bomb_trace_deep3.xml"
+   ]
+  ],
+  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
+  "speed": 10.0,
+  "speedDeltaRelative": 0.2,
+  "splashArmorCoeff": -0.18,
+  "splashCubeSize": 1.37,
+  "timer": 7.0,
+  "timerDeltaAbsolute": 0.5,
+  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
+  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
+  "typeinfo": {
+   "nation": "United_Kingdom",
+   "species": "DepthCharge",
+   "type": "Projectile"
+  },
+  "uwAbility": true,
+  "uwCritical": 0.42,
+  "visibilityFactor": 1.5,
+  "volume": 7.5,
+  "water": "particles/submarines/Sub_explo_underwater.xml",
+  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
   "withParachute": false
  },
  {
@@ -18152,6 +18961,207 @@
    2.0,
    6.0
   ]
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": false,
+  "alphaDamage": 7900.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 54.2,
+  "ammoType": "HE",
+  "applyPTZCoeff": false,
+  "bonusOffset": 0,
+  "bulletAirDrag": 0.35,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletCap": true,
+  "bulletCapNormalizeMaxAngle": 45.0,
+  "bulletDetonator": 0.03,
+  "bulletDetonatorSpread": 0.0,
+  "bulletDetonatorThreshold": 25.0,
+  "bulletDiametr": 0.04,
+  "bulletKrupp": 3.0,
+  "bulletMass": 3.0,
+  "bulletPenetrationSpread": 0.0,
+  "bulletRicochetAt": 45.0,
+  "bulletSpeed": 300.0,
+  "bulletUnderwaterDistFactor": 0.8,
+  "bulletUnderwaterPenetrationFactor": 0.9,
+  "bulletWaterDrag": 10.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 0.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.45,
+  "costCR": 5,
+  "customUIPostfix": "",
+  "damage": 1400.0,
+  "damageVulnerabilityForShipClasses": {
+   "AirCarrier": 1,
+   "Auxiliary": 1,
+   "Battleship": 1,
+   "Cruiser": 1,
+   "Destroyer": 1,
+   "Submarine": 1
+  },
+  "depthSplashRadius": 0.4,
+  "directDamage": 0.0,
+  "distParams": [
+   -0.12,
+   0.1,
+   0.12,
+   0.0
+  ],
+  "distTile": 3.0,
+  "explosionRadius": 200.0,
+  "fallDistance": 10.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1.75,
+  "fallingTracerEffect": "particles/airplanes/Air_bomb_HE.xml",
+  "floodGeneration": false,
+  "ground": [
+   "particles/onGroundExplosion360mm_vertical_HE_1.xml",
+   "particles/onGroundExplosion360mm_vertical_HE_2.xml",
+   "particles/onGroundExplosion360mm_vertical_HE_3.xml"
+  ],
+  "groundHitDecalSize": 1.0,
+  "groundHorizontal": [
+   "particles/onGroundExplosion360mm_horizontal_HE.xml",
+   "particles/onGroundExplosion360mm_horizontal_HE_1.xml",
+   "particles/onGroundExplosion360mm_horizontal_HE_2.xml"
+  ],
+  "groundVertical": [
+   "particles/onGroundExplosion360mm_vertical_HE.xml",
+   "particles/onGroundExplosion360mm_vertical_HE_1.xml",
+   "particles/onGroundExplosion360mm_vertical_HE_2.xml",
+   "particles/onGroundExplosion360mm_vertical_HE_3.xml"
+  ],
+  "hatTracerTexture": "/",
+  "hitDecalSize": 0.2,
+  "id": 4168041424,
+  "ignoreBuoyancyStates": [
+   "DEEP_WATER_INVUL"
+  ],
+  "ignoreClasses": [],
+  "index": "PBPB121",
+  "isBomb": false,
+  "maxDepth": -13,
+  "model": "content/gameplay/uk/projectile/bomb/BPB003_GP_Bomb_500lb/BPB003_GP_Bomb_500lb.model",
+  "name": "PBPB121_EAGLE_JET",
+  "onHit": {},
+  "ownHatTracerTexture": "/",
+  "ownTracerEffect": "",
+  "ownTracerTexture": "/",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteModel": "content/location/misc/gameplay/LMY052_Parachute/LMY052_Parachute.model",
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "bomb",
+  "pointsOfDamage": [
+   [
+    0,
+    0.165
+   ],
+   [
+    1,
+    0.165
+   ]
+  ],
+  "projDestroyedEffect": [
+   "particles/airBomb_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projDestroyedEffectHorizontal": [
+   "particles/airBomb_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projDestroyedEffectVertical": [
+   "particles/airBomb_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projHitCitadelEffectHorizontal": [
+   "particles/airBomb_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projHitCitadelEffectVertical": [
+   "particles/airBomb_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projHitNoPenetrationEffectHorizontal": [
+   "particles/airBomb_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projHitNoPenetrationEffectVertical": [
+   "particles/airBomb_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projOverPenetrationEffectHorizontal": [
+   "particles/airBomb_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projOverPenetrationEffectVertical": [
+   "particles/airBomb_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projRicochetEffectHorizontal": [
+   "particles/airBomb_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projRicochetEffectVertical": [
+   "particles/airBomb_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "shellDistortTexture": "particles/trails/Trail_Distort_Neutral.dds",
+  "shellGlow": 1.0,
+  "shellLength": 1.5,
+  "shellModelScale": 0.1,
+  "shellTint": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "shipDestroyEffect": "particles/Empty_FX.xml",
+  "smokeAlphaFalloff": 28.0,
+  "smokeDistortTexture": "particles/trails/Trail_Distort_Smoke.dds",
+  "smokeOpacity": 0.65,
+  "smokeTexture": "",
+  "smokeThickness": 0.1,
+  "smokeTileLength": 2.0,
+  "smokeTint": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "splashArmorCoeff": -0.1,
+  "splashCubeSize": 1.69,
+  "timeFactor": 1.0,
+  "tracerEffect": "",
+  "tracerLength": 30.0,
+  "tracerOpacity": 0.8,
+  "tracerTexture": "/",
+  "tracerThickness": 0.05,
+  "typeinfo": {
+   "nation": "United_Kingdom",
+   "species": "Bomb",
+   "type": "Projectile"
+  },
+  "useSpecialShellModel": false,
+  "uvSpeed": -0.2,
+  "uwCritical": 0.0,
+  "volume": 11.35,
+  "water": [
+   "particles/airBomb_water.xml",
+   "particles/airBomb_water_1.xml"
+  ],
+  "waterEffectMaxIntensity": 10.0,
+  "waterEffectMinIntensity": 0.1,
+  "waterRefractionReflectDeltaAngleInterval": [
+   2.0,
+   6.0
+  ],
+  "withParachute": false
  },
  {
   "acidProb": 0.0,
@@ -19504,197 +20514,6 @@
   "acidProb": 0.0,
   "additionalShips": [],
   "affectedByPTZ": false,
-  "alphaDamage": 2200.0,
-  "alphaPiercingCS": 0,
-  "alphaPiercingHE": 25.0,
-  "ammoType": "HE",
-  "applyPTZCoeff": false,
-  "bonusOffset": 0,
-  "bulletAirDrag": 0.315,
-  "bulletAlwaysRicochetAt": 60.0,
-  "bulletCap": true,
-  "bulletCapNormalizeMaxAngle": 68.0,
-  "bulletDetonator": 0.001,
-  "bulletDetonatorSpread": 0.0,
-  "bulletDetonatorThreshold": 2.0,
-  "bulletDiametr": 0.152,
-  "bulletKrupp": 320.0,
-  "bulletMass": 45.3,
-  "bulletPenetrationSpread": 0.0,
-  "bulletRicochetAt": 91.0,
-  "bulletSpeed": 914.0,
-  "bulletUnderwaterDistFactor": 0.8,
-  "bulletUnderwaterPenetrationFactor": 0.9,
-  "bulletWaterDrag": 10.0,
-  "buoyancyToDamageCoeff": {
-   "DEEP_WATER": 1.0,
-   "DEEP_WATER_INVUL": 0.0,
-   "PERISCOPE": 1.0,
-   "SEMI_DEEP_WATER": 1.0,
-   "SURFACE": 1.0
-  },
-  "burnProb": 0.12,
-  "costCR": 16,
-  "customUIPostfix": "",
-  "damage": 790.0,
-  "damageVulnerabilityForShipClasses": {
-   "AirCarrier": 1,
-   "Auxiliary": 1,
-   "Battleship": 1,
-   "Cruiser": 1,
-   "Destroyer": 1,
-   "Submarine": 1
-  },
-  "depthSplashRadius": 3.02,
-  "directDamage": 0.0,
-  "distParams": [
-   -0.12,
-   0.1,
-   0.12,
-   0.0
-  ],
-  "distTile": 3.0,
-  "explosionRadius": 200.0,
-  "floodGeneration": false,
-  "ground": [
-   "particles/onGroundExplosion127mm_HE.xml",
-   "particles/onGroundExplosion127mm_2_HE.xml"
-  ],
-  "groundHitDecalSize": 1.0,
-  "groundHorizontal": [
-   "particles/onGroundExplosion127mm_horizontal_HE.xml",
-   "particles/onGroundExplosion127mm_horizontal_HE_1.xml",
-   "particles/onGroundExplosion127mm_horizontal_HE_2.xml"
-  ],
-  "groundVertical": [
-   "particles/onGroundExplosion127mm_vertical_HE.xml",
-   "particles/onGroundExplosion127mm_vertical_HE_1.xml",
-   "particles/onGroundExplosion127mm_vertical_HE_2.xml",
-   "particles/onGroundExplosion127mm_vertical_HE_3.xml"
-  ],
-  "hatTracerTexture": "particles/trails/Trail_Shell_Hat.dds",
-  "hitDecalSize": 0.33,
-  "id": 4291806160,
-  "ignoreBuoyancyStates": [
-   "DEEP_WATER_INVUL"
-  ],
-  "ignoreClasses": [],
-  "index": "PBPA003",
-  "isBomb": false,
-  "maxDepth": -15,
-  "name": "PBPA003_152mm_HE_HE4crh",
-  "onHit": {},
-  "ownHatTracerTexture": "particles/trails/Trail_Shell_Hat_Own.dds",
-  "ownTracerEffect": "",
-  "ownTracerTexture": "particles/trails/Trail_PMK_Own.dds",
-  "pointsOfDamage": [
-   [
-    0,
-    0.165
-   ],
-   [
-    1,
-    0.165
-   ]
-  ],
-  "projDestroyedEffect": [
-   "particles/Explosion_127_HE.xml",
-   "particles/Explosion_127_2_HE.xml"
-  ],
-  "projDestroyedEffectHorizontal": [
-   "particles/Explosion_horizontal_127_HE_2.xml",
-   "particles/Explosion_horizontal_127_HE.xml"
-  ],
-  "projDestroyedEffectVertical": [
-   "particles/Explosion_vertical_127_HE_2.xml",
-   "particles/Explosion_vertical_127_HE.xml"
-  ],
-  "projHitCitadelEffectHorizontal": [
-   "particles/Explosion_Citadel_2.xml"
-  ],
-  "projHitCitadelEffectVertical": [
-   "particles/Explosion_Citadel_2.xml"
-  ],
-  "projHitNoPenetrationEffectHorizontal": [
-   "particles/Explosion_horizontal_127_HE_2.xml",
-   "particles/Explosion_horizontal_127_HE.xml"
-  ],
-  "projHitNoPenetrationEffectVertical": [
-   "particles/Explosion_vertical_127_HE_2.xml",
-   "particles/Explosion_vertical_127_HE.xml"
-  ],
-  "projOverPenetrationEffectHorizontal": [
-   "particles/Explosion_horizontal_127_HE_2.xml",
-   "particles/Explosion_horizontal_127_HE.xml"
-  ],
-  "projOverPenetrationEffectVertical": [
-   "particles/Explosion_vertical_127_HE_2.xml",
-   "particles/Explosion_vertical_127_HE.xml"
-  ],
-  "projRicochetEffectHorizontal": [
-   "particles/Ricochet_1.xml",
-   "particles/Ricochet_2.xml"
-  ],
-  "projRicochetEffectVertical": [
-   "particles/Ricochet_1.xml",
-   "particles/Ricochet_2.xml"
-  ],
-  "shellDistortTexture": "particles/trails/Trail_Distort_Neutral.dds",
-  "shellGlow": 10.0,
-  "shellLength": 2.05,
-  "shellModelScale": 0.06,
-  "shellTint": [
-   0.85,
-   0.6,
-   0.3
-  ],
-  "shipDestroyEffect": "particles/Empty_FX.xml",
-  "smokeAlphaFalloff": 70.0,
-  "smokeDistortTexture": "particles/trails/Trail_Distort_Smoke.dds",
-  "smokeOpacity": 0.8,
-  "smokeTexture": "particles/trails/Trail_Smoke_PMK_HE.dds",
-  "smokeThickness": 0.2,
-  "smokeTileLength": 2.0,
-  "smokeTint": [
-   1.0,
-   1.0,
-   1.0
-  ],
-  "splashArmorCoeff": -0.23,
-  "splashCubeSize": 0.58,
-  "timeFactor": 1.0,
-  "tracerEffect": "",
-  "tracerLength": 75.0,
-  "tracerOpacity": 1.0,
-  "tracerTexture": "particles/trails/Trail_PMK.dds",
-  "tracerThickness": 0.077,
-  "typeinfo": {
-   "nation": "United_Kingdom",
-   "species": "Artillery",
-   "type": "Projectile"
-  },
-  "useSpecialShellModel": false,
-  "uvSpeed": -0.2,
-  "uwCritical": 0.0,
-  "volume": 1.1,
-  "water": [
-   "particles/onWaterExplosion127mm_HE.xml",
-   "particles/onWaterExplosion127mm_HE_1.xml",
-   "particles/onWaterExplosion127mm_HE_2.xml",
-   "particles/onWaterExplosion127mm_HE_3.xml",
-   "particles/onWaterExplosion127mm_HE_4.xml"
-  ],
-  "waterEffectMaxIntensity": 10.0,
-  "waterEffectMinIntensity": 0.1,
-  "waterRefractionReflectDeltaAngleInterval": [
-   2.0,
-   6.0
-  ]
- },
- {
-  "acidProb": 0.0,
-  "additionalShips": [],
-  "affectedByPTZ": false,
   "alphaDamage": 2100.0,
   "alphaPiercingCS": 0,
   "alphaPiercingHE": 0.0,
@@ -20163,6 +20982,7 @@
    "SURFACE": 1.0
   },
   "burnProb": 0.2,
+  "costCR": 60,
   "damage": 1200.0,
   "depthSplashRadius": 10.0,
   "directDamage": 0.0,
@@ -22361,6 +23181,7 @@
    "SURFACE": 1.0
   },
   "burnProb": 0.2,
+  "costCR": 100,
   "damage": 900.0,
   "depthSplashRadius": 15,
   "directDamage": 0.0,
@@ -24119,6 +24940,7 @@
    "SURFACE": 1.0
   },
   "burnProb": 0.2,
+  "costCR": 100,
   "damage": 900.0,
   "depthSplashRadius": 15,
   "directDamage": 0.0,
@@ -24987,6 +25809,7 @@
    "SURFACE": 1.0
   },
   "burnProb": 0.2,
+  "costCR": 100,
   "damage": 900.0,
   "depthSplashRadius": 15,
   "directDamage": 0.0,
@@ -25453,6 +26276,79 @@
    2.0,
    6.0
   ]
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
+  "affectedByPTZ": true,
+  "alertDist": 100,
+  "alphaDamage": 21000.0,
+  "alphaPiercingHE": 1000.0,
+  "ammoType": "torpedo",
+  "applyPTZCoeff": true,
+  "armingTime": 5.25,
+  "blowUpEffect": "particles/submarines/Sub_explo_underwater.xml",
+  "bulletDiametr": 0.569,
+  "buoyancyToDamageCoeff": {},
+  "burnProb": 0.0,
+  "costCR": 75,
+  "customUIPostfix": "",
+  "damage": 800.0,
+  "damageCoeffMaxPing": 2.0,
+  "depth": 0.14,
+  "directDamage": 0.0,
+  "dropToTheGroundEffect": "particles/airplanes/Air_torpedo_ground_1.xml",
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 1,
+  "fallingTracerEffect": "particles/Empty_FX.xml",
+  "floodGeneration": true,
+  "ground": "particles/onGroundExplosionTorpedo.xml",
+  "hitDecalSize": 0.0,
+  "id": 4167451600,
+  "ignoreBuoyancyStates": [],
+  "ignoreClasses": [],
+  "index": "PBPT121",
+  "isDeepWater": false,
+  "maxDist": 80,
+  "model": "content/gameplay/uk/projectile/torpedo/BPT011_Air_Torpedo_18in_MkXVII/BPT011_Air_Torpedo_18in_MkXVII.model",
+  "name": "PBPT121_EAGLE_JET",
+  "onHit": {},
+  "ownTracerEffect": "particles/tracerTorpedo_avatar.xml",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteModel": "content/location/misc/gameplay/LMY052_Parachute/LMY052_Parachute.model",
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "torpedo",
+  "projDestroyedEffect": [
+   "particles/onShipHitTorpedo.xml",
+   "particles/onShipHitTorpedo_1.xml",
+   "particles/onShipHitTorpedo_dirty.xml",
+   "particles/onShipHitTorpedo_dirty_1.xml"
+  ],
+  "shipDestroyEffect": "particles/Empty_FX.xml",
+  "speed": 40,
+  "splashArmorCoeff": 0.3,
+  "splashCubeSize": 1.1,
+  "torpedoProjDestroyedEffect": [
+   "particles/onShipHitTorpedo.xml",
+   "particles/onShipHitTorpedo_1.xml",
+   "particles/onShipHitTorpedo_dirty.xml",
+   "particles/onShipHitTorpedo_dirty_1.xml"
+  ],
+  "torpedoType": 0,
+  "tracerEffect": "particles/tracerTorpedo.xml",
+  "typeinfo": {
+   "nation": "United_Kingdom",
+   "species": "Torpedo",
+   "type": "Projectile"
+  },
+  "underwaterTracerEffect": "particles/tracerTorpedo_underwater.xml",
+  "useDefaultDepth": true,
+  "uwCritical": 0.66,
+  "visibilityFactor": 1.3,
+  "volume": 0.8,
+  "water": "particles/airplanes/Air_torpedo_drop.xml",
+  "withParachute": false
  },
  {
   "acidProb": 0.0,
@@ -27491,6 +28387,242 @@
  {
   "acidProb": 0.0,
   "additionalShips": [],
+  "affectedByPTZ": false,
+  "alphaDamage": 2350.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 28,
+  "ammoType": "HE",
+  "applyPTZCoeff": false,
+  "attackSequenceDurations": [
+   0.7,
+   0.7,
+   0.1
+  ],
+  "bonusOffset": 0,
+  "bulletAirDrag": 0.35,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletCap": true,
+  "bulletCapNormalizeMaxAngle": 45.0,
+  "bulletDetonator": 0.03,
+  "bulletDetonatorSpread": 0.0,
+  "bulletDetonatorThreshold": 25.0,
+  "bulletDiametr": 0.04,
+  "bulletKrupp": 3.0,
+  "bulletMass": 37.0,
+  "bulletPenetrationSpread": 0.0,
+  "bulletRicochetAt": 45.0,
+  "bulletSpeed": 300.0,
+  "bulletUnderwaterDistFactor": 0.8,
+  "bulletUnderwaterPenetrationFactor": 0.9,
+  "bulletWaterDrag": 10.0,
+  "buoyancyToDamageCoeff": {
+   "DEEP_WATER": 1.0,
+   "DEEP_WATER_INVUL": 0.0,
+   "PERISCOPE": 1.0,
+   "SEMI_DEEP_WATER": 1.0,
+   "SURFACE": 1.0
+  },
+  "burnProb": 0.09,
+  "chaseImpactEffects": {
+   "ground": [
+    "particles/airplanes/Air_Bullet_Ground.xml"
+   ],
+   "projDestroyedEffect": [
+    "particles/airplanes/Air_Bullet_Sparks.xml"
+   ],
+   "water": [
+    "particles/airplanes/Air_Bullet_Water.xml"
+   ]
+  },
+  "chaseStartLerpValue": 0.75,
+  "chaseTracerInterval": 0.25,
+  "chaseTracerParams": "PCPP004_Default_PreRockets",
+  "costCR": 5,
+  "customUIPostfix": "",
+  "damage": 1200.0,
+  "damageVulnerabilityForShipClasses": {
+   "AirCarrier": 1,
+   "Auxiliary": 1,
+   "Battleship": 1,
+   "Cruiser": 1,
+   "Destroyer": 1,
+   "Submarine": 1
+  },
+  "depthSplashRadius": 0.47,
+  "directDamage": 0.0,
+  "distParams": [
+   -0.12,
+   0.1,
+   0.12,
+   0.0
+  ],
+  "distTile": 3.0,
+  "explosionRadius": 200.0,
+  "fallDistance": 20.0,
+  "fallTime": 20.0,
+  "fallingTimeCoef": 0.1,
+  "fallingTracerEffect": "particles/airplanes/Air_rocket.xml",
+  "floodGeneration": false,
+  "ground": [
+   "particles/onGroundExplosion200mm_vertical_HE_1.xml",
+   "particles/onGroundExplosion200mm_vertical_HE_2.xml",
+   "particles/onGroundExplosion200mm_vertical_HE_3.xml"
+  ],
+  "groundHitDecalSize": 1.0,
+  "groundHorizontal": [
+   "particles/onGroundExplosion200mm_horizontal_HE.xml",
+   "particles/onGroundExplosion200mm_horizontal_HE_1.xml",
+   "particles/onGroundExplosion200mm_horizontal_HE_2.xml"
+  ],
+  "groundVertical": [
+   "particles/onGroundExplosion200mm_vertical_HE.xml",
+   "particles/onGroundExplosion200mm_vertical_HE_1.xml",
+   "particles/onGroundExplosion200mm_vertical_HE_2.xml",
+   "particles/onGroundExplosion200mm_vertical_HE_3.xml"
+  ],
+  "hatTracerTexture": "/",
+  "hitDecalSize": 0.2,
+  "id": 4167517136,
+  "ignoreBuoyancyStates": [
+   "DEEP_WATER_INVUL"
+  ],
+  "ignoreClasses": [],
+  "index": "PBPR121",
+  "isBomb": false,
+  "maxDepth": -13,
+  "model": "content/gameplay/uk/projectile/rocket/BPR004_RP3_60lb_SAP_No2_Mk1/BPR004_RP3_60lb_SAP_No2_Mk1.model",
+  "name": "PBPR121_EAGLE_JET",
+  "onHit": {},
+  "ownHatTracerTexture": "/",
+  "ownTracerEffect": "",
+  "ownTracerTexture": "/",
+  "parachuteHeightCoeff": 0.75,
+  "parachuteModel": "content/location/misc/gameplay/LMY052_Parachute/LMY052_Parachute.model",
+  "parachuteTimeCoeff": 0.95,
+  "planeAmmoType": "rocket",
+  "pointsOfDamage": [
+   [
+    0,
+    0.165
+   ],
+   [
+    1,
+    0.165
+   ]
+  ],
+  "projDestroyedEffect": [
+   "particles/airRocket_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projDestroyedEffectHorizontal": [
+   "particles/airRocket_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projDestroyedEffectVertical": [
+   "particles/airRocket_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projHitCitadelEffectHorizontal": [
+   "particles/airRocket_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projHitCitadelEffectVertical": [
+   "particles/airRocket_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projHitNoPenetrationEffectHorizontal": [
+   "particles/airRocket_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projHitNoPenetrationEffectVertical": [
+   "particles/airRocket_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projOverPenetrationEffectHorizontal": [
+   "particles/airRocket_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projOverPenetrationEffectVertical": [
+   "particles/airRocket_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projRicochetEffectHorizontal": [
+   "particles/airRocket_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "projRicochetEffectVertical": [
+   "particles/airRocket_ship.xml",
+   "particles/airRocket_ship_1.xml"
+  ],
+  "shellDistortTexture": "particles/trails/Trail_Distort_Neutral.dds",
+  "shellGlow": 1.0,
+  "shellLength": 1.5,
+  "shellModelScale": 0.1,
+  "shellTint": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "shipDestroyEffect": "particles/Empty_FX.xml",
+  "smokeAlphaFalloff": 28.0,
+  "smokeDistortTexture": "particles/trails/Trail_Distort_Smoke.dds",
+  "smokeOpacity": 0.65,
+  "smokeTexture": "",
+  "smokeThickness": 0.1,
+  "smokeTileLength": 2.0,
+  "smokeTint": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "splashArmorCoeff": -0.25,
+  "splashCubeSize": 0.51,
+  "timeFactor": 1.0,
+  "tracerEffect": "",
+  "tracerLength": 30.0,
+  "tracerOpacity": 0.8,
+  "tracerStopRemainingTime": 1.0,
+  "tracerTexture": "/",
+  "tracerThickness": 0.05,
+  "typeinfo": {
+   "nation": "United_Kingdom",
+   "species": "Rocket",
+   "type": "Projectile"
+  },
+  "useSpecialShellModel": false,
+  "uvSpeed": -0.2,
+  "uwCritical": 0.0,
+  "volume": 1.28,
+  "warningEffectInterval": 1.0,
+  "warningEffects": {
+   "ground": [
+    "particles/airplanes/Air_Bullet_Ground.xml"
+   ],
+   "projDestroyedEffect": [
+    "particles/airplanes/Air_Bullet_Sparks.xml"
+   ],
+   "water": [
+    "particles/airplanes/Air_Bullet_Water.xml"
+   ]
+  },
+  "warningTracerInterval": 0.5,
+  "warningTracerParams": "PCPP004_Default_PreRockets",
+  "water": [
+   "particles/airplanes/Air_water_rocket_explo_1.xml",
+   "particles/airplanes/Air_water_rocket_explo_2.xml",
+   "particles/airplanes/Air_water_rocket_explo_3.xml"
+  ],
+  "waterEffectMaxIntensity": 10.0,
+  "waterEffectMinIntensity": 0.1,
+  "waterRefractionReflectDeltaAngleInterval": [
+   2.0,
+   6.0
+  ],
+  "withParachute": false
+ },
+ {
+  "acidProb": 0.0,
+  "additionalShips": [],
   "affectedByPTZ": true,
   "alertDist": 100,
   "alphaDamage": 43900.0,
@@ -27942,109 +29074,5 @@
    2.0,
    6.0
   ]
- },
- {
-  "acidProb": 0.0,
-  "additionalShips": [],
-  "affectedByPTZ": true,
-  "alertDist": 100,
-  "alphaDamage": 5000.0,
-  "alphaPiercingHE": 0.0,
-  "ammoType": "depthcharge",
-  "applyPTZCoeff": true,
-  "blowUpEffect": "particles/submarines/Sub_explo_water.xml",
-  "bulletSpeed": 300.0,
-  "buoyancyToDamageCoeff": {
-   "DEEP_WATER": 1.0,
-   "DEEP_WATER_INVUL": 1.0,
-   "PERISCOPE": 1.0,
-   "SEMI_DEEP_WATER": 1.0,
-   "SURFACE": 1.0
-  },
-  "burnProb": 0.2,
-  "damage": 900.0,
-  "depthSplashRadius": 15,
-  "directDamage": 0.0,
-  "enemyHitSurfaceEffect": "particles/submarines/Sub_explo_water.xml",
-  "enemyHitUnderwaterEffect": "particles/submarines/Sub_explo_underwater.xml",
-  "fallDistance": 20.0,
-  "fallTime": 20.0,
-  "fallingTimeCoef": 1.0,
-  "fallingTracerEffect": "particles/airplanes/Air_bomb.xml",
-  "floodGeneration": true,
-  "ground": "particles/onGroundExplosion127mm.xml",
-  "hitDecalSize": 0.0,
-  "id": 4291707856,
-  "ignoreBuoyancyStates": [],
-  "ignoreClasses": [
-   "AirCarrier",
-   "Battleship",
-   "Cruiser",
-   "Destroyer"
-  ],
-  "index": "PBPD003",
-  "integralPower": 10,
-  "maxDepth": -80,
-  "model": "content/gameplay/uk/projectile/depthcharge/BPD003_Depth_Charge_Space/BPD003_Depth_Charge_Space.model",
-  "name": "PBPD003_Depth_Charge_Space",
-  "onHit": {},
-  "ownTracerEffect": "particles/submarines/Sub_bomb_trace.xml",
-  "parachuteHeightCoeff": 0.75,
-  "parachuteTimeCoeff": 0.95,
-  "planeAmmoType": "depthcharge",
-  "pointsOfDamage": [
-   [
-    0,
-    1
-   ],
-   [
-    0.15,
-    1
-   ],
-   [
-    0.151,
-    0.33
-   ],
-   [
-    1,
-    0.33
-   ]
-  ],
-  "projDestroyedEffect": "particles/submarines/Sub_explo_underwater.xml",
-  "secondsToEffects": [
-   [
-    2.0,
-    "particles/submarines/Sub_bomb_trace_deep1.xml"
-   ],
-   [
-    5.0,
-    "particles/submarines/Sub_bomb_trace_deep2.xml"
-   ],
-   [
-    8.0,
-    "particles/submarines/Sub_bomb_trace_deep3.xml"
-   ]
-  ],
-  "shipDestroyEffect": "particles/onWaterExplosion127mm_HE.xml",
-  "speed": 10.0,
-  "speedDeltaRelative": 0.2,
-  "splashArmorCoeff": -0.18,
-  "splashCubeSize": 1.37,
-  "timer": 7.0,
-  "timerDeltaAbsolute": 0.5,
-  "tracerAirEffect": "particles/guns/bomb_tracer.xml",
-  "tracerEffect": "particles/submarines/Sub_bomb_trace.xml",
-  "typeinfo": {
-   "nation": "United_Kingdom",
-   "species": "DepthCharge",
-   "type": "Projectile"
-  },
-  "uwAbility": true,
-  "uwCritical": 0.42,
-  "visibilityFactor": 1.5,
-  "volume": 7.5,
-  "water": "particles/submarines/Sub_explo_underwater.xml",
-  "waterHitEffect": "particles/airplanes/Air_torpedo_drop.xml",
-  "withParachute": false
  }
 ]

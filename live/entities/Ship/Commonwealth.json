@@ -534,7 +534,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -1489,12 +1488,16 @@
     "hidePlane": false,
     "id": 4290967504,
     "index": "PBC003",
+    "isInvisible": false,
+    "launchEffectName": "particles/Empty_FX.xml",
     "linkedGunAngles": [],
     "linkedGunName": null,
     "linkedRotationSpeedCoeff": 1.0,
     "model": "content/gameplay/uk/catapult/BC003_EIIH_MK_II_53ft/BC003_EIIH_MK_II_53ft.model",
     "name": "PBC003_EIIH_MK_II_53ft",
+    "planeOffsets": {},
     "rotateTime": 1.25,
+    "translateDelay": 0.0,
     "typeinfo": {
      "nation": "United_Kingdom",
      "species": null,
@@ -3469,14 +3472,10 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_medium.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_center.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
@@ -3484,7 +3483,7 @@
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_3",
+      "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
@@ -3492,12 +3491,16 @@
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_4",
+      "HP_FX_WakeTrace_screw_3",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_4",
       "particles/vehicles/WakeTraceForward_screw_right_center.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_4",
+      "particles/vehicles/WakeTrace_screw_medium.xml"
      ]
     ]
    },
@@ -3833,6 +3836,9 @@
   "canEquipCamouflage": true,
   "custom": {
    "ASIA": {
+    "group": "premium"
+   },
+   "CN": {
     "group": "premium"
    },
    "EU": {
@@ -4398,7 +4404,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -6179,19 +6184,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small_2.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small_2.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small_2.xml"
      ]
     ]
    },
@@ -6930,7 +6935,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -9378,19 +9382,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small.xml"
      ]
     ]
    },
@@ -10685,7 +10689,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -12120,19 +12123,19 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_small.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_small.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_small.xml"
      ]
     ]
    },
@@ -13759,12 +13762,16 @@
     "hidePlane": false,
     "id": 4286773200,
     "index": "PBC007",
+    "isInvisible": false,
+    "launchEffectName": "particles/Empty_FX.xml",
     "linkedGunAngles": [],
     "linkedGunName": null,
     "linkedRotationSpeedCoeff": 1.0,
     "model": "content/gameplay/uk/catapult/BC007_Catapult/BC007_Catapult.model",
     "name": "PBC007_Catapult",
+    "planeOffsets": {},
     "rotateTime": 1.25,
+    "translateDelay": 0.0,
     "typeinfo": {
      "nation": "United_Kingdom",
      "species": null,
@@ -16583,7 +16590,6 @@
    "normalDistribution": true,
    "sigmaCount": 1.9,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -18165,14 +18171,10 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_big.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_big.xml"
      ],
      [
@@ -18180,7 +18182,7 @@
       "particles/vehicles/WakeTraceForward_screw_left_center.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_3",
+      "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_big.xml"
      ],
      [
@@ -18188,12 +18190,16 @@
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_4",
+      "HP_FX_WakeTrace_screw_3",
       "particles/vehicles/WakeTrace_screw_big.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_4",
       "particles/vehicles/WakeTraceForward_screw_right_center.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_4",
+      "particles/vehicles/WakeTrace_screw_big.xml"
      ]
     ]
    },
@@ -20224,7 +20230,6 @@
    "normalDistribution": true,
    "sigmaCount": 2.0,
    "taperDist": 4000.0,
-   "targetTypeIgnore": [],
    "targetWeightAllyAttacker": 1.0,
    "targetWeightDist": 1.0,
    "targetWeightHealth": 1.0,
@@ -21314,7 +21319,7 @@
    "deepwaterVisionCoeff": {},
    "deepwaterVisionToPlaneCoeff": {},
    "defaultCamouflage": "",
-   "dockYOffset": 0.0,
+   "dockYOffset": -0.0355,
    "draft": 11,
    "effectCauldronExplosion": "particles/Empty_FX.xml",
    "effectOnDeath": "particles/vehicles/Cruiser_death.xml",
@@ -21526,14 +21531,10 @@
      ],
      [
       "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_medium.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTraceForward_screw_left_center.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_2",
+      "HP_FX_WakeTrace_screw_1",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
@@ -21541,7 +21542,7 @@
       "particles/vehicles/WakeTraceForward_screw_left_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_3",
+      "HP_FX_WakeTrace_screw_2",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
@@ -21549,12 +21550,16 @@
       "particles/vehicles/WakeTraceForward_screw_right_side.xml"
      ],
      [
-      "HP_FX_WakeTrace_screw_4",
+      "HP_FX_WakeTrace_screw_3",
       "particles/vehicles/WakeTrace_screw_medium.xml"
      ],
      [
       "HP_FX_WakeTrace_screw_4",
       "particles/vehicles/WakeTraceForward_screw_right_center.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_4",
+      "particles/vehicles/WakeTrace_screw_medium.xml"
      ]
     ]
    },

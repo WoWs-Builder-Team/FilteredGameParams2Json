@@ -1,5 +1,72 @@
 [
  {
+  "HitLocationAirDefense": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "airdefense_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 600.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.8,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "antiAirAuraDistance": 117.0,
+  "antiAirAuraStrength": 0.159,
+  "barrelDiameter": 0.04,
+  "deadMesh": "content/gameplay/panasia/gun/aaircraft/ZGA023_40mm_Bofors_Mk2/ZGA023_40mm_Bofors_Mk2_dead.model",
+  "id": 4270843088,
+  "index": "PZGA023",
+  "model": "content/gameplay/panasia/gun/aaircraft/ZGA023_40mm_Bofors_Mk2/ZGA023_40mm_Bofors_Mk2.model",
+  "name": "PZGA023_40mm_Bofors_Mk2",
+  "numBarrels": 4,
+  "shotDelay": 5.0,
+  "shotEffect": "particles/guns/AA_shot.xml",
+  "smallGun": null,
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "AAircraft",
+   "type": "Gun"
+  }
+ },
+ {
   "HitLocationDepthCharge": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 1.0,
@@ -1619,17 +1686,17 @@
   ]
  },
  {
-  "HitLocationDepthCharge": {
+  "HitLocationTorpedo": {
    "antiRamCoeff": 1.0,
-   "armorCoeff": 1.0,
-   "autoRepairTime": 10,
-   "autoRepairTimeMin": 5,
+   "armorCoeff": 0.75,
+   "autoRepairTime": 15,
+   "autoRepairTimeMin": 15,
    "buoyancyShipPercent": 0.0,
    "burnNode": "",
-   "canBeDestroyed": false,
+   "canBeDestroyed": true,
    "critProb": [
-    0.0,
-    0.0
+    0.25,
+    0.25
    ],
    "critProbHP": [
     1.0,
@@ -1650,7 +1717,7 @@
     0.0,
     0.0
    ],
-   "hlType": "depthcharge_hitlocation",
+   "hlType": "torpedo_hitlocation",
    "maxBuoyancy": 0.0,
    "maxHP": 1200.0,
    "moduleCritCoeffCR": 0.0,
@@ -1659,7 +1726,7 @@
    "ramCoeff": 1.0,
    "ramExtraDamage": 0.0,
    "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.8,
+   "rndPartHP": 0.75,
    "splashBoxes": [],
    "tbSkipProbMax": 0.0,
    "tbSkipProbMin": 0.0,
@@ -1668,51 +1735,72 @@
    "volumeCoeff": 1.0
   },
   "ammoList": [
-   "PZPD002_Depth_Charge_BB1"
+   "PJPT001_Sea_Torpedo_Type93"
   ],
-  "canBeDestroyed": true,
+  "armor": {
+   "65580": 15.0
+  },
+  "barrelDiameter": 0.61,
+  "canRotate": true,
   "customMiscs": {},
-  "customShotSoundType": "",
-  "deadMesh": "content/gameplay/panasia/gun/dcharge/ZGB056_Depth_Charge_Thrower_BMB1/ZGB056_Depth_Charge_Thrower_BMB1_dead.model",
-  "deadZone": [],
-  "disabledNodes": [],
-  "fallRollAcceleration": 0.0,
-  "horizSector": [
-   -150.0,
-   150.0
+  "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
+  "deadMesh": "content/gameplay/panasia/gun/torpedo/ZGT075_610mm4_Type_93/ZGT075_610mm4_Type_93_dead.model",
+  "deadZone": [
+   [
+    -60.0,
+    60.0
+   ]
   ],
-  "id": 4236207312,
-  "index": "PZGB056",
+  "horizSector": [
+   -120.0,
+   120.0
+  ],
+  "id": 4215694544,
+  "index": "PZGT075",
+  "lensEffect": "",
   "mainSector": [
    -90.0,
    90.0
   ],
   "miscFilter": [],
   "miscFilterMode": false,
-  "model": "content/gameplay/panasia/gun/dcharge/ZGB056_Depth_Charge_Thrower_BMB1/ZGB056_Depth_Charge_Thrower_BMB1.model",
-  "name": "PZGB056_Depth_Charge_Thrower_BMB1",
-  "numBombs": 1,
-  "rollAngleSpeed": 85.0,
-  "rollSpeed": 0.5,
+  "model": "content/gameplay/panasia/gun/torpedo/ZGT075_610mm4_Type_93/ZGT075_610mm4_Type_93.model",
+  "name": "PZGT075_610mm4_Type_93",
+  "numAmmos": 1000,
+  "numBarrels": 4,
+  "position": [
+   0,
+   0
+  ],
+  "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
   "rotationSpeed": [
+   25.0,
+   25.0
+  ],
+  "shootSector": [
    0.0,
    0.0
   ],
-  "shootAngle": 45.0,
-  "shootDist": 3.0,
-  "shootingType": "shoot",
-  "shotEffect": "particles/guns/Ubomb_shot.xml",
-  "startFallSpeed": 0.1,
+  "shotDelay": 120.0,
+  "shotEffect": "particles/guns/torpedo.xml",
+  "shotEffectCap": "particles/Empty_FX.xml",
+  "smallGun": null,
+  "timeBetweenShots": 0.2,
+  "timeToChangeAngle": 1,
+  "timeToChangeSpeed": 1,
+  "torpedoAngles": [
+   4.8,
+   16.0
+  ],
   "typeinfo": {
    "nation": "Pan_Asia",
-   "species": "DCharge",
+   "species": "Torpedo",
    "type": "Gun"
   },
   "vertSector": [
    0.0,
-   90.0
-  ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+   1.0
+  ]
  },
  {
   "HitLocationArtillery": {
@@ -6857,6 +6945,102 @@
    "volumeCoeff": 1.0
   },
   "ammoList": [
+   "PZPD002_Depth_Charge_BB1"
+  ],
+  "canBeDestroyed": true,
+  "customMiscs": {},
+  "customShotSoundType": "",
+  "deadMesh": "content/gameplay/panasia/gun/dcharge/ZGB056_Depth_Charge_Thrower_BMB1/ZGB056_Depth_Charge_Thrower_BMB1_dead.model",
+  "deadZone": [],
+  "disabledNodes": [],
+  "fallRollAcceleration": 0.0,
+  "horizSector": [
+   -150.0,
+   150.0
+  ],
+  "id": 4236207312,
+  "index": "PZGB056",
+  "mainSector": [
+   -90.0,
+   90.0
+  ],
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/panasia/gun/dcharge/ZGB056_Depth_Charge_Thrower_BMB1/ZGB056_Depth_Charge_Thrower_BMB1.model",
+  "name": "PZGB056_Depth_Charge_Thrower_BMB1",
+  "numBombs": 1,
+  "rollAngleSpeed": 85.0,
+  "rollSpeed": 0.5,
+  "rotationSpeed": [
+   0.0,
+   0.0
+  ],
+  "shootAngle": 45.0,
+  "shootDist": 3.0,
+  "shootingType": "shoot",
+  "shotEffect": "particles/guns/Ubomb_shot.xml",
+  "startFallSpeed": 0.1,
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "DCharge",
+   "type": "Gun"
+  },
+  "vertSector": [
+   0.0,
+   90.0
+  ],
+  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+ },
+ {
+  "HitLocationDepthCharge": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": false,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "depthcharge_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 1200.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.8,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "ammoList": [
    "PZPD011_Depth_Charge"
   ],
   "canBeDestroyed": true,
@@ -8362,190 +8546,6 @@
    "volume": 0.5,
    "volumeCoeff": 1.0
   },
-  "antiAirAuraDistance": 117.0,
-  "antiAirAuraStrength": 0.159,
-  "barrelDiameter": 0.04,
-  "deadMesh": "content/gameplay/panasia/gun/aaircraft/ZGA023_40mm_Bofors_Mk2/ZGA023_40mm_Bofors_Mk2_dead.model",
-  "id": 4270843088,
-  "index": "PZGA023",
-  "model": "content/gameplay/panasia/gun/aaircraft/ZGA023_40mm_Bofors_Mk2/ZGA023_40mm_Bofors_Mk2.model",
-  "name": "PZGA023_40mm_Bofors_Mk2",
-  "numBarrels": 4,
-  "shotDelay": 5.0,
-  "shotEffect": "particles/guns/AA_shot.xml",
-  "smallGun": null,
-  "typeinfo": {
-   "nation": "Pan_Asia",
-   "species": "AAircraft",
-   "type": "Gun"
-  }
- },
- {
-  "HitLocationTorpedo": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 0.75,
-   "autoRepairTime": 15,
-   "autoRepairTimeMin": 15,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.25,
-    0.25
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "torpedo_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 1200.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.75,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
-  "ammoList": [
-   "PJPT001_Sea_Torpedo_Type93"
-  ],
-  "armor": {
-   "65580": 15.0
-  },
-  "barrelDiameter": 0.61,
-  "canRotate": true,
-  "customMiscs": {},
-  "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
-  "deadMesh": "content/gameplay/panasia/gun/torpedo/ZGT075_610mm4_Type_93/ZGT075_610mm4_Type_93_dead.model",
-  "deadZone": [
-   [
-    -60.0,
-    60.0
-   ]
-  ],
-  "horizSector": [
-   -120.0,
-   120.0
-  ],
-  "id": 4215694544,
-  "index": "PZGT075",
-  "lensEffect": "",
-  "mainSector": [
-   -90.0,
-   90.0
-  ],
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/panasia/gun/torpedo/ZGT075_610mm4_Type_93/ZGT075_610mm4_Type_93.model",
-  "name": "PZGT075_610mm4_Type_93",
-  "numAmmos": 1000,
-  "numBarrels": 4,
-  "position": [
-   0,
-   0
-  ],
-  "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
-  "rotationSpeed": [
-   25.0,
-   25.0
-  ],
-  "shootSector": [
-   0.0,
-   0.0
-  ],
-  "shotDelay": 120.0,
-  "shotEffect": "particles/guns/torpedo.xml",
-  "shotEffectCap": "particles/Empty_FX.xml",
-  "smallGun": null,
-  "timeBetweenShots": 0.2,
-  "timeToChangeAngle": 1,
-  "timeToChangeSpeed": 1,
-  "torpedoAngles": [
-   4.8,
-   16.0
-  ],
-  "typeinfo": {
-   "nation": "Pan_Asia",
-   "species": "Torpedo",
-   "type": "Gun"
-  },
-  "vertSector": [
-   0.0,
-   1.0
-  ]
- },
- {
-  "HitLocationAirDefense": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 1.0,
-   "autoRepairTime": 10,
-   "autoRepairTimeMin": 5,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.0,
-    0.0
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "airdefense_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 600.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.8,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
   "antiAirAuraDistance": 83.0,
   "antiAirAuraStrength": 0.018,
   "barrelDiameter": 0.025,
@@ -8927,6 +8927,102 @@
    -2.0,
    20.0
   ]
+ },
+ {
+  "HitLocationDepthCharge": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": false,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "depthcharge_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 1200.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.8,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "ammoList": [
+   "PZPD006_Depth_Charge"
+  ],
+  "canBeDestroyed": true,
+  "customMiscs": {},
+  "customShotSoundType": "",
+  "deadMesh": "content/gameplay/panasia/gun/dcharge/ZGB516_Depth_Charge_Thrower_skin/ZGB516_Depth_Charge_Thrower_skin_dead.model",
+  "deadZone": [],
+  "disabledNodes": [],
+  "fallRollAcceleration": 0.0,
+  "horizSector": [
+   -150.0,
+   150.0
+  ],
+  "id": 3753862352,
+  "index": "PZGB516",
+  "mainSector": [
+   -90.0,
+   90.0
+  ],
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/panasia/gun/dcharge/ZGB516_Depth_Charge_Thrower_skin/ZGB516_Depth_Charge_Thrower_skin.model",
+  "name": "PZGB516_Depth_Charge_Thrower_skin",
+  "numBombs": 2,
+  "rollAngleSpeed": 85.0,
+  "rollSpeed": 0.5,
+  "rotationSpeed": [
+   0.0,
+   0.0
+  ],
+  "shootAngle": 45.0,
+  "shootDist": 3.0,
+  "shootingType": "shoot",
+  "shotEffect": "particles/guns/Ubomb_shot.xml",
+  "startFallSpeed": 0.1,
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "DCharge",
+   "type": "Gun"
+  },
+  "vertSector": [
+   0.0,
+   90.0
+  ],
+  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
  },
  {
   "HitLocationAirDefense": {
@@ -9480,6 +9576,102 @@
   }
  },
  {
+  "HitLocationDepthCharge": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": false,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "depthcharge_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 1200.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.8,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "ammoList": [
+   "PZPD004_Depth_Charge_MK7"
+  ],
+  "canBeDestroyed": true,
+  "customMiscs": {},
+  "customShotSoundType": "",
+  "deadMesh": "content/gameplay/panasia/gun/dcharge/ZGB517_Depth_Charge_Roller_Track_skin/ZGB517_Depth_Charge_Roller_Track_skin_dead.model",
+  "deadZone": [],
+  "disabledNodes": [],
+  "fallRollAcceleration": 0.0,
+  "horizSector": [
+   -150.0,
+   150.0
+  ],
+  "id": 3752813776,
+  "index": "PZGB517",
+  "mainSector": [
+   -90.0,
+   90.0
+  ],
+  "miscFilter": [],
+  "miscFilterMode": false,
+  "model": "content/gameplay/panasia/gun/dcharge/ZGB517_Depth_Charge_Roller_Track_skin/ZGB517_Depth_Charge_Roller_Track_skin.model",
+  "name": "PZGB517_Depth_Charge_Roller_Track_skin",
+  "numBombs": 5,
+  "rollAngleSpeed": 85.0,
+  "rollSpeed": 0.5,
+  "rotationSpeed": [
+   0.0,
+   0.0
+  ],
+  "shootAngle": 45.0,
+  "shootDist": 0.01,
+  "shootingType": "slide",
+  "shotEffect": "particles/guns/Ubomb_shot.xml",
+  "startFallSpeed": 0.1,
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "DCharge",
+   "type": "Gun"
+  },
+  "vertSector": [
+   0.0,
+   90.0
+  ],
+  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+ },
+ {
   "HitLocationATBA": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 1.0,
@@ -9580,102 +9772,6 @@
    -1.0,
    90.0
   ]
- },
- {
-  "HitLocationDepthCharge": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 1.0,
-   "autoRepairTime": 10,
-   "autoRepairTimeMin": 5,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": false,
-   "critProb": [
-    0.0,
-    0.0
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "depthcharge_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 1200.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.8,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
-  "ammoList": [
-   "PZPD006_Depth_Charge"
-  ],
-  "canBeDestroyed": true,
-  "customMiscs": {},
-  "customShotSoundType": "",
-  "deadMesh": "content/gameplay/panasia/gun/dcharge/ZGB516_Depth_Charge_Thrower_skin/ZGB516_Depth_Charge_Thrower_skin_dead.model",
-  "deadZone": [],
-  "disabledNodes": [],
-  "fallRollAcceleration": 0.0,
-  "horizSector": [
-   -150.0,
-   150.0
-  ],
-  "id": 3753862352,
-  "index": "PZGB516",
-  "mainSector": [
-   -90.0,
-   90.0
-  ],
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/panasia/gun/dcharge/ZGB516_Depth_Charge_Thrower_skin/ZGB516_Depth_Charge_Thrower_skin.model",
-  "name": "PZGB516_Depth_Charge_Thrower_skin",
-  "numBombs": 2,
-  "rollAngleSpeed": 85.0,
-  "rollSpeed": 0.5,
-  "rotationSpeed": [
-   0.0,
-   0.0
-  ],
-  "shootAngle": 45.0,
-  "shootDist": 3.0,
-  "shootingType": "shoot",
-  "shotEffect": "particles/guns/Ubomb_shot.xml",
-  "startFallSpeed": 0.1,
-  "typeinfo": {
-   "nation": "Pan_Asia",
-   "species": "DCharge",
-   "type": "Gun"
-  },
-  "vertSector": [
-   0.0,
-   90.0
-  ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
  },
  {
   "HitLocationATBA": {
@@ -11290,102 +11386,6 @@
    -2.0,
    85.0
   ]
- },
- {
-  "HitLocationDepthCharge": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 1.0,
-   "autoRepairTime": 10,
-   "autoRepairTimeMin": 5,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": false,
-   "critProb": [
-    0.0,
-    0.0
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "depthcharge_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 1200.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.8,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
-  "ammoList": [
-   "PZPD004_Depth_Charge_MK7"
-  ],
-  "canBeDestroyed": true,
-  "customMiscs": {},
-  "customShotSoundType": "",
-  "deadMesh": "content/gameplay/panasia/gun/dcharge/ZGB517_Depth_Charge_Roller_Track_skin/ZGB517_Depth_Charge_Roller_Track_skin_dead.model",
-  "deadZone": [],
-  "disabledNodes": [],
-  "fallRollAcceleration": 0.0,
-  "horizSector": [
-   -150.0,
-   150.0
-  ],
-  "id": 3752813776,
-  "index": "PZGB517",
-  "mainSector": [
-   -90.0,
-   90.0
-  ],
-  "miscFilter": [],
-  "miscFilterMode": false,
-  "model": "content/gameplay/panasia/gun/dcharge/ZGB517_Depth_Charge_Roller_Track_skin/ZGB517_Depth_Charge_Roller_Track_skin.model",
-  "name": "PZGB517_Depth_Charge_Roller_Track_skin",
-  "numBombs": 5,
-  "rollAngleSpeed": 85.0,
-  "rollSpeed": 0.5,
-  "rotationSpeed": [
-   0.0,
-   0.0
-  ],
-  "shootAngle": 45.0,
-  "shootDist": 0.01,
-  "shootingType": "slide",
-  "shotEffect": "particles/guns/Ubomb_shot.xml",
-  "startFallSpeed": 0.1,
-  "typeinfo": {
-   "nation": "Pan_Asia",
-   "species": "DCharge",
-   "type": "Gun"
-  },
-  "vertSector": [
-   0.0,
-   90.0
-  ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
  },
  {
   "HitLocationDepthCharge": {

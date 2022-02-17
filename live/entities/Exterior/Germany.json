@@ -1,305 +1,5 @@
 [
  {
-  "camouflage": "Black_friday",
-  "canBuy": false,
-  "canCharge": true,
-  "canSell": false,
-  "costCR": -1,
-  "costGold": 5000,
-  "custom": {},
-  "effects": {
-   "A_Hull": {
-    "death": [
-     [
-      "HP_FX_Death_1",
-      "particles/vehicles/Death_foam_medium.xml"
-     ],
-     [
-      "HP_FX_Death_2",
-      "particles/vehicles/Death_foam_medium.xml"
-     ],
-     [
-      "HP_FX_Death_3",
-      "particles/vehicles/Death_foam_medium.xml"
-     ]
-    ],
-    "fire1": [
-     [
-      "HP_FX_Fire_1",
-      "particles/vehicles/Fire_medium.xml"
-     ]
-    ],
-    "fire2": [
-     [
-      "HP_FX_Fire_2",
-      "particles/vehicles/Fire_medium.xml"
-     ],
-     [
-      "HP_FX_Fire_2_side_1",
-      "particles/vehicles/Fire_side_medium.xml"
-     ],
-     [
-      "HP_FX_Fire_2_side_2",
-      "particles/vehicles/Fire_side_medium.xml"
-     ]
-    ],
-    "fire3": [
-     [
-      "HP_FX_Fire_3",
-      "particles/vehicles/Fire_medium_2.xml"
-     ],
-     [
-      "HP_FX_Fire_3_side_1",
-      "particles/vehicles/Fire_side_medium.xml"
-     ],
-     [
-      "HP_FX_Fire_3_side_2",
-      "particles/vehicles/Fire_side_medium.xml"
-     ]
-    ],
-    "fire4": [
-     [
-      "HP_FX_Fire_4",
-      "particles/vehicles/Fire_medium_2.xml"
-     ]
-    ],
-    "fireResistance": [],
-    "fixDeluge": [],
-    "fixLight": [
-     [
-      "HP_FX_FloodLight_left_1",
-      "particles/vehicles/FixLight_medium.xml"
-     ],
-     [
-      "HP_FX_FloodLight_left_2",
-      "particles/vehicles/FixLight_medium.xml"
-     ],
-     [
-      "HP_FX_FloodLight_right_1",
-      "particles/vehicles/FixLight_medium.xml"
-     ],
-     [
-      "HP_FX_FloodLight_right_2",
-      "particles/vehicles/FixLight_medium.xml"
-     ]
-    ],
-    "flood": [
-     [
-      "HP_FX_Flood_steam_1",
-      "particles/vehicles/Flood_steam_medium.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_2",
-      "particles/vehicles/Flood_steam_exhaust_big.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_2",
-      "particles/vehicles/Flood_steam_exhaust_big_delayed.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_2",
-      "particles/vehicles/Flood_steam_medium.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_3",
-      "particles/vehicles/Flood_steam_medium.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_left",
-      "particles/vehicles/Flood_steam_side_small.xml"
-     ],
-     [
-      "HP_FX_Flood_steam_right",
-      "particles/vehicles/Flood_steam_side_small.xml"
-     ]
-    ],
-    "floodLight": [
-     [
-      "HP_FX_FloodLight_left_1",
-      "particles/vehicles/FloodLight_medium.xml"
-     ],
-     [
-      "HP_FX_FloodLight_left_2",
-      "particles/vehicles/FloodLight_medium.xml"
-     ],
-     [
-      "HP_FX_FloodLight_right_1",
-      "particles/vehicles/FloodLight_medium.xml"
-     ],
-     [
-      "HP_FX_FloodLight_right_2",
-      "particles/vehicles/FloodLight_medium.xml"
-     ]
-    ],
-    "horn": [
-     [
-      "HP_FX_Smoke_1",
-      "particles/vehicles/Horn.xml"
-     ]
-    ],
-    "idle": [],
-    "idlePort": [
-     [
-      "HP_FX_Smoke_1",
-      "particles/vehicles/idlePort_RunSmoke_medium.xml"
-     ],
-     [
-      "HP_FX_Smoke_2",
-      "particles/vehicles/idlePort_RunSmoke_medium.xml"
-     ]
-    ],
-    "repairLight": [],
-    "smoke": [
-     [
-      "HP_FX_Smoke_1",
-      "particles/vehicles/RunSmoke_medium.xml"
-     ],
-     [
-      "HP_FX_Smoke_2",
-      "particles/vehicles/RunSmoke_medium.xml"
-     ]
-    ],
-    "waketraceback": [
-     [
-      "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceReverce_back.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTraceReverce_screw_medium.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_2",
-      "particles/vehicles/WakeTraceReverce_screw_medium.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_3",
-      "particles/vehicles/WakeTraceReverce_screw_medium.xml"
-     ]
-    ],
-    "waketracefront": [
-     [
-      "HP_FX_WakeTrace",
-      "particles/vehicles/WakeTraceForward_front.xml"
-     ],
-     [
-      "HP_FX_WakeTraceBack",
-      "particles/vehicles/WakeTraceForward_back.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_1",
-      "particles/vehicles/WakeTrace_screw_medium.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_2",
-      "particles/vehicles/WakeTraceForward_screw_mid.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_2",
-      "particles/vehicles/WakeTrace_screw_medium.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_3",
-      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
-     ],
-     [
-      "HP_FX_WakeTrace_screw_3",
-      "particles/vehicles/WakeTrace_screw_medium.xml"
-     ]
-    ]
-   }
-  },
-  "hidden": true,
-  "hullConfig": {
-   "A_Hull": {
-    "caps": {},
-    "customMiscs": {},
-    "model": "content/gameplay/germany/ship/cruiser/GSC035_Mainz_WH_BlackTemplar/GSC035_Mainz_WH_BlackTemplar.model"
-   }
-  },
-  "id": 3874942768,
-  "index": "PGES400",
-  "modifiers": {
-   "afterBattleRepair": 0.9,
-   "expFactor": 1.5,
-   "shootShift": 1.04,
-   "visibilityFactor": 0.97
-  },
-  "name": "PGES400_CROSS_OF_SIGISMUND",
-  "nodesConfig": {
-   "A1_Artillery": {
-    "HP_GGM_1": {
-     "deadMesh": "content/gameplay/germany/gun/main/GGM339_149mm60_DrhTr_C25_WH40k/GGM339_149mm60_DrhTr_C25_WH40k_dead.model",
-     "filterMode": false,
-     "miscFilter": [
-      "MP_GM315_Cross_Gun_WH40k",
-      "MP_GM315_Cross_Gun_WH40k_INDEX_1"
-     ],
-     "model": "content/gameplay/germany/gun/main/GGM339_149mm60_DrhTr_C25_WH40k/GGM339_149mm60_DrhTr_C25_WH40k.model"
-    },
-    "HP_GGM_2": {
-     "deadMesh": "content/gameplay/germany/gun/main/GGM339_149mm60_DrhTr_C25_WH40k/GGM339_149mm60_DrhTr_C25_WH40k_dead.model",
-     "filterMode": false,
-     "miscFilter": [
-      "MP_GM316_Gun_Deck_WH40k",
-      "MP_GM315_Cross_Gun_WH40k",
-      "MP_GM315_Cross_Gun_WH40k_INDEX_1"
-     ],
-     "model": "content/gameplay/germany/gun/main/GGM339_149mm60_DrhTr_C25_WH40k/GGM339_149mm60_DrhTr_C25_WH40k.model"
-    },
-    "HP_GGM_3": {
-     "deadMesh": "content/gameplay/germany/gun/main/GGM339_149mm60_DrhTr_C25_WH40k/GGM339_149mm60_DrhTr_C25_WH40k_dead.model",
-     "filterMode": false,
-     "miscFilter": [
-      "MP_GM316_Gun_Deck_WH40k",
-      "MP_GM315_Cross_Gun_WH40k",
-      "MP_GM315_Cross_Gun_WH40k_INDEX_1"
-     ],
-     "model": "content/gameplay/germany/gun/main/GGM339_149mm60_DrhTr_C25_WH40k/GGM339_149mm60_DrhTr_C25_WH40k.model"
-    },
-    "HP_GGM_4": {
-     "deadMesh": "content/gameplay/germany/gun/main/GGM339_149mm60_DrhTr_C25_WH40k/GGM339_149mm60_DrhTr_C25_WH40k_dead.model",
-     "filterMode": false,
-     "miscFilter": [
-      "MP_GM315_Cross_Gun_WH40k",
-      "MP_GM315_Cross_Gun_WH40k_INDEX_1"
-     ],
-     "model": "content/gameplay/germany/gun/main/GGM339_149mm60_DrhTr_C25_WH40k/GGM339_149mm60_DrhTr_C25_WH40k.model"
-    }
-   }
-  },
-  "parts": [
-   0,
-   1,
-   2,
-   3
-  ],
-  "peculiarity": "warhammer",
-  "peculiarityEffects": {},
-  "peculiarityFlag": "wh40k",
-  "peculiarityModels": {},
-  "restrictions": {
-   "forbiddenShips": [],
-   "levels": [],
-   "nations": [],
-   "specificShips": [],
-   "subtype": []
-  },
-  "sortOrder": 2147483647,
-  "tags": [],
-  "typeinfo": {
-   "nation": "Germany",
-   "species": "Skin",
-   "type": "Exterior"
-  },
-  "unpeculiarCamouflage": "camo_permanent_1",
-  "unpeculiarCamouflageColorSchemeId": 0
- },
- {
   "camouflage": "camo_GermanArc_2020",
   "canBuy": false,
   "canCharge": true,
@@ -700,6 +400,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -1271,6 +972,7 @@
    "content/gameplay/germany/projectile/depthcharge/GPD001_Depth_Charge/GPD001_Depth_Charge.model": "content/gameplay/germany/projectile/depthcharge/GPD007_Depth_Charge_Space_LOGH/GPD007_Depth_Charge_Space_LOGH.model",
    "content/gameplay/germany/projectile/depthcharge/GPD002_Depth_Charge/GPD002_Depth_Charge.model": "content/gameplay/germany/projectile/depthcharge/GPD006_Depth_Charge_Space_LOGH/GPD006_Depth_Charge_Space_LOGH.model"
   },
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -1560,6 +1262,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -2222,6 +1925,7 @@
    "content/gameplay/germany/gun/torpedo/GGT015_533mm_Torpedo_Tubes_Triple/GGT015_533mm_Torpedo_Tubes_Triple_dead.model": "content/gameplay/germany/gun/torpedo/GGT313_533mm_Torpedo_Tubes_Triple_Azur/GGT313_533mm_Torpedo_Tubes_Triple_Azur_dead.model",
    "content/gameplay/germany/ship/cruiser/GSC004_Hipper_1943/GSC004_Hipper_1943.model": "content/gameplay/germany/ship/cruiser/GSC024_Hipper_Azure_1943/GSC024_Hipper_Azure_1943.model"
   },
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -2819,6 +2523,7 @@
    "content/gameplay/germany/projectile/torpedo/GPT001_Torpedo_533/GPT001_Torpedo_533.model": "content/gameplay/events/projectile/torpedo/XPT006_Torpedo_Good_1/XPT006_Torpedo_Good_1.model",
    "content/gameplay/germany/ship/battleship/GSB002_Tirpiz_1942/GSB002_Tirpiz_1942.model": "content/gameplay/events/ship/battleship/XSB005_Klaus_V_Teslau/XSB005_Klaus_V_Teslau.model"
   },
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -3120,6 +2825,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -3660,6 +3366,7 @@
    "content/gameplay/germany/projectile/torpedo/GPT001_Torpedo_533/GPT001_Torpedo_533.model": "content/gameplay/germany/projectile/torpedo/GPT005_Torpedo_Space/GPT005_Torpedo_Space.model",
    "content/gameplay/germany/ship/cruiser/GSC015_Hindenburg_1945/GSC015_Hindenburg_1945.model": "content/gameplay/germany/ship/cruiser/GSC502_Hindenburg_space/GSC502_Hindenburg_space.model"
   },
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -4272,6 +3979,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -5074,6 +4782,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -5739,6 +5448,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -6030,6 +5740,7 @@
    "content/gameplay/germany/projectile/torpedo/GPT001_Torpedo_533/GPT001_Torpedo_533.model": "content/gameplay/germany/projectile/torpedo/GPT005_Torpedo_Space/GPT005_Torpedo_Space.model",
    "content/gameplay/germany/ship/destroyer/GSD009_Z52_1945/GSD009_Z52_1945.model": "content/gameplay/germany/ship/destroyer/GSD017_Z52_Space2018/GSD017_Z52_Space2018.model"
   },
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -6471,6 +6182,7 @@
    "content/gameplay/germany/gun/secondary/GGS003_105_mm_SKC_33/GGS003_105_mm_SKC_33.model": "content/gameplay/germany/gun/secondary/GGS557_105_mm_SKC_33/GGS557_105_mm_SKC_33.model",
    "content/gameplay/germany/gun/secondary/GGS003_105_mm_SKC_33/GGS003_105_mm_SKC_33_dead.model": "content/gameplay/germany/gun/secondary/GGS557_105_mm_SKC_33/GGS557_105_mm_SKC_33_dead.model"
   },
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -6994,6 +6706,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -7603,6 +7316,7 @@
   "peculiarityModels": {
    "content/gameplay/germany/ship/destroyer/GSD011_Z23_1945/GSD011_Z23_1945.model": "content/gameplay/germany/ship/destroyer/GSD016_Z23_1945_Birthday/GSD016_Z23_1945_Birthday.model"
   },
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -8085,6 +7799,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -8103,6 +7818,44 @@
   },
   "unpeculiarCamouflage": "camo_permanent_1",
   "unpeculiarCamouflageColorSchemeId": 0
+ },
+ {
+  "camouflage": "camo_permanent_2",
+  "canBuy": false,
+  "canCharge": false,
+  "canSell": false,
+  "costCR": -1,
+  "costGold": 1000,
+  "custom": {},
+  "hidden": true,
+  "id": 3971510064,
+  "index": "PGEP308",
+  "modifiers": {
+   "afterBattleRepair": 0.9,
+   "expFactor": 1.5,
+   "shootShift": 1.04,
+   "visibilityFactor": 0.97
+  },
+  "name": "PGEP308_Emden_Germany",
+  "parts": [
+   0,
+   1,
+   2
+  ],
+  "restrictions": {
+   "forbiddenShips": [],
+   "levels": [],
+   "nations": [],
+   "specificShips": [],
+   "subtype": []
+  },
+  "sortOrder": 2147483647,
+  "tags": [],
+  "typeinfo": {
+   "nation": "Germany",
+   "species": "Permoflage",
+   "type": "Exterior"
+  }
  },
  {
   "camouflage": "camo_NewYear2021",
@@ -8729,6 +8482,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -9506,6 +9260,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -9864,6 +9619,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -10559,6 +10315,16 @@
    "RM491",
    "RM496",
    "RM497",
+   "RM281",
+   "RM284",
+   "RM288",
+   "RM289",
+   "RM017",
+   "RM317",
+   "RM311",
+   "RM282",
+   "RM257",
+   "RM300",
    "RM264",
    "RM302",
    "RM303",
@@ -10578,8 +10344,11 @@
    "RM299",
    "RM338",
    "RM351",
-   "RM203",
    "RM267",
+   "RM295",
+   "RM214",
+   "CM011",
+   "RM203",
    "RM094",
    "RM106",
    "RM173",
@@ -10679,6 +10448,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "renderSetsStates": {
    "@Bow_wire": true,
    "@MidBack_wire": true,
@@ -11340,6 +11110,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -11359,47 +11130,6 @@
   },
   "unpeculiarCamouflage": "camo_permanent_1",
   "unpeculiarCamouflageColorSchemeId": 0
- },
- {
-  "camouflage": "camo_permanent_1",
-  "canBuy": false,
-  "canCharge": false,
-  "canSell": false,
-  "costCR": -1,
-  "costGold": 2000,
-  "custom": {},
-  "hidden": true,
-  "id": 3845680944,
-  "index": "PGEP428",
-  "modifiers": {
-   "afterBattleRepair": 0.9,
-   "crewExpFactor": 1.5,
-   "expFactor": 1.5,
-   "shootShift": 1.04,
-   "visibilityFactor": 0.97
-  },
-  "name": "PGEP428_Prinz_Eugen",
-  "parts": [
-   0,
-   1,
-   2
-  ],
-  "restrictions": {
-   "forbiddenShips": [],
-   "levels": [],
-   "nations": [],
-   "specificShips": [],
-   "subtype": []
-  },
-  "sortOrder": 2147483647,
-  "tags": [
-   "catalogueHidden"
-  ],
-  "typeinfo": {
-   "nation": "Germany",
-   "species": "Permoflage",
-   "type": "Exterior"
-  }
  },
  {
   "camouflage": "",
@@ -12136,6 +11866,7 @@
    "content/gameplay/germany/gun/secondary/GGS004_105_mm_SKC_37/GGS004_105_mm_SKC_37_dead.model": "content/gameplay/germany/gun/secondary/GGS509_105mm_SKC_37_Nolan/GGS509_105mm_SKC_37_Nolan_dead.model",
    "content/gameplay/germany/ship/battleship/GSB001_Bismarck_1941/GSB001_Bismarck_1941.model": "content/gameplay/germany/ship/battleship/GSB019_Bismarck_Nolan/GSB019_Bismarck_Nolan.model"
   },
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -13024,6 +12755,7 @@
    "content/gameplay/germany/aircraft/scout/GAS001_Ar196/GAS001_Ar196.model": "content/gameplay/events/aircraft/scout/XAS002_evil_float/XAS002_evil_float.model",
    "content/gameplay/germany/ship/battleship/GSB001_Bismarck_1941/GSB001_Bismarck_1941.model": "content/gameplay/events/ship/battleship/XSB004_Kurtz/XSB004_Kurtz.model"
   },
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -13432,6 +13164,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -13814,6 +13547,7 @@
    "content/gameplay/germany/gun/aaircraft/GGA043_37mm_Flak_M42_Zwilling/GGA043_37mm_Flak_M42_Zwilling.model": "content/gameplay/events/gun/aaircraft/XGA119_37mm_Flak_M42_Zwilling_PostAp/XGA119_37mm_Flak_M42_Zwilling_PostAp.model",
    "content/gameplay/germany/gun/aaircraft/GGA043_37mm_Flak_M42_Zwilling/GGA043_37mm_Flak_M42_Zwilling_dead.model": "content/gameplay/events/gun/aaircraft/XGA119_37mm_Flak_M42_Zwilling_PostAp/XGA119_37mm_Flak_M42_Zwilling_PostAp_dead.model"
   },
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -14508,6 +14242,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -14987,6 +14722,7 @@
    "content/gameplay/germany/gun/secondary/GGS106_127mm_KC_40/GGS106_127mm_KC_40_dead.model": "content/gameplay/germany/gun/main/GGM305_127mm_KC_40_Space/GGM305_127mm_KC_40_Space_dead.model",
    "content/gameplay/germany/ship/battleship/GSB006_Grossdeutschland_1945/GSB006_Grossdeutschland_1945.model": "content/gameplay/germany/ship/battleship/GSB023_Grosser_Kurfurst_Space/GSB023_Grosser_Kurfurst_Space.model"
   },
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -15569,6 +15305,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -16041,6 +15778,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -16481,6 +16219,7 @@
    "content/gameplay/germany/gun/aaircraft/GGA043_37mm_Flak_M42_Zwilling/GGA043_37mm_Flak_M42_Zwilling.model": "content/gameplay/germany/gun/aaircraft/GGA571_37mm_Flak_M42_twin_LOGH/GGA571_37mm_Flak_M42_twin_LOGH.model",
    "content/gameplay/germany/gun/aaircraft/GGA043_37mm_Flak_M42_Zwilling/GGA043_37mm_Flak_M42_Zwilling_dead.model": "content/gameplay/germany/gun/aaircraft/GGA571_37mm_Flak_M42_twin_LOGH/GGA571_37mm_Flak_M42_twin_LOGH_dead.model"
   },
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -16950,6 +16689,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -17462,6 +17202,308 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
+  "restrictions": {
+   "forbiddenShips": [],
+   "levels": [],
+   "nations": [],
+   "specificShips": [],
+   "subtype": []
+  },
+  "sortOrder": 2147483647,
+  "tags": [],
+  "typeinfo": {
+   "nation": "Germany",
+   "species": "Skin",
+   "type": "Exterior"
+  },
+  "unpeculiarCamouflage": "camo_permanent_1",
+  "unpeculiarCamouflageColorSchemeId": 0
+ },
+ {
+  "camouflage": "Black_friday",
+  "canBuy": false,
+  "canCharge": true,
+  "canSell": false,
+  "costCR": -1,
+  "costGold": 5000,
+  "custom": {},
+  "effects": {
+   "A_Hull": {
+    "death": [
+     [
+      "HP_FX_Death_1",
+      "particles/vehicles/Death_foam_medium.xml"
+     ],
+     [
+      "HP_FX_Death_2",
+      "particles/vehicles/Death_foam_medium.xml"
+     ],
+     [
+      "HP_FX_Death_3",
+      "particles/vehicles/Death_foam_medium.xml"
+     ]
+    ],
+    "fire1": [
+     [
+      "HP_FX_Fire_1",
+      "particles/vehicles/Fire_medium.xml"
+     ]
+    ],
+    "fire2": [
+     [
+      "HP_FX_Fire_2",
+      "particles/vehicles/Fire_medium.xml"
+     ],
+     [
+      "HP_FX_Fire_2_side_1",
+      "particles/vehicles/Fire_side_medium.xml"
+     ],
+     [
+      "HP_FX_Fire_2_side_2",
+      "particles/vehicles/Fire_side_medium.xml"
+     ]
+    ],
+    "fire3": [
+     [
+      "HP_FX_Fire_3",
+      "particles/vehicles/Fire_medium_2.xml"
+     ],
+     [
+      "HP_FX_Fire_3_side_1",
+      "particles/vehicles/Fire_side_medium.xml"
+     ],
+     [
+      "HP_FX_Fire_3_side_2",
+      "particles/vehicles/Fire_side_medium.xml"
+     ]
+    ],
+    "fire4": [
+     [
+      "HP_FX_Fire_4",
+      "particles/vehicles/Fire_medium_2.xml"
+     ]
+    ],
+    "fireResistance": [],
+    "fixDeluge": [],
+    "fixLight": [
+     [
+      "HP_FX_FloodLight_left_1",
+      "particles/vehicles/FixLight_medium.xml"
+     ],
+     [
+      "HP_FX_FloodLight_left_2",
+      "particles/vehicles/FixLight_medium.xml"
+     ],
+     [
+      "HP_FX_FloodLight_right_1",
+      "particles/vehicles/FixLight_medium.xml"
+     ],
+     [
+      "HP_FX_FloodLight_right_2",
+      "particles/vehicles/FixLight_medium.xml"
+     ]
+    ],
+    "flood": [
+     [
+      "HP_FX_Flood_steam_1",
+      "particles/vehicles/Flood_steam_medium.xml"
+     ],
+     [
+      "HP_FX_Flood_steam_2",
+      "particles/vehicles/Flood_steam_exhaust_big.xml"
+     ],
+     [
+      "HP_FX_Flood_steam_2",
+      "particles/vehicles/Flood_steam_exhaust_big_delayed.xml"
+     ],
+     [
+      "HP_FX_Flood_steam_2",
+      "particles/vehicles/Flood_steam_medium.xml"
+     ],
+     [
+      "HP_FX_Flood_steam_3",
+      "particles/vehicles/Flood_steam_medium.xml"
+     ],
+     [
+      "HP_FX_Flood_steam_left",
+      "particles/vehicles/Flood_steam_side_small.xml"
+     ],
+     [
+      "HP_FX_Flood_steam_right",
+      "particles/vehicles/Flood_steam_side_small.xml"
+     ]
+    ],
+    "floodLight": [
+     [
+      "HP_FX_FloodLight_left_1",
+      "particles/vehicles/FloodLight_medium.xml"
+     ],
+     [
+      "HP_FX_FloodLight_left_2",
+      "particles/vehicles/FloodLight_medium.xml"
+     ],
+     [
+      "HP_FX_FloodLight_right_1",
+      "particles/vehicles/FloodLight_medium.xml"
+     ],
+     [
+      "HP_FX_FloodLight_right_2",
+      "particles/vehicles/FloodLight_medium.xml"
+     ]
+    ],
+    "horn": [
+     [
+      "HP_FX_Smoke_1",
+      "particles/vehicles/Horn.xml"
+     ]
+    ],
+    "idle": [],
+    "idlePort": [
+     [
+      "HP_FX_Smoke_1",
+      "particles/vehicles/idlePort_RunSmoke_medium.xml"
+     ],
+     [
+      "HP_FX_Smoke_2",
+      "particles/vehicles/idlePort_RunSmoke_medium.xml"
+     ]
+    ],
+    "repairLight": [],
+    "smoke": [
+     [
+      "HP_FX_Smoke_1",
+      "particles/vehicles/RunSmoke_medium.xml"
+     ],
+     [
+      "HP_FX_Smoke_2",
+      "particles/vehicles/RunSmoke_medium.xml"
+     ]
+    ],
+    "waketraceback": [
+     [
+      "HP_FX_WakeTraceBack",
+      "particles/vehicles/WakeTraceReverce_back.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceReverce_screw_medium.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceReverce_screw_medium.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_3",
+      "particles/vehicles/WakeTraceReverce_screw_medium.xml"
+     ]
+    ],
+    "waketracefront": [
+     [
+      "HP_FX_WakeTrace",
+      "particles/vehicles/WakeTraceForward_front.xml"
+     ],
+     [
+      "HP_FX_WakeTraceBack",
+      "particles/vehicles/WakeTraceForward_back.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_1",
+      "particles/vehicles/WakeTrace_screw_medium.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTraceForward_screw_mid.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_2",
+      "particles/vehicles/WakeTrace_screw_medium.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_3",
+      "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+     ],
+     [
+      "HP_FX_WakeTrace_screw_3",
+      "particles/vehicles/WakeTrace_screw_medium.xml"
+     ]
+    ]
+   }
+  },
+  "hidden": true,
+  "hullConfig": {
+   "A_Hull": {
+    "caps": {},
+    "customMiscs": {},
+    "model": "content/gameplay/germany/ship/cruiser/GSC035_Mainz_WH_BlackTemplar/GSC035_Mainz_WH_BlackTemplar.model"
+   }
+  },
+  "id": 3874942768,
+  "index": "PGES400",
+  "modifiers": {
+   "afterBattleRepair": 0.9,
+   "expFactor": 1.5,
+   "shootShift": 1.04,
+   "visibilityFactor": 0.97
+  },
+  "name": "PGES400_CROSS_OF_SIGISMUND",
+  "nodesConfig": {
+   "A1_Artillery": {
+    "HP_GGM_1": {
+     "deadMesh": "content/gameplay/germany/gun/main/GGM339_149mm60_DrhTr_C25_WH40k/GGM339_149mm60_DrhTr_C25_WH40k_dead.model",
+     "filterMode": false,
+     "miscFilter": [
+      "MP_GM315_Cross_Gun_WH40k",
+      "MP_GM315_Cross_Gun_WH40k_INDEX_1"
+     ],
+     "model": "content/gameplay/germany/gun/main/GGM339_149mm60_DrhTr_C25_WH40k/GGM339_149mm60_DrhTr_C25_WH40k.model"
+    },
+    "HP_GGM_2": {
+     "deadMesh": "content/gameplay/germany/gun/main/GGM339_149mm60_DrhTr_C25_WH40k/GGM339_149mm60_DrhTr_C25_WH40k_dead.model",
+     "filterMode": false,
+     "miscFilter": [
+      "MP_GM316_Gun_Deck_WH40k",
+      "MP_GM315_Cross_Gun_WH40k",
+      "MP_GM315_Cross_Gun_WH40k_INDEX_1"
+     ],
+     "model": "content/gameplay/germany/gun/main/GGM339_149mm60_DrhTr_C25_WH40k/GGM339_149mm60_DrhTr_C25_WH40k.model"
+    },
+    "HP_GGM_3": {
+     "deadMesh": "content/gameplay/germany/gun/main/GGM339_149mm60_DrhTr_C25_WH40k/GGM339_149mm60_DrhTr_C25_WH40k_dead.model",
+     "filterMode": false,
+     "miscFilter": [
+      "MP_GM316_Gun_Deck_WH40k",
+      "MP_GM315_Cross_Gun_WH40k",
+      "MP_GM315_Cross_Gun_WH40k_INDEX_1"
+     ],
+     "model": "content/gameplay/germany/gun/main/GGM339_149mm60_DrhTr_C25_WH40k/GGM339_149mm60_DrhTr_C25_WH40k.model"
+    },
+    "HP_GGM_4": {
+     "deadMesh": "content/gameplay/germany/gun/main/GGM339_149mm60_DrhTr_C25_WH40k/GGM339_149mm60_DrhTr_C25_WH40k_dead.model",
+     "filterMode": false,
+     "miscFilter": [
+      "MP_GM315_Cross_Gun_WH40k",
+      "MP_GM315_Cross_Gun_WH40k_INDEX_1"
+     ],
+     "model": "content/gameplay/germany/gun/main/GGM339_149mm60_DrhTr_C25_WH40k/GGM339_149mm60_DrhTr_C25_WH40k.model"
+    }
+   }
+  },
+  "parts": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "peculiarity": "warhammer",
+  "peculiarityEffects": {},
+  "peculiarityFlag": "wh40k",
+  "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -17513,44 +17555,6 @@
   "tags": [
    "catalogueHidden"
   ],
-  "typeinfo": {
-   "nation": "Germany",
-   "species": "Permoflage",
-   "type": "Exterior"
-  }
- },
- {
-  "camouflage": "camo_permanent_2",
-  "canBuy": false,
-  "canCharge": false,
-  "canSell": false,
-  "costCR": -1,
-  "costGold": 1000,
-  "custom": {},
-  "hidden": true,
-  "id": 3971510064,
-  "index": "PGEP308",
-  "modifiers": {
-   "afterBattleRepair": 0.9,
-   "expFactor": 1.5,
-   "shootShift": 1.04,
-   "visibilityFactor": 0.97
-  },
-  "name": "PGEP308_Emden_Germany",
-  "parts": [
-   0,
-   1,
-   2
-  ],
-  "restrictions": {
-   "forbiddenShips": [],
-   "levels": [],
-   "nations": [],
-   "specificShips": [],
-   "subtype": []
-  },
-  "sortOrder": 2147483647,
-  "tags": [],
   "typeinfo": {
    "nation": "Germany",
    "species": "Permoflage",
@@ -18137,6 +18141,7 @@
    "content/gameplay/germany/gun/aaircraft/GGA009_37mm_SKC_30_twin/GGA009_37mm_SKC_30_twin_dead.model": "content/gameplay/germany/gun/aaircraft/GGA518_37mm_SKC_30_twin_Ice/GGA518_37mm_SKC_30_twin_Ice_dead.model",
    "content/gameplay/germany/ship/battleship/GSB003_Scharnhorst_1939/GSB003_Scharnhorst_1939.model": "content/gameplay/germany/ship/battleship/GSB022_Scharnhorst_frost/GSB022_Scharnhorst_frost.model"
   },
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -18245,6 +18250,7 @@
    "content/gameplay/usa/gun/secondary/AGS038_5in38_Mk30_Mod1/AGS038_5in38_Mk30_Mod1_dead.model": "content/gameplay/usa/gun/secondary/AGS558_5in38_Mk30_Mod1_black/AGS558_5in38_Mk30_Mod1_black_dead.model",
    "content/gameplay/usa/gun/secondary/AGS136_5in38_Mk30_Mod1/AGS136_5in38_Mk30_Mod1.model": "content/gameplay/usa/gun/secondary/AGS558_5in38_Mk30_Mod1_black/AGS558_5in38_Mk30_Mod1_black.model"
   },
+  "planesConfig": {},
   "renderSetsStates": {
    "@Bow_wire": true,
    "@MidBack_wire": true,
@@ -18831,6 +18837,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -19234,6 +19241,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -19600,6 +19608,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -19700,6 +19709,7 @@
    "content/gameplay/germany/gun/secondary/GGS002_150mm_SKC_28_RF/GGS002_150mm_SKC_28_RF.model": "content/gameplay/germany/gun/secondary/GGS306_150mm_SKC28_RF_Space/GGS306_150mm_SKC28_RF_Space.model",
    "content/gameplay/germany/ship/battleship/GSB006_Grossdeutschland_1945/GSB006_Grossdeutschland_1945.model": "content/gameplay/germany/ship/battleship/GSB023_Grosser_Kurfurst_Space/GSB023_Grosser_Kurfurst_Space.model"
   },
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -19851,6 +19861,7 @@
    "content/gameplay/usa/gun/secondary/AGS038_5in38_Mk30_Mod1/AGS038_5in38_Mk30_Mod1_dead.model": "content/gameplay/usa/gun/secondary/AGS558_5in38_Mk30_Mod1_black/AGS558_5in38_Mk30_Mod1_black_dead.model",
    "content/gameplay/usa/gun/secondary/AGS136_5in38_Mk30_Mod1/AGS136_5in38_Mk30_Mod1.model": "content/gameplay/usa/gun/secondary/AGS558_5in38_Mk30_Mod1_black/AGS558_5in38_Mk30_Mod1_black.model"
   },
+  "planesConfig": {},
   "renderSetsStates": {
    "@Bow_wire": true,
    "@MidBack_wire": true,
@@ -20256,6 +20267,7 @@
    "content/gameplay/germany/gun/secondary/GGS049_150mm_SK_L45_C06/GGS049_150mm_SK_L45_C06.model": "content/gameplay/germany/gun/secondary/GGS559_150mm_SK_L45_C06_Jutland/GGS559_150mm_SK_L45_C06_Jutland.model",
    "content/gameplay/germany/gun/secondary/GGS049_150mm_SK_L45_C06/GGS049_150mm_SK_L45_C06_dead.model": "content/gameplay/germany/gun/secondary/GGS559_150mm_SK_L45_C06_Jutland/GGS559_150mm_SK_L45_C06_Jutland_dead.model"
   },
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -20516,6 +20528,7 @@
    "content/gameplay/germany/finder/GF052_10_5m_Rangefinder/GF052_10_5m_Rangefinder.model": "content/gameplay/germany/finder/GF051_10_5m_Rangefinder/GF051_10_5m_Rangefinder.model",
    "content/gameplay/germany/ship/cruiser/GSC023_Graf_Spee_1939/GSC023_Graf_Spee_1939.model": "content/gameplay/germany/ship/cruiser/GSC501_Graf_Spee_HSF_1939/GSC501_Graf_Spee_HSF_1939.model"
   },
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -21223,6 +21236,7 @@
    "content/gameplay/germany/gun/secondary/GGS002_150mm_SKC_28_RF/GGS002_150mm_SKC_28_RF_dead.model": "content/gameplay/germany/gun/secondary/GGS511_150mm_SKC_28_RF_Bismarck/GGS511_150mm_SKC_28_RF_Bismarck_dead.model",
    "content/gameplay/germany/ship/battleship/GSB001_Bismarck_1941/GSB001_Bismarck_1941.model": "content/gameplay/germany/ship/battleship/GSB020_Bismarck_Nolan_Clean/GSB020_Bismarck_Nolan_Clean.model"
   },
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -21989,6 +22003,7 @@
    "content/gameplay/germany/gun/aaircraft/GGA050_20mm_Flak_38/GGA050_20mm_Flak_38_dead.model": "content/gameplay/germany/gun/aaircraft/GGA318_Flak_38_twin/GGA318_Flak_38_twin_dead.model",
    "content/gameplay/germany/projectile/torpedo/GPT001_Torpedo_533/GPT001_Torpedo_533.model": "content/gameplay/events/projectile/torpedo/XPT003_Torpedo_Evil/XPT003_Torpedo_Evil.model"
   },
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -22548,6 +22563,7 @@
    "content/gameplay/germany/gun/aaircraft/GGA009_37mm_SKC_30_twin/GGA009_37mm_SKC_30_twin_dead.model": "content/gameplay/germany/gun/aaircraft/GGA529_37mm_SKC_30_twin_Black/GGA529_37mm_SKC_30_twin_Black_dead.model",
    "content/gameplay/germany/ship/battleship/GSB002_Tirpiz_1942/GSB002_Tirpiz_1942.model": "content/gameplay/germany/ship/battleship/GSB024_Tirpiz_1942_Black/GSB024_Tirpiz_1942_Black.model"
   },
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -22882,6 +22898,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -23259,6 +23276,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -23505,6 +23523,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -24226,6 +24245,7 @@
    "content/gameplay/germany/ship/battleship/GSB010_Nassau_1920/GSB010_Nassau_1920.model": "content/gameplay/events/ship/battleship/XSB001_Mr_Hyde/XSB001_Mr_Hyde.model",
    "content/gameplay/germany/ship/battleship/GSB011_Nassau_1912/GSB011_Nassau_1912.model": "content/gameplay/events/ship/battleship/XSB001_Mr_Hyde/XSB001_Mr_Hyde.model"
   },
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -24524,6 +24544,7 @@
    "content/gameplay/germany/projectile/torpedo/GPT001_Torpedo_533/GPT001_Torpedo_533.model": "content/gameplay/germany/projectile/torpedo/GPT005_Torpedo_Space/GPT005_Torpedo_Space.model",
    "content/gameplay/germany/ship/destroyer/GSD009_Z52_1945/GSD009_Z52_1945.model": "content/gameplay/germany/ship/destroyer/GSD014_Z52_Space_1945/GSD014_Z52_Space_1945.model"
   },
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -24933,6 +24954,7 @@
   "peculiarityEffects": {},
   "peculiarityFlag": "",
   "peculiarityModels": {},
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -25359,13 +25381,16 @@
    2
   ],
   "peculiarity": "entertainment",
-  "peculiarityEffects": {},
+  "peculiarityEffects": {
+   "particles/airplanes/Air_jet.xml": "particles/airplanes/Air_jet_TF.xml"
+  },
   "peculiarityFlag": "",
   "peculiarityModels": {
    "content/gameplay/germany/aircraft/bomber/GAB703_Ta_152_C1_R14_proto/GAB703_Ta_152_C1_R14_proto.model": "content/gameplay/germany/aircraft/bomber/GAB507_F15_Thundercracker_starscream/GAB507_F15_Thundercracker_starscream.model",
    "content/gameplay/germany/aircraft/fighter/GAF705_Focke_Wulf_FW190A8/GAF705_Focke_Wulf_FW190A8.model": "content/gameplay/germany/aircraft/dive/GAD005_F_15_Sunstorm_starscream/GAD005_F_15_Sunstorm_starscream.model",
    "content/gameplay/germany/aircraft/fighter/GAF723_Me_155_proto/GAF723_Me_155_proto.model": "content/gameplay/germany/aircraft/fighter/GAF508_F15_Skywarp_starscream/GAF508_F15_Skywarp_starscream.model"
   },
+  "planesConfig": {},
   "restrictions": {
    "forbiddenShips": [],
    "levels": [],
@@ -25385,5 +25410,46 @@
   },
   "unpeculiarCamouflage": "camo_permanent_1",
   "unpeculiarCamouflageColorSchemeId": 0
+ },
+ {
+  "camouflage": "camo_permanent_1",
+  "canBuy": false,
+  "canCharge": false,
+  "canSell": false,
+  "costCR": -1,
+  "costGold": 2000,
+  "custom": {},
+  "hidden": true,
+  "id": 3845680944,
+  "index": "PGEP428",
+  "modifiers": {
+   "afterBattleRepair": 0.9,
+   "crewExpFactor": 1.5,
+   "expFactor": 1.5,
+   "shootShift": 1.04,
+   "visibilityFactor": 0.97
+  },
+  "name": "PGEP428_Prinz_Eugen",
+  "parts": [
+   0,
+   1,
+   2
+  ],
+  "restrictions": {
+   "forbiddenShips": [],
+   "levels": [],
+   "nations": [],
+   "specificShips": [],
+   "subtype": []
+  },
+  "sortOrder": 2147483647,
+  "tags": [
+   "catalogueHidden"
+  ],
+  "typeinfo": {
+   "nation": "Germany",
+   "species": "Permoflage",
+   "type": "Exterior"
+  }
  }
 ]

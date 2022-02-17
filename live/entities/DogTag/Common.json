@@ -2068,151 +2068,6 @@
   "uiType": "common"
  },
  {
-  "alwaysShowIfAchieved": false,
-  "battleTypes": [
-   "PVP"
-  ],
-  "canBuy": false,
-  "canCharge": false,
-  "clanTag": [
-   false,
-   "",
-   [
-    0,
-    0
-   ]
-  ],
-  "constants": {
-   "achievementCount": 15,
-   "nations": [
-    "Netherlands"
-   ],
-   "progress": [
-    "achievementCount"
-   ],
-   "teamPosition": 3
-  },
-  "costCR": 15000,
-  "costGold": -1,
-  "custom": {},
-  "enabled": true,
-  "events": [
-   [
-    "battleEnd",
-    [
-     [
-      "me",
-      "nation",
-      "in",
-      "constant",
-      "nations"
-     ],
-     [
-      "battleEnd",
-      "winner",
-      "==",
-      "me",
-      "team"
-     ],
-     [
-      "battleEnd",
-      "teamExpRate",
-      "<=",
-      "constant",
-      "teamPosition"
-     ]
-    ],
-    [
-     [
-      "counter",
-      "globalA",
-      "+=",
-      "constant",
-      "1"
-     ]
-    ]
-   ],
-   [
-    "battleEnd",
-    [
-     [
-      "counter",
-      "globalA",
-      ">=",
-      "constant",
-      "achievementCount"
-     ]
-    ],
-    [
-     [
-      "doAction",
-      "done"
-     ]
-    ]
-   ]
-  ],
-  "group": false,
-  "hidden": false,
-  "hiddenCustom": {},
-  "hint": "",
-  "id": 4200975280,
-  "index": "PCNU089",
-  "itemType": 0,
-  "keepCounters": false,
-  "lootBoxAvailable": false,
-  "maxShipLevel": 10,
-  "minShipLevel": 8,
-  "multiple": false,
-  "name": "PCNU089",
-  "needDescription": false,
-  "onePerBattle": false,
-  "reward": [],
-  "rewardOncePerDay": false,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats",
-   "legendaryBattle"
-  ],
-  "showProgress": true,
-  "sortOrder": 37,
-  "symbolOffsetY": 0,
-  "tags": [
-   "emblem"
-  ],
-  "type": "heroic",
-  "typeinfo": {
-   "nation": "Common",
-   "species": "DogTagUnique",
-   "type": "DogTag"
-  },
-  "uiCondition": [
-   [
-    "IDS_TASKRESTRICTION_NETHERLANDS_PVP",
-    true
-   ]
-  ],
-  "uiHideMultiplicity": false,
-  "uiName": "",
-  "uiOutOfDate": false,
-  "uiQuest": [
-   [
-    "IDS_QUEST_TEAMPOSITION_TOP3",
-    "achievementCount"
-   ]
-  ],
-  "uiRestrictionIDS": "",
-  "uiType": "common"
- },
- {
   "battleTypes": [
    "PVP",
    "RANKED"
@@ -2887,6 +2742,78 @@
   "minShipLevel": 0,
   "multiple": true,
   "name": "PCNB287",
+  "needDescription": true,
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": true,
+  "sortOrder": 2513,
+  "symbolOffsetY": 0,
+  "tags": [
+   "dogtag",
+   "catalogueHiddenIfMissing"
+  ],
+  "type": "heroic",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "DogTagItem",
+   "type": "DogTag"
+  },
+  "uiCondition": [],
+  "uiHideMultiplicity": false,
+  "uiName": "",
+  "uiOutOfDate": false,
+  "uiQuest": [],
+  "uiRestrictionIDS": "",
+  "uiType": "common"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "canBuy": false,
+  "canCharge": false,
+  "clanTag": [
+   false,
+   "",
+   [
+    0,
+    0
+   ]
+  ],
+  "constants": {},
+  "costCR": 15000,
+  "costGold": -1,
+  "custom": {},
+  "customPositions": {},
+  "enabled": true,
+  "events": [],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 3992931248,
+  "index": "PCNB288",
+  "itemType": 1,
+  "keepCounters": false,
+  "lootBoxAvailable": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCNB288",
   "needDescription": true,
   "onePerBattle": true,
   "shipCategories": [
@@ -4589,6 +4516,77 @@
   "hidden": false,
   "hiddenCustom": {},
   "hint": "",
+  "id": 4259269552,
+  "index": "PCNB034",
+  "itemType": 1,
+  "keepCounters": false,
+  "lootBoxAvailable": true,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCNB034",
+  "needDescription": false,
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": true,
+  "sortOrder": 6501,
+  "symbolOffsetY": 0,
+  "tags": [
+   "dogtag"
+  ],
+  "type": "heroic",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "DogTagItem",
+   "type": "DogTag"
+  },
+  "uiCondition": [],
+  "uiHideMultiplicity": false,
+  "uiName": "",
+  "uiOutOfDate": false,
+  "uiQuest": [],
+  "uiRestrictionIDS": "",
+  "uiType": "common"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "canBuy": false,
+  "canCharge": true,
+  "clanTag": [
+   false,
+   "",
+   [
+    0,
+    0
+   ]
+  ],
+  "constants": {},
+  "costCR": 15000,
+  "costGold": -1,
+  "custom": {},
+  "customPositions": {},
+  "enabled": true,
+  "events": [],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
   "id": 4254026672,
   "index": "PCNB039",
   "itemType": 1,
@@ -5409,86 +5407,15 @@
   "hidden": false,
   "hiddenCustom": {},
   "hint": "",
-  "id": 4071574448,
-  "index": "PCNB213",
+  "id": 4072623024,
+  "index": "PCNB212",
   "itemType": 1,
   "keepCounters": false,
   "lootBoxAvailable": false,
   "maxShipLevel": 0,
   "minShipLevel": 0,
   "multiple": true,
-  "name": "PCNB213",
-  "needDescription": false,
-  "onePerBattle": true,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats",
-   "legendaryBattle"
-  ],
-  "showProgress": true,
-  "sortOrder": 5501,
-  "symbolOffsetY": 0,
-  "tags": [
-   "catalogueHidden_CN"
-  ],
-  "type": "heroic",
-  "typeinfo": {
-   "nation": "Common",
-   "species": "DogTagItem",
-   "type": "DogTag"
-  },
-  "uiCondition": [],
-  "uiHideMultiplicity": false,
-  "uiName": "",
-  "uiOutOfDate": false,
-  "uiQuest": [],
-  "uiRestrictionIDS": "",
-  "uiType": "common"
- },
- {
-  "battleTypes": [
-   "PVP",
-   "RANKED"
-  ],
-  "canBuy": false,
-  "canCharge": false,
-  "clanTag": [
-   false,
-   "",
-   [
-    0,
-    0
-   ]
-  ],
-  "constants": {},
-  "costCR": 15000,
-  "costGold": -1,
-  "custom": {},
-  "customPositions": {},
-  "enabled": true,
-  "events": [],
-  "group": false,
-  "hidden": false,
-  "hiddenCustom": {},
-  "hint": "",
-  "id": 4073671600,
-  "index": "PCNB211",
-  "itemType": 1,
-  "keepCounters": false,
-  "lootBoxAvailable": false,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": true,
-  "name": "PCNB211",
+  "name": "PCNB212",
   "needDescription": false,
   "onePerBattle": true,
   "shipCategories": [
@@ -6077,78 +6004,6 @@
   "symbolOffsetY": 0,
   "tags": [
    "dogtag"
-  ],
-  "type": "heroic",
-  "typeinfo": {
-   "nation": "Common",
-   "species": "DogTagItem",
-   "type": "DogTag"
-  },
-  "uiCondition": [],
-  "uiHideMultiplicity": false,
-  "uiName": "",
-  "uiOutOfDate": false,
-  "uiQuest": [],
-  "uiRestrictionIDS": "",
-  "uiType": "common"
- },
- {
-  "battleTypes": [
-   "PVP",
-   "RANKED"
-  ],
-  "canBuy": false,
-  "canCharge": false,
-  "clanTag": [
-   false,
-   "",
-   [
-    0,
-    0
-   ]
-  ],
-  "constants": {},
-  "costCR": 15000,
-  "costGold": -1,
-  "custom": {},
-  "customPositions": {},
-  "enabled": true,
-  "events": [],
-  "group": false,
-  "hidden": false,
-  "hiddenCustom": {},
-  "hint": "",
-  "id": 4198452144,
-  "index": "PCNB092",
-  "itemType": 1,
-  "keepCounters": false,
-  "lootBoxAvailable": false,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": true,
-  "name": "PCNB092",
-  "needDescription": false,
-  "onePerBattle": true,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats",
-   "legendaryBattle"
-  ],
-  "showProgress": true,
-  "sortOrder": 7001,
-  "symbolOffsetY": 0,
-  "tags": [
-   "dogtag",
-   "catalogueHiddenIfMissing"
   ],
   "type": "heroic",
   "typeinfo": {
@@ -7064,78 +6919,6 @@
   "minShipLevel": 0,
   "multiple": true,
   "name": "PCNB291",
-  "needDescription": false,
-  "onePerBattle": true,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats",
-   "legendaryBattle"
-  ],
-  "showProgress": true,
-  "sortOrder": 7001,
-  "symbolOffsetY": 0,
-  "tags": [
-   "dogtag",
-   "catalogueHiddenIfMissing"
-  ],
-  "type": "heroic",
-  "typeinfo": {
-   "nation": "Common",
-   "species": "DogTagItem",
-   "type": "DogTag"
-  },
-  "uiCondition": [],
-  "uiHideMultiplicity": false,
-  "uiName": "",
-  "uiOutOfDate": false,
-  "uiQuest": [],
-  "uiRestrictionIDS": "",
-  "uiType": "common"
- },
- {
-  "battleTypes": [
-   "PVP",
-   "RANKED"
-  ],
-  "canBuy": false,
-  "canCharge": false,
-  "clanTag": [
-   false,
-   "",
-   [
-    0,
-    0
-   ]
-  ],
-  "constants": {},
-  "costCR": 15000,
-  "costGold": -1,
-  "custom": {},
-  "customPositions": {},
-  "enabled": true,
-  "events": [],
-  "group": false,
-  "hidden": false,
-  "hiddenCustom": {},
-  "hint": "",
-  "id": 3983494064,
-  "index": "PCNB297",
-  "itemType": 1,
-  "keepCounters": false,
-  "lootBoxAvailable": false,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": true,
-  "name": "PCNB297",
   "needDescription": false,
   "onePerBattle": true,
   "shipCategories": [
@@ -8474,6 +8257,79 @@
    "RANKED"
   ],
   "canBuy": false,
+  "canCharge": false,
+  "clanTag": [
+   false,
+   "",
+   [
+    0,
+    0
+   ]
+  ],
+  "constants": {},
+  "costCR": 15000,
+  "costGold": -1,
+  "custom": {},
+  "customPositions": {},
+  "enabled": true,
+  "events": [],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 4079963056,
+  "index": "PCNB205",
+  "itemType": 1,
+  "keepCounters": false,
+  "lootBoxAvailable": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCNB205",
+  "needDescription": true,
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": true,
+  "sortOrder": 1004,
+  "symbolOffsetY": 0,
+  "tags": [
+   "dogtag",
+   "catalogueHiddenIfMissing",
+   "catalogueLegendary"
+  ],
+  "type": "heroic",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "DogTagItem",
+   "type": "DogTag"
+  },
+  "uiCondition": [],
+  "uiHideMultiplicity": false,
+  "uiName": "",
+  "uiOutOfDate": false,
+  "uiQuest": [],
+  "uiRestrictionIDS": "",
+  "uiType": "common"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "canBuy": false,
   "canCharge": true,
   "clanTag": [
    false,
@@ -8637,6 +8493,150 @@
   "hidden": false,
   "hiddenCustom": {},
   "hint": "",
+  "id": 4198452144,
+  "index": "PCNB092",
+  "itemType": 1,
+  "keepCounters": false,
+  "lootBoxAvailable": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCNB092",
+  "needDescription": false,
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": true,
+  "sortOrder": 7001,
+  "symbolOffsetY": 0,
+  "tags": [
+   "dogtag",
+   "catalogueHiddenIfMissing"
+  ],
+  "type": "heroic",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "DogTagItem",
+   "type": "DogTag"
+  },
+  "uiCondition": [],
+  "uiHideMultiplicity": false,
+  "uiName": "",
+  "uiOutOfDate": false,
+  "uiQuest": [],
+  "uiRestrictionIDS": "",
+  "uiType": "common"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "canBuy": false,
+  "canCharge": false,
+  "clanTag": [
+   false,
+   "",
+   [
+    0,
+    0
+   ]
+  ],
+  "constants": {},
+  "costCR": 15000,
+  "costGold": -1,
+  "custom": {},
+  "customPositions": {},
+  "enabled": true,
+  "events": [],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 4118760368,
+  "index": "PCNB168",
+  "itemType": 1,
+  "keepCounters": false,
+  "lootBoxAvailable": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCNB168",
+  "needDescription": true,
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": true,
+  "sortOrder": 2005,
+  "symbolOffsetY": 0,
+  "tags": [
+   "dogtag",
+   "catalogueHidden_CN"
+  ],
+  "type": "heroic",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "DogTagItem",
+   "type": "DogTag"
+  },
+  "uiCondition": [],
+  "uiHideMultiplicity": false,
+  "uiName": "",
+  "uiOutOfDate": false,
+  "uiQuest": [],
+  "uiRestrictionIDS": "",
+  "uiType": "common"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "canBuy": false,
+  "canCharge": false,
+  "clanTag": [
+   false,
+   "",
+   [
+    0,
+    0
+   ]
+  ],
+  "constants": {},
+  "costCR": 15000,
+  "costGold": -1,
+  "custom": {},
+  "customPositions": {},
+  "enabled": true,
+  "events": [],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
   "id": 4121906096,
   "index": "PCNB165",
   "itemType": 1,
@@ -8668,6 +8668,78 @@
   "tags": [
    "dogtag",
    "catalogueHidden_CN"
+  ],
+  "type": "heroic",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "DogTagItem",
+   "type": "DogTag"
+  },
+  "uiCondition": [],
+  "uiHideMultiplicity": false,
+  "uiName": "",
+  "uiOutOfDate": false,
+  "uiQuest": [],
+  "uiRestrictionIDS": "",
+  "uiType": "common"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "canBuy": false,
+  "canCharge": false,
+  "clanTag": [
+   false,
+   "",
+   [
+    0,
+    0
+   ]
+  ],
+  "constants": {},
+  "costCR": 15000,
+  "costGold": -1,
+  "custom": {},
+  "customPositions": {},
+  "enabled": true,
+  "events": [],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 4176432048,
+  "index": "PCNB113",
+  "itemType": 1,
+  "keepCounters": false,
+  "lootBoxAvailable": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCNB113",
+  "needDescription": false,
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": true,
+  "sortOrder": 7001,
+  "symbolOffsetY": 0,
+  "tags": [
+   "dogtag",
+   "catalogueHiddenIfMissing"
   ],
   "type": "heroic",
   "typeinfo": {
@@ -9559,76 +9631,6 @@
   "costCR": 15000,
   "costGold": -1,
   "custom": {},
-  "enabled": true,
-  "events": [],
-  "group": false,
-  "hidden": false,
-  "hiddenCustom": {},
-  "hint": "",
-  "id": 4196780976,
-  "index": "PCNU093",
-  "itemType": 0,
-  "keepCounters": false,
-  "lootBoxAvailable": false,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": true,
-  "name": "PCNU093",
-  "needDescription": true,
-  "onePerBattle": true,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats",
-   "legendaryBattle"
-  ],
-  "showProgress": false,
-  "sortOrder": 74,
-  "symbolOffsetY": 0,
-  "tags": [
-   "emblem"
-  ],
-  "type": "special",
-  "typeinfo": {
-   "nation": "Common",
-   "species": "DogTagUnique",
-   "type": "DogTag"
-  },
-  "uiCondition": [],
-  "uiHideMultiplicity": false,
-  "uiName": "",
-  "uiOutOfDate": false,
-  "uiQuest": [],
-  "uiRestrictionIDS": "",
-  "uiType": "common"
- },
- {
-  "battleTypes": [
-   "PVP",
-   "RANKED"
-  ],
-  "canBuy": false,
-  "canCharge": false,
-  "clanTag": [
-   false,
-   "",
-   [
-    0,
-    0
-   ]
-  ],
-  "constants": {},
-  "costCR": 15000,
-  "costGold": -1,
-  "custom": {},
   "customPositions": {},
   "enabled": true,
   "events": [],
@@ -10253,6 +10255,151 @@
   "uiName": "",
   "uiOutOfDate": false,
   "uiQuest": [],
+  "uiRestrictionIDS": "",
+  "uiType": "common"
+ },
+ {
+  "alwaysShowIfAchieved": false,
+  "battleTypes": [
+   "PVP"
+  ],
+  "canBuy": false,
+  "canCharge": false,
+  "clanTag": [
+   false,
+   "",
+   [
+    0,
+    0
+   ]
+  ],
+  "constants": {
+   "achievementCount": 15,
+   "nations": [
+    "Netherlands"
+   ],
+   "progress": [
+    "achievementCount"
+   ],
+   "teamPosition": 3
+  },
+  "costCR": 15000,
+  "costGold": -1,
+  "custom": {},
+  "enabled": true,
+  "events": [
+   [
+    "battleEnd",
+    [
+     [
+      "me",
+      "nation",
+      "in",
+      "constant",
+      "nations"
+     ],
+     [
+      "battleEnd",
+      "winner",
+      "==",
+      "me",
+      "team"
+     ],
+     [
+      "battleEnd",
+      "teamExpRate",
+      "<=",
+      "constant",
+      "teamPosition"
+     ]
+    ],
+    [
+     [
+      "counter",
+      "globalA",
+      "+=",
+      "constant",
+      "1"
+     ]
+    ]
+   ],
+   [
+    "battleEnd",
+    [
+     [
+      "counter",
+      "globalA",
+      ">=",
+      "constant",
+      "achievementCount"
+     ]
+    ],
+    [
+     [
+      "doAction",
+      "done"
+     ]
+    ]
+   ]
+  ],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 4200975280,
+  "index": "PCNU089",
+  "itemType": 0,
+  "keepCounters": false,
+  "lootBoxAvailable": false,
+  "maxShipLevel": 10,
+  "minShipLevel": 8,
+  "multiple": false,
+  "name": "PCNU089",
+  "needDescription": false,
+  "onePerBattle": false,
+  "reward": [],
+  "rewardOncePerDay": false,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": true,
+  "sortOrder": 37,
+  "symbolOffsetY": 0,
+  "tags": [
+   "emblem"
+  ],
+  "type": "heroic",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "DogTagUnique",
+   "type": "DogTag"
+  },
+  "uiCondition": [
+   [
+    "IDS_TASKRESTRICTION_NETHERLANDS_PVP",
+    true
+   ]
+  ],
+  "uiHideMultiplicity": false,
+  "uiName": "",
+  "uiOutOfDate": false,
+  "uiQuest": [
+   [
+    "IDS_QUEST_TEAMPOSITION_TOP3",
+    "achievementCount"
+   ]
+  ],
   "uiRestrictionIDS": "",
   "uiType": "common"
  },
@@ -11833,77 +11980,6 @@
   "uiType": "common"
  },
  {
-  "battleTypes": [
-   "PVP",
-   "RANKED"
-  ],
-  "canBuy": false,
-  "canCharge": false,
-  "clanTag": [
-   false,
-   "",
-   [
-    0,
-    0
-   ]
-  ],
-  "constants": {},
-  "costCR": 15000,
-  "costGold": -1,
-  "custom": {},
-  "customPositions": {},
-  "enabled": true,
-  "events": [],
-  "group": false,
-  "hidden": false,
-  "hiddenCustom": {},
-  "hint": "",
-  "id": 4114566064,
-  "index": "PCNB172",
-  "itemType": 1,
-  "keepCounters": false,
-  "lootBoxAvailable": false,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": true,
-  "name": "PCNB172",
-  "needDescription": true,
-  "onePerBattle": true,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats",
-   "legendaryBattle"
-  ],
-  "showProgress": true,
-  "sortOrder": 2504,
-  "symbolOffsetY": 0,
-  "tags": [
-   "dogtag"
-  ],
-  "type": "heroic",
-  "typeinfo": {
-   "nation": "Common",
-   "species": "DogTagItem",
-   "type": "DogTag"
-  },
-  "uiCondition": [],
-  "uiHideMultiplicity": false,
-  "uiName": "",
-  "uiOutOfDate": false,
-  "uiQuest": [],
-  "uiRestrictionIDS": "",
-  "uiType": "common"
- },
- {
   "alwaysShowIfAchieved": false,
   "battleTypes": [
    "RANKED"
@@ -12075,78 +12151,6 @@
   ],
   "showProgress": true,
   "sortOrder": 3500,
-  "symbolOffsetY": 0,
-  "tags": [
-   "dogtag",
-   "catalogueHidden_CN"
-  ],
-  "type": "heroic",
-  "typeinfo": {
-   "nation": "Common",
-   "species": "DogTagItem",
-   "type": "DogTag"
-  },
-  "uiCondition": [],
-  "uiHideMultiplicity": false,
-  "uiName": "",
-  "uiOutOfDate": false,
-  "uiQuest": [],
-  "uiRestrictionIDS": "",
-  "uiType": "common"
- },
- {
-  "battleTypes": [
-   "PVP",
-   "RANKED"
-  ],
-  "canBuy": false,
-  "canCharge": false,
-  "clanTag": [
-   false,
-   "",
-   [
-    0,
-    0
-   ]
-  ],
-  "constants": {},
-  "costCR": 15000,
-  "costGold": -1,
-  "custom": {},
-  "customPositions": {},
-  "enabled": true,
-  "events": [],
-  "group": false,
-  "hidden": false,
-  "hiddenCustom": {},
-  "hint": "",
-  "id": 4118760368,
-  "index": "PCNB168",
-  "itemType": 1,
-  "keepCounters": false,
-  "lootBoxAvailable": false,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": true,
-  "name": "PCNB168",
-  "needDescription": true,
-  "onePerBattle": true,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats",
-   "legendaryBattle"
-  ],
-  "showProgress": true,
-  "sortOrder": 2005,
   "symbolOffsetY": 0,
   "tags": [
    "dogtag",
@@ -12547,6 +12551,77 @@
   "hidden": false,
   "hiddenCustom": {},
   "hint": "",
+  "id": 4119808944,
+  "index": "PCNB167",
+  "itemType": 1,
+  "keepCounters": false,
+  "lootBoxAvailable": true,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCNB167",
+  "needDescription": true,
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": true,
+  "sortOrder": 2505,
+  "symbolOffsetY": 0,
+  "tags": [
+   "dogtag"
+  ],
+  "type": "heroic",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "DogTagItem",
+   "type": "DogTag"
+  },
+  "uiCondition": [],
+  "uiHideMultiplicity": false,
+  "uiName": "",
+  "uiOutOfDate": false,
+  "uiQuest": [],
+  "uiRestrictionIDS": "",
+  "uiType": "common"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "canBuy": false,
+  "canCharge": false,
+  "clanTag": [
+   false,
+   "",
+   [
+    0,
+    0
+   ]
+  ],
+  "constants": {},
+  "costCR": 15000,
+  "costGold": -1,
+  "custom": {},
+  "customPositions": {},
+  "enabled": true,
+  "events": [],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
   "id": 4120857520,
   "index": "PCNB166",
   "itemType": 1,
@@ -12577,6 +12652,151 @@
   "symbolOffsetY": 0,
   "tags": [
    "dogtag"
+  ],
+  "type": "heroic",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "DogTagItem",
+   "type": "DogTag"
+  },
+  "uiCondition": [],
+  "uiHideMultiplicity": false,
+  "uiName": "",
+  "uiOutOfDate": false,
+  "uiQuest": [],
+  "uiRestrictionIDS": "",
+  "uiType": "common"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "canBuy": false,
+  "canCharge": false,
+  "clanTag": [
+   false,
+   "",
+   [
+    0,
+    0
+   ]
+  ],
+  "constants": {},
+  "costCR": 15000,
+  "costGold": -1,
+  "custom": {},
+  "customPositions": {},
+  "enabled": true,
+  "events": [],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 3933162416,
+  "index": "PCNB345",
+  "itemType": 1,
+  "keepCounters": false,
+  "lootBoxAvailable": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCNB345",
+  "needDescription": false,
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": true,
+  "sortOrder": 3006,
+  "symbolOffsetY": 0,
+  "tags": [
+   "dogtag",
+   "catalogueHiddenIfMissing",
+   "catalogueHidden_CN"
+  ],
+  "type": "heroic",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "DogTagItem",
+   "type": "DogTag"
+  },
+  "uiCondition": [],
+  "uiHideMultiplicity": false,
+  "uiName": "",
+  "uiOutOfDate": false,
+  "uiQuest": [],
+  "uiRestrictionIDS": "",
+  "uiType": "common"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "canBuy": false,
+  "canCharge": false,
+  "clanTag": [
+   false,
+   "",
+   [
+    0,
+    0
+   ]
+  ],
+  "constants": {},
+  "costCR": 15000,
+  "costGold": -1,
+  "custom": {},
+  "customPositions": {},
+  "enabled": true,
+  "events": [],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 3934210992,
+  "index": "PCNB344",
+  "itemType": 1,
+  "keepCounters": false,
+  "lootBoxAvailable": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCNB344",
+  "needDescription": false,
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": true,
+  "sortOrder": 3005,
+  "symbolOffsetY": 0,
+  "tags": [
+   "dogtag",
+   "catalogueHiddenIfMissing"
   ],
   "type": "heroic",
   "typeinfo": {
@@ -12719,6 +12939,79 @@
   "symbolOffsetY": 0,
   "tags": [
    "dogtag",
+   "catalogueHidden_CN"
+  ],
+  "type": "heroic",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "DogTagItem",
+   "type": "DogTag"
+  },
+  "uiCondition": [],
+  "uiHideMultiplicity": false,
+  "uiName": "",
+  "uiOutOfDate": false,
+  "uiQuest": [],
+  "uiRestrictionIDS": "",
+  "uiType": "common"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "canBuy": false,
+  "canCharge": false,
+  "clanTag": [
+   false,
+   "",
+   [
+    0,
+    0
+   ]
+  ],
+  "constants": {},
+  "costCR": 15000,
+  "costGold": -1,
+  "custom": {},
+  "customPositions": {},
+  "enabled": true,
+  "events": [],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 3935259568,
+  "index": "PCNB343",
+  "itemType": 1,
+  "keepCounters": false,
+  "lootBoxAvailable": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCNB343",
+  "needDescription": false,
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": true,
+  "sortOrder": 3004,
+  "symbolOffsetY": 0,
+  "tags": [
+   "dogtag",
+   "catalogueHiddenIfMissing",
    "catalogueHidden_CN"
   ],
   "type": "heroic",
@@ -13555,15 +13848,15 @@
   "hidden": false,
   "hiddenCustom": {},
   "hint": "",
-  "id": 4063185840,
-  "index": "PCNB221",
+  "id": 4057942960,
+  "index": "PCNB226",
   "itemType": 1,
   "keepCounters": false,
   "lootBoxAvailable": false,
   "maxShipLevel": 0,
   "minShipLevel": 0,
   "multiple": true,
-  "name": "PCNB221",
+  "name": "PCNB226",
   "needDescription": true,
   "onePerBattle": true,
   "shipCategories": [
@@ -13581,12 +13874,11 @@
    "legendaryBattle"
   ],
   "showProgress": true,
-  "sortOrder": 7510,
+  "sortOrder": 2507,
   "symbolOffsetY": 0,
   "tags": [
    "dogtag",
-   "catalogueHiddenIfMissing",
-   "catalogueLegendary"
+   "catalogueHiddenIfMissing"
   ],
   "type": "heroic",
   "typeinfo": {
@@ -13628,15 +13920,15 @@
   "hidden": false,
   "hiddenCustom": {},
   "hint": "",
-  "id": 4057942960,
-  "index": "PCNB226",
+  "id": 4060040112,
+  "index": "PCNB224",
   "itemType": 1,
   "keepCounters": false,
   "lootBoxAvailable": false,
   "maxShipLevel": 0,
   "minShipLevel": 0,
   "multiple": true,
-  "name": "PCNB226",
+  "name": "PCNB224",
   "needDescription": true,
   "onePerBattle": true,
   "shipCategories": [
@@ -13654,7 +13946,7 @@
    "legendaryBattle"
   ],
   "showProgress": true,
-  "sortOrder": 2507,
+  "sortOrder": 2009,
   "symbolOffsetY": 0,
   "tags": [
    "dogtag",
@@ -15299,6 +15591,78 @@
   "minShipLevel": 0,
   "multiple": true,
   "name": "PCNB103",
+  "needDescription": false,
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": true,
+  "sortOrder": 7001,
+  "symbolOffsetY": 0,
+  "tags": [
+   "dogtag",
+   "catalogueHiddenIfMissing"
+  ],
+  "type": "heroic",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "DogTagItem",
+   "type": "DogTag"
+  },
+  "uiCondition": [],
+  "uiHideMultiplicity": false,
+  "uiName": "",
+  "uiOutOfDate": false,
+  "uiQuest": [],
+  "uiRestrictionIDS": "",
+  "uiType": "common"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "canBuy": false,
+  "canCharge": false,
+  "clanTag": [
+   false,
+   "",
+   [
+    0,
+    0
+   ]
+  ],
+  "constants": {},
+  "costCR": 15000,
+  "costGold": -1,
+  "custom": {},
+  "customPositions": {},
+  "enabled": true,
+  "events": [],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 3983494064,
+  "index": "PCNB297",
+  "itemType": 1,
+  "keepCounters": false,
+  "lootBoxAvailable": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCNB297",
   "needDescription": false,
   "onePerBattle": true,
   "shipCategories": [
@@ -17941,6 +18305,79 @@
   "hidden": false,
   "hiddenCustom": {},
   "hint": "",
+  "id": 4034874288,
+  "index": "PCNB248",
+  "itemType": 1,
+  "keepCounters": false,
+  "lootBoxAvailable": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCNB248",
+  "needDescription": true,
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": true,
+  "sortOrder": 3604,
+  "symbolOffsetY": 0,
+  "tags": [
+   "dogtag",
+   "catalogueHiddenIfMissing",
+   "catalogueHidden_CN"
+  ],
+  "type": "heroic",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "DogTagItem",
+   "type": "DogTag"
+  },
+  "uiCondition": [],
+  "uiHideMultiplicity": false,
+  "uiName": "",
+  "uiOutOfDate": false,
+  "uiQuest": [],
+  "uiRestrictionIDS": "",
+  "uiType": "common"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "canBuy": false,
+  "canCharge": false,
+  "clanTag": [
+   false,
+   "",
+   [
+    0,
+    0
+   ]
+  ],
+  "constants": {},
+  "costCR": 15000,
+  "costGold": -1,
+  "custom": {},
+  "customPositions": {},
+  "enabled": true,
+  "events": [],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
   "id": 4033825712,
   "index": "PCNB249",
   "itemType": 1,
@@ -20131,77 +20568,6 @@
   "hidden": false,
   "hiddenCustom": {},
   "hint": "",
-  "id": 4259269552,
-  "index": "PCNB034",
-  "itemType": 1,
-  "keepCounters": false,
-  "lootBoxAvailable": true,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": true,
-  "name": "PCNB034",
-  "needDescription": false,
-  "onePerBattle": true,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats",
-   "legendaryBattle"
-  ],
-  "showProgress": true,
-  "sortOrder": 6501,
-  "symbolOffsetY": 0,
-  "tags": [
-   "dogtag"
-  ],
-  "type": "heroic",
-  "typeinfo": {
-   "nation": "Common",
-   "species": "DogTagItem",
-   "type": "DogTag"
-  },
-  "uiCondition": [],
-  "uiHideMultiplicity": false,
-  "uiName": "",
-  "uiOutOfDate": false,
-  "uiQuest": [],
-  "uiRestrictionIDS": "",
-  "uiType": "common"
- },
- {
-  "battleTypes": [
-   "PVP",
-   "RANKED"
-  ],
-  "canBuy": false,
-  "canCharge": true,
-  "clanTag": [
-   false,
-   "",
-   [
-    0,
-    0
-   ]
-  ],
-  "constants": {},
-  "costCR": 15000,
-  "costGold": -1,
-  "custom": {},
-  "customPositions": {},
-  "enabled": true,
-  "events": [],
-  "group": false,
-  "hidden": false,
-  "hiddenCustom": {},
-  "hint": "",
   "id": 4255075248,
   "index": "PCNB038",
   "itemType": 1,
@@ -22346,79 +22712,6 @@
   "hidden": false,
   "hiddenCustom": {},
   "hint": "",
-  "id": 4079963056,
-  "index": "PCNB205",
-  "itemType": 1,
-  "keepCounters": false,
-  "lootBoxAvailable": false,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": true,
-  "name": "PCNB205",
-  "needDescription": true,
-  "onePerBattle": true,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats",
-   "legendaryBattle"
-  ],
-  "showProgress": true,
-  "sortOrder": 1004,
-  "symbolOffsetY": 0,
-  "tags": [
-   "dogtag",
-   "catalogueHiddenIfMissing",
-   "catalogueLegendary"
-  ],
-  "type": "heroic",
-  "typeinfo": {
-   "nation": "Common",
-   "species": "DogTagItem",
-   "type": "DogTag"
-  },
-  "uiCondition": [],
-  "uiHideMultiplicity": false,
-  "uiName": "",
-  "uiOutOfDate": false,
-  "uiQuest": [],
-  "uiRestrictionIDS": "",
-  "uiType": "common"
- },
- {
-  "battleTypes": [
-   "PVP",
-   "RANKED"
-  ],
-  "canBuy": false,
-  "canCharge": false,
-  "clanTag": [
-   false,
-   "",
-   [
-    0,
-    0
-   ]
-  ],
-  "constants": {},
-  "costCR": 15000,
-  "costGold": -1,
-  "custom": {},
-  "customPositions": {},
-  "enabled": true,
-  "events": [],
-  "group": false,
-  "hidden": false,
-  "hiddenCustom": {},
-  "hint": "",
   "id": 4078914480,
   "index": "PCNB206",
   "itemType": 1,
@@ -23553,6 +23846,76 @@
   "uiType": "common"
  },
  {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "canBuy": false,
+  "canCharge": false,
+  "clanTag": [
+   false,
+   "",
+   [
+    0,
+    0
+   ]
+  ],
+  "constants": {},
+  "costCR": 15000,
+  "costGold": -1,
+  "custom": {},
+  "enabled": true,
+  "events": [],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 4196780976,
+  "index": "PCNU093",
+  "itemType": 0,
+  "keepCounters": false,
+  "lootBoxAvailable": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCNU093",
+  "needDescription": true,
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": false,
+  "sortOrder": 74,
+  "symbolOffsetY": 0,
+  "tags": [
+   "emblem"
+  ],
+  "type": "special",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "DogTagUnique",
+   "type": "DogTag"
+  },
+  "uiCondition": [],
+  "uiHideMultiplicity": false,
+  "uiName": "",
+  "uiOutOfDate": false,
+  "uiQuest": [],
+  "uiRestrictionIDS": "",
+  "uiType": "common"
+ },
+ {
   "alwaysShowIfAchieved": false,
   "battleTypes": [
    "PVP"
@@ -24621,15 +24984,15 @@
   "hidden": false,
   "hiddenCustom": {},
   "hint": "",
-  "id": 4056894384,
-  "index": "PCNB227",
+  "id": 4063185840,
+  "index": "PCNB221",
   "itemType": 1,
   "keepCounters": false,
   "lootBoxAvailable": false,
   "maxShipLevel": 0,
   "minShipLevel": 0,
   "multiple": true,
-  "name": "PCNB227",
+  "name": "PCNB221",
   "needDescription": true,
   "onePerBattle": true,
   "shipCategories": [
@@ -24647,11 +25010,12 @@
    "legendaryBattle"
   ],
   "showProgress": true,
-  "sortOrder": 2510,
+  "sortOrder": 7510,
   "symbolOffsetY": 0,
   "tags": [
    "dogtag",
-   "catalogueHiddenIfMissing"
+   "catalogueHiddenIfMissing",
+   "catalogueLegendary"
   ],
   "type": "heroic",
   "typeinfo": {
@@ -24693,15 +25057,15 @@
   "hidden": false,
   "hiddenCustom": {},
   "hint": "",
-  "id": 4060040112,
-  "index": "PCNB224",
+  "id": 4056894384,
+  "index": "PCNB227",
   "itemType": 1,
   "keepCounters": false,
   "lootBoxAvailable": false,
   "maxShipLevel": 0,
   "minShipLevel": 0,
   "multiple": true,
-  "name": "PCNB224",
+  "name": "PCNB227",
   "needDescription": true,
   "onePerBattle": true,
   "shipCategories": [
@@ -24719,7 +25083,7 @@
    "legendaryBattle"
   ],
   "showProgress": true,
-  "sortOrder": 2009,
+  "sortOrder": 2510,
   "symbolOffsetY": 0,
   "tags": [
    "dogtag",
@@ -27841,78 +28205,6 @@
   "hidden": false,
   "hiddenCustom": {},
   "hint": "",
-  "id": 3992931248,
-  "index": "PCNB288",
-  "itemType": 1,
-  "keepCounters": false,
-  "lootBoxAvailable": false,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": true,
-  "name": "PCNB288",
-  "needDescription": true,
-  "onePerBattle": true,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats",
-   "legendaryBattle"
-  ],
-  "showProgress": true,
-  "sortOrder": 2513,
-  "symbolOffsetY": 0,
-  "tags": [
-   "dogtag",
-   "catalogueHiddenIfMissing"
-  ],
-  "type": "heroic",
-  "typeinfo": {
-   "nation": "Common",
-   "species": "DogTagItem",
-   "type": "DogTag"
-  },
-  "uiCondition": [],
-  "uiHideMultiplicity": false,
-  "uiName": "",
-  "uiOutOfDate": false,
-  "uiQuest": [],
-  "uiRestrictionIDS": "",
-  "uiType": "common"
- },
- {
-  "battleTypes": [
-   "PVP",
-   "RANKED"
-  ],
-  "canBuy": false,
-  "canCharge": false,
-  "clanTag": [
-   false,
-   "",
-   [
-    0,
-    0
-   ]
-  ],
-  "constants": {},
-  "costCR": 15000,
-  "costGold": -1,
-  "custom": {},
-  "customPositions": {},
-  "enabled": true,
-  "events": [],
-  "group": false,
-  "hidden": false,
-  "hiddenCustom": {},
-  "hint": "",
   "id": 3991882672,
   "index": "PCNB289",
   "itemType": 1,
@@ -28528,77 +28820,6 @@
   "typeinfo": {
    "nation": "Common",
    "species": "DogTagDoll",
-   "type": "DogTag"
-  },
-  "uiCondition": [],
-  "uiHideMultiplicity": false,
-  "uiName": "",
-  "uiOutOfDate": false,
-  "uiQuest": [],
-  "uiRestrictionIDS": "",
-  "uiType": "common"
- },
- {
-  "battleTypes": [
-   "PVP",
-   "RANKED"
-  ],
-  "canBuy": false,
-  "canCharge": false,
-  "clanTag": [
-   false,
-   "",
-   [
-    0,
-    0
-   ]
-  ],
-  "constants": {},
-  "costCR": 15000,
-  "costGold": -1,
-  "custom": {},
-  "customPositions": {},
-  "enabled": true,
-  "events": [],
-  "group": false,
-  "hidden": false,
-  "hiddenCustom": {},
-  "hint": "",
-  "id": 4072623024,
-  "index": "PCNB212",
-  "itemType": 1,
-  "keepCounters": false,
-  "lootBoxAvailable": false,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": true,
-  "name": "PCNB212",
-  "needDescription": false,
-  "onePerBattle": true,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats",
-   "legendaryBattle"
-  ],
-  "showProgress": true,
-  "sortOrder": 5501,
-  "symbolOffsetY": 0,
-  "tags": [
-   "catalogueHidden_CN"
-  ],
-  "type": "heroic",
-  "typeinfo": {
-   "nation": "Common",
-   "species": "DogTagItem",
    "type": "DogTag"
   },
   "uiCondition": [],
@@ -30078,6 +30299,77 @@
   "hidden": false,
   "hiddenCustom": {},
   "hint": "",
+  "id": 4028582832,
+  "index": "PCNB254",
+  "itemType": 1,
+  "keepCounters": false,
+  "lootBoxAvailable": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCNB254",
+  "needDescription": false,
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": true,
+  "sortOrder": 5501,
+  "symbolOffsetY": 0,
+  "tags": [
+   "dogtag"
+  ],
+  "type": "heroic",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "DogTagItem",
+   "type": "DogTag"
+  },
+  "uiCondition": [],
+  "uiHideMultiplicity": false,
+  "uiName": "",
+  "uiOutOfDate": false,
+  "uiQuest": [],
+  "uiRestrictionIDS": "",
+  "uiType": "common"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "canBuy": false,
+  "canCharge": false,
+  "clanTag": [
+   false,
+   "",
+   [
+    0,
+    0
+   ]
+  ],
+  "constants": {},
+  "costCR": 15000,
+  "costGold": -1,
+  "custom": {},
+  "customPositions": {},
+  "enabled": true,
+  "events": [],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
   "id": 4087303088,
   "index": "PCNB198",
   "itemType": 1,
@@ -31353,79 +31645,6 @@
    "RANKED"
   ],
   "canBuy": false,
-  "canCharge": false,
-  "clanTag": [
-   false,
-   "",
-   [
-    0,
-    0
-   ]
-  ],
-  "constants": {},
-  "costCR": 15000,
-  "costGold": -1,
-  "custom": {},
-  "customPositions": {},
-  "enabled": true,
-  "events": [],
-  "group": false,
-  "hidden": false,
-  "hiddenCustom": {},
-  "hint": "",
-  "id": 4034874288,
-  "index": "PCNB248",
-  "itemType": 1,
-  "keepCounters": false,
-  "lootBoxAvailable": false,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": true,
-  "name": "PCNB248",
-  "needDescription": true,
-  "onePerBattle": true,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats",
-   "legendaryBattle"
-  ],
-  "showProgress": true,
-  "sortOrder": 3604,
-  "symbolOffsetY": 0,
-  "tags": [
-   "dogtag",
-   "catalogueHiddenIfMissing",
-   "catalogueHidden_CN"
-  ],
-  "type": "heroic",
-  "typeinfo": {
-   "nation": "Common",
-   "species": "DogTagItem",
-   "type": "DogTag"
-  },
-  "uiCondition": [],
-  "uiHideMultiplicity": false,
-  "uiName": "",
-  "uiOutOfDate": false,
-  "uiQuest": [],
-  "uiRestrictionIDS": "",
-  "uiType": "common"
- },
- {
-  "battleTypes": [
-   "PVP",
-   "RANKED"
-  ],
-  "canBuy": false,
   "canCharge": true,
   "clanTag": [
    false,
@@ -32125,77 +32344,6 @@
   "tags": [
    "dogtag",
    "catalogueHidden_CN"
-  ],
-  "type": "heroic",
-  "typeinfo": {
-   "nation": "Common",
-   "species": "DogTagItem",
-   "type": "DogTag"
-  },
-  "uiCondition": [],
-  "uiHideMultiplicity": false,
-  "uiName": "",
-  "uiOutOfDate": false,
-  "uiQuest": [],
-  "uiRestrictionIDS": "",
-  "uiType": "common"
- },
- {
-  "battleTypes": [
-   "PVP",
-   "RANKED"
-  ],
-  "canBuy": false,
-  "canCharge": false,
-  "clanTag": [
-   false,
-   "",
-   [
-    0,
-    0
-   ]
-  ],
-  "constants": {},
-  "costCR": 15000,
-  "costGold": -1,
-  "custom": {},
-  "customPositions": {},
-  "enabled": true,
-  "events": [],
-  "group": false,
-  "hidden": false,
-  "hiddenCustom": {},
-  "hint": "",
-  "id": 4119808944,
-  "index": "PCNB167",
-  "itemType": 1,
-  "keepCounters": false,
-  "lootBoxAvailable": true,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": true,
-  "name": "PCNB167",
-  "needDescription": true,
-  "onePerBattle": true,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats",
-   "legendaryBattle"
-  ],
-  "showProgress": true,
-  "sortOrder": 2505,
-  "symbolOffsetY": 0,
-  "tags": [
-   "dogtag"
   ],
   "type": "heroic",
   "typeinfo": {
@@ -33525,6 +33673,77 @@
   "hidden": false,
   "hiddenCustom": {},
   "hint": "",
+  "id": 4114566064,
+  "index": "PCNB172",
+  "itemType": 1,
+  "keepCounters": false,
+  "lootBoxAvailable": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCNB172",
+  "needDescription": true,
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": true,
+  "sortOrder": 2504,
+  "symbolOffsetY": 0,
+  "tags": [
+   "dogtag"
+  ],
+  "type": "heroic",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "DogTagItem",
+   "type": "DogTag"
+  },
+  "uiCondition": [],
+  "uiHideMultiplicity": false,
+  "uiName": "",
+  "uiOutOfDate": false,
+  "uiQuest": [],
+  "uiRestrictionIDS": "",
+  "uiType": "common"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "canBuy": false,
+  "canCharge": false,
+  "clanTag": [
+   false,
+   "",
+   [
+    0,
+    0
+   ]
+  ],
+  "constants": {},
+  "costCR": 15000,
+  "costGold": -1,
+  "custom": {},
+  "customPositions": {},
+  "enabled": true,
+  "events": [],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
   "id": 4113517488,
   "index": "PCNB173",
   "itemType": 1,
@@ -33843,6 +34062,77 @@
   "symbolOffsetY": 0,
   "tags": [
    "dogtag",
+   "catalogueHidden_CN"
+  ],
+  "type": "heroic",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "DogTagItem",
+   "type": "DogTag"
+  },
+  "uiCondition": [],
+  "uiHideMultiplicity": false,
+  "uiName": "",
+  "uiOutOfDate": false,
+  "uiQuest": [],
+  "uiRestrictionIDS": "",
+  "uiType": "common"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "canBuy": false,
+  "canCharge": false,
+  "clanTag": [
+   false,
+   "",
+   [
+    0,
+    0
+   ]
+  ],
+  "constants": {},
+  "costCR": 15000,
+  "costGold": -1,
+  "custom": {},
+  "customPositions": {},
+  "enabled": true,
+  "events": [],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
+  "id": 4071574448,
+  "index": "PCNB213",
+  "itemType": 1,
+  "keepCounters": false,
+  "lootBoxAvailable": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCNB213",
+  "needDescription": false,
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": true,
+  "sortOrder": 5501,
+  "symbolOffsetY": 0,
+  "tags": [
    "catalogueHidden_CN"
   ],
   "type": "heroic",
@@ -35261,6 +35551,77 @@
   "hidden": false,
   "hiddenCustom": {},
   "hint": "",
+  "id": 4073671600,
+  "index": "PCNB211",
+  "itemType": 1,
+  "keepCounters": false,
+  "lootBoxAvailable": false,
+  "maxShipLevel": 0,
+  "minShipLevel": 0,
+  "multiple": true,
+  "name": "PCNB211",
+  "needDescription": false,
+  "onePerBattle": true,
+  "shipCategories": [
+   "start",
+   "upgradeable",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "specialUnsellable",
+   "peculiar",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "demoWithStats",
+   "legendaryBattle"
+  ],
+  "showProgress": true,
+  "sortOrder": 5501,
+  "symbolOffsetY": 0,
+  "tags": [
+   "catalogueHidden_CN"
+  ],
+  "type": "heroic",
+  "typeinfo": {
+   "nation": "Common",
+   "species": "DogTagItem",
+   "type": "DogTag"
+  },
+  "uiCondition": [],
+  "uiHideMultiplicity": false,
+  "uiName": "",
+  "uiOutOfDate": false,
+  "uiQuest": [],
+  "uiRestrictionIDS": "",
+  "uiType": "common"
+ },
+ {
+  "battleTypes": [
+   "PVP",
+   "RANKED"
+  ],
+  "canBuy": false,
+  "canCharge": false,
+  "clanTag": [
+   false,
+   "",
+   [
+    0,
+    0
+   ]
+  ],
+  "constants": {},
+  "costCR": 15000,
+  "costGold": -1,
+  "custom": {},
+  "customPositions": {},
+  "enabled": true,
+  "events": [],
+  "group": false,
+  "hidden": false,
+  "hiddenCustom": {},
+  "hint": "",
   "id": 4179577776,
   "index": "PCNB110",
   "itemType": 1,
@@ -35342,78 +35703,6 @@
   "minShipLevel": 0,
   "multiple": true,
   "name": "PCNB111",
-  "needDescription": false,
-  "onePerBattle": true,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats",
-   "legendaryBattle"
-  ],
-  "showProgress": true,
-  "sortOrder": 7001,
-  "symbolOffsetY": 0,
-  "tags": [
-   "dogtag",
-   "catalogueHiddenIfMissing"
-  ],
-  "type": "heroic",
-  "typeinfo": {
-   "nation": "Common",
-   "species": "DogTagItem",
-   "type": "DogTag"
-  },
-  "uiCondition": [],
-  "uiHideMultiplicity": false,
-  "uiName": "",
-  "uiOutOfDate": false,
-  "uiQuest": [],
-  "uiRestrictionIDS": "",
-  "uiType": "common"
- },
- {
-  "battleTypes": [
-   "PVP",
-   "RANKED"
-  ],
-  "canBuy": false,
-  "canCharge": false,
-  "clanTag": [
-   false,
-   "",
-   [
-    0,
-    0
-   ]
-  ],
-  "constants": {},
-  "costCR": 15000,
-  "costGold": -1,
-  "custom": {},
-  "customPositions": {},
-  "enabled": true,
-  "events": [],
-  "group": false,
-  "hidden": false,
-  "hiddenCustom": {},
-  "hint": "",
-  "id": 4176432048,
-  "index": "PCNB113",
-  "itemType": 1,
-  "keepCounters": false,
-  "lootBoxAvailable": false,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": true,
-  "name": "PCNB113",
   "needDescription": false,
   "onePerBattle": true,
   "shipCategories": [
@@ -37218,77 +37507,6 @@
   "minShipLevel": 0,
   "multiple": true,
   "name": "PCNB255",
-  "needDescription": false,
-  "onePerBattle": true,
-  "shipCategories": [
-   "start",
-   "upgradeable",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "specialUnsellable",
-   "peculiar",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "demoWithStats",
-   "legendaryBattle"
-  ],
-  "showProgress": true,
-  "sortOrder": 5501,
-  "symbolOffsetY": 0,
-  "tags": [
-   "dogtag"
-  ],
-  "type": "heroic",
-  "typeinfo": {
-   "nation": "Common",
-   "species": "DogTagItem",
-   "type": "DogTag"
-  },
-  "uiCondition": [],
-  "uiHideMultiplicity": false,
-  "uiName": "",
-  "uiOutOfDate": false,
-  "uiQuest": [],
-  "uiRestrictionIDS": "",
-  "uiType": "common"
- },
- {
-  "battleTypes": [
-   "PVP",
-   "RANKED"
-  ],
-  "canBuy": false,
-  "canCharge": false,
-  "clanTag": [
-   false,
-   "",
-   [
-    0,
-    0
-   ]
-  ],
-  "constants": {},
-  "costCR": 15000,
-  "costGold": -1,
-  "custom": {},
-  "customPositions": {},
-  "enabled": true,
-  "events": [],
-  "group": false,
-  "hidden": false,
-  "hiddenCustom": {},
-  "hint": "",
-  "id": 4028582832,
-  "index": "PCNB254",
-  "itemType": 1,
-  "keepCounters": false,
-  "lootBoxAvailable": false,
-  "maxShipLevel": 0,
-  "minShipLevel": 0,
-  "multiple": true,
-  "name": "PCNB254",
   "needDescription": false,
   "onePerBattle": true,
   "shipCategories": [

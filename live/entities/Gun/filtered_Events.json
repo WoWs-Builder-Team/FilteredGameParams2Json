@@ -1,16 +1,5 @@
 [
  {
-  "deadZone": [],
-  "id": 3767133456,
-  "index": "PXGM503",
-  "name": "PXGM503_Ballista",
-  "typeinfo": {
-   "nation": "Events",
-   "species": "Main",
-   "type": "Gun"
-  }
- },
- {
   "ammoList": [
    "PXPA117_ATBA_LongLaser_France_H2020"
   ],
@@ -42,6 +31,20 @@
    -1.0,
    75.0
   ]
+ },
+ {
+  "antiAirAuraDistance": 117.0,
+  "antiAirAuraStrength": 0.113,
+  "id": 4233094416,
+  "index": "PXGA059",
+  "name": "PXGA059_40mm_Bofors_Mk1",
+  "numBarrels": 2,
+  "shotDelay": 5.0,
+  "typeinfo": {
+   "nation": "Events",
+   "species": "AAircraft",
+   "type": "Gun"
+  }
  },
  {
   "ammoList": [
@@ -134,16 +137,13 @@
   ]
  },
  {
-  "antiAirAuraDistance": 117.0,
-  "antiAirAuraStrength": 0.159,
-  "id": 4218414352,
-  "index": "PXGA073",
-  "name": "PXGA073_40mm_Bofors",
-  "numBarrels": 4.0,
-  "shotDelay": 5.0,
+  "deadZone": [],
+  "id": 3767133456,
+  "index": "PXGM503",
+  "name": "PXGM503_Ballista",
   "typeinfo": {
    "nation": "Events",
-   "species": "AAircraft",
+   "species": "Main",
    "type": "Gun"
   }
  },
@@ -468,20 +468,6 @@
   "typeinfo": {
    "nation": "Events",
    "species": "Main",
-   "type": "Gun"
-  }
- },
- {
-  "antiAirAuraDistance": 67.0,
-  "antiAirAuraStrength": 0.064,
-  "id": 4215268624,
-  "index": "PXGA076",
-  "name": "PXGA076_20mm_Flak_38_C35",
-  "numBarrels": 4,
-  "shotDelay": 5.0,
-  "typeinfo": {
-   "nation": "Events",
-   "species": "AAircraft",
    "type": "Gun"
   }
  },
@@ -832,37 +818,42 @@
   ]
  },
  {
-  "ammoList": [
-   "PXPA201_ATBA_LongLaser_Oland_H2020"
-  ],
-  "antiAirAuraDistance": 167.0,
-  "antiAirAuraStrength": 0.11,
-  "barrelDiameter": 0.152,
-  "delim": 0.6,
-  "id": 4060538128,
-  "idealDistance": 333.333,
-  "idealRadius": 20,
-  "index": "PXGS223",
-  "minRadius": 1.0,
-  "name": "PXGS223_OLAND_SECONDARY_GUN_1_BLUE",
-  "radiusOnDelim": 0.8,
-  "radiusOnMax": 1.0,
-  "radiusOnZero": 0.1,
-  "rotationSpeed": [
-   60.0,
-   1.0
-  ],
-  "shotDelay": 8.0,
-  "smokePenalty": 0.0001,
+  "antiAirAuraDistance": 40.0,
+  "antiAirAuraStrength": 0.02,
+  "id": 4225754384,
+  "index": "PXGA066",
+  "name": "PXGA066_13mm76_Type93_double",
+  "numBarrels": 2,
+  "shotDelay": 5.0,
   "typeinfo": {
    "nation": "Events",
-   "species": "Secondary",
+   "species": "AAircraft",
    "type": "Gun"
-  },
-  "vertSector": [
-   -1.0,
-   75.0
-  ]
+  }
+ },
+ {
+  "ammoList": [
+   "PXPT119_Berserk"
+  ],
+  "barrelDiameter": 0.533,
+  "id": 4158022928,
+  "index": "PXGT130",
+  "name": "PXGT130_Torpedo_Quad_Berserk_L",
+  "numBarrels": 3.0,
+  "rotationSpeed": [
+   25.0,
+   25.0
+  ],
+  "shotDelay": 12.0,
+  "torpedoAngles": [
+   4.8,
+   16.0
+  ],
+  "typeinfo": {
+   "nation": "Events",
+   "species": "Torpedo",
+   "type": "Gun"
+  }
  },
  {
   "deadZone": [],
@@ -1493,6 +1484,39 @@
   ]
  },
  {
+  "ammoList": [
+   "PXPA114_HE_MONSTER"
+  ],
+  "antiAirAuraDistance": 173.0,
+  "antiAirAuraStrength": 0.124,
+  "barrelDiameter": 0.128,
+  "delim": 0.6,
+  "id": 4148618512,
+  "idealDistance": 333.333,
+  "idealRadius": 20,
+  "index": "PXGS139",
+  "minRadius": 1.0,
+  "name": "PXGS139_Mid_Monster_Secondary",
+  "radiusOnDelim": 0.8,
+  "radiusOnMax": 1.0,
+  "radiusOnZero": 0.1,
+  "rotationSpeed": [
+   90.0,
+   90.0
+  ],
+  "shotDelay": 10.0,
+  "smokePenalty": 0.0001,
+  "typeinfo": {
+   "nation": "Events",
+   "species": "Secondary",
+   "type": "Gun"
+  },
+  "vertSector": [
+   -20.0,
+   70.0
+  ]
+ },
+ {
   "antiAirAuraDistance": 67.0,
   "antiAirAuraStrength": 0.042,
   "id": 4211074320,
@@ -1516,39 +1540,6 @@
    "species": "Main",
    "type": "Gun"
   }
- },
- {
-  "ammoList": [
-   "PXPA109_ATBA_Plazma_Smolensk_H2020"
-  ],
-  "antiAirAuraDistance": 0.0,
-  "antiAirAuraStrength": 0.0,
-  "barrelDiameter": 0.155,
-  "delim": 0.6,
-  "id": 4238796048,
-  "idealDistance": 333.333,
-  "idealRadius": 20,
-  "index": "PXGS053",
-  "minRadius": 1.0,
-  "name": "PXGS053_CORSAIR_SG_1",
-  "radiusOnDelim": 0.8,
-  "radiusOnMax": 1.0,
-  "radiusOnZero": 0.1,
-  "rotationSpeed": [
-   180.0,
-   180.0
-  ],
-  "shotDelay": 4.5,
-  "smokePenalty": 0.0001,
-  "typeinfo": {
-   "nation": "Events",
-   "species": "Secondary",
-   "type": "Gun"
-  },
-  "vertSector": [
-   -2.0,
-   55.0
-  ]
  },
  {
   "deadZone": [],
@@ -1638,6 +1629,20 @@
   "index": "PXGA065",
   "name": "PXGA065_25mm_Type96_single",
   "numBarrels": 1.0,
+  "shotDelay": 5.0,
+  "typeinfo": {
+   "nation": "Events",
+   "species": "AAircraft",
+   "type": "Gun"
+  }
+ },
+ {
+  "antiAirAuraDistance": 67.0,
+  "antiAirAuraStrength": 0.064,
+  "id": 4215268624,
+  "index": "PXGA076",
+  "name": "PXGA076_20mm_Flak_38_C35",
+  "numBarrels": 4,
   "shotDelay": 5.0,
   "typeinfo": {
    "nation": "Events",
@@ -1815,6 +1820,39 @@
    "species": "Main",
    "type": "Gun"
   }
+ },
+ {
+  "ammoList": [
+   "PXPA109_ATBA_Plazma_Smolensk_H2020"
+  ],
+  "antiAirAuraDistance": 0.0,
+  "antiAirAuraStrength": 0.0,
+  "barrelDiameter": 0.155,
+  "delim": 0.6,
+  "id": 4238796048,
+  "idealDistance": 333.333,
+  "idealRadius": 20,
+  "index": "PXGS053",
+  "minRadius": 1.0,
+  "name": "PXGS053_CORSAIR_SG_1",
+  "radiusOnDelim": 0.8,
+  "radiusOnMax": 1.0,
+  "radiusOnZero": 0.1,
+  "rotationSpeed": [
+   180.0,
+   180.0
+  ],
+  "shotDelay": 4.5,
+  "smokePenalty": 0.0001,
+  "typeinfo": {
+   "nation": "Events",
+   "species": "Secondary",
+   "type": "Gun"
+  },
+  "vertSector": [
+   -2.0,
+   55.0
+  ]
  },
  {
   "antiAirAuraDistance": 117.0,
@@ -2456,20 +2494,6 @@
   "index": "PXGA038",
   "name": "PXGA038_space_medium_AA",
   "numBarrels": 4,
-  "shotDelay": 5.0,
-  "typeinfo": {
-   "nation": "Events",
-   "species": "AAircraft",
-   "type": "Gun"
-  }
- },
- {
-  "antiAirAuraDistance": 117.0,
-  "antiAirAuraStrength": 0.113,
-  "id": 4233094416,
-  "index": "PXGA059",
-  "name": "PXGA059_40mm_Bofors_Mk1",
-  "numBarrels": 2,
   "shotDelay": 5.0,
   "typeinfo": {
    "nation": "Events",
@@ -3239,6 +3263,20 @@
   }
  },
  {
+  "antiAirAuraDistance": 117.0,
+  "antiAirAuraStrength": 0.159,
+  "id": 4218414352,
+  "index": "PXGA073",
+  "name": "PXGA073_40mm_Bofors",
+  "numBarrels": 4.0,
+  "shotDelay": 5.0,
+  "typeinfo": {
+   "nation": "Events",
+   "species": "AAircraft",
+   "type": "Gun"
+  }
+ },
+ {
   "deadZone": [],
   "id": 4126795024,
   "index": "PXGM160",
@@ -3834,30 +3872,6 @@
   }
  },
  {
-  "ammoList": [
-   "PXPT119_Berserk"
-  ],
-  "barrelDiameter": 0.533,
-  "id": 4158022928,
-  "index": "PXGT130",
-  "name": "PXGT130_Torpedo_Quad_Berserk_L",
-  "numBarrels": 3.0,
-  "rotationSpeed": [
-   25.0,
-   25.0
-  ],
-  "shotDelay": 12.0,
-  "torpedoAngles": [
-   4.8,
-   16.0
-  ],
-  "typeinfo": {
-   "nation": "Events",
-   "species": "Torpedo",
-   "type": "Gun"
-  }
- },
- {
   "antiAirAuraDistance": -1.0,
   "antiAirAuraStrength": -1.0,
   "id": 4242531600,
@@ -3870,39 +3884,6 @@
    "species": "AAircraft",
    "type": "Gun"
   }
- },
- {
-  "ammoList": [
-   "PAPA024_Shell_76mm_HE_C"
-  ],
-  "antiAirAuraDistance": 0.0,
-  "antiAirAuraStrength": 0.0,
-  "barrelDiameter": 0.0762,
-  "delim": 0.6,
-  "id": 4229358864,
-  "idealDistance": 333.333,
-  "idealRadius": 20,
-  "index": "PXGS062",
-  "minRadius": 1.0,
-  "name": "PXGS062_Sherman_M4",
-  "radiusOnDelim": 0.8,
-  "radiusOnMax": 1.0,
-  "radiusOnZero": 0.1,
-  "rotationSpeed": [
-   24.0,
-   15.0
-  ],
-  "shotDelay": 6.0,
-  "smokePenalty": 0.0001,
-  "typeinfo": {
-   "nation": "Events",
-   "species": "Secondary",
-   "type": "Gun"
-  },
-  "vertSector": [
-   -10.0,
-   25.0
-  ]
  },
  {
   "antiAirAuraDistance": 33.0,
@@ -4079,6 +4060,17 @@
    -1.0,
    80.0
   ]
+ },
+ {
+  "deadZone": [],
+  "id": 4252624144,
+  "index": "PXGM040",
+  "name": "PXGM040_Vivigun_1",
+  "typeinfo": {
+   "nation": "Events",
+   "species": "Main",
+   "type": "Gun"
+  }
  },
  {
   "deadZone": [],
@@ -4601,6 +4593,39 @@
   }
  },
  {
+  "ammoList": [
+   "PXPA201_ATBA_LongLaser_Oland_H2020"
+  ],
+  "antiAirAuraDistance": 167.0,
+  "antiAirAuraStrength": 0.11,
+  "barrelDiameter": 0.152,
+  "delim": 0.6,
+  "id": 4060538128,
+  "idealDistance": 333.333,
+  "idealRadius": 20,
+  "index": "PXGS223",
+  "minRadius": 1.0,
+  "name": "PXGS223_OLAND_SECONDARY_GUN_1_BLUE",
+  "radiusOnDelim": 0.8,
+  "radiusOnMax": 1.0,
+  "radiusOnZero": 0.1,
+  "rotationSpeed": [
+   60.0,
+   1.0
+  ],
+  "shotDelay": 8.0,
+  "smokePenalty": 0.0001,
+  "typeinfo": {
+   "nation": "Events",
+   "species": "Secondary",
+   "type": "Gun"
+  },
+  "vertSector": [
+   -1.0,
+   75.0
+  ]
+ },
+ {
   "deadZone": [],
   "id": 4280935696,
   "index": "PXGM013",
@@ -4703,26 +4728,26 @@
  },
  {
   "ammoList": [
-   "PXPA114_HE_MONSTER"
+   "PAPA024_Shell_76mm_HE_C"
   ],
-  "antiAirAuraDistance": 173.0,
-  "antiAirAuraStrength": 0.124,
-  "barrelDiameter": 0.128,
+  "antiAirAuraDistance": 0.0,
+  "antiAirAuraStrength": 0.0,
+  "barrelDiameter": 0.0762,
   "delim": 0.6,
-  "id": 4148618512,
+  "id": 4229358864,
   "idealDistance": 333.333,
   "idealRadius": 20,
-  "index": "PXGS139",
+  "index": "PXGS062",
   "minRadius": 1.0,
-  "name": "PXGS139_Mid_Monster_Secondary",
+  "name": "PXGS062_Sherman_M4",
   "radiusOnDelim": 0.8,
   "radiusOnMax": 1.0,
   "radiusOnZero": 0.1,
   "rotationSpeed": [
-   90.0,
-   90.0
+   24.0,
+   15.0
   ],
-  "shotDelay": 10.0,
+  "shotDelay": 6.0,
   "smokePenalty": 0.0001,
   "typeinfo": {
    "nation": "Events",
@@ -4730,8 +4755,8 @@
    "type": "Gun"
   },
   "vertSector": [
-   -20.0,
-   70.0
+   -10.0,
+   25.0
   ]
  },
  {
@@ -4880,31 +4905,6 @@
   "typeinfo": {
    "nation": "Events",
    "species": "Main",
-   "type": "Gun"
-  }
- },
- {
-  "deadZone": [],
-  "id": 4252624144,
-  "index": "PXGM040",
-  "name": "PXGM040_Vivigun_1",
-  "typeinfo": {
-   "nation": "Events",
-   "species": "Main",
-   "type": "Gun"
-  }
- },
- {
-  "antiAirAuraDistance": 40.0,
-  "antiAirAuraStrength": 0.02,
-  "id": 4225754384,
-  "index": "PXGA066",
-  "name": "PXGA066_13mm76_Type93_double",
-  "numBarrels": 2,
-  "shotDelay": 5.0,
-  "typeinfo": {
-   "nation": "Events",
-   "species": "AAircraft",
    "type": "Gun"
   }
  }

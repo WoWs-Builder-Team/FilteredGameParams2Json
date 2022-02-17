@@ -43,8 +43,6 @@
   },
   "id": 4287036880,
   "index": "PRAS007",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -53,6 +51,9 @@
   "naturalAcceleration": 0.1,
   "naturalDeceleration": 0.1,
   "numPlanesInSquadron": 1,
+  "planeSubtype": [
+   "consumable"
+  ],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.1,
@@ -122,8 +123,6 @@
   },
   "id": 3768548816,
   "index": "PRAB502",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -132,6 +131,7 @@
   "naturalAcceleration": 0.02,
   "naturalDeceleration": 0.02,
   "numPlanesInSquadron": 5,
+  "planeSubtype": [],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.125,
@@ -206,8 +206,6 @@
    3.96,
    1.67
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 5.0,
   "jatoSpeedMultiplier": 1.2,
@@ -216,6 +214,7 @@
   "naturalAcceleration": 0.321,
   "naturalDeceleration": 0.321,
   "numPlanesInSquadron": 8,
+  "planeSubtype": [],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.4,
   "preparationAccuracyIncreaseRate": 0.45,
@@ -290,8 +289,6 @@
    3.04,
    1.21
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -300,6 +297,7 @@
   "naturalAcceleration": 0.278,
   "naturalDeceleration": 0.278,
   "numPlanesInSquadron": 6,
+  "planeSubtype": [],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.1,
   "preparationAccuracyIncreaseRate": 0.3,
@@ -369,8 +367,6 @@
   },
   "id": 3558833616,
   "index": "PRAB702",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 10.0,
   "jatoSpeedMultiplier": 1.5,
@@ -379,6 +375,7 @@
   "naturalAcceleration": 0.042,
   "naturalDeceleration": 0.042,
   "numPlanesInSquadron": 5,
+  "planeSubtype": [],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.125,
@@ -453,8 +450,6 @@
    4.0,
    0.5
   ],
-  "isAirSupportPlane": true,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -463,6 +458,10 @@
   "naturalAcceleration": 0.032,
   "naturalDeceleration": 0.032,
   "numPlanesInSquadron": 9,
+  "planeSubtype": [
+   "consumable",
+   "airsupport"
+  ],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.11,
   "preparationAccuracyIncreaseRate": 0.15,
@@ -519,16 +518,16 @@
   "attackSpeedMultiplier": 1.0,
   "attackSpeedMultiplierApplyTime": 0.0,
   "attackerDamageTakenMultiplier": 0.5,
-  "attackerSize": 8,
+  "attackerSize": 7,
   "bombFallingTime": 0.3,
   "bombName": "PRPS006_A_NAKHIMOV_TOP",
   "flightHeight": 20.0,
   "flightRadius": 33.0,
   "hangarSettings": {
-   "maxValue": 20,
+   "maxValue": 18,
    "restoreAmount": 1,
-   "startValue": 20,
-   "timeToRestore": 80.0
+   "startValue": 18,
+   "timeToRestore": 91.0
   },
   "id": 3348790736,
   "index": "PRAL902",
@@ -537,8 +536,6 @@
    6.3,
    5.0
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 10.0,
   "jatoSpeedMultiplier": 1.5,
@@ -546,7 +543,8 @@
   "name": "PRAL902_A_NAKHIMOV_TOP",
   "naturalAcceleration": 0.036,
   "naturalDeceleration": 0.036,
-  "numPlanesInSquadron": 8,
+  "numPlanesInSquadron": 7,
+  "planeSubtype": [],
   "postAttackInvulnerabilityDuration": 3.0,
   "preparationAccuracyDecreaseRate": -0.18,
   "preparationAccuracyIncreaseRate": 0.18,
@@ -556,85 +554,6 @@
   "speedMax": 1.292,
   "speedMin": 0.781,
   "speedMoveWithBomb": 125.0,
-  "typeinfo": {
-   "nation": "Russia",
-   "species": "Skip",
-   "type": "Aircraft"
-  }
- },
- {
-  "PlaneAbilities": {
-   "AbilitySlot0": {
-    "abils": [
-     [
-      "PCY034_ForsageBooster",
-      "Allplanes"
-     ]
-    ],
-    "slot": 0
-   },
-   "AbilitySlot1": {
-    "abils": [],
-    "slot": 1
-   },
-   "AbilitySlot2": {
-    "abils": [],
-    "slot": 2
-   },
-   "AbilitySlot3": {
-    "abils": [],
-    "slot": 3
-   },
-   "AbilitySlot4": {
-    "abils": [],
-    "slot": 4
-   }
-  },
-  "aimingAccuracyDecreaseRate": -0.35,
-  "aimingAccuracyIncreaseRate": 0.25,
-  "aimingTime": 6,
-  "attackCooldown": 9,
-  "attackInterval": 1,
-  "attackSpeedMultiplier": 1.0,
-  "attackSpeedMultiplierApplyTime": 0.0,
-  "attackerDamageTakenMultiplier": 0.5,
-  "attackerSize": 4,
-  "bombFallingTime": 0.3,
-  "bombName": "PRPS008_KOMSOMOLETS_STOCK",
-  "flightHeight": 20.0,
-  "flightRadius": 33.0,
-  "hangarSettings": {
-   "maxValue": 8,
-   "restoreAmount": 1,
-   "startValue": 8,
-   "timeToRestore": 71.0
-  },
-  "id": 3978984912,
-  "index": "PRAL301",
-  "innerBombsPercentage": 50.0,
-  "innerSalvoSize": [
-   4.0,
-   3.5
-  ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
-  "isJatoBoosterDetachable": true,
-  "jatoDuration": 0.0,
-  "jatoSpeedMultiplier": 2.0,
-  "maxHealth": 1080,
-  "name": "PRAL301_KOMSOMOLETS_STOCK",
-  "naturalAcceleration": 0.032,
-  "naturalDeceleration": 0.032,
-  "numPlanesInSquadron": 4,
-  "postAttackInvulnerabilityDuration": 3.0,
-  "preparationAccuracyDecreaseRate": -0.18,
-  "preparationAccuracyIncreaseRate": 0.18,
-  "preparationTime": 4,
-  "projectilesPerAttack": 1,
-  "returnHeight": 100.0,
-  "speedMax": 1.3802,
-  "speedMin": 0.7148,
-  "speedMoveWithBomb": 92.0,
   "typeinfo": {
    "nation": "Russia",
    "species": "Skip",
@@ -690,8 +609,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -700,6 +617,9 @@
   "naturalAcceleration": 0.239,
   "naturalDeceleration": 0.239,
   "numPlanesInSquadron": 1,
+  "planeSubtype": [
+   "consumable"
+  ],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.1,
@@ -759,8 +679,6 @@
   },
   "id": 4293328336,
   "index": "PRAS001",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -769,6 +687,9 @@
   "naturalAcceleration": 0.1,
   "naturalDeceleration": 0.1,
   "numPlanesInSquadron": 1,
+  "planeSubtype": [
+   "consumable"
+  ],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.1,
@@ -828,8 +749,6 @@
   },
   "id": 4292279760,
   "index": "PRAS002",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -838,6 +757,9 @@
   "naturalAcceleration": 0.1,
   "naturalDeceleration": 0.1,
   "numPlanesInSquadron": 1,
+  "planeSubtype": [
+   "consumable"
+  ],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.1,
@@ -912,8 +834,6 @@
    5.0,
    5.0
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 10.0,
   "jatoSpeedMultiplier": 1.5,
@@ -922,6 +842,7 @@
   "naturalAcceleration": 0.036,
   "naturalDeceleration": 0.036,
   "numPlanesInSquadron": 6,
+  "planeSubtype": [],
   "postAttackInvulnerabilityDuration": 3.0,
   "preparationAccuracyDecreaseRate": -0.18,
   "preparationAccuracyIncreaseRate": 0.18,
@@ -986,8 +907,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -996,6 +915,9 @@
   "naturalAcceleration": 0.363,
   "naturalDeceleration": 0.363,
   "numPlanesInSquadron": 1,
+  "planeSubtype": [
+   "consumable"
+  ],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.1,
@@ -1052,16 +974,16 @@
   "attackSpeedMultiplier": 1.0,
   "attackSpeedMultiplierApplyTime": 0.0,
   "attackerDamageTakenMultiplier": 0.5,
-  "attackerSize": 8,
+  "attackerSize": 7,
   "bombFallingTime": 0.3,
   "bombName": "PRPS005_A_NAKHIMOV_STOCK",
   "flightHeight": 20.0,
   "flightRadius": 33.0,
   "hangarSettings": {
-   "maxValue": 20,
+   "maxValue": 18,
    "restoreAmount": 1,
-   "startValue": 20,
-   "timeToRestore": 72.0
+   "startValue": 18,
+   "timeToRestore": 82.0
   },
   "id": 3349839312,
   "index": "PRAL901",
@@ -1070,8 +992,6 @@
    6.3,
    5.0
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 10.0,
   "jatoSpeedMultiplier": 1.5,
@@ -1079,7 +999,8 @@
   "name": "PRAL901_A_NAKHIMOV_STOCK",
   "naturalAcceleration": 0.036,
   "naturalDeceleration": 0.036,
-  "numPlanesInSquadron": 8,
+  "numPlanesInSquadron": 7,
+  "planeSubtype": [],
   "postAttackInvulnerabilityDuration": 3.0,
   "preparationAccuracyDecreaseRate": -0.18,
   "preparationAccuracyIncreaseRate": 0.18,
@@ -1144,8 +1065,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -1154,6 +1073,9 @@
   "naturalAcceleration": 0.239,
   "naturalDeceleration": 0.239,
   "numPlanesInSquadron": 1,
+  "planeSubtype": [
+   "consumable"
+  ],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.1,
@@ -1213,8 +1135,6 @@
   },
   "id": 4291231184,
   "index": "PRAS003",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -1223,6 +1143,9 @@
   "naturalAcceleration": 0.1,
   "naturalDeceleration": 0.1,
   "numPlanesInSquadron": 1,
+  "planeSubtype": [
+   "consumable"
+  ],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.1,
@@ -1292,8 +1215,6 @@
    1.16,
    1.45
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -1302,6 +1223,7 @@
   "naturalAcceleration": 0.032,
   "naturalDeceleration": 0.032,
   "numPlanesInSquadron": 4,
+  "planeSubtype": [],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.33,
   "preparationAccuracyIncreaseRate": 0.33,
@@ -1371,8 +1293,6 @@
   },
   "id": 3557785040,
   "index": "PRAB703",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 10.0,
   "jatoSpeedMultiplier": 1.5,
@@ -1381,6 +1301,7 @@
   "naturalAcceleration": 0.042,
   "naturalDeceleration": 0.042,
   "numPlanesInSquadron": 6,
+  "planeSubtype": [],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.125,
@@ -1440,8 +1361,6 @@
   },
   "id": 4290182608,
   "index": "PRAS004",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -1450,6 +1369,9 @@
   "naturalAcceleration": 0.1,
   "naturalDeceleration": 0.1,
   "numPlanesInSquadron": 1,
+  "planeSubtype": [
+   "consumable"
+  ],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.1,
@@ -1519,8 +1441,6 @@
   },
   "id": 3769597392,
   "index": "PRAB501",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -1529,6 +1449,7 @@
   "naturalAcceleration": 0.02,
   "naturalDeceleration": 0.02,
   "numPlanesInSquadron": 5,
+  "planeSubtype": [],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.125,
@@ -1588,8 +1509,6 @@
   },
   "id": 4285988304,
   "index": "PRAS008",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -1598,6 +1517,9 @@
   "naturalAcceleration": 0.1,
   "naturalDeceleration": 0.1,
   "numPlanesInSquadron": 1,
+  "planeSubtype": [
+   "consumable"
+  ],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.1,
@@ -1662,8 +1584,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -1672,6 +1592,9 @@
   "naturalAcceleration": 0.199,
   "naturalDeceleration": 0.199,
   "numPlanesInSquadron": 1,
+  "planeSubtype": [
+   "consumable"
+  ],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.1,
@@ -1736,8 +1659,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -1746,6 +1667,9 @@
   "naturalAcceleration": 0.199,
   "naturalDeceleration": 0.199,
   "numPlanesInSquadron": 1,
+  "planeSubtype": [
+   "consumable"
+  ],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.1,
@@ -1820,8 +1744,6 @@
    1.16,
    1.45
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 10.0,
   "jatoSpeedMultiplier": 1.5,
@@ -1830,6 +1752,7 @@
   "naturalAcceleration": 0.036,
   "naturalDeceleration": 0.036,
   "numPlanesInSquadron": 6,
+  "planeSubtype": [],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.33,
   "preparationAccuracyIncreaseRate": 0.33,
@@ -1904,8 +1827,6 @@
    5.0,
    5.0
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -1914,6 +1835,7 @@
   "naturalAcceleration": 0.032,
   "naturalDeceleration": 0.032,
   "numPlanesInSquadron": 6,
+  "planeSubtype": [],
   "postAttackInvulnerabilityDuration": 3.0,
   "preparationAccuracyDecreaseRate": -0.18,
   "preparationAccuracyIncreaseRate": 0.18,
@@ -1978,8 +1900,6 @@
   },
   "id": 3979312592,
   "index": "PRAB301",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -1988,6 +1908,7 @@
   "naturalAcceleration": 0.02,
   "naturalDeceleration": 0.02,
   "numPlanesInSquadron": 3,
+  "planeSubtype": [],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.125,
@@ -2062,8 +1983,6 @@
    3.96,
    1.67
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -2072,6 +1991,7 @@
   "naturalAcceleration": 0.275,
   "naturalDeceleration": 0.275,
   "numPlanesInSquadron": 6,
+  "planeSubtype": [],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.4,
   "preparationAccuracyIncreaseRate": 0.45,
@@ -2146,8 +2066,6 @@
    5.0,
    5.0
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -2156,6 +2074,7 @@
   "naturalAcceleration": 0.028,
   "naturalDeceleration": 0.028,
   "numPlanesInSquadron": 6,
+  "planeSubtype": [],
   "postAttackInvulnerabilityDuration": 3.0,
   "preparationAccuracyDecreaseRate": -0.18,
   "preparationAccuracyIncreaseRate": 0.18,
@@ -2230,8 +2149,6 @@
    5.0,
    5.0
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 10.0,
   "jatoSpeedMultiplier": 1.5,
@@ -2240,6 +2157,7 @@
   "naturalAcceleration": 0.036,
   "naturalDeceleration": 0.036,
   "numPlanesInSquadron": 6,
+  "planeSubtype": [],
   "postAttackInvulnerabilityDuration": 3.0,
   "preparationAccuracyDecreaseRate": -0.18,
   "preparationAccuracyIncreaseRate": 0.18,
@@ -2304,8 +2222,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -2314,6 +2230,9 @@
   "naturalAcceleration": 0.363,
   "naturalDeceleration": 0.363,
   "numPlanesInSquadron": 1,
+  "planeSubtype": [
+   "consumable"
+  ],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.1,
@@ -2388,8 +2307,6 @@
    3.96,
    1.67
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 5.0,
   "jatoSpeedMultiplier": 1.2,
@@ -2398,6 +2315,7 @@
   "naturalAcceleration": 0.278,
   "naturalDeceleration": 0.278,
   "numPlanesInSquadron": 6,
+  "planeSubtype": [],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.4,
   "preparationAccuracyIncreaseRate": 0.45,
@@ -2410,6 +2328,84 @@
   "typeinfo": {
    "nation": "Russia",
    "species": "Fighter",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY034_ForsageBooster",
+      "Allplanes"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "aimingAccuracyDecreaseRate": -0.35,
+  "aimingAccuracyIncreaseRate": 0.25,
+  "aimingTime": 6,
+  "attackCooldown": 9,
+  "attackInterval": 1,
+  "attackSpeedMultiplier": 1.0,
+  "attackSpeedMultiplierApplyTime": 0.0,
+  "attackerDamageTakenMultiplier": 0.5,
+  "attackerSize": 4,
+  "bombFallingTime": 0.3,
+  "bombName": "PRPS008_KOMSOMOLETS_STOCK",
+  "flightHeight": 20.0,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 8,
+   "restoreAmount": 1,
+   "startValue": 8,
+   "timeToRestore": 71.0
+  },
+  "id": 3978984912,
+  "index": "PRAL301",
+  "innerBombsPercentage": 50.0,
+  "innerSalvoSize": [
+   4.0,
+   3.5
+  ],
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 1080,
+  "name": "PRAL301_KOMSOMOLETS_STOCK",
+  "naturalAcceleration": 0.032,
+  "naturalDeceleration": 0.032,
+  "numPlanesInSquadron": 4,
+  "planeSubtype": [],
+  "postAttackInvulnerabilityDuration": 3.0,
+  "preparationAccuracyDecreaseRate": -0.18,
+  "preparationAccuracyIncreaseRate": 0.18,
+  "preparationTime": 4,
+  "projectilesPerAttack": 1,
+  "returnHeight": 100.0,
+  "speedMax": 1.3802,
+  "speedMin": 0.7148,
+  "speedMoveWithBomb": 92.0,
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "Skip",
    "type": "Aircraft"
   }
  },
@@ -2472,8 +2468,6 @@
    3.96,
    1.67
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 5.0,
   "jatoSpeedMultiplier": 1.2,
@@ -2482,6 +2476,7 @@
   "naturalAcceleration": 0.306,
   "naturalDeceleration": 0.306,
   "numPlanesInSquadron": 8,
+  "planeSubtype": [],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.4,
   "preparationAccuracyIncreaseRate": 0.45,
@@ -2556,8 +2551,6 @@
    3.96,
    1.67
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 5.0,
   "jatoSpeedMultiplier": 1.2,
@@ -2566,6 +2559,7 @@
   "naturalAcceleration": 0.22,
   "naturalDeceleration": 0.22,
   "numPlanesInSquadron": 6,
+  "planeSubtype": [],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.4,
   "preparationAccuracyIncreaseRate": 0.45,
@@ -2630,8 +2624,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -2640,6 +2632,9 @@
   "naturalAcceleration": 0.239,
   "naturalDeceleration": 0.239,
   "numPlanesInSquadron": 1,
+  "planeSubtype": [
+   "consumable"
+  ],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.1,
@@ -2714,8 +2709,6 @@
    5.0,
    5.0
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 10.0,
   "jatoSpeedMultiplier": 1.5,
@@ -2724,6 +2717,7 @@
   "naturalAcceleration": 0.036,
   "naturalDeceleration": 0.036,
   "numPlanesInSquadron": 6,
+  "planeSubtype": [],
   "postAttackInvulnerabilityDuration": 3.0,
   "preparationAccuracyDecreaseRate": -0.18,
   "preparationAccuracyIncreaseRate": 0.18,
@@ -2783,8 +2777,6 @@
   },
   "id": 4288085456,
   "index": "PRAS006",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -2793,6 +2785,9 @@
   "naturalAcceleration": 0.1,
   "naturalDeceleration": 0.1,
   "numPlanesInSquadron": 1,
+  "planeSubtype": [
+   "consumable"
+  ],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.1,
@@ -2805,85 +2800,6 @@
   "typeinfo": {
    "nation": "Russia",
    "species": "Scout",
-   "type": "Aircraft"
-  }
- },
- {
-  "PlaneAbilities": {
-   "AbilitySlot0": {
-    "abils": [
-     [
-      "PCY034_ForsageBooster",
-      "Allplanes"
-     ]
-    ],
-    "slot": 0
-   },
-   "AbilitySlot1": {
-    "abils": [],
-    "slot": 1
-   },
-   "AbilitySlot2": {
-    "abils": [],
-    "slot": 2
-   },
-   "AbilitySlot3": {
-    "abils": [],
-    "slot": 3
-   },
-   "AbilitySlot4": {
-    "abils": [],
-    "slot": 4
-   }
-  },
-  "aimingAccuracyDecreaseRate": -0.16,
-  "aimingAccuracyIncreaseRate": 0.1,
-  "aimingTime": 5,
-  "attackCooldown": 5,
-  "attackInterval": 0.05,
-  "attackSpeedMultiplier": 0.5,
-  "attackSpeedMultiplierApplyTime": 0.75,
-  "attackerDamageTakenMultiplier": 0.8,
-  "attackerSize": 4,
-  "bombFallingTime": 0.3,
-  "bombName": "PRPR008_KOMSOMOLETS_STOCK",
-  "flightHeight": 15.0,
-  "flightRadius": 33.0,
-  "hangarSettings": {
-   "maxValue": 8,
-   "restoreAmount": 1,
-   "startValue": 8,
-   "timeToRestore": 60.0
-  },
-  "id": 3979181520,
-  "index": "PRAF301",
-  "innerBombsPercentage": 75.0,
-  "innerSalvoSize": [
-   2.87,
-   1.15
-  ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
-  "isJatoBoosterDetachable": true,
-  "jatoDuration": 0.0,
-  "jatoSpeedMultiplier": 2.0,
-  "maxHealth": 830,
-  "name": "PRAF301_KOMSOMOLETS_STOCK",
-  "naturalAcceleration": 0.275,
-  "naturalDeceleration": 0.275,
-  "numPlanesInSquadron": 4,
-  "postAttackInvulnerabilityDuration": 3.5,
-  "preparationAccuracyDecreaseRate": -0.4,
-  "preparationAccuracyIncreaseRate": 0.45,
-  "preparationTime": 2.2,
-  "projectilesPerAttack": 1,
-  "returnHeight": 100.0,
-  "speedMax": 1.3167,
-  "speedMin": 0.7625,
-  "speedMoveWithBomb": 126.0,
-  "typeinfo": {
-   "nation": "Russia",
-   "species": "Fighter",
    "type": "Aircraft"
   }
  },
@@ -2946,8 +2862,6 @@
    3.96,
    1.67
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -2956,6 +2870,7 @@
   "naturalAcceleration": 0.275,
   "naturalDeceleration": 0.275,
   "numPlanesInSquadron": 6,
+  "planeSubtype": [],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.4,
   "preparationAccuracyIncreaseRate": 0.45,
@@ -3025,8 +2940,6 @@
   },
   "id": 3349118416,
   "index": "PRAB902",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 10.0,
   "jatoSpeedMultiplier": 1.5,
@@ -3035,6 +2948,7 @@
   "naturalAcceleration": 0.042,
   "naturalDeceleration": 0.042,
   "numPlanesInSquadron": 7,
+  "planeSubtype": [],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.125,
@@ -3099,8 +3013,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -3109,6 +3021,9 @@
   "naturalAcceleration": 0.363,
   "naturalDeceleration": 0.363,
   "numPlanesInSquadron": 1,
+  "planeSubtype": [
+   "consumable"
+  ],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.1,
@@ -3173,8 +3088,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -3183,6 +3096,9 @@
   "naturalAcceleration": 0.157,
   "naturalDeceleration": 0.157,
   "numPlanesInSquadron": 1,
+  "planeSubtype": [
+   "consumable"
+  ],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.1,
@@ -3192,6 +3108,84 @@
   "speedMax": 1.3306,
   "speedMin": 0.752,
   "speedMoveWithBomb": 187.0,
+  "typeinfo": {
+   "nation": "Russia",
+   "species": "Fighter",
+   "type": "Aircraft"
+  }
+ },
+ {
+  "PlaneAbilities": {
+   "AbilitySlot0": {
+    "abils": [
+     [
+      "PCY034_ForsageBooster",
+      "Allplanes"
+     ]
+    ],
+    "slot": 0
+   },
+   "AbilitySlot1": {
+    "abils": [],
+    "slot": 1
+   },
+   "AbilitySlot2": {
+    "abils": [],
+    "slot": 2
+   },
+   "AbilitySlot3": {
+    "abils": [],
+    "slot": 3
+   },
+   "AbilitySlot4": {
+    "abils": [],
+    "slot": 4
+   }
+  },
+  "aimingAccuracyDecreaseRate": -0.16,
+  "aimingAccuracyIncreaseRate": 0.1,
+  "aimingTime": 5,
+  "attackCooldown": 5,
+  "attackInterval": 0.05,
+  "attackSpeedMultiplier": 0.5,
+  "attackSpeedMultiplierApplyTime": 0.75,
+  "attackerDamageTakenMultiplier": 0.8,
+  "attackerSize": 4,
+  "bombFallingTime": 0.3,
+  "bombName": "PRPR008_KOMSOMOLETS_STOCK",
+  "flightHeight": 15.0,
+  "flightRadius": 33.0,
+  "hangarSettings": {
+   "maxValue": 8,
+   "restoreAmount": 1,
+   "startValue": 8,
+   "timeToRestore": 60.0
+  },
+  "id": 3979181520,
+  "index": "PRAF301",
+  "innerBombsPercentage": 75.0,
+  "innerSalvoSize": [
+   2.87,
+   1.15
+  ],
+  "isJatoBoosterDetachable": true,
+  "jatoDuration": 0.0,
+  "jatoSpeedMultiplier": 2.0,
+  "maxHealth": 830,
+  "name": "PRAF301_KOMSOMOLETS_STOCK",
+  "naturalAcceleration": 0.275,
+  "naturalDeceleration": 0.275,
+  "numPlanesInSquadron": 4,
+  "planeSubtype": [],
+  "postAttackInvulnerabilityDuration": 3.5,
+  "preparationAccuracyDecreaseRate": -0.4,
+  "preparationAccuracyIncreaseRate": 0.45,
+  "preparationTime": 2.2,
+  "projectilesPerAttack": 1,
+  "returnHeight": 100.0,
+  "speedMax": 1.3167,
+  "speedMin": 0.7625,
+  "speedMoveWithBomb": 126.0,
   "typeinfo": {
    "nation": "Russia",
    "species": "Fighter",
@@ -3252,8 +3246,6 @@
   },
   "id": 3350166992,
   "index": "PRAB901",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 10.0,
   "jatoSpeedMultiplier": 1.5,
@@ -3262,6 +3254,7 @@
   "naturalAcceleration": 0.027,
   "naturalDeceleration": 0.027,
   "numPlanesInSquadron": 7,
+  "planeSubtype": [],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.125,
@@ -3321,8 +3314,6 @@
   },
   "id": 4284939728,
   "index": "PRAS009",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -3331,6 +3322,9 @@
   "naturalAcceleration": 0.1,
   "naturalDeceleration": 0.1,
   "numPlanesInSquadron": 1,
+  "planeSubtype": [
+   "consumable"
+  ],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.1,
@@ -3395,8 +3389,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -3405,6 +3397,9 @@
   "naturalAcceleration": 0.363,
   "naturalDeceleration": 0.363,
   "numPlanesInSquadron": 1,
+  "planeSubtype": [
+   "consumable"
+  ],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.1,
@@ -3474,8 +3469,6 @@
   },
   "id": 3559882192,
   "index": "PRAB701",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": false,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 10.0,
   "jatoSpeedMultiplier": 1.5,
@@ -3484,6 +3477,7 @@
   "naturalAcceleration": 0.027,
   "naturalDeceleration": 0.027,
   "numPlanesInSquadron": 5,
+  "planeSubtype": [],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.125,
@@ -3543,8 +3537,6 @@
   },
   "id": 4289134032,
   "index": "PRAS005",
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -3553,6 +3545,9 @@
   "naturalAcceleration": 0.1,
   "naturalDeceleration": 0.1,
   "numPlanesInSquadron": 1,
+  "planeSubtype": [
+   "consumable"
+  ],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.1,
@@ -3617,8 +3612,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -3627,6 +3620,9 @@
   "naturalAcceleration": 0.239,
   "naturalDeceleration": 0.239,
   "numPlanesInSquadron": 1,
+  "planeSubtype": [
+   "consumable"
+  ],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.1,
@@ -3691,8 +3687,6 @@
    1.5,
    2.5
   ],
-  "isAirSupportPlane": false,
-  "isConsumablePlane": true,
   "isJatoBoosterDetachable": true,
   "jatoDuration": 0.0,
   "jatoSpeedMultiplier": 2.0,
@@ -3701,6 +3695,9 @@
   "naturalAcceleration": 0.199,
   "naturalDeceleration": 0.199,
   "numPlanesInSquadron": 1,
+  "planeSubtype": [
+   "consumable"
+  ],
   "postAttackInvulnerabilityDuration": 3.5,
   "preparationAccuracyDecreaseRate": -0.2,
   "preparationAccuracyIncreaseRate": 0.1,
