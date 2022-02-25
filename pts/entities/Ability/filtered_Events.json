@@ -217,6 +217,111 @@
   }
  },
  {
+  "id": 4269972752,
+  "index": "PXY023",
+  "name": "PXY023_ArtilleryBooster",
+  "typeinfo": {
+   "nation": "Events",
+   "species": null,
+   "type": "Ability"
+  },
+  "variants": {
+   "Default": {
+    "boostCoeff": 0.75,
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": -1,
+    "reloadTime": 10.0,
+    "workTime": 10.0
+   },
+   "Post_Apocalypse": {
+    "boostCoeff": 0.45,
+    "descIDs": "PCY022_ArtilleryBoosterPremium",
+    "group": "ship",
+    "iconIDs": "PCY022_ArtilleryBoosterPremium",
+    "numConsumables": 0,
+    "reloadTime": 60.0,
+    "workTime": 20.0
+   },
+   "Post_Apocalypse2": {
+    "boostCoeff": 0.4,
+    "descIDs": "PCY022_ArtilleryBoosterPremium",
+    "group": "ship",
+    "iconIDs": "PCY022_ArtilleryBoosterPremium",
+    "numConsumables": 0,
+    "reloadTime": 30.0,
+    "workTime": 20.0
+   }
+  }
+ },
+ {
+  "id": 4271021328,
+  "index": "PXY022",
+  "name": "PXY022_RegenCrew",
+  "typeinfo": {
+   "nation": "Events",
+   "species": null,
+   "type": "Ability"
+  },
+  "variants": {
+   "Post_Apocalypse": {
+    "descIDs": "PCY010_RegenCrewPremium",
+    "group": "ship",
+    "iconIDs": "PCY010_RegenCrewPremium",
+    "numConsumables": 0,
+    "regenerationHPSpeed": 0.02,
+    "reloadTime": 30.0,
+    "workTime": 15.0
+   },
+   "Post_Apocalypse2": {
+    "descIDs": "PCY010_RegenCrew_Eheal_Premium",
+    "group": "ship",
+    "iconIDs": "PCY010_RegenCrew_Eheal_Premium",
+    "numConsumables": 0,
+    "regenerationHPSpeed": 0.04,
+    "reloadTime": 15.0,
+    "workTime": 15.0
+   }
+  }
+ },
+ {
+  "id": 4266827024,
+  "index": "PXY026",
+  "name": "PXY026_TorpedoReloader",
+  "typeinfo": {
+   "nation": "Events",
+   "species": null,
+   "type": "Ability"
+  },
+  "variants": {
+   "Default": {
+    "descIDs": "",
+    "group": "ship",
+    "iconIDs": "",
+    "numConsumables": -1,
+    "reloadTime": 270.0,
+    "workTime": 1.0
+   },
+   "Post_Apocalypse": {
+    "descIDs": "PCY018_TorpedoReloaderPremium",
+    "group": "ship",
+    "iconIDs": "PCY018_TorpedoReloaderPremium",
+    "numConsumables": 0,
+    "reloadTime": 60.0,
+    "workTime": 1.0
+   },
+   "Post_Apocalypse2": {
+    "descIDs": "PCY018_TorpedoReloaderPremium",
+    "group": "ship",
+    "iconIDs": "PCY018_TorpedoReloaderPremium",
+    "numConsumables": 0,
+    "reloadTime": 30.0,
+    "workTime": 1.0
+   }
+  }
+ },
+ {
   "id": 3961691408,
   "index": "PXY317",
   "name": "PXY317_SonarSearch_PVP",
@@ -265,6 +370,26 @@
     "numConsumables": -1,
     "reloadTime": 30.0,
     "workTime": 10.0
+   }
+  }
+ },
+ {
+  "id": 4272069904,
+  "index": "PXY021",
+  "name": "PXY021_CrashCrew",
+  "typeinfo": {
+   "nation": "Events",
+   "species": null,
+   "type": "Ability"
+  },
+  "variants": {
+   "Post_Apocalypse": {
+    "descIDs": "PCY009_CrashCrewPremium",
+    "group": "ship",
+    "iconIDs": "PCY009_CrashCrewPremium",
+    "numConsumables": -1,
+    "reloadTime": 60.0,
+    "workTime": 5.0
    }
   }
  },
@@ -672,6 +797,38 @@
     "numConsumables": 3,
     "reloadTime": 120.0,
     "workTime": 1.0
+   }
+  }
+ },
+ {
+  "id": 4267875600,
+  "index": "PXY025",
+  "name": "PXY025_SonarSearch",
+  "typeinfo": {
+   "nation": "Events",
+   "species": null,
+   "type": "Ability"
+  },
+  "variants": {
+   "Post_Apocalypse": {
+    "descIDs": "PCY016_SonarSearch_Short_Premium",
+    "distShip": 166.6666,
+    "distTorpedo": 166.6666,
+    "group": "ship",
+    "iconIDs": "PCY016_SonarSearch_Short_Premium",
+    "numConsumables": 0,
+    "reloadTime": 60.0,
+    "workTime": 60.0
+   },
+   "Post_Apocalypse2": {
+    "descIDs": "PCY016_SonarSearchPremium",
+    "distShip": 233.3333,
+    "distTorpedo": 233.3333,
+    "group": "ship",
+    "iconIDs": "PCY016_SonarSearchPremium",
+    "numConsumables": 0,
+    "reloadTime": 30.0,
+    "workTime": 60.0
    }
   }
  },
@@ -1144,6 +1301,40 @@
     "numConsumables": -1,
     "reloadTime": 0.0,
     "workTime": 0.0
+   }
+  }
+ },
+ {
+  "id": 4268924176,
+  "index": "PXY024",
+  "name": "PXY024_SmokeGenerator",
+  "typeinfo": {
+   "nation": "Events",
+   "species": null,
+   "type": "Ability"
+  },
+  "variants": {
+   "Post_Apocalypse": {
+    "descIDs": "PCY014_SmokeGenerator_Cycle_Premium",
+    "group": "ship",
+    "iconIDs": "PCY014_SmokeGenerator_Cycle_Premium",
+    "lifeTime": 40.0,
+    "numConsumables": 0,
+    "radius": 15.0,
+    "reloadTime": 60.0,
+    "speedLimit": 12.5,
+    "workTime": 20.0
+   },
+   "Post_Apocalypse2": {
+    "descIDs": "PCY014_SmokeGeneratorCrawler_Premium",
+    "group": "ship",
+    "iconIDs": "PCY014_SmokeGeneratorCrawler_Premium",
+    "lifeTime": 5.0,
+    "numConsumables": 0,
+    "radius": 20.0,
+    "reloadTime": 30.0,
+    "speedLimit": 12.5,
+    "workTime": 60.0
    }
   }
  },
@@ -1666,6 +1857,44 @@
     "numConsumables": 3,
     "reloadTime": 60.0,
     "workTime": 20.0
+   }
+  }
+ },
+ {
+  "id": 4265778448,
+  "index": "PXY027",
+  "name": "PXY027_SpeedBooster",
+  "typeinfo": {
+   "nation": "Events",
+   "species": null,
+   "type": "Ability"
+  },
+  "variants": {
+   "Post_Apocalypse": {
+    "backwardEngineForsag": 1.5,
+    "backwardEngineForsagMaxSpeed": 5.0,
+    "boostCoeff": 0.15,
+    "descIDs": "PCY015_SpeedBoosterPremium",
+    "forwardEngineForsag": 1.5,
+    "forwardEngineForsagMaxSpeed": 5.0,
+    "group": "ship",
+    "iconIDs": "PCY015_SpeedBoosterPremium",
+    "numConsumables": 0,
+    "reloadTime": 60.0,
+    "workTime": 60.0
+   },
+   "Post_Apocalypse2": {
+    "backwardEngineForsag": 2.5,
+    "backwardEngineForsagMaxSpeed": 10.0,
+    "boostCoeff": 0.3,
+    "descIDs": "PCY015_SpeedBooster_Imp_Premium",
+    "forwardEngineForsag": 2.5,
+    "forwardEngineForsagMaxSpeed": 10.0,
+    "group": "ship",
+    "iconIDs": "PCY015_SpeedBooster_Imp_Premium",
+    "numConsumables": 0,
+    "reloadTime": 30.0,
+    "workTime": 60.0
    }
   }
  },

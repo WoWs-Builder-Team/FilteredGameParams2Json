@@ -130,7 +130,7 @@
  },
  {
   "alertDist": 100,
-  "alphaDamage": 6000.0,
+  "alphaDamage": 2000.0,
   "ammoType": "depthcharge",
   "burnProb": 0.17,
   "id": 4189995856,
@@ -144,7 +144,7 @@
    "species": "DepthCharge",
    "type": "Projectile"
   },
-  "uwCritical": 0.29
+  "uwCritical": 3.0
  },
  {
   "affectedByPTZ": false,
@@ -295,6 +295,37 @@
  },
  {
   "affectedByPTZ": false,
+  "alphaDamage": 4800.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 55.0,
+  "ammoType": "HE",
+  "applyPTZCoeff": false,
+  "bulletAirDrag": 0.2926,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletDetonator": 0.001,
+  "bulletDetonatorThreshold": 2.0,
+  "bulletDiametr": 0.33,
+  "bulletKrupp": 385.0,
+  "bulletMass": 552.0,
+  "bulletRicochetAt": 91.0,
+  "bulletSpeed": 885.0,
+  "burnProb": 0.35,
+  "distTile": 3.0,
+  "id": 4205822800,
+  "ignoreClasses": [],
+  "index": "PFPA085",
+  "isBomb": false,
+  "name": "PFPA085_330MM_HE_M1935",
+  "splashArmorCoeff": -0.16,
+  "splashCubeSize": 1.91,
+  "typeinfo": {
+   "nation": "France",
+   "species": "Artillery",
+   "type": "Projectile"
+  }
+ },
+ {
+  "affectedByPTZ": false,
   "alphaDamage": 2000.0,
   "alphaPiercingCS": 0,
   "alphaPiercingHE": 23.0,
@@ -349,6 +380,37 @@
   "name": "PFPA053_380MM_BOURGOGNE_HE",
   "splashArmorCoeff": -0.12,
   "splashCubeSize": 2.28,
+  "typeinfo": {
+   "nation": "France",
+   "species": "Artillery",
+   "type": "Projectile"
+  }
+ },
+ {
+  "affectedByPTZ": false,
+  "alphaDamage": 8000.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "AP",
+  "applyPTZCoeff": false,
+  "bulletAirDrag": 0.52,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletDetonator": 0.033,
+  "bulletDetonatorThreshold": 51.0,
+  "bulletDiametr": 0.305,
+  "bulletKrupp": 2300.0,
+  "bulletMass": 395.0,
+  "bulletRicochetAt": 45.0,
+  "bulletSpeed": 798.0,
+  "burnProb": -0.5,
+  "distTile": 3.0,
+  "id": 4203725648,
+  "ignoreClasses": [],
+  "index": "PFPA087",
+  "isBomb": false,
+  "name": "PFPA087_305MM_45_1910_AP_TOULON",
+  "splashArmorCoeff": 0.0,
+  "splashCubeSize": 0.0,
   "typeinfo": {
    "nation": "France",
    "species": "Artillery",
@@ -717,29 +779,6 @@
   }
  },
  {
-  "alertDist": 100,
-  "alphaDamage": 41200.0,
-  "ammoType": "torpedo",
-  "armingTime": 1,
-  "bulletDiametr": 0.55,
-  "damage": 1100.0,
-  "id": 4281746256,
-  "ignoreClasses": [],
-  "index": "PFPT012",
-  "maxDist": 300.0,
-  "name": "PFPT012_550_BAYARD",
-  "speed": 60.0,
-  "splashArmorCoeff": 0.3,
-  "splashCubeSize": 1.1,
-  "typeinfo": {
-   "nation": "France",
-   "species": "Torpedo",
-   "type": "Projectile"
-  },
-  "uwCritical": 2.46,
-  "visibilityFactor": 1.3
- },
- {
   "affectedByPTZ": false,
   "alphaDamage": 8700.0,
   "alphaPiercingCS": 0,
@@ -795,6 +834,37 @@
   "name": "PFPA011_155MM_50_1920_AP",
   "splashArmorCoeff": 0.0,
   "splashCubeSize": 0.0,
+  "typeinfo": {
+   "nation": "France",
+   "species": "Artillery",
+   "type": "Projectile"
+  }
+ },
+ {
+  "affectedByPTZ": false,
+  "alphaDamage": 4050.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 51.0,
+  "ammoType": "HE",
+  "applyPTZCoeff": false,
+  "bulletAirDrag": 0.54,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletDetonator": 0.001,
+  "bulletDetonatorThreshold": 2.0,
+  "bulletDiametr": 0.305,
+  "bulletKrupp": 1.0,
+  "bulletMass": 308.0,
+  "bulletRicochetAt": 91.0,
+  "bulletSpeed": 905.0,
+  "burnProb": 0.17,
+  "distTile": 3.0,
+  "id": 4202677072,
+  "ignoreClasses": [],
+  "index": "PFPA088",
+  "isBomb": false,
+  "name": "PFPA088_305MM_45_1910_HE_TOULON",
+  "splashArmorCoeff": -0.17,
+  "splashCubeSize": 1.44,
   "typeinfo": {
    "nation": "France",
    "species": "Artillery",
@@ -1195,6 +1265,37 @@
   "index": "PFPA013",
   "isBomb": false,
   "name": "PFPA013_152MM_55_1930_AP_1931",
+  "splashArmorCoeff": 0.0,
+  "splashCubeSize": 0.0,
+  "typeinfo": {
+   "nation": "France",
+   "species": "Artillery",
+   "type": "Projectile"
+  }
+ },
+ {
+  "affectedByPTZ": false,
+  "alphaDamage": 8200.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "AP",
+  "applyPTZCoeff": false,
+  "bulletAirDrag": 0.265,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletDetonator": 0.033,
+  "bulletDetonatorThreshold": 51.0,
+  "bulletDiametr": 0.305,
+  "bulletKrupp": 2225.0,
+  "bulletMass": 442.0,
+  "bulletRicochetAt": 45.0,
+  "bulletSpeed": 870.0,
+  "burnProb": -0.5,
+  "distTile": 3.0,
+  "id": 4207919952,
+  "ignoreClasses": [],
+  "index": "PFPA083",
+  "isBomb": false,
+  "name": "PFPA083_305MM_AP_1931",
   "splashArmorCoeff": 0.0,
   "splashCubeSize": 0.0,
   "typeinfo": {
@@ -1653,6 +1754,29 @@
   }
  },
  {
+  "alertDist": 100,
+  "alphaDamage": 41200.0,
+  "ammoType": "torpedo",
+  "armingTime": 1,
+  "bulletDiametr": 0.55,
+  "damage": 1100.0,
+  "id": 4281746256,
+  "ignoreClasses": [],
+  "index": "PFPT012",
+  "maxDist": 300.0,
+  "name": "PFPT012_550_BAYARD",
+  "speed": 60.0,
+  "splashArmorCoeff": 0.3,
+  "splashCubeSize": 1.1,
+  "typeinfo": {
+   "nation": "France",
+   "species": "Torpedo",
+   "type": "Projectile"
+  },
+  "uwCritical": 2.46,
+  "visibilityFactor": 1.3
+ },
+ {
   "affectedByPTZ": false,
   "alphaDamage": 2800.0,
   "alphaPiercingCS": 0,
@@ -1885,6 +2009,37 @@
   "visibilityFactor": 1.4
  },
  {
+  "affectedByPTZ": false,
+  "alphaDamage": 4050.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 51.0,
+  "ammoType": "HE",
+  "applyPTZCoeff": false,
+  "bulletAirDrag": 0.21,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletDetonator": 0.001,
+  "bulletDetonatorThreshold": 2.0,
+  "bulletDiametr": 0.305,
+  "bulletKrupp": 1.0,
+  "bulletMass": 308.0,
+  "bulletRicochetAt": 91.0,
+  "bulletSpeed": 905.0,
+  "burnProb": 0.17,
+  "distTile": 3.0,
+  "id": 4208968528,
+  "ignoreClasses": [],
+  "index": "PFPA082",
+  "isBomb": false,
+  "name": "PFPA082_305MM_HE_1931",
+  "splashArmorCoeff": -0.17,
+  "splashCubeSize": 1.44,
+  "typeinfo": {
+   "nation": "France",
+   "species": "Artillery",
+   "type": "Projectile"
+  }
+ },
+ {
   "alertDist": 100,
   "alphaDamage": 3400.0,
   "ammoType": "depthcharge",
@@ -2097,6 +2252,37 @@
   },
   "uwCritical": 1.99,
   "visibilityFactor": 1.2
+ },
+ {
+  "affectedByPTZ": false,
+  "alphaDamage": 2000.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 23.0,
+  "ammoType": "HE",
+  "applyPTZCoeff": false,
+  "bulletAirDrag": 0.234,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletDetonator": 0.001,
+  "bulletDetonatorThreshold": 2.0,
+  "bulletDiametr": 0.139,
+  "bulletKrupp": 360.0,
+  "bulletMass": 40.2,
+  "bulletRicochetAt": 91.0,
+  "bulletSpeed": 840.0,
+  "burnProb": 0.1,
+  "distTile": 3.0,
+  "id": 4206871376,
+  "ignoreClasses": [],
+  "index": "PFPA084",
+  "isBomb": false,
+  "name": "PFPA084_139MM_55_1928_HE_SG",
+  "splashArmorCoeff": -0.24,
+  "splashCubeSize": 0.5,
+  "typeinfo": {
+   "nation": "France",
+   "species": "Artillery",
+   "type": "Projectile"
+  }
  },
  {
   "affectedByPTZ": false,
@@ -2572,6 +2758,37 @@
  },
  {
   "affectedByPTZ": false,
+  "alphaDamage": 9700.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "AP",
+  "applyPTZCoeff": false,
+  "bulletAirDrag": 0.2801,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletDetonator": 0.033,
+  "bulletDetonatorThreshold": 55.0,
+  "bulletDiametr": 0.33,
+  "bulletKrupp": 2428.0,
+  "bulletMass": 560.0,
+  "bulletRicochetAt": 45.0,
+  "bulletSpeed": 870.0,
+  "burnProb": -0.5,
+  "distTile": 3.0,
+  "id": 4204774224,
+  "ignoreClasses": [],
+  "index": "PFPA086",
+  "isBomb": false,
+  "name": "PFPA086_330MM_AP_M1935",
+  "splashArmorCoeff": 0.0,
+  "splashCubeSize": 0.0,
+  "typeinfo": {
+   "nation": "France",
+   "species": "Artillery",
+   "type": "Projectile"
+  }
+ },
+ {
+  "affectedByPTZ": false,
   "alphaDamage": 4800.0,
   "alphaPiercingCS": 0,
   "alphaPiercingHE": 0.0,
@@ -2874,7 +3091,7 @@
  },
  {
   "alertDist": 100,
-  "alphaDamage": 6200.0,
+  "alphaDamage": 2000.0,
   "ammoType": "depthcharge",
   "burnProb": 0.18,
   "id": 4188947280,
@@ -2888,7 +3105,7 @@
    "species": "DepthCharge",
    "type": "Projectile"
   },
-  "uwCritical": 0.31
+  "uwCritical": 3.0
  },
  {
   "alertDist": 100,

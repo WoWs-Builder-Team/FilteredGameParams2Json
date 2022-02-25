@@ -682,6 +682,7 @@
    ]
   ],
   "canReceiveAcid": true,
+  "canReceiveWildFire": false,
   "consumablePlaneTypes": {
    "fighter": "",
    "scout": ""
@@ -962,9 +963,13 @@
   "maxHeatValue": 5.0,
   "maxRudderAngle": 30.0,
   "maxSpeed": 35.0,
+  "minVisionDistance": 0.0,
   "model": "content/gameplay/russia/ship/cruiser/RSC037_Smolensk_1951/RSC037_Smolensk_1951.model",
   "name": "PXIH003_Smolensk_H2020",
   "numOfParts": 0,
+  "oilLeakDuration": 40.0,
+  "oilLeakIntervalInvisible": 5.0,
+  "oilLeakStartDelay": 5.0,
   "propellerEffect": "",
   "propellerEffectReversed": "",
   "pushingMaxRudderAngle": 16.0,
@@ -1024,6 +1029,7 @@
   ],
   "smokeScanRadius": 27.0,
   "speedCoef": 1.0,
+  "surfaceOilLeakEffect": "particles/OnBomb_Oil.xml",
   "timeBeforeCauldronExplosion": 4.0,
   "timeBeforeDeathEffect": 0.2,
   "tonnage": 10230.0,
@@ -1052,7 +1058,6 @@
    "0.0": 0.0
   },
   "visibilityCoefPingerInSmoke": 1e-06,
-  "visibilityCoeff": 15.0,
   "visibilityCoeffUnderwaterDepths": {
    "0.0": 1.0
   },
@@ -1068,7 +1073,10 @@
    "PERISCOPE": 30.0,
    "SEMI_DEEP_WATER": 30.0,
    "SURFACE": 30.0
-  }
+  },
+  "visionDistance": 0.0,
+  "wildFireDamage": 0.0,
+  "wildFireDuration": -1.0
  },
  {
   "id": 4283817232,
@@ -1130,49 +1138,63 @@
   "level_1": {
    "points": 0,
    "reward": {
-    "type": 0,
+    "available": 0,
+    "count": 0,
+    "type": 4,
     "weight": 0
    }
   },
   "level_2": {
    "points": 200,
    "reward": {
-    "type": 0,
+    "available": 0,
+    "count": 0,
+    "type": 4,
     "weight": 0
    }
   },
   "level_3": {
    "points": 300,
    "reward": {
-    "type": 0,
+    "available": 0,
+    "count": 0,
+    "type": 4,
     "weight": 0
    }
   },
   "level_4": {
    "points": 500,
    "reward": {
-    "type": 0,
+    "available": 0,
+    "count": 0,
+    "type": 4,
     "weight": 0
    }
   },
   "level_5": {
    "points": 1000,
    "reward": {
-    "type": 0,
+    "available": 0,
+    "count": 0,
+    "type": 4,
     "weight": 0
    }
   },
   "level_6": {
    "points": 1500,
    "reward": {
-    "type": 0,
+    "available": 0,
+    "count": 0,
+    "type": 4,
     "weight": 0
    }
   },
   "level_7": {
    "points": 1500,
    "reward": {
-    "type": 0,
+    "available": 0,
+    "count": 0,
+    "type": 4,
     "weight": 0
    }
   },
@@ -1678,6 +1700,7 @@
    ]
   ],
   "canReceiveAcid": true,
+  "canReceiveWildFire": false,
   "consumablePlaneTypes": {
    "fighter": "",
    "scout": ""
@@ -1713,7 +1736,6 @@
   "deckHeight": 3.47,
   "deepwaterVisionCoeff": {},
   "deepwaterVisionToPlaneCoeff": {},
-  "defaultBuoyancyState": 0,
   "defaultCamouflage": "",
   "dockYOffset": 0.0,
   "draft": 11,
@@ -1934,9 +1956,13 @@
   "maxHeatValue": 5.0,
   "maxRudderAngle": 30.0,
   "maxSpeed": 35.0,
+  "minVisionDistance": 0.0,
   "model": "content/gameplay/events/ship/destroyer/XSD009_Oland_Protos_green/XSD009_Oland_Protos_green.model",
   "name": "PXIH004_Oland_H2020",
   "numOfParts": 0,
+  "oilLeakDuration": 40.0,
+  "oilLeakIntervalInvisible": 5.0,
+  "oilLeakStartDelay": 5.0,
   "propellerEffect": "",
   "propellerEffectReversed": "",
   "pushingMaxRudderAngle": 16.0,
@@ -1996,6 +2022,7 @@
   ],
   "smokeScanRadius": 27.0,
   "speedCoef": 1.0,
+  "surfaceOilLeakEffect": "particles/OnBomb_Oil.xml",
   "timeBeforeCauldronExplosion": 4.0,
   "timeBeforeDeathEffect": 0.2,
   "tonnage": 1880.0,
@@ -2024,7 +2051,6 @@
    "0.0": 0.0
   },
   "visibilityCoefPingerInSmoke": 1e-06,
-  "visibilityCoeff": 15.0,
   "visibilityCoeffUnderwaterDepths": {
    "-30.0": 1.0,
    "-6.0": 1.0,
@@ -2044,7 +2070,10 @@
    "PERISCOPE": 30.0,
    "SEMI_DEEP_WATER": 30.0,
    "SURFACE": 30.0
-  }
+  },
+  "visionDistance": 0.0,
+  "wildFireDamage": 0.0,
+  "wildFireDuration": -1.0
  },
  {
   "Bow": {
@@ -2749,6 +2778,7 @@
    ]
   ],
   "canReceiveAcid": true,
+  "canReceiveWildFire": false,
   "consumablePlaneTypes": {
    "fighter": "",
    "scout": ""
@@ -3010,9 +3040,13 @@
   "maxHeatValue": 5.0,
   "maxRudderAngle": 30.0,
   "maxSpeed": 30.0,
+  "minVisionDistance": 0.0,
   "model": "content/gameplay/events/ship/battleship/XSB006_Protos_1/XSB006_Protos_1.model",
   "name": "PXIH001_France_H2020",
   "numOfParts": 0,
+  "oilLeakDuration": 40.0,
+  "oilLeakIntervalInvisible": 5.0,
+  "oilLeakStartDelay": 5.0,
   "propellerEffect": "",
   "propellerEffectReversed": "",
   "pushingMaxRudderAngle": 16.0,
@@ -3072,6 +3106,7 @@
   ],
   "smokeScanRadius": 27.0,
   "speedCoef": 1.0,
+  "surfaceOilLeakEffect": "particles/OnBomb_Oil.xml",
   "timeBeforeCauldronExplosion": 4.0,
   "timeBeforeDeathEffect": 0.2,
   "tonnage": 68768.0,
@@ -3100,7 +3135,6 @@
    "0.0": 0.0
   },
   "visibilityCoefPingerInSmoke": 1e-06,
-  "visibilityCoeff": 15.0,
   "visibilityCoeffUnderwaterDepths": {
    "0.0": 1.0
   },
@@ -3116,7 +3150,10 @@
    "PERISCOPE": 30.0,
    "SEMI_DEEP_WATER": 30.0,
    "SURFACE": 30.0
-  }
+  },
+  "visionDistance": 0.0,
+  "wildFireDamage": 0.0,
+  "wildFireDuration": -1.0
  },
  {
   "Bow": {
@@ -3780,6 +3817,7 @@
    ]
   ],
   "canReceiveAcid": true,
+  "canReceiveWildFire": false,
   "consumablePlaneTypes": {
    "fighter": "",
    "scout": ""
@@ -4077,9 +4115,13 @@
   "maxHeatValue": 5.0,
   "maxRudderAngle": 30.0,
   "maxSpeed": 30.0,
+  "minVisionDistance": 0.0,
   "model": "content/gameplay/events/ship/battleship/XSB016_Amagi_Raider_yellow/XSB016_Amagi_Raider_yellow.model",
   "name": "PXIH005_Amagi_H2020",
   "numOfParts": 0,
+  "oilLeakDuration": 40.0,
+  "oilLeakIntervalInvisible": 5.0,
+  "oilLeakStartDelay": 5.0,
   "propellerEffect": "",
   "propellerEffectReversed": "",
   "pushingMaxRudderAngle": 16.0,
@@ -4139,6 +4181,7 @@
   ],
   "smokeScanRadius": 27.0,
   "speedCoef": 1.0,
+  "surfaceOilLeakEffect": "particles/OnBomb_Oil.xml",
   "timeBeforeCauldronExplosion": 4.0,
   "timeBeforeDeathEffect": 0.2,
   "tonnage": 68768.0,
@@ -4167,7 +4210,6 @@
    "0.0": 0.0
   },
   "visibilityCoefPingerInSmoke": 1e-06,
-  "visibilityCoeff": 15.0,
   "visibilityCoeffUnderwaterDepths": {
    "0.0": 1.0
   },
@@ -4183,7 +4225,10 @@
    "PERISCOPE": 30.0,
    "SEMI_DEEP_WATER": 30.0,
    "SURFACE": 30.0
-  }
+  },
+  "visionDistance": 0.0,
+  "wildFireDamage": 0.0,
+  "wildFireDuration": -1.0
  },
  {
   "id": 4290108688,
@@ -4995,6 +5040,7 @@
    ]
   ],
   "canReceiveAcid": true,
+  "canReceiveWildFire": false,
   "consumablePlaneTypes": {
    "fighter": "",
    "scout": ""
@@ -5259,9 +5305,13 @@
   "maxHeatValue": 5.0,
   "maxRudderAngle": 30.0,
   "maxSpeed": 31.5,
+  "minVisionDistance": 0.0,
   "model": "content/gameplay/events/ship/cruiser/XSC010_Raider_1/XSC010_Raider_1.model",
   "name": "PXIH002_Hindenburg_H2020",
   "numOfParts": 0,
+  "oilLeakDuration": 40.0,
+  "oilLeakIntervalInvisible": 5.0,
+  "oilLeakStartDelay": 5.0,
   "propellerEffect": "",
   "propellerEffectReversed": "",
   "pushingMaxRudderAngle": 16.0,
@@ -5321,6 +5371,7 @@
   ],
   "smokeScanRadius": 27.0,
   "speedCoef": 1.0,
+  "surfaceOilLeakEffect": "particles/OnBomb_Oil.xml",
   "timeBeforeCauldronExplosion": 4.0,
   "timeBeforeDeathEffect": 0.2,
   "tonnage": 22324.0,
@@ -5349,7 +5400,6 @@
    "0.0": 0.0
   },
   "visibilityCoefPingerInSmoke": 1e-06,
-  "visibilityCoeff": 15.0,
   "visibilityCoeffUnderwaterDepths": {
    "0.0": 1.0
   },
@@ -5365,7 +5415,10 @@
    "PERISCOPE": 30.0,
    "SEMI_DEEP_WATER": 30.0,
    "SURFACE": 30.0
-  }
+  },
+  "visionDistance": 0.0,
+  "wildFireDamage": 0.0,
+  "wildFireDuration": -1.0
  },
  {
   "Bow": {
@@ -5884,6 +5937,7 @@
    ]
   ],
   "canReceiveAcid": true,
+  "canReceiveWildFire": false,
   "consumablePlaneTypes": {
    "fighter": "",
    "scout": ""
@@ -6140,9 +6194,13 @@
   "maxHeatValue": 5.0,
   "maxRudderAngle": 30.0,
   "maxSpeed": 45.0,
+  "minVisionDistance": 0.0,
   "model": "content/gameplay/events/ship/destroyer/XSD011_Akizuki_Pirate_violet/XSD011_Akizuki_Pirate_violet.model",
   "name": "PXIH006_Akizuki_H2020",
   "numOfParts": 0,
+  "oilLeakDuration": 40.0,
+  "oilLeakIntervalInvisible": 5.0,
+  "oilLeakStartDelay": 5.0,
   "propellerEffect": "",
   "propellerEffectReversed": "",
   "pushingMaxRudderAngle": 16.0,
@@ -6202,6 +6260,7 @@
   ],
   "smokeScanRadius": 27.0,
   "speedCoef": 1.0,
+  "surfaceOilLeakEffect": "particles/OnBomb_Oil.xml",
   "timeBeforeCauldronExplosion": 4.0,
   "timeBeforeDeathEffect": 0.2,
   "tonnage": 3888.0,
@@ -6230,7 +6289,6 @@
    "0.0": 0.0
   },
   "visibilityCoefPingerInSmoke": 1e-06,
-  "visibilityCoeff": 15.0,
   "visibilityCoeffUnderwaterDepths": {
    "0.0": 1.0
   },
@@ -6246,7 +6304,10 @@
    "PERISCOPE": 30.0,
    "SEMI_DEEP_WATER": 30.0,
    "SURFACE": 30.0
-  }
+  },
+  "visionDistance": 0.0,
+  "wildFireDamage": 0.0,
+  "wildFireDuration": -1.0
  },
  {
   "id": 4288011536,

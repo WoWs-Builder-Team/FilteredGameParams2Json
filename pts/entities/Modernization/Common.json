@@ -117,7 +117,8 @@
    "PZSC110_Jinan",
    "PZSC509_Dalian",
    "PBSC526_Dido",
-   "PJSC517_Maya"
+   "PJSC517_Maya",
+   "PBSC111_Edgar"
   ],
   "group": [
    "upgradeable",
@@ -445,7 +446,8 @@
    "PGSB518_Brandenburg",
    "PBSB610_Incomparable",
    "PGSB310_Preussen",
-   "PISB519_Giuseppe_Verdi"
+   "PISB519_Giuseppe_Verdi",
+   "PGSB610_Mecklenburg"
   ],
   "shiptype": [],
   "slot": 0,
@@ -1069,8 +1071,12 @@
    "PSSC506_Canarias",
    "PRSC710_Sevastopol",
    "PASD610_Forrest_Sherman",
-   "PVSB508_Atlantico",
-   "PJSC517_Maya"
+   "PJSC517_Maya",
+   "PFSC507_Toulon",
+   "PFSC208_Cherbourg",
+   "PFSC209_Brest",
+   "PFSC210_Marseille",
+   "PBSC111_Edgar"
   ],
   "shiptype": [],
   "slot": 1,
@@ -1406,7 +1412,8 @@
    "PZSC107_Chumphon",
    "PZSC106_Rahmat",
    "PZSC509_Dalian",
-   "PBSC526_Dido"
+   "PBSC526_Dido",
+   "PBSC111_Edgar"
   ],
   "group": [
    "upgradeable",
@@ -1617,6 +1624,87 @@
    "unique"
   ],
   "type": 3,
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Modernization"
+  }
+ },
+ {
+  "costCR": 2000000,
+  "costGold": -1,
+  "excludes": [
+   "PXSA005_Hellcarrier",
+   "PXSB006_Paris",
+   "PXSB007_Alldestroyer",
+   "PXSC004_Galaxy",
+   "PXSC005_Zaya",
+   "PXSC006_Norma",
+   "PXSC007_Aurora",
+   "PXSD004_FlyFire",
+   "PXSD005_Blue_Aster",
+   "PXSD002_Benson_1945_H2017",
+   "PXSD009_Kiev_H2018",
+   "PXSD008_Z_23_H2018",
+   "PXSC009_Mogami_H2018",
+   "PXSC002_Charles_Martel_H2017",
+   "PXSB008_North_Carolina_H2018",
+   "PXSB005_Bismarck_H2017",
+   "PXSB002_Rasputin"
+  ],
+  "group": [
+   "upgradeable",
+   "disabled",
+   "upgradeableExclusive",
+   "premium",
+   "special",
+   "event",
+   "specialUnsellable",
+   "demoWithoutStats",
+   "start",
+   "peculiar",
+   "clan",
+   "ultimate",
+   "earlyAccess",
+   "upgradeableUltimate",
+   "legendaryBattle",
+   "notForBattle"
+  ],
+  "id": 4284665776,
+  "index": "PCM009",
+  "modifiers": {
+   "planeExtraHangarSize": 2,
+   "planeSpawnTime": 0.95
+  },
+  "name": "PCM009_FlightControl_Mod_I",
+  "nation": [
+   "France",
+   "USA",
+   "Russia",
+   "Japan",
+   "United_Kingdom",
+   "Germany",
+   "Italy",
+   "Europe",
+   "Netherlands",
+   "Spain",
+   "Pan_Asia",
+   "Pan_America",
+   "Commonwealth"
+  ],
+  "shiplevel": [
+   8,
+   9,
+   10,
+   11
+  ],
+  "ships": [],
+  "shiptype": [
+   "AirCarrier"
+  ],
+  "slot": 4,
+  "tags": [],
+  "type": 0,
   "typeinfo": {
    "nation": "Common",
    "species": null,
@@ -2238,7 +2326,8 @@
    "PASC528_Congress",
    "PWSD710_Ragnar",
    "PASC519_Tulsa",
-   "PASC111_Annapolis"
+   "PASC111_Annapolis",
+   "PBSC111_Edgar"
   ],
   "shiptype": [],
   "slot": 1,
@@ -2757,7 +2846,8 @@
    "PZSC106_Rahmat",
    "PZSC509_Dalian",
    "PBSC526_Dido",
-   "PJSC517_Maya"
+   "PJSC517_Maya",
+   "PBSC111_Edgar"
   ],
   "shiptype": [
    "Destroyer"
@@ -2852,7 +2942,8 @@
    "PBSC610_Gibraltar",
    "PASB910_Connecticut",
    "PBSB610_Incomparable",
-   "PBSC526_Dido"
+   "PBSC526_Dido",
+   "PBSC111_Edgar"
   ],
   "group": [
    "upgradeable",
@@ -3347,36 +3438,6 @@
   }
  },
  {
-  "costCR": 5000000,
-  "costGold": -1,
-  "excludes": [],
-  "group": [],
-  "id": 4213362608,
-  "index": "PCM077",
-  "modifiers": {
-   "additionalConsumables": 1,
-   "smokeGeneratorLifeTime": 1.3,
-   "smokeGeneratorWorkTimeCoeff": 2.0
-  },
-  "name": "PCM077_Special_Mod_I_Harugumo",
-  "nation": [],
-  "shiplevel": [],
-  "ships": [
-   "PJSD210_Harugumo"
-  ],
-  "shiptype": [],
-  "slot": 4,
-  "tags": [
-   "unique"
-  ],
-  "type": 3,
-  "typeinfo": {
-   "nation": "Common",
-   "species": null,
-   "type": "Modernization"
-  }
- },
- {
   "costCR": 500000,
   "costGold": -1,
   "excludes": [
@@ -3669,7 +3730,12 @@
    "PBSC526_Dido",
    "PRSC710_Sevastopol",
    "PASD610_Forrest_Sherman",
-   "PJSC517_Maya"
+   "PJSC517_Maya",
+   "PFSC507_Toulon",
+   "PFSC208_Cherbourg",
+   "PFSC209_Brest",
+   "PFSC210_Marseille",
+   "PGSB610_Mecklenburg"
   ],
   "shiptype": [],
   "slot": 1,
@@ -4176,7 +4242,10 @@
    "PBSC610_Gibraltar",
    "PASC519_Tulsa",
    "PASC111_Annapolis",
-   "PRSC710_Sevastopol"
+   "PRSC710_Sevastopol",
+   "PFSC208_Cherbourg",
+   "PFSC209_Brest",
+   "PFSC210_Marseille"
   ],
   "group": [
    "upgradeable",
@@ -4229,7 +4298,9 @@
    "PGSB599_Black_Pommern",
    "PGSB209_Prinz_Rupprecht",
    "PGSB210_Schlieffen",
-   "PBSB610_Incomparable"
+   "PJSB529_Iwami",
+   "PBSB610_Incomparable",
+   "PGSB610_Mecklenburg"
   ],
   "shiptype": [
    "Cruiser",
@@ -4402,7 +4473,8 @@
    "PZSC105_Chung_King",
    "PZSC509_Dalian",
    "PBSC526_Dido",
-   "PISD506_Leone"
+   "PISD506_Leone",
+   "PBSC111_Edgar"
   ],
   "shiptype": [
    "Destroyer"
@@ -5312,6 +5384,36 @@
   "costGold": -1,
   "excludes": [],
   "group": [],
+  "id": 4213362608,
+  "index": "PCM077",
+  "modifiers": {
+   "additionalConsumables": 1,
+   "smokeGeneratorLifeTime": 1.3,
+   "smokeGeneratorWorkTimeCoeff": 2.0
+  },
+  "name": "PCM077_Special_Mod_I_Harugumo",
+  "nation": [],
+  "shiplevel": [],
+  "ships": [
+   "PJSD210_Harugumo"
+  ],
+  "shiptype": [],
+  "slot": 4,
+  "tags": [
+   "unique"
+  ],
+  "type": 3,
+  "typeinfo": {
+   "nation": "Common",
+   "species": null,
+   "type": "Modernization"
+  }
+ },
+ {
+  "costCR": 5000000,
+  "costGold": -1,
+  "excludes": [],
+  "group": [],
   "id": 4232236976,
   "index": "PCM059",
   "modifiers": {
@@ -5375,13 +5477,7 @@
    "PGSD210_Elbing",
    "PBSD510_Druid",
    "PHSD509_Groningen",
-   "PASD610_Forrest_Sherman",
-   "PISD103_Sauro",
-   "PISD104_Turbine",
-   "PISD105_Maestrale",
-   "PISD106_Aviere",
-   "PISD107_Luca_Tarigo",
-   "PISD507_FR25"
+   "PASD610_Forrest_Sherman"
   ],
   "group": [
    "upgradeable",
@@ -5460,7 +5556,11 @@
    "PFSC509_Carnot",
    "PBSB610_Incomparable",
    "PSSC506_Canarias",
-   "PFSC111_Conde"
+   "PFSC111_Conde",
+   "PFSC208_Cherbourg",
+   "PFSC209_Brest",
+   "PFSC210_Marseille",
+   "PRSC710_Sevastopol"
   ],
   "shiptype": [
    "Destroyer"
@@ -5922,7 +6022,11 @@
    "PASC519_Tulsa",
    "PASC111_Annapolis",
    "PSSC506_Canarias",
-   "PRSC710_Sevastopol"
+   "PRSC710_Sevastopol",
+   "PFSC507_Toulon",
+   "PFSC208_Cherbourg",
+   "PFSC209_Brest",
+   "PFSC210_Marseille"
   ],
   "group": [
    "upgradeable",
@@ -5984,6 +6088,7 @@
    "PGSB598_Black_Tirpitz",
    "PJSB506_Mutsu",
    "PJSB508_Kii",
+   "PJSB529_Iwami",
    "PJSC026_Iwaki_1944",
    "PGSB509_Pommern",
    "PGSB599_Black_Pommern",
@@ -5993,7 +6098,8 @@
    "PGSB208_Zieten",
    "PGSB209_Prinz_Rupprecht",
    "PGSB210_Schlieffen",
-   "PBSB610_Incomparable"
+   "PBSB610_Incomparable",
+   "PGSB610_Mecklenburg"
   ],
   "shiptype": [
    "Cruiser",
@@ -6207,87 +6313,6 @@
    "Destroyer"
   ],
   "slot": 5,
-  "tags": [],
-  "type": 0,
-  "typeinfo": {
-   "nation": "Common",
-   "species": null,
-   "type": "Modernization"
-  }
- },
- {
-  "costCR": 2000000,
-  "costGold": -1,
-  "excludes": [
-   "PXSA005_Hellcarrier",
-   "PXSB006_Paris",
-   "PXSB007_Alldestroyer",
-   "PXSC004_Galaxy",
-   "PXSC005_Zaya",
-   "PXSC006_Norma",
-   "PXSC007_Aurora",
-   "PXSD004_FlyFire",
-   "PXSD005_Blue_Aster",
-   "PXSD002_Benson_1945_H2017",
-   "PXSD009_Kiev_H2018",
-   "PXSD008_Z_23_H2018",
-   "PXSC009_Mogami_H2018",
-   "PXSC002_Charles_Martel_H2017",
-   "PXSB008_North_Carolina_H2018",
-   "PXSB005_Bismarck_H2017",
-   "PXSB002_Rasputin"
-  ],
-  "group": [
-   "upgradeable",
-   "disabled",
-   "upgradeableExclusive",
-   "premium",
-   "special",
-   "event",
-   "specialUnsellable",
-   "demoWithoutStats",
-   "start",
-   "peculiar",
-   "clan",
-   "ultimate",
-   "earlyAccess",
-   "upgradeableUltimate",
-   "legendaryBattle",
-   "notForBattle"
-  ],
-  "id": 4284665776,
-  "index": "PCM009",
-  "modifiers": {
-   "planeExtraHangarSize": 2,
-   "planeSpawnTime": 0.95
-  },
-  "name": "PCM009_FlightControl_Mod_I",
-  "nation": [
-   "France",
-   "USA",
-   "Russia",
-   "Japan",
-   "United_Kingdom",
-   "Germany",
-   "Italy",
-   "Europe",
-   "Netherlands",
-   "Spain",
-   "Pan_Asia",
-   "Pan_America",
-   "Commonwealth"
-  ],
-  "shiplevel": [
-   8,
-   9,
-   10,
-   11
-  ],
-  "ships": [],
-  "shiptype": [
-   "AirCarrier"
-  ],
-  "slot": 4,
   "tags": [],
   "type": 0,
   "typeinfo": {

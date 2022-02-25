@@ -33,7 +33,7 @@
        14.0,
        10.0
       ],
-      "shotDelay": 5.0,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Italy",
@@ -80,7 +80,7 @@
        14.0,
        10.0
       ],
-      "shotDelay": 5.0,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Italy",
@@ -118,7 +118,7 @@
        14.0,
        10.0
       ],
-      "shotDelay": 5.0,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Italy",
@@ -127,7 +127,7 @@
       }
      }
     },
-    "maxDist": 6150.0,
+    "maxDist": 7300.0,
     "normalDistribution": true,
     "sigmaCount": 2.0,
     "taperDist": 4000.0
@@ -389,13 +389,13 @@
     ],
     "speedCoef": 1.0,
     "turningRadius": 610.0,
-    "visibilityCoefGKInSmoke": 2.51,
-    "visibilityFactor": 7.06,
-    "visibilityFactorByPlane": 3.02,
+    "visibilityCoefGKInSmoke": 2.68,
+    "visibilityFactor": 7.5,
+    "visibilityFactorByPlane": 3.16,
     "visibilityFactorsBySubmarine": {
      "DEEP_WATER": 2.0,
      "DEEP_WATER_INVUL": 0.0,
-     "PERISCOPE": 3.02,
+     "PERISCOPE": 3.16,
      "SEMI_DEEP_WATER": 2.0,
      "SURFACE": 0.0
     }
@@ -471,13 +471,13 @@
     ],
     "speedCoef": 1.0,
     "turningRadius": 610.0,
-    "visibilityCoefGKInSmoke": 2.51,
-    "visibilityFactor": 7.06,
-    "visibilityFactorByPlane": 3.02,
+    "visibilityCoefGKInSmoke": 2.68,
+    "visibilityFactor": 7.5,
+    "visibilityFactorByPlane": 3.16,
     "visibilityFactorsBySubmarine": {
      "DEEP_WATER": 2.0,
      "DEEP_WATER_INVUL": 0.0,
-     "PERISCOPE": 3.02,
+     "PERISCOPE": 3.16,
      "SEMI_DEEP_WATER": 2.0,
      "SURFACE": 0.0
     }
@@ -503,7 +503,12 @@
     "slot": 1
    },
    "AbilitySlot2": {
-    "abils": [],
+    "abils": [
+     [
+      "PCY015_SpeedBoosterPremium",
+      "IT_DD_5_7"
+     ]
+    ],
     "slot": 2
    },
    "AbilitySlot3": {
@@ -602,7 +607,9 @@
      ]
     },
     "disabledAbilities": [],
-    "nextShips": [],
+    "nextShips": [
+     "PISD108_Vittorio_Cuniberti"
+    ],
     "prev": "PIUH607_DD7_HULL_STOCK",
     "ucType": "_Hull"
    },
@@ -645,11 +652,15 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "earlyAccess",
   "id": 4182652656,
   "index": "PISD107",
   "level": 7,
   "name": "PISD107_Luca_Tarigo",
+  "permoflages": [
+   "PCEP117_Permo_Upgr_7_lvl",
+   "PIES507_Luca_Arc"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Destroyer",
@@ -846,7 +857,7 @@
       }
      }
     },
-    "maxDist": 8500.0,
+    "maxDist": 9800.0,
     "normalDistribution": true,
     "sigmaCount": 2.0,
     "taperDist": 4000.0
@@ -1171,11 +1182,17 @@
    "costXP": 1,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "earlyAccess",
   "id": 4179506928,
   "index": "PISD110",
   "level": 10,
   "name": "PISD110_Attilio_Regolo",
+  "permoflages": [
+   "PCEM017_Steel_10lvl",
+   "PCEM004_Halloween19_10lvl",
+   "PCEP120_Permo_Upgr_10_lvl",
+   "PIES510_Attilio_Arc"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Destroyer",
@@ -1224,7 +1241,7 @@
        10.0,
        8.0
       ],
-      "shotDelay": 5.0,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Italy",
@@ -1262,7 +1279,7 @@
        10.0,
        8.0
       ],
-      "shotDelay": 5.0,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Italy",
@@ -1271,7 +1288,7 @@
       }
      }
     },
-    "maxDist": 5600.0,
+    "maxDist": 5700.0,
     "normalDistribution": true,
     "sigmaCount": 2.0,
     "taperDist": 4000.0
@@ -1311,7 +1328,7 @@
        25.0,
        25.0
       ],
-      "shotDelay": 60.0,
+      "shotDelay": 75.0,
       "torpedoAngles": [
        3.6,
        12.0
@@ -1346,7 +1363,7 @@
        25.0,
        25.0
       ],
-      "shotDelay": 60.0,
+      "shotDelay": 75.0,
       "torpedoAngles": [
        3.6,
        12.0
@@ -1430,13 +1447,13 @@
     ],
     "speedCoef": 1.0,
     "turningRadius": 510.0,
-    "visibilityCoefGKInSmoke": 2.13,
-    "visibilityFactor": 5.94,
-    "visibilityFactorByPlane": 2.4,
+    "visibilityCoefGKInSmoke": 2.33,
+    "visibilityFactor": 6.54,
+    "visibilityFactorByPlane": 2.64,
     "visibilityFactorsBySubmarine": {
      "DEEP_WATER": 2.0,
      "DEEP_WATER_INVUL": 0.0,
-     "PERISCOPE": 2.4,
+     "PERISCOPE": 2.64,
      "SEMI_DEEP_WATER": 2.0,
      "SURFACE": 0.0
     }
@@ -1502,13 +1519,13 @@
     ],
     "speedCoef": 1.0,
     "turningRadius": 510.0,
-    "visibilityCoefGKInSmoke": 2.13,
-    "visibilityFactor": 5.94,
-    "visibilityFactorByPlane": 2.4,
+    "visibilityCoefGKInSmoke": 2.33,
+    "visibilityFactor": 6.54,
+    "visibilityFactorByPlane": 2.64,
     "visibilityFactorsBySubmarine": {
      "DEEP_WATER": 2.0,
      "DEEP_WATER_INVUL": 0.0,
-     "PERISCOPE": 2.4,
+     "PERISCOPE": 2.64,
      "SEMI_DEEP_WATER": 2.0,
      "SURFACE": 0.0
     }
@@ -1534,7 +1551,12 @@
     "slot": 1
    },
    "AbilitySlot2": {
-    "abils": [],
+    "abils": [
+     [
+      "PCY015_SpeedBoosterPremium",
+      "IT_DD_2_4"
+     ]
+    ],
     "slot": 2
    },
    "AbilitySlot3": {
@@ -1625,7 +1647,9 @@
      ]
     },
     "disabledAbilities": [],
-    "nextShips": [],
+    "nextShips": [
+     "PISD105_Maestrale"
+    ],
     "prev": "PIUH304_DD4_HULL_STOCK",
     "ucType": "_Hull"
    },
@@ -1668,11 +1692,12 @@
    "costXP": 1,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "earlyAccess",
   "id": 4185798384,
   "index": "PISD104",
   "level": 4,
   "name": "PISD104_Turbine",
+  "permoflages": [],
   "typeinfo": {
    "nation": "Italy",
    "species": "Destroyer",
@@ -2222,6 +2247,12 @@
   "index": "PISD509",
   "level": 9,
   "name": "PISD509_Paolo_Emilio",
+  "permoflages": [
+   "PCEP109_Permo_Prem_9_lvl",
+   "PCEM003_Halloween19_9lvl",
+   "PCEM014_5Years_9lvl",
+   "PCEM015_HappyNY20_9lvl"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Destroyer",
@@ -2607,7 +2638,7 @@
     "maxPlaneFlightDist": 3500,
     "minDist": 1500,
     "planeName": "PJAD901_ASW_T6",
-    "reloadTime": 60.0,
+    "reloadTime": 30.0,
     "timeBetweenShots": 2.0,
     "timeFromHeaven": 2.0
    },
@@ -3104,6 +3135,10 @@
   "index": "PISB107",
   "level": 7,
   "name": "PISB107_Francesco_Caracciolo",
+  "permoflages": [
+   "PCEP117_Permo_Upgr_7_lvl",
+   "PIEP307_Caracciolo_Roman"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Battleship",
@@ -3941,6 +3976,9 @@
   "index": "PISC105",
   "level": 5,
   "name": "PISC105_Raimondo_Montecuccoli",
+  "permoflages": [
+   "PIES105_Montecuccoli_Italy"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Cruiser",
@@ -4706,6 +4744,7 @@
   "index": "PISC103",
   "level": 3,
   "name": "PISC103_Taranto",
+  "permoflages": [],
   "typeinfo": {
    "nation": "Italy",
    "species": "Cruiser",
@@ -5469,7 +5508,9 @@
       "AB2_FireControl"
      ]
     },
-    "nextShips": [],
+    "nextShips": [
+     "PISD102_Curtatone"
+    ],
     "prev": "PIUS101_C2_SUO_STOCK",
     "ucType": "_Suo"
    },
@@ -5484,6 +5525,7 @@
   "index": "PISC102",
   "level": 2,
   "name": "PISC102_Nino_Bixio",
+  "permoflages": [],
   "typeinfo": {
    "nation": "Italy",
    "species": "Cruiser",
@@ -6123,6 +6165,9 @@
   "index": "PISC507",
   "level": 7,
   "name": "PISC507_Duca_degli_Abruzzi",
+  "permoflages": [
+   "PCEP107_Permo_Prem_High_lvl"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Cruiser",
@@ -6523,7 +6568,7 @@
     "maxPlaneFlightDist": 4200,
     "minDist": 1500,
     "planeName": "PJAD902_ASW_T8",
-    "reloadTime": 60.0,
+    "reloadTime": 30.0,
     "timeBetweenShots": 0.1,
     "timeFromHeaven": 2.0
    },
@@ -6844,6 +6889,13 @@
   "index": "PISB509",
   "level": 9,
   "name": "PISB509_Marco_Polo",
+  "permoflages": [
+   "PCEP109_Permo_Prem_9_lvl",
+   "PCEM003_Halloween19_9lvl",
+   "PCEM014_5Years_9lvl",
+   "PCEM015_HappyNY20_9lvl",
+   "PIES319_Polo_Roman"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Battleship",
@@ -7296,7 +7348,12 @@
     "slot": 1
    },
    "AbilitySlot2": {
-    "abils": [],
+    "abils": [
+     [
+      "PCY015_SpeedBoosterPremium",
+      "IT_DD_FR25"
+     ]
+    ],
     "slot": 2
    },
    "AbilitySlot3": {
@@ -7391,11 +7448,15 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "special",
   "id": 3763222256,
   "index": "PISD507",
   "level": 7,
   "name": "PISD507_FR25",
+  "permoflages": [
+   "PCEP107_Permo_Prem_High_lvl",
+   "PIES517_FR25_Arc"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Destroyer",
@@ -8285,6 +8346,13 @@
   "index": "PISC110",
   "level": 10,
   "name": "PISC110_Venezia",
+  "permoflages": [
+   "PCEP120_Permo_Upgr_10_lvl",
+   "PIES110_Venezia_Italy",
+   "PCEM004_Halloween19_10lvl",
+   "PCEM017_Steel_10lvl",
+   "PIES600_VENEZIA_SOUNDWAVE"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Cruiser",
@@ -8819,7 +8887,7 @@
     "maxPlaneFlightDist": 4200,
     "minDist": 1500,
     "planeName": "PJAD902_ASW_T8",
-    "reloadTime": 60.0,
+    "reloadTime": 30.0,
     "timeBetweenShots": 0.1,
     "timeFromHeaven": 2.0
    },
@@ -9006,6 +9074,12 @@
   "index": "PISB508",
   "level": 8,
   "name": "PISB508_Roma",
+  "permoflages": [
+   "PCEP107_Permo_Prem_High_lvl",
+   "PIES308_Roma_Kobayashi",
+   "PCEM002_Halloween19_8lvl",
+   "PCEM007_HappyNY20_8lvl"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Battleship",
@@ -9046,7 +9120,7 @@
        14.0,
        10.0
       ],
-      "shotDelay": 5.0,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Italy",
@@ -9084,7 +9158,7 @@
        14.0,
        10.0
       ],
-      "shotDelay": 5.0,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Italy",
@@ -9093,7 +9167,7 @@
       }
      }
     },
-    "maxDist": 5833.0,
+    "maxDist": 6800.0,
     "normalDistribution": true,
     "sigmaCount": 2.0,
     "taperDist": 4000.0
@@ -9129,7 +9203,7 @@
        25.0,
        25.0
       ],
-      "shotDelay": 60.0,
+      "shotDelay": 75.0,
       "torpedoAngles": [
        3.6,
        12.0
@@ -9164,7 +9238,7 @@
        25.0,
        25.0
       ],
-      "shotDelay": 60.0,
+      "shotDelay": 75.0,
       "torpedoAngles": [
        3.6,
        12.0
@@ -9208,7 +9282,7 @@
        25.0,
        25.0
       ],
-      "shotDelay": 65.0,
+      "shotDelay": 75.0,
       "torpedoAngles": [
        3.6,
        12.0
@@ -9243,7 +9317,7 @@
        25.0,
        25.0
       ],
-      "shotDelay": 65.0,
+      "shotDelay": 75.0,
       "torpedoAngles": [
        3.6,
        12.0
@@ -9430,13 +9504,13 @@
     ],
     "speedCoef": 1.0,
     "turningRadius": 590.0,
-    "visibilityCoefGKInSmoke": 2.54,
-    "visibilityFactor": 7.12,
-    "visibilityFactorByPlane": 2.83,
+    "visibilityCoefGKInSmoke": 2.57,
+    "visibilityFactor": 7.22,
+    "visibilityFactorByPlane": 2.87,
     "visibilityFactorsBySubmarine": {
      "DEEP_WATER": 2.0,
      "DEEP_WATER_INVUL": 0.0,
-     "PERISCOPE": 2.83,
+     "PERISCOPE": 2.87,
      "SEMI_DEEP_WATER": 2.0,
      "SURFACE": 0.0
     }
@@ -9512,13 +9586,13 @@
     ],
     "speedCoef": 1.0,
     "turningRadius": 590.0,
-    "visibilityCoefGKInSmoke": 2.54,
-    "visibilityFactor": 7.12,
-    "visibilityFactorByPlane": 2.83,
+    "visibilityCoefGKInSmoke": 2.57,
+    "visibilityFactor": 7.22,
+    "visibilityFactorByPlane": 2.87,
     "visibilityFactorsBySubmarine": {
      "DEEP_WATER": 2.0,
      "DEEP_WATER_INVUL": 0.0,
-     "PERISCOPE": 2.83,
+     "PERISCOPE": 2.87,
      "SEMI_DEEP_WATER": 2.0,
      "SURFACE": 0.0
     }
@@ -9544,7 +9618,12 @@
     "slot": 1
    },
    "AbilitySlot2": {
-    "abils": [],
+    "abils": [
+     [
+      "PCY015_SpeedBoosterPremium",
+      "IT_DD_5_7"
+     ]
+    ],
     "slot": 2
    },
    "AbilitySlot3": {
@@ -9645,7 +9724,9 @@
      ]
     },
     "disabledAbilities": [],
-    "nextShips": [],
+    "nextShips": [
+     "PISD106_Aviere"
+    ],
     "prev": "PIUH406_DD5_HULL_STOCK",
     "ucType": "_Hull"
    },
@@ -9699,11 +9780,14 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "earlyAccess",
   "id": 4184749808,
   "index": "PISD105",
   "level": 5,
   "name": "PISD105_Maestrale",
+  "permoflages": [
+   "PCEP115_Permo_Upgr_5_lvl"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Destroyer",
@@ -10238,7 +10322,7 @@
     "maxPlaneFlightDist": 4200,
     "minDist": 1500,
     "planeName": "PJAD902_ASW_T8",
-    "reloadTime": 60.0,
+    "reloadTime": 30.0,
     "timeBetweenShots": 0.1,
     "timeFromHeaven": 2.0
    },
@@ -10425,6 +10509,9 @@
   "index": "PISB708",
   "level": 8,
   "name": "PISB708_AZUR_Littorio",
+  "permoflages": [
+   "PIES307_AZUR_Littorio"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Battleship",
@@ -10810,7 +10897,7 @@
     "maxPlaneFlightDist": 4200,
     "minDist": 1500,
     "planeName": "PJAD902_ASW_T8",
-    "reloadTime": 60.0,
+    "reloadTime": 30.0,
     "timeBetweenShots": 0.1,
     "timeFromHeaven": 2.0
    },
@@ -11410,6 +11497,12 @@
   "index": "PISB108",
   "level": 8,
   "name": "PISB108_Vittorio_Veneto",
+  "permoflages": [
+   "PCEP118_Permo_Upgr_8_lvl",
+   "PCEM002_Halloween19_8lvl",
+   "PCEM007_HappyNY20_8lvl",
+   "PIES318_Veneto_Roman"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Battleship",
@@ -11852,7 +11945,7 @@
     "maxPlaneFlightDist": 3500,
     "minDist": 1500,
     "planeName": "PJAD903_ASW_T10",
-    "reloadTime": 60.0,
+    "reloadTime": 30.0,
     "timeBetweenShots": 0.1,
     "timeFromHeaven": 2.0
    },
@@ -12226,6 +12319,12 @@
   "index": "PISB110",
   "level": 10,
   "name": "PISB110_Cristoforo_Colombo",
+  "permoflages": [
+   "PCEM004_Halloween19_10lvl",
+   "PCEP120_Permo_Upgr_10_lvl",
+   "PCEM017_Steel_10lvl",
+   "PIES310_Colombo_Roman"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Battleship",
@@ -12496,11 +12595,11 @@
    "A_AirSupport": {
     "chargesNum": 2,
     "flyAwayTime": 5.0,
-    "maxDist": 6000,
+    "maxDist": 8000,
     "maxPlaneFlightDist": 3800,
     "minDist": 1500,
     "planeName": "PAAD905_ASW_T10_ALT",
-    "reloadTime": 90,
+    "reloadTime": 45,
     "timeBetweenShots": 0.1,
     "timeFromHeaven": 2.0
    },
@@ -12908,6 +13007,12 @@
   "index": "PISC510",
   "level": 10,
   "name": "PISC510_Napoli",
+  "permoflages": [
+   "PCEP120_Permo_Upgr_10_lvl",
+   "PCEM017_Steel_10lvl",
+   "PCEM004_Halloween19_10lvl",
+   "PIES120_Napoli_Italy"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Cruiser",
@@ -13033,7 +13138,7 @@
       }
      }
     },
-    "maxDist": 7700.0,
+    "maxDist": 8600.0,
     "normalDistribution": true,
     "sigmaCount": 2.0,
     "taperDist": 4000.0
@@ -13590,7 +13695,9 @@
      ]
     },
     "disabledAbilities": [],
-    "nextShips": [],
+    "nextShips": [
+     "PISD110_Attilio_Regolo"
+    ],
     "prev": "PIUH808_DD9_HULL_STOCK",
     "ucType": "_Hull"
    },
@@ -13644,11 +13751,18 @@
    "costXP": 1,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "earlyAccess",
   "id": 4180555504,
   "index": "PISD109",
   "level": 9,
   "name": "PISD109_Adriatico",
+  "permoflages": [
+   "PCEM014_5Years_9lvl",
+   "PCEM003_Halloween19_9lvl",
+   "PCEM015_HappyNY20_9lvl",
+   "PCEP119_Permo_Upgr_9_lvl",
+   "PIES509_Adriatic_Arc"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Destroyer",
@@ -13689,7 +13803,7 @@
        10.0,
        12.0
       ],
-      "shotDelay": 5.0,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Italy",
@@ -13732,7 +13846,7 @@
        10.0,
        12.0
       ],
-      "shotDelay": 5.0,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Italy",
@@ -13741,7 +13855,7 @@
       }
      }
     },
-    "maxDist": 5300.0,
+    "maxDist": 5500.0,
     "normalDistribution": true,
     "sigmaCount": 2.0,
     "taperDist": 4000.0
@@ -13777,7 +13891,7 @@
        25.0,
        25.0
       ],
-      "shotDelay": 55.0,
+      "shotDelay": 65.0,
       "torpedoAngles": [
        3.6,
        12.0
@@ -13812,7 +13926,7 @@
        25.0,
        25.0
       ],
-      "shotDelay": 55.0,
+      "shotDelay": 65.0,
       "torpedoAngles": [
        3.6,
        12.0
@@ -13899,12 +14013,12 @@
     "speedCoef": 1.0,
     "turningRadius": 470.0,
     "visibilityCoefGKInSmoke": 2.0,
-    "visibilityFactor": 5.94,
-    "visibilityFactorByPlane": 2.43,
+    "visibilityFactor": 6.24,
+    "visibilityFactorByPlane": 2.49,
     "visibilityFactorsBySubmarine": {
      "DEEP_WATER": 2.0,
      "DEEP_WATER_INVUL": 0.0,
-     "PERISCOPE": 2.43,
+     "PERISCOPE": 2.49,
      "SEMI_DEEP_WATER": 2.0,
      "SURFACE": 0.0
     }
@@ -13971,12 +14085,12 @@
     "speedCoef": 1.0,
     "turningRadius": 470.0,
     "visibilityCoefGKInSmoke": 2.0,
-    "visibilityFactor": 5.94,
-    "visibilityFactorByPlane": 2.43,
+    "visibilityFactor": 6.24,
+    "visibilityFactorByPlane": 2.49,
     "visibilityFactorsBySubmarine": {
      "DEEP_WATER": 2.0,
      "DEEP_WATER_INVUL": 0.0,
-     "PERISCOPE": 2.43,
+     "PERISCOPE": 2.49,
      "SEMI_DEEP_WATER": 2.0,
      "SURFACE": 0.0
     }
@@ -13993,11 +14107,21 @@
     "slot": 0
    },
    "AbilitySlot1": {
-    "abils": [],
+    "abils": [
+     [
+      "PCY014_SmokeGeneratorPremium",
+      "IT_Oil_DD_2_4"
+     ]
+    ],
     "slot": 1
    },
    "AbilitySlot2": {
-    "abils": [],
+    "abils": [
+     [
+      "PCY015_SpeedBoosterPremium",
+      "IT_DD_2_4"
+     ]
+    ],
     "slot": 2
    },
    "AbilitySlot3": {
@@ -14088,7 +14212,9 @@
      ]
     },
     "disabledAbilities": [],
-    "nextShips": [],
+    "nextShips": [
+     "PISD103_Sauro"
+    ],
     "prev": "PIUH103_DD2_HULL_A",
     "ucType": "_Hull"
    },
@@ -14131,11 +14257,12 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "earlyAccess",
   "id": 4187895536,
   "index": "PISD102",
   "level": 2,
   "name": "PISD102_Curtatone",
+  "permoflages": [],
   "typeinfo": {
    "nation": "Italy",
    "species": "Destroyer",
@@ -14311,11 +14438,11 @@
    "AB_AirSupport": {
     "chargesNum": 1,
     "flyAwayTime": 5.0,
-    "maxDist": 4000,
+    "maxDist": 6000,
     "maxPlaneFlightDist": 3400,
     "minDist": 500,
     "planeName": "PAAD902_ASW_T6",
-    "reloadTime": 60,
+    "reloadTime": 30,
     "timeBetweenShots": 2.0,
     "timeFromHeaven": 2.0
    },
@@ -14726,6 +14853,9 @@
   "index": "PISC607",
   "level": 7,
   "name": "PISC607_Gorizia",
+  "permoflages": [
+   "PCEP107_Permo_Prem_High_lvl"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Cruiser",
@@ -15949,6 +16079,12 @@
   "index": "PISC108",
   "level": 8,
   "name": "PISC108_Amalfi",
+  "permoflages": [
+   "PCEP118_Permo_Upgr_8_lvl",
+   "PIES108_Amalfi_Italy",
+   "PCEM002_Halloween19_8lvl",
+   "PCEM007_HappyNY20_8lvl"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Cruiser",
@@ -16559,6 +16695,9 @@
   "index": "PISB805",
   "level": 6,
   "name": "PISB805_TST_CESARE",
+  "permoflages": [
+   "PCEP107_Permo_Prem_High_lvl"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Battleship",
@@ -16966,7 +17105,7 @@
     "maxPlaneFlightDist": 3500,
     "minDist": 1500,
     "planeName": "PJAD904_ASW_T5",
-    "reloadTime": 60.0,
+    "reloadTime": 30.0,
     "timeBetweenShots": 2.0,
     "timeFromHeaven": 2.0
    },
@@ -17510,6 +17649,9 @@
   "index": "PISB105",
   "level": 5,
   "name": "PISB105_Conte_di_Cavour",
+  "permoflages": [
+   "PIES312_CavourNY2022"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Battleship",
@@ -18123,6 +18265,9 @@
   "index": "PISC506",
   "level": 6,
   "name": "PISC506_DucadAosta",
+  "permoflages": [
+   "PCEP107_Permo_Prem_High_lvl"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Cruiser",
@@ -19385,6 +19530,13 @@
   "index": "PISC109",
   "level": 9,
   "name": "PISC109_Brindisi",
+  "permoflages": [
+   "PCEP119_Permo_Upgr_9_lvl",
+   "PIES109_Brindisi_Italy",
+   "PCEM003_Halloween19_9lvl",
+   "PCEM014_5Years_9lvl",
+   "PCEM015_HappyNY20_9lvl"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Cruiser",
@@ -19396,11 +19548,11 @@
    "AB_AirSupport": {
     "chargesNum": 1,
     "flyAwayTime": 5.0,
-    "maxDist": 4000,
+    "maxDist": 5000,
     "maxPlaneFlightDist": 3600,
     "minDist": 500,
     "planeName": "PAAD909_ASW_T5",
-    "reloadTime": 60,
+    "reloadTime": 30,
     "timeBetweenShots": 2.0,
     "timeFromHeaven": 2.0
    },
@@ -20201,6 +20353,10 @@
   "index": "PISC505",
   "level": 5,
   "name": "PISC505_Genova",
+  "permoflages": [
+   "PCEP103_Permo_Prem_Low_lvl",
+   "PIES111_Genova_Italy"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Cruiser",
@@ -20712,7 +20868,7 @@
     "maxPlaneFlightDist": 3500,
     "minDist": 1500,
     "planeName": "PJAD901_ASW_T6",
-    "reloadTime": 60.0,
+    "reloadTime": 30.0,
     "timeBetweenShots": 2.0,
     "timeFromHeaven": 2.0
    },
@@ -21206,6 +21362,10 @@
   "index": "PISB106",
   "level": 6,
   "name": "PISB106_Andrea_Doria",
+  "permoflages": [
+   "PCEP116_Permo_Upgr_6_lvl",
+   "PIEP306_Doria_Roman"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Battleship",
@@ -21254,7 +21414,7 @@
        10.0,
        8.0
       ],
-      "shotDelay": 6.0,
+      "shotDelay": 6.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Italy",
@@ -21292,7 +21452,7 @@
        10.0,
        8.0
       ],
-      "shotDelay": 6.0,
+      "shotDelay": 6.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Italy",
@@ -21301,7 +21461,7 @@
       }
      }
     },
-    "maxDist": 5500.0,
+    "maxDist": 5600.0,
     "normalDistribution": true,
     "sigmaCount": 2.0,
     "taperDist": 4000.0
@@ -21341,7 +21501,7 @@
        25.0,
        25.0
       ],
-      "shotDelay": 60.0,
+      "shotDelay": 75.0,
       "torpedoAngles": [
        3.6,
        12.0
@@ -21376,7 +21536,7 @@
        25.0,
        25.0
       ],
-      "shotDelay": 60.0,
+      "shotDelay": 75.0,
       "torpedoAngles": [
        3.6,
        12.0
@@ -21460,13 +21620,13 @@
     ],
     "speedCoef": 1.0,
     "turningRadius": 500.0,
-    "visibilityCoefGKInSmoke": 2.13,
-    "visibilityFactor": 5.94,
-    "visibilityFactorByPlane": 2.4,
+    "visibilityCoefGKInSmoke": 2.27,
+    "visibilityFactor": 6.36,
+    "visibilityFactorByPlane": 2.49,
     "visibilityFactorsBySubmarine": {
      "DEEP_WATER": 2.0,
      "DEEP_WATER_INVUL": 0.0,
-     "PERISCOPE": 2.4,
+     "PERISCOPE": 2.49,
      "SEMI_DEEP_WATER": 2.0,
      "SURFACE": 0.0
     }
@@ -21542,13 +21702,13 @@
     ],
     "speedCoef": 1.0,
     "turningRadius": 500.0,
-    "visibilityCoefGKInSmoke": 2.13,
-    "visibilityFactor": 5.94,
-    "visibilityFactorByPlane": 2.4,
+    "visibilityCoefGKInSmoke": 2.27,
+    "visibilityFactor": 6.36,
+    "visibilityFactorByPlane": 2.49,
     "visibilityFactorsBySubmarine": {
      "DEEP_WATER": 2.0,
      "DEEP_WATER_INVUL": 0.0,
-     "PERISCOPE": 2.4,
+     "PERISCOPE": 2.49,
      "SEMI_DEEP_WATER": 2.0,
      "SURFACE": 0.0
     }
@@ -21574,7 +21734,12 @@
     "slot": 1
    },
    "AbilitySlot2": {
-    "abils": [],
+    "abils": [
+     [
+      "PCY015_SpeedBoosterPremium",
+      "IT_DD_2_4"
+     ]
+    ],
     "slot": 2
    },
    "AbilitySlot3": {
@@ -21665,7 +21830,9 @@
      ]
     },
     "disabledAbilities": [],
-    "nextShips": [],
+    "nextShips": [
+     "PISD104_Turbine"
+    ],
     "prev": "PIUH203_DD3_HULL_STOCK",
     "ucType": "_Hull"
    },
@@ -21708,11 +21875,12 @@
    "costXP": 1,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "earlyAccess",
   "id": 4186846960,
   "index": "PISD103",
   "level": 3,
   "name": "PISD103_Sauro",
+  "permoflages": [],
   "typeinfo": {
    "nation": "Italy",
    "species": "Destroyer",
@@ -21753,7 +21921,7 @@
        14.0,
        10.0
       ],
-      "shotDelay": 4.0,
+      "shotDelay": 4.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Italy",
@@ -21791,7 +21959,7 @@
        14.0,
        10.0
       ],
-      "shotDelay": 4.0,
+      "shotDelay": 4.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Italy",
@@ -21834,7 +22002,7 @@
        14.0,
        10.0
       ],
-      "shotDelay": 4.0,
+      "shotDelay": 4.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Italy",
@@ -21843,7 +22011,7 @@
       }
      }
     },
-    "maxDist": 6458.0,
+    "maxDist": 8200.0,
     "normalDistribution": true,
     "sigmaCount": 2.0,
     "taperDist": 4000.0
@@ -22180,13 +22348,13 @@
     ],
     "speedCoef": 1.0,
     "turningRadius": 650.0,
-    "visibilityCoefGKInSmoke": 2.99,
-    "visibilityFactor": 8.22,
-    "visibilityFactorByPlane": 3.11,
+    "visibilityCoefGKInSmoke": 3.08,
+    "visibilityFactor": 8.42,
+    "visibilityFactorByPlane": 3.19,
     "visibilityFactorsBySubmarine": {
      "DEEP_WATER": 2.0,
      "DEEP_WATER_INVUL": 0.0,
-     "PERISCOPE": 3.11,
+     "PERISCOPE": 3.19,
      "SEMI_DEEP_WATER": 2.0,
      "SURFACE": 0.0
     }
@@ -22262,13 +22430,13 @@
     ],
     "speedCoef": 1.0,
     "turningRadius": 650.0,
-    "visibilityCoefGKInSmoke": 2.99,
-    "visibilityFactor": 8.22,
-    "visibilityFactorByPlane": 3.11,
+    "visibilityCoefGKInSmoke": 3.08,
+    "visibilityFactor": 8.42,
+    "visibilityFactorByPlane": 3.19,
     "visibilityFactorsBySubmarine": {
      "DEEP_WATER": 2.0,
      "DEEP_WATER_INVUL": 0.0,
-     "PERISCOPE": 3.11,
+     "PERISCOPE": 3.19,
      "SEMI_DEEP_WATER": 2.0,
      "SURFACE": 0.0
     }
@@ -22400,7 +22568,9 @@
      ]
     },
     "disabledAbilities": [],
-    "nextShips": [],
+    "nextShips": [
+     "PISD109_Adriatico"
+    ],
     "prev": "PIUH708_DD8_HULL_STOCK",
     "ucType": "_Hull"
    },
@@ -22454,11 +22624,17 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "earlyAccess",
   "id": 4181604080,
   "index": "PISD108",
   "level": 8,
   "name": "PISD108_Vittorio_Cuniberti",
+  "permoflages": [
+   "PCEP118_Permo_Upgr_8_lvl",
+   "PCEM002_Halloween19_8lvl",
+   "PCEM007_HappyNY20_8lvl",
+   "PIES508_Vittorio_Arc"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Destroyer",
@@ -22499,7 +22675,7 @@
        14.0,
        10.0
       ],
-      "shotDelay": 5.0,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Italy",
@@ -22517,12 +22693,16 @@
        [
         -20.0,
         20.0
+       ],
+       [
+        165.0,
+        -165.0
        ]
       ],
       "delim": 0.5,
       "horizSector": [
-       -150.0,
-       150.0
+       0.0,
+       0.0
       ],
       "id": 4201244400,
       "idealDistance": 1000.0,
@@ -22542,7 +22722,7 @@
        14.0,
        10.0
       ],
-      "shotDelay": 5.0,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Italy",
@@ -22580,7 +22760,7 @@
        14.0,
        10.0
       ],
-      "shotDelay": 5.0,
+      "shotDelay": 5.5,
       "smokePenalty": 0.0001,
       "typeinfo": {
        "nation": "Italy",
@@ -22589,7 +22769,7 @@
       }
      }
     },
-    "maxDist": 6100.0,
+    "maxDist": 7000.0,
     "normalDistribution": true,
     "sigmaCount": 2.0,
     "taperDist": 4000.0
@@ -22625,7 +22805,7 @@
        25.0,
        25.0
       ],
-      "shotDelay": 65.0,
+      "shotDelay": 75.0,
       "torpedoAngles": [
        3.6,
        12.0
@@ -22660,7 +22840,7 @@
        25.0,
        25.0
       ],
-      "shotDelay": 65.0,
+      "shotDelay": 75.0,
       "torpedoAngles": [
        3.6,
        12.0
@@ -22704,7 +22884,7 @@
        25.0,
        25.0
       ],
-      "shotDelay": 70.0,
+      "shotDelay": 75.0,
       "torpedoAngles": [
        3.6,
        12.0
@@ -22739,7 +22919,7 @@
        25.0,
        25.0
       ],
-      "shotDelay": 70.0,
+      "shotDelay": 75.0,
       "torpedoAngles": [
        3.6,
        12.0
@@ -22926,13 +23106,13 @@
     ],
     "speedCoef": 1.0,
     "turningRadius": 570.0,
-    "visibilityCoefGKInSmoke": 2.54,
-    "visibilityFactor": 7.14,
-    "visibilityFactorByPlane": 2.85,
+    "visibilityCoefGKInSmoke": 2.62,
+    "visibilityFactor": 7.34,
+    "visibilityFactorByPlane": 2.93,
     "visibilityFactorsBySubmarine": {
      "DEEP_WATER": 2.0,
      "DEEP_WATER_INVUL": 0.0,
-     "PERISCOPE": 2.85,
+     "PERISCOPE": 2.93,
      "SEMI_DEEP_WATER": 2.0,
      "SURFACE": 0.0
     }
@@ -23018,13 +23198,13 @@
     ],
     "speedCoef": 1.0,
     "turningRadius": 570.0,
-    "visibilityCoefGKInSmoke": 2.54,
-    "visibilityFactor": 7.14,
-    "visibilityFactorByPlane": 2.85,
+    "visibilityCoefGKInSmoke": 2.62,
+    "visibilityFactor": 7.34,
+    "visibilityFactorByPlane": 2.93,
     "visibilityFactorsBySubmarine": {
      "DEEP_WATER": 2.0,
      "DEEP_WATER_INVUL": 0.0,
-     "PERISCOPE": 2.85,
+     "PERISCOPE": 2.93,
      "SEMI_DEEP_WATER": 2.0,
      "SURFACE": 0.0
     }
@@ -23050,7 +23230,12 @@
     "slot": 1
    },
    "AbilitySlot2": {
-    "abils": [],
+    "abils": [
+     [
+      "PCY015_SpeedBoosterPremium",
+      "IT_DD_5_7"
+     ]
+    ],
     "slot": 2
    },
    "AbilitySlot3": {
@@ -23147,7 +23332,9 @@
      ]
     },
     "disabledAbilities": [],
-    "nextShips": [],
+    "nextShips": [
+     "PISD107_Luca_Tarigo"
+    ],
     "prev": "PIUH508_DD6_HULL_STOCK",
     "ucType": "_Hull"
    },
@@ -23201,11 +23388,14 @@
    "costXP": 0,
    "value": 1
   },
-  "group": "demoWithoutStats",
+  "group": "earlyAccess",
   "id": 4183701232,
   "index": "PISD106",
   "level": 6,
   "name": "PISD106_Aviere",
+  "permoflages": [
+   "PCEP116_Permo_Upgr_6_lvl"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Destroyer",
@@ -23493,6 +23683,7 @@
   "index": "PISC101",
   "level": 1,
   "name": "PISC101_Eritrea",
+  "permoflages": [],
   "typeinfo": {
    "nation": "Italy",
    "species": "Cruiser",
@@ -23893,7 +24084,7 @@
     "maxPlaneFlightDist": 4200,
     "minDist": 1500,
     "planeName": "PJAD902_ASW_T8",
-    "reloadTime": 60.0,
+    "reloadTime": 30.0,
     "timeBetweenShots": 0.1,
     "timeFromHeaven": 2.0
    },
@@ -24219,6 +24410,12 @@
   "index": "PISB519",
   "level": 9,
   "name": "PISB519_Giuseppe_Verdi",
+  "permoflages": [
+   "PCEP109_Permo_Prem_9_lvl",
+   "PCEM003_Halloween19_9lvl",
+   "PCEM014_5Years_9lvl",
+   "PCEM015_HappyNY20_9lvl"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Battleship",
@@ -25272,6 +25469,10 @@
   "index": "PISC106",
   "level": 6,
   "name": "PISC106_Trento",
+  "permoflages": [
+   "PCEP116_Permo_Upgr_6_lvl",
+   "PIES106_Trento_Italy"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Cruiser",
@@ -25710,7 +25911,7 @@
     "maxPlaneFlightDist": 3600,
     "minDist": 1500,
     "planeName": "PAAD909_ASW_T5",
-    "reloadTime": 60.0,
+    "reloadTime": 30.0,
     "timeBetweenShots": 2.0,
     "timeFromHeaven": 2.0
    },
@@ -25898,6 +26099,9 @@
   "index": "PISB505",
   "level": 5,
   "name": "PISB505_Giulio_Cesare",
+  "permoflages": [
+   "PCEP103_Permo_Prem_Low_lvl"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Battleship",
@@ -26637,6 +26841,7 @@
   "index": "PISB104",
   "level": 4,
   "name": "PISB104_Dante_Alighieri",
+  "permoflages": [],
   "typeinfo": {
    "nation": "Italy",
    "species": "Battleship",
@@ -27400,6 +27605,7 @@
   "index": "PISC104",
   "level": 4,
   "name": "PISC104_Alberto_da_Giussano",
+  "permoflages": [],
   "typeinfo": {
    "nation": "Italy",
    "species": "Cruiser",
@@ -27423,7 +27629,7 @@
     "maxPlaneFlightDist": 4200,
     "minDist": 1500,
     "planeName": "PJAD902_ASW_T8",
-    "reloadTime": 60.0,
+    "reloadTime": 30.0,
     "timeBetweenShots": 0.1,
     "timeFromHeaven": 2.0
    },
@@ -28831,6 +29037,13 @@
   "index": "PISB109",
   "level": 9,
   "name": "PISB109_Lepanto",
+  "permoflages": [
+   "PCEM003_Halloween19_9lvl",
+   "PCEM014_5Years_9lvl",
+   "PCEP119_Permo_Upgr_9_lvl",
+   "PCEM015_HappyNY20_9lvl",
+   "PIES309_Lepanto_Roman"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Battleship",
@@ -29115,8 +29328,8 @@
     "HitLocationEngine": {
      "armorCoeff": 0.0
     },
-    "backwardEngineUpTime": 20.0,
-    "forwardEngineUpTime": 40.0,
+    "backwardEngineUpTime": 10.0,
+    "forwardEngineUpTime": 20.0,
     "speedCoef": 0.0
    },
    "A_Hull": {
@@ -29304,6 +29517,10 @@
   "index": "PISD506",
   "level": 6,
   "name": "PISD506_Leone",
+  "permoflages": [
+   "PCEP107_Permo_Prem_High_lvl",
+   "PIES506_Leone_Roman"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Destroyer",
@@ -30275,6 +30492,11 @@
   "index": "PISC107",
   "level": 7,
   "name": "PISC107_Zara",
+  "permoflages": [
+   "PCEP117_Permo_Upgr_7_lvl",
+   "PIES107_Zara_Italy",
+   "PIEP308_ZaraBD6"
+  ],
   "typeinfo": {
    "nation": "Italy",
    "species": "Cruiser",
