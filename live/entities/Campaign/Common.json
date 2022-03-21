@@ -495,34 +495,6 @@
   "unlockMissions": []
  },
  {
-  "backgroundIconID": 61,
-  "conditions": [
-   "<isMyShip shipLevel=\"10\"/>",
-   "<isBattleType battleTypes=\"PVP,RANKED\"/>",
-   "<isModuleHits count=\"50\"/>"
-  ],
-  "costUnlock": 0,
-  "id": 4091953072,
-  "index": "PCQT193",
-  "isSingleBattle": false,
-  "lootStars": 3,
-  "name": "PCQT193_CampaignSB_Mission05_Task03",
-  "rewards": [
-   "<Item idx=\"PCM074_AuxiliaryArmament_Mod_I\" count=\"1\"/>"
-  ],
-  "typeinfo": {
-   "nation": "Common",
-   "species": "Task",
-   "type": "Campaign"
-  },
-  "uiCondition": [
-   "IDS_PCQT193_CampaignSB_Mission05_Task03_1",
-   "isModuleHits",
-   "IDS_TASKRESTRICTION_STANDART"
-  ],
-  "unlockMissions": []
- },
- {
   "backgroundIconID": 5,
   "conditions": [
    "<isMyShip shipLevel=\"4,5,6,7,8,9,10\" />",
@@ -2001,6 +1973,34 @@
    "IDS_PCQT668_1",
    "isDamage",
    "IDS_TASKRESTRICTIONSPECIAL_3EPOCH_CA_1"
+  ],
+  "unlockMissions": []
+ },
+ {
+  "backgroundIconID": 61,
+  "conditions": [
+   "<isMyShip shipLevel=\"10\"/>",
+   "<isBattleType battleTypes=\"PVP,RANKED\"/>",
+   "<isModuleHits count=\"50\"/>"
+  ],
+  "costUnlock": 0,
+  "id": 4091953072,
+  "index": "PCQT193",
+  "isSingleBattle": false,
+  "lootStars": 3,
+  "name": "PCQT193_CampaignSB_Mission05_Task03",
+  "rewards": [
+   "<Item idx=\"PCM074_AuxiliaryArmament_Mod_I\" count=\"1\"/>"
+  ],
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Task",
+   "type": "Campaign"
+  },
+  "uiCondition": [
+   "IDS_PCQT193_CampaignSB_Mission05_Task03_1",
+   "isModuleHits",
+   "IDS_TASKRESTRICTION_STANDART"
   ],
   "unlockMissions": []
  },
@@ -4168,34 +4168,6 @@
   "unlockMissions": []
  },
  {
-  "backgroundIconID": 14,
-  "conditions": [
-   "<isMyShip shipLevel=\"4,5,6,7,8,9,10\" />",
-   "<isBattleType battleTypes=\"PVP,COOPERATIVE,RANKED\" />",
-   "<isKillShips count=\"2\" class=\"Destroyer\" />"
-  ],
-  "costUnlock": 0,
-  "id": 4243996592,
-  "index": "PCQT048",
-  "isSingleBattle": false,
-  "lootStars": 2,
-  "name": "PCQT048",
-  "rewards": [
-   "<Add type=\"FREE_XP\" count=\"200\"/>"
-  ],
-  "typeinfo": {
-   "nation": "Common",
-   "species": "Task",
-   "type": "Campaign"
-  },
-  "uiCondition": [
-   "IDS_PCQT048_1",
-   "isKillShips",
-   "IDS_TASKRESTRICTION_STANDART"
-  ],
-  "unlockMissions": []
- },
- {
   "backgroundIconID": 53,
   "conditions": [
    "<isMyShip shipLevel=\"4,5,6,7,8,9,10\" />",
@@ -4733,6 +4705,34 @@
   "unlockMissions": [
    "PCQM052"
   ]
+ },
+ {
+  "backgroundIconID": 3,
+  "conditions": [
+   "<isBattleType battleTypes=\"PVP,RANKED\" />",
+   "<isMyShip class=\"Cruiser\" shipLevel=\"5,6,7,8,9,10\" />",
+   "<isKillShips count=\"3\" />"
+  ],
+  "costUnlock": 0,
+  "id": 4188422064,
+  "index": "PCQT101",
+  "isSingleBattle": true,
+  "lootStars": 3,
+  "name": "PCQT101",
+  "rewards": [
+   "<Item idx=\"PCEF015_ZH_SignalFlag\" count=\"10\"/>"
+  ],
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Task",
+   "type": "Campaign"
+  },
+  "uiCondition": [
+   "IDS_PCQT101_1",
+   "isKillShips",
+   "IDS_TASKRESTRICTION_STANDART"
+  ],
+  "unlockMissions": []
  },
  {
   "backgroundIconID": 92,
@@ -5440,34 +5440,6 @@
   "unlockMissions": [
    "PCQM093"
   ]
- },
- {
-  "backgroundIconID": 24,
-  "conditions": [
-   "<isMyShip shipIds=\"PJSD004_Minekadze_1920,PASD019_Clemson_1920,PRSD104_Izyaslav\"/>",
-   "<isBattleType battleTypes=\"PVP,COOPERATIVE\"/>",
-   "<isRibbons count=\"8\" ribbons=\"BASE_CAPTURE,BASE_CAPTURE_ASSIST\"/>"
-  ],
-  "costUnlock": 0,
-  "id": 3602268080,
-  "index": "PCQT660",
-  "isSingleBattle": false,
-  "lootStars": 2,
-  "name": "PCQT660_Ships",
-  "rewards": [
-   "<Item idx=\"PCEF018_IX_SignalFlag\" count=\"6\"/>"
-  ],
-  "typeinfo": {
-   "nation": "Common",
-   "species": "Task",
-   "type": "Campaign"
-  },
-  "uiCondition": [
-   "IDS_PCQT660_1",
-   "isRibbons",
-   "IDS_TASKRESTRICTIONSPECIAL_2EPOCH_DD_1"
-  ],
-  "unlockMissions": []
  },
  {
   "backgroundIconID": 0,
@@ -6895,6 +6867,34 @@
   ]
  },
  {
+  "backgroundIconID": 14,
+  "conditions": [
+   "<isMyShip shipLevel=\"4,5,6,7,8,9,10\" />",
+   "<isBattleType battleTypes=\"PVP,COOPERATIVE,RANKED\" />",
+   "<isKillShips count=\"2\" class=\"Destroyer\" />"
+  ],
+  "costUnlock": 0,
+  "id": 4243996592,
+  "index": "PCQT048",
+  "isSingleBattle": false,
+  "lootStars": 2,
+  "name": "PCQT048",
+  "rewards": [
+   "<Add type=\"FREE_XP\" count=\"200\"/>"
+  ],
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Task",
+   "type": "Campaign"
+  },
+  "uiCondition": [
+   "IDS_PCQT048_1",
+   "isKillShips",
+   "IDS_TASKRESTRICTION_STANDART"
+  ],
+  "unlockMissions": []
+ },
+ {
   "backgroundIconID": 53,
   "conditions": [
    "<isMyShip shipLevel=\"2,3,4\"/>",
@@ -7640,34 +7640,6 @@
   "uiCondition": [
    "IDS_PCQT100_1",
    "isEarnBattleAchievements",
-   "IDS_TASKRESTRICTION_STANDART"
-  ],
-  "unlockMissions": []
- },
- {
-  "backgroundIconID": 3,
-  "conditions": [
-   "<isBattleType battleTypes=\"PVP,RANKED\" />",
-   "<isMyShip class=\"Cruiser\" shipLevel=\"5,6,7,8,9,10\" />",
-   "<isKillShips count=\"3\" />"
-  ],
-  "costUnlock": 0,
-  "id": 4188422064,
-  "index": "PCQT101",
-  "isSingleBattle": true,
-  "lootStars": 3,
-  "name": "PCQT101",
-  "rewards": [
-   "<Item idx=\"PCEF015_ZH_SignalFlag\" count=\"10\"/>"
-  ],
-  "typeinfo": {
-   "nation": "Common",
-   "species": "Task",
-   "type": "Campaign"
-  },
-  "uiCondition": [
-   "IDS_PCQT101_1",
-   "isKillShips",
    "IDS_TASKRESTRICTION_STANDART"
   ],
   "unlockMissions": []
@@ -9612,6 +9584,34 @@
   "unlockMissions": [
    "PCQM055"
   ]
+ },
+ {
+  "backgroundIconID": 24,
+  "conditions": [
+   "<isMyShip shipIds=\"PJSD004_Minekadze_1920,PASD019_Clemson_1920,PRSD104_Izyaslav\"/>",
+   "<isBattleType battleTypes=\"PVP,COOPERATIVE\"/>",
+   "<isRibbons count=\"8\" ribbons=\"BASE_CAPTURE,BASE_CAPTURE_ASSIST\"/>"
+  ],
+  "costUnlock": 0,
+  "id": 3602268080,
+  "index": "PCQT660",
+  "isSingleBattle": false,
+  "lootStars": 2,
+  "name": "PCQT660_Ships",
+  "rewards": [
+   "<Item idx=\"PCEF018_IX_SignalFlag\" count=\"6\"/>"
+  ],
+  "typeinfo": {
+   "nation": "Common",
+   "species": "Task",
+   "type": "Campaign"
+  },
+  "uiCondition": [
+   "IDS_PCQT660_1",
+   "isRibbons",
+   "IDS_TASKRESTRICTIONSPECIAL_2EPOCH_DD_1"
+  ],
+  "unlockMissions": []
  },
  {
   "backgroundIconID": 68,

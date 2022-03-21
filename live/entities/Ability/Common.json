@@ -11,6 +11,9 @@
    "numConsumables": 3,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 100.0
   },
@@ -25,6 +28,9 @@
    "numConsumables": 3,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 100.0
   },
@@ -39,6 +45,9 @@
    "numConsumables": 3,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 90.0
   },
@@ -53,6 +62,9 @@
    "numConsumables": 3,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 110.0
   },
@@ -67,6 +79,9 @@
    "numConsumables": 3,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 110.0
   },
@@ -81,6 +96,9 @@
    "numConsumables": 3,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 120.0
   },
@@ -95,6 +113,9 @@
    "numConsumables": 2,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 100.0
   },
@@ -109,6 +130,9 @@
    "numConsumables": 3,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 180.0
   },
@@ -123,6 +147,9 @@
    "numConsumables": 3,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 110.0
   },
@@ -137,6 +164,9 @@
    "numConsumables": 3,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 100.0
   },
@@ -151,6 +181,9 @@
    "numConsumables": 3,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 180.0
   },
@@ -367,11 +400,11 @@
    "descIDs": "",
    "group": "ship",
    "iconIDs": "",
-   "numConsumables": -1,
+   "numConsumables": 3,
    "preparationTime": 0.0,
-   "reloadTime": 40.0,
+   "reloadTime": 60.0,
    "titleIDs": "",
-   "workTime": 5.0
+   "workTime": 15.0
   },
   "USSR_C_Sevastopol": {
    "SpecialSoundID": "Default",
@@ -1943,7 +1976,7 @@
    "preparationTime": 0.0,
    "radius": 15.0,
    "reloadTime": 90.0,
-   "spawnBackwardShift": 0.3,
+   "spawnBackwardShift": 0.0,
    "spawnEffect": "particles/SmokeScreen_generator.xml",
    "spawnPointEffect": "particles/SmokeScreen_spawn.xml",
    "speedLimit": 100.0,
@@ -1965,7 +1998,7 @@
    "preparationTime": 0.0,
    "radius": 15.0,
    "reloadTime": 90.0,
-   "spawnBackwardShift": 0.3,
+   "spawnBackwardShift": 0.0,
    "spawnEffect": "particles/SmokeScreen_generator.xml",
    "spawnPointEffect": "particles/SmokeScreen_spawn.xml",
    "speedLimit": 100.0,
@@ -1987,7 +2020,7 @@
    "preparationTime": 0.0,
    "radius": 15.0,
    "reloadTime": 80.0,
-   "spawnBackwardShift": 0.3,
+   "spawnBackwardShift": 0.0,
    "spawnEffect": "particles/SmokeScreen_generator.xml",
    "spawnPointEffect": "particles/SmokeScreen_spawn.xml",
    "speedLimit": 100.0,
@@ -2566,6 +2599,28 @@
    "startDelayTime": 2.0,
    "titleIDs": "",
    "workTime": 15.0
+  },
+  "UK_Lvl_11_Gold": {
+   "SpecialSoundID": "Default",
+   "activationDelay": 0.0,
+   "consumableType": "smokeGenerator",
+   "descIDs": "",
+   "group": "ship",
+   "height": 5.0,
+   "iconIDs": "",
+   "lifeTime": 120.0,
+   "livePointEffect": "particles/SmokeScreen.xml",
+   "numConsumables": 3,
+   "preparationTime": 0.0,
+   "radius": 20.0,
+   "reloadTime": 160.0,
+   "spawnBackwardShift": 0.4,
+   "spawnEffect": "particles/SmokeScreen_generator.xml",
+   "spawnPointEffect": "particles/SmokeScreen_spawn.xml",
+   "speedLimit": 12.5,
+   "startDelayTime": 2.0,
+   "titleIDs": "",
+   "workTime": 20.0
   },
   "UK_Lvl_2_Gold": {
    "SpecialSoundID": "Default",
@@ -3962,6 +4017,9 @@
    "numConsumables": 3,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 100.0
   },
@@ -3976,6 +4034,9 @@
    "numConsumables": 3,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 70.0
   },
@@ -3990,6 +4051,9 @@
    "numConsumables": 3,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.4
+   },
    "titleIDs": "",
    "workTime": 100.0
   },
@@ -4004,6 +4068,9 @@
    "numConsumables": 2,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.4
+   },
    "titleIDs": "",
    "workTime": 100.0
   },
@@ -4018,6 +4085,9 @@
    "numConsumables": 3,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.575
+   },
    "titleIDs": "",
    "workTime": 90.0
   },
@@ -4032,6 +4102,9 @@
    "numConsumables": 3,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.4
+   },
    "titleIDs": "",
    "workTime": 110.0
   },
@@ -4046,6 +4119,9 @@
    "numConsumables": 3,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.364
+   },
    "titleIDs": "",
    "workTime": 110.0
   },
@@ -4060,6 +4136,9 @@
    "numConsumables": 3,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.333
+   },
    "titleIDs": "",
    "workTime": 120.0
   },
@@ -4074,6 +4153,9 @@
    "numConsumables": 2,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 100.0
   },
@@ -4088,6 +4170,9 @@
    "numConsumables": 3,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.571
+   },
    "titleIDs": "",
    "workTime": 180.0
   },
@@ -4102,6 +4187,9 @@
    "numConsumables": 3,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.364
+   },
    "titleIDs": "",
    "workTime": 110.0
   },
@@ -4116,6 +4204,9 @@
    "numConsumables": 3,
    "preparationTime": 0.0,
    "reloadTime": 180.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.333
+   },
    "titleIDs": "",
    "workTime": 60.0
   },
@@ -4130,6 +4221,9 @@
    "numConsumables": 3,
    "preparationTime": 0.0,
    "reloadTime": 180.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 60.0
   },
@@ -4144,6 +4238,9 @@
    "numConsumables": 3,
    "preparationTime": 0.0,
    "reloadTime": 180.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.4
+   },
    "titleIDs": "",
    "workTime": 60.0
   },
@@ -4158,6 +4255,9 @@
    "numConsumables": 3,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.4
+   },
    "titleIDs": "",
    "workTime": 100.0
   },
@@ -4172,6 +4272,9 @@
    "numConsumables": 3,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.667
+   },
    "titleIDs": "PCY016_SonarSearch_Short_Premium",
    "workTime": 180.0
   },
@@ -4186,6 +4289,9 @@
    "numConsumables": 2,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.4
+   },
    "titleIDs": "",
    "workTime": 100.0
   },
@@ -8654,6 +8760,9 @@
    "numConsumables": 2,
    "preparationTime": 0.0,
    "reloadTime": 180.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 122.0
   },
@@ -8668,6 +8777,9 @@
    "numConsumables": 2,
    "preparationTime": 0.0,
    "reloadTime": 180.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 110.0
   },
@@ -8682,6 +8794,9 @@
    "numConsumables": 2,
    "preparationTime": 0.0,
    "reloadTime": 180.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 120.0
   },
@@ -8696,6 +8811,9 @@
    "numConsumables": 5,
    "preparationTime": 0.0,
    "reloadTime": 30.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 60.0
   },
@@ -8710,6 +8828,9 @@
    "numConsumables": 2,
    "preparationTime": 0.0,
    "reloadTime": 180.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 100.0
   },
@@ -8724,6 +8845,9 @@
    "numConsumables": 2,
    "preparationTime": 0.0,
    "reloadTime": 180.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 100.0
   },
@@ -8738,6 +8862,9 @@
    "numConsumables": 2,
    "preparationTime": 0.0,
    "reloadTime": 180.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 100.0
   },
@@ -8752,6 +8879,9 @@
    "numConsumables": 2,
    "preparationTime": 0.0,
    "reloadTime": 180.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 120.0
   },
@@ -8766,6 +8896,9 @@
    "numConsumables": 2,
    "preparationTime": 0.0,
    "reloadTime": 180.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 110.0
   },
@@ -8780,6 +8913,9 @@
    "numConsumables": 2,
    "preparationTime": 0.0,
    "reloadTime": 180.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 120.0
   },
@@ -8794,6 +8930,9 @@
    "numConsumables": 1,
    "preparationTime": 0.0,
    "reloadTime": 180.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 100.0
   },
@@ -8808,6 +8947,9 @@
    "numConsumables": 2,
    "preparationTime": 0.0,
    "reloadTime": 180.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 110.0
   },
@@ -8822,6 +8964,9 @@
    "numConsumables": 2,
    "preparationTime": 0.0,
    "reloadTime": 180.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 180.0
   },
@@ -8836,6 +8981,9 @@
    "numConsumables": 2,
    "preparationTime": 0.0,
    "reloadTime": 180.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 110.0
   },
@@ -8850,6 +8998,9 @@
    "numConsumables": 2,
    "preparationTime": 0.0,
    "reloadTime": 180.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 110.0
   },
@@ -8864,6 +9015,9 @@
    "numConsumables": 0,
    "preparationTime": 0.0,
    "reloadTime": 60.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 60.0
   },
@@ -8878,6 +9032,9 @@
    "numConsumables": 0,
    "preparationTime": 0.0,
    "reloadTime": 30.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 60.0
   },
@@ -8892,6 +9049,9 @@
    "numConsumables": 2,
    "preparationTime": 0.0,
    "reloadTime": 180.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 100.0
   },
@@ -8906,6 +9066,9 @@
    "numConsumables": 2,
    "preparationTime": 0.0,
    "reloadTime": 180.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 180.0
   },
@@ -8920,6 +9083,9 @@
    "numConsumables": 2,
    "preparationTime": 0.0,
    "reloadTime": 180.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 110.0
   },
@@ -10312,18 +10478,18 @@
   },
   "Ger_Sub_10": {
    "SpecialSoundID": "Default",
-   "acousticWaveRadius": 6500.0,
+   "acousticWaveRadius": 7500.0,
    "consumableType": "hydrophone",
    "descIDs": "",
    "group": "ship",
    "iconIDs": "",
-   "numConsumables": 3,
+   "numConsumables": -1,
    "preparationTime": 300.0,
    "reloadTime": 60.0,
    "titleIDs": "",
-   "updateFrequency": 10.0,
+   "updateFrequency": 6.0,
    "workTime": 40.0,
-   "zoneLifetime": 6.0
+   "zoneLifetime": 4.0
   },
   "Ger_Sub_6": {
    "SpecialSoundID": "Default",
@@ -10332,13 +10498,13 @@
    "descIDs": "",
    "group": "ship",
    "iconIDs": "",
-   "numConsumables": 3,
+   "numConsumables": -1,
    "preparationTime": 300.0,
    "reloadTime": 60.0,
    "titleIDs": "",
-   "updateFrequency": 10.0,
+   "updateFrequency": 6.0,
    "workTime": 40.0,
-   "zoneLifetime": 6.0
+   "zoneLifetime": 4.0
   },
   "Ger_Sub_8": {
    "SpecialSoundID": "Default",
@@ -10347,28 +10513,28 @@
    "descIDs": "",
    "group": "ship",
    "iconIDs": "",
-   "numConsumables": 3,
+   "numConsumables": -1,
    "preparationTime": 300.0,
    "reloadTime": 60.0,
    "titleIDs": "",
-   "updateFrequency": 10.0,
+   "updateFrequency": 6.0,
    "workTime": 40.0,
-   "zoneLifetime": 6.0
+   "zoneLifetime": 4.0
   },
   "Sub_10": {
    "SpecialSoundID": "Default",
-   "acousticWaveRadius": 6000.0,
+   "acousticWaveRadius": 7000.0,
    "consumableType": "hydrophone",
    "descIDs": "",
    "group": "ship",
    "iconIDs": "",
-   "numConsumables": 3,
+   "numConsumables": -1,
    "preparationTime": 300.0,
    "reloadTime": 80.0,
    "titleIDs": "",
-   "updateFrequency": 10.0,
-   "workTime": 40.0,
-   "zoneLifetime": 6.0
+   "updateFrequency": 6.0,
+   "workTime": 45.0,
+   "zoneLifetime": 3.5
   },
   "Sub_6": {
    "SpecialSoundID": "Default",
@@ -10377,13 +10543,13 @@
    "descIDs": "",
    "group": "ship",
    "iconIDs": "",
-   "numConsumables": 3,
+   "numConsumables": -1,
    "preparationTime": 300.0,
    "reloadTime": 80.0,
    "titleIDs": "",
-   "updateFrequency": 10.0,
+   "updateFrequency": 6.0,
    "workTime": 40.0,
-   "zoneLifetime": 6.0
+   "zoneLifetime": 3.5
   },
   "Sub_8": {
    "SpecialSoundID": "Default",
@@ -10392,13 +10558,13 @@
    "descIDs": "",
    "group": "ship",
    "iconIDs": "",
-   "numConsumables": 3,
+   "numConsumables": -1,
    "preparationTime": 300.0,
    "reloadTime": 80.0,
    "titleIDs": "",
-   "updateFrequency": 10.0,
+   "updateFrequency": 6.0,
    "workTime": 40.0,
-   "zoneLifetime": 6.0
+   "zoneLifetime": 3.5
   },
   "canBuy": false,
   "costCR": -1,

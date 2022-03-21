@@ -1,72 +1,5 @@
 [
  {
-  "HitLocationAirDefense": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 1.0,
-   "autoRepairTime": 10,
-   "autoRepairTimeMin": 5,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.0,
-    0.0
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "airdefense_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 600.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.8,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
-  "antiAirAuraDistance": 117.0,
-  "antiAirAuraStrength": 0.159,
-  "barrelDiameter": 0.04,
-  "deadMesh": "content/gameplay/panasia/gun/aaircraft/ZGA023_40mm_Bofors_Mk2/ZGA023_40mm_Bofors_Mk2_dead.model",
-  "id": 4270843088,
-  "index": "PZGA023",
-  "model": "content/gameplay/panasia/gun/aaircraft/ZGA023_40mm_Bofors_Mk2/ZGA023_40mm_Bofors_Mk2.model",
-  "name": "PZGA023_40mm_Bofors_Mk2",
-  "numBarrels": 4,
-  "shotDelay": 5.0,
-  "shotEffect": "particles/guns/AA_shot.xml",
-  "smallGun": null,
-  "typeinfo": {
-   "nation": "Pan_Asia",
-   "species": "AAircraft",
-   "type": "Gun"
-  }
- },
- {
   "HitLocationDepthCharge": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 1.0,
@@ -160,7 +93,7 @@
    0.0,
    90.0
   ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+  "waterEffect": "particles/submarines/Sub_bomb_drop.xml"
  },
  {
   "HitLocationAirDefense": {
@@ -315,7 +248,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM082",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -334,18 +267,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    25.0,
    9.85
   ],
   "shotDelay": 5.5,
-  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -440,7 +373,7 @@
   "name": "PZGS079_152_55_Mle_1936",
   "numBarrels": 3.0,
   "pitchDeadZones": [],
-  "purgingEffect": "particles/guns/PMK_Purging_140to220.xml",
+  "purgingEffect": "particles/guns/PMK_Purging.xml",
   "radiusOnDelim": 0.8,
   "radiusOnMax": 1.0,
   "radiusOnZero": 0.1,
@@ -449,7 +382,7 @@
    1.0
   ],
   "shotDelay": 12.0,
-  "shotEffect": "particles/guns/PMK_Shot_140to220.xml",
+  "shotEffect": "particles/guns/PMK_Shot.xml",
   "smallGun": true,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -548,7 +481,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM089",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -567,18 +500,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    20.0,
    12.0
   ],
   "shotDelay": 5.5,
-  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -1165,7 +1098,7 @@
    0.0,
    90.0
   ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+  "waterEffect": "particles/submarines/Sub_bomb_drop.xml"
  },
  {
   "HitLocationAirDefense": {
@@ -1328,7 +1261,7 @@
    0.0,
    90.0
   ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+  "waterEffect": "particles/submarines/Sub_bomb_drop.xml"
  },
  {
   "HitLocationATBA": {
@@ -1412,7 +1345,7 @@
   "name": "PZGS524_155mm_60_Type3",
   "numBarrels": 3.0,
   "pitchDeadZones": [],
-  "purgingEffect": "particles/guns/PMK_Purging_140to220.xml",
+  "purgingEffect": "particles/guns/PMK_Purging.xml",
   "radiusOnDelim": 0.8,
   "radiusOnMax": 1.0,
   "radiusOnZero": 0.1,
@@ -1421,7 +1354,7 @@
    1.0
   ],
   "shotDelay": 12.0,
-  "shotEffect": "particles/guns/PMK_Shot_140to220.xml",
+  "shotEffect": "particles/guns/PMK_Shot.xml",
   "smallGun": true,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -1516,7 +1449,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM013",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -1535,18 +1468,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    12.0,
    12.0
   ],
   "shotDelay": 5.5,
-  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -1642,7 +1575,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM096",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -1661,18 +1594,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    7.0,
    10.0
   ],
   "shotDelay": 10.5,
-  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -1878,7 +1811,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM530",
-  "lensEffect": "",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -1897,18 +1830,18 @@
    0,
    0
   ],
-  "purgingEffect": "",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_170to250.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    10.0,
    10.0
   ],
   "shotDelay": 5.0,
-  "shotEffect": "",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -2236,7 +2169,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 10.0,
   "index": "PZGM527",
-  "lensEffect": "particles/guns/GK_Lens_440to550.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -2255,18 +2188,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_350to550.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.6,
   "radiusOnMax": 0.8,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_440to550.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    4.5,
    5.0
   ],
   "shotDelay": 30.0,
-  "shotEffect": "particles/guns/GK_Shot_440to550.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -2373,7 +2306,7 @@
    0.0,
    90.0
   ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+  "waterEffect": "particles/submarines/Sub_bomb_drop.xml"
  },
  {
   "HitLocationArtillery": {
@@ -2459,7 +2392,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM032",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -2478,18 +2411,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    10.0,
    10.0
   ],
   "shotDelay": 5.0,
-  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -2651,7 +2584,7 @@
   "name": "PZGS080_100_55_Mle_1945",
   "numBarrels": 2,
   "pitchDeadZones": [],
-  "purgingEffect": "particles/guns/PMK_Purging_50to110.xml",
+  "purgingEffect": "particles/guns/PMK_Purging.xml",
   "radiusOnDelim": 0.8,
   "radiusOnMax": 1.0,
   "radiusOnZero": 0.1,
@@ -2660,7 +2593,7 @@
    1.0
   ],
   "shotDelay": 3.0,
-  "shotEffect": "particles/guns/PMK_Shot_50to110.xml",
+  "shotEffect": "particles/guns/PMK_Shot.xml",
   "smallGun": true,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -2757,7 +2690,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 12.0,
   "index": "PZGM078",
-  "lensEffect": "particles/guns/GK_Lens_440to550.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -2776,18 +2709,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_350to550.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_440to550.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    5.0,
    5.5
   ],
   "shotDelay": 30.0,
-  "shotEffect": "particles/guns/GK_Shot_440to550.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -3182,7 +3115,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM001",
-  "lensEffect": "particles/guns/GK_Lens_170to250.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -3201,18 +3134,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_170to250.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    7.2,
    13.4
   ],
   "shotDelay": 8.0,
-  "shotEffect": "particles/guns/GK_Shot_170to250.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -3490,7 +3423,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM044",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -3509,18 +3442,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    7.0,
    13.0
   ],
   "shotDelay": 7.0,
-  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -3609,7 +3542,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM519",
-  "lensEffect": "",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -3628,18 +3561,18 @@
    0,
    0
   ],
-  "purgingEffect": "",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_170to250.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    10.0,
    10.0
   ],
   "shotDelay": 5.0,
-  "shotEffect": "",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -3735,7 +3668,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM106",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -3754,18 +3687,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    25.0,
    15.0
   ],
   "shotDelay": 6.5,
-  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -3864,7 +3797,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM068",
-  "lensEffect": "particles/guns/GK_Lens_250to440.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -3883,18 +3816,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_170to350.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_250to350.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    7.0,
    10.0
   ],
   "shotDelay": 11.0,
-  "shotEffect": "particles/guns/GK_Shot_250to350.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -4001,7 +3934,7 @@
    0.0,
    90.0
   ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+  "waterEffect": "particles/submarines/Sub_bomb_drop.xml"
  },
  {
   "HitLocationAirDefense": {
@@ -4231,7 +4164,7 @@
    0.0,
    90.0
   ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+  "waterEffect": "particles/submarines/Sub_bomb_drop.xml"
  },
  {
   "HitLocationAirDefense": {
@@ -4505,7 +4438,7 @@
    0.0,
    90.0
   ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+  "waterEffect": "particles/submarines/Sub_bomb_drop.xml"
  },
  {
   "HitLocationTorpedo": {
@@ -4713,7 +4646,7 @@
    0.0,
    90.0
   ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+  "waterEffect": "particles/submarines/Sub_bomb_drop.xml"
  },
  {
   "HitLocationArtillery": {
@@ -4798,7 +4731,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM022",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -4817,18 +4750,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    25.0,
    15.0
   ],
   "shotDelay": 4.0,
-  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -4935,7 +4868,7 @@
    0.0,
    90.0
   ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+  "waterEffect": "particles/submarines/Sub_bomb_drop.xml"
  },
  {
   "HitLocationDepthCharge": {
@@ -5031,7 +4964,7 @@
    0.0,
    90.0
   ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+  "waterEffect": "particles/submarines/Sub_bomb_drop.xml"
  },
  {
   "HitLocationATBA": {
@@ -5115,7 +5048,7 @@
   "name": "PZGS099_4in45_QF_Mk_XIX",
   "numBarrels": 2,
   "pitchDeadZones": [],
-  "purgingEffect": "particles/guns/PMK_Purging_50to110.xml",
+  "purgingEffect": "particles/guns/PMK_Purging.xml",
   "radiusOnDelim": 0.8,
   "radiusOnMax": 1.0,
   "radiusOnZero": 0.1,
@@ -5124,7 +5057,7 @@
    1.0
   ],
   "shotDelay": 3.0,
-  "shotEffect": "particles/guns/PMK_Shot_50to110.xml",
+  "shotEffect": "particles/guns/PMK_Shot.xml",
   "smallGun": true,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -5219,7 +5152,7 @@
   "name": "PZGS069_100mm_45_Mle_1930",
   "numBarrels": 2,
   "pitchDeadZones": [],
-  "purgingEffect": "particles/guns/PMK_Purging_50to110.xml",
+  "purgingEffect": "particles/guns/PMK_Purging.xml",
   "radiusOnDelim": 0.8,
   "radiusOnMax": 1.0,
   "radiusOnZero": 0.1,
@@ -5228,7 +5161,7 @@
    1.0
   ],
   "shotDelay": 4.0,
-  "shotEffect": "particles/guns/PMK_Shot_50to110.xml",
+  "shotEffect": "particles/guns/PMK_Shot.xml",
   "smallGun": true,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -5335,7 +5268,7 @@
    0.0,
    90.0
   ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+  "waterEffect": "particles/submarines/Sub_bomb_drop.xml"
  },
  {
   "HitLocationAirDefense": {
@@ -5731,7 +5664,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM539",
-  "lensEffect": "",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -5750,18 +5683,18 @@
    0,
    0
   ],
-  "purgingEffect": "",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_170to250.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    10.0,
    10.0
   ],
   "shotDelay": 5.0,
-  "shotEffect": "",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -5858,7 +5791,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM002",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -5877,18 +5810,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    6.0,
    5.0
   ],
   "shotDelay": 5.0,
-  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -5977,7 +5910,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM518",
-  "lensEffect": "",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -5996,18 +5929,18 @@
    0,
    0
   ],
-  "purgingEffect": "",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_170to250.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    10.0,
    10.0
   ],
   "shotDelay": 5.0,
-  "shotEffect": "",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -6103,7 +6036,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM005",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -6122,18 +6055,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
-   34.0,
-   18.0
+   34.000001,
+   18.000001
   ],
   "shotDelay": 3.34,
-  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -6145,73 +6078,6 @@
    -2.0,
    85.0
   ]
- },
- {
-  "HitLocationAirDefense": {
-   "antiRamCoeff": 1.0,
-   "armorCoeff": 1.0,
-   "autoRepairTime": 10,
-   "autoRepairTimeMin": 5,
-   "buoyancyShipPercent": 0.0,
-   "burnNode": "",
-   "canBeDestroyed": true,
-   "critProb": [
-    0.0,
-    0.0
-   ],
-   "critProbHP": [
-    1.0,
-    0.0
-   ],
-   "damageEffects": [],
-   "deathEffects": [
-    "/",
-    "/"
-   ],
-   "detonateEffect": "particles/vehicles/Battleship_death.xml",
-   "detonateOnDead": false,
-   "hitDetonationMaxProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hitDetonationMinProbAtDamage": [
-    0.0,
-    0.0
-   ],
-   "hlType": "airdefense_hitlocation",
-   "maxBuoyancy": 0.0,
-   "maxHP": 600.0,
-   "moduleCritCoeffCR": 0.0,
-   "moduleCritCoeffXP": 0.0,
-   "parentHL": null,
-   "ramCoeff": 1.0,
-   "ramExtraDamage": 0.0,
-   "regeneratedHPPart": 0.5,
-   "rndPartHP": 0.8,
-   "splashBoxes": [],
-   "tbSkipProbMax": 0.0,
-   "tbSkipProbMin": 0.0,
-   "transmitHPDamageToParentFactor": 1.0,
-   "volume": 0.5,
-   "volumeCoeff": 1.0
-  },
-  "antiAirAuraDistance": 67.0,
-  "antiAirAuraStrength": 0.061,
-  "barrelDiameter": 0.02,
-  "deadMesh": "content/gameplay/panasia/gun/aaircraft/ZGA010_20mm_Oerlikon_MK20_Twin/ZGA010_20mm_Oerlikon_MK20_Twin_dead.model",
-  "id": 4284474576,
-  "index": "PZGA010",
-  "model": "content/gameplay/panasia/gun/aaircraft/ZGA010_20mm_Oerlikon_MK20_Twin/ZGA010_20mm_Oerlikon_MK20_Twin.model",
-  "name": "PZGA010_20mm_Oerlikon_MK20_Twin",
-  "numBarrels": 2,
-  "shotDelay": 5.0,
-  "shotEffect": "particles/guns/AA_shot.xml",
-  "smallGun": null,
-  "typeinfo": {
-   "nation": "Pan_Asia",
-   "species": "AAircraft",
-   "type": "Gun"
-  }
  },
  {
   "HitLocationAirDefense": {
@@ -6364,7 +6230,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM071",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -6383,18 +6249,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_50to110.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    16.0,
    16.0
   ],
   "shotDelay": 4.9,
-  "shotEffect": "particles/guns/GK_Shot_50to110.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -6501,7 +6367,7 @@
    0.0,
    90.0
   ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+  "waterEffect": "particles/submarines/Sub_bomb_drop.xml"
  },
  {
   "HitLocationAirDefense": {
@@ -6664,7 +6530,7 @@
    0.0,
    90.0
   ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+  "waterEffect": "particles/submarines/Sub_bomb_drop.xml"
  },
  {
   "HitLocationTorpedo": {
@@ -6989,7 +6855,7 @@
    0.0,
    90.0
   ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+  "waterEffect": "particles/submarines/Sub_bomb_drop.xml"
  },
  {
   "HitLocationDepthCharge": {
@@ -7085,7 +6951,7 @@
    0.0,
    90.0
   ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+  "waterEffect": "particles/submarines/Sub_bomb_drop.xml"
  },
  {
   "HitLocationAirDefense": {
@@ -7360,7 +7226,7 @@
    0.0,
    90.0
   ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+  "waterEffect": "particles/submarines/Sub_bomb_drop.xml"
  },
  {
   "HitLocationTorpedo": {
@@ -7557,7 +7423,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM047",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -7576,18 +7442,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    34.0,
    18.0
   ],
   "shotDelay": 3.34,
-  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -7802,6 +7668,73 @@
   }
  },
  {
+  "HitLocationAirDefense": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "airdefense_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 600.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.8,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "antiAirAuraDistance": 67.0,
+  "antiAirAuraStrength": 0.061,
+  "barrelDiameter": 0.02,
+  "deadMesh": "content/gameplay/panasia/gun/aaircraft/ZGA010_20mm_Oerlikon_MK20_Twin/ZGA010_20mm_Oerlikon_MK20_Twin_dead.model",
+  "id": 4284474576,
+  "index": "PZGA010",
+  "model": "content/gameplay/panasia/gun/aaircraft/ZGA010_20mm_Oerlikon_MK20_Twin/ZGA010_20mm_Oerlikon_MK20_Twin.model",
+  "name": "PZGA010_20mm_Oerlikon_MK20_Twin",
+  "numBarrels": 2,
+  "shotDelay": 5.0,
+  "shotEffect": "particles/guns/AA_shot.xml",
+  "smallGun": null,
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "AAircraft",
+   "type": "Gun"
+  }
+ },
+ {
   "HitLocationDepthCharge": {
    "antiRamCoeff": 1.0,
    "armorCoeff": 1.0,
@@ -7895,7 +7828,7 @@
    0.0,
    90.0
   ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+  "waterEffect": "particles/submarines/Sub_bomb_drop.xml"
  },
  {
   "HitLocationArtillery": {
@@ -7977,7 +7910,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM015",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -7996,18 +7929,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    10.0,
    10.0
   ],
   "shotDelay": 8.0,
-  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -8114,7 +8047,7 @@
    0.0,
    90.0
   ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+  "waterEffect": "particles/submarines/Sub_bomb_drop.xml"
  },
  {
   "HitLocationTorpedo": {
@@ -8320,7 +8253,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM114",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -8339,18 +8272,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/PMK_Purging_110to140.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_50to110.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    10.0,
    20.0
   ],
   "shotDelay": 7.5,
-  "shotEffect": "particles/guns/PMK_Shot_110to140.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -8487,6 +8420,73 @@
   "index": "PZGA083",
   "model": "content/gameplay/panasia/gun/aaircraft/ZGA083_37mm_46k/ZGA083_37mm_46k.model",
   "name": "PZGA083_37mm_46k",
+  "numBarrels": 4,
+  "shotDelay": 5.0,
+  "shotEffect": "particles/guns/AA_shot.xml",
+  "smallGun": null,
+  "typeinfo": {
+   "nation": "Pan_Asia",
+   "species": "AAircraft",
+   "type": "Gun"
+  }
+ },
+ {
+  "HitLocationAirDefense": {
+   "antiRamCoeff": 1.0,
+   "armorCoeff": 1.0,
+   "autoRepairTime": 10,
+   "autoRepairTimeMin": 5,
+   "buoyancyShipPercent": 0.0,
+   "burnNode": "",
+   "canBeDestroyed": true,
+   "critProb": [
+    0.0,
+    0.0
+   ],
+   "critProbHP": [
+    1.0,
+    0.0
+   ],
+   "damageEffects": [],
+   "deathEffects": [
+    "/",
+    "/"
+   ],
+   "detonateEffect": "particles/vehicles/Battleship_death.xml",
+   "detonateOnDead": false,
+   "hitDetonationMaxProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hitDetonationMinProbAtDamage": [
+    0.0,
+    0.0
+   ],
+   "hlType": "airdefense_hitlocation",
+   "maxBuoyancy": 0.0,
+   "maxHP": 600.0,
+   "moduleCritCoeffCR": 0.0,
+   "moduleCritCoeffXP": 0.0,
+   "parentHL": null,
+   "ramCoeff": 1.0,
+   "ramExtraDamage": 0.0,
+   "regeneratedHPPart": 0.5,
+   "rndPartHP": 0.8,
+   "splashBoxes": [],
+   "tbSkipProbMax": 0.0,
+   "tbSkipProbMin": 0.0,
+   "transmitHPDamageToParentFactor": 1.0,
+   "volume": 0.5,
+   "volumeCoeff": 1.0
+  },
+  "antiAirAuraDistance": 117.0,
+  "antiAirAuraStrength": 0.159,
+  "barrelDiameter": 0.04,
+  "deadMesh": "content/gameplay/panasia/gun/aaircraft/ZGA023_40mm_Bofors_Mk2/ZGA023_40mm_Bofors_Mk2_dead.model",
+  "id": 4270843088,
+  "index": "PZGA023",
+  "model": "content/gameplay/panasia/gun/aaircraft/ZGA023_40mm_Bofors_Mk2/ZGA023_40mm_Bofors_Mk2.model",
+  "name": "PZGA023_40mm_Bofors_Mk2",
   "numBarrels": 4,
   "shotDelay": 5.0,
   "shotEffect": "particles/guns/AA_shot.xml",
@@ -8762,7 +8762,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM087",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -8781,18 +8781,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    40.0,
    25.0
   ],
   "shotDelay": 3.5,
-  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -8885,7 +8885,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM026",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -8904,18 +8904,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_50to110.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    8.0,
    8.0
   ],
   "shotDelay": 5.0,
-  "shotEffect": "particles/guns/GK_Shot_50to110.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -9022,7 +9022,7 @@
    0.0,
    90.0
   ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+  "waterEffect": "particles/submarines/Sub_bomb_drop.xml"
  },
  {
   "HitLocationAirDefense": {
@@ -9354,7 +9354,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM020",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -9373,18 +9373,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_50to110.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    10.0,
    10.0
   ],
   "shotDelay": 4.0,
-  "shotEffect": "particles/guns/GK_Shot_50to110.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -9669,7 +9669,7 @@
    0.0,
    90.0
   ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+  "waterEffect": "particles/submarines/Sub_bomb_drop.xml"
  },
  {
   "HitLocationATBA": {
@@ -9751,7 +9751,7 @@
   "name": "PZGS531_152_55_Mle_Lunar",
   "numBarrels": 2,
   "pitchDeadZones": [],
-  "purgingEffect": "",
+  "purgingEffect": "particles/guns/PMK_Purging.xml",
   "radiusOnDelim": 0.8,
   "radiusOnMax": 1.0,
   "radiusOnZero": 0.1,
@@ -9760,7 +9760,7 @@
    1.0
   ],
   "shotDelay": 5.0,
-  "shotEffect": "/",
+  "shotEffect": "particles/guns/PMK_Shot.xml",
   "smallGun": true,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -9855,7 +9855,7 @@
   "name": "PZGS053_100mm_70_SM_5_1S",
   "numBarrels": 2,
   "pitchDeadZones": [],
-  "purgingEffect": "particles/guns/PMK_Purging_50to110.xml",
+  "purgingEffect": "particles/guns/PMK_Purging.xml",
   "radiusOnDelim": 0.8,
   "radiusOnMax": 1.0,
   "radiusOnZero": 0.1,
@@ -9864,7 +9864,7 @@
    1.0
   ],
   "shotDelay": 4.0,
-  "shotEffect": "particles/guns/PMK_Shot_50to110.xml",
+  "shotEffect": "particles/guns/PMK_Shot.xml",
   "smallGun": true,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -9971,7 +9971,7 @@
    0.0,
    90.0
   ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+  "waterEffect": "particles/submarines/Sub_bomb_drop.xml"
  },
  {
   "HitLocationAirDefense": {
@@ -10126,7 +10126,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 10.0,
   "index": "PZGM526",
-  "lensEffect": "particles/guns/GK_Lens_440to550.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -10145,18 +10145,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_350to550.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.6,
   "radiusOnMax": 0.8,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_440to550.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    4.5,
    5.0
   ],
   "shotDelay": 30.0,
-  "shotEffect": "particles/guns/GK_Shot_440to550.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -10428,7 +10428,7 @@
   "name": "PZGS534_100_55_Mle_1945_Lunar",
   "numBarrels": 2,
   "pitchDeadZones": [],
-  "purgingEffect": "",
+  "purgingEffect": "particles/guns/PMK_Purging.xml",
   "radiusOnDelim": 0.8,
   "radiusOnMax": 1.0,
   "radiusOnZero": 0.1,
@@ -10437,7 +10437,7 @@
    1.0
   ],
   "shotDelay": 5.0,
-  "shotEffect": "/",
+  "shotEffect": "particles/guns/PMK_Shot.xml",
   "smallGun": true,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -10651,7 +10651,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM064",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -10670,18 +10670,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    9.7,
    9.85
   ],
   "shotDelay": 5.0,
-  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -10788,7 +10788,7 @@
    0.0,
    90.0
   ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+  "waterEffect": "particles/submarines/Sub_bomb_drop.xml"
  },
  {
   "HitLocationAirDefense": {
@@ -11152,7 +11152,7 @@
    0.0,
    90.0
   ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+  "waterEffect": "particles/submarines/Sub_bomb_drop.xml"
  },
  {
   "HitLocationArtillery": {
@@ -11240,7 +11240,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM109",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -11259,18 +11259,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    40.0,
    25.0
   ],
   "shotDelay": 5.5,
-  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -11365,7 +11365,7 @@
   "name": "PZGS525_127mm40_Type89_Mod_A",
   "numBarrels": 2.0,
   "pitchDeadZones": [],
-  "purgingEffect": "particles/guns/PMK_Purging_110to140.xml",
+  "purgingEffect": "particles/guns/PMK_Purging.xml",
   "radiusOnDelim": 0.8,
   "radiusOnMax": 1.0,
   "radiusOnZero": 0.1,
@@ -11374,7 +11374,7 @@
    1.0
   ],
   "shotDelay": 6.0,
-  "shotEffect": "particles/guns/PMK_Shot_110to140.xml",
+  "shotEffect": "particles/guns/PMK_Shot.xml",
   "smallGun": true,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -11481,7 +11481,7 @@
    0.0,
    90.0
   ],
-  "waterEffect": "particles/submarines/Sub_bomb_drop_1.xml"
+  "waterEffect": "particles/submarines/Sub_bomb_drop.xml"
  },
  {
   "HitLocationAirDefense": {
@@ -11632,7 +11632,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM113",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -11651,18 +11651,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    10.0,
    10.0
   ],
   "shotDelay": 7.5,
-  "shotEffect": "particles/guns/PMK_Shot_110to140.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -11867,7 +11867,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM045",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -11886,18 +11886,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    15.0,
    5.0
   ],
   "shotDelay": 6.5,
-  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {
@@ -11993,7 +11993,7 @@
   "idealDistance": 1000.0,
   "idealRadius": 8,
   "index": "PZGM004",
-  "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+  "lensEffect": "particles/guns/GK_Lens.xml",
   "maxEllipseRanging": 1.003,
   "medEllipseRanging": 1.002,
   "minEllipseRanging": 1.001,
@@ -12012,18 +12012,18 @@
    0,
    0
   ],
-  "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+  "purgingEffect": "particles/guns/GK_Purging.xml",
   "radiusOnDelim": 0.5,
   "radiusOnMax": 0.6,
   "radiusOnZero": 0.2,
   "reduceTime": 0.1,
-  "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+  "reloadBoostEffect": "particles/guns/GK_Reload.xml",
   "rotationSpeed": [
    34.0,
    18.0
   ],
   "shotDelay": 3.34,
-  "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+  "shotEffect": "particles/guns/GK_Shot.xml",
   "smallGun": null,
   "smokePenalty": 0.0001,
   "typeinfo": {

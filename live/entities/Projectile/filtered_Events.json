@@ -887,6 +887,37 @@
  },
  {
   "affectedByPTZ": false,
+  "alphaDamage": 3000.0,
+  "alphaPiercingCS": 0,
+  "alphaPiercingHE": 0.0,
+  "ammoType": "AP",
+  "applyPTZCoeff": false,
+  "bulletAirDrag": 0.3447,
+  "bulletAlwaysRicochetAt": 60.0,
+  "bulletDetonator": 0.01,
+  "bulletDetonatorThreshold": 21.0,
+  "bulletDiametr": 0.128,
+  "bulletKrupp": 1640.0,
+  "bulletMass": 28.0,
+  "bulletRicochetAt": 45.0,
+  "bulletSpeed": 830.0,
+  "burnProb": -0.5,
+  "distTile": 3.0,
+  "id": 4247765264,
+  "ignoreClasses": [],
+  "index": "PXPA045",
+  "isBomb": false,
+  "name": "PXPA045_128MM_AP_SK_C34",
+  "splashArmorCoeff": 0.0,
+  "splashCubeSize": 0.0,
+  "typeinfo": {
+   "nation": "Events",
+   "species": "Artillery",
+   "type": "Projectile"
+  }
+ },
+ {
+  "affectedByPTZ": false,
   "alphaDamage": 1400.0,
   "alphaPiercingCS": 0,
   "alphaPiercingHE": 51.0,
@@ -2543,7 +2574,7 @@
   "alertDist": 100,
   "alphaDamage": 15000.0,
   "ammoType": "torpedo",
-  "armingTime": 1,
+  "armingTime": 0.5,
   "bulletDiametr": 0.61,
   "damage": 1400.0,
   "id": 4269162768,
@@ -2551,7 +2582,7 @@
   "index": "PXPT024",
   "maxDist": 133.333,
   "name": "PXPT024_Torpedo_PA_Slow",
-  "speed": 90.0,
+  "speed": 105.0,
   "splashArmorCoeff": 0.5,
   "splashCubeSize": 1.3,
   "typeinfo": {
@@ -2677,60 +2708,6 @@
    "species": "Artillery",
    "type": "Projectile"
   }
- },
- {
-  "affectedByPTZ": false,
-  "alphaDamage": 3000.0,
-  "alphaPiercingCS": 0,
-  "alphaPiercingHE": 0.0,
-  "ammoType": "AP",
-  "applyPTZCoeff": false,
-  "bulletAirDrag": 0.3447,
-  "bulletAlwaysRicochetAt": 60.0,
-  "bulletDetonator": 0.01,
-  "bulletDetonatorThreshold": 21.0,
-  "bulletDiametr": 0.128,
-  "bulletKrupp": 1640.0,
-  "bulletMass": 28.0,
-  "bulletRicochetAt": 45.0,
-  "bulletSpeed": 830.0,
-  "burnProb": -0.5,
-  "distTile": 3.0,
-  "id": 4247765264,
-  "ignoreClasses": [],
-  "index": "PXPA045",
-  "isBomb": false,
-  "name": "PXPA045_128MM_AP_SK_C34",
-  "splashArmorCoeff": 0.0,
-  "splashCubeSize": 0.0,
-  "typeinfo": {
-   "nation": "Events",
-   "species": "Artillery",
-   "type": "Projectile"
-  }
- },
- {
-  "alertDist": 100,
-  "alphaDamage": 35000.0,
-  "ammoType": "torpedo",
-  "armingTime": 1,
-  "bulletDiametr": 0.61,
-  "damage": 0.0,
-  "id": 4169548048,
-  "ignoreClasses": [],
-  "index": "PXPT119",
-  "maxDist": 200.0,
-  "name": "PXPT119_Berserk",
-  "speed": 150.0,
-  "splashArmorCoeff": 0.5,
-  "splashCubeSize": 1.3,
-  "typeinfo": {
-   "nation": "Events",
-   "species": "Torpedo",
-   "type": "Projectile"
-  },
-  "uwCritical": 0.0,
-  "visibilityFactor": 2.0
  },
  {
   "affectedByPTZ": false,
@@ -3759,9 +3736,9 @@
  },
  {
   "alertDist": 100,
-  "alphaDamage": 25000.0,
+  "alphaDamage": 23000.0,
   "ammoType": "torpedo",
-  "armingTime": 1,
+  "armingTime": 1.3,
   "bulletDiametr": 0.61,
   "damage": 1400.0,
   "id": 4267065616,
@@ -3769,7 +3746,7 @@
   "index": "PXPT026",
   "maxDist": 233.0,
   "name": "PXPT026_Torpedo_PA_Fast",
-  "speed": 130.0,
+  "speed": 125.0,
   "splashArmorCoeff": 0.5,
   "splashCubeSize": 1.3,
   "typeinfo": {
@@ -4104,6 +4081,29 @@
    "species": "Artillery",
    "type": "Projectile"
   }
+ },
+ {
+  "alertDist": 100,
+  "alphaDamage": 35000.0,
+  "ammoType": "torpedo",
+  "armingTime": 1,
+  "bulletDiametr": 0.61,
+  "damage": 0.0,
+  "id": 4169548048,
+  "ignoreClasses": [],
+  "index": "PXPT119",
+  "maxDist": 200.0,
+  "name": "PXPT119_Berserk",
+  "speed": 150.0,
+  "splashArmorCoeff": 0.5,
+  "splashCubeSize": 1.3,
+  "typeinfo": {
+   "nation": "Events",
+   "species": "Torpedo",
+   "type": "Projectile"
+  },
+  "uwCritical": 0.0,
+  "visibilityFactor": 2.0
  },
  {
   "affectedByPTZ": false,

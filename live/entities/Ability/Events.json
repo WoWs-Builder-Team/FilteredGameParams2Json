@@ -328,6 +328,159 @@
  {
   "Default": {
    "SpecialSoundID": "Default",
+   "boostCoeff": 0.75,
+   "consumableType": "artilleryBoosters",
+   "descIDs": "",
+   "group": "ship",
+   "iconIDs": "",
+   "numConsumables": -1,
+   "preparationTime": 0.0,
+   "reloadTime": 10.0,
+   "titleIDs": "",
+   "workTime": 10.0
+  },
+  "Post_Apocalypse": {
+   "SpecialSoundID": "Default",
+   "boostCoeff": 0.45,
+   "consumableType": "artilleryBoosters",
+   "criticalChance": 0.0,
+   "descIDs": "PCY022_ArtilleryBoosterPremium",
+   "group": "ship",
+   "iconIDs": "PCY022_ArtilleryBoosterPremium",
+   "numConsumables": 0,
+   "preparationTime": 0.0,
+   "reloadTime": 60.0,
+   "titleIDs": "PCY022_ArtilleryBoosterPremium",
+   "workTime": 20.0
+  },
+  "Post_Apocalypse2": {
+   "SpecialSoundID": "Default",
+   "boostCoeff": 0.4,
+   "consumableType": "artilleryBoosters",
+   "criticalChance": 0.0,
+   "descIDs": "PCY022_ArtilleryBoosterPremium",
+   "group": "ship",
+   "iconIDs": "PCY022_ArtilleryBoosterPremium",
+   "numConsumables": 0,
+   "preparationTime": 0.0,
+   "reloadTime": 30.0,
+   "titleIDs": "PCY022_ArtilleryBoosterPremium",
+   "workTime": 20.0
+  },
+  "canBuy": false,
+  "costCR": -1,
+  "costGold": -1,
+  "custom": {},
+  "freeOfCharge": true,
+  "id": 4269972752,
+  "index": "PXY023",
+  "name": "PXY023_ArtilleryBooster",
+  "typeinfo": {
+   "nation": "Events",
+   "species": null,
+   "type": "Ability"
+  }
+ },
+ {
+  "Post_Apocalypse": {
+   "SpecialSoundID": "Default",
+   "consumableType": "regenCrew",
+   "descIDs": "PCY010_RegenCrewPremium",
+   "group": "ship",
+   "iconIDs": "PCY010_RegenCrewPremium",
+   "numConsumables": 0,
+   "preparationTime": 0.0,
+   "regenerationHPSpeed": 0.02,
+   "regenerationHPSpeedUnits": 0.0,
+   "reloadTime": 30.0,
+   "titleIDs": "PCY010_RegenCrewPremium",
+   "workTime": 15.0
+  },
+  "Post_Apocalypse2": {
+   "SpecialSoundID": "Default",
+   "consumableType": "regenCrew",
+   "descIDs": "PCY010_RegenCrew_Eheal_Premium",
+   "group": "ship",
+   "iconIDs": "PCY010_RegenCrew_Eheal_Premium",
+   "numConsumables": 0,
+   "preparationTime": 0.0,
+   "regenerationHPSpeed": 0.04,
+   "regenerationHPSpeedUnits": 0.0,
+   "reloadTime": 15.0,
+   "titleIDs": "PCY010_RegenCrew_Eheal_Premium",
+   "workTime": 15.0
+  },
+  "canBuy": false,
+  "costCR": -1,
+  "costGold": -1,
+  "custom": {},
+  "freeOfCharge": true,
+  "id": 4271021328,
+  "index": "PXY022",
+  "name": "PXY022_RegenCrew",
+  "typeinfo": {
+   "nation": "Events",
+   "species": null,
+   "type": "Ability"
+  }
+ },
+ {
+  "Default": {
+   "SpecialSoundID": "Default",
+   "consumableType": "torpedoReloader",
+   "descIDs": "",
+   "group": "ship",
+   "iconIDs": "",
+   "numConsumables": -1,
+   "preparationTime": 0.0,
+   "reloadTime": 270.0,
+   "titleIDs": "",
+   "torpedoReloadTime": 60.0,
+   "workTime": 1.0
+  },
+  "Post_Apocalypse": {
+   "SpecialSoundID": "Default",
+   "consumableType": "torpedoReloader",
+   "descIDs": "PCY018_TorpedoReloaderPremium",
+   "group": "ship",
+   "iconIDs": "PCY018_TorpedoReloaderPremium",
+   "numConsumables": 0,
+   "preparationTime": 0.0,
+   "reloadTime": 60.0,
+   "titleIDs": "PCY018_TorpedoReloaderPremium",
+   "torpedoReloadTime": 10.0,
+   "workTime": 1.0
+  },
+  "Post_Apocalypse2": {
+   "SpecialSoundID": "Default",
+   "consumableType": "torpedoReloader",
+   "descIDs": "PCY018_TorpedoReloaderPremium",
+   "group": "ship",
+   "iconIDs": "PCY018_TorpedoReloaderPremium",
+   "numConsumables": 0,
+   "preparationTime": 0.0,
+   "reloadTime": 30.0,
+   "titleIDs": "PCY018_TorpedoReloaderPremium",
+   "torpedoReloadTime": 5.0,
+   "workTime": 1.0
+  },
+  "canBuy": false,
+  "costCR": -1,
+  "costGold": -1,
+  "custom": {},
+  "freeOfCharge": true,
+  "id": 4266827024,
+  "index": "PXY026",
+  "name": "PXY026_TorpedoReloader",
+  "typeinfo": {
+   "nation": "Events",
+   "species": null,
+   "type": "Ability"
+  }
+ },
+ {
+  "Default": {
+   "SpecialSoundID": "Default",
    "consumableType": "sonar",
    "descIDs": "",
    "distShip": 116.0,
@@ -337,6 +490,9 @@
    "numConsumables": 2,
    "preparationTime": 0.0,
    "reloadTime": 180.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 40.0
   },
@@ -351,6 +507,9 @@
    "numConsumables": 5,
    "preparationTime": 0.0,
    "reloadTime": 60.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 60.0
   },
@@ -365,6 +524,9 @@
    "numConsumables": -1,
    "preparationTime": 0.0,
    "reloadTime": 45.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 5.0
   },
@@ -379,6 +541,9 @@
    "numConsumables": -1,
    "preparationTime": 0.0,
    "reloadTime": 30.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 10.0
   },
@@ -390,6 +555,33 @@
   "id": 3961691408,
   "index": "PXY317",
   "name": "PXY317_SonarSearch_PVP",
+  "typeinfo": {
+   "nation": "Events",
+   "species": null,
+   "type": "Ability"
+  }
+ },
+ {
+  "Post_Apocalypse": {
+   "SpecialSoundID": "Default",
+   "consumableType": "crashCrew",
+   "descIDs": "PCY009_CrashCrewPremium",
+   "group": "ship",
+   "iconIDs": "PCY009_CrashCrewPremium",
+   "numConsumables": -1,
+   "preparationTime": 0.0,
+   "reloadTime": 60.0,
+   "titleIDs": "PCY009_CrashCrewPremium",
+   "workTime": 5.0
+  },
+  "canBuy": false,
+  "costCR": -1,
+  "costGold": -1,
+  "custom": {},
+  "freeOfCharge": true,
+  "id": 4272069904,
+  "index": "PXY021",
+  "name": "PXY021_CrashCrew",
   "typeinfo": {
    "nation": "Events",
    "species": null,
@@ -986,6 +1178,55 @@
   "id": 4284652816,
   "index": "PXY009",
   "name": "PXY009_TorpedoReloader",
+  "typeinfo": {
+   "nation": "Events",
+   "species": null,
+   "type": "Ability"
+  }
+ },
+ {
+  "Post_Apocalypse": {
+   "SpecialSoundID": "Default",
+   "consumableType": "sonar",
+   "descIDs": "PCY016_SonarSearch_Short_Premium",
+   "distShip": 166.6666,
+   "distTorpedo": 166.6666,
+   "group": "ship",
+   "iconIDs": "PCY016_SonarSearch_Short_Premium",
+   "numConsumables": 0,
+   "preparationTime": 0.0,
+   "reloadTime": 60.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
+   "titleIDs": "PCY016_SonarSearch_Short_Premium",
+   "workTime": 60.0
+  },
+  "Post_Apocalypse2": {
+   "SpecialSoundID": "Default",
+   "consumableType": "sonar",
+   "descIDs": "PCY016_SonarSearchPremium",
+   "distShip": 233.3333,
+   "distTorpedo": 233.3333,
+   "group": "ship",
+   "iconIDs": "PCY016_SonarSearchPremium",
+   "numConsumables": 0,
+   "preparationTime": 0.0,
+   "reloadTime": 30.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
+   "titleIDs": "PCY016_SonarSearchPremium",
+   "workTime": 60.0
+  },
+  "canBuy": false,
+  "costCR": -1,
+  "costGold": -1,
+  "custom": {},
+  "freeOfCharge": true,
+  "id": 4267875600,
+  "index": "PXY025",
+  "name": "PXY025_SonarSearch",
   "typeinfo": {
    "nation": "Events",
    "species": null,
@@ -1680,6 +1921,65 @@
   "id": 3855785232,
   "index": "PXY418",
   "name": "PXY418_BuffsShift_DamageResist",
+  "typeinfo": {
+   "nation": "Events",
+   "species": null,
+   "type": "Ability"
+  }
+ },
+ {
+  "Post_Apocalypse": {
+   "SpecialSoundID": "Default",
+   "activationDelay": 0.0,
+   "consumableType": "smokeGenerator",
+   "descIDs": "PCY014_SmokeGenerator_Cycle_Premium",
+   "group": "ship",
+   "height": 5.0,
+   "iconIDs": "PCY014_SmokeGenerator_Cycle_Premium",
+   "lifeTime": 40.0,
+   "livePointEffect": "particles/SmokeScreen.xml",
+   "numConsumables": 0,
+   "preparationTime": 0.0,
+   "radius": 15.0,
+   "reloadTime": 60.0,
+   "spawnBackwardShift": 0.4,
+   "spawnEffect": "particles/SmokeScreen_generator.xml",
+   "spawnPointEffect": "particles/SmokeScreen_spawn.xml",
+   "speedLimit": 12.5,
+   "startDelayTime": 2.0,
+   "titleIDs": "PCY014_SmokeGenerator_Cycle_Premium",
+   "workTime": 20.0
+  },
+  "Post_Apocalypse2": {
+   "SpecialSoundID": "Default",
+   "activationDelay": 0.0,
+   "consumableType": "smokeGenerator",
+   "descIDs": "PCY014_SmokeGeneratorCrawler_Premium",
+   "group": "ship",
+   "height": 5.0,
+   "iconIDs": "PCY014_SmokeGeneratorCrawler_Premium",
+   "lifeTime": 5.0,
+   "livePointEffect": "particles/SmokeScreen.xml",
+   "numConsumables": 0,
+   "preparationTime": 0.0,
+   "radius": 20.0,
+   "reloadTime": 30.0,
+   "spawnBackwardShift": 0.4,
+   "spawnEffect": "particles/SmokeScreen_generator.xml",
+   "spawnPointEffect": "particles/SmokeScreen_spawn.xml",
+   "speedLimit": 12.5,
+   "startDelayTime": 2.0,
+   "titleIDs": "PCY014_SmokeGeneratorCrawler_Premium",
+   "workTime": 60.0
+  },
+  "canBuy": false,
+  "costCR": -1,
+  "costGold": -1,
+  "custom": {},
+  "freeOfCharge": true,
+  "id": 4268924176,
+  "index": "PXY024",
+  "name": "PXY024_SmokeGenerator",
   "typeinfo": {
    "nation": "Events",
    "species": null,
@@ -2478,6 +2778,55 @@
   }
  },
  {
+  "Post_Apocalypse": {
+   "SpecialSoundID": "Default",
+   "backwardEngineForsag": 1.5,
+   "backwardEngineForsagMaxSpeed": 5.0,
+   "boostCoeff": 0.15,
+   "consumableType": "speedBoosters",
+   "descIDs": "PCY015_SpeedBoosterPremium",
+   "forwardEngineForsag": 1.5,
+   "forwardEngineForsagMaxSpeed": 5.0,
+   "group": "ship",
+   "iconIDs": "PCY015_SpeedBoosterPremium",
+   "numConsumables": 0,
+   "preparationTime": 0.0,
+   "reloadTime": 60.0,
+   "titleIDs": "PCY015_SpeedBoosterPremium",
+   "workTime": 60.0
+  },
+  "Post_Apocalypse2": {
+   "SpecialSoundID": "Default",
+   "backwardEngineForsag": 2.5,
+   "backwardEngineForsagMaxSpeed": 10.0,
+   "boostCoeff": 0.3,
+   "consumableType": "speedBoosters",
+   "descIDs": "PCY015_SpeedBooster_Imp_Premium",
+   "forwardEngineForsag": 2.5,
+   "forwardEngineForsagMaxSpeed": 10.0,
+   "group": "ship",
+   "iconIDs": "PCY015_SpeedBooster_Imp_Premium",
+   "numConsumables": 0,
+   "preparationTime": 0.0,
+   "reloadTime": 30.0,
+   "titleIDs": "PCY015_SpeedBooster_Imp_Premium",
+   "workTime": 60.0
+  },
+  "canBuy": false,
+  "costCR": -1,
+  "costGold": -1,
+  "custom": {},
+  "freeOfCharge": true,
+  "id": 4265778448,
+  "index": "PXY027",
+  "name": "PXY027_SpeedBooster",
+  "typeinfo": {
+   "nation": "Events",
+   "species": null,
+   "type": "Ability"
+  }
+ },
+ {
   "Default": {
    "SpecialSoundID": "Default",
    "consumableType": "trigger6",
@@ -2618,6 +2967,9 @@
    "numConsumables": 2,
    "preparationTime": 0.0,
    "reloadTime": 180.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 40.0
   },
@@ -2632,6 +2984,9 @@
    "numConsumables": -1,
    "preparationTime": 0.0,
    "reloadTime": 120.0,
+   "targetBuoyancyCoefficients": {
+    "DEEP_WATER_INVUL": 0.5
+   },
    "titleIDs": "",
    "workTime": 180.0
   },
